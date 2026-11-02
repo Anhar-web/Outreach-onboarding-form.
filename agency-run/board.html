@@ -213,14 +213,14 @@ const RUN = {
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
      action:{quiet:true, quiet:false, text:"<b>Quick facts needed (not a gate).</b> The Offer Strategist found 7 things the page should tell her that only you know. Answer what you can in the chat; anything unanswered stays as a visible placeholder, never invented. Questions are in the Offer report below."}, body:"strategy"},
-    {n:5, short:"Headlines", status:"you", title:"Pick the headline",
+    {n:5, short:"Headlines", status:"done", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
-     action:{quiet:false, text:"<b>Gate 2, round 3.</b> Your notes on round 2: you hadn't been shown how Mindvalley actually works, the page was about you instead of her («أنا معاكي», «أنا أنهار»), «افهمي ليش» is lukewarm (it sounds like a PDF), and direction 3 doesn't work. Round 3 starts with her battle and turns it into the outcome she wants. You are not mentioned anywhere.", copy:"I pick direction 2."}, body:"headlines3"},
-    {n:6, short:"Copy", status:"todo", title:"Full page copy",
+     action:{quiet:true, text:"<b>Gate 2 approved: direction 2.</b> You said: “This is so much better. Let's go with the director's pick.” The English lines are for review only and won't be in the build."}, body:"headlines3"},
+    {n:6, short:"Copy", status:"working", title:"Full page copy",
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
-     action:{quiet:true, text:"Not started."}, body:null},
+     action:{quiet:true, text:"Nothing yet: the Copywriter is writing the results page, the invite card and the landing from your approved headlines, your language file and your notes. I'll review it before it reaches you."}, body:null},
     {n:7, short:"Build", status:"todo", title:"The new page",
      lede:"The rebuilt post-score experience inside your existing app. Questions, scoring, images and data capture stay exactly as they are.",
      idea:["Clarity on a phone","She is reading with a child calling her. One clear action, short sections, nothing to decode."],
@@ -247,8 +247,8 @@ const RUN = {
       {k:"Of", name:"Offer", what:"Value without promises", s:"done"},
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"done"}]},
     {k:"Co", name:"Copywriter", what:"Headlines, round 2", s:"done"},
-    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"you", client:true},
-    {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
+    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"done", client:true},
+    {k:"Co", name:"Copywriter", what:"Full copy", s:"working"},
     {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
     {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
     {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"todo", client:true},
@@ -277,7 +277,7 @@ const BLOCKS = {
       <div class="tile"><h4>Our version</h4><p>Start with her battle, in her words, then turn it into the outcome she wants. No «أنا», no name. The outcomes describe the direction the plan works toward («أهدى», «أسهل», «بالتدريج»), never a guarantee.</p></div>
     </div>
   </div></div>
-  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Round 3 headlines</span><span class="pill you">Needs you</span></div>
+  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Round 3 headlines</span><span class="pill done">Approved</span></div>
   <div class="report-b">
     <div><div class="mono" style="color:var(--muted);margin-bottom:8px">1 · Pick a direction (tap to preview)</div>
       <div class="dirs" id="dirs">${HL3.directions.map((d,i)=>`<button class="dir" data-d="${d.id}" aria-pressed="${d.id===HL3.recommended}">${d.id===HL3.recommended?'<span class="rec">Director\'s pick</span>':''}<span class="nm">${i+1}. ${d.name_en}</span><span class="ar" style="font-size:14px;color:var(--muted)">${d.name_ar}</span><span class="h">${d.by_situation.A.ar}</span><span class="gloss">${d.by_situation.A.en}</span><span class="sc">${d.rationale}</span></button>`).join('')}</div>
