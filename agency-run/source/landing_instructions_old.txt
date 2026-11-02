@@ -1,0 +1,332 @@
+﻿PART 1 — BUILD INSTRUCTIONS
+These instructions are for the AI website builder. They are not visible to visitors.
+1. Page purpose and conversion goal
+Build a personalized, mobile-first landing page for مدار البيت (Home Orbit).
+This page appears immediately after a mother completes the assessment:
+"ليش نفس المواقف تتكرر مع طفلك؟"
+The mother has already received her assessment results. The purpose of this page is to connect those results to the value of الخطة الحية (The Living Plan) and encourage her to join the waitlist.
+The primary conversion is:
+Mother clicks the waitlist CTA → she is redirected to an external Google Form.
+There is no success message, confirmation screen, or form submission on this landing page itself. Do not create an on-page waitlist form.
+The Google Form URL will be provided separately. Store it as a configurable destination and use it for every waitlist CTA.
+2. Required assessment data
+Use the actual results from the completed assessment. Do not ask the mother to take the assessment again.
+The landing page should have access to these three values:
+A. Overall profile
+One of the following:
+* البداية تحتاج وضوح
+* عندك أساس، والخطوة الجاية تنظيمه
+* عندك طريقة واضحة، وحان وقت تطويرها
+B. Lowest-scoring dimension
+One of the following:
+* فهم الأنماط المتكررة
+* تخصيص الطريقة لطفلك
+* وضوح الخطة واستمراريتها
+C. Answer to Question 14
+The specific situation the mother selected as the one she most wants to improve. Possible examples include:
+* وقت النوم
+* الزيارات والعزايم
+* التواصل والتعبير عن الاحتياجات
+* الأكل
+* الانتقال من نشاط إلى آخر
+* الانفعالات والمواقف الصعبة
+Use the actual answer options and stored answer values from the assessment builder. Do not invent new values or assume that every possible situation appears in Question 14.
+If a value is missing, use the relevant fallback copy described below. Never display a variable name, a blank value, a technical error, or a guessed result to the mother.
+3. Headline personalization logic
+The headline must be generated from Question 14 and the lowest-scoring dimension. The overall profile is supporting context, not the primary headline.
+The mother should feel that the page is speaking to her specific situation—not that the builder has inserted her assessment result into a generic sales message.
+Apply the following logic in order:
+Step 1: Identify the situation from Question 14
+This determines the real-life scene or challenge the headline refers to.
+For example:
+* Bedtime → a recurring bedtime struggle.
+* Family visits → the difficulty that repeats during gatherings.
+* Communication → difficulty expressing needs or making requests.
+* Eating → mealtimes, food refusal, or a narrow range of accepted foods.
+* Transitions → difficulty moving between activities.
+* Emotional regulation → recurring difficult moments when the child becomes upset.
+Use language that accurately represents the answer she selected. Do not invent details about her child or exaggerate the severity of the situation.
+Step 2: Select the headline angle from the lowest-scoring dimension
+If the lowest-scoring dimension is فهم الأنماط المتكررة:
+Focus on noticing what happens repeatedly and understanding the circumstances surrounding the situation.
+Example for bedtime:
+"كل ليلة وقت النوم نفس الموقف؟ ابدئي بملاحظة ايش يتكرر قبله."
+If the lowest-scoring dimension is تخصيص الطريقة لطفلك:
+Focus on moving beyond general advice and choosing an approach that fits her child.
+Example for bedtime:
+"وقت النوم ما له حل واحد يناسب كل الأطفال. طفلك يحتاج طريقة تناسبه."
+If the lowest-scoring dimension is وضوح الخطة واستمراريتها:
+Focus on having a clear next step instead of repeatedly changing approaches or starting over.
+Example for bedtime:
+"كل ليلة تجربي حل جديد؟ خلّي عندك خطة واضحة لوقت النوم."
+These are examples of the personalization logic. Generate natural, grammatically correct Saudi Arabic for the mother's actual selected situation.
+Step 3: Use the overall profile to personalize the supporting sentence
+The supporting sentence should reflect the mother's current stage without repeating her profile label mechanically.
+For البداية تحتاج وضوح:
+Emphasize finding a manageable starting point and choosing one priority.
+Example:
+"ابدئي بالموقف اللي يشغلك أكثر، وحددي خطوة واضحة تناسب طفلك وحياتكم اليومية."
+For عندك أساس، والخطوة الجاية تنظيمه:
+Acknowledge that she has already tried approaches or gathered observations, and explain how a structured plan can organize those efforts.
+Example:
+"رتّبي ملاحظاتك ومحاولاتك في خطة واضحة، بخطوات عملية تركّزي عليها خلال الأسبوعين الجايين."
+For عندك طريقة واضحة، وحان وقت تطويرها:
+Respect her existing efforts and emphasize refinement rather than starting over.
+Example:
+"ابني على اللي تعرفيه عن طفلك، وطوّري خطتك بناء على استجابته والمواقف اللي تعيشوها."
+Do not imply that the profile is a diagnosis, a judgment of parenting ability, or a fixed description of the mother.
+Step 4: Combine the values
+The headline should combine:
+Specific situation + insight from the lowest-scoring dimension.
+The supporting sentence should combine:
+Personalized next step + context appropriate to the overall profile.
+Do not put all three assessment values into the headline. That will make it long and mechanical.
+Do not show the mother her score again unless there is a compelling design reason. She has already seen her results.
+Step 5: Fallback behavior
+If Question 14 is unavailable, use a general headline appropriate to the lowest-scoring dimension.
+If the lowest-scoring dimension is unavailable, use the specific situation from Question 14 and a general supporting message about a personalized plan.
+If both values are unavailable, use:
+Headline:
+"بدل ما تجربي نصايح متفرقة، ابدئي بخطة تناسب طفلك."
+Supporting sentence:
+"الخطة الحية تساعدك تركّزي على تحدٍّ واحد، وتطبقي خطوات عملية في حياتكم اليومية، وتراجعي استجابة طفلك كل أسبوعين."
+If the overall profile is unavailable, use a neutral supporting sentence. Do not block the page from loading because one value is missing.
+4. Page structure and section order
+Build the page in this exact order:
+1. Personalized headline and supporting sentence.
+2. The recurring-problem section.
+3. Introduction to الخطة الحية.
+4. How the service works.
+5. Benefits of an organized, personalized approach.
+6. Offer card, including the monthly price and included support.
+7. Success stories and case studies.
+8. Bonuses.
+9. Objection-handling cards.
+10. Final waitlist CTA.
+11. Frequently asked questions in expandable dropdowns.
+The page should be concise and easy to scan. The audience includes busy mothers who may be reading on their phones while managing their children and household responsibilities.
+Use short paragraphs, clear headings, sufficient spacing, and expandable sections where appropriate. Avoid long uninterrupted text walls.
+Do not make the page primarily about the company. Keep the focus on the mother's situation, what she needs, how the service works, and what she receives.
+5. Conversion principles
+Apply these principles naturally:
+Clarity: Within the first screen, the mother should understand that the page relates to the situation she just assessed and that a personalized plan is the next step.
+Credibility: Use the real case studies supplied below. Present them accurately. Do not invent testimonials, credentials, statistics, client counts, or guaranteed outcomes.
+Specificity: Use real-life examples and explain what the service actually includes, especially the review and plan adjustments every two weeks.
+Urgency: Do not create fake countdowns, invented deadlines, or unsupported claims that places are about to disappear. The page can communicate the value of addressing a recurring challenge without pressuring the mother.
+Emotional connection: Acknowledge the difficulty of repeated situations without blaming the mother or presenting her child as a problem to fix.
+Strong, confident wording: Avoid unnecessary uncertainty words such as "يمكن" and "ممكن" when describing what the service includes. Be confident about the process, but never guarantee a particular developmental or behavioral outcome.
+6. CTA and waitlist behavior
+Use the following primary CTA label consistently:
+"احجزي مكانك في قائمة الانتظار"
+This communicates a concrete action and makes clear that the mother is joining a waitlist rather than purchasing immediately on the page.
+Place the CTA:
+* Once after the offer card.
+* Once near the end of the page.
+The CTA must open the external Google Form provided by the owner.
+Use a clear button with a strong visual contrast. Do not use vague labels such as "اضغطي هنا" or "اعرفي المزيد."
+Do not:
+* Create a payment flow.
+* Collect the mother's information on this landing page.
+* Display a fabricated success message.
+* Claim that her place is confirmed.
+* Invent a Google Form URL.
+If the destination URL has not been configured, make the missing configuration obvious to the site owner rather than sending visitors to a broken or invented link.
+7. Success-story integrity
+The case studies below are based on the owner's descriptions of previous experiences.
+Preserve their actual meaning and reported outcomes. Do not claim that the service treats, diagnoses, or cures any condition. Do not present a reported improvement as proof that the plan alone caused the change.
+Do not invent names, photos, dates, credentials, or additional details.
+Use the stories to illustrate the process: asking broader questions, understanding the context, creating a personalized plan, and reviewing what happened.
+8. FAQ behavior
+Render each FAQ as an accessible accordion/dropdown.
+Show the question by default and reveal the answer when the visitor expands it. Make the controls keyboard-accessible and usable on mobile.
+The FAQ must not replace important offer information. The price, core service, ongoing guidance, and waitlist CTA should remain visible in the main page.
+________________
+
+
+PART 2 — VISITOR-FACING PAGE COPY
+Everything below this line is the Arabic copy displayed to the mother.
+SECTION 1 — Personalized headline
+Generate this section using the rules in Part 1.
+Display:
+* One personalized headline.
+* One supporting sentence.
+* The primary CTA: احجزي مكانك في قائمة الانتظار
+Do not display the internal assessment variables or explain the personalization logic to the visitor.
+SECTION 2 — مو ناقصك نصيحة جديدة كل يوم
+تخيّلي إن وقت النوم يتكرر فيه نفس الموقف كل ليلة.
+تجربي نصيحة من مقطع، وطريقة من حساب ثاني، وبعد كم يوم ترجعي لنفس المعاناة..
+المشكلة مو إنك ما حاولتي كفاية. كثرة المحاولات بدون خطة واضحة تناسب طفلك تصعب المحاولات الجايه.
+أنتِ تحتاجي طريقة تربط فهمك لطفلك بخطوات عملية تقدري تطبقيها في البيت.
+SECTION 3 — هنا تجي الخطة الحية
+خطة مخصصة لطفلك
+الخطة الحية تساعدك تنتقلي من تكرار المحاولات إلى العمل على تحدّ واضح، بخطوات تناسب طفلك وروتين عائلتك.
+بدل ما تحاولي تغيّري كل شيء مرة وحدة، يكون عندك تركيز محدد وخطوات تقدري تجربيها وسط يومكم العادي.
+ما تحتاجي تحولي البيت إلى جلسة تدريب، ولا تضيفي جدول طويل لمهامك اليومية.
+عندك خطة واضحة، وتوجيه مستمر يساعدك تعرفي ايش تسوي، ومتى تعدّلي الطريقة، وايش الخطوة الجاية.
+SECTION 4 — كيف تشتغل الخطة الحية؟
+١ — نفهم الموقف في سياق حياتكم
+ايش يسوي طفلك ومتى يتكرر الموقف وايش يصير حوله وكيف يتأثر بروتينكم اليومي وبيئته.
+٢ — نحدد أولوية واحدة
+بدل ما تتشتتي بين عدة تحديات، تركّزي على مجال رئيسي واحد.
+٣ — تطبقي خطوات عملية في يومكم
+تكون الخطوات مرتبطة بالمواقف الحقيقية اللي تمروا فيها، بحيث تقدري تجربيها ضمن روتينكم بدل إضافة مهام منفصلة ليومك.
+٤ — نراجع ونعدّل الخطة كل أسبوعين
+في نهاية كل فترة، أراجع معك ملاحظاتك واستجابة طفلك. نحدد ايش تحسّن، وايش يحتاج تعديل، وايش الخطوة التالية.
+بعدها توصلك خطة محدثة تناسب المرحلة الجاية واحتياج طفلك.
+ ِوما تواجهي كل شيء بعدها لوحدك.انا والقروب معاك.
+SECTION 5 — ايش اللي يتغير لما يكون عندك مسار واضح؟
+بدل ما ترجعي لنقطة البداية بعد كل موقف صعب، يصير عندك اتجاه أوضح.
+* تعرفي ايش التحدي اللي يستحق تركيزك الآن.
+* تربطي ملاحظاتك عن طفلك بخطوات عملية.
+* تختاري طريقة أقرب لاحتياجه بدل ما تجربي كل نصيحة تسمعيها.
+* تراجعي اللي ينفع مع طفلك واللي يحتاج تعديل.
+* تلاحظي الأنماط والتغييرات مع الوقت.
+* تدمجي فرص النمو في الحياة اليومية بدل ما يكون كل شيء مرتبط بوقت أو مكان منفصل.
+الهدف مو إن كل يوم يصير مثالي. الهدف إنك يكون عندك مسار واضح، ودعم يساعدك تتقدمي خطوة بخطوة.
+SECTION 6 — عرض الخطة الحية
+الخطة الحية
+توجيه مخصص يتطور مع طفلك، كل أسبوعين
+مصممة للأم اللي تبغى مستوى توجيه أعمق وأكثر استجابة لاحتياج طفلها.
+تنظر الخطة لطفلك ككل، مع التركيز على مجال رئيسي واحد في كل مرة.
+ما فيه تكديس مهام. ما فيه خطة جامدة. وما تحتاجي تبدئي من الصفر كل أسبوعين.
+ايش يشمل اشتراكك؟
+استبيان موسّع لفهم طفلك
+نأخذ في الاعتبار تواصل طفلك، وروتينه، ومزاجه، وحساسياته، وبيئته، وتجاربكم السابقة؛ عشان تكون الخطة مبنية على صورة أوسع من الموقف اللي يشغلك وحده.
+خطة شخصية لطفلك
+خطوات عملية مصممة حول احتياجه الحالي وحياتكم اليومية، مع التركيز على مجال رئيسي واحد في كل مرة.
+مراجعة تفاعلية كل أسبوعين
+في نهاية كل فترة، نراجع ملاحظاتك واستجابة طفلك، ونحدد ايش تحسّن، وايش يحتاج تعديل، وايش الخطوة التالية.
+تعديلات مستمرة حسب استجابة طفلك
+الخطة تتطور مع تقدم طفلك واحتياجه، مع مراعاة الأيام الصعبة، والتراجع، والتغييرات المفاجئة في روتينكم.
+متابعة تساعدك تشوفي الأنماط مع الوقت
+بدل ما تحكمي على كل يوم بشكل منفصل، تتابعي التغييرات وتربطيها بالمواقف والخطوات اللي جربتيها.
+نظرة شاملة لحياتكم اليومية
+نراعي العوامل المحيطة بطفلك، مثل النوم، والإخوة، والروتين، والبيئة، والتجارب السابقة؛ عشان تكون الخطوات مترابطة ومناسبة لحياتكم.
+اشتراكك الشهري
+٧٤٩ ريال / الشهر
+توجيه مخصص، وخطة تتجدد كل أسبوعين بناءً على ملاحظاتك واستجابة طفلك.
+مسار يتطور مع طفلك، وأنتِ مو مضطرة ترتبيه كل شي بنفسك.
+CTA BUTTON: احجزي مكانك في قائمة الانتظار
+SECTION 7 — قصص من تجارب سابقة
+لما نفهم الموقف كامل، تتضح لنا خطوات مختلفة
+الولد الغاضب
+تواصلت معي أم تقول إن ولدها دايم معصّب، ويقول كلام مو حلو، وما يهدأ بسهولة.
+بدل ما نركز على التصرف وحده، سألتها عن يومه كامل: روتينه، واللي يصير حوله، والمواقف اللي يمر فيها.
+من خلال التفاصيل، اتضح لنا إن الحساسية والضغط جزء مهم من الصورة اللي نحتاج نفهمها.
+بنينا خطة تناسب احتياجه، وبعد أسبوعين رجعت الأم وقالت:
+"كان يصحى معصب كل يوم. هالأسبوع صحى معصب مرة وحدة."
+التغيير اللي لاحظته الأم خلال هالفترة أعطانا ملاحظات مهمة نبني عليها الخطوة التالية.
+التواصل
+أم شافت أحد منشوراتي وتواصلت معي عن طفلها.
+من التفاصيل اللي شاركتها، بان إن التواصل مجال يحتاج ودعم. بدأنا بخطة تواصل تناسب احتياجه.
+بعد أسبوعين، رجعت الأم وقالت إن سلوكيات جديدة بدأت تظهر.
+لما تكون عندك خطوات مخصصة، تصير ملاحظاتك عن طفلك جزء من فهم الخطوة التالية.
+الأكل
+كانت قائمة الأكل اللي يتقبلها الطفل قصيرة، وكان يرفض الأصناف الثانية.
+قبل ما نحدد الخطوات، سألت الأم أسئلة إضافية عشان نفهم العوامل المرتبطة بالأكل ونتجنب تجاهل احتياجات أخرى مهمة.
+ركزنا على إدخال أصناف جديدة بالتدريج، مع الحفاظ على الأطعمة اللي يتقبلها الطفل ضمن قائمته الآمنة.
+التركيز مو على إجبار الطفل على التغيير، هو بناء خطوات تراعي احتياجه وتسمح لنا بملاحظة استجابته.
+SECTION 8 — ومع الخطة، عندك أدوات تساعدك تبدئي
+خريطة نقطة البداية
+تساعدك تشوفي من وين تبدئي، وتوجهي انتباهك للخطوة الأكثر أهمية بدل محاولة معالجة كل شيء مرة واحدة.
+مجتمع واتساب
+مساحة للتواصل والشعور إنك مو وحدك في رحلتك، مع أمهات يمرّوا بتجارب وتحديات يومية مشابهة.
+SECTION 9 — يمكن هذا اللي يدور في بالك…
+Render each objection below as an individual card. Keep the question visible and the answer concise enough to scan on a phone.
+«ما عندي وقت»
+أنتِ تقرأي هذي الصفحة، وطفلك يناديك، وجوالك مليان رسائل، وفيه أشياء ثانية تنتظرك.
+آخر شيء تحتاجيه هو خطة تضيف لك قائمة مهام جديدة.
+الخطة الحية تندمج في اللحظات اللي تعيشيها.
+* وقت السناك.
+* أثناء اللعب.
+* في الروتين اللي يتكرر كل يوم.
+بدون أوراق عمل ولا مكتب ولا انتظار لين تصير الحياة هادية.
+وكل أسبوعين، تراجعي اللي صار مع توجيه مخصص يساعدك تحددي الخطوة التالية.
+مو مطلوب منك تفضّي حياتك عشان تبدئي.
+«الفترة هذي نحاول نرتّب مصاريفنا»
+من حقك تعرفي ايش يستحق المبلغ اللي تدفعيه، خصوصًا لما تكون عندك التزامات كثيرة.
+الخطة الحية مو اشتراك لمكتبة نصايح، ولا خطة وحدة تستلميها وبعدها تسوي كل شيء لوحدك.
+أنتِ تدفعي مقابل توجيه مخصص يتطور مع طفلك.
+كل أسبوعين، نراجع ملاحظاتك، ونقيّم استجابة طفلك، ونعدّل الخطة بناءً على اللي يظهر خلال التطبيق.
+بدل ما تجمعي نصايح متفرقة وتحاولي ترتبيها بنفسك، يكون عندك مسار واضح ومتابعة مستمرة.
+الاشتراك الشهري ٧٤٩ ريال.
+خذي قرارك بعد ما تعرفي بالضبط ايش يشمل الاشتراك وكيف يشتغل.
+«طيب… ولو ما ضبط؟»
+جربتي قبل كذا، وتمنيتي إن المرة هذي تكون مختلفة.
+ولما رجع نفس الموقف، رجعتي تدوري على طريقة ثانية، ونصيحة ثانية، وبداية جديدة.
+الخطة الحية مو وعد إن كل خطوة بتنجح من أول مرة. الفرق إنك مو مضطرة تكملي على نفس الطريقة إذا ما ناسبت طفلك.
+كل أسبوعين، نراجع اللي لاحظتيه، ونشوف ايش يحتاج تعديل، ونبني الخطة التالية على استجابة طفلك.
+إذا كان فيه تقدم، نحدد كيف نبني عليه. وإذا احتاجت الطريقة تغيير، نعدّلها.
+بدل ما تعيدي المحاولة بنفسك كل مرة، عندك مسار يتطور مع اللي تتعلميه عن طفلك.
+«هل أنا السبب؟»
+لما نفس الموقف يتكرر، تبدأ الأسئلة:
+ليش ما عرفت أتصرف؟ ليش النصيحة اللي نفعت مع غيره ما نفعت مع طفلي؟ وايش المفروض أسوي بشكل مختلف؟
+تكرار الموقف مو دليل إنك أم مقصّرة.
+معرفة طفلك مهمة، لكن تحويل ملاحظاتك إلى خطوات واضحة يحتاج ترتيب وتوجيه.
+الخطة الحية تساعدك تفهمي الأنماط، وتحددي أولوية وحدة، وتطبقي خطوات تناسب حياتكم، ثم تراجعي اللي صار كل أسبوعين.
+مو مطلوب منك تعرفي كل شي. المطلوب يكون عندك مسار يساعدك تحددي الخطوة التالية.
+«أحتاج أتكلم مع زوجي قبل ما أقرر»
+أنتِ شايفة إنكم تحتاجوا طريقة أوضح، لكن زوجك مو مقتنع بنفس الدرجة.
+وما تبغي الموضوع يتحول لجدال طويل حول مين الصح.
+بدل ما يكون النقاش عن وجهات النظر، خليه عن الخطوات اللي تطبقوها في حياتكم اليومية.
+الخطة الحية تعطيك مسار واضح تشتغلي عليه، مع مراجعة منتظمة للملاحظات والتغييرات اللي تصير مع طفلك.
+اللي تتعلميه من التجربة يساعدك تشرحي ايش جربتي، وايش لاحظتي، وايش تحتاجوا تعدّلو.
+مو المطلوب تكسبِي جدال. المطلوب تلاقي طريقة عملية تدعم طفلكم.
+«السعر مبالغ فيه»
+٧٤٩ ريال كل شهر مو مبلغ بسيط، ومن حقك تعرفي ايش راح تاخذي مقابله.
+الخطة الحية مو مجرد ملف فيه خطوات عامة، ولا خطة تستلميها مرة وحدة وتواجهي بعدها التحديات لوحدك.
+اشتراكك يشمل فهم أوسع لاحتياج طفلك، وخطة شخصية، ومراجعة تفاعلية كل أسبوعين، وتعديلات مستمرة بناء على ملاحظاتك واستجابة طفلك.
+أنتِ ما تدفعي مقابل خطة ثابتة. أنتِ تدفعي مقابل توجيه مخصص يتطور مع طفلك.
+إذا هي هذه المتابعة اللي تحتاجيها، فهذي هي القيمة اللي تقدري تقيّميها مقابل السعر.
+وإذا كان خارج ميزانيتك حاليًا، خذي قرارك بدون ضغط. المهم تعرفي بالضبط ايش يشمل الاشتراك قبل ما تلتزمي فيه.
+SECTION 10 — ابدئي من الموقف اللي يشغلك الآن
+مو مطلوب منك تحلي كل التحديات مرة وحدة.
+ابدئي بالموقف اللي تبغي يتغير، وخذي خطوة باتجاه خطة أوضح تناسب طفلك وحياتكم.
+الخطة الحية توجيه مخصص، وخطوات تتطور مع طفلك.
+CTA BUTTON: احجزي مكانك في قائمة الانتظار
+SECTION 11 — الأسئلة الشائعة
+Implement the following questions as expandable dropdowns.
+هل الخطة الحية تناسب طفلي حتى لو احتياجه مختلف عن الأطفال الآخرين؟
+الخطة تُبنى حول طفلك والمواقف اللي تواجهكم وروتين عائلتك. ما تعتمد على افتراض إن جميع الأطفال يحتاجوا نفس الطريقة.
+هل أحتاج أكون خبيرة في سلوك الأطفال عشان أطبق الخطة؟
+لا. الخطة توفر لك تركيز واضح وخطوات عملية، وتساعدك تراجعي ملاحظاتك وتحددي الخطوة التالية. معرفتك بطفلك جزء أساسي من المسار.
+كم يستغرق العمل على التحدي الواحد؟
+تبدأ الخطة بتركيز محدد لمدة أسبوعين. بعدها نراجع ملاحظاتك واستجابة طفلك، ونعدّل الخطة أو نحدد الخطوة التالية حسب ما يظهر خلال التطبيق.
+هل أحتاج أخصص وقتًا يوميًا للتدريب؟
+الهدف هو دمج الخطوات في المواقف والروتين، بدل الاعتماد على جلسات منفصلة أو أوراق عمل طويلة.
+هل الخطة الحية بديل عن جلسات التخاطب أو العلاج أو المختصين؟
+لا. الخطة تركز على تطبيق خطوات مناسبة في المنزل، ويمكن أن تكون مكملة للدعم المتخصص، لكنها لا تستبدل التقييم أو العلاج عند الحاجة.
+هل أحتاج أشتغل على كل التحديات في نفس الوقت؟
+لا. يبدأ العمل بمجال رئيسي واحد له الأولوية، حتى تقدري تركّزي على تطبيق الخطوات وملاحظة اللي يحدث قبل الانتقال إلى أولوية أخرى.
+ماذا لو احتجت أغيّر الطريقة؟
+مراجعة ما يحدث جزء أساسي من الخطة. نستخدم ملاحظاتك واستجابة طفلك لتحديد ما يستمر، وما يحتاج إلى تعديل، والخطوة التالية.
+ايش يشمل الاشتراك الشهري؟
+يشمل استبيانًا موسعًا لفهم احتياج طفلك وسياقه، وخطط شخصية، ومراجعة تفاعلية كل أسبوعين، وتعديلات بناءً على ملاحظاتك واستجابة طفلك، بالإضافة إلى خريطة نقطة البداية ومجتمع واتساب..
+كيف أنضم لقائمة الانتظار؟
+اضغطي على زر «احجزي مكانك في قائمة الانتظار» للانتقال إلى نموذج التسجيل وتعبئة بياناتك.
+هل أضمن أن سلوك طفلي سيتغير؟
+لا توجد نتيجة واحدة مضمونة لكل طفل. الخطة توفر توجيهًا مخصصًا، ومراجعة منتظمة، وتعديلات بناءً على ملاحظاتك واستجابة طفلك، بهدف مساعدتك على اتخاذ خطوات أوضح وأكثر ملاءمة لاحتياجه.
+________________
+
+
+PART 3 — FINAL IMPLEMENTATION CHECKLIST
+For the builder only. Do not display this section to visitors.
+Before publishing, verify:
+* The headline changes according to Question 14 and the lowest-scoring dimension.
+* The overall profile influences the supporting sentence.
+* All headline and supporting sentence combinations sound natural in Saudi Arabic.
+* Missing assessment data triggers the specified fallback copy.
+* The page never displays raw variable names, internal scores, or technical errors.
+* The service is presented as one offer only.
+* The monthly price is exactly ٧٤٩ ريال.
+* The plan-review and adjustment cycle is accurately described as every two weeks.
+* Only the two approved bonuses are shown: خريطة نقطة البداية and مجتمع واتساب.
+* The three case studies preserve the owner's supplied facts and do not invent details.
+* The objections cover time, finances, fear of failure, self-doubt, spouse concerns, and price.
+* The primary CTA consistently says احجزي مكانك في قائمة الانتظار.
+* Every primary CTA redirects to the owner-provided Google Form URL.
+* No purchase flow or on-page success message is created.
+* The FAQ uses accessible expandable dropdowns.
+* The mobile layout is readable, scannable, and free of long text walls.
+* No fake urgency, fabricated social proof, guaranteed outcomes, or unsupported claims appear.
+* The page is tested with several combinations of assessment results before launch.
