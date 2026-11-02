@@ -221,11 +221,11 @@ const RUN = {
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
      action:{quiet:true, text:"Done and reviewed. Nothing needed from you until Gate 3, but you can answer the placeholders any time."}, body:"copy"},
-    {n:7, short:"Build", status:"working", title:"The new page",
+    {n:7, short:"Build", status:"done", title:"The new page",
      lede:"The rebuilt post-score experience inside your existing app. Questions, scoring, images and data capture stay exactly as they are.",
      idea:["Clarity on a phone","She is reading with a child calling her. One clear action, short sections, nothing to decode."],
-     action:{quiet:true, text:"Not started."}, body:null},
-    {n:8, short:"Test", status:"todo", title:"After score",
+     action:{quiet:true, text:"Built. Open the preview and take the assessment while the Test Panel reads it."}, body:"build"},
+    {n:8, short:"Test", status:"working", title:"After score",
      lede:"Three sceptical mothers and a hostile critic read the new page, then it is re-scored on the same 100 points.",
      idea:["Test before you trust","If the sceptics can still poke holes, the page goes back to the writer."],
      action:{quiet:true, text:"Not started. This is Gate 3: you approve, or ask for changes."}, body:null},
@@ -249,8 +249,8 @@ const RUN = {
     {k:"Co", name:"Copywriter", what:"Headlines, round 2", s:"done"},
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"done", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"done"},
-    {k:"Bu", name:"UX + Builder", what:"The new page", s:"working"},
-    {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
+    {k:"Bu", name:"UX + Builder", what:"The new page", s:"done"},
+    {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"working"},
     {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"todo", client:true},
     {k:"An", name:"Analyst", what:"What to measure", s:"todo"}
   ]
@@ -267,6 +267,20 @@ const AUDIT = [
   ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
 ];
 const BLOCKS = {
+  build: () => `
+  <div class="report"><div class="report-h"><span class="mono">UX + Builder's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>Your app, with the new pages inside</h3><p>The welcome screen, the 15 questions, scoring, photos and the data sent to your sheet are untouched. Everything after the score is new.</p></div></div>
+    <p style="margin:0"><a href="https://claude.ai/artifact/6KNfJASyJyQHt8gbDPzcEw" target="_blank" rel="noopener" style="color:var(--sea);font-weight:800">Open the live preview →</a> <span class="gloss">Take the assessment there to see your result, the invite card and the landing for your answers.</span></p>
+    <div class="grid2">
+      <div class="tile"><h4>Personalized</h4><p>Headline, problem section and invite line follow her situation. The subheadline follows her next opportunity, so the landing never disagrees with her result.</p></div>
+      <div class="tile"><h4>Deep links</h4><p><code>?focus=sleep</code> · <code>outings</code> · <code>communication</code> · <code>food</code> · <code>transitions</code> · <code>emotions</code> open the landing directly once the page is on your site. <code>?plan</code> still works for emails.</p></div>
+      <div class="tile"><h4>Easy to edit</h4><p>All personalized lines sit in one block at the top of the script (FOCUS and SUBS), so you can change a headline without touching anything else.</p></div>
+      <div class="tile"><h4>Placeholders</h4><p>The 4 facts only you know are highlighted on the page and listed at the very top of the file.</p></div>
+    </div>
+    <div class="note"><b>Checked:</b> 117 automated checks pass, including the full assessment with 5 answer patterns, every deep link, refresh, the FAQ (mouse and keyboard) and phone width. No console errors. Your name doesn't appear anywhere, and no English shows on the page.</div>
+    <div class="flag"><b>In the preview only:</b> claude.ai previews can't read <code>?focus=</code> links, and the data sent to your sheet is blocked there. Both work once the file is on your own site.</div>
+  </div></div>`,
   copy: () => `
   <div class="report"><div class="report-h"><span class="mono">Copywriter's page, after my review</span><span class="pill done">Done</span></div>
   <div class="report-b">
