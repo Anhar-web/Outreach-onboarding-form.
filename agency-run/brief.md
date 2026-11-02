@@ -20,7 +20,7 @@ DO NOT change: the welcome screen, the 15 questions and answers, the scoring mod
 - Bonuses (only these two): خريطة نقطة البداية; مجتمع واتساب.
 - Price: exactly ٧٤٩ ريال / الشهر. Monthly.
 - Terms: **monthly, cancel anytime.** No refund promise. No outcome guarantee (never promise developmental/behavioral results).
-- After she clicks: she goes to the external Google Form waitlist. Places are for a **limited first group** (real cap; exact number TBD from client — do not invent a number; use `[TBD: عدد المقاعد]` until confirmed). Honest scarcity only: no countdowns, no invented deadlines.
+- After she clicks: she goes to the external Google Form waitlist. Places are for a **limited first group of 10 mothers** (confirmed real cap by the client: «الدفعة الأولى تستقبل ١٠ أمهات فقط» is true and may be used once, honestly). Honest scarcity only: no countdowns, no invented deadlines.
 - Not a replacement for therapy/speech/specialists; complementary.
 
 ## 4. Real case stories (owner-supplied; do not add details, names, photos)

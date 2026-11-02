@@ -1,0 +1,403 @@
+<title>Living Plan Agency</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Tajawal:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a single working column under a sticky 9-step tracker; each step is one view, the specialist's report sits under "Your action". */
+:root{
+  --bg:#F6F3EB; --surface:#FFFFFF; --sunk:#EEE9DD; --line:#DDD5C4;
+  --fg:#10303A; --muted:#5B6E73; --sea:#005A70; --teal:#00A9A5; --gold:#C9935A;
+  --done:#1F8A6E; --work:#D9A441; --work-bg:#FBF1DC; --you:#005A70; --you-bg:#E3EFF2;
+  --bar:#00A9A5; --bar-bg:#E4DFD3; --dark-card:#0E2E37; --dark-card-fg:#F6F3EB;
+  --f-ui:"Tajawal",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-ar:"El Messiri","Tajawal",serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1D23; --surface:#11272E; --sunk:#0E2228; --line:#23414A;
+  --fg:#E9EEEC; --muted:#93A8AC; --sea:#5CC3D6; --teal:#2CC9C4; --gold:#D9A773;
+  --done:#3DBE96; --work:#E2B356; --work-bg:#2C2614; --you:#7FD2E2; --you-bg:#12333C;
+  --bar:#2CC9C4; --bar-bg:#1C363E; --dark-card:#E9EEEC; --dark-card-fg:#0B1D23; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1D23; --surface:#11272E; --sunk:#0E2228; --line:#23414A;
+  --fg:#E9EEEC; --muted:#93A8AC; --sea:#5CC3D6; --teal:#2CC9C4; --gold:#D9A773;
+  --done:#3DBE96; --work:#E2B356; --work-bg:#2C2614; --you:#7FD2E2; --you-bg:#12333C;
+  --bar:#2CC9C4; --bar-bg:#1C363E; --dark-card:#E9EEEC; --dark-card-fg:#0B1D23; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ui);font-size:16px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{text-wrap:balance;margin:0}
+.ar{font-family:var(--f-ar);direction:rtl;unicode-bidi:isolate}
+.mono{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+
+/* tracker */
+.track{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.track-in{display:flex;align-items:flex-start;gap:4px;overflow-x:auto;padding-block:14px 10px;scrollbar-width:none}
+.track-in::-webkit-scrollbar{display:none}
+.st{flex:1 0 64px;display:flex;flex-direction:column;align-items:center;gap:5px;background:none;border:0;cursor:pointer;color:var(--muted);font:inherit;font-size:12px;padding:2px 0;position:relative}
+.st::after{content:"";position:absolute;top:17px;inset-inline-start:calc(50% + 20px);width:calc(100% - 40px);height:2px;background:var(--line)}
+.st:last-child::after{display:none}
+.dot{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;border:2px solid var(--line);background:var(--surface);color:var(--muted);transition:transform .15s}
+.st[data-s="done"] .dot{background:var(--done);border-color:var(--done);color:#fff}
+.st[data-s="working"] .dot{background:var(--work);border-color:var(--work);color:#3a2a08}
+.st[data-s="you"] .dot{background:var(--you);border-color:var(--you);color:var(--surface)}
+.st[aria-current="step"] .dot{box-shadow:0 0 0 3px var(--bg),0 0 0 5px var(--fg)}
+.st[aria-current="step"]{color:var(--fg);font-weight:700}
+.st:focus-visible{outline:2px solid var(--sea);outline-offset:3px;border-radius:8px}
+
+/* step view */
+main{padding-block:36px 80px}
+.eyebrow{display:flex;align-items:center;gap:10px;color:var(--muted)}
+.pill{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;font-weight:500}
+.pill.done{background:color-mix(in srgb,var(--done) 16%,transparent);color:var(--done)}
+.pill.working{background:var(--work-bg);color:var(--work)}
+.pill.you{background:var(--you);color:var(--surface)}
+.pill.todo{background:var(--sunk);color:var(--muted)}
+h1.title{font-size:clamp(30px,6vw,44px);line-height:1.1;margin-top:10px;letter-spacing:-.01em;font-weight:800}
+.lede{font-size:18px;color:var(--muted);margin:10px 0 0;max-width:62ch}
+.idea-btn{margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font:inherit;font-size:13px;font-weight:700;color:var(--fg);cursor:pointer}
+.idea{margin-top:14px;background:var(--dark-card);color:var(--dark-card-fg);border-radius:14px;padding:26px 24px}
+.idea h3{font-size:24px;margin-top:6px}
+.idea p{margin:8px 0 0;opacity:.85;max-width:60ch}
+
+.action{margin-top:26px;border:2px solid var(--you);border-radius:14px;padding:16px 18px;background:var(--surface)}
+.action.quiet{border-color:var(--line)}
+.action-row{display:flex;gap:12px;align-items:flex-start;margin-top:8px}
+.ring{width:20px;height:20px;border-radius:50%;border:2px solid var(--muted);flex:0 0 auto;margin-top:3px}
+.action.quiet .ring{border-style:dashed}
+.copy{margin-top:12px;display:inline-flex;align-items:center;gap:10px;background:var(--you);color:var(--surface);border:0;border-radius:10px;padding:9px 14px;font:inherit;font-weight:700;cursor:pointer}
+.copy span{font-size:11px;background:color-mix(in srgb,var(--surface) 25%,transparent);padding:2px 8px;border-radius:6px}
+.copy:focus-visible,.idea-btn:focus-visible,.nav button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+.report{margin-top:22px;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
+.report-h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 18px;background:var(--sunk);border-bottom:1px solid var(--line);color:var(--sea)}
+.report-b{padding:20px 18px;display:grid;gap:18px}
+.report-b.working{background:var(--work-bg)}
+.report + .report{margin-top:16px}
+
+.big{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.gauge{width:112px;height:112px;flex:0 0 auto}
+.big h3{font-size:22px}
+.big p{margin:4px 0 0;color:var(--muted)}
+
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,2fr) 52px;gap:12px;align-items:center;font-size:14px}
+.bar .track2{height:10px;border-radius:5px;background:var(--bar-bg);overflow:hidden}
+.bar .fill{height:100%;background:var(--bar);border-radius:5px}
+.bar .fill.low{background:var(--gold)}
+.bar b{font-variant-numeric:tabular-nums;text-align:end}
+@media (max-width:520px){.bar{grid-template-columns:1fr 52px}.bar .track2{grid-column:1/-1;grid-row:2}}
+
+.leaks{display:grid;gap:10px;margin:0;padding:0;list-style:none;counter-reset:l}
+.leaks li{counter-increment:l;display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}
+.leaks li::before{content:counter(l);width:24px;height:24px;border-radius:50%;background:var(--gold);color:#2a1a08;font-weight:800;font-size:13px;display:grid;place-items:center;margin-top:2px}
+.leaks b{display:block}
+.leaks span{color:var(--muted);font-size:15px}
+
+.quote{border-inline-start:3px solid var(--teal);padding:4px 14px;margin:0}
+.quote p{margin:0;font-size:19px;line-height:1.7}
+.quote p.en{font-family:var(--f-ui);font-size:16px;font-style:italic}
+.quote cite{display:block;font-style:normal;font-size:12.5px;color:var(--muted);margin-top:4px}
+
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.tile{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--bg);min-width:0}
+.tile h4{margin:0;font-size:15px;display:flex;justify-content:space-between;gap:8px}
+.tile h4 .ar{font-size:15px;color:var(--sea)}
+.tile p{margin:6px 0 0;font-size:14px;color:var(--muted)}
+.tag{font-family:var(--f-mono);font-size:10px;padding:1px 6px;border-radius:4px;background:var(--sunk);color:var(--muted);letter-spacing:.05em}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th,td{text-align:start;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--sunk);font-weight:700;font-size:12.5px}
+tr:last-child td{border-bottom:0}
+td.hl{color:var(--sea);font-weight:700}
+
+.kv{display:grid;grid-template-columns:150px 1fr;gap:8px 16px;font-size:15px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+@media (max-width:520px){.kv{grid-template-columns:1fr}.kv dt{margin-top:6px}}
+
+.note{font-size:14px;color:var(--muted);background:var(--sunk);border-radius:10px;padding:10px 14px}
+.flag{font-size:14px;background:var(--work-bg);border-radius:10px;padding:10px 14px}
+
+/* workflow map */
+.flow{overflow-x:auto;padding-bottom:6px}
+.flow-in{display:flex;align-items:center;gap:10px;min-width:max-content;padding:8px 2px}
+.col{display:flex;flex-direction:column;gap:8px;position:relative}
+.col.par{padding:22px 10px 8px;border:1px dashed var(--line);border-radius:12px}
+.col.par::before{content:attr(data-label);position:absolute;top:4px;inset-inline-start:10px;font-family:var(--f-mono);font-size:9.5px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.node{width:118px;border:1px solid var(--line);border-radius:12px;padding:10px 8px;text-align:center;background:var(--surface);font-size:12px;line-height:1.35}
+.node.client{border:2px dashed var(--you)}
+.node .av{width:30px;height:30px;border-radius:50%;margin:0 auto 6px;display:grid;place-items:center;font-weight:800;font-size:11px;border:1.5px solid var(--line);color:var(--muted)}
+.node[data-s="done"] .av{background:var(--done);border-color:var(--done);color:#fff}
+.node[data-s="working"] .av{background:var(--work);border-color:var(--work);color:#3a2a08}
+.node[data-s="you"] .av{background:var(--you);border-color:var(--you);color:var(--surface)}
+.node b{display:block;font-size:12.5px}
+.node small{color:var(--muted)}
+.arrow{color:var(--line);font-size:18px;flex:0 0 auto}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);justify-content:center;margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-inline-end:6px;vertical-align:-1px}
+
+.nav{display:flex;justify-content:space-between;margin-top:30px;gap:12px}
+.nav button{font:inherit;font-weight:700;border-radius:999px;padding:10px 20px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.nav button.next{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.nav button:disabled{opacity:.35;cursor:default}
+.view{animation:in .25s ease}
+@keyframes in{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.view{animation:none}}
+</style>
+
+<div class="track"><div class="wrap"><nav class="track-in" id="track" aria-label="Agency steps"></nav></div></div>
+<main class="wrap"><div id="view"></div></main>
+
+<script>
+/* ===== Run state: the Director updates this block as specialists report ===== */
+const RUN = {
+  updated: "2 Nov 2026",
+  steps: [
+    {n:1, short:"Brief", status:"done", title:"The brief",
+     lede:"Everything every specialist works from: the offer, the price, the personalization inputs, the waitlist link and what must not change.",
+     idea:["Define the problem before the solution","Most failed pages answer the wrong question. Before anyone writes a word, the agency pins down what the page must achieve, for whom, and arriving from where."],
+     action:{quiet:true, text:"Done. You answered the open questions (cancel anytime, 10 places, rebuild results + card + landing, stop at every gate)."},
+     body:"brief"},
+    {n:2, short:"Scorecard", status:"done", title:"Before score",
+     lede:"The Auditor scored today's results page, invite card and landing on the 100-point scorecard. This is the baseline the new page has to beat.",
+     idea:["Measure before you change","A soft audit makes a fake improvement later. The same ten items get scored again at the end, the same way, so the difference is real."],
+     action:{quiet:true, text:"Nothing needed. One correction applied: you confirmed the 10 places are real, so the urgency item moves up."},
+     body:"audit"},
+    {n:3, short:"Research", status:"working", title:"Research, market and positioning",
+     lede:"What mothers actually say, how many promises like ours they've already heard, and the one position the page will stand on.",
+     idea:["Her words before our words","The headline lands when it sounds like something she'd text a friend. Research comes first so the copy can borrow her language instead of inventing it."],
+     action:{quiet:true, text:"Nothing yet: the Positioning Strategist is working. You'll review all four reports together here (Gate 1)."},
+     body:"research"},
+    {n:4, short:"Strategy", status:"todo", title:"Belief, offer and voice",
+     lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
+     idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
+     action:{quiet:true, text:"Not started."}, body:null},
+    {n:5, short:"Headlines", status:"todo", title:"Pick the headline",
+     lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
+     idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
+     action:{quiet:true, text:"Not started. This is Gate 2: you'll pick the headline direction."}, body:null},
+    {n:6, short:"Copy", status:"todo", title:"Full page copy",
+     lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
+     idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
+     action:{quiet:true, text:"Not started."}, body:null},
+    {n:7, short:"Build", status:"todo", title:"The new page",
+     lede:"The rebuilt post-score experience inside your existing app. Questions, scoring, images and data capture stay exactly as they are.",
+     idea:["Clarity on a phone","She is reading with a child calling her. One clear action, short sections, nothing to decode."],
+     action:{quiet:true, text:"Not started."}, body:null},
+    {n:8, short:"Test", status:"todo", title:"After score",
+     lede:"Three sceptical mothers and a hostile critic read the new page, then it is re-scored on the same 100 points.",
+     idea:["Test before you trust","If the sceptics can still poke holes, the page goes back to the writer."],
+     action:{quiet:true, text:"Not started. This is Gate 3: you approve, or ask for changes."}, body:null},
+    {n:9, short:"Measure", status:"todo", title:"What to measure",
+     lede:"What to track after launch, and the first test to run.",
+     idea:["The page is a hypothesis","Launch is the first experiment, not the finish line."],
+     action:{quiet:true, text:"Not started."}, body:null}
+  ],
+  team: [
+    {id:"you1", k:"You", name:"You, the client", what:"Answers the brief", s:"done", client:true},
+    {group:"At the same time", items:[
+      {k:"Au", name:"Auditor", what:"Scores today's page", s:"done"},
+      {k:"Re", name:"Researcher", what:"What mothers say", s:"done"}]},
+    {k:"Ma", name:"Market Analyst", what:"What she's already heard", s:"done"},
+    {k:"Po", name:"Positioning", what:"The one position", s:"working"},
+    {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"todo", client:true},
+    {group:"Strategy", items:[
+      {k:"Be", name:"Brand Belief", what:"Point of view", s:"todo"},
+      {k:"Of", name:"Offer", what:"Value without promises", s:"todo"},
+      {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"todo"}]},
+    {k:"Co", name:"Copywriter", what:"Headline options", s:"todo"},
+    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
+    {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
+    {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
+    {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
+    {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"todo", client:true},
+    {k:"An", name:"Analyst", what:"What to measure", s:"todo"}
+  ]
+};
+
+/* ===== Content blocks ===== */
+const AUDIT = [
+  ["Clear in five seconds",8,15],["Headline promise",8,15],["Message–market match",7,12],
+  ["Reframe and mechanism",8,14],["Proof",5,10],["Offer clarity",5,8],
+  ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
+];
+const BLOCKS = {
+  brief: () => `
+  <div class="report"><div class="report-h"><span class="mono">Strategist's brief</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <dl class="kv">
+      <dt>Product</dt><dd>الخطة الحية by مدار البيت: personal guidance for one focus at a time, reviewed every two weeks</dd>
+      <dt>Price</dt><dd><b>٧٤٩ ريال / month</b>, monthly, cancel anytime</dd>
+      <dt>Places</dt><dd>First group of <b>10 mothers</b> (confirmed real)</dd>
+      <dt>Action</dt><dd class="ar" style="text-align:start">احجزي مكانك في قائمة الانتظار</dd>
+      <dt>Goes to</dt><dd>Your Google Form waitlist (forms.gle/kvukC88bbAB6Wqi96)</dd>
+      <dt>Rebuild</dt><dd>Results page, Living Plan invite card, personalized landing</dd>
+      <dt>Keep as is</dt><dd>Welcome screen, 15 questions, scoring, images, data sent to your sheet</dd>
+      <dt>Bonuses</dt><dd>خريطة نقطة البداية · مجتمع واتساب</dd>
+    </dl>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">How the landing personalizes</div>
+      <div class="grid2">
+        <div class="tile"><h4>Headline <span class="tag">situation × gap</span></h4><p>Her Q14 situation (bedtime, visits, communication, food, transitions, anger, or her own words) combined with her lowest-scoring dimension.</p></div>
+        <div class="tile"><h4>Subheadline <span class="tag">profile</span></h4><p>Shaped by her overall profile: needs a starting point, has a base to organize, or has a clear way to develop.</p></div>
+        <div class="tile"><h4>Deep links <span class="tag">new</span></h4><p><code>?focus=sleep</code>, <code>?focus=food</code> etc. so TikTok and email links open a personalized landing too.</p></div>
+      </div>
+    </div>
+  </div></div>`,
+
+  audit: () => {
+    const total = AUDIT.reduce((s,a)=>s+a[1],0);
+    return `
+  <div class="report"><div class="report-h"><span class="mono">Auditor's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big">${gauge(total,100)}<div><h3>Before score: ${total} / 100</h3><p>Audited at 58. You confirmed the 10 places are real, so honest urgency moves from 1 to 4 (one point off because it's stated twice in one block).</p></div></div>
+    <div class="bars">${AUDIT.map(([l,s,m,n])=>`<div class="bar"><span>${l}${n?` <span class="tag">${n}</span>`:''}</span><div class="track2"><div class="fill ${s/m<.6?'low':''}" style="width:${s/m*100}%"></div></div><b>${s}/${m}</b></div>`).join('')}</div>
+  </div></div>
+  <div class="report"><div class="report-h"><span class="mono">Biggest leaks</span></div>
+  <div class="report-b">
+    <ol class="leaks">
+      <li><div><b>Personalization stops after the headline</b><span>The problem section is always about bedtime, even if she chose food or anger. The headline can use a different "gap" than the one her results card just told her. Her own Q15 words never appear on the landing, and <code>?focus=</code> doesn't exist yet.</span></div></li>
+      <li><div><b>The things that lower her risk are missing</b><span>"Monthly, cancel anytime" is never said. Nothing tells her what happens after the Google Form. The «أنا» in «أنا والقروب معاك» is never introduced. The hero asks her to book before she has seen the price.</span></div></li>
+      <li><div><b>The mechanism is generic</b><span>"A personal plan + reviews" is something any coach could claim. The real difference (looking at the child's whole day, not only the behaviour) shows up in a case story but is never named.</span></div></li>
+      <li><div><b>Arabic slips and length</b><span>The FAQ slides into formal Arabic («ماذا لو», «لا توجد», «يمكن أن تكون»), there are about a dozen typos, and the email-link subheadline is broken. The landing is about 14 phone screens and says «كل أسبوعين» 14 times.</span></div></li>
+    </ol>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Keep these</div>
+      <div class="grid2">
+        <div class="tile"><h4>Real value first</h4><p>The results help her whether or not she ever joins.</p></div>
+        <div class="tile"><h4>Honest objections</h4><p>«هل أنا السبب؟» and «ولو ما ضبط؟» are strong and kind.</p></div>
+        <div class="tile"><h4>The strongest proof</h4><p class="ar" style="text-align:start">«كان يصحى معصب كل يوم. هالأسبوع صحى معصب مرة وحدة.»</p></div>
+      </div>
+    </div>
+  </div></div>`;},
+
+  research: () => `
+  <div class="report"><div class="report-h"><span class="mono">Researcher's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>The gap no one fills: a daily plan that ties everything together</h3><p>Mothers have sessions, tips and forum "programs". What's missing is someone helping them turn it into one plan for home.</p></div></div>
+    <figure class="quote"><p class="en">"My daughter was getting PT/OT/Speech, but who was there with an everyday plan to put it together?"</p><cite>Parent on r/Autism_Parenting (English; closest real statement of your exact gap)</cite></figure>
+    <figure class="quote"><p class="ar">«حرجهم من قبول دعوة عشاء… امتناعهم عن كل أشكال الزيارات»</p><cite>Al Jazeera blog on autism families (search snippet, to verify)</cite></figure>
+    <figure class="quote"><p class="ar">«كان يصحى معصب كل يوم. هالأسبوع صحى معصب مرة وحدة.»</p><cite>Your own case: the best Saudi voice we have</cite></figure>
+    <div class="flag"><b>Honest limit:</b> very few real Saudi mothers' words are on the open web (they talk on TikTok, Snap and WhatsApp, which search can't reach). Anything the researcher wrote as a suggested Saudi phrasing is marked as a suggestion and will not be presented as a quote. Your TikTok comments and Q15 answers are the best source to add.</div>
+  </div></div>
+
+  <div class="report"><div class="report-h"><span class="mono">Her situations</span></div>
+  <div class="report-b"><div class="grid2">
+    ${[
+      ["Bedtime","وقت النوم","Long time to fall asleep, night waking, very early waking. Sleep is her exhaustion too, not only his."],
+      ["Visits","الزيارات والعزايم","Turning down invitations, stares, relatives reading it as bad parenting. Eid and grandma's house are the heavy moments."],
+      ["Communication","التواصل","Guessing all day what he wants; frustration turns into crying. Your communication case fits here."],
+      ["Food","الأكل","A short list of safe foods, same plate and brand, family pressure to 'just make him eat'. Your food case fits exactly."],
+      ["Transitions","الانتقال","Turning off the iPad, leaving the park. Warnings and timers get used, but not consistently."],
+      ["Anger","الانفعال","Sudden outbursts; mothers often describe anger, sleep and food together. That supports the whole-day view."]
+    ].map(([e,a,t])=>`<div class="tile"><h4>${e} <span class="ar">${a}</span></h4><p>${t}</p></div>`).join('')}
+  </div></div></div>
+
+  <div class="report"><div class="report-h"><span class="mono">What else she can buy</span></div>
+  <div class="report-b">
+    <div class="tbl"><table>
+      <tr><th>Alternative</th><th>Price</th><th>What's missing</th></tr>
+      <tr><td>Online freelance sessions (Khamsat)</td><td>$5–20 a session</td><td>One-off, no follow-up</td></tr>
+      <tr><td>Home therapy sessions</td><td>~150 ريال a session</td><td>Works with the child, not her day</td></tr>
+      <tr><td>Private centres</td><td>100,000+ ريال a year</td><td>Expensive; skills stay at the centre</td></tr>
+      <tr><td>Charities, WHO caregiver training</td><td>Free</td><td>Generic, not continuous</td></tr>
+      <tr><td>Tips accounts, forum diets and "programs"</td><td>Free</td><td>More tips, promises of "شفاء"</td></tr>
+      <tr><td class="hl">الخطة الحية</td><td class="hl">٧٤٩ ريال / month</td><td class="hl">Ongoing, personal, home-based, reviewed every 2 weeks</td></tr>
+    </table></div>
+    <div class="note">No Arabic ongoing, personal home-plan subscription with public pricing turned up in search. The open lane is continuity + personalization + someone with her between appointments.</div>
+  </div></div>
+
+  <div class="report"><div class="report-h"><span class="mono">Market Analyst's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big">${gauge(3,5)}<div><h3>Market level 3: lead with the "how"</h3><p>She has heard the promises ("شفاء" diets, tip lists, sessions that don't carry home) and stopped believing them. A new promise won't land. A believable <i>how</i> will.</p></div></div>
+    <div class="grid2">
+      <div class="tile"><h4>The headline leads with</h4><p>Her own repeating moment, in Saudi words, then the how: one plan built from her child's <b>whole day, not the moment alone</b>, one area at a time, adjusted every two weeks.</p></div>
+      <div class="tile"><h4>Avoid leading with</h4><p>Promised results, cure wording, "more tips", "first of its kind", a bare «خطة مخصصة», blame, labels on the child, fear.</p></div>
+    </div>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Her lowest dimension picks which part of the "how" to stress</div>
+      <div class="grid2">
+        <div class="tile"><h4>Patterns <span class="ar">فهم الأنماط</span></h4><p>Seeing what builds up to the moment.</p></div>
+        <div class="tile"><h4>Personalizing <span class="ar">تخصيص الطريقة</span></h4><p>Built from this child, not a rule for every child.</p></div>
+        <div class="tile"><h4>Consistency <span class="ar">وضوح الخطة</span></h4><p>The two-week review rhythm, worded differently per situation.</p></div>
+      </div>
+    </div>
+    <div class="tbl"><table>
+      <tr><th>Situation</th><th>How the headline should lean</th></tr>
+      <tr><td>Bedtime</td><td>Bedtime as the end of his whole day</td></tr>
+      <tr><td>Visits</td><td>Her scene and feelings first; keep it short</td></tr>
+      <tr><td>Communication</td><td>The moments at home between sessions; never promise speech</td></tr>
+      <tr><td>Food</td><td>Questions first, keep his safe foods, add new ones gradually</td></tr>
+      <tr><td>Transitions</td><td>Which changes are hard for him and what comes before them</td></tr>
+      <tr><td>Anger</td><td>The whole-day view plus your real quote; self-harm always points to a specialist</td></tr>
+    </table></div>
+  </div></div>
+  <div class="report"><div class="report-h"><span class="mono">Positioning Strategist's report</span><span class="pill working">Working</span></div>
+  <div class="report-b working">Positioning Strategist is working on it…</div></div>`
+};
+
+function gauge(v,max){
+  const r=48,c=2*Math.PI*r,p=v/max;
+  return `<svg class="gauge" viewBox="0 0 112 112" role="img" aria-label="${v} out of ${max}">
+    <circle cx="56" cy="56" r="${r}" fill="none" stroke="var(--bar-bg)" stroke-width="9"/>
+    <circle cx="56" cy="56" r="${r}" fill="none" stroke="var(--gold)" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="${c*p} ${c}" transform="rotate(-90 56 56)"/>
+    <text x="56" y="58" text-anchor="middle" font-family="Tajawal,sans-serif" font-weight="800" font-size="28" fill="var(--fg)">${v}</text>
+    <text x="56" y="76" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9" fill="var(--muted)">/ ${max}</text></svg>`;
+}
+function node(t){return `<div class="node ${t.client?'client':''}" data-s="${t.s}"><div class="av">${t.k}</div><b>${t.name}</b><small>${t.what}</small></div>`}
+function flowMap(){
+  const parts = RUN.team.map(t=> t.group ? `<div class="col par" data-label="${t.group}">${t.items.map(node).join('')}</div>` : node(t));
+  return `<div class="report"><div class="report-h"><span class="mono">The agency's plan</span><span class="mono" style="color:var(--muted)">Updated ${RUN.updated}</span></div>
+  <div class="report-b"><div class="flow"><div class="flow-in">${parts.join('<span class="arrow" aria-hidden="true">←</span>'.replace('←','→'))}</div></div>
+  <div class="legend"><span><i style="border:1.5px solid var(--line)"></i>Not started</span><span><i style="background:var(--work)"></i>Working</span><span><i style="background:var(--you)"></i>Needs you</span><span><i style="background:var(--done)"></i>Done</span></div></div></div>`;
+}
+const PILL = {done:["done","Done"],working:["working","Working"],you:["you","Needs you"],todo:["todo","Not started"]};
+
+/* ===== Render ===== */
+const track = document.getElementById('track'), view = document.getElementById('view');
+const S = RUN.steps;
+function activeDefault(){ return (S.find(s=>s.status==='you')||S.find(s=>s.status==='working')||S[S.length-1]).n; }
+let cur = activeDefault();
+
+function renderTrack(){
+  track.innerHTML = S.map(s=>`<button class="st" data-s="${s.status}" data-n="${s.n}" ${s.n===cur?'aria-current="step"':''}><span class="dot">${s.status==='done'?'✓':s.n}</span>${s.short}</button>`).join('');
+  track.querySelectorAll('.st').forEach(b=>b.onclick=()=>go(+b.dataset.n));
+  const a = track.querySelector('[aria-current]'); if(a) a.scrollIntoView({block:'nearest',inline:'center'});
+}
+function renderView(){
+  const s = S[cur-1], [pc,pl] = PILL[s.status];
+  const act = s.action;
+  view.innerHTML = `<section class="view">
+    <div class="eyebrow"><span class="mono">Step ${s.n} of ${S.length}</span><span class="pill ${pc}">${pl}</span></div>
+    <h1 class="title">${s.title}</h1>
+    <p class="lede">${s.lede}</p>
+    <button class="idea-btn" id="ideaBtn" aria-expanded="false">The idea +</button>
+    <div class="idea" id="idea" hidden><div class="mono" style="opacity:.6">The idea behind this step</div><h3>${s.idea[0]}</h3><p>${s.idea[1]}</p></div>
+    <div class="action ${act.quiet?'quiet':''}"><div style="display:flex;justify-content:space-between"><span class="mono" style="color:var(--muted)">Your action</span></div>
+      <div class="action-row"><span class="ring"></span><div>${act.text}${act.copy?`<div><button class="copy" data-copy="${act.copy}">${act.copy}<span>Copy</span></button></div>`:''}</div></div></div>
+    ${s.n===3 || s.n===1 ? flowMap() : ''}
+    ${s.body && BLOCKS[s.body] ? BLOCKS[s.body]() : `<div class="report"><div class="report-h"><span class="mono">Report</span><span class="pill todo">Not started</span></div><div class="report-b">This step hasn't started yet.</div></div>`}
+    <div class="nav"><button id="prev" ${cur===1?'disabled':''}>← Back</button><button class="next" id="next" ${cur===S.length?'disabled':''}>Next →</button></div>
+  </section>`;
+  const ib=document.getElementById('ideaBtn'), id=document.getElementById('idea');
+  ib.onclick=()=>{id.hidden=!id.hidden; ib.setAttribute('aria-expanded',String(!id.hidden)); ib.textContent = id.hidden?'The idea +':'The idea −';};
+  document.getElementById('prev').onclick=()=>go(cur-1);
+  document.getElementById('next').onclick=()=>go(cur+1);
+  view.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
+    const t=b.dataset.copy; const done=()=>{b.lastChild.textContent='Copied'};
+    try{navigator.clipboard.writeText(t).then(done,()=>{})}catch(e){}
+  });
+}
+function go(n){ if(n<1||n>S.length) return; cur=n; try{history.replaceState(null,'','#step-'+n)}catch(e){location.hash='step-'+n} renderTrack(); renderView(); window.scrollTo({top:0}); }
+function fromHash(){ const m=/^#step-(\d)$/.exec(location.hash); if(m){cur=+m[1]} }
+fromHash(); renderTrack(); renderView();
+addEventListener('hashchange',()=>{fromHash();renderTrack();renderView();});
+</script>
