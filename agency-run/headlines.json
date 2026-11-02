@@ -1,0 +1,156 @@
+{
+  "reference_situation": "F",
+  "recommended": "d1",
+  "directions": [
+    {
+      "id": "d1",
+      "name": "مشهدها أولًا، ثم الطريقة (Her moment, then the how)",
+      "rationale": "Opens on the exact scene she picked in Q14 as a question she answers yes to, then one mechanism element; this is what market.md says a Level-3 market with a Stage-5 heart needs, and it answers the assessment title «ليش نفس المواقف تتكرر؟».",
+      "headlines": [
+        {
+          "ar": "نفس الغضب يتكرر كل يوم؟ نبدأ من يومه كامل، مو اللحظة وحدها.",
+          "score": 93,
+          "why": "Echoes the assessment title (نفس ... يتكرر), her real experience, then the whole-day mechanism that case 1 proves; no label, no promise.",
+          "top": true
+        },
+        {
+          "ar": "يعصّب فجأة وما تعرفي متى؟ نشوف ايش يسبق الموقف في يومه.",
+          "score": 86,
+          "why": "Her lived unpredictability in plain Saudi words plus the pattern angle; slightly weaker because «ما تعرفي» leans on what she lacks.",
+          "top": false
+        },
+        {
+          "ar": "يصرخ ويرمي الأغراض وما تعرفي ليش؟ نشوف يومه كامل معاكي.",
+          "score": 83,
+          "why": "Concrete observable scene (no label) and partnership; «ما تعرفي ليش» again frames her as missing something.",
+          "top": false
+        },
+        {
+          "ar": "الغضب يتكرر وانتي تحاولي كل مرة من جديد؟ خلينا نشوف يومه كامل.",
+          "score": 81,
+          "why": "Names her exhaustion of restarting (Stage-5 heart) but uses all 12 words and the mechanism lands late.",
+          "top": false
+        },
+        {
+          "ar": "يصرخ ويرمي الأغراض؟ الموقف آخر شيء. نشوف ايش صار قبله.",
+          "score": 78,
+          "why": "Vivid and short, but «الموقف آخر شيء» edges toward a claim about cause and reads a little clipped.",
+          "top": false
+        }
+      ],
+      "by_situation": {
+        "A": "كل ليلة نفس القصة وقت النوم؟ نبدأ من يومه، مو من السرير.",
+        "B": "صرتي تحسبي ألف حساب قبل أي عزيمة؟ نجهزها من اللي يريّحه هو.",
+        "C": "تخمّني كل مرة ايش يبغى؟ نشتغل معاكي على باقي يومه، مع جلساته.",
+        "D": "نفس الأكلات كل يوم وأي جديد ما يقربه؟ أكلاته تبقى، والجديد بالتدريج.",
+        "E": "تقولي خلاص نسكّر الآيباد وتبدأ المشكلة؟ نشوف ايش يسبقها في يومه.",
+        "F": "نفس الغضب يتكرر كل يوم؟ نبدأ من يومه كامل، مو اللحظة وحدها.",
+        "default": "نفس المواقف تتكرر مع طفلك؟ نبدأ من يومه كامل، مو الموقف وحده."
+      }
+    },
+    {
+      "id": "d2",
+      "name": "يومه كامل (Mechanism-led reframe)",
+      "rationale": "Leads with the insight itself, the moment alone does not explain the moment, so the whole-day mechanism is the first thing she reads; strongest where she has already tried many tips.",
+      "headlines": [
+        {
+          "ar": "الغضب لحاله ما يوضح السبب. نشوف يومه كامل معاكي.",
+          "score": 87,
+          "why": "Honest (claims no cause), confident, mechanism up front, and «معاكي» carries partnership; less identification than a scene.",
+          "top": true
+        },
+        {
+          "ar": "قبل كل موقف غضب فيه يوم كامل. ومن هناك نبدأ.",
+          "score": 85,
+          "why": "Memorable, rhythmic reframe that makes the mechanism feel obvious; abstract, her scene is implied not shown.",
+          "top": false
+        },
+        {
+          "ar": "العصبية ما تجي من فراغ. نشوف ايش يصير في يومه قبلها.",
+          "score": 80,
+          "why": "Natural phrasing from voice.md, but «العصبية» sits close to a label and «ما تجي من فراغ» hints at a cause.",
+          "top": false
+        },
+        {
+          "ar": "لحظة الغضب مو القصة كاملة. يومه كامل هو اللي نشوفه.",
+          "score": 79,
+          "why": "Clear reframe; second sentence is inverted and reads slightly written rather than spoken.",
+          "top": false
+        },
+        {
+          "ar": "ما نشتغل على الغضب لحاله. نشتغل على يومه كامل.",
+          "score": 74,
+          "why": "Accurate positioning line but sounds like a feature statement; no feeling, no her.",
+          "top": false
+        }
+      ],
+      "by_situation": {
+        "A": "وقت النوم آخر يومه. عشان كذا نبدأ من يومه كامل.",
+        "B": "الزيارة الصعبة ما تبدأ عند الباب. نجهزها من يومه وايش يريّحه.",
+        "C": "جلسة النطق ساعة. باقي يومه معاكي، وهناك نشتغل سوا.",
+        "D": "الأكل الجديد ما يبدأ بالصحن. يبدأ بأسئلة عن يومه، وأكلاته تبقى.",
+        "E": "الصعوبة مو بس لما ينتهي وقت الآيباد. نشوف ايش يسبقها في يومه.",
+        "F": "الغضب لحاله ما يوضح السبب. نشوف يومه كامل معاكي.",
+        "default": "الموقف اللي يتكرر لحاله ما يوضح السبب. نبدأ من يومه كامل."
+      }
+    },
+    {
+      "id": "d3",
+      "name": "انتي اللي تشوفي يومه (Belief-led, her eyes)",
+      "rationale": "Leads with the belief that what she sees every day is the most valuable information, then says the plan is built from it; respect first, mechanism second.",
+      "headlines": [
+        {
+          "ar": "اللي تشوفيه قبل ما يعصّب مو تفاصيل. منه نبني الخطة معاكي.",
+          "score": 85,
+          "why": "Carries the non-negotiable belief line plus the pattern angle and partnership; less instant identification than a scene question.",
+          "top": true
+        },
+        {
+          "ar": "انتي مو محتاجة نصائح أكثر عن الغضب. تحتاجي خطة من يومه هو.",
+          "score": 83,
+          "why": "Locked core message adapted to anger; strong, but the core line will also appear lower on the page, so it repeats.",
+          "top": false
+        },
+        {
+          "ar": "انتي تشوفي غضبه كل يوم. واللي تشوفيه هو بداية خطته.",
+          "score": 80,
+          "why": "Respectful and simple; «تشوفي غضبه كل يوم» is heavy to read back to an exhausted mother.",
+          "top": false
+        },
+        {
+          "ar": "جربتي كثير والغضب لسه يتكرر؟ المشكلة مو إنك ما حاولتي كفاية.",
+          "score": 77,
+          "why": "Strong no-blame relief beat, but carries no mechanism, so it can't stand alone as the headline.",
+          "top": false
+        },
+        {
+          "ar": "انتي أكثر وحدة تعرف يومه. نبني خطة الغضب من اللي تعرفيه.",
+          "score": 72,
+          "why": "Right sentiment; «خطة الغضب» is awkward and sounds translated.",
+          "top": false
+        }
+      ],
+      "by_situation": {
+        "A": "انتي تعرفي كيف تمشي لياليه. ومن اللي تعرفيه نبني الخطة معاكي.",
+        "B": "انتي عارفة ايش يريّحه وايش يتعبه في الزيارات. نجهزها على هذا سوا.",
+        "C": "انتي أكثر وحدة تفهم إشاراته. نبني على اللي تشوفيه بين الجلسات.",
+        "D": "انتي تعرفي أكلاته اللي يرتاح لها. منها نبدأ، والجديد بالتدريج.",
+        "E": "انتي تعرفي أي انتقال يصعب عليه. من هنا نبني خطته.",
+        "F": "اللي تشوفيه قبل ما يعصّب مو تفاصيل. منه نبني الخطة معاكي.",
+        "default": "اللي تشوفيه كل يوم مو تفاصيل جانبية. منه نبني خطة طفلك."
+      }
+    }
+  ],
+  "dimension_variants": {
+    "situation": "F",
+    "0": "نفس الغضب يتكرر كل يوم؟ نشوف ايش يصير في يومه قبله.",
+    "1": "نفس الغضب يتكرر مهما جربتي؟ نبني الطريقة من يومه هو.",
+    "2": "نفس الغضب يرجع وتبدئي من الصفر؟ نراجع الخطة معاكي كل أسبوعين."
+  },
+  "subheads": {
+    "0": "ما تحتاجي تعرفي من فين تبدئي. مع أنهار نشوف يوم طفلك كامل، نختار أول مجال، ونراجعه معاكي كل أسبوعين.",
+    "1": "عندك أساس وجربتي أشياء كثيرة. مع أنهار نرتب اللي تعرفيه عن طفلك في خطة وحدة، ونراجعها معاكي كل أسبوعين.",
+    "2": "عندك طريقة واضحة تمشي عليها. مع أنهار نبني عليها، ونعدّلها معاكي كل أسبوعين حسب استجابته."
+  },
+  "recommendation_why": "d1 is the only direction that does both jobs market.md sets for the headline: she recognises her own repeating moment first (the identification beat that answers «ليش نفس المواقف تتكرر؟», which she just took), then gets one mechanism element. It also personalizes most natively: each Q14 situation has its own scene in her words, and the lowest dimension swaps only the second half (see dimension variants), so the matrix never collapses into one sentence with a word swapped. d2 is sharper on F but turns abstract on B and D; d3 carries the belief beautifully but its core lines are better placed under the headline and near Anhar's intro, where they won't repeat."
+}

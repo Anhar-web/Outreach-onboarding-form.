@@ -147,6 +147,34 @@ td.hl{color:var(--sea);font-weight:700}
 .nav button{font:inherit;font-weight:700;border-radius:999px;padding:10px 20px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
 .nav button.next{background:var(--fg);color:var(--bg);border-color:var(--fg)}
 .nav button:disabled{opacity:.35;cursor:default}
+
+.dirs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}
+.dir{border:1.5px solid var(--line);border-radius:14px;padding:14px;background:var(--bg);cursor:pointer;text-align:start;font:inherit;color:var(--fg);display:flex;flex-direction:column;gap:8px}
+.dir[aria-pressed="true"]{border-color:var(--you);box-shadow:0 0 0 3px color-mix(in srgb,var(--you) 20%,transparent);background:var(--surface)}
+.dir .nm{font-weight:800;font-size:14px}
+.dir .rec{font-family:var(--f-mono);font-size:10px;background:var(--gold);color:#2a1a08;padding:2px 7px;border-radius:5px;align-self:flex-start}
+.dir .h{font-family:var(--f-ar);direction:rtl;font-size:17px;line-height:1.6}
+.dir .sc{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:5px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.phone-wrap{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:640px){.phone-wrap{grid-template-columns:1fr}}
+.phone{border-radius:30px;border:8px solid #0d1b20;overflow:hidden;background:#004556;max-width:300px;width:100%;margin-inline:auto}
+.phone .scr{direction:rtl;padding:26px 20px 28px;color:#F6F3EB;background:linear-gradient(170deg,#005A70 0%,#003B49 100%);min-height:400px;display:flex;flex-direction:column;gap:14px}
+.phone .eb{font-family:var(--f-ar);font-size:12px;color:#7fd9d5;letter-spacing:.02em}
+.phone .hd{font-family:var(--f-ar);font-weight:700;font-size:23px;line-height:1.5;margin:0}
+.phone .sb{font-size:14px;line-height:1.8;color:rgba(246,243,235,.85);margin:0}
+.phone .bt{margin-top:6px;background:#C9935A;color:#2b1a08;border-radius:12px;padding:12px;text-align:center;font-weight:800;font-size:14px}
+.phone .ft{font-size:11.5px;color:rgba(246,243,235,.6);text-align:center}
+.ctl{display:grid;gap:14px}
+.ctl .lbl{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.hlist{display:grid;gap:8px}
+.hrow{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:start;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.hrow.top{border-color:var(--teal)}
+.hrow .s{font-weight:800;font-variant-numeric:tabular-nums;font-size:18px;color:var(--sea)}
+.hrow .a{font-family:var(--f-ar);direction:rtl;font-size:16px}
+.hrow .w{font-size:13px;color:var(--muted);margin-top:2px}
 .view{animation:in .25s ease}
 @keyframes in{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.view{animation:none}}
@@ -179,10 +207,10 @@ const RUN = {
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
      action:{quiet:true, quiet:false, text:"<b>Quick facts needed (not a gate).</b> The Offer Strategist found 7 things the page should tell her that only you know. Answer what you can in the chat; anything unanswered stays as a visible placeholder, never invented. Questions are in the Offer report below."}, body:"strategy"},
-    {n:5, short:"Headlines", status:"working", title:"Pick the headline",
+    {n:5, short:"Headlines", status:"you", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
-     action:{quiet:true, text:"Nothing yet: the Copywriter is writing 15 headlines in 3 directions. This is Gate 2: you'll pick the direction."}, body:null},
+     action:{quiet:false, text:"<b>Gate 2.</b> Tap each direction and each situation to see the real headline on a phone. Then tell the agency which direction to build. You can also mix (e.g. direction 1 but use a line from 3).", copy:"I pick direction 1."}, body:"headlines"},
     {n:6, short:"Copy", status:"todo", title:"Full page copy",
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
@@ -212,8 +240,8 @@ const RUN = {
       {k:"Be", name:"Brand Belief", what:"Point of view", s:"done"},
       {k:"Of", name:"Offer", what:"Value without promises", s:"done"},
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"done"}]},
-    {k:"Co", name:"Copywriter", what:"Headline options", s:"working"},
-    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
+    {k:"Co", name:"Copywriter", what:"Headline options", s:"done"},
+    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"you", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
     {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
     {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
@@ -223,12 +251,46 @@ const RUN = {
 };
 
 /* ===== Content blocks ===== */
+const HL = {"reference_situation": "F", "recommended": "d1", "directions": [{"id": "d1", "name": "مشهدها أولًا، ثم الطريقة (Her moment, then the how)", "rationale": "Opens on the exact scene she picked in Q14 as a question she answers yes to, then one mechanism element; this is what market.md says a Level-3 market with a Stage-5 heart needs, and it answers the assessment title «ليش نفس المواقف تتكرر؟».", "headlines": [{"ar": "نفس الغضب يتكرر كل يوم؟ نبدأ من يومه كامل، مو اللحظة وحدها.", "score": 93, "why": "Echoes the assessment title (نفس ... يتكرر), her real experience, then the whole-day mechanism that case 1 proves; no label, no promise.", "top": true}, {"ar": "يعصّب فجأة وما تعرفي متى؟ نشوف ايش يسبق الموقف في يومه.", "score": 86, "why": "Her lived unpredictability in plain Saudi words plus the pattern angle; slightly weaker because «ما تعرفي» leans on what she lacks.", "top": false}, {"ar": "يصرخ ويرمي الأغراض وما تعرفي ليش؟ نشوف يومه كامل معاكي.", "score": 83, "why": "Concrete observable scene (no label) and partnership; «ما تعرفي ليش» again frames her as missing something.", "top": false}, {"ar": "الغضب يتكرر وانتي تحاولي كل مرة من جديد؟ خلينا نشوف يومه كامل.", "score": 81, "why": "Names her exhaustion of restarting (Stage-5 heart) but uses all 12 words and the mechanism lands late.", "top": false}, {"ar": "يصرخ ويرمي الأغراض؟ الموقف آخر شيء. نشوف ايش صار قبله.", "score": 78, "why": "Vivid and short, but «الموقف آخر شيء» edges toward a claim about cause and reads a little clipped.", "top": false}], "by_situation": {"A": "كل ليلة نفس القصة وقت النوم؟ نبدأ من يومه، مو من السرير.", "B": "صرتي تحسبي ألف حساب قبل أي عزيمة؟ نجهزها من اللي يريّحه هو.", "C": "تخمّني كل مرة ايش يبغى؟ نشتغل معاكي على باقي يومه، مع جلساته.", "D": "نفس الأكلات كل يوم وأي جديد ما يقربه؟ أكلاته تبقى، والجديد بالتدريج.", "E": "تقولي خلاص نسكّر الآيباد وتبدأ المشكلة؟ نشوف ايش يسبقها في يومه.", "F": "نفس الغضب يتكرر كل يوم؟ نبدأ من يومه كامل، مو اللحظة وحدها.", "default": "نفس المواقف تتكرر مع طفلك؟ نبدأ من يومه كامل، مو الموقف وحده."}}, {"id": "d2", "name": "يومه كامل (Mechanism-led reframe)", "rationale": "Leads with the insight itself, the moment alone does not explain the moment, so the whole-day mechanism is the first thing she reads; strongest where she has already tried many tips.", "headlines": [{"ar": "الغضب لحاله ما يوضح السبب. نشوف يومه كامل معاكي.", "score": 87, "why": "Honest (claims no cause), confident, mechanism up front, and «معاكي» carries partnership; less identification than a scene.", "top": true}, {"ar": "قبل كل موقف غضب فيه يوم كامل. ومن هناك نبدأ.", "score": 85, "why": "Memorable, rhythmic reframe that makes the mechanism feel obvious; abstract, her scene is implied not shown.", "top": false}, {"ar": "العصبية ما تجي من فراغ. نشوف ايش يصير في يومه قبلها.", "score": 80, "why": "Natural phrasing from voice.md, but «العصبية» sits close to a label and «ما تجي من فراغ» hints at a cause.", "top": false}, {"ar": "لحظة الغضب مو القصة كاملة. يومه كامل هو اللي نشوفه.", "score": 79, "why": "Clear reframe; second sentence is inverted and reads slightly written rather than spoken.", "top": false}, {"ar": "ما نشتغل على الغضب لحاله. نشتغل على يومه كامل.", "score": 74, "why": "Accurate positioning line but sounds like a feature statement; no feeling, no her.", "top": false}], "by_situation": {"A": "وقت النوم آخر يومه. عشان كذا نبدأ من يومه كامل.", "B": "الزيارة الصعبة ما تبدأ عند الباب. نجهزها من يومه وايش يريّحه.", "C": "جلسة النطق ساعة. باقي يومه معاكي، وهناك نشتغل سوا.", "D": "الأكل الجديد ما يبدأ بالصحن. يبدأ بأسئلة عن يومه، وأكلاته تبقى.", "E": "الصعوبة مو بس لما ينتهي وقت الآيباد. نشوف ايش يسبقها في يومه.", "F": "الغضب لحاله ما يوضح السبب. نشوف يومه كامل معاكي.", "default": "الموقف اللي يتكرر لحاله ما يوضح السبب. نبدأ من يومه كامل."}}, {"id": "d3", "name": "انتي اللي تشوفي يومه (Belief-led, her eyes)", "rationale": "Leads with the belief that what she sees every day is the most valuable information, then says the plan is built from it; respect first, mechanism second.", "headlines": [{"ar": "اللي تشوفيه قبل ما يعصّب مو تفاصيل. منه نبني الخطة معاكي.", "score": 85, "why": "Carries the non-negotiable belief line plus the pattern angle and partnership; less instant identification than a scene question.", "top": true}, {"ar": "انتي مو محتاجة نصائح أكثر عن الغضب. تحتاجي خطة من يومه هو.", "score": 83, "why": "Locked core message adapted to anger; strong, but the core line will also appear lower on the page, so it repeats.", "top": false}, {"ar": "انتي تشوفي غضبه كل يوم. واللي تشوفيه هو بداية خطته.", "score": 80, "why": "Respectful and simple; «تشوفي غضبه كل يوم» is heavy to read back to an exhausted mother.", "top": false}, {"ar": "جربتي كثير والغضب لسه يتكرر؟ المشكلة مو إنك ما حاولتي كفاية.", "score": 77, "why": "Strong no-blame relief beat, but carries no mechanism, so it can't stand alone as the headline.", "top": false}, {"ar": "انتي أكثر وحدة تعرف يومه. نبني خطة الغضب من اللي تعرفيه.", "score": 72, "why": "Right sentiment; «خطة الغضب» is awkward and sounds translated.", "top": false}], "by_situation": {"A": "انتي تعرفي كيف تمشي لياليه. ومن اللي تعرفيه نبني الخطة معاكي.", "B": "انتي عارفة ايش يريّحه وايش يتعبه في الزيارات. نجهزها على هذا سوا.", "C": "انتي أكثر وحدة تفهم إشاراته. نبني على اللي تشوفيه بين الجلسات.", "D": "انتي تعرفي أكلاته اللي يرتاح لها. منها نبدأ، والجديد بالتدريج.", "E": "انتي تعرفي أي انتقال يصعب عليه. من هنا نبني خطته.", "F": "اللي تشوفيه قبل ما يعصّب مو تفاصيل. منه نبني الخطة معاكي.", "default": "اللي تشوفيه كل يوم مو تفاصيل جانبية. منه نبني خطة طفلك."}}], "dimension_variants": {"situation": "F", "0": "نفس الغضب يتكرر كل يوم؟ نشوف ايش يصير في يومه قبله.", "1": "نفس الغضب يتكرر مهما جربتي؟ نبني الطريقة من يومه هو.", "2": "نفس الغضب يرجع وتبدئي من الصفر؟ نراجع الخطة معاكي كل أسبوعين."}, "subheads": {"0": "ما تحتاجي تعرفي من فين تبدئي. مع أنهار نشوف يوم طفلك كامل، نختار أول مجال، ونراجعه معاكي كل أسبوعين.", "1": "عندك أساس وجربتي أشياء كثيرة. مع أنهار نرتب اللي تعرفيه عن طفلك في خطة وحدة، ونراجعها معاكي كل أسبوعين.", "2": "عندك طريقة واضحة تمشي عليها. مع أنهار نبني عليها، ونعدّلها معاكي كل أسبوعين حسب استجابته."}, "recommendation_why": "d1 is the only direction that does both jobs market.md sets for the headline: she recognises her own repeating moment first (the identification beat that answers «ليش نفس المواقف تتكرر؟», which she just took), then gets one mechanism element. It also personalizes most natively: each Q14 situation has its own scene in her words, and the lowest dimension swaps only the second half (see dimension variants), so the matrix never collapses into one sentence with a word swapped. d2 is sharper on F but turns abstract on B and D; d3 carries the belief beautifully but its core lines are better placed under the headline and near Anhar's intro, where they won't repeat."};
+
 const AUDIT = [
   ["Clear in five seconds",8,15],["Headline promise",8,15],["Message–market match",7,12],
   ["Reframe and mechanism",8,14],["Proof",5,10],["Offer clarity",5,8],
   ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
 ];
 const BLOCKS = {
+  headlines: () => `
+  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Copywriter's headlines</span><span class="pill you">Needs you</span></div>
+  <div class="report-b">
+    <div><div class="mono" style="color:var(--muted);margin-bottom:8px">1 · Pick a direction (tap to preview)</div>
+      <div class="dirs" id="dirs">${HL.directions.map((d,i)=>{const t=d.headlines.find(h=>h.top);return `<button class="dir" data-d="${d.id}" aria-pressed="${d.id===HL.recommended}">${d.id===HL.recommended?'<span class="rec">Copywriter\'s pick</span>':''}<span class="nm">${i+1}. ${d.name.split('(')[1]?d.name.split('(')[1].replace(')',''):d.name}</span><span class="ar" style="font-size:13px;color:var(--muted)">${d.name.split(' (')[0]}</span><span class="h">${t.ar}</span><span class="sc">Score ${t.score}/100</span></button>`}).join('')}</div>
+    </div>
+    <div class="phone-wrap">
+      <div class="phone" aria-label="Phone preview of the landing hero"><div class="scr">
+        <div class="eb">الخطة الحية · مدار البيت</div>
+        <h2 class="hd" id="pv-h"></h2>
+        <p class="sb" id="pv-s"></p>
+        <div class="bt">احجزي مكانك في قائمة الانتظار</div>
+        <div class="ft">٧٤٩ ريال / الشهر · تقدري تلغي في أي وقت</div>
+      </div></div>
+      <div class="ctl">
+        <div><div class="lbl">2 · Her situation (Q14)</div><div class="chips" id="sits">${[["A","Bedtime"],["B","Visits"],["C","Communication"],["D","Food"],["E","Transitions"],["F","Anger"],["default","Other / email link"]].map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${k==='F'}">${l}</button>`).join('')}</div></div>
+        <div><div class="lbl">3 · Her profile (subheadline)</div><div class="chips" id="profs">${[["0","Needs a starting point"],["1","Has a base to organize"],["2","Has a clear way"]].map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${k==='1'}">${l}</button>`).join('')}</div></div>
+        <div class="note">The headline changes with her situation; the subheadline changes with her profile. Her lowest-scoring area swaps the second half of the headline (see below).</div>
+      </div>
+    </div>
+    <div><div class="mono" style="color:var(--muted);margin-bottom:8px">How her weakest area changes the line (pick 1, anger)</div>
+      <div class="grid2">
+        <div class="tile"><h4>Patterns</h4><p class="ar" style="text-align:start;color:var(--fg)">${HL.dimension_variants["0"]}</p></div>
+        <div class="tile"><h4>Personalizing</h4><p class="ar" style="text-align:start;color:var(--fg)">${HL.dimension_variants["1"]}</p></div>
+        <div class="tile"><h4>Consistency</h4><p class="ar" style="text-align:start;color:var(--fg)">${HL.dimension_variants["2"]}</p></div>
+      </div>
+    </div>
+    <div><div class="mono" style="color:var(--muted);margin-bottom:8px">All 15, scored (written for anger)</div>
+      <div id="hlist" class="hlist"></div>
+    </div>
+    <div class="note"><b>Why the Copywriter picks direction 1:</b> she recognises her own moment first, which answers the assessment she just took (ليش نفس المواقف تتكرر؟), then gets one part of the how. It also reads most naturally across all six situations. Direction 2 turns abstract for visits and food; direction 3's lines work better lower on the page.</div>
+  </div></div>`,
   strategy: () => `
   <div class="report"><div class="report-h"><span class="mono">Brand Belief Strategist's report</span><span class="pill done">Done</span></div>
   <div class="report-b">
@@ -503,10 +565,24 @@ function renderView(){
   ib.onclick=()=>{id.hidden=!id.hidden; ib.setAttribute('aria-expanded',String(!id.hidden)); ib.textContent = id.hidden?'The idea +':'The idea −';};
   document.getElementById('prev').onclick=()=>go(cur-1);
   document.getElementById('next').onclick=()=>go(cur+1);
+  if(s.body==='headlines') wireHeadlines();
   view.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
     const t=b.dataset.copy; const done=()=>{b.lastChild.textContent='Copied'};
     try{navigator.clipboard.writeText(t).then(done,()=>{})}catch(e){}
   });
+}
+
+function wireHeadlines(){
+  const st={d:HL.recommended,k:'F',p:'1'};
+  const upd=()=>{
+    const d=HL.directions.find(x=>x.id===st.d);
+    document.getElementById('pv-h').textContent=d.by_situation[st.k];
+    document.getElementById('pv-s').textContent=HL.subheads[st.p];
+    document.getElementById('hlist').innerHTML=d.headlines.map(h=>`<div class="hrow ${h.top?'top':''}"><span class="s">${h.score}</span><div><div class="a">${h.ar}</div><div class="w">${h.why}</div></div></div>`).join('');
+    const c=document.querySelector('.action .copy'); if(c){const n=HL.directions.findIndex(x=>x.id===st.d)+1;c.dataset.copy=`I pick direction ${n}.`;c.firstChild.textContent=`I pick direction ${n}.`;}
+  };
+  const grp=(id,key)=>document.getElementById(id).querySelectorAll('button').forEach(b=>b.onclick=()=>{document.getElementById(id).querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');st[key]=b.dataset[key==='d'?'d':'k'];upd();});
+  grp('dirs','d');grp('sits','k');grp('profs','p');upd();
 }
 function go(n){ if(n<1||n>S.length) return; cur=n; try{history.replaceState(null,'','#step-'+n)}catch(e){location.hash='step-'+n} renderTrack(); renderView(); window.scrollTo({top:0}); }
 function fromHash(){ const m=/^#step-(\d)$/.exec(location.hash); if(m){cur=+m[1]} }
