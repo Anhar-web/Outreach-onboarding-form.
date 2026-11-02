@@ -178,7 +178,7 @@ const RUN = {
     {n:4, short:"Strategy", status:"working", title:"Belief, offer and voice",
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
-     action:{quiet:true, text:"Nothing yet: the Brand Belief Strategist is working. Offer and Arabic Voice start right after."}, body:"strategy"},
+     action:{quiet:true, text:"Nothing yet: the belief is written; the Offer Strategist and Arabic Voice Lead are working at the same time."}, body:"strategy"},
     {n:5, short:"Headlines", status:"todo", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
@@ -209,9 +209,9 @@ const RUN = {
     {k:"Po", name:"Positioning", what:"The one position", s:"done"},
     {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"done", client:true},
     {group:"Strategy", items:[
-      {k:"Be", name:"Brand Belief", what:"Point of view", s:"working"},
-      {k:"Of", name:"Offer", what:"Value without promises", s:"todo"},
-      {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"todo"}]},
+      {k:"Be", name:"Brand Belief", what:"Point of view", s:"done"},
+      {k:"Of", name:"Offer", what:"Value without promises", s:"working"},
+      {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"working"}]},
     {k:"Co", name:"Copywriter", what:"Headline options", s:"todo"},
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
@@ -230,12 +230,27 @@ const AUDIT = [
 ];
 const BLOCKS = {
   strategy: () => `
-  <div class="report"><div class="report-h"><span class="mono">Brand Belief Strategist's report</span><span class="pill working">Working</span></div>
-  <div class="report-b working">Brand Belief Strategist is working on it…</div></div>
-  <div class="report"><div class="report-h"><span class="mono">Offer Strategist's report</span><span class="pill todo">Next</span></div>
-  <div class="report-b">Starts when the belief is written.</div></div>
-  <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill todo">Next</span></div>
-  <div class="report-b">Starts when the belief is written.</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Brand Belief Strategist's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>She sees the day no session sees</h3><p>Your child grows in his real day at home, and the person who sees that day is you. So the plan is built from what you see, one thing at a time, adjusted with you as he responds, alongside his specialists.</p></div></div>
+    <figure class="quote"><p class="ar">طفلك يتعلم ويكبر في يومه الحقيقي في البيت، واللي يشوف هذا اليوم هو أنتي. عشان كذا نبني الخطة من اللي تشوفيه، نشتغل على شي واحد، ونعدّلها معاكي حسب استجابته، مع جلساته مو بدالها.</p><cite>The belief</cite></figure>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Three lines the page will carry</div>
+      <div class="grid2">
+        <div class="tile"><h4>Early on the landing</h4><p class="ar" style="text-align:start;color:var(--fg)">«اللي تشوفيه كل يوم مو تفاصيل جانبية. هو أهم معلومة عن طفلك.»</p></div>
+        <div class="tile"><h4>With the "how"</h4><p class="ar" style="text-align:start;color:var(--fg)">«ما نحاول نغيّر طفلك. نحاول نفهم يومه معاكي، ونختار أول شي نشتغل عليه.»</p></div>
+        <div class="tile"><h4>Near the price</h4><p class="ar" style="text-align:start;color:var(--fg)">«إذا تدوري علاج يشيل التوحد أو نتيجة مضمونة، هذي الخطة مو المكان المناسب لك…»</p></div>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="tile"><h4>Feels like</h4><p>Respect, partnership, relief from clarity, hope.</p></div>
+      <div class="tile"><h4>Never feels like</h4><p>Pity, an expert talking down, hype, a promise.</p></div>
+    </div>
+  </div></div>
+  <div class="report"><div class="report-h"><span class="mono">Offer Strategist's report</span><span class="pill working">Working</span></div>
+  <div class="report-b working">Offer Strategist is working on it…</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill working">Working</span></div>
+  <div class="report-b working">Arabic Voice Lead is working on it…</div></div>
   <div class="report"><div class="report-h"><span class="mono">Parked for later</span><span class="pill todo">Your note</span></div>
   <div class="report-b">
     <p style="margin:0">Waitlist button opens an on-page form (name + email). After submit, a thank-you page invites her to the WhatsApp waitlist group: emails can land in spam or promotions, WhatsApp gets seen.</p>
