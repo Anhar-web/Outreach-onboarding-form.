@@ -175,14 +175,14 @@ const RUN = {
      idea:["Her words before our words","The headline lands when it sounds like something she'd text a friend. Research comes first so the copy can borrow her language instead of inventing it."],
      action:{quiet:true, text:"<b>Gate 1 approved.</b> You said: “This looks great. Continue.”"},
      body:"research"},
-    {n:4, short:"Strategy", status:"working", title:"Belief, offer and voice",
+    {n:4, short:"Strategy", status:"done", title:"Belief, offer and voice",
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
      action:{quiet:true, quiet:false, text:"<b>Quick facts needed (not a gate).</b> The Offer Strategist found 7 things the page should tell her that only you know. Answer what you can in the chat; anything unanswered stays as a visible placeholder, never invented. Questions are in the Offer report below."}, body:"strategy"},
-    {n:5, short:"Headlines", status:"todo", title:"Pick the headline",
+    {n:5, short:"Headlines", status:"working", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
-     action:{quiet:true, text:"Not started. This is Gate 2: you'll pick the headline direction."}, body:null},
+     action:{quiet:true, text:"Nothing yet: the Copywriter is writing 15 headlines in 3 directions. This is Gate 2: you'll pick the direction."}, body:null},
     {n:6, short:"Copy", status:"todo", title:"Full page copy",
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
@@ -211,8 +211,8 @@ const RUN = {
     {group:"Strategy", items:[
       {k:"Be", name:"Brand Belief", what:"Point of view", s:"done"},
       {k:"Of", name:"Offer", what:"Value without promises", s:"done"},
-      {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"working"}]},
-    {k:"Co", name:"Copywriter", what:"Headline options", s:"todo"},
+      {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"done"}]},
+    {k:"Co", name:"Copywriter", what:"Headline options", s:"working"},
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
     {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
@@ -282,8 +282,30 @@ const BLOCKS = {
       </ol>
     </div>
   </div></div>
-  <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill working">Working</span></div>
-  <div class="report-b working">Arabic Voice Lead is working on it…</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>Saudi, warm, sure of itself</h3><p>Ten rules for this page, built from your own word preferences, with real fixes taken from the current page.</p></div></div>
+    <div class="tbl"><table>
+      <tr><th>Current page</th><th>New voice</th><th>Why</th></tr>
+      <tr><td class="ar">ماذا لو احتجت أغيّر الطريقة؟</td><td class="ar hl">طيب ولو احتجت أغيّر الطريقة؟</td><td>Formal → spoken</td></tr>
+      <tr><td class="ar">لا توجد نتيجة واحدة مضمونة</td><td class="ar hl">ما فيه نتيجة وحدة مضمونة</td><td>Formal → spoken</td></tr>
+      <tr><td class="ar">ويمكن أن تكون مكملة</td><td class="ar hl">تكمّل جلساته، مو بدالها</td><td>No hedging</td></tr>
+      <tr><td class="ar">تعدّلو · الجايه · تكسبِي</td><td class="ar hl">تعدّلوا · الجاية · تكسبي</td><td>Spelling</td></tr>
+      <tr><td class="ar">وتراجعي نتيجتها وتجدد تتغير مع نمو الطفل</td><td class="ar hl">نبدأ من يوم طفلك كامل، نختار مجال واحد نشتغل عليه، ونراجع الخطة معاكي كل أسبوعين.</td><td>Broken email-link subheadline</td></tr>
+    </table></div>
+    <div class="grid2">
+      <div class="tile"><h4>Always</h4><p>ايش · فين · تبغي · تحسي/تقدري (no extra ن) · tie every promise to whole day, one area, every two weeks · headlines 12 words or fewer.</p></div>
+      <div class="tile"><h4>Never</h4><p>يمكن/ممكن/ربما about the plan · formal Arabic · em dashes · "…" in headlines · blame · labels on the child · promised results · anything against specialists.</p></div>
+    </div>
+    <div>
+      <div class="mono" style="color:var(--you);margin-bottom:8px">Small spellings to confirm (defaults chosen)</div>
+      <div class="grid2">
+        <div class="tile"><h4>شيء <span class="tag">default</span></h4><p>Your docs use شيء, so the page does too (not شي).</p></div>
+        <div class="tile"><h4>انتي <span class="tag">default</span></h4><p>Matches your locked core line.</p></div>
+        <div class="tile"><h4>معاكي vs معاك</h4><p>Body copy uses معاكي. Keep your signature «أنا والقروب معاك» as is?</p></div>
+      </div>
+    </div>
+  </div></div>
   <div class="report"><div class="report-h"><span class="mono">Parked for later</span><span class="pill todo">Your note</span></div>
   <div class="report-b">
     <p style="margin:0">Waitlist button opens an on-page form (name + email). After submit, a thank-you page invites her to the WhatsApp waitlist group: emails can land in spam or promotions, WhatsApp gets seen.</p>
