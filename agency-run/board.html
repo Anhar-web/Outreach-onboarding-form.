@@ -170,10 +170,10 @@ const RUN = {
      idea:["Measure before you change","A soft audit makes a fake improvement later. The same ten items get scored again at the end, the same way, so the difference is real."],
      action:{quiet:true, text:"Nothing needed. One correction applied: you confirmed the 10 places are real, so the urgency item moves up."},
      body:"audit"},
-    {n:3, short:"Research", status:"working", title:"Research, market and positioning",
+    {n:3, short:"Research", status:"you", title:"Research, market and positioning",
      lede:"What mothers actually say, how many promises like ours they've already heard, and the one position the page will stand on.",
      idea:["Her words before our words","The headline lands when it sounds like something she'd text a friend. Research comes first so the copy can borrow her language instead of inventing it."],
-     action:{quiet:true, text:"Nothing yet: the Positioning Strategist is working. You'll review all four reports together here (Gate 1)."},
+     action:{quiet:false, text:"<b>Gate 1.</b> Read the positioning below (and the reports above it). Then tell the agency in the chat: go ahead, or what to change. Also confirm how your name is written in Arabic (أنهار?).", copy:"Positioning looks right. Go. My name in Arabic is أنهار."},
      body:"research"},
     {n:4, short:"Strategy", status:"todo", title:"Belief, offer and voice",
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
@@ -206,8 +206,8 @@ const RUN = {
       {k:"Au", name:"Auditor", what:"Scores today's page", s:"done"},
       {k:"Re", name:"Researcher", what:"What mothers say", s:"done"}]},
     {k:"Ma", name:"Market Analyst", what:"What she's already heard", s:"done"},
-    {k:"Po", name:"Positioning", what:"The one position", s:"working"},
-    {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"todo", client:true},
+    {k:"Po", name:"Positioning", what:"The one position", s:"done"},
+    {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"you", client:true},
     {group:"Strategy", items:[
       {k:"Be", name:"Brand Belief", what:"Point of view", s:"todo"},
       {k:"Of", name:"Offer", what:"Value without promises", s:"todo"},
@@ -339,8 +339,38 @@ const BLOCKS = {
       <tr><td>Anger</td><td>The whole-day view plus your real quote; self-harm always points to a specialist</td></tr>
     </table></div>
   </div></div>
-  <div class="report"><div class="report-h"><span class="mono">Positioning Strategist's report</span><span class="pill working">Working</span></div>
-  <div class="report-b working">Positioning Strategist is working on it…</div></div>`
+  <div class="report" id="positioning" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Positioning Strategist's report</span><span class="pill you">Needs you</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>Whole day. One area. Every two weeks.</h3><p>The mechanism the page stands on. No invented jargon: the product's own name explains it. The plan is "living" because it's adjusted every two weeks.</p></div></div>
+    <figure class="quote"><p class="ar">يومه كامل، مجال واحد، مراجعة كل أسبوعين.</p><p class="ar" style="font-size:16px;color:var(--muted)">نشوف يوم طفلك كامل، مو الموقف وحده. نختار مجال واحد نشتغل عليه. وكل أسبوعين نراجعه معاكي ونعدّله حسب استجابته.</p><cite>The mechanism, as it will read on the page</cite></figure>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Core positioning</div>
+      <p style="margin:0">Personal, ongoing guidance from you for Saudi mothers who already have tips, sessions and programs but nobody turning their child's real day into one plan. It works <b>alongside</b> his specialists, not instead of them.</p>
+      <p class="ar" style="margin:8px 0 0;font-size:17px">الخطة الحية متابعة شخصية مع أنهار، لكل أم جربت نصائح وجلسات وبرامج وما زالت نفس المواقف تتكرر. نبدأ من يوم طفلك كامل، نشتغل على مجال واحد، ونعدّل الخطة معاكي كل أسبوعين، مع جلساته مو بدالها.</p>
+    </div>
+    <figure class="quote"><p class="ar">انتي مو محتاجة تجمعي نصائح أكثر. تحتاجي خطة تبدأ من يوم طفلك، وتتعدل معاكي كل أسبوعين.</p><cite>Core message: your locked line, finished with the mechanism</cite></figure>
+    <div class="tbl"><table>
+      <tr><th>She's tried…</th><th>…which gives her</th><th>The Living Plan gives her</th></tr>
+      <tr><td>Tips and articles</td><td>More information</td><td class="hl">One priority and the next step</td></tr>
+      <tr><td>Sessions and centres</td><td>An hour with the child</td><td class="hl">Help with the other 23 hours at home</td></tr>
+      <tr><td>Programs and diets</td><td>A fixed plan that promises a result</td><td class="hl">A plan that changes with her child, and no false promise</td></tr>
+    </table></div>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Five differentiators</div>
+      <ol class="leaks">
+        <li><div><b>His whole day, not the behaviour alone</b><span>Bedtime is the end of his day; anger builds up before it. Your angry-child case is the proof.</span></div></li>
+        <li><div><b>One area at a time</b><span>Not ten tips a week. She leaves each review knowing the next step.</span></div></li>
+        <li><div><b>Reviewed every two weeks</b><span>Adjusted for hard days, setbacks and routine changes. Not a one-off session, not a fixed program.</span></div></li>
+        <li><div><b>A real person, in her dialect</b><span>You, plus a small group of mothers. The first group takes 10 mothers, said once.</span></div></li>
+        <li><div><b>Low risk for her</b><span>Works alongside his therapy. Monthly, cancel anytime, no promised outcome.</span></div></li>
+      </ol>
+    </div>
+    <div class="grid2">
+      <div class="tile"><h4>Use</h4><p>Her moment first, then the how · "you see what no session sees" · "the problem isn't effort" · introduce you early so «أنا» means someone · say what happens after the form.</p></div>
+      <div class="tile"><h4>Avoid</h4><p>Promised results (ينام، يهدأ، يتكلم) · cure words · "more tips" · "first of its kind" · blame · labels on the child · a second mention of the 10 places.</p></div>
+    </div>
+    <div class="flag"><b>Two decisions in this positioning:</b> it names you as the person behind the plan, and it says plainly who it's <i>not</i> for (anyone looking for a cure or a guaranteed result). If you'd rather stay in the background, say so now.</div>
+  </div></div>`
 };
 
 function gauge(v,max){
