@@ -178,7 +178,7 @@ const RUN = {
     {n:4, short:"Strategy", status:"working", title:"Belief, offer and voice",
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
-     action:{quiet:true, text:"Nothing yet: the belief is written; the Offer Strategist and Arabic Voice Lead are working at the same time."}, body:"strategy"},
+     action:{quiet:true, quiet:false, text:"<b>Quick facts needed (not a gate).</b> The Offer Strategist found 7 things the page should tell her that only you know. Answer what you can in the chat; anything unanswered stays as a visible placeholder, never invented. Questions are in the Offer report below."}, body:"strategy"},
     {n:5, short:"Headlines", status:"todo", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
@@ -210,7 +210,7 @@ const RUN = {
     {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"done", client:true},
     {group:"Strategy", items:[
       {k:"Be", name:"Brand Belief", what:"Point of view", s:"done"},
-      {k:"Of", name:"Offer", what:"Value without promises", s:"working"},
+      {k:"Of", name:"Offer", what:"Value without promises", s:"done"},
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"working"}]},
     {k:"Co", name:"Copywriter", what:"Headline options", s:"todo"},
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
@@ -247,8 +247,41 @@ const BLOCKS = {
       <div class="tile"><h4>Never feels like</h4><p>Pity, an expert talking down, hype, a promise.</p></div>
     </div>
   </div></div>
-  <div class="report"><div class="report-h"><span class="mono">Offer Strategist's report</span><span class="pill working">Working</span></div>
-  <div class="report-b working">Offer Strategist is working on it…</div></div>
+  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Offer Strategist's report</span><span class="pill you">Questions for you</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>We promise the method, not the result</h3><p>The offer now answers the three things the old page left hanging: who she'll work with, what she risks, and what happens after she taps the button.</p></div></div>
+    <figure class="quote"><p class="ar">نوعدك بالطريقة، مو بالنتيجة.</p><cite>The honest promise</cite></figure>
+    <div class="grid2">
+      <div class="tile"><h4>Who</h4><p class="ar" style="text-align:start;color:var(--fg)">أنا أنهار، وأنا اللي بشتغل معاكي على خطة طفلك.</p><p>Introduced before «أنا» is ever used.</p></div>
+      <div class="tile"><h4>Risk</h4><p class="ar" style="text-align:start;color:var(--fg)">اشتراك شهري، وتقدري تلغي في أي وقت.</p><p>Right under the price. Not a replacement for therapy. No guaranteed result.</p></div>
+      <div class="tile"><h4>Next</h4><p>A 4-step "after you tap the button" block. Joining the list is not a confirmed place.</p></div>
+      <div class="tile"><h4>Places</h4><p>The 10-mother first group, said once in the price block. No countdown.</p></div>
+    </div>
+    <div>
+      <div class="mono" style="color:var(--muted);margin-bottom:8px">Objection cards (6, was 6 with a duplicate)</div>
+      <div class="grid2">
+        <div class="tile"><h4>Isn't this free advice? <span class="tag">new</span></h4></div>
+        <div class="tile"><h4>ما عندي وقت</h4></div>
+        <div class="tile"><h4>جربت قبل / ولو ما ضبط</h4></div>
+        <div class="tile"><h4>٧٤٩ مو مبلغ بسيط <span class="tag">merged</span></h4></div>
+        <div class="tile"><h4>هل أنا السبب؟</h4></div>
+        <div class="tile"><h4>أكلم زوجي</h4></div>
+      </div>
+    </div>
+    <div class="note">The FAQ is rewritten in Saudi dialect (no more «ماذا لو» / «لا توجد»), and four items that repeated other sections are cut. The price is never compared to session costs or broken into "per day".</div>
+    <div>
+      <div class="mono" style="color:var(--you);margin-bottom:8px">Only you know these</div>
+      <ol class="leaks">
+        <li><div><b>After the form</b><span>How and when do you contact her? (WhatsApp, email, call; within how many days?)</span></div></li>
+        <li><div><b>Paying</b><span>When and how does she pay, and when does her first month start?</span></div></li>
+        <li><div><b>Cancelling</b><span>How does she cancel? (e.g. a message to you before the next month)</span></div></li>
+        <li><div><b>The two-week review</b><span>Is it a call, voice notes, or written?</span></div></li>
+        <li><div><b>Starting Point Map</b><span>When does she get it: on joining, or before her plan starts?</span></div></li>
+        <li><div><b>«القروب»</b><span>Is the group in «أنا والقروب معاك» the WhatsApp community bonus?</span></div></li>
+        <li><div><b>If the 10 fill</b><span>Does she stay on the list for the next group?</span></div></li>
+      </ol>
+    </div>
+  </div></div>
   <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill working">Working</span></div>
   <div class="report-b working">Arabic Voice Lead is working on it…</div></div>
   <div class="report"><div class="report-h"><span class="mono">Parked for later</span><span class="pill todo">Your note</span></div>
