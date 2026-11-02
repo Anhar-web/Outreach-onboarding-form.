@@ -1,0 +1,169 @@
+{
+  "recommended": "d1",
+  "recommendation_why": "d1 is the only direction that puts Anhar's «أنا» inside the headline itself, uses the client's own register for the pain («كل ليلة نفس المعركة»), and answers it in the same breath with something the service truly delivers: she won't face it alone. Each line is one thought in one voice (her battle, then Anhar's reply to it), not a scene glued to a method clause. The subheadline then does the Mindvalley job: who, what, how, and the pain removed (not starting from zero). d2 is the safest for clarity and is the best fit for the ?plan email link if the client wants a calmer default; d3 is the sharpest for TikTok ads and hooks.",
+  "directions": [
+    {
+      "id": "d1",
+      "name_en": "Her battle, named raw, and I'm in it with her",
+      "name_ar": "المعركة باسمها، وأنا معاكي فيها",
+      "rationale": "Names her daily battle in the words she would use herself, then Anhar answers in the same breath as «أنا»: she will not carry it alone. Extreme Love, first person, and a promise the service truly keeps (reviews every two weeks plus the group).",
+      "sub": "أنا أنهار، والخطة الحية متابعة شهرية معاي. أشوف يوم طفلك كامل، أبني معاكي خطة تركز على مجال واحد، وأراجعها معاكي كل أسبوعين عشان ما تبدأي من الصفر.",
+      "sub_en": "I'm Anhar, and The Living Plan is monthly, personal follow-up with me. I look at your child's whole day, build a plan with you that focuses on one area, and review it with you every two weeks so you don't start from zero.",
+      "by_situation": {
+        "A": {
+          "ar": "كل ليلة نفس المعركة وقت النوم؟ أنا معاكي فيها.",
+          "en": "Every night, the same battle at bedtime? I'm in it with you.",
+          "five_sec": "Bedtime is a nightly fight, and this woman is saying she'll be in it with me."
+        },
+        "B": {
+          "ar": "كل عزيمة صارت همّ وتحسبي لها ألف حساب؟ خليني أحسب حسابها معاكي.",
+          "en": "Every family gathering has become a worry you plan a thousand things for? Let me do that planning with you.",
+          "five_sec": "She knows how much I dread gatherings, and she'll prepare for them with me."
+        },
+        "C": {
+          "ar": "يبغى يقول لك شي وما يقدر، وقلبك يتقطع؟ خليني أفهمه معاكي.",
+          "en": "He wants to tell you something and can't, and your heart breaks? Let me understand him with you.",
+          "five_sec": "She knows how painful it is when he can't tell me, and she'll work on understanding him with me."
+        },
+        "D": {
+          "ar": "نفس الثلاث أكلات كل يوم، وخوفك عليه يكبر؟ خليني أشيله معاكي.",
+          "en": "The same three foods every day, and your worry for him keeps growing? Let me carry it with you.",
+          "five_sec": "My worry about his eating is seen, and I won't carry it alone."
+        },
+        "E": {
+          "ar": "كل ما تطفي الآيباد تبدأ معركة؟ خليني أوقف جنبك فيها.",
+          "en": "Every time you turn off the iPad, a battle starts? Let me stand by you in it.",
+          "five_sec": "Turning off the iPad is a fight every time, and she'll stand with me in it."
+        },
+        "F": {
+          "ar": "يومك كله على أعصابك، تستني متى يعصّب؟ أنا معاكي فيه.",
+          "en": "Your whole day on edge, waiting for when he'll get angry? I'm in it with you.",
+          "five_sec": "She knows I spend the day bracing for the next outburst, and she's offering to be with me in it."
+        },
+        "default": {
+          "ar": "نفس المواقف ترجع كل يوم، وأنتي تواجهيها لحالك؟ خلاص، أنا معاكي.",
+          "en": "The same situations come back every day, and you face them alone? That's it, I'm with you.",
+          "five_sec": "The things that keep repeating are hard and lonely, and now someone is with me."
+        }
+      }
+    },
+    {
+      "id": "d2",
+      "name_en": "Understand it, and know your next step",
+      "name_ar": "افهمي ليش، واعرفي من فين تبدأي",
+      "rationale": "The Mindvalley pattern made Saudi: a bold, outcome-led line that promises what she gets (she understands what keeps repeating and knows where to start), never what the child does. Built on the client's own sentence from the language file: «افهمي ليش نفس المواقف تتكرر مع طفلك ومن فين تبدأي».",
+      "sub": "أنا أنهار، وهذي الخطة الحية، متابعة شهرية معاي: أشوف يوم طفلك كامل، أختار معاكي أول مجال تبدأي فيه، وأراجع الخطة معاكي كل أسبوعين عشان تعرفي دايم خطوتك الجاية.",
+      "sub_en": "I'm Anhar, and this is The Living Plan, monthly follow-up with me: I look at your child's whole day, choose with you the first area to start on, and review the plan with you every two weeks so you always know your next step.",
+      "by_situation": {
+        "A": {
+          "ar": "افهمي ليش وقت النوم صار معركة كل ليلة، واعرفي من فين تبدأي.",
+          "en": "Understand why bedtime has become a battle every night, and know where to start.",
+          "five_sec": "I'll finally get why bedtime is a war, and I'll know where to begin."
+        },
+        "B": {
+          "ar": "افهمي ليش كل عزيمة صارت همّ، واعرفي كيف تجهزي لها.",
+          "en": "Understand why every family gathering has become a worry, and know how to prepare for it.",
+          "five_sec": "I'll understand why gatherings are so hard and know how to get ready for the next one."
+        },
+        "C": {
+          "ar": "افهمي ايش يحاول يقول لك، بدل ما تخمّني طول اليوم.",
+          "en": "Understand what he's trying to tell you, instead of guessing all day.",
+          "five_sec": "No more guessing all day: I'll work out what he's trying to tell me."
+        },
+        "D": {
+          "ar": "افهمي ليش كل لقمة جديدة صارت معركة، وابدئي معاه بدون ضغط.",
+          "en": "Understand why every new bite has become a battle, and start with him without pressure.",
+          "five_sec": "I'll understand the food battle and start new foods without forcing him."
+        },
+        "E": {
+          "ar": "افهمي ليش كل ما تطفي الآيباد ينقلب البيت، واعرفي ايش تسوي.",
+          "en": "Understand why the house turns upside down every time you turn off the iPad, and know what to do.",
+          "five_sec": "I'll get why the iPad switch-off explodes, and I'll know what to do about it."
+        },
+        "F": {
+          "ar": "افهمي ايش يصير في يومه قبل ما ينفجر، واعرفي من فين تبدأي.",
+          "en": "Understand what happens in his day before he explodes, and know where to start.",
+          "five_sec": "The outburst has a before; I'll see it and know where to begin."
+        },
+        "default": {
+          "ar": "افهمي ليش نفس المواقف تتكرر مع طفلك، واعرفي من فين تبدأي.",
+          "en": "Understand why the same situations keep repeating with your child, and know where to start.",
+          "five_sec": "I'll understand what keeps repeating and know where to start."
+        }
+      }
+    },
+    {
+      "id": "d3",
+      "name_en": "Against the ready-made advice",
+      "name_ar": "ضد النصيحة الجاهزة",
+      "rationale": "Love-or-hate: names the exact advice she has been handed for her situation (tire him out, cut down visits, every child talks in his time, let him get hungry, five more minutes, ignore him) and takes her side against it. Bold stance against generic tips, never against her or his specialists.",
+      "sub": "أنا أنهار، وما أعطيكي نصائح جاهزة: في الخطة الحية أبني معاكي خطة من يوم طفلك هو، مجال واحد في كل مرة، وأراجعها معاكي كل أسبوعين.",
+      "sub_en": "I'm Anhar, and I don't hand you ready-made tips: in The Living Plan I build a plan with you from your own child's day, one area at a time, and review it with you every two weeks.",
+      "by_situation": {
+        "A": {
+          "ar": "جربتي كل نصائح النوم ولسه نفس المعركة؟ لأنها ما تعرف طفلك.",
+          "en": "You've tried every sleep tip and it's still the same battle? Because they don't know your child.",
+          "five_sec": "The tips failed because they weren't about my child, not because of me."
+        },
+        "B": {
+          "ar": "قالوا لك قللي الطلعات والزيارات؟ أنتي تستاهلي تطلعي، وأنا أجهزها معاكي.",
+          "en": "They told you to cut down on outings and visits? You deserve to go out, and I'll prepare for them with you.",
+          "five_sec": "I don't have to stay home; she'll help me get ready to go out."
+        },
+        "C": {
+          "ar": "قالوا لك كل طفل يتكلم في وقته؟ وأنتي اليوم تبغي تفهميه.",
+          "en": "They told you every child talks in his own time? But you want to understand him today.",
+          "five_sec": "Someone finally gets that I can't just wait; I want to understand him now."
+        },
+        "D": {
+          "ar": "قالوا لك خليه يجوع وبياكل؟ أنا أبدأ معاكي من الأكل اللي ياكله.",
+          "en": "They told you let him get hungry and he'll eat? I start with you from the food he already eats.",
+          "five_sec": "No forcing: she starts from the foods he already accepts."
+        },
+        "E": {
+          "ar": "تقولي له باقي خمس دقايق، ولسه كل ما تطفي الآيباد تقوم القيامة؟",
+          "en": "You tell him 'five more minutes', and still every time you turn off the iPad all hell breaks loose?",
+          "five_sec": "That's exactly my evening: the five-minute warning doesn't work for him."
+        },
+        "F": {
+          "ar": "قالوا لك طنّشيه؟ أنا أسألك ايش صار في يومه قبل ما يعصّب.",
+          "en": "They told you to ignore him? I ask you what happened in his day before he got angry.",
+          "five_sec": "Instead of 'ignore it', she wants to know his whole day before the anger."
+        },
+        "default": {
+          "ar": "جربتي نصائح كثير ولسه نفس المواقف تتكرر؟ لأنها ما تعرف طفلك.",
+          "en": "You've tried lots of tips and the same situations still repeat? Because they don't know your child.",
+          "five_sec": "Generic tips didn't fit my child; this is about him."
+        }
+      }
+    }
+  ],
+  "dimension_subs": {
+    "0": {
+      "ar": "أنا أنهار، والخطة الحية متابعة شهرية معاي. أشوف معاكي يوم طفلك كامل عشان تشوفي ايش يتكرر قبل الموقف، وأراجع الخطة معاكي كل أسبوعين.",
+      "en": "I'm Anhar, and The Living Plan is monthly, personal follow-up with me. I look at your child's whole day with you so you can see what repeats before the moment, and I review the plan with you every two weeks."
+    },
+    "1": {
+      "ar": "أنا أنهار، والخطة الحية متابعة شهرية معاي. أبني الخطة من يوم طفلك واللي جربتيه قبل، مو من قائمة نصائح، وأراجعها معاكي كل أسبوعين.",
+      "en": "I'm Anhar, and The Living Plan is monthly, personal follow-up with me. I build the plan from your child's day and what you've already tried, not from a list of tips, and I review it with you every two weeks."
+    },
+    "2": {
+      "ar": "أنا أنهار، والخطة الحية متابعة شهرية معاي. أختار معاكي مجال واحد، وكل أسبوعين أراجع الخطة معاكي وأعدّلها، عشان ما تبدأي من الصفر كل مرة.",
+      "en": "I'm Anhar, and The Living Plan is monthly, personal follow-up with me. I choose one area with you, and every two weeks I review the plan with you and adjust it, so you don't start from zero every time."
+    }
+  },
+  "profile_subs": {
+    "0": {
+      "ar": "ما يحتاج تعرفي من فين تبدأي، أول خطوة أحددها معاكي.",
+      "en": "You don't need to know where to start; I set the first step with you."
+    },
+    "1": {
+      "ar": "عندك أساس من اللي جربتيه، وأرتبه معاكي في خطة وحدة.",
+      "en": "You have a foundation from what you've tried, and I organize it with you into one plan."
+    },
+    "2": {
+      "ar": "عندك طريقة تمشي عليها، وأبني عليها معاكي بدل ما تبدأي من جديد.",
+      "en": "You have an approach you follow, and I build on it with you instead of you starting over."
+    }
+  }
+}
