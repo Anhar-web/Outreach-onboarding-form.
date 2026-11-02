@@ -81,3 +81,6 @@ Client verdict on all 15 headlines: they sound clumsy and translated, "not an ex
 - "Understand why…" outcomes are lukewarm: understanding isn't a result; it sounds like a PDF. Outcomes must be things she wants to live (a calmer bedtime, a visit she enjoys), not knowledge.
 - Direction 3 ("against ready-made advice") rejected.
 - Supersedes positioning/offer wherever they put Anhar in the hero/sub (e.g. «أنا أنهار، وأنا اللي بشتغل معاكي…» above the CTA): remove.
+
+## 14. Gate 2 DECISION (client): approved
+Headlines = `headlines_v3.json` direction **m2** ("her battle, then stacked outcomes"), all situations A–F + default, exactly as written. Subheadline = `headlines_v3.json` `sub` (standard) and `dimension_subs` (by lowest dimension). English glosses are review-only: NO English text anywhere in the final build.
