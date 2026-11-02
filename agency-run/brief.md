@@ -58,3 +58,19 @@ Positioning approved as written ("Whole day. One area. Every two weeks."). Anhar
 
 ## 10. LATER (client note, do not build in this run unless asked)
 Waitlist flow change requested for a later step: clicking «احجزي مكانك في قائمة الانتظار» should open an on-page form (name + email). After submit, a thank-you page encourages her to join the WhatsApp waitlist group, explaining why (emails can get lost in spam/promotions; WhatsApp gets seen) and how to join. Needs: WhatsApp group invite link and where name/email are stored (likely the existing Apps Script → Airtable endpoint). Copy for these two screens can be drafted by the Copywriter as an appendix so it's ready.
+
+## 11. Gate 2 feedback (client, binding) — headlines REJECTED, redo
+Client verdict on all 15 headlines: they sound clumsy and translated, "not an expert's work"; scores are high in theory but not real when read. Specific problems:
+- "نفس الغضب يتكرر كل يوم؟" reads like a literal translation ("The same anger repeats every day").
+- **Half-written headlines**: first half (her scene) and second half (our method) sound like two different writers stitched together. E.g. «تقولي خلاص نسكّر الآيباد وتبدأ المشكلة؟ نشوف ايش يسبقها في يومه.» doesn't make sense as one thought. Applies to ALL situations. A headline must be ONE complete, coherent thought in one voice.
+- **Vague**: she has to work to figure out what we mean. Breaks "clear in 5 seconds".
+- **Lukewarm / apathetic**: violates Extreme Love ("never market with apathy; love or hate, never apathy"). Use words that make her FEEL. Her example for bedtime: "every day the same battle" (كل ليلة نفس المعركة).
+- Reference style: Mindvalley Mastery headlines (bold, identity/outcome-led, instantly clear, one confident voice, sub explains who/what/how). Client examples:
+  1. "Be the top 0.1% with Mindvalley Mastery" / sub: "Stay ahead of the curve ... elite Mastery programs designed to position you as a world leading expert..."
+  2. "Be in the Top 0.1% of Founders, CEOs & Executives Using AI" / sub: "Scale your income, reduce your workload, and future-proof your business — with hands-on, real-world AI mastery"
+  3. "Get More Followers. Build Real Authority. Join the Top 0.1% Who Monetize Their Message." / sub: "This is the proven system used by ... to grow fast, stand out online, and get paid for what they know — without wasting years trying to figure it out alone."
+  4. "MINDVALLEY MANIFESTING MASTERY"  5. "Master your own body, age gracefully and live a life of radiant health"  6. "MINDVALLEY SPEAKING & INFLUENCE MASTERY"
+- **First person, singular**: never refer to Anhar in third person («مع أنهار» is banned), and never sound like a company/team. Use «معاي», «أشتغل معاكي», «أراجع معاكي». Avoid «نحن/نشوف/نبدأ/نبني» where it implies a team; use singular «أشوف/أبدأ معاكي» or address her directly. (The WhatsApp group of mothers can still be «القروب».)
+
+## 12. Arabic language file (client, binding; overrides voice.md where they differ)
+`source/arabic_language_file.txt` is the Home Orbit Arabic Language & Voice System. Every Arabic-writing specialist must read it in full. Key overrides of voice.md: use **شي** (not شيء) in all new copy (locked Q14 answer labels inside the unchanged assessment stay as they are); use **أنتي / وأنتي** (not أنتِ, not انتي); **معاكي**; correct ما vs مو; no tanween-fath endings (تدريجيًا → بالتدريج); no em dash; no literal translation; native-speaker read-aloud test on every line.

@@ -1,3 +1,5 @@
+> **OVERRIDE (client, after Gate 2):** The client's own Arabic Language & Voice System (`source/arabic_language_file.txt`) is binding and wins over anything below. In particular: **شي not شيء** (C1 ruling below is reversed), **أنتي / وأنتي** (C2 reversed; never انتي or أنتِ), **معاكي**, first-person singular voice («معاي», never «مع أنهار», never a "we" that sounds like a team). See brief.md §11–12.
+
 # Voice guide: مدار البيت | الخطة الحية (Specialist 7, Arabic Voice Lead)
 
 Scope: every Arabic line after the score: result card, invite card (`LIVING_PLAN`), personalized landing (`LP_HEAD`, `LP_SUPPORT`, FAQ, objections) and the `?plan` / `?focus=` entries.
