@@ -170,15 +170,15 @@ const RUN = {
      idea:["Measure before you change","A soft audit makes a fake improvement later. The same ten items get scored again at the end, the same way, so the difference is real."],
      action:{quiet:true, text:"Nothing needed. One correction applied: you confirmed the 10 places are real, so the urgency item moves up."},
      body:"audit"},
-    {n:3, short:"Research", status:"you", title:"Research, market and positioning",
+    {n:3, short:"Research", status:"done", title:"Research, market and positioning",
      lede:"What mothers actually say, how many promises like ours they've already heard, and the one position the page will stand on.",
      idea:["Her words before our words","The headline lands when it sounds like something she'd text a friend. Research comes first so the copy can borrow her language instead of inventing it."],
-     action:{quiet:false, text:"<b>Gate 1.</b> Read the positioning below (and the reports above it). Then tell the agency in the chat: go ahead, or what to change. Also confirm how your name is written in Arabic (أنهار?).", copy:"Positioning looks right. Go. My name in Arabic is أنهار."},
+     action:{quiet:true, text:"<b>Gate 1 approved.</b> You said: “This looks great. Continue.”"},
      body:"research"},
-    {n:4, short:"Strategy", status:"todo", title:"Belief, offer and voice",
+    {n:4, short:"Strategy", status:"working", title:"Belief, offer and voice",
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
-     action:{quiet:true, text:"Not started."}, body:null},
+     action:{quiet:true, text:"Nothing yet: the Brand Belief Strategist is working. Offer and Arabic Voice start right after."}, body:"strategy"},
     {n:5, short:"Headlines", status:"todo", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
@@ -207,9 +207,9 @@ const RUN = {
       {k:"Re", name:"Researcher", what:"What mothers say", s:"done"}]},
     {k:"Ma", name:"Market Analyst", what:"What she's already heard", s:"done"},
     {k:"Po", name:"Positioning", what:"The one position", s:"done"},
-    {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"you", client:true},
+    {id:"you2", k:"You", name:"You, the client", what:"Gate 1: confirm direction", s:"done", client:true},
     {group:"Strategy", items:[
-      {k:"Be", name:"Brand Belief", what:"Point of view", s:"todo"},
+      {k:"Be", name:"Brand Belief", what:"Point of view", s:"working"},
       {k:"Of", name:"Offer", what:"Value without promises", s:"todo"},
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"todo"}]},
     {k:"Co", name:"Copywriter", what:"Headline options", s:"todo"},
@@ -229,6 +229,18 @@ const AUDIT = [
   ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
 ];
 const BLOCKS = {
+  strategy: () => `
+  <div class="report"><div class="report-h"><span class="mono">Brand Belief Strategist's report</span><span class="pill working">Working</span></div>
+  <div class="report-b working">Brand Belief Strategist is working on it…</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Offer Strategist's report</span><span class="pill todo">Next</span></div>
+  <div class="report-b">Starts when the belief is written.</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Arabic Voice Lead's report</span><span class="pill todo">Next</span></div>
+  <div class="report-b">Starts when the belief is written.</div></div>
+  <div class="report"><div class="report-h"><span class="mono">Parked for later</span><span class="pill todo">Your note</span></div>
+  <div class="report-b">
+    <p style="margin:0">Waitlist button opens an on-page form (name + email). After submit, a thank-you page invites her to the WhatsApp waitlist group: emails can land in spam or promotions, WhatsApp gets seen.</p>
+    <div class="note">Saved in the brief. The Copywriter will draft both screens as an appendix so they're ready. To build it later I'll need the WhatsApp group invite link.</div>
+  </div></div>`,
   brief: () => `
   <div class="report"><div class="report-h"><span class="mono">Strategist's brief</span><span class="pill done">Done</span></div>
   <div class="report-b">
@@ -339,7 +351,7 @@ const BLOCKS = {
       <tr><td>Anger</td><td>The whole-day view plus your real quote; self-harm always points to a specialist</td></tr>
     </table></div>
   </div></div>
-  <div class="report" id="positioning" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Positioning Strategist's report</span><span class="pill you">Needs you</span></div>
+  <div class="report" id="positioning" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Positioning Strategist's report</span><span class="pill done">Approved</span></div>
   <div class="report-b">
     <div class="big"><div><h3>Whole day. One area. Every two weeks.</h3><p>The mechanism the page stands on. No invented jargon: the product's own name explains it. The plan is "living" because it's adjusted every two weeks.</p></div></div>
     <figure class="quote"><p class="ar">يومه كامل، مجال واحد، مراجعة كل أسبوعين.</p><p class="ar" style="font-size:16px;color:var(--muted)">نشوف يوم طفلك كامل، مو الموقف وحده. نختار مجال واحد نشتغل عليه. وكل أسبوعين نراجعه معاكي ونعدّله حسب استجابته.</p><cite>The mechanism, as it will read on the page</cite></figure>
