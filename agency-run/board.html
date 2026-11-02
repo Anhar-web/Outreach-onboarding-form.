@@ -207,10 +207,10 @@ const RUN = {
      lede:"The brand's point of view, how to state the value without promising outcomes, and the Saudi Arabic voice guide this page writes in.",
      idea:["A page someone could love","Apathy is the real enemy. The page needs a belief a mother can nod at hard, written in the way she actually speaks."],
      action:{quiet:true, quiet:false, text:"<b>Quick facts needed (not a gate).</b> The Offer Strategist found 7 things the page should tell her that only you know. Answer what you can in the chat; anything unanswered stays as a visible placeholder, never invented. Questions are in the Offer report below."}, body:"strategy"},
-    {n:5, short:"Headlines", status:"you", title:"Pick the headline",
+    {n:5, short:"Headlines", status:"working", title:"Pick the headline",
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
-     action:{quiet:false, text:"<b>Gate 2.</b> Tap each direction and each situation to see the real headline on a phone. Then tell the agency which direction to build. You can also mix (e.g. direction 1 but use a line from 3).", copy:"I pick direction 1."}, body:"headlines"},
+     action:{quiet:true, text:"<b>You sent round 1 back.</b> Your notes: clumsy and translated, two half-headlines stitched together, vague, lukewarm, and «مع أنهار» instead of «معاي». The Copywriter is rewriting from your Arabic language file and the Mindvalley pattern. Round 1 stays below for reference."}, body:"headlines"},
     {n:6, short:"Copy", status:"todo", title:"Full page copy",
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
@@ -240,8 +240,8 @@ const RUN = {
       {k:"Be", name:"Brand Belief", what:"Point of view", s:"done"},
       {k:"Of", name:"Offer", what:"Value without promises", s:"done"},
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"done"}]},
-    {k:"Co", name:"Copywriter", what:"Headline options", s:"done"},
-    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"you", client:true},
+    {k:"Co", name:"Copywriter", what:"Headlines, round 2", s:"working"},
+    {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"todo", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"todo"},
     {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
     {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
@@ -260,7 +260,7 @@ const AUDIT = [
 ];
 const BLOCKS = {
   headlines: () => `
-  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Copywriter's headlines</span><span class="pill you">Needs you</span></div>
+  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Round 1 headlines (rejected)</span><span class="pill todo">Sent back</span></div>
   <div class="report-b">
     <div><div class="mono" style="color:var(--muted);margin-bottom:8px">1 · Pick a direction (tap to preview)</div>
       <div class="dirs" id="dirs">${HL.directions.map((d,i)=>{const t=d.headlines.find(h=>h.top);return `<button class="dir" data-d="${d.id}" aria-pressed="${d.id===HL.recommended}">${d.id===HL.recommended?'<span class="rec">Copywriter\'s pick</span>':''}<span class="nm">${i+1}. ${d.name.split('(')[1]?d.name.split('(')[1].replace(')',''):d.name}</span><span class="ar" style="font-size:13px;color:var(--muted)">${d.name.split(' (')[0]}</span><span class="h">${t.ar}</span><span class="sc">Score ${t.score}/100</span></button>`}).join('')}</div>
