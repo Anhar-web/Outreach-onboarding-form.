@@ -217,11 +217,11 @@ const RUN = {
      lede:"Three directions, five headlines each, scored. Shown across her situations (bedtime, visits, communication, food, transitions, anger) so you can see it personalize.",
      idea:["The headline carries the page","You choose the direction. It is the spine of the page, so the client decides, not the agency."],
      action:{quiet:true, text:"<b>Gate 2 approved: direction 2.</b> You said: “This is so much better. Let's go with the director's pick.” The English lines are for review only and won't be in the build."}, body:"headlines3"},
-    {n:6, short:"Copy", status:"working", title:"Full page copy",
+    {n:6, short:"Copy", status:"done", title:"Full page copy",
      lede:"Results card, Living Plan invite card and the landing, plus the full personalization matrix (situation × lowest dimension × profile).",
      idea:["One idea, said many ways","Every section returns to the core message instead of adding new claims."],
-     action:{quiet:true, text:"Nothing yet: the Copywriter is writing the results page, the invite card and the landing from your approved headlines, your language file and your notes. I'll review it before it reaches you."}, body:null},
-    {n:7, short:"Build", status:"todo", title:"The new page",
+     action:{quiet:true, text:"Done and reviewed. Nothing needed from you until Gate 3, but you can answer the placeholders any time."}, body:"copy"},
+    {n:7, short:"Build", status:"working", title:"The new page",
      lede:"The rebuilt post-score experience inside your existing app. Questions, scoring, images and data capture stay exactly as they are.",
      idea:["Clarity on a phone","She is reading with a child calling her. One clear action, short sections, nothing to decode."],
      action:{quiet:true, text:"Not started."}, body:null},
@@ -248,8 +248,8 @@ const RUN = {
       {k:"Vo", name:"Arabic Voice", what:"Saudi voice guide", s:"done"}]},
     {k:"Co", name:"Copywriter", what:"Headlines, round 2", s:"done"},
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"done", client:true},
-    {k:"Co", name:"Copywriter", what:"Full copy", s:"working"},
-    {k:"Bu", name:"UX + Builder", what:"The new page", s:"todo"},
+    {k:"Co", name:"Copywriter", what:"Full copy", s:"done"},
+    {k:"Bu", name:"UX + Builder", what:"The new page", s:"working"},
     {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"todo"},
     {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"todo", client:true},
     {k:"An", name:"Analyst", what:"What to measure", s:"todo"}
@@ -267,6 +267,36 @@ const AUDIT = [
   ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
 ];
 const BLOCKS = {
+  copy: () => `
+  <div class="report"><div class="report-h"><span class="mono">Copywriter's page, after my review</span><span class="pill done">Done</span></div>
+  <div class="report-b">
+    <div class="big"><div><h3>About her, half the length</h3><p>About 1,050 words on the landing instead of 1,850. «كل أسبوعين» appears twice instead of 14 times. You aren't named anywhere. «أراجع معاكي» appears once, inside "how it works".</p></div></div>
+    <div><div class="mono" style="color:var(--muted);margin-bottom:8px">The landing, top to bottom</div>
+    <div class="hlist">
+      ${[
+        ["Hero","Your approved headline for her situation + the subheadline for her weakest area"],
+        ["Problem","Changes with her situation (no longer stuck on bedtime)","جربتي كثير، ونفس الموقف يرجع"],
+        ["Reframe","The belief, then your core line","المشكلة مو إنك ما حاولتي كفاية"],
+        ["How it works","4 steps: questions, a two-week plan, try and notice, review and adjust","كيف تشتغل الخطة الحية؟"],
+        ["What she gets","5 inclusions, one line each","ايش يوصلك، عشان ما تبدأي من الصفر كل مرة"],
+        ["Proof","Your 3 real cases, facts unchanged, told about the mother","ثلاث تجارب حقيقية"],
+        ["Price","749, cancel anytime, 10 mothers once, who it's for and not for","ابدئي الخطة الحية مع الدفعة الأولى"],
+        ["Bonuses","Starting Point Map + WhatsApp community","ومع اشتراكك، توصلك هديتين"],
+        ["After the button","4 steps, with your placeholders","ايش يصير بعد ما تضغطي الزر؟"],
+        ["Objections","6 cards","اللي يدور في بالك قبل ما تقرري"],
+        ["Final call","Her Q15 words, if she wrote them","الموقف اللي يتعبك كل يوم، خليه أول شي تشتغلي عليه"],
+        ["FAQ","6 questions, Saudi dialect","الأسئلة الشائعة"]
+      ].map(([k,e,a])=>`<div class="sitrow"><span class="k">${k}</span><div>${a?`<div class="a">${a}</div>`:''}<div class="gloss">${e}</div></div></div>`).join('')}
+    </div></div>
+    <div><div class="mono" style="color:var(--muted);margin-bottom:8px">The problem section now changes per situation</div>
+    <div class="grid2">
+      <div class="tile"><h4>Communication</h4><p class="ar" style="text-align:start;color:var(--fg)">يمسك يدك ويوديك للمطبخ، وأنتي تخمّني: موية؟ أكل؟ شي ثاني؟ ولما ما توصلي للي يبغاه، يزيد بكاه ويزيد توترك. وجلسة النطق ساعة، وباقي اليوم معاكي.</p></div>
+      <div class="tile"><h4>Visits</h4><p class="ar" style="text-align:start;color:var(--fg)">قبل العزيمة بيوم وأنتي تفكري: كيف بيكون؟ ومتى نرجع؟ وأول ما تدخلوا، تقضي الوقت تلحقيه من غرفة لغرفة، والسوالف تفوتك.</p></div>
+    </div></div>
+    <div class="note"><b>My fixes before approving:</b> «والموقف نفسه يرجع» → «ونفس الموقف يرجع» (it read as a translation); «تخيلي تدخلي وقت النوم» → «تخيلي يجي وقت النوم…»; and the stiff passive «انسألت الأم» in the food case.</div>
+    <div class="flag"><b>Still marked as placeholders on the page (only you know these):</b> how and when you contact her after the form · when and how she pays · what happens if the 10 places fill · how she cancels. They show highlighted on the page until you fill them.</div>
+    <div class="note"><b>Ready for later:</b> the copy for the name + email form and the WhatsApp thank-you screen is written. It needs your group link before it's built.</div>
+  </div></div>`,
   headlines3: () => `
   <div class="report"><div class="report-h"><span class="mono">What the Mindvalley headlines actually do</span></div>
   <div class="report-b">
