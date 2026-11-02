@@ -52,3 +52,9 @@ Rule: headline = situation × lowest-dimension angle; subheadline shaped by prof
 
 ## 8. Gates
 Client chose to stop at every gate (1: audit+research+market+positioning, 2: headline pick, 3: after-score).
+
+## 9. Gate 1 decision (client)
+Positioning approved as written ("Whole day. One area. Every two weeks."). Anhar is named as the person behind the plan; Arabic spelling used: أنهار (client approved the positioning that uses it; reconfirm before launch). Page may say plainly who it's not for. Plan works alongside therapy.
+
+## 10. LATER (client note, do not build in this run unless asked)
+Waitlist flow change requested for a later step: clicking «احجزي مكانك في قائمة الانتظار» should open an on-page form (name + email). After submit, a thank-you page encourages her to join the WhatsApp waitlist group, explaining why (emails can get lost in spam/promotions; WhatsApp gets seen) and how to join. Needs: WhatsApp group invite link and where name/email are stored (likely the existing Apps Script → Airtable endpoint). Copy for these two screens can be drafted by the Copywriter as an appendix so it's ready.
