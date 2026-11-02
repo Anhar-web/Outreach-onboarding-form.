@@ -1,0 +1,35 @@
+{
+ "recommended":"m2",
+ "mindvalley":[
+  {"ex":"Be the top 0.1% with Mindvalley Mastery","does":"She is the subject. One bold outcome. No founder."},
+  {"ex":"Be in the Top 0.1% of Founders, CEOs & Executives Using AI / Scale your income, reduce your workload, and future-proof your business, with hands-on, real-world AI mastery","does":"Headline: who she is + outcome. Sub: three stacked outcomes, then how."},
+  {"ex":"Get More Followers. Build Real Authority. Join the Top 0.1% Who Monetize Their Message. / …without wasting years trying to figure it out alone.","does":"Stacked short commands, each an outcome. Sub ends by removing the pain."},
+  {"ex":"Master your own body, age gracefully and live a life of radiant health","does":"Three outcomes in one breath, each something you want to live, not just know."},
+  {"ex":"MINDVALLEY MANIFESTING MASTERY / SPEAKING & INFLUENCE MASTERY","does":"Product name as label only. Teachers appear later, in their own section."}
+ ],
+ "directions":[
+  {"id":"m1","name_en":"From the battle to the day she wants","name_ar":"من المعركة لليوم اللي تبغيه","rationale":"One sentence that travels from her challenge to the outcome. Very clear in five seconds.",
+   "by_situation":{
+    "A":{"ar":"من معركة كل ليلة، لوقت نوم أهدى وروتين يعرفه طفلك.","en":"From a battle every night, to a calmer bedtime and a routine your child knows."},
+    "B":{"ar":"من عزيمة تحسبي لها ألف حساب، لزيارة تروحيها وأنتي مرتاحة.","en":"From a gathering you worry about endlessly, to a visit you go to at ease."},
+    "C":{"ar":"من تخمين طول اليوم، لطريقة يوصّل لك فيها طفلك ايش يبغى.","en":"From guessing all day, to a way your child can tell you what he wants."},
+    "D":{"ar":"من نفس الثلاث أكلات كل يوم، لأكلات جديدة تدخل صحنه بالتدريج.","en":"From the same three foods every day, to new foods coming onto his plate, gradually."},
+    "E":{"ar":"من معركة كل ما تطفي الآيباد، ليوم يعرف فيه طفلك ايش الخطوة الجاية.","en":"From a battle every time you turn off the iPad, to a day where your child knows what comes next."},
+    "F":{"ar":"من يوم كله على أعصابك، ليوم تعرفي فيه ايش يسبق انفعاله وكيف تساعديه.","en":"From a whole day on edge, to a day where you know what comes before his outbursts and how to help him."},
+    "default":{"ar":"من مواقف تتكرر كل يوم، ليوم تعرفي فيه بالضبط ايش تسوي.","en":"From situations that repeat every day, to days where you know exactly what to do."}}},
+  {"id":"m2","name_en":"Name the battle, then stack the outcomes","name_ar":"المعركة، وبعدها اللي تبغيه","rationale":"Her challenge as a short question she says yes to, then Mindvalley-style stacked commands, each one an outcome she wants to live.",
+   "by_situation":{
+    "A":{"ar":"كل ليلة نفس المعركة؟ خلي وقت النوم أهدى، وروتينه أوضح، ولياليكم أخف.","en":"The same battle every night? Make bedtime calmer, his routine clearer, and your nights lighter."},
+    "B":{"ar":"كل عزيمة صارت همّ؟ روحي وأنتي مرتاحة، واستمتعي بوقتك مع أهلك.","en":"Every gathering has become a worry? Go at ease, and enjoy your time with your family."},
+    "C":{"ar":"تخمّني طول اليوم ايش يبغى؟ افهمي إشاراته، وخليه يوصل لك اللي يحتاجه بطريقته.","en":"Guessing all day what he wants? Understand his signals, and let him get across what he needs, his way."},
+    "D":{"ar":"نفس الثلاث أكلات كل يوم؟ خلي الأكل الجديد يدخل صحنه بالتدريج، وبدون معارك.","en":"The same three foods every day? Let new food come onto his plate gradually, without battles."},
+    "E":{"ar":"كل ما تطفي الآيباد تبدأ معركة؟ خلي الانتقال أوضح له، وأسهل عليكم.","en":"Every time you turn off the iPad a battle starts? Make the switch clearer for him, and easier for all of you."},
+    "F":{"ar":"يومك كله على أعصابك؟ اعرفي ايش يسبق انفعاله، وكيف تساعديه يهدأ.","en":"Your whole day on edge? Know what comes before his outbursts, and how to help him calm down."},
+    "default":{"ar":"نفس المواقف تتكرر كل يوم؟ وقفي الحلول المتفرقة، وابدئي بخطة تناسب طفلك.","en":"The same situations every day? Stop the scattered fixes, and start with a plan that fits your child."}}}
+ ],
+ "sub":{"ar":"خطة شخصية مبنية على يوم طفلك كامل، تركز على تحدي واحد، وتتعدل كل أسبوعين حسب استجابته. بدون ما تضيعي شهور وأنتي تجربي نصائح متفرقة لحالك.","en":"A personal plan built on your child's whole day, focused on one challenge, adjusted every two weeks to how he responds. Without wasting months trying scattered tips on your own."},
+ "dimension_subs":{
+  "0":{"ar":"خطة شخصية مبنية على يوم طفلك كامل، تشوفي فيها ايش يتكرر قبل الموقف، وتتعدل كل أسبوعين حسب استجابته. بدون ما يفاجئك نفس الموقف كل مرة.","en":"A personal plan built on your child's whole day, showing you what repeats before the moment, adjusted every two weeks. Without the same moment catching you off guard every time."},
+  "1":{"ar":"خطة شخصية مبنية على طفلك أنتي، مو على نصيحة تنطبق على كل الأطفال، وتتعدل كل أسبوعين حسب استجابته. بدون ما تضيعي شهور تجربي نصائح متفرقة.","en":"A personal plan built on your child, not on advice meant for every child, adjusted every two weeks. Without wasting months on scattered tips."},
+  "2":{"ar":"خطة شخصية تركز على تحدي واحد، بخطوات واضحة تمشي عليها، وتتعدل كل أسبوعين حسب استجابته. بدون ما تبدأي من الصفر كل مرة.","en":"A personal plan focused on one challenge, with clear steps to follow, adjusted every two weeks. Without starting from zero every time."}}
+}

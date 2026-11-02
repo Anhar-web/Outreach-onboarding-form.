@@ -74,3 +74,10 @@ Client verdict on all 15 headlines: they sound clumsy and translated, "not an ex
 
 ## 12. Arabic language file (client, binding; overrides voice.md where they differ)
 `source/arabic_language_file.txt` is the Home Orbit Arabic Language & Voice System. Every Arabic-writing specialist must read it in full. Key overrides of voice.md: use **شي** (not شيء) in all new copy (locked Q14 answer labels inside the unchanged assessment stay as they are); use **أنتي / وأنتي** (not أنتِ, not انتي); **معاكي**; correct ما vs مو; no tanween-fath endings (تدريجيًا → بالتدريج); no em dash; no literal translation; native-speaker read-aloud test on every line.
+
+## 13. Gate 2 round 2 feedback (client, binding)
+- Formula: **start with her challenge/scene, then turn it into a desirable outcome** (Mindvalley starts with the outcome; we start with the challenge and continue to the outcome). Study the Mindvalley examples in §11 as the model.
+- **The page is about HER, never about Anhar.** No «أنا معاكي», no «أنا أنهار», no founder in the headline, subheadline, or anywhere persuasive. It read as self-centred and "misery loves company". Mindvalley only names teachers in a dedicated teachers section. First person is allowed ONLY when explaining how the Living Plan works (e.g. «تجاوبي على أسئلة، وبعدها أجهز لك خطة لأسبوعين»), and even there, prefer phrasing about what SHE gets («توصلك خطة...»).
+- "Understand why…" outcomes are lukewarm: understanding isn't a result; it sounds like a PDF. Outcomes must be things she wants to live (a calmer bedtime, a visit she enjoys), not knowledge.
+- Direction 3 ("against ready-made advice") rejected.
+- Supersedes positioning/offer wherever they put Anhar in the hero/sub (e.g. «أنا أنهار، وأنا اللي بشتغل معاكي…» above the CTA): remove.
