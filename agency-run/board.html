@@ -225,10 +225,10 @@ const RUN = {
      lede:"The rebuilt post-score experience inside your existing app. Questions, scoring, images and data capture stay exactly as they are.",
      idea:["Clarity on a phone","She is reading with a child calling her. One clear action, short sections, nothing to decode."],
      action:{quiet:true, text:"Built. Open the preview and take the assessment while the Test Panel reads it."}, body:"build"},
-    {n:8, short:"Test", status:"working", title:"After score",
+    {n:8, short:"Test", status:"you", title:"After score",
      lede:"Three sceptical mothers and a hostile critic read the new page, then it is re-scored on the same 100 points.",
      idea:["Test before you trust","If the sceptics can still poke holes, the page goes back to the writer."],
-     action:{quiet:true, text:"Not started. This is Gate 3: you approve, or ask for changes."}, body:null},
+     action:{quiet:false, text:"<b>Gate 3.</b> The page went from 61 to 82. Tell me: (1) add a short 'who you'll work with' section, yes or no; (2) use the three proposed headlines, yes or no; (3) the four facts, if you have them. I'll apply the Arabic fixes either way unless you object.", copy:"Go: apply the fixes, use the 3 new headlines, and yes to the who-you'll-work-with section."}, body:"test"},
     {n:9, short:"Measure", status:"todo", title:"What to measure",
      lede:"What to track after launch, and the first test to run.",
      idea:["The page is a hypothesis","Launch is the first experiment, not the finish line."],
@@ -250,8 +250,8 @@ const RUN = {
     {id:"you3", k:"You", name:"You, the client", what:"Gate 2: pick headline", s:"done", client:true},
     {k:"Co", name:"Copywriter", what:"Full copy", s:"done"},
     {k:"Bu", name:"UX + Builder", what:"The new page", s:"done"},
-    {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"working"},
-    {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"todo", client:true},
+    {k:"Tp", name:"Test Panel", what:"Sceptics + after score", s:"done"},
+    {id:"you4", k:"You", name:"You, the client", what:"Gate 3: approve", s:"you", client:true},
     {k:"An", name:"Analyst", what:"What to measure", s:"todo"}
   ]
 };
@@ -267,6 +267,51 @@ const AUDIT = [
   ["Objections and risk",7,10],["One clear action",6,8],["Honest urgency",4,5,"was 1/5 before you confirmed the 10 places"],["Skim path and length",3,5]
 ];
 const BLOCKS = {
+  test: () => {
+    const rows=[["Clear in five seconds",8,12,15],["Headline promise",8,12,15],["Message–market match",7,10,12],["Reframe and mechanism",8,11,14],["Proof",5,6,10],["Offer clarity",5,6,8],["Objections and risk",7,9,10],["One clear action",6,7,8],["Honest urgency",4,5,5],["Skim path and length",3,4,5]];
+    return `
+  <div class="report" style="border:2px solid var(--you)"><div class="report-h"><span class="mono">Test Panel's report</span><span class="pill you">Needs you</span></div>
+  <div class="report-b">
+    <div class="big">${gauge(82,100)}<div><h3>82 / 100, up from 61</h3><p>Five mothers and a hostile critic read the page cold. No blame, no labels on the child, no promised outcomes, no fake urgency, and you're absent from every persuasive area.</p></div></div>
+    <div class="bars">${rows.map(([l,b,a,m])=>`<div class="bar"><span>${l}</span><div class="track2" style="position:relative"><div class="fill" style="width:${a/m*100}%"></div><div style="position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--fg);opacity:.55;inset-inline-start:${b/m*100}%" title="before"></div></div><b>${b}→${a}</b></div>`).join('')}</div>
+    <div class="note">The dark tick on each bar is the before score.</div>
+  </div></div>
+
+  <div class="report"><div class="report-h"><span class="mono">Decisions only you can make</span><span class="pill you">Needs you</span></div>
+  <div class="report-b">
+    <ol class="leaks">
+      <li><div><b>A short "who you'll work with" section</b><span>This is the biggest gap left. Step 4 says «أراجع معاكي», but she never learns who that is or what a review looks like (call? WhatsApp voice notes? how long?). Like Mindvalley's teachers section, it would sit after the proof, never in the hero. Want it? If yes: 2–3 lines about your background, and the review format.</span></div></li>
+      <li><div><b>Three headlines to strengthen</b><span>Anger, communication and the default still promise "knowing" (اعرفي / افهمي), which you called lukewarm. Proposed:</span>
+        <div class="tbl" style="margin-top:8px"><table>
+          <tr><th>Now</th><th>Proposed</th></tr>
+          <tr><td class="ar">يومك كله على أعصابك؟ اعرفي ايش يسبق انفعاله، وكيف تساعديه يهدأ.</td><td class="ar hl">طول اليوم وأنتي على أعصابك؟ خلي يومكم أهدى، وتعاملي مع انفعاله وأنتي عارفة ايش تسوي.</td></tr>
+          <tr><td class="ar">تخمّني طول اليوم ايش يبغى؟ افهمي إشاراته، وخليه يوصل لك اللي يحتاجه بطريقته.</td><td class="ar hl">تخمّني طول اليوم ايش يبغى؟ خليه يوصل لك اللي يحتاجه بطريقته، وارتاحي من التخمين.</td></tr>
+          <tr><td class="ar">نفس المواقف تتكرر كل يوم؟ وقفي الحلول المتفرقة، وابدئي بخطة تناسب طفلك.</td><td class="ar hl">نفس المواقف تتكرر كل يوم؟ خلي يومكم أهدى، وكل خطوة واضحة قدامك.</td></tr>
+        </table></div></div></li>
+      <li><div><b>The four facts</b><span>How and when you contact her · when and how she pays · what happens if the 10 fill · how she cancels.</span></div></li>
+    </ol>
+  </div></div>
+
+  <div class="report"><div class="report-h"><span class="mono">Fixes I'll make once you say go</span></div>
+  <div class="report-b">
+    <div class="tbl"><table>
+      <tr><th>On the page now</th><th>Natural rewrite</th></tr>
+      <tr><td class="ar">…حسب استجابته. بدون ما تضيعي شهور وأنتي تجربي نصائح متفرقة لحالك.</td><td class="ar hl">…حسب استجابته، وما تضيعي شهور تجربي نصائح متفرقة لحالك.</td></tr>
+      <tr><td class="ar">بدون ما يفاجئك نفس الموقف كل مرة.</td><td class="ar hl">وتعرفي الموقف قبل لا يجي، بدل ما يفاجئك كل مرة.</td></tr>
+      <tr><td class="ar">مراجعة تفاعلية منتظمة</td><td class="ar hl">مراجعة معاكي كل أسبوعين</td></tr>
+      <tr><td class="ar">…جزء من الخطة، مو فشل لها.</td><td class="ar hl">…جزء من الخطة، مو دليل إنها ما نفعت.</td></tr>
+      <tr><td class="ar">وتحطي انتباهك على أهم خطوة</td><td class="ar hl">وتركزي على أهم خطوة</td></tr>
+      <tr><td class="ar">يوصلك تواصل…</td><td class="ar hl">يوصلك رد…</td></tr>
+      <tr><td class="ar">بان إن الحساسية والضغط جزء مهم من الصورة</td><td class="ar hl">بان إن فيه أشياء في يومه تضايقه وتضغط عليه، وهذا جزء مهم من الصورة</td></tr>
+      <tr><td class="ar">لكن الطريقة اللي تنفع ما تمشي دايم بنفس الوضوح.</td><td class="ar hl">بس اللي ينفع مرة، مو دايم يكون واضح قدامك المرة الجاية.</td></tr>
+      <tr><td class="ar">ويرمي الأغراض، ويصعب يهدأ.</td><td class="ar hl">ويرمي الأغراض، وما يهدأ بسهولة.</td></tr>
+    </table></div>
+    <div class="grid2">
+      <div class="tile"><h4>Her result stays</h4><p>Right now a refresh after the assessment loses her result. I'll keep it for the rest of her visit.</p></div>
+      <div class="tile"><h4>Low scores, honestly</h4><p>A mother with 3/12 shouldn't read «أقوى شي». The wording will match her score.</p></div>
+      <div class="tile"><h4>Polish</h4><p>Remove the underline on the invite button; «علاج يشيل التوحد» → «علاج للتوحد».</p></div>
+    </div>
+  </div></div>`;},
   build: () => `
   <div class="report"><div class="report-h"><span class="mono">UX + Builder's report</span><span class="pill done">Done</span></div>
   <div class="report-b">
