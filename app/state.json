@@ -1,7 +1,7 @@
 {
   "project": "Home Orbit — Batch 1 (10 static posts)",
-  "updatedAt": "2026-11-03T16:43:41.572417+00:00",
-  "currentStep": 3,
+  "updatedAt": "2026-11-03T16:51:30.744668+00:00",
+  "currentStep": 4,
   "steps": [
     {
       "n": 1,
@@ -40,7 +40,7 @@
       "key": "research",
       "title": "Research",
       "subtitle": "The Audience Researcher and Market Analyst work in parallel.",
-      "status": "needs-you",
+      "status": "done",
       "idea": {
         "title": "Her words, and what the market has already heard",
         "body": "We write in the mother's own language, and aim where the 50 generic accounts aren't."
@@ -56,7 +56,7 @@
       "key": "hooks",
       "title": "Angles & hooks",
       "subtitle": "The Hook Specialist writes 3 angles with 4–6 scored hooks each.",
-      "status": "idle",
+      "status": "working",
       "idea": {
         "title": "The hook carries most of the result",
         "body": "An angle is the way in; a hook is the exact first line that delivers it."
@@ -65,7 +65,7 @@
         "label": "Pick or push back on the hooks.",
         "phrase": "These are good. Build concepts."
       },
-      "report": ""
+      "report": "*The Hook Specialist is writing 3 angles × 4–6 Arabic hooks…*"
     },
     {
       "n": 5,
@@ -172,7 +172,7 @@
         "key": "hk",
         "name": "Hook Specialist",
         "role": "Angles and hooks",
-        "status": "idle"
+        "status": "working"
       },
       {
         "key": "cw",
