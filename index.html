@@ -840,6 +840,7 @@ function strengthText(i, score){
   return STRENGTH_LOW_LEAD[i] + (rest ? '\n'+rest : '');
 }
 const STRENGTH_ALL_TIE = "عندك أساس في أكثر من جانب. والخطوة الجاية إنك تحددي الجانب اللي يحتاج تركيز أكثر.";
+const STRENGTH_ALL_TIE_LOW = "عندك بداية في كل جانب. والخطوة الجاية إنك تختاري جانب واحد تركزي عليه أول.";
 
 const OPPORTUNITIES = [
   "أكبر فرصة عندك إنك تعرفي ايش يسبق الموقف، عشان تستعدي له قبل ما يصير.\nلما تشوفي النمط اللي يتكرر، تختاري خطوة تناسب الموقف، بدل ما يكون سؤالك كل مرة: ايش أسوي دحين؟",
@@ -918,12 +919,13 @@ const THANKS = {
   button:"انضمي لقروب الواتساب",
   linkTbc:"[للتأكيد: رابط القروب]",
   small:"يفتح لك الواتساب، وبعدها اضغطي «انضمام».",
-  back:"رجوع لنتيجتي"
+  back:"رجوع لنتيجتي",
+  backNoResult:"رجوع للصفحة"
 };
 /* R9 capacity bar (Arabic-Indic digits, no countdown) */
 const CAP = {
   capacityOnly:(cap)=>`الدفعة الأولى تستقبل ${toAr(cap)} أمهات فقط`,
-  demand:(cap,n)=>`${toAr(cap)} أماكن في الدفعة الأولى، و${toAr(n)} أم في قائمة الانتظار`
+  demand:(cap,n)=>`${toAr(cap)} أماكن في الدفعة الأولى، و${toAr(n)} ${n<=10?'أمهات':'أم'} في قائمة الانتظار`
 };
 
 /* ============================================================
@@ -1111,7 +1113,7 @@ function renderResults(r){
   const s = el('section','screen result-screen');
 
   const strengthHtml = (r.strongest.length===3)
-    ? `<p>${STRENGTH_ALL_TIE}</p>`
+    ? `<p>${r.dims[0] <= 6 ? STRENGTH_ALL_TIE_LOW : STRENGTH_ALL_TIE}</p>`
     : r.strongest.map(i=>`<p>${strengthText(i, r.dims[i])}</p>`).join('');
 
   const sit = SITUATIONS[r.sitKey] || SITUATIONS.G;
@@ -1695,7 +1697,7 @@ function renderThanks(){
     <div class="wl-thanks-actions">
       ${wa}
       <p class="wl-small" style="margin:0 0 8px">${THANKS.small}</p>
-      <button type="button" class="btn btn-ghost btn-wide" id="wl-back">${THANKS.back}</button>
+      <button type="button" class="btn btn-ghost btn-wide" id="wl-back">${state.r ? THANKS.back : THANKS.backNoResult}</button>
     </div>`;
   document.getElementById('wl-back').addEventListener('click', ()=>{
     const v = baseView();
