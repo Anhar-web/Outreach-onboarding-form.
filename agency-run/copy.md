@@ -170,7 +170,7 @@ eyebrow: الخطة الحية من مدار البيت
 headline: m2 by situation (matrix D1)
 sub: by dimension (matrix D2)
 button: احجزي مكانك في قائمة الانتظار
-micro-line under button: ٧٤٩ ريال في الشهر، وتقدري تلغي في أي وقت.
+micro-line under button: (removed by client)
 
 `?plan` (email entry) and any missing situation: headline = m2 `default`, sub = standard `sub` (see D3).
 
