@@ -486,3 +486,7 @@ secondary: رجوع لنتيجتي
 - While waitlist count < capacity, or unknown: «الدفعة الأولى تستقبل ١٠ أمهات فقط»
 - When waitlist count ≥ capacity: «١٠ أماكن في الدفعة الأولى، و{n} أم في قائمة الانتظار»
 Numbers in Arabic-Indic digits. No countdown, no "spots left".
+
+
+### Client edits via preview comments (applied)
+- Reframe: «أغلب النصائح مكتوبة بشكل عام، مو لكل طفل.» · hero price micro-line removed · food problem «وأي أكل جديد تحطيه في صحنه يرفضه.» · price block «مو اشتراك في نصائح. هي» removed · no sessions/specialists/autism anywhere (brief §16) · objection 1 «بالضبط» removed · objection 3 «ما في وعد» · FAQ «كيف تكون الخطة مناسبة لطفلي، والمتابعة كلها أونلاين؟» · invite button «اعرفي أكثر عن الخطة الحية» · FAQ «كيف ألغي الاشتراك؟» removed (waitlist page, not checkout).
