@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Social Media Agency</title>
+<style>
+:root{--bg:#faf9f6;--card:#ffffff;--ink:#1b1a18;--muted:#6b6862;--line:#e6e3dc;--accent:#4f46e5;--accent-soft:#eef0ff;--idle:#a8a49c;--working:#d79a0b;--done:#1d9a53;--dark:#1f1e1c;--dark-ink:#f3f2ee}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--card:#201f1c;--ink:#ecebe7;--muted:#9c988f;--line:#33312d;--accent:#8b86ff;--accent-soft:#25244a;--idle:#5f5c56;--dark:#0f0e0d;--dark-ink:#ecebe7}}
+:root[data-theme="dark"]{--bg:#171614;--card:#201f1c;--ink:#ecebe7;--muted:#9c988f;--line:#33312d;--accent:#8b86ff;--accent-soft:#25244a;--idle:#5f5c56;--dark:#0f0e0d;--dark-ink:#ecebe7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 60px}
+.serif{font-family:Georgia,"Times New Roman",serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.logo{width:42px;height:42px;border-radius:10px;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:700}
+header h1{font-size:20px;margin:0}
+.chip{border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--muted)}
+.spacer{flex:1}
+button{font:inherit;cursor:pointer}
+.toggle{background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px}
+.stepper{display:flex;justify-content:space-between;position:relative;margin:8px 0 22px;overflow-x:auto;padding-bottom:4px}
+.stepper:before{content:"";position:absolute;left:18px;right:18px;top:17px;height:2px;background:var(--line);z-index:0}
+.st{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:58px;background:none;border:0;color:var(--ink);padding:0}
+.dot{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:600;font-size:13px;color:#fff;background:var(--idle);border:3px solid var(--bg)}
+.st.cur .dot{box-shadow:0 0 0 2px var(--accent)}
+.st.sel .lbl{font-weight:700;color:var(--ink)}
+.lbl{font-size:11px;color:var(--muted);text-align:center;max-width:72px;line-height:1.2}
+.s-idle{background:var(--idle)}.s-working{background:var(--working)}.s-needs-you{background:var(--accent)}.s-done{background:var(--done)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:22px}
+.pill{display:inline-block;border-radius:999px;padding:2px 9px;font-size:11px;font-weight:600;color:#fff}
+.det h2{font-size:30px;margin:6px 0 2px}
+.sub{font-style:italic;color:var(--muted);margin:0 0 14px}
+details.idea{background:var(--dark);color:var(--dark-ink);border-radius:10px;padding:12px 14px;margin:12px 0}
+details.idea summary{cursor:pointer;font-size:13px}
+details.idea h4{margin:10px 0 4px;font-family:Georgia,serif;font-size:17px}
+.action{border:2px solid var(--accent);border-radius:12px;padding:14px;margin:14px 0}
+.action .row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.send{margin-top:10px;background:var(--accent);color:#fff;border:0;border-radius:9px;padding:10px 14px;font-weight:600}
+.hint{font-size:12px;color:var(--muted);margin-top:6px}
+.md table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:13px}
+.md th,.md td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.md blockquote{border-left:3px solid var(--accent);margin:8px 0;padding:2px 12px;color:var(--muted)}
+.md code{background:var(--accent-soft);padding:1px 5px;border-radius:4px;font-size:12.5px}
+.md h1,.md h2,.md h3{font-family:Georgia,serif}
+h3.sec{font-family:Georgia,serif;font-size:22px;margin:30px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.sp{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;gap:10px;align-items:center}
+.av{width:34px;height:34px;border-radius:50%;color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700;flex:none;text-transform:uppercase}
+.sp b{display:block;font-size:13px}.sp span{font-size:12px;color:var(--muted)}
+.sc{display:grid;grid-template-columns:150px 1fr 40px;gap:10px;align-items:center;margin:6px 0;font-size:13px}
+.bar{height:8px;background:var(--line);border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.cc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.cc.picked{border:2px solid var(--accent)}.cc.rejected{opacity:.45}
+.tag{display:inline-block;font-size:11px;border-radius:6px;padding:1px 7px;margin-right:4px;border:1px solid var(--line);color:var(--muted)}
+.j-attention{background:#fde8d4;color:#8a4a0f;border:0}.j-trust{background:#d9efe2;color:#14653a;border:0}.j-conversion{background:var(--accent-soft);color:var(--accent);border:0}
+.rtl{direction:rtl;text-align:right;background:var(--bg);border-radius:8px;padding:10px 12px;margin:8px 0;white-space:pre-wrap;font-size:16px;line-height:1.8}
+.gloss{font-style:italic;color:var(--muted);font-size:13px}
+.score{float:right;border-radius:999px;padding:2px 10px;color:#fff;font-weight:700;font-size:13px}
+.note{background:var(--accent-soft);border-radius:10px;padding:12px;font-size:13px;margin-top:10px}
+.wait{text-align:center;padding:80px 0;color:var(--muted)}
+</style>
+</head>
+<body>
+<script>
+/*__STATE__*/window.__STATE__={"project": "Home Orbit — Batch 1", "updatedAt": "2026-11-03T16:14:44.946207Z", "currentStep": 1, "steps": [{"n": 1, "key": "brief", "title": "Brief", "subtitle": "The Strategist turns your answers into the brief every specialist works from.", "status": "needs-you", "idea": {"title": "Decide the job before the post", "body": "Most content fails because nobody decided what it was for. One job per batch, named before anyone writes."}, "action": {"label": "Answer the brief questions in chat, then confirm.", "phrase": "Looks right. Next step."}, "report": "## Brief — waiting on your answers\n\nThe Strategist needs six answers before anyone writes. Reply in chat (short is fine):\n\n1. **Job** — which funnel job dominates this batch: attention, trust, or conversion? And why now (e.g. filling the first group of 10, launching the assessment on TikTok)?\n2. **How many posts** — proposal: **20** to test (≈10 attention / 6 trust / 4 conversion). Confirm or change.\n3. **Topic / moment** — a specific one (e.g. bedtime, food, outings, transitions, meltdowns in public), or should the team find one?\n4. **Who exactly** — a cold new mother on TikTok, a follower, or a warm one close to deciding?\n5. **What counts as a win** — saves, profile visits, assessment starts, waitlist sign-ups, a post you're proud of?\n6. **Off-limits or required** — anything to avoid or must include?\n\n**Context the team already has:** prior agency research and the Arabic voice files (`agency-run/source/arabic_language_file.txt`, `agency-run/arabic_language_addendum_lessons.md`) — both will be read in full before any Arabic is written. The assessment link supports `?focus=` (sleep, outings, communication, food, transitions, emotions), so conversion posts can point to a matching personalized landing.\n"}, {"n": 2, "key": "scorecard", "title": "Scorecard", "subtitle": "The Strategist sets this batch's 100-point scorecard and the agency plan.", "status": "idle", "idea": {"title": "Define great before you make anything", "body": "If you don't know what good looks like before writing, you'll grade whatever you made as good."}, "action": {"label": "Review the weights and the plan.", "phrase": "Go."}, "report": ""}, {"n": 3, "key": "research", "title": "Research", "subtitle": "The Audience Researcher and Market Analyst work in parallel.", "status": "idle", "idea": {"title": "Her words, and what the market has already heard", "body": "We write in the mother's own language, and aim where the 50 generic accounts aren't."}, "action": {"label": "Review both reports.", "phrase": "Both look good. Next step."}, "report": ""}, {"n": 4, "key": "hooks", "title": "Angles & hooks", "subtitle": "The Hook Specialist writes 3 angles with 4–6 scored hooks each.", "status": "idle", "idea": {"title": "The hook carries most of the result", "body": "An angle is the way in; a hook is the exact first line that delivers it."}, "action": {"label": "Pick or push back on the hooks.", "phrase": "These are good. Build concepts."}, "report": ""}, {"n": 5, "key": "concepts", "title": "Concepts", "subtitle": "The Strategist assembles distinct concepts for you to choose from.", "status": "idle", "idea": {"title": "Options, never one answer", "body": "You choose the set to test. Cut, combine, or ask for more."}, "action": {"label": "Pick the concepts to produce.", "phrase": "Produce these."}, "report": ""}, {"n": 6, "key": "format", "title": "Format", "subtitle": "You decide: static slides or video, per concept.", "status": "idle", "idea": {"title": "The idea finds its shape", "body": "Slides for connected points worth saving; video when the idea needs movement to land. Nothing gets written before this."}, "action": {"label": "For each picked concept, tell us: static slides, video, or both.", "phrase": "Formats chosen."}, "report": ""}, {"n": 7, "key": "production", "title": "Production", "subtitle": "The Copywriter writes every picked post in Arabic.", "status": "idle", "idea": {"title": "Never from a blank page", "body": "Each post starts from a picked concept, a chosen hook, a decided format and her own words."}, "action": {"label": "Read the drafts.", "phrase": "Looks good. Edit and test."}, "report": ""}, {"n": 8, "key": "test", "title": "Arabic + Test", "subtitle": "The Arabic Voice Editor, then three sceptical mothers score every post.", "status": "idle", "idea": {"title": "Strong AND safe", "body": "Lukewarm is invisible; unsafe is harm. Both fail."}, "action": {"label": "Review the ranked posts and pick what ships.", "phrase": "Ship the winners."}, "report": ""}, {"n": 9, "key": "handoff", "title": "Handoff", "subtitle": "The Strategist packages the final posts and seeds the performance loop.", "status": "idle", "idea": {"title": "A batch ends when its results teach the next one", "body": "Post, then tell us the numbers and say 'what's working?'."}, "action": {"label": "Done.", "phrase": null}, "report": ""}], "plan": {"specialists": [{"key": "st", "name": "Strategist", "role": "The brief, scorecard, concepts, handoff", "status": "needs-you"}, {"key": "ar", "name": "Audience Researcher", "role": "What mothers actually say", "status": "idle"}, {"key": "ma", "name": "Market Analyst", "role": "What the market has heard", "status": "idle"}, {"key": "hk", "name": "Hook Specialist", "role": "Angles and hooks", "status": "idle"}, {"key": "cw", "name": "Copywriter", "role": "Writes the posts", "status": "idle"}, {"key": "av", "name": "Arabic Voice Editor", "role": "Makes it sound native", "status": "idle"}, {"key": "tp", "name": "Test Panel", "role": "Sceptical mothers, scored", "status": "idle"}, {"key": "an", "name": "Analyst", "role": "What's working, next cycle", "status": "idle"}]}, "scorecard": {"total": 100, "items": [{"name": "Scroll-stop", "weight": 18, "score": null}, {"name": "Recognition", "weight": 15, "score": null}, {"name": "Emotion, not apathy", "weight": 15, "score": null}, {"name": "Her own words", "weight": 12, "score": null}, {"name": "One job", "weight": 10, "score": null}, {"name": "Trust & safety", "weight": 10, "score": null}, {"name": "Arabic naturalness", "weight": 8, "score": null}, {"name": "The turn", "weight": 6, "score": null}, {"name": "Next step", "weight": 4, "score": null}, {"name": "Shareable", "weight": 2, "score": null}]}, "concepts": [], "posts": [], "performance": []};/*__END__*/
+(function(){
+const ARRE=/[\u0600-\u06FF]/;
+let state=null,last="",sel=null;
+try{const t=localStorage.getItem("sma-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function inl(s){s=esc(s);return s.replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/(^|[^*])\*([^*\n]+)\*/g,"$1<i>$2</i>")}
+function dirA(t){return ARRE.test(t)?' dir="auto"':''}
+function md(src){if(!src)return"";const L=src.split("\n");let h="",i=0;
+ while(i<L.length){let l=L[i];
+  if(/^\s*\|/.test(l)){const rows=[];while(i<L.length&&/^\s*\|/.test(L[i])){rows.push(L[i]);i++}
+   const cells=r=>r.trim().replace(/^\||\|$/g,"").split("|").map(c=>c.trim());
+   h+="<table>";rows.forEach((r,k)=>{if(/^\s*\|[\s:\-|]+\|\s*$/.test(r))return;const tg=k==0?"th":"td";h+="<tr>"+cells(r).map(c=>`<${tg}${dirA(c)}>${inl(c)}</${tg}>`).join("")+"</tr>"});h+="</table>";continue}
+  let m;
+  if(m=l.match(/^(#{1,4})\s+(.*)/)){h+=`<h${m[1].length+1}${dirA(m[2])}>${inl(m[2])}</h${m[1].length+1}>`;i++;continue}
+  if(/^>\s?/.test(l)){let b=[];while(i<L.length&&/^>\s?/.test(L[i])){b.push(L[i].replace(/^>\s?/,""));i++}h+=`<blockquote${dirA(b.join(" "))}>${b.map(inl).join("<br>")}</blockquote>`;continue}
+  if(/^\s*[-*]\s+/.test(l)){h+="<ul>";while(i<L.length&&/^\s*[-*]\s+/.test(L[i])){const t=L[i].replace(/^\s*[-*]\s+/,"");h+=`<li${dirA(t)}>${inl(t)}</li>`;i++}h+="</ul>";continue}
+  if(/^\s*\d+[.)]\s+/.test(l)){h+="<ol>";while(i<L.length&&/^\s*\d+[.)]\s+/.test(L[i])){const t=L[i].replace(/^\s*\d+[.)]\s+/,"");h+=`<li${dirA(t)}>${inl(t)}</li>`;i++}h+="</ol>";continue}
+  if(!l.trim()){i++;continue}
+  let p=[];while(i<L.length&&L[i].trim()&&!/^(#|>|\s*[-*]\s|\s*\d+[.)]\s|\s*\|)/.test(L[i])){p.push(L[i]);i++}
+  h+=`<p${dirA(p.join(" "))}>${p.map(inl).join("<br>")}</p>`}
+ return h}
+function sc(s){return "s-"+(s||"idle")}
+function flag(s){return {idle:"Waiting","working":"Working","needs-you":"Needs you","done":"Confirmed"}[s]||s}
+function rtl(t){return t?`<div class="rtl" dir="rtl">${esc(t)}</div>`:""}
+function render(){const S=state;if(!S){document.getElementById("app").innerHTML='<div class="wait serif">Waiting for the agency to start…</div>';return}
+ const cur=S.currentStep||1;if(sel==null)sel=cur;const step=S.steps.find(s=>s.n==sel)||S.steps[0];
+ let h=`<header><div class="logo">مدار</div><div><h1 class="serif">Social Media Agency</h1><div class="mono">${esc(S.project)}</div></div><span class="spacer"></span>
+ <span class="chip">Updated ${S.updatedAt?new Date(S.updatedAt).toLocaleString():"—"}</span><button class="toggle" id="tg">◐ Theme</button></header>`;
+ h+=`<nav class="stepper">`+S.steps.map(s=>`<button class="st ${s.n==cur?"cur":""} ${s.n==sel?"sel":""}" data-n="${s.n}"><span class="dot ${sc(s.status)}">${s.status=="done"?"✓":s.n}</span><span class="lbl">${esc(s.title)}</span></button>`).join("")+`</nav>`;
+ const a=step.action||{};
+ h+=`<section class="card det"><div class="mono">Step ${step.n} of ${S.steps.length} &nbsp;<span class="pill ${sc(step.status)}">${flag(step.status)}</span></div>
+ <h2 class="serif">${esc(step.title)}</h2><p class="sub">${esc(step.subtitle)}</p>
+ ${step.idea?`<details class="idea"><summary>The idea behind this step</summary><h4>${esc(step.idea.title)}</h4><div>${esc(step.idea.body)}</div></details>`:""}
+ <div class="action"><div class="row"><span class="mono">Your action</span><span class="pill ${sc(step.status)}">${step.status=="needs-you"?"Needs you":step.status=="done"?"Confirmed":"Waiting"}</span></div>
+ <div style="margin-top:6px">${esc(a.label)}</div>
+ ${a.phrase?`<button class="send" data-p="${esc(a.phrase)}">Send: “${esc(a.phrase)}”</button><div class="hint">Type this phrase in your chat to move the agency to the next step.</div>`:""}</div>
+ <div class="md">${md(step.report)||'<p class="sub">No report yet.</p>'}</div></section>`;
+ h+=`<h3 class="sec">The agency</h3><div class="grid">`+S.plan.specialists.map(p=>`<div class="sp"><div class="av ${sc(p.status)}">${esc(p.key)}</div><div><b>${esc(p.name)}</b><span>${esc(p.role)}</span></div></div>`).join("")+`</div>`;
+ h+=`<h3 class="sec">The scorecard</h3><div class="card">`+S.scorecard.items.map(it=>`<div class="sc"><span>${esc(it.name)}</span><div class="bar"><i style="width:${it.score!=null?Math.round(100*it.score/it.weight):0}%"></i></div><b>${it.score!=null?it.score:it.weight}</b></div>`).join("")+`<div class="mono" style="margin-top:8px">Total ${S.scorecard.total} · Trust & safety is a gate</div></div>`;
+ if(S.concepts&&S.concepts.length){h+=`<h3 class="sec">The concepts</h3><div class="cg">`+S.concepts.map(c=>`<div class="cc ${c.status}"><span class="tag j-${c.job}">${esc(c.job)}</span>${c.status=="picked"?'<span class="tag" style="color:var(--accent);border-color:var(--accent)">picked</span>':""}${c.format?`<span class="tag">${esc(c.format)}</span>`:""}
+ <div class="serif" style="font-size:17px;margin-top:6px">${esc(c.id)} · ${esc(c.title)}</div><div style="font-size:13px;color:var(--muted)">${esc(c.angle)}</div>${rtl(c.hook_ar)}<div class="gloss">${esc(c.hook_gloss)}</div></div>`).join("")+`</div>`}
+ if(S.posts&&S.posts.length){h+=`<h3 class="sec">The posts</h3>`+S.posts.map(p=>`<div class="card">${p.score!=null?`<span class="score" style="background:${p.score<70?"var(--working)":"var(--done)"}">${p.score}</span>`:""}
+ <div class="serif" style="font-size:19px">${esc(p.id)} · ${esc(p.title)}</div><span class="tag">${esc(p.format)}</span><span class="tag">${esc(p.status)}</span>
+ ${rtl(p.body_ar)}${p.caption_ar?`<div class="mono">Caption</div>${rtl(p.caption_ar)}`:""}${p.notes?`<div class="md" style="font-size:13px">${md(p.notes)}</div>`:""}</div>`).join("")}
+ h+=`<h3 class="sec">Performance</h3><div class="card"><p class="sub">Partial numbers are fine.</p>`;
+ const rows=(S.performance||[]).filter(r=>["views","likes","saves","comments","profileVisits","assessmentStarts"].some(k=>r[k]!=null));
+ const d=v=>v==null||v===""?"—":esc(v);
+ if(rows.length){h+=`<div class="md"><table><tr><th>Post</th><th>Job</th><th>Format</th><th>Views</th><th>Likes</th><th>Saves</th><th>Comments</th><th>Profile</th><th>Assess.</th></tr>`+rows.map(r=>`<tr><td>${d(r.postId)}</td><td>${d(r.job)}</td><td>${d(r.format)}</td><td>${d(r.views)}</td><td>${d(r.likes)}</td><td>${d(r.saves)}</td><td>${d(r.comments)}</td><td>${d(r.profileVisits)}</td><td>${d(r.assessmentStarts)}</td></tr>`).join("")+`</table></div>`}
+ h+=`<div class="note">To feed the next batch, just tell the agency in chat — then say “what's working?” and the Analyst reads the numbers into the next brief. No spreadsheet.</div></div>`;
+ document.getElementById("app").innerHTML=h;
+ document.querySelectorAll(".st").forEach(b=>b.onclick=()=>{sel=+b.dataset.n;render()});
+ document.querySelectorAll(".send").forEach(b=>b.onclick=()=>{const p=b.dataset.p;(navigator.clipboard?navigator.clipboard.writeText(p):Promise.reject()).then(()=>{b.textContent="Copied ✓"},()=>{b.textContent=p})});
+ document.getElementById("tg").onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme=="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=dark?"light":"dark";try{localStorage.setItem("sma-theme",r.dataset.theme)}catch(e){}};
+}
+function apply(s){const j=JSON.stringify(s);if(j===last)return;const prev=state&&state.currentStep;state=s;last=j;if(prev&&prev!==s.currentStep)sel=s.currentStep;render()}
+function poll(){fetch("state.json",{cache:"no-store"}).then(r=>r.json()).then(apply).catch(()=>{if(!state)render()})}
+document.addEventListener("DOMContentLoaded",()=>{if(window.__STATE__)apply(window.__STATE__);poll();setInterval(poll,2000)});
+})();
+</script>
+<div id="app"></div>
+</body>
+</html>
