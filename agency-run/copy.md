@@ -155,7 +155,7 @@ line 3 (small, muted):
 نتيجتك تبقى لك، سواء كملتي أو لا.
 
 button (opens the landing, NOT the waitlist):
-اكتشفي كيف تشتغل الخطة الحية
+اعرفي أكثر عن الخطة الحية
 
 ---
 
