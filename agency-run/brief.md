@@ -84,3 +84,12 @@ Client verdict on all 15 headlines: they sound clumsy and translated, "not an ex
 
 ## 14. Gate 2 DECISION (client): approved
 Headlines = `headlines_v3.json` direction **m2** ("her battle, then stacked outcomes"), all situations A–F + default, exactly as written. Subheadline = `headlines_v3.json` `sub` (standard) and `dimension_subs` (by lowest dimension). English glosses are review-only: NO English text anywhere in the final build.
+
+## 15. Gate 3 decisions (client)
+- Apply all Test Panel fixes (9 Arabic rewrites, result persistence across refresh, honest wording for low strength scores, remove invite-button underline, «علاج يشيل التوحد» → «علاج للتوحد»).
+- Headlines: F → «طول اليوم وأنتي على أعصابك؟ خلي يومكم أهدى، وتعاملي مع انفعاله وأنتي عارفة ايش تسوي.» C and default stay as they are (proposed versions rejected as translated/off).
+- Remove the welcome-screen line «نحفظ نتيجتك ونقدر نرسلها لك. بياناتك تبقى خاصة.» (results emailing isn't set up).
+- Real work process (replaces "how it works"): onboarding file + first questionnaire → child profile → second questionnaire → two-week plan emailed → after two weeks Anhar checks in (what happened, what worked, what didn't, what she noticed) → next plan → repeat until the solution is part of their life, then optionally a new challenge. Don't specify HOW the questionnaires arrive (page vs email undecided).
+- Waitlist moves ON the page (drop-off after the external Google Form): CTA opens an on-page form (name + email) → submit → thank-you screen with confetti → encourage joining the WhatsApp waitlist group (emails get lost; WhatsApp is seen). Airtable connection later: build the hook, don't connect.
+- Capacity bar at the top (Priestley "oversubscribed" signal). Client does NOT want a small waitlist number shown. Rule: show capacity only («الدفعة الأولى ١٠ أمهات فقط») until the waitlist count reaches/exceeds capacity; then show capacity + demand. Count is manual in CONFIG for now; later can come from Airtable.
+- Client will review the page herself after this round and send her own copy edits before re-measuring.
