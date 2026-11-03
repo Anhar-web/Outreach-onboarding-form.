@@ -1,14 +1,14 @@
 {
   "project": "Home Orbit — Batch 1 (10 static posts)",
-  "updatedAt": "2026-11-03T16:28:35.900660+00:00",
-  "currentStep": 1,
+  "updatedAt": "2026-11-03T16:33:21.799819+00:00",
+  "currentStep": 2,
   "steps": [
     {
       "n": 1,
       "key": "brief",
       "title": "Brief",
       "subtitle": "The Strategist turns your answers into the brief every specialist works from.",
-      "status": "needs-you",
+      "status": "done",
       "idea": {
         "title": "Decide the job before the post",
         "body": "Most content fails because nobody decided what it was for. One job per batch, named before anyone writes."
@@ -24,7 +24,7 @@
       "key": "scorecard",
       "title": "Scorecard",
       "subtitle": "The Strategist sets this batch's 100-point scorecard and the agency plan.",
-      "status": "idle",
+      "status": "needs-you",
       "idea": {
         "title": "Define great before you make anything",
         "body": "If you don't know what good looks like before writing, you'll grade whatever you made as good."
@@ -33,7 +33,7 @@
         "label": "Review the weights and the plan.",
         "phrase": "Go."
       },
-      "report": ""
+      "report": "## Scorecard for Batch 1\n\nYour brief changes what \"great\" means, so the Strategist has reweighted the scorecard. It still totals 100.\n\n| # | Item | Default | **Batch 1** | Why |\n|---|---|---|---|---|\n| 1 | Scroll-stop | 18 | **16** | A cold mother has never seen us, so frame one still carries most of the work |\n| 2 | Recognition | 15 | **14** | She has to see a behavior she has *seen herself* |\n| 3 | **Usable value** *(new)* | — | **14** | Your rule: she leaves with steps, ideas or a check she can use today. Vague = 0 |\n| 4 | Emotion, not apathy | 15 | **12** | Still essential, but practical value now carries part of the pull |\n| 5 | Her own words | 12 | **10** | |\n| 6 | Trust & safety *(gate)* | 10 | **10** | Gate now also blocks: the word \"autism\", promised results, medical causes, therapy |\n| 7 | Arabic naturalness | 8 | **8** | |\n| 8 | One job | 10 | **7** | Only two jobs this batch, so it's easier to get right |\n| 9 | Next step | 4 | **5** | Half the batch converts. Conversion posts are scored on one clear \"link in bio → assessment\". Attention posts get full marks when they correctly *don't* have a CTA |\n| 10 | The turn | 6 | **4** | Value posts land through usefulness more than a twist |\n| — | Shareable | 2 | **cut** | Folded into Usable value: if it's useful, she saves and sends it |\n\n**The value test** the Test Panel applies to item 3: *Could she do something different tonight because of this post?* If not, it scores 0–4 out of 14, however well it's written.\n\n## The agency plan\n\n| Step | Who | What they deliver |\n|---|---|---|\n| 3 | **Audience Researcher** ∥ **Market Analyst** (in parallel) | Researcher: the specific behaviors mothers describe, in their own Arabic words, plus what they've tried and dropped. Analyst: market-sophistication stage, worn-out advice, the open lane. **Together they choose the topics.** |\n| 4 | Hook Specialist | 3 angles × 4–6 Arabic hooks, aimed at the open lane |\n| 5 | Strategist | ~14 concepts (≈7 attention, ≈7 conversion) for you to pick 10 from: 5 + 5 |\n| 6 | You | Confirm static for each picked concept |\n| 7 | Copywriter | 10 carousels, after reading both of your Arabic files in full |\n| 8 | Arabic Voice Editor → Test Panel | Native-voice edit, then three sceptical mothers score every post |\n| 9 | Strategist | Clean handoff and blank performance rows |\n"
     },
     {
       "n": 3,
@@ -205,26 +205,26 @@
     "items": [
       {
         "name": "Scroll-stop",
-        "weight": 18,
+        "weight": 16,
         "score": null
       },
       {
         "name": "Recognition",
-        "weight": 15,
+        "weight": 14,
+        "score": null
+      },
+      {
+        "name": "Usable value",
+        "weight": 14,
         "score": null
       },
       {
         "name": "Emotion, not apathy",
-        "weight": 15,
-        "score": null
-      },
-      {
-        "name": "Her own words",
         "weight": 12,
         "score": null
       },
       {
-        "name": "One job",
+        "name": "Her own words",
         "weight": 10,
         "score": null
       },
@@ -239,18 +239,18 @@
         "score": null
       },
       {
-        "name": "The turn",
-        "weight": 6,
+        "name": "One job",
+        "weight": 7,
         "score": null
       },
       {
         "name": "Next step",
-        "weight": 4,
+        "weight": 5,
         "score": null
       },
       {
-        "name": "Shareable",
-        "weight": 2,
+        "name": "The turn",
+        "weight": 4,
         "score": null
       }
     ]
