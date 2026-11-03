@@ -99,3 +99,6 @@ Never mention therapy/speech sessions, specialists, or that the plan works "alon
 
 ## 17. Waitlist mechanics (client, confirmed)
 First come, first served. Joining the waitlist is not a reserved place. The WhatsApp waitlist group is broadcast-only (only Anhar posts), with regular updates (about weekly) on the Living Plan and the opening; mothers not in the group get email. Before opening, the exact date and time is announced in the group and by email; the first 10 to subscribe get in, then receive the onboarding file. Others stay on the list for the next group. Groups are rolling: more places are added later (e.g. +10 or +15 after a few weeks). Reason for the cap of 10 (private): starting out, wants each mother to get full attention and a working system. Bonus images replaced with the client's originals (square).
+
+## 18. Final round (client)
+Applied: communication headline «تخمّني طول اليوم ايش يبغى؟ خلي التواصل بينكم أسهل، وطلباته أوضح، ويومكم أهدى.»; SUBS[0] «…وتكوني مستعدة للموقف قبل ما يجي…» (client: «قبل ما» not «قبل لا»); after-step 4 «إذا كنتي من أول ١٠ أمهات يشتركوا…»; low strength lead «أوضح بداية عندك هي…»; FAQ «هل في». WhatsApp waitlist group (broadcast) ≠ community (subscribers only, interactive). Wiring (Airtable, WhatsApp link, counter) moves to a separate chat; see HANDOFF.md.
