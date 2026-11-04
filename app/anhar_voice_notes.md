@@ -12,7 +12,7 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 | إلين ما | لين | Until. |
 | كل رجعه من الحديقة | كل طلعة من الحديقة | Coming back from the park is the battle. |
 | من اول ما توصلوا | من لحظة ما توصلوا | |
-| تحسبي ألف حساب | تسوي ألف حساب | The idiom is حسب حساب. |
+| تحسبي لها ألف حساب | تسوي ألف حساب | The idiom is حسب حساب, with لها. |
 | وقت النوم | السرير | "The hour before bedtime", not "before the bed". |
 
 ## What a hook is (and is not)

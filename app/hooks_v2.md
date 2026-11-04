@@ -27,7 +27,7 @@ Warm humor about her day, never about the child.
 
 | # | Hook | Gloss | Job | What she gets |
 |---|---|---|---|---|
-| 2.1 ✎ | قبل كل عزيمة تحسبي ألف حساب؟ هذي الحسابات الثلاث اللي فعلاً تفرق. | Before every family dinner you make a thousand calculations? These are the three calculations that actually make a difference. | Attention | The 3 things worth planning before a visit. The second half now continues your "حساب" thought instead of starting a new one |
+| 2.1 ✎ | قبل كل عزيمة تحسبي لها ألف حساب؟ هذي الحسابات الثلاث اللي فعلاً تفرق. | Before every family dinner you make a thousand calculations for it? These are the three calculations that actually make a difference. | Attention | The 3 things worth planning before a visit. The second half now continues your "حساب" thought instead of starting a new one |
 | 2.2 ✎ | تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟ | You lie beside him until he sleeps, and wake up two hours later because you're the one who fell asleep? | Attention | Steps for the hour before bed so bedtime doesn't take her whole evening |
 | 2.3 *(rewritten)* | تطبخي للبيت كله، وهو له صحن لحاله فيه نفس الثلاث أكلات كل يوم؟ | You cook for the whole house, and he has his own plate with the same three foods every day? | Attention | What his safe foods have in common, plus one small, realistic addition. The nuggets joke is gone because it felt forced |
 | 2.4 ✓ | يغطي أذنه أول ما تشغلي المكنسة، فصرتي تكنسي وهو نايم؟ | He covers his ears the moment you turn on the vacuum, so now you vacuum while he's asleep? | Attention | What to do *before* the sound. Kept as is |
