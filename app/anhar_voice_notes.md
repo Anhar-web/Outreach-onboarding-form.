@@ -35,3 +35,12 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 - **No generic advice:** nothing she has heard or read a million times (timers, "be patient", "make a routine", "10 tips").
 - **Must be realistic in a real home.** Bad example: a child who opens and closes doors all day → "give him one designated door". The house is full of doors, he won't stick to one, and many children his age can't follow "this is your door". Test every tip: *would this actually work in a busy Saudi home, with this child, today?*
 - She leaves with something tangible she can use.
+
+## Realism of the scene (from round 2)
+- **The scene itself has to be realistic, not just the advice.** A young child in a car doesn't know you took a different turn. For "things being different" posts, keep the scene **at home**: moved furniture, a different cup, a toy moved.
+- **Don't sound like we're telling her what to do**, as if she doesn't know what she's doing. Frame the value as something we hand her: «هذي ثلاث أشياء…», «شوفي هذي الأربع…».
+
+## Carousel copy (for the Copywriter)
+- People open social media for a solution, something valuable, or to be entertained. **Not a lecture.**
+- **No walls of text.** Few words per slide, big fonts, easy to read at a glance. If a slide needs small text to fit, it has too much on it. Split it or cut it.
+- She should never feel like she's reading a book.
