@@ -38,7 +38,7 @@ def blob_path(cx, cy, rx, ry, seed, n=9, jit=.16):
 
 # food positions on a plate of radius 320 (local, centre = 0,0)
 NUGGETS = [(-150, -80, 62, 50, 3), (-60, -150, 58, 48, 4), (-170, 40, 56, 46, 5), (-70, -40, 60, 50, 6)]
-FRIES = [(70 + k * 30, -175 + (k % 3) * 14, 130 + (k % 2) * 22, -14 + k * 4) for k in range(7)]
+FRIES = [(46 + k * 29, -170 + (k % 3) * 14, 128 + (k % 2) * 20, -14 + k * 4) for k in range(7)]
 TOAST = (40, 95, 170, 9)
 
 
@@ -93,7 +93,7 @@ def plate(cx, cy, R=320, scheme='gold', ring=False, links=False, empty=False, se
                    + ''.join(f'<circle cx="{x}" cy="{y}" r="16" fill="{C["deep"]}"/><circle cx="{x}" cy="{y}" r="7" fill="{C["gold"]}"/>' for x, y in (a, b, c)),
                    TONE, 3, 't', T=T)
     if ring:
-        o += torn_ring(0, 0, 286, 252, C['teal'], TONE, seed=seed + 41, layer=3, amp=(4, 9), T=T)
+        o += torn_ring(0, 0, 304, 272, C['teal'], TONE, seed=seed + 41, layer=3, amp=(4, 8), T=T)
     return avoid(o, 'plate')
 
 
@@ -163,7 +163,7 @@ def slide(ctx):
 
     elif s == 3:
         # close in, plate bleeding off the right: crunchy and golden, ringed in teal
-        r.update(art=plate(640, 960, 400, ring=True, seed=3), html=body(ctx), dots_theme='light')
+        r.update(art=plate(620, 880, 360, ring=True, seed=3), html=body(ctx))
 
     elif s == 4:
         art = (plate(460, 900, 320, scheme='brand')

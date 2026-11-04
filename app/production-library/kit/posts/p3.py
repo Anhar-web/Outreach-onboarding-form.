@@ -19,13 +19,13 @@ from kit import (C, MX, MT, W, H, paper, torn_poly, torn_strip, torn_rect, glow,
 
 TONE = 'd'
 FLOOR = 1130            # floor line (world y)
-WORLD_W = 3560
+WORLD_W = 3260
 
-BED = (2300, 3100)      # footboard x .. headboard x
-DOOR = (300, 580)       # door opening x0 .. x1
-WIN = (2470, 2790, 640, 880)
-STAND = 3150            # nightstand left x
-CHAIR_BED, CHAIR_MID, CHAIR_DOOR = 2080, 1400, 640
+BED = (2000, 2800)      # footboard x .. headboard x
+DOOR = (820, 1100)      # door opening x0 .. x1
+WIN = (2170, 2490, 640, 880)
+STAND = 2850            # nightstand left x
+CHAIR_BED, CHAIR_MID, CHAIR_DOOR = 1780, 1480, 1150
 
 
 # ---------------------------------------------------------------- world pieces
@@ -56,7 +56,7 @@ def lamp(on=True):
     lx, ly = x + 75, FLOOR - 190
     g = ''
     if on:
-        g = (glow(f'<circle cx="{lx}" cy="{ly - 120}" r="190" fill="{C["gold"]}" fill-opacity=".38"/>', 'l')
+        g = (glow(f'<circle cx="{lx}" cy="{ly - 110}" r="150" fill="{C["gold"]}" fill-opacity=".38"/>', 'l')
              + glow(f'<circle cx="{lx}" cy="{ly - 110}" r="80" fill="{C["gold"]}" fill-opacity=".55"/>', 's'))
     body = paper(f'<rect x="{lx - 8}" y="{ly - 110}" width="16" height="110" fill="{C["goldDeep"]}"/>'
                  f'<rect x="{lx - 40}" y="{ly - 10}" width="80" height="14" rx="6" fill="{C["goldDeep"]}"/>'
@@ -125,19 +125,21 @@ def chair(x, ghost=False):
     return avoid(legs + seat, 'chair')
 
 
-def marks(xs, y=FLOOR + 50):
+def marks(xs, y=FLOOR + 50, w=120):
     """Torn gold floor marks (the steps), one per x."""
-    return avoid(''.join(torn_rect(x - 60, y - 16, 120, 34, C['gold'], TONE, 'tblr', seed=60 + k, layer=2, rot=-4 + 3 * k, amp=(3, 6))
+    return avoid(''.join(torn_rect(x - w / 2, y - 16, w, 34, C['gold'], TONE, 'tblr', seed=60 + k, layer=2, rot=-4 + 3 * k, amp=(3, 6))
                          for k, x in enumerate(xs)), 'marks')
 
 
-def hand(x, y):
-    """A sandLight cut-paper hand resting palm-down on the blanket, sleeve off the top of the lump."""
-    return paper(f'<g transform="translate({x} {y}) rotate(-12)">'
-                 f'<path d="M -60 -10 Q -60 -40 -20 -42 L 40 -40 Q 70 -38 74 -22 L 112 -26 Q 124 -24 120 -12 L 74 -4 '
-                 f'Q 60 10 20 10 L -60 10 Z" fill="{C["sandLight"]}"/>'
-                 f'<path d="M 40 -40 L 86 -48 Q 96 -46 92 -38 L 72 -30" fill="{C["sandLight"]}"/>'
-                 f'<rect x="-140" y="-34" width="90" height="46" rx="10" fill="{C["gold"]}"/></g>', TONE, 3)
+def hand(x, y, k=1.0):
+    """An open hand, palm down, fingers towards the pillow: palm + four fingers + thumb,
+    sandLight cut paper resting on the blanket. No arm, no figure."""
+    fingers = ''.join(f'<rect x="40" y="{-34 + n * 17}" width="{62 - abs(n - 1.5) * 10:.0f}" height="15" rx="7.5" '
+                      f'transform="rotate({(n - 1.5) * -6:.0f} 40 {-27 + n * 17})"/>' for n in range(4))
+    thumb = '<rect x="-4" y="-50" width="50" height="17" rx="8.5" transform="rotate(-16 10 -42)"/>'
+    palm = '<rect x="-34" y="-40" width="86" height="76" rx="30"/>'
+    return avoid(paper(f'<g transform="translate({x} {y}) rotate(-10) scale({k})" fill="{C["sandLight"]}">{palm}{fingers}{thumb}</g>',
+                       TONE, 3), 'hand')
 
 
 def voice(x, y, n=3):
@@ -150,7 +152,7 @@ def voice(x, y, n=3):
 
 def route_back(x0, x1):
     """Gold dashed route on the floor: up from the floor, round, and back into bed."""
-    d = f'M {x0} {FLOOR + 70} C {x0 + 160} {FLOOR + 150}, {x1 - 260} {FLOOR + 150}, {x1 - 120} {FLOOR + 40}'
+    d = f'M {x0} {FLOOR + 40} C {x0 + 160} {FLOOR + 110}, {x1 - 260} {FLOOR + 110}, {x1 - 120} {FLOOR + 30}'
     arrow = f'<polygon points="{x1 - 140},{FLOOR + 6} {x1 - 76},{FLOOR + 30} {x1 - 128},{FLOOR + 74}" fill="{C["gold"]}"/>'
     return avoid(paper(f'<path d="{d}" fill="none" stroke="{C["gold"]}" stroke-width="16" stroke-linecap="round" stroke-dasharray="2 34"/>{arrow}',
                        TONE, 2, 't'), 'route')
@@ -180,7 +182,7 @@ BREAKS = {
     6: ['كل كم ليلة،', 'مكانك يبعد شوي.', 'من جمب السرير،', 'لنص الغرفة،', 'لعند الباب.'],
     7: ['إذا قام من سريره،', 'رجعيه بهدوء', 'وبنفس الكلمتين كل مرة،', 'زي "يلا نوم".',
         'بدون نقاش،', 'وبدون ما تنسدحي جمبه من جديد.'],
-    8: ['تاخذ وقت،', 'بس كل كم ليلة', 'أنتي أبعد بخطوة.', 'والهدف ليلة', 'تطلعي فيها من الغرفة', 'وهو لسه صاحي.'],
+    8: ['تاخذ وقت،', 'بس كل كم ليلة', 'أنتي أبعد بخطوة.', 'والهدف ليلة تطلعي فيها', 'من الغرفة وهو لسه صاحي.'],
 }
 
 
@@ -199,37 +201,40 @@ def slide(ctx):
     r = {'ground': 'night'}
 
     if s == 1:
-        art = cam(world(lumps=2), 2180)
-        html = text_box(ctx.t.body(), MX, MT + 10, W - 2 * MX, 'pearl', align='center', size={'hook': 92})
+        art = cam(world(lumps=2), 1880)
+        html = text_box(ctx.t.body(), MX, MT - 10, W - 2 * MX, 'pearl', align='center', size={'hook': 92})
         r.update(art=art, html=html)
     elif s == 2:
-        art = cam(world(lumps=2), 2330, 1.25, y=20)
+        art = cam(world(lumps=2), 2030, 1.25, y=20)
         r.update(art=art, html=body(ctx))
     elif s == 3:
         # the whole strip, pulled back: bed on the right, door on the left, four steps between
-        xs = [2000, 1560, 1120, 700]
-        art = cam(world(extra=marks(xs)), 120, .3, y=-180)
+        # marks drawn at screen scale under their world positions, so they read at this distance
+        k, cx, yo = .49, 790, -190
+        xs = [(wx - cx) * k for wx in (1880, 1640, 1400, 1160)]
+        art = cam(world(), cx, k, y=yo) + marks(xs, FLOOR + yo + 70, w=78)
         r.update(art=art, html=body(ctx))
     elif s == 4:
-        art = cam(world(chair_x=CHAIR_BED), 1960)
+        art = cam(world(chair_x=CHAIR_BED), 1660)
         r.update(art=art, html=body(ctx))
     elif s == 5:
-        extra = hand(2690, FLOOR - 250) + voice(2270, FLOOR - 330)
-        art = cam(world(chair_x=CHAIR_BED, extra=extra), 2020, 1.1, y=10)
+        extra = hand(2500, FLOOR - 296, 1.0) + voice(1970, FLOOR - 330)
+        art = cam(world(chair_x=CHAIR_BED, extra=extra), 1720, 1.1, y=10)
         r.update(art=art, html=body(ctx))
     elif s == 6:
-        art = cam(world(chair_x=CHAIR_MID, ghosts=(CHAIR_BED, CHAIR_DOOR)), 120, .3, y=-180)
+        art = cam(world(chair_x=CHAIR_MID, ghosts=(CHAIR_BED, CHAIR_DOOR)), 790, .49, y=-150)
         r.update(art=art, html=body(ctx))
     elif s == 7 and part == 1:
-        art = cam(world(chair_x=CHAIR_DOOR, extra=route_back(1720, BED[0] + 200)), 1500)
+        art = cam(world(chair_x=CHAIR_DOOR, extra=route_back(1540, BED[0] + 240)), 1420)
         r.update(art=art, html=body(ctx))
     elif s == 7:
         ctx.t.body()[0].role = 'lead'
-        art = cam(world(chair_x=CHAIR_DOOR), 2200)
+        # pulled back: his lump alone in bed on the right, her chair already by the door
+        art = cam(world(chair_x=CHAIR_DOOR), 960, .58)
         r.update(art=art, html=body(ctx))
     else:
         for g in ctx.t.body():
             g.role = 'quiet'
-        art = cam(world(chair_x=CHAIR_DOOR, ajar=True), 40)
-        r.update(art=art, html=text_box(ctx.t.body(), MX, MT + 10, W - 2 * MX, 'pearl', align='center'))
+        art = cam(world(chair_x=CHAIR_DOOR, ajar=True), 600, y=60)
+        r.update(art=art, html=text_box(ctx.t.body(), MX, MT, W - 2 * MX, 'pearl', align='center'))
     return r

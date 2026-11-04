@@ -1,6 +1,6 @@
 {
   "project": "Home Orbit: production, Batch 1",
-  "updatedAt": "2026-11-04T16:01:37.605033+00:00",
+  "updatedAt": "2026-11-04T16:07:02.287160+00:00",
   "currentStage": 4,
   "canvaFolderId": "FAHZ9G86KFo",
   "stages": [
@@ -57,7 +57,7 @@
       "key": "build",
       "title": "Build",
       "subtitle": "Branch A builds the carousels. Branch B (video) isn't used this batch.",
-      "status": "working",
+      "status": "needs-you",
       "idea": {
         "title": "Built from the approved copy, verbatim",
         "body": "Arabic on the slides is never rewritten to fit a layout. It's flagged instead."
@@ -66,7 +66,7 @@
         "label": "Review the slides.",
         "phrase": "Looks good. QA it."
       },
-      "report": "## Build in progress: 6 of 10 done\n\n**Vacuum (p5), iPad (p7), the عزيمة (p2)** are rendered: 23 slides at 1080×1350. Every slide's Arabic is checked letter by letter against the approved copy, and both fonts are verified as loaded before each render.\n\n- **Vacuum:** night-blue ground. One big paper vacuum that shrinks and drifts away as she takes control. A paper door for \"leave his way out open\".\n- **iPad:** split ground, with a diagonal torn seam. The glowing iPad loses space while the ready plate takes over. Gold conversion end slide with the «الرابط في البايو.» tag.\n- **The عزيمة:** a top-down paper map of the majlis. Each «حساب» lights up one zone in gold: the arrival path, the seat by the door, the bag from home.\n\nThe other 7 posts are being built now by two designers, from the same kit, with deliberately different compositions.\n\n*Shared kit:* `app/production-library/kit/` (paper textures, torn tabs, dots, end slides, a renderer that refuses to shoot if the fonts or the Arabic are wrong).\n\n\n### Also built: His name (p9), Park (p1), Aunt at bedtime (p8)\n- **His name:** pale teal ground. A giant paper fridge dominates the hook. Slide by slide the fridge shrinks and the empty speech bubble grows: his name gets louder than the fridge. A biscuit in the bubble for step 3, the bubble down at floor level for \"get down to his height\".\n- **Park:** a top-down paper map (no photo): teal lawn, gold picnic blanket, a dashed path to the car. The walked part of the path turns gold as she follows the steps.\n- **Aunt at bedtime:** the type-first test. Huge Deep Sea El Messiri on pearl with a gold offset shadow. Small paper props: the storybook, the gold chair with someone else's handbag, the routine cards, pyjamas handed over by a hand from the edge (no face).\n"
+      "report": "## Build complete: all 10 carousels (81 slides)\n\nEvery slide is 1080×1350, rendered with El Messiri + Tajawal. **Every slide's Arabic passed a letter-by-letter check against the approved copy**, with zero render failures. The 5 long slides were split at existing line breaks, with the same words.\n\n| Order | Post | Slides | Ground | Composition |\n|---|---|---|---|---|\n| 1 | Vacuum | 7 | Night blue | One big object that shrinks |\n| 2 | iPad | 8 | Deep Sea + pale teal | Torn diagonal split |\n| 3 | The عزيمة | 8 | Deep Sea | Top-down majlis map |\n| 4 | He cries | 7 | Light sand | Clue board (teardrop + pinned notes) |\n| 5 | Bedtime | 9 | Night blue | Bedroom panorama, the chair walks to the door |\n| 6 | Shoes | 7 | Sunrise Gold | One big clock, the gold quarter-hour |\n| 7 | His plate | 7 | Deep Sea | Overhead plate |\n| 8 | His name | 9 | Pale teal | Giant fridge vs a growing speech bubble |\n| 9 | Park | 7 | Deep Sea + teal lawn | Top-down route map |\n| 10 | Aunt at bedtime | 8 | Pearl | Type-first, huge blue letters |\n\n**Blue leads** in 6 of 10 posts. Only the aunt post is pearl. No two neighbours share a composition.\n\n**Downloads:** a PDF + full-size PNG ZIP for every post in `app/downloads/`.\n\n**Canva:** not yet. The PNGs are the finished deliverable. Canva versions can be made from them next (see the chat).\n\n### Small things the designers flagged\n- **Aunt post, slide 1:** 6 lines (the hook is set extra large on purpose for the type-first test).\n- **He cries, end slide:** the gold thread on the small board is faint on the gold ground.\n- **Shoes:** the whole post is gold, so its end slide stands out by layout only.\n"
     },
     {
       "n": 5,
@@ -141,13 +141,13 @@
         "key": "cd",
         "name": "Carousel Designer",
         "role": "Branch A: static & carousel",
-        "status": "working"
+        "status": "done"
       },
       {
         "key": "il",
         "name": "Illustrator",
         "role": "Branch A: paper-art & backgrounds",
-        "status": "working"
+        "status": "done"
       },
       {
         "key": "mo",
@@ -324,7 +324,7 @@
       "job": "conversion",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "يبكي وما تعرفي ايش يبغى؟ هذي ثلاث أشياء تلاحظيها قبل ما تبدئي تخمني.",
@@ -335,7 +335,15 @@
         "هذي الثلاث تلاحظيها في ثواني، وهو لسه يبكي.\nكذا بدل ما تجربي كل شي، تبدئي من وحدة منهم.",
         "إذا البكا يتكرر كل يوم، التقييم المجاني يساعدك تشوفي يومه كامل بدل ما تخمني.\nالرابط في البايو."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p10/slide-1.jpg",
+        "preview/p10/slide-2.jpg",
+        "preview/p10/slide-3.jpg",
+        "preview/p10/slide-4.jpg",
+        "preview/p10/slide-5.jpg",
+        "preview/p10/slide-6.jpg",
+        "preview/p10/slide-7.jpg"
+      ],
       "notes": "7 slides · CTA: الرابط في البايو."
     },
     {
@@ -347,7 +355,7 @@
       "job": "attention",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟",
@@ -359,7 +367,17 @@
         "الخطوة الرابعة: إذا قام من سريره، رجعيه بهدوء وبنفس الكلمتين كل مرة، زي \"يلا نوم\".\nبدون نقاش، وبدون ما تنسدحي جمبه من جديد.",
         "تاخذ وقت، بس كل كم ليلة أنتي أبعد بخطوة.\nوالهدف ليلة تطلعي فيها من الغرفة وهو لسه صاحي."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p3/slide-1.jpg",
+        "preview/p3/slide-2.jpg",
+        "preview/p3/slide-3.jpg",
+        "preview/p3/slide-4.jpg",
+        "preview/p3/slide-5.jpg",
+        "preview/p3/slide-6.jpg",
+        "preview/p3/slide-7.jpg",
+        "preview/p3/slide-8.jpg",
+        "preview/p3/slide-9.jpg"
+      ],
       "notes": "8 slides · CTA: none"
     },
     {
@@ -371,7 +389,7 @@
       "job": "conversion",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "يبدأ الصراخ أول ما تجيبي الجزمة عشان تطلعوا؟ الفرق كله في الربع ساعة اللي قبلها.",
@@ -382,7 +400,15 @@
         "لا تناديه يجي للباب عشان يلبس الجزمة.\nخذيها له مكانه، ولبّسيه وهو جالس، وبعدها اطلعوا.",
         "الطلعة موقف واحد بس.\nالتقييم المجاني يساعدك تشوفي الصورة الأكبر، وتعرفي من فين تبدئي.\nالرابط في البايو."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p6/slide-1.jpg",
+        "preview/p6/slide-2.jpg",
+        "preview/p6/slide-3.jpg",
+        "preview/p6/slide-4.jpg",
+        "preview/p6/slide-5.jpg",
+        "preview/p6/slide-6.jpg",
+        "preview/p6/slide-7.jpg"
+      ],
       "notes": "7 slides · CTA: الرابط في البايو."
     },
     {
@@ -394,7 +420,7 @@
       "job": "attention",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "تطبخي للبيت كله، وهو له صحن لحاله فيه نفس الثلاث أكلات كل يوم؟",
@@ -405,7 +431,15 @@
         "لا تحطيها داخل صحنه، ولا تطلبي منه يذوقها.\nحطيها في صحن صغير جمب صحنه، وخليها بدون ما تقولي شي.",
         "إذا لمسها أو شمها، هذا يكفي اليوم.\nوبكرة حطي نفس الأكلة، في نفس الصحن الصغير، جمب صحنه."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p4/slide-1.jpg",
+        "preview/p4/slide-2.jpg",
+        "preview/p4/slide-3.jpg",
+        "preview/p4/slide-4.jpg",
+        "preview/p4/slide-5.jpg",
+        "preview/p4/slide-6.jpg",
+        "preview/p4/slide-7.jpg"
+      ],
       "notes": "7 slides · CTA: none"
     },
     {

@@ -53,13 +53,10 @@
    "file": "slide-9.html",
    "src": 7,
    "part": 0,
-   "lines": 5
+   "lines": 4
   }
  ],
  "fail": [],
- "warn": [
-  "slide-1.html: text line \"تنسدحي جمبه إلين ما ينام\" crosses motif \"lamp\"",
-  "slide-9.html: text line \"والهدف ليلة تطلعي فيها م\" crosses motif \"door\""
- ],
+ "warn": [],
  "verbatim": "PASS"
 }
