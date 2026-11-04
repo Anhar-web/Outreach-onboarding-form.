@@ -1,7 +1,7 @@
 {
   "project": "Home Orbit: production, Batch 1",
-  "updatedAt": "2026-11-04T14:51:01.073004+00:00",
-  "currentStage": 1,
+  "updatedAt": "2026-11-04T15:03:23.394628+00:00",
+  "currentStage": 2,
   "canvaFolderId": "FAHZ9G86KFo",
   "stages": [
     {
@@ -9,7 +9,7 @@
       "key": "intake",
       "title": "Intake & brief",
       "subtitle": "The Production Director pulls the approved posts and confirms what to produce.",
-      "status": "needs-you",
+      "status": "done",
       "idea": {
         "title": "Produce the message, not decoration",
         "body": "Effective communication beats beautiful design. Every asset serves one job, and no two posts look the same."
@@ -18,14 +18,14 @@
         "label": "Confirm the posts, the platform and the size, then go.",
         "phrase": "Produce these."
       },
-      "report": "## Intake: Batch 1, 10 carousels (all Branch A · static)\n\nPulled from the agency handoff (`app/handoff.md`). All 10 are final and approved. Format is already decided (static carousels), so there's no video branch this batch. **The Arabic on the slides is used exactly as approved.** Nothing gets rewritten to fit a layout; anything that doesn't fit gets flagged back to you.\n\n| # | Post | Job | Slides | CTA |\n|---|---|---|---|---|\n| 1 | p5 · The vacuum: three things that take seconds | attention | 7 | — |\n| 2 | p7 · The iPad: what comes after is ready first | conversion | 6 | الرابط في البايو. |\n| 3 | p2 · The عزيمة: three calculations that matter | attention | 7 | — |\n| 4 | p10 · He cries: three things to notice before guessing | conversion | 7 | الرابط في البايو. |\n| 5 | p3 · Lying beside him: step back bit by bit | attention | 8 | — |\n| 6 | p6 · Leaving the house: the 15 minutes before the shoes | conversion | 7 | الرابط في البايو. |\n| 7 | p4 · His own plate: find what his three foods share | attention | 7 | — |\n| 8 | p9 · His name vs the fridge door: four steps | conversion | 8 | الرابط في البايو. |\n| 9 | p1 · Coming back from the park starts when you arrive | attention | 7 | — |\n| 10 | p8 · Change isn't defiance: when someone else does bedtime | conversion | 8 | الرابط في البايو. |\n\n### I need three answers before we start\n1. **Platform and size.** TikTok photo carousels look best at **1080×1920 (9:16)**, and Instagram carousels at **1080×1350 (4:5)**. Which one, or both (each post laid out twice)? My recommendation: **1080×1350** as the master, because it works on Instagram and still displays on TikTok.\n2. **Brand files.** I found no brand identity file in the project. Your website uses **El Messiri** (headings) and **Tajawal** (body), with a teal (#008C95 / #005A70) and warm sand (#C9935A) palette. Is that the brand? And do you have the paper-art style files or examples (or a Canva Brand Kit)? The Art Director reads them before stage 3.\n3. **How to build.** **Canva** (real editable designs filed in your \"Home Orbit social media\" folder), **rendered PNGs** here (finished images you can post directly), or both. Recommendation: **both**. PNGs give you a guaranteed result with correct Arabic, and Canva gives you editable versions.\n\nOptional: send 3–6 of your recent posts (screenshots or Canva links), so the Visual Researcher can make sure this batch *doesn't* look like the last one.\n"
+      "report": "## Intake: Batch 1, 10 carousels (all Branch A · static)\n\nPulled from the agency handoff (`app/handoff.md`). All 10 are final and approved. Format is already decided (static carousels), so there's no video branch this batch. **The Arabic on the slides is used exactly as approved.** Nothing gets rewritten to fit a layout; anything that doesn't fit gets flagged back to you.\n\n| # | Post | Job | Slides | CTA |\n|---|---|---|---|---|\n| 1 | p5 · The vacuum: three things that take seconds | attention | 7 | — |\n| 2 | p7 · The iPad: what comes after is ready first | conversion | 6 | الرابط في البايو. |\n| 3 | p2 · The عزيمة: three calculations that matter | attention | 7 | — |\n| 4 | p10 · He cries: three things to notice before guessing | conversion | 7 | الرابط في البايو. |\n| 5 | p3 · Lying beside him: step back bit by bit | attention | 8 | — |\n| 6 | p6 · Leaving the house: the 15 minutes before the shoes | conversion | 7 | الرابط في البايو. |\n| 7 | p4 · His own plate: find what his three foods share | attention | 7 | — |\n| 8 | p9 · His name vs the fridge door: four steps | conversion | 8 | الرابط في البايو. |\n| 9 | p1 · Coming back from the park starts when you arrive | attention | 7 | — |\n| 10 | p8 · Change isn't defiance: when someone else does bedtime | conversion | 8 | الرابط في البايو. |\n\n### I need three answers before we start\n1. **Platform and size.** TikTok photo carousels look best at **1080×1920 (9:16)**, and Instagram carousels at **1080×1350 (4:5)**. Which one, or both (each post laid out twice)? My recommendation: **1080×1350** as the master, because it works on Instagram and still displays on TikTok.\n2. **Brand files.** I found no brand identity file in the project. Your website uses **El Messiri** (headings) and **Tajawal** (body), with a teal (#008C95 / #005A70) and warm sand (#C9935A) palette. Is that the brand? And do you have the paper-art style files or examples (or a Canva Brand Kit)? The Art Director reads them before stage 3.\n3. **How to build.** **Canva** (real editable designs filed in your \"Home Orbit social media\" folder), **rendered PNGs** here (finished images you can post directly), or both. Recommendation: **both**. PNGs give you a guaranteed result with correct Arabic, and Canva gives you editable versions.\n\nOptional: send 3–6 of your recent posts (screenshots or Canva links), so the Visual Researcher can make sure this batch *doesn't* look like the last one.\n\n\n---\n### Anhar's answers\n- **Size:** 1080×1350 (4:5) for all 10.\n- **Fonts:** El Messiri (headings) + Tajawal (body).\n- **Brand kit:** it's in a docs file in Anhar's Claude project, not in Canva. ⚠ **The colours didn't come through in chat.** We need them before stage 3. For now, the website's teal (#008C95 / #005A70) and sand (#C9935A) are placeholders.\n- **Build:** both. Canva (filed in \"Home Orbit social media\") **and** rendered PNGs.\n"
     },
     {
       "n": 2,
       "key": "direction",
       "title": "Visual direction",
       "subtitle": "The Visual Researcher studies what stops the scroll now, and proposes fresh directions.",
-      "status": "idle",
+      "status": "working",
       "idea": {
         "title": "Recognisable, not identical",
         "body": "A feed where every post looks the same is visual apathy. Keep one through-line and vary the rest."
@@ -34,7 +34,7 @@
         "label": "Review the direction brief.",
         "phrase": "Direction looks right. Next."
       },
-      "report": ""
+      "report": "*The Visual Researcher is studying what's stopping the scroll right now, and your recent paper-art pieces, so this batch doesn't repeat them…*"
     },
     {
       "n": 3,
@@ -123,13 +123,13 @@
         "key": "pd",
         "name": "Production Director",
         "role": "Intake, delivery, the library",
-        "status": "needs-you"
+        "status": "done"
       },
       {
         "key": "vr",
         "name": "Visual Researcher",
         "role": "The look, references, fresh directions",
-        "status": "idle"
+        "status": "working"
       },
       {
         "key": "ad",
@@ -228,9 +228,9 @@
       "branch": "A",
       "format": "slides",
       "job": "attention",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "يغطي أذنه أول ما تشغلي المكنسة، فصرتي تكنسي وهو نايم؟",
@@ -251,9 +251,9 @@
       "branch": "A",
       "format": "slides",
       "job": "conversion",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "تسحبي الآيباد ويبدأ الصراخ؟ جهزي اللي بعده قبل ما تسحبيه.",
@@ -273,9 +273,9 @@
       "branch": "A",
       "format": "slides",
       "job": "attention",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "قبل كل عزيمة تحسبي لها ألف حساب؟ هذي الحسابات الثلاث اللي فعلاً تفرق.",
@@ -296,9 +296,9 @@
       "branch": "A",
       "format": "slides",
       "job": "conversion",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "يبكي وما تعرفي ايش يبغى؟ هذي ثلاث أشياء تلاحظيها قبل ما تبدئي تخمني.",
@@ -319,9 +319,9 @@
       "branch": "A",
       "format": "slides",
       "job": "attention",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟",
@@ -343,9 +343,9 @@
       "branch": "A",
       "format": "slides",
       "job": "conversion",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "يبدأ الصراخ أول ما تجيبي الجزمة عشان تطلعوا؟ الفرق كله في الربع ساعة اللي قبلها.",
@@ -366,9 +366,9 @@
       "branch": "A",
       "format": "slides",
       "job": "attention",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "تطبخي للبيت كله، وهو له صحن لحاله فيه نفس الثلاث أكلات كل يوم؟",
@@ -389,9 +389,9 @@
       "branch": "A",
       "format": "slides",
       "job": "conversion",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "يسمع باب الثلاجة من آخر البيت، ولما تناديه باسمه ما يلتفت؟ جربي هذي الأربع خطوات، وراح تبدئي تكتشفي ايش اللي يخليه يلتفت لك.",
@@ -413,9 +413,9 @@
       "branch": "A",
       "format": "slides",
       "job": "attention",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "كل رجعه من الحديقة نفس المعركة؟ جهزيه للخروج من اول ما توصلوا، مو آخر خمس دقايق.",
@@ -436,9 +436,9 @@
       "branch": "A",
       "format": "slides",
       "job": "conversion",
-      "platform": "",
-      "dimensions": "",
-      "status": "queued",
+      "platform": "Instagram + TikTok",
+      "dimensions": "1080×1350",
+      "status": "in-direction",
       "score": null,
       "onAsset_ar": [
         "مو كل مرة يرفض فيها طفلك التغيير يعني إنه يعاندك. قبل ما تفرضي عليه التغيير، ابدئي بهذي الأربع خطوات.",
