@@ -4,10 +4,13 @@ Conversion post.
 s1: diagonal torn seam. Question over the iPad (ink, 96px, on tealMist); the
     clause «جهزي...» over the plate (pearl, 54px, on deep).
 Inner slides: the seam turns horizontal and the tealMist side shrinks to a band at
-    the bottom while the plate side (deep) grows. s4 (split in two, red flag): a deep
-    shower-head crossed by a torn gold strip, in the band.
+    the bottom while the plate side (deep) grows. The "plate" is p7's own motif: a
+    rectangular tealDeep tray with square scalloped tea biscuits, set at an angle
+    (p4 owns the round pearl plate). s4 (split in two, red flag): s4a the rule: tray
+    yes, shower crossed by a torn gold strip; s4b the scene: iPad off, then straight
+    to the shower (not crossed): two gold protest bursts = a second reason to object.
 s6 (red flag) is split at its middle "\\n": s6a widens to the bigger picture
-    (four tiles), s6b is the conversion end (gold, pearl tag = «الرابط في البايو.»).
+    (four tiles), s6b is the conversion end (gold, pearl tag = «الرابط في البايو.»), mini motif = the tray only.
 """
 import math
 from kit import (C, MX, MT, W, H, paper, torn_rect, torn_poly, torn_strip, torn_circle, glow,
@@ -33,23 +36,44 @@ def ipad(cx, cy, w, h, rot, tone=L, on=True, layer=1):
     return avoid(g + paper(body, tone, layer), 'ipad')
 
 
-def plate(cx, cy, r, tone=D, biscuits=4, crumbs=False, layer=1, seed=0):
-    """Gold concentric plate with sandLight biscuits."""
-    p = (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{C["gold"]}"/>'
-         f'<circle cx="{cx}" cy="{cy}" r="{r * .74}" fill="none" stroke="{C["goldDeep"]}" stroke-opacity=".55" stroke-width="{max(3, r * .025):.1f}"/>'
-         f'<circle cx="{cx}" cy="{cy}" r="{r * .9}" fill="none" stroke="{C["pearl"]}" stroke-opacity=".28" stroke-width="{max(2, r * .015):.1f}"/>')
-    out = paper(p, tone, layer)
-    spots = [(-.3, -.26), (.3, -.22), (-.24, .3), (.32, .28)][:biscuits]
-    br = r * .25
-    for k, (dx, dy) in enumerate(spots):
-        bx, by = cx + dx * r, cy + dy * r
-        dots = ''.join(f'<circle cx="{bx + ox * br * .42:.1f}" cy="{by + oy * br * .42:.1f}" r="{br * .08:.1f}" fill="{C["goldDeep"]}"/>'
-                       for ox, oy in ((-1, -1), (1, -1), (-1, 1), (1, 1), (0, 0)))
-        out += paper(f'<circle cx="{bx:.1f}" cy="{by:.1f}" r="{br:.1f}" fill="{C["sandLight"]}"/>{dots}', tone, layer + 1)
+def biscuit(bx, by, b, rot=0):
+    """Square tea biscuit: sandLight with a scalloped edge and a 3x3 grid of goldDeep docker holes."""
+    k = 5                                   # scallops per side
+    step = b / k
+    sc = ''.join(f'<circle cx="{bx - b / 2 + step * (i + .5):.1f}" cy="{by + sy * b / 2:.1f}" r="{step * .55:.1f}"/>'
+                 f'<circle cx="{bx + sy * b / 2:.1f}" cy="{by - b / 2 + step * (i + .5):.1f}" r="{step * .55:.1f}"/>'
+                 for i in range(k) for sy in (-1, 1))
+    holes = ''.join(f'<circle cx="{bx + ox * b * .26:.1f}" cy="{by + oy * b * .26:.1f}" r="{max(1.6, b * .035):.1f}" fill="{C["goldDeep"]}"/>'
+                    for ox in (-1, 0, 1) for oy in (-1, 0, 1))
+    return (f'<g transform="rotate({rot} {bx:.1f} {by:.1f})"><g fill="{C["sandLight"]}">'
+            f'<rect x="{bx - b / 2:.1f}" y="{by - b / 2:.1f}" width="{b:.1f}" height="{b:.1f}"/>{sc}</g>{holes}</g>')
+
+
+def plate(cx, cy, r, tone=D, biscuits=4, crumbs=False, layer=1, seed=0, rot=-10):
+    """The biscuit tray (p7's own motif; p4 owns the round plate): a rectangular
+    tealDeep tray with a pearl inner line and slotted handles, set at an angle,
+    holding square scalloped tea biscuits in a row. r = half the tray width."""
+    w, h = 2 * r, r * 1.3
+    x, y = cx - w / 2, cy - h / 2
+    T = f'rotate({rot} {cx} {cy})'
+    hw = r * .16                            # handle depth
+    tray = (f'<rect x="{x - hw:.1f}" y="{cy - h * .22:.1f}" width="{w + 2 * hw:.1f}" height="{h * .44:.1f}" rx="{hw * .7:.1f}" fill="{C["tealDeep"]}"/>'
+            f'<rect x="{x - hw * .62:.1f}" y="{cy - h * .12:.1f}" width="{hw * .34:.1f}" height="{h * .24:.1f}" rx="{hw * .17:.1f}" fill="{C["night"]}"/>'
+            f'<rect x="{x + w + hw * .28:.1f}" y="{cy - h * .12:.1f}" width="{hw * .34:.1f}" height="{h * .24:.1f}" rx="{hw * .17:.1f}" fill="{C["night"]}"/>'
+            f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{r * .08:.1f}" fill="{C["tealDeep"]}"/>'
+            f'<rect x="{x + r * .09:.1f}" y="{y + r * .09:.1f}" width="{w - r * .18:.1f}" height="{h - r * .18:.1f}" rx="{r * .04:.1f}" '
+            f'fill="none" stroke="{C["pearl"]}" stroke-opacity=".75" stroke-width="{max(2.5, r * .022):.1f}"/>')
+    out = paper(tray, tone, layer, T=T)
+    b = r * .36
+    spots = [(-.58, -.16, -8), (-.14, .2, 6), (.28, -.2, -4), (.66, .18, 11)][:biscuits]
+    bis = ''.join(biscuit(cx + dx * r, cy + dy * r, b, br) for dx, dy, br in spots)
+    if bis:
+        out += paper(bis, tone, layer + 1, T=T)
     if crumbs:
-        cr = ''.join(f'<circle cx="{cx + r * dx:.1f}" cy="{cy + r * dy:.1f}" r="{r * .035:.1f}" fill="{C["sandLight"]}"/>'
-                     for dx, dy in ((-.2, .1), (.15, -.3), (.32, .18), (-.05, .38), (-.4, -.12)))
-        out += paper(cr, tone, layer + 1, 't')
+        cr = ''.join(f'<rect x="{cx + r * dx:.1f}" y="{cy + r * dy:.1f}" width="{r * .06:.1f}" height="{r * .05:.1f}" '
+                     f'transform="rotate({a} {cx + r * dx:.1f} {cy + r * dy:.1f})" fill="{C["sandLight"]}"/>'
+                     for dx, dy, a in ((-.5, .1, 20), (.15, -.3, -30), (.62, .18, 45), (-.05, .32, 10), (-.7, -.22, -15), (.4, -.05, 60)))
+        out += paper(cr, tone, layer + 1, 't', T=T)
     return avoid(out, 'plate')
 
 
@@ -76,6 +100,19 @@ def shower(cx, cy, s=1.0, tone=L, crossed=True, seed=0):
     return avoid(out, 'shower')
 
 
+def burst(cx, cy, r, tone=L, seed=0):
+    """A jagged gold 'protest' burst (torn star), one per objection."""
+    import random
+    rng = random.Random(seed + 90)
+    n = 11
+    pts = []
+    for k in range(2 * n):
+        a = math.pi * k / n + rng.uniform(-.08, .08)
+        rr = r * (1 if k % 2 == 0 else .52) * rng.uniform(.88, 1.08)
+        pts.append((cx + rr * math.cos(a), cy + rr * math.sin(a)))
+    return torn_poly(pts, C['gold'], tone, seed=seed + 7, layer=3, amp=(2, 4))
+
+
 def band(y0, tilt=18, seed=7):
     """The tealMist (iPad) side as a bottom band with a torn top edge."""
     return torn_poly([(-30, y0 + tilt), (1110, y0 - tilt), (1110, 1380), (-30, 1380)], C['tealMist'], D, torn=[0], seed=seed)
@@ -96,9 +133,12 @@ def icon_moon(x, y, s):
 
 
 def icon_plate(x, y, s):
+    """The tray, as a flat icon: deep tray, two sandLight square biscuits."""
     cx, cy = x + s / 2, y + s / 2
-    return (f'<circle cx="{cx}" cy="{cy}" r="{s * .3}" fill="{C["deep"]}"/><circle cx="{cx}" cy="{cy}" r="{s * .18}" fill="{C["tealMist"]}"/>'
-            f'<circle cx="{cx}" cy="{cy}" r="{s * .1}" fill="{C["gold"]}"/>')
+    return (f'<g transform="rotate(-10 {cx} {cy})"><rect x="{cx - s * .34}" y="{cy - s * .22}" width="{s * .68}" height="{s * .44}" rx="{s * .04}" fill="{C["deep"]}"/>'
+            f'<rect x="{cx - s * .4}" y="{cy - s * .08}" width="{s * .8}" height="{s * .16}" rx="{s * .05}" fill="{C["deep"]}"/>'
+            f'<rect x="{cx - s * .24}" y="{cy - s * .1}" width="{s * .2}" height="{s * .2}" fill="{C["sandLight"]}"/>'
+            f'<rect x="{cx + s * .04}" y="{cy - s * .1}" width="{s * .2}" height="{s * .2}" fill="{C["sandLight"]}"/></g>')
 
 
 def icon_door(x, y, s):
@@ -156,8 +196,11 @@ def slide(ctx):
 
     elif s == 4 and part == 2:
         ctx.t.body()[0].role = 'lead'      # stands alone after the split: set it as the slide's lead
-        art = (band(800) + shower(770, 1060, .95, L, seed=5)
-               + ipad(260, 1060, 230, 300, -14, L, on=False, layer=1))
+        # the scene, not the rule again: iPad off, then straight to the shower (not crossed
+        # this time): two objects, two gold protest bursts = «سبب ثاني يعترض عليه»
+        art = (band(800) + shower(780, 1070, .85, L, crossed=False, seed=5)
+               + ipad(270, 1080, 230, 300, -14, L, on=False, layer=1)
+               + avoid(burst(395, 905, 80, L, seed=1) + burst(935, 860, 80, L, seed=2), 'bursts'))
         r.update(art=art, html=body_text(ctx, MT + 40))
 
     elif s == 5:
@@ -182,8 +225,8 @@ def slide(ctx):
         cta = segs[-1]
         assert cta.text == ctx.cta_text(), (cta.text, ctx.cta_text())
         segs[0].role = 'lead'
-        mini = (torn_poly([(150, 1010), (330, 1010), (330, 1240), (110, 1240)], C['tealMist'], L, torn=[3], seed=71)
-                + ipad(250, 1125, 95, 130, -7, L, on=True) + plate(130, 1175, 58, L))
+        # one focal motif only: the biscuit tray (the iPad stays out of the end)
+        mini = plate(215, 1130, 120, L, biscuits=4, rot=-8)
         art = mini
         html = (text_box(segs[:-1], MX, 260, W - 2 * MX, 'ink')
                 + conversion_tag(cta, 300, 700, rot=-3))

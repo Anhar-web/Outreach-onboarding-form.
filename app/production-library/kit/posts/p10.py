@@ -115,7 +115,7 @@ def icon_blender(x, y, s):
 ICONS = [icon_ipad, icon_puzzle, icon_blender]
 
 
-def board(notes, drop_xy, drop_s, gold_thread=None, tone=TONE):
+def board(notes, drop_xy, drop_s, gold_thread=None, tone=TONE, case=None):
     """notes: list of (x, y, w, h, rot, seed, icon_index or None). Deep threads run
     from each note's pin to a gold pin pushed into the drop (clue-board style)."""
     dx, dy = drop_xy
@@ -130,7 +130,9 @@ def board(notes, drop_xy, drop_s, gold_thread=None, tone=TONE):
         sv, p = note(x, y, w, h, rot, seed, icon, tone)
         sheets += sv
         if gold_thread == k:
-            threads += thread(p, hub, C['gold'], 12, tone, sag=24, layer=2)
+            if case:   # on a gold ground: a deep casing under the gold thread so it still shows
+                threads += thread(p, hub, case, 30, tone, sag=24, layer=2)
+            threads += thread(p, hub, C['gold'], 14 if case else 12, tone, sag=24, layer=2)
         else:
             threads += thread(p, hub, None, 4, tone, sag=36)
     return drop(dx, dy, drop_s, tone) + threads + sheets + pin(hub[0], hub[1], tone)
@@ -231,7 +233,7 @@ def slide(ctx):
         assert cta.text == ctx.cta_text(), (cta.text, ctx.cta_text())
         mini = (f'<g transform="translate(60 975) scale(.36)">'
                 + board([(620, 30, 260, 240, 5, 51, 0), (40, 40, 260, 240, -6, 52, 1), (330, 110, 260, 240, -2, 53, 2)],
-                        (460, 560), .72, gold_thread=0) + '</g>')
+                        (460, 560), .72, gold_thread=0, case=C['deep']) + '</g>')
         html = (text_box(segs[:-1], MX, 260, W - 2 * MX, 'ink')
                 + conversion_tag(cta, 430, 640, rot=-3))
         r.update(ground='gold', art=mini, html=html, dots_theme='gold')

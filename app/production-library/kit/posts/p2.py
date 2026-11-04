@@ -3,8 +3,9 @@
 Motif: the plan in pearl outline: a U of 8 sandLight cushions, a night TV bar,
 two speakers, a door gap at the bottom-right. A torn gold ring marks the seat by
 the door.
-s1: the camera is close: the cushion rows bleed off the frame so the 92px hook
-    sits over the empty centre of the U.
+s1: the hook on top, the whole plan pulled back below it (U of cushions, TV, door),
+    plus cover-only cues: a rug with a tray of finjan cups and a dallah, slippers at
+    the door, and the gold ring on the seat by the door.
 Inner slides pull back to the whole plan (or a torn-edged detail crop of it); each
 «الحساب» lifts one zone in gold: the arrival path, the seat ring, a gold bag with a
 cup, a dish and a toy. s7 (red flag) is split at its "\\n": s7a shows all three
@@ -42,6 +43,35 @@ def plan(T, hi=(), clip=None):
     for k, (x, y, w, h) in enumerate(cush):
         pip = f'<rect x="{x + 12}" y="{y + 12}" width="{w - 24}" height="{h - 24}" rx="10" fill="none" stroke="{C["goldDeep"]}" stroke-opacity=".35" stroke-width="4"/>'
         o.append(avoid(paper(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="18" fill="{C["sandLight"]}"/>{pip}', TONE, 2, T=T), 'cushion'))
+    if 'host' in hi:
+        # cover only, human-scale cues that say عزيمة: a night rug in the middle of the U
+        # with a gold border, a gold tray of finjan cups and a dallah (seen from above),
+        # and slippers left inside the door
+        rug = (f'<rect x="250" y="250" width="500" height="600" rx="8" fill="{C["night"]}"/>'
+               f'<rect x="276" y="276" width="448" height="548" rx="4" fill="none" stroke="{C["gold"]}" stroke-width="10"/>'
+               f'<rect x="306" y="306" width="388" height="488" fill="none" stroke="{C["tealDeep"]}" stroke-width="6" stroke-dasharray="18 12"/>'
+               + ''.join(f'<polygon points="{500},{y - 40} {540},{y} {500},{y + 40} {460},{y}" fill="none" stroke="{C["tealDeep"]}" stroke-width="6"/>' for y in (390, 710)))
+        o.append(avoid(paper(rug, TONE, 1, T=T), 'rug'))
+        tx, ty = 410, 480
+        cups = ''.join(f'<circle cx="{tx + cx}" cy="{ty + cy}" r="20" fill="{pe}"/><circle cx="{tx + cx}" cy="{ty + cy}" r="10" fill="{C["goldDeep"]}"/>'
+                       for cx, cy in ((36, 36), (36, 104), (84, 70)))
+        dallah = (f'<circle cx="{tx + 136}" cy="{ty + 70}" r="34" fill="{pe}"/>'
+                  f'<polygon points="{tx + 104},{ty + 58} {tx + 60},{ty + 44} {tx + 104},{ty + 82}" fill="{pe}"/>'
+                  f'<circle cx="{tx + 136}" cy="{ty + 70}" r="13" fill="{C["gold"]}"/>')
+        big = 'translate(500 550) scale(1.45) translate(-500 -550)'     # tray drawn round its centre
+        o.append(avoid(paper(f'<g transform="{big}"><rect x="{tx}" y="{ty}" width="180" height="140" rx="14" fill="{C["gold"]}"/>'
+                             f'<rect x="{tx + 10}" y="{ty + 10}" width="160" height="120" rx="8" fill="none" stroke="{C["goldDeep"]}" stroke-width="4" stroke-opacity=".6"/></g>',
+                             TONE, 2, T=T) + paper(f'<g transform="{big}">{cups}{dallah}</g>', TONE, 3, T=T), 'tray'))
+        # two pairs of slippers left just inside the door, toes pointing into the room
+        slip = ''
+        for sx, sy, col in ((800, 1036, C['gold']), (884, 1046, C['tealMist'])):
+            for d, a in ((0, -7), (34, 7)):
+                cx = sx + d
+                slip += (f'<path d="M {cx - 15} {sy + 30} Q {cx - 17} {sy - 34} {cx} {sy - 36} Q {cx + 17} {sy - 34} {cx + 15} {sy + 30} '
+                         f'Q {cx} {sy + 40} {cx - 15} {sy + 30} Z" transform="rotate({a} {cx} {sy})" fill="{col}"/>'
+                         f'<path d="M {cx - 14} {sy - 12} Q {cx} {sy - 22} {cx + 14} {sy - 12}" transform="rotate({a} {cx} {sy})" '
+                         f'fill="none" stroke="{C["goldDeep"] if col == C["gold"] else C["deep"]}" stroke-width="5" stroke-linecap="round"/>')
+        o.append(paper(slip, TONE, 2, T=T))
     # gold zones
     if 'in' in hi or 'out' in hi:
         pts = [(860, 1330), (860, 1040), (900, 975)] if 'in' in hi else [(900, 975), (860, 1040), (860, 1150)]
@@ -110,11 +140,13 @@ def slide(ctx):
         keep_in(ctx.t.segs, *[p for p in BREAKS[s] if any(p in g.text for g in ctx.t.segs)])
     r = {'ground': 'deep'}
     if s == 1:
-        # close-up: the U is wider than the frame; the hook sits in its empty centre
-        # 88px (range 88-110): at 92 «تحسبي لها ألف حساب؟» is 942px and would have to break
-        # inside the phrase. 88px in a 920px box keeps four clean phrase lines.
-        art = plan('translate(-110 -60) scale(1.3)', hi=('ring',))
-        r.update(art=art, html=text_box(ctx.t.body(), 80, 330, 920, 'pearl', size={'hook': 88}))
+        # pulled back (QA): the whole majlis in plan below the hook, so the U of cushions,
+        # the TV bar, the door gap, the rug with the coffee tray and the slippers read in
+        # one glance. 88px (range 88-110): at 92 «تحسبي لها ألف حساب؟» is 942px and would
+        # have to break inside the phrase; at 88 that line is ~901px, so the box has to be
+        # 920 wide (x 80..1000), 16px into the 96px side margin (still 60px crop-safe).
+        art = plan('translate(224 628) scale(.632)', hi=('host', 'ring'))
+        r.update(art=art, html=text_box(ctx.t.body(), 80, MT, 920, 'pearl', size={'hook': 88}))
     elif s == 2:
         r.update(art=plan(FULL, hi=('in',)), html=body(ctx))
     elif s == 3:

@@ -250,4 +250,11 @@ def slide(ctx):
                   + paper(dashes(f0=.72, f1=1.0, seed=70), TONE, 1, 't', T=T)
                   + car(CAR[0], CAR[1], 1.0, T=T))
         r.update(art=accent, html=text_box(ctx.t.body(), MX, 330, W - 2 * MX, 'pearl', align='center'))
+    if 2 <= s <= 6:
+        # the dots sit on (or at the edge of) the bright teal lawn: put them on a small
+        # pearl paper pill with ink dots so they stay visible (QA)
+        r['dots_theme'] = 'light'
+        r['css'] = ('.dots{left:50%;right:auto;transform:translateX(-50%);padding:11px 18px;'
+                    'background:rgba(246,243,235,.94);border-radius:999px;'
+                    'box-shadow:-2px 3px 0 rgba(14,47,56,.22),-5px 8px 14px rgba(14,47,56,.18)}')
     return r

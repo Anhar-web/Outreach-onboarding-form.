@@ -22,7 +22,7 @@ FLOOR_Y = 1196          # top of the sandLight floor band
 
 
 # ---------------------------------------------------------------- motifs
-def fridge(tx, ty, s, glow_on=True, seed=0, wedge_op=.5):
+def fridge(tx, ty, s, glow_on=True, seed=0, wedge_op=.5, magnets=False):
     """Fridge in local coords: cabinet 520 x 1000 with its top-left at (0,0); the
     lower door is swung open towards the viewer on the right (to x = 700).
     Drawn at translate(tx,ty) scale(s); filters stay outside the transform."""
@@ -39,6 +39,15 @@ def fridge(tx, ty, s, glow_on=True, seed=0, wedge_op=.5):
     # freezer door, closed: deep, with a gold bar handle
     o.append(paper(f'<rect x="14" y="14" width="492" height="338" rx="24" fill="{C["deep"]}"/>'
                    f'<rect x="420" y="190" width="30" height="132" rx="15" fill="{C["gold"]}"/>', TONE, 2, T=T))
+    if magnets:
+        # fridge magnets on the freezer door: a pinned pearl note, a teal disc, a gold star
+        star = ' '.join(f'{300 + (34 if k % 2 == 0 else 15) * __import__("math").cos(__import__("math").pi * k / 5 - 1.5708):.1f},'
+                        f'{250 + (34 if k % 2 == 0 else 15) * __import__("math").sin(__import__("math").pi * k / 5 - 1.5708):.1f}' for k in range(10))
+        o.append(paper(f'<rect x="70" y="80" width="150" height="120" rx="4" fill="{C["pearl"]}" transform="rotate(-6 145 140)"/>'
+                       f'<path d="M 92 160 q 26 -36 52 0 t 52 0" fill="none" stroke="{C["teal"]}" stroke-width="8" stroke-linecap="round" transform="rotate(-6 145 140)"/>'
+                       f'<circle cx="140" cy="88" r="16" fill="{C["gold"]}"/>'
+                       f'<circle cx="300" cy="120" r="28" fill="{C["teal"]}"/>'
+                       f'<polygon points="{star}" fill="{C["gold"]}"/>', TONE, 3, T=T))
     # lit interior with three shelves and a few flat paper things on them
     shelves = ''.join(f'<rect x="40" y="{y}" width="440" height="14" fill="{C["tealMist"]}"/>' for y in (540, 700, 850))
     items = (f'<rect x="80" y="440" width="70" height="100" rx="12" fill="{C["gold"]}"/>'
@@ -157,8 +166,10 @@ def slide(ctx):
     if s == 1 and part == 1:
         # the question, 92px ink; the fridge is too big for the frame, the bubble is tiny
         # the fridge towers from the top of the frame to past the floor in a left column
-        art = (floor() + fridge(-436, 130, 1.3, wedge_op=.6)
-               + bubble(890, 1030, 112))
+        # widened crop (QA): the whole fridge face, freezer handle, magnets, open door with
+        # lit shelves and bins and the light spill, too big to fit: it runs off the bottom
+        art = (fridge(150, 668, .92, wedge_op=.6, magnets=True)
+               + bubble(960, 1170, 112))
         r.update(art=art, html=text_box(ctx.t.body(), MX, MT, W - 2 * MX, 'ink', size={'hook': 92}))
 
     elif s == 1 and part == 2:
