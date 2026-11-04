@@ -60,3 +60,8 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 ## Solve her real goal, not a workaround (from p3 review)
 - **Give her the solution she actually wants.** A mother reading a bedtime post wants **him to sleep on his own**, not tips for living with lying beside him. Name the real goal and give steps toward it, without promising it or a timeline.
 - **Don't assume she has spare time or can rearrange her day.** She's been busy all day; often the only time for chores is *after* he sleeps. Tips like "finish your chores before you lie down" fail.
+
+## Scenes and intensity (from p8 review)
+- **No cups or plates for "change" posts.** Anhar recently posted about cups, so it's taken. The concept is "he wants things to stay the same", not a specific object.
+- **No jarring or odd changes** (e.g. moving his bed) that a mother wouldn't normally do.
+- **Show the problem, then the steps.** The scene must make her *feel* it: not a flat statement (apathy), and not overdramatic or manufactured drama. Match the real size of the problem.
