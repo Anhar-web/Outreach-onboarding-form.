@@ -74,7 +74,7 @@ In her own bridge: «تغيير شخص واحد **ممكن** يغيّر تجرب
 | تسوي | تسوين | "you (f.) do". Her area's speech. |
 | هذا الأسبوع | هالأسبوع | Same for هذا اليوم / هذي المرة. |
 | النقت | الناقتس | Nuggets. |
-| جمبه | جنبه | ⚠ She wrote جنبه once (p7). Pending her answer. |
+| جمبه | | Both جمبه and جنبه appear in her lines. **Keep each as written.** She wants mixed spelling left alone so it doesn't feel too polished. |
 | إلين ما | لين | Until. |
 | كل رجعه من الحديقة | كل طلعة من الحديقة | |
 | من اول ما | من لحظة ما | |
@@ -87,7 +87,7 @@ In her own bridge: «تغيير شخص واحد **ممكن** يغيّر تجرب
 | السفرة | سفرة البيت | |
 | الخرجة / طلعه | | Her words for an outing. |
 | حاجة بسيطة، على راحته، على طول، زي، دايما، يقابله بـ لا، يعترض عليه | | Words she brought in herself. Use them. |
-| إنتي | أنتي | ⚠ She wrote إنتي in p8. Pending her answer. |
+| إنتي / أنتي | | Both appear. **Keep as written; don't normalise.** Same for ه/ة endings (الفرشه, مختلفه). |
 | وقت النوم | السرير | "The hour before bedtime". |
 
 **Punctuation:** spoken lines on slides use straight quotes "…", not «…».
@@ -141,3 +141,10 @@ In her own bridge: «تغيير شخص واحد **ممكن** يغيّر تجرب
   - «الرابط في البايو.»
 - **Don't list the six areas.** It's dense and sounds like a brochure. «فيه مواقف تتكرر وقت النوم والأكل والطلعات وغيرها» is the most she wants.
 - **Give her a reason to tap**, tied back to the hook. For example: «…بدل ما تخمني» on a post whose hook was about guessing.
+
+## Decisions from Step 8
+- **Don't normalise spelling** across or within posts. Slight inconsistency keeps it human, not polished.
+- **A hearing-check line is OK** in a "doesn't respond to his name" post, as one plain practical step.
+- **No "see a doctor" lines** in food posts.
+- **A familiar item from home (his cup) is fine** in visit posts. The cup ban is only for *change* posts.
+- **When a step mentions "the same words", give the example** (e.g. "يلا نوم").
