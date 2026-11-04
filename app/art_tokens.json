@@ -1,0 +1,410 @@
+{
+ "canvas": {
+  "w": 1080,
+  "h": 1350,
+  "ratio": "4:5",
+  "dir": "rtl",
+  "lang": "ar"
+ },
+ "colors": {
+  "brand": {
+   "deep": "#005A70",
+   "teal": "#00A9A5",
+   "pearl": "#F6F3EB",
+   "gold": "#C9935A"
+  },
+  "derived": {
+   "night": "#003F4F",
+   "ink": "#0E2F38",
+   "tealMist": "#DCEEEC",
+   "sandLight": "#EBD6BC",
+   "goldDeep": "#8A5A2B",
+   "tealDeep": "#007A77"
+  },
+  "grounds": {
+   "light": [
+    "pearl",
+    "tealMist",
+    "sandLight"
+   ],
+   "dark": [
+    "deep",
+    "night"
+   ],
+   "endSlideOnly": [
+    "gold"
+   ],
+   "neverGround": [
+    "teal"
+   ]
+  },
+  "textOn": {
+   "pearl": "ink|deep",
+   "tealMist": "ink",
+   "sandLight": "ink",
+   "gold": "ink",
+   "deep": "pearl",
+   "night": "pearl"
+  },
+  "contrast": {
+   "ink/pearl": 12.78,
+   "ink/tealMist": 11.79,
+   "ink/sandLight": 10.04,
+   "ink/gold": 5.26,
+   "deep/pearl": 7.02,
+   "pearl/night": 10.38,
+   "gold/night": 4.28,
+   "banned": {
+    "gold/deep": 2.89,
+    "pearl/teal": 2.62,
+    "white/teal": 2.91,
+    "teal/pearl": 2.62
+   }
+  }
+ },
+ "fonts": {
+  "heading": "El Messiri",
+  "body": "Tajawal",
+  "googleFonts": "https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@500;700&display=swap",
+  "maxHeadingWeight": 700,
+  "letterSpacing": 0
+ },
+ "type": {
+  "hook": {
+   "font": "El Messiri",
+   "weight": 700,
+   "size": 96,
+   "range": [
+    88,
+    110
+   ],
+   "lh": 1.35,
+   "maxLines": 4
+  },
+  "hookClause": {
+   "font": "Tajawal",
+   "weight": 500,
+   "size": 54,
+   "lh": 1.5
+  },
+  "typeFirstHook": {
+   "font": "El Messiri",
+   "weight": 700,
+   "size": 120,
+   "lh": 1.3
+  },
+  "stepLabel": {
+   "font": "El Messiri",
+   "weight": 600,
+   "size": 44,
+   "lh": 1.2
+  },
+  "bodyLead": {
+   "font": "Tajawal",
+   "weight": 700,
+   "size": 60,
+   "lh": 1.45
+  },
+  "bodySupport": {
+   "font": "Tajawal",
+   "weight": 500,
+   "size": 50,
+   "lh": 1.5
+  },
+  "quietEnd": {
+   "font": "El Messiri",
+   "weight": 600,
+   "size": 72,
+   "lh": 1.4
+  },
+  "tag": {
+   "font": "Tajawal",
+   "weight": 700,
+   "size": 46,
+   "lh": 1.3
+  },
+  "minSize": 44,
+  "maxLinesPerSlide": 5,
+  "charsPerLine": {
+   "96": 20,
+   "60": 32,
+   "50": 36
+  }
+ },
+ "spacing": {
+  "marginX": 96,
+  "marginTop": 120,
+  "marginBottom": 150,
+  "textBox": [
+   888,
+   1080
+  ],
+  "gridCropSafeX": 60
+ },
+ "paper": {
+  "grain": {
+   "mottle": {
+    "type": "fractalNoise",
+    "baseFrequency": 0.035,
+    "numOctaves": 3,
+    "seed": 7,
+    "opacity": 0.05
+   },
+   "fibre": {
+    "type": "fractalNoise",
+    "baseFrequency": 0.9,
+    "numOctaves": 4,
+    "seed": 3,
+    "opacity": 0.07,
+    "blend": "multiply"
+   },
+   "groundOpacity": 0.04
+  },
+  "tornEdge": {
+   "method": "jagged polygon",
+   "amplitudePx": [
+    6,
+    12
+   ],
+   "stepPx": [
+    10,
+    18
+   ],
+   "core": {
+    "color": "pearl",
+    "offsetPx": 3,
+    "opacity": 0.7
+   },
+   "useFor": [
+    "notes",
+    "strips",
+    "tabs",
+    "tags"
+   ]
+  },
+  "cutEdge": {
+   "method": "feDisplacementMap over feTurbulence 0.05",
+   "scale": 3,
+   "useFor": [
+    "objects"
+   ]
+  },
+  "light": "top-right",
+  "shadow": {
+   "light": {
+    "contact": "-1px 2px 2px rgba(14,47,56,.28)",
+    "cast": "-6px 10px 18px rgba(14,47,56,.18)"
+   },
+   "dark": {
+    "contact": "-1px 2px 2px rgba(0,20,26,.45)",
+    "cast": "-6px 10px 18px rgba(0,20,26,.35)"
+   },
+   "perLayerCastOffsetAddPx": 4,
+   "edgeHighlight": "1px rgba(255,255,255,.18) top-right"
+  },
+  "shapesPerSlide": [
+   6,
+   12
+  ]
+ },
+ "components": {
+  "stepTab": {
+   "fill": "gold",
+   "text": "ink",
+   "height": 72,
+   "padX": 40,
+   "rotateDeg": -2,
+   "position": "top-right inset 96",
+   "edge": "torn",
+   "label": "verbatim slide text up to and incl. colon"
+  },
+  "progressDots": {
+   "size": 14,
+   "gap": 12,
+   "activeSize": 20,
+   "activeColor": "gold",
+   "inactive": "text colour @40%",
+   "bottom": 72,
+   "direction": "rtl",
+   "showOnSlide1": false,
+   "slideNumbers": false
+  },
+  "conversionEnd": {
+   "ground": "gold",
+   "text": "ink",
+   "motifScale": 0.25,
+   "motifPos": "bottom-left",
+   "tag": {
+    "fill": "pearl",
+    "edge": "torn",
+    "rotateDeg": -3,
+    "hole": 22,
+    "string": "deep"
+   },
+   "tagText": {
+    "p6": "الرابط في البايو.",
+    "p7": "الرابط في البايو.",
+    "p8": "الرابط في البايو.",
+    "p10": "الرابط في البايو.",
+    "p9": "التقييم المجاني في البايو يمر عليها كلها."
+   }
+  },
+  "attentionEnd": {
+   "ground": "post ground",
+   "text": "quietEnd centred",
+   "accent": "one small motif"
+  }
+ },
+ "postingOrder": [
+  "p5",
+  "p7",
+  "p2",
+  "p10",
+  "p3",
+  "p6",
+  "p4",
+  "p9",
+  "p1",
+  "p8"
+ ],
+ "posts": {
+  "p5": {
+   "pos": 1,
+   "tone": "D",
+   "ground": "night",
+   "composition": "one-big-object-macro",
+   "motif": "canister vacuum ~70% bleeding bottom-left (pearl ellipse body, deep hose arc, gold wheels); 5 torn teal/gold noise strips from nozzle; small pearl mitten-hands over ear top-left",
+   "hook": "top-right, pearl, 96px",
+   "inner": "vacuum shrinks 70>45>25% drifting left; s6 pearl open doorway right",
+   "accent": "gold"
+  },
+  "p7": {
+   "pos": 2,
+   "tone": "L",
+   "ground": "pearl + tealMist right panel",
+   "composition": "split-frame",
+   "motif": "right: deep iPad r28 with 2-layer teal glow; left: gold concentric plate with 4 sandLight biscuits; torn vertical seam",
+   "hook": "question over iPad ink 96px; second clause over plate 54px",
+   "inner": "plate side grows; s4 deep shower-head crossed by torn gold strip",
+   "accent": "teal glow",
+   "end": "conversionEnd"
+  },
+  "p2": {
+   "pos": 3,
+   "tone": "D",
+   "ground": "deep",
+   "composition": "top-down-blueprint",
+   "motif": "pearl-outline majlis plan: U of 8 sandLight cushions, night TV bar, 2 speakers, door gap bottom-right; torn gold ring on seat by door",
+   "hook": "top-right, pearl, 92px over empty centre",
+   "inner": "same map; each الحساب lifts one zone in gold: arrival path / seat ring / gold bag with cup, dish, toy",
+   "accent": "gold rings"
+  },
+  "p10": {
+   "pos": 4,
+   "tone": "L",
+   "ground": "sandLight",
+   "composition": "clue-board",
+   "motif": "cut deep teardrop 300px centre-low; 3 blank pearl torn notes with gold pins in triangle",
+   "hook": "top-right, ink, 96px",
+   "inner": "each شي enlarges one note with flat deep icon: iPad off-dot / puzzle piece / blender",
+   "accent": "deep icons",
+   "end": "conversionEnd"
+  },
+  "p3": {
+   "pos": 5,
+   "tone": "D",
+   "ground": "night",
+   "composition": "panorama-path (8640x1350 strip sliced)",
+   "motif": "side-view bed (deep frame, pearl blanket lump, no head), gold slipper, pearl moon, gold lamp glow; gold chair moves bed>mid-room>door s4-s8",
+   "hook": "centred upper third, pearl, 92px",
+   "inner": "continuous floor line; text upper 45%; s8 door ajar with pearl light wedge",
+   "accent": "gold lamp"
+  },
+  "p6": {
+   "pos": 6,
+   "tone": "L",
+   "ground": "pearl",
+   "composition": "one-big-object-radial",
+   "motif": "760px sandLight clock, deep rim, ink hands; torn gold quarter-hour wedge before 12; small deep shoes at 12",
+   "hook": "top-right, ink, 88px; clock lower 60%",
+   "inner": "s4 iPad with gold cross; s5 cup+biscuit in wedge; s6 shoes into wedge",
+   "accent": "gold wedge",
+   "end": "conversionEnd"
+  },
+  "p4": {
+   "pos": 7,
+   "tone": "D",
+   "ground": "deep",
+   "composition": "top-down-flat-lay (geometric, non-realistic)",
+   "motif": "640px pearl plate: 4 gold nugget blobs w/ sandLight dots, 7 gold fry bars, gold toast square with goldDeep crust; empty 200px pearl dish beside",
+   "hook": "top-right, pearl, 92px; plate cropped low",
+   "inner": "s3 torn teal ring round gold food; s4 food turns pearl/deep; s5-7 goldDeep falafel disc in small dish",
+   "accent": "teal ring"
+  },
+  "p9": {
+   "pos": 8,
+   "tone": "L",
+   "ground": "tealMist",
+   "composition": "scale-contrast",
+   "motif": "giant deep fridge door ajar left (70% height) with pearl glow wedge; tiny empty pearl speech bubble right",
+   "hook": "clause to يلتفت؟ ink 92px; rest 50px",
+   "inner": "bubble grows 120>420px as fridge recedes; s4 gold biscuit in bubble",
+   "accent": "deep",
+   "end": "conversionEnd"
+  },
+  "p1": {
+   "pos": 9,
+   "tone": "D",
+   "ground": "deep + teal lawn",
+   "composition": "top-down-route-map (replaces photo hybrid)",
+   "motif": "torn teal lawn island lower 60%; gold blanket with pearl stripes bottom-right; dashed pearl paper path to small night car with pearl windows top-left",
+   "hook": "torn pearl strip -1.5deg top third, ink, 88px",
+   "inner": "items travel path: s3 gold pin on car; s4 bag>ball>blanket lift off; s5 ball on path; s6 juice box in car",
+   "accent": "pearl path"
+  },
+  "p8": {
+   "pos": 10,
+   "tone": "L",
+   "ground": "pearl",
+   "composition": "type-first",
+   "motif": "deep cut-paper hook letters over gold duplicate offset -8px 8px; one small closed storybook (gold cover, pearl pages)",
+   "hook": "first sentence 120px, rest 54px",
+   "inner": "low centred vignettes: book stays by gold chair; striped pyjamas pass to sandLight hand",
+   "accent": "gold shadow",
+   "end": "conversionEnd"
+  }
+ },
+ "fitFlags": {
+  "red": {
+   "p7.s6": 151,
+   "p9.s1": 124,
+   "p3.s7": 123,
+   "p2.s7": 120,
+   "p7.s4": 111
+  },
+  "amber": {
+   "p6.s5": 107,
+   "p8.s8": 107,
+   "p2.s3": 103,
+   "p6.s7": 103,
+   "p8.s1": 101,
+   "p5.s5": 101,
+   "p2.s2": 99,
+   "p9.s8": 98,
+   "p1.s4": 95,
+   "p4.s6": 95
+  },
+  "splitHooks": [
+   "p1.s1",
+   "p6.s1"
+  ],
+  "noLineBreaks": [
+   "p8.s2",
+   "p8.s3",
+   "p8.s4",
+   "p8.s5",
+   "p8.s6",
+   "p8.s7"
+  ]
+ }
+}
