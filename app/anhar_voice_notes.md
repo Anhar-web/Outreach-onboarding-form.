@@ -46,3 +46,8 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 - People open social media for a solution, something valuable, or to be entertained. **Not a lecture.**
 - **No walls of text.** Few words per slide, big fonts, easy to read at a glance. If a slide needs small text to fit, it has too much on it. Split it or cut it.
 - She should never feel like she's reading a book.
+
+## Real-life context (from concept review)
+- **Parks here are not amusement parks.** They're open grass where families sit on picnic blankets with food for a while. Sometimes there are rentable electric cars or bikes for kids; very young children may only manage the electric cars. No rides, no "last ride".
+- **Visits may be to a friend's or relative's house that has no spare room.** Don't assume a quiet corner or a free room exists. Use only what she controls: where she sits, what she brings, when she arrives and leaves.
+- **She is tired and doing everything herself.** Every tip around chores (vacuuming, cooking, cleaning) must take seconds, not preparation. She wants the chore done so she can rest. No team and no spare time. If a tip adds a whole routine before the chore, it fails.
