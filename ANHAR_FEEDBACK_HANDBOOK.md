@@ -338,3 +338,14 @@ Her answers:
 - The emotional peaks in the batch were all **Anhar's own scene and inner-voice lines** (p5 s2, p7 s2, p10 s2).
 - Posts that jump from the hook straight to the tips (p1, p4, p6, p9) are useful but flat. **Consider one beat-by-beat scene slide** in future posts.
 - The best bridge **ties the reason to tap back to the hook** (p10: «بدل ما تخمني»).
+
+---
+
+# PART C: VISUAL / PRODUCTION RULES (creative production, Batch 1)
+- **Brand colours (official):** Deep Sea Blue **#005A70** · Ocean Teal **#00A9A5** · Pearl **#F6F3EB** · Sunrise Gold **#C9935A**.
+- **Fonts:** El Messiri (headings), Tajawal (body). No other fonts (Alexandria was off-brand), no emoji.
+- **Size:** 1080×1350 (4:5) for carousels.
+- **No realistic visuals. They don't perform for her.** No photos, no photo+paper hybrids, no realistic food. Everything is stylised paper art.
+- **Never show the child's face.**
+- **Fight sameness:** recent work ("Too Much", "Leaving Grandma's") was all wide side-view room scenes with paper puppets. Vary the composition, viewpoint, scale and ground colour from post to post. The paper-art texture is the through-line, not the layout.
+- **Build:** both Canva (filed in the "Home Orbit social media" folder) and rendered PNGs.
