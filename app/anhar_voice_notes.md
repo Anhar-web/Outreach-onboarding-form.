@@ -65,3 +65,6 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 - **No cups or plates for "change" posts.** Anhar recently posted about cups, so it's taken. The concept is "he wants things to stay the same", not a specific object.
 - **No jarring or odd changes** (e.g. moving his bed) that a mother wouldn't normally do.
 - **Show the problem, then the steps.** The scene must make her *feel* it: not a flat statement (apathy), and not overdramatic or manufactured drama. Match the real size of the problem.
+
+## Step labels
+- **Label steps in full: «الخطوة الأولى:»، «الخطوة الثانية:»…**, not a bare «الأولى:». Where the items aren't steps, name what they are: «الحساب الأول:» for calculations, «أول شي:» for things to notice.
