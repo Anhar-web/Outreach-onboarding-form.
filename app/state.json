@@ -1,6 +1,6 @@
 {
   "project": "Home Orbit — Batch 1 (10 static posts)",
-  "updatedAt": "2026-11-04T12:48:50.484056+00:00",
+  "updatedAt": "2026-11-04T12:54:19.074202+00:00",
   "currentStep": 7,
   "steps": [
     {
@@ -329,7 +329,7 @@
       "angle": "Your day, named exactly",
       "hook_ar": "تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟",
       "hook_gloss": "You lie beside him until he sleeps, and wake up two hours later because you're the one who fell asleep?",
-      "value": "Humor on her evening, then steps for the hour before bed so bedtime doesn't take her whole night. ⚠ Same topic as c5: pick one.",
+      "value": "✎ Rewritten from Anhar's comment: four steps to move away bit by bit toward him sleeping on his own (sit instead of lie, hand then voice, her spot moves toward the door, the same calm words when he gets up). The goal is named, not promised.",
       "status": "picked",
       "format": "slides"
     },
@@ -428,14 +428,14 @@
     {
       "id": "p3",
       "conceptId": "c7",
-      "title": "Lying beside him: you're the one who fell asleep (attention, 8 slides)",
+      "title": "Lying beside him: step back bit by bit (attention, 8 slides)",
       "format": "slides",
       "status": "draft",
       "score": null,
-      "body_ar": "(١)\nتنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟\n\n(٢)\nوتقومي والصحون في المغسلة، وملابس بكرة ما تجهزت، والليلة راحت.\n\n(٣)\nهذي ثلاث أشياء للساعة اللي قبل النوم، عشان وقت النوم ما ياخذ ليلتك كلها.\n\n(٤)\nخلصي اللي وراك قبل ما تنسدحي، مو بعده.\nالصحون، ملابس بكرة، شاورك. لأنك عارفة ايش بيصير.\n\n(٥)\nوقبل ما تنسدحي، خلي كل شي يطلبه جمب السرير.\nموية، اللعبة اللي ينام معاها، البطانية اللي يبغاها.\n\n(٦)\nلأن كل مرة تقومي تجيبي شي، يرجع النوم من أول.\n\n(٧)\nوحطي منبه على الهزاز تحت يدك، بعد نص ساعة.\nلك أنتي، مو له.\n\n(٨)\nإذا نام، تقومي والليلة لسه لك.\nوإذا أنتي اللي نمتي، يصحيك قبل ما تروح الساعتين.",
-      "caption_ar": "للي كل ليلة تنام قبل طفلها.\nثلاث أشياء عشان ليلتك ما تروح كلها.",
+      "body_ar": "(١)\nتنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟\n\n(٢)\nوكل ليلة نفس القصة.\nهو ما ينام إلا وأنتي جمبه، وأنتي تبغيه ينام لحاله.\n\n(٣)\nهذي أربع خطوات تبعدي فيها عنه شوي شوي، بدون ما تختفي من الغرفة فجأة.\n\n(٤)\nالأولى: بدل ما تنسدحي جمبه، اجلسي جمب سريره.\nنفس القرب، بس أنتي جالسة، وما راح تنامي قبله.\n\n(٥)\nالثانية: يدك على ظهره في البداية.\nوبعد كم ليلة، صوتك بس، بدون يدك.\n\n(٦)\nالثالثة: كل كم ليلة، مكانك يبعد شوي.\nمن جمب السرير، لنص الغرفة، لعند الباب.\n\n(٧)\nالرابعة: إذا قام من سريره، رجعيه بهدوء وبنفس الكلمتين كل مرة.\nبدون نقاش، وبدون ما تنسدحي جمبه من جديد.\n\n(٨)\nتاخذ وقت، بس كل ليلة أنتي أبعد بخطوة.\nوالهدف ليلة تطلعي فيها من الغرفة وهو لسه صاحي.",
+      "caption_ar": "من جمبه على السرير، لعند الباب.\nخطوة كل كم ليلة.",
       "cta_ar": "",
-      "notes": "**Copywriter's flag:** Steps are about her evening, not about making him sleep (no promise he'll sleep faster). No bath/music/story routine since research says it winds some children up. Check the joke in slide 4 («لأنك عارفة ايش بيصير») lands warmly on read-aloud and not as a dig.\n\n**Back-translation:**\n\n1. You lie down beside him until he sleeps, and wake up two hours later and you're the one who fell asleep?\n2. And you get up with the dishes in the sink, tomorrow's clothes not ready, and the night gone.\n3. Here are three things for the hour before bedtime, so that bedtime doesn't take your whole night.\n4. Finish what you have to do before you lie down, not after. The dishes, tomorrow's clothes, your shower. Because you know what's going to happen.\n5. And before you lie down, put everything he asks for beside the bed. Water, the toy he sleeps with, the blanket he wants.\n6. Because every time you get up to fetch something, sleep starts over from the beginning.\n7. And set an alarm on vibrate under your hand, for half an hour. For you, not for him.\n8. If he's asleep, you get up and the night is still yours. And if you're the one who fell asleep, it wakes you before the two hours are gone."
+      "notes": "**Copywriter's flag:** Rewritten from Anhar's comment: the goal is him sleeping on his own, not working around it, and 'finish your chores first' was unrealistic. Gradual step-back (sit, hand, voice, spot moves toward the door). The goal is named as a goal, not promised. No timeline promised.\n\n**Back-translation:**\n\n1. You lie down beside him until he sleeps, and wake up two hours later and you're the one who fell asleep?\n2. And every night it's the same story. He only sleeps with you beside him, and you want him to sleep on his own.\n3. Here are four steps where you move away from him bit by bit, without disappearing from the room suddenly.\n4. The first: instead of lying down beside him, sit beside his bed. The same closeness, but you're sitting, and you won't fall asleep before him.\n5. The second: your hand on his back at the start. And after a few nights, just your voice, without your hand.\n6. The third: every few nights, your spot moves a little further. From beside the bed, to the middle of the room, to the door.\n7. The fourth: if he gets out of bed, take him back calmly with the same two words every time. No discussion, and without lying down beside him again.\n8. It takes time, but every night you're one step further. And the goal is a night when you walk out of the room while he's still awake."
     },
     {
       "id": "p4",

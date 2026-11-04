@@ -55,3 +55,7 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 
 ## Punctuation
 - **Quoted speech on slides uses straight double quotes** "…", not guillemets «…». Example: "هذي سيارتنا، نرجع لها بعدين."
+
+## Solve her real goal, not a workaround (from p3 review)
+- **Give her the solution she actually wants.** A mother reading a bedtime post wants **him to sleep on his own**, not tips for living with lying beside him. Name the real goal and give steps toward it, without promising it or a timeline.
+- **Don't assume she has spare time or can rearrange her day.** She's been busy all day; often the only time for chores is *after* he sleeps. Tips like "finish your chores before you lie down" fail.
