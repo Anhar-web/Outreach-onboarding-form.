@@ -1,7 +1,7 @@
 {
   "project": "Home Orbit: production, Batch 1",
-  "updatedAt": "2026-11-04T16:07:02.287160+00:00",
-  "currentStage": 4,
+  "updatedAt": "2026-11-04T18:59:57.374898+00:00",
+  "currentStage": 6,
   "canvaFolderId": "FAHZ9G86KFo",
   "stages": [
     {
@@ -57,7 +57,7 @@
       "key": "build",
       "title": "Build",
       "subtitle": "Branch A builds the carousels. Branch B (video) isn't used this batch.",
-      "status": "needs-you",
+      "status": "done",
       "idea": {
         "title": "Built from the approved copy, verbatim",
         "body": "Arabic on the slides is never rewritten to fit a layout. It's flagged instead."
@@ -73,7 +73,7 @@
       "key": "repurpose",
       "title": "Repurposing",
       "subtitle": "Optional: cut-downs from the same ideas.",
-      "status": "idle",
+      "status": "done",
       "idea": {
         "title": "One idea, many pieces",
         "body": "Test formats without inventing new topics."
@@ -82,14 +82,14 @@
         "label": "Pick the cut-downs, or skip.",
         "phrase": "Make the cutdowns."
       },
-      "report": ""
+      "report": "Skipped for Batch 1: no cut-downs requested. Can be run later from the same assets."
     },
     {
       "n": 6,
       "key": "qa",
       "title": "Creative QA",
       "subtitle": "Every piece scored; Arabic legibility is a gate.",
-      "status": "idle",
+      "status": "working",
       "idea": {
         "title": "Score is a flag, not proof",
         "body": "Your eye decides what ships."
@@ -98,7 +98,7 @@
         "label": "Review QA and ship.",
         "phrase": "Ship it."
       },
-      "report": ""
+      "report": "*Creative QA is scoring every carousel on the production scorecard and re-checking the Arabic on the final images…*"
     },
     {
       "n": 7,
@@ -165,13 +165,13 @@
         "key": "rp",
         "name": "Repurposing",
         "role": "One idea, many cut-downs",
-        "status": "idle"
+        "status": "done"
       },
       {
         "key": "qa",
         "name": "Creative QA",
         "role": "Scored, brand & Arabic gate",
-        "status": "idle"
+        "status": "working"
       }
     ]
   },
