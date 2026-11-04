@@ -1,0 +1,112 @@
+[
+  {
+    "id": "c1",
+    "title": "Leaving the house: the 15 minutes before",
+    "job": "conversion",
+    "angle": "It starts before the moment",
+    "hook_ar": "يبدأ الصراخ أول ما تجيبي الجزمة عشان تطلعوا؟ الفرق كله في الربع ساعة اللي قبلها.",
+    "hook_gloss": "The screaming starts the moment you bring the shoes to go out? The whole difference is in the quarter hour before it.",
+    "value": "What to change in the 15 minutes before leaving: don't cut into something he's in the middle of; let the last thing before leaving be something that ends on its own; the shoes come to where he is. Bridge: this is one moment of one area, and the assessment looks at his whole day.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c3",
+    "title": "The iPad: get what comes after ready",
+    "job": "conversion",
+    "angle": "It starts before the moment",
+    "hook_ar": "تسحبي الآيباد ويبدأ الصراخ؟ جهزي اللي بعده قبل ما تسحبيه.",
+    "hook_gloss": "You take the iPad and the screaming starts? Get what comes after ready before you take it.",
+    "value": "What's ready and in sight before the iPad goes; why the next thing shouldn't be bath or bed; where the iPad goes. Based on: it happens every time.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c4",
+    "title": "Coming back from the park",
+    "job": "attention",
+    "angle": "It starts before the moment",
+    "hook_ar": "كل رجعه من الحديقة نفس المعركة؟ جهزيه للخروج من اول ما توصلوا، مو آخر خمس دقايق.",
+    "hook_gloss": "Every trip back from the park is the same battle? Prepare him for leaving from the moment you arrive, not the last five minutes.",
+    "value": "An exit plan that starts at arrival, for an open grass park with picnic blankets (not an amusement park): show him where the car is when you arrive; pack up in stages he can see (food bag first, blanket last) so leaving doesn't come out of nowhere; give him his own part of the packing (his bag, the ball); something of his waiting in the car. ✎ Revised: no 'last ride'.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c6",
+    "title": "The عزيمة: three calculations that matter",
+    "job": "attention",
+    "angle": "Your day, named exactly",
+    "hook_ar": "قبل كل عزيمة تحسبي لها ألف حساب؟ هذي الحسابات الثلاث اللي فعلاً تفرق.",
+    "hook_gloss": "Before every family dinner you make a thousand calculations for it? These are the three calculations that actually make a difference.",
+    "value": "Three calculations that work in any house, even a friend's with no spare room: when you arrive (before the crowd) and when you leave (before he's done, not after); where you sit (near the door, near you, away from the TV and speakers); what comes with him from home. ✎ Revised: no 'quiet corner'.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c7",
+    "title": "Lying beside him: you're the one who fell asleep",
+    "job": "attention",
+    "angle": "Your day, named exactly",
+    "hook_ar": "تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟",
+    "hook_gloss": "You lie beside him until he sleeps, and wake up two hours later because you're the one who fell asleep?",
+    "value": "Humor on her evening, then steps for the hour before bed so bedtime doesn't take her whole night. ⚠ Same topic as c5: pick one.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c8",
+    "title": "His own plate, same three foods",
+    "job": "attention",
+    "angle": "Your day, named exactly",
+    "hook_ar": "تطبخي للبيت كله، وهو له صحن لحاله فيه نفس الثلاث أكلات كل يوم؟",
+    "hook_gloss": "You cook for the whole house, and he has his own plate with the same three foods every day?",
+    "value": "What his safe foods have in common (colour, crunch, brand, temperature), then one new food that shares that trait, on the side, with no pressure.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c9",
+    "title": "The vacuum",
+    "job": "attention",
+    "angle": "Your day, named exactly",
+    "hook_ar": "يغطي أذنه أول ما تشغلي المكنسة، فصرتي تكنسي وهو نايم؟",
+    "hook_gloss": "He covers his ears the moment you turn on the vacuum, so now you vacuum while he's asleep?",
+    "value": "Zero-prep, for a tired mother who just wants the chore done: the same one word before every switch-on; start in the room farthest from him; leave his way out of the room open. Each takes seconds, with no setup before the chore. No ear defenders, no 'sensory' cause. ✎ Revised for real life.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c11",
+    "title": "Change isn't defiance",
+    "job": "conversion",
+    "angle": "What you'll see in your own child",
+    "hook_ar": "مو كل مرة يرفض فيها طفلك التغيير يعني إنه يعاندك. قبل ما تفرضي عليه التغيير، ابدئي بهذي الأربع خطوات.",
+    "hook_gloss": "Not every time your child refuses change means he's defying you. Before you impose the change on him, start with these four steps.",
+    "value": "4 realistic steps before changing something at home: one change at a time, he sees it before it happens, the old thing stays nearby for a while, he does part of the change himself.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c12",
+    "title": "His name vs the fridge door",
+    "job": "conversion",
+    "angle": "What you'll see in your own child",
+    "hook_ar": "يسمع باب الثلاجة من آخر البيت، ولما تناديه باسمه ما يلتفت؟ جربي هذي الأربع خطوات، وراح تبدئي تكتشفي ايش اللي يخليه يلتفت لك.",
+    "hook_gloss": "He hears the fridge door from the far end of the house, but when you call his name he doesn't turn? Try these four steps, and you'll start discovering what makes him turn to you.",
+    "value": "4 steps: in front of him not behind, when he's not absorbed, his name paired with something he loves, closer and lower. Plus a plain 'worth getting his hearing checked' line. No signs, no diagnosis.",
+    "status": "picked",
+    "format": "slides"
+  },
+  {
+    "id": "c13",
+    "title": "Three things to notice before guessing",
+    "job": "conversion",
+    "angle": "What you'll see in your own child",
+    "hook_ar": "يبكي وما تعرفي ايش يبغى؟ هذي ثلاث أشياء تلاحظيها قبل ما تبدئي تخمني.",
+    "hook_gloss": "He cries and you don't know what he wants? Here are three things to notice before you start guessing.",
+    "value": "Situational: what just ended, what he was doing, where he was (room, noise, light). Not who was near him.",
+    "status": "picked",
+    "format": "slides"
+  }
+]
