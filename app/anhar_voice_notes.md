@@ -16,6 +16,7 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 | تبدئي / ابدئي | تبدأي / ابدأي | Her spelling. It overrides the locked-list spelling. |
 | تلاحظيها | تشوفيها | "Notice" rather than "see", for observing him. |
 | مبسوط | مستانس | Happy. |
+| فيكي | فيك | "In you", as in ما عاد فيكي حيل. Same -كي ending as معاكي. |
 | وقت النوم | السرير | "The hour before bedtime", not "before the bed". |
 
 ## What a hook is (and is not)
