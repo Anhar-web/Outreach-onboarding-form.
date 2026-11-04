@@ -15,6 +15,7 @@ Every specialist reads this alongside the Arabic language file and addendum. Whe
 | تحسبي لها ألف حساب | تسوي ألف حساب | The idiom is حسب حساب, with لها. |
 | تبدئي / ابدئي | تبدأي / ابدأي | Her spelling. It overrides the locked-list spelling. |
 | تلاحظيها | تشوفيها | "Notice" rather than "see", for observing him. |
+| مبسوط | مستانس | Happy. |
 | وقت النوم | السرير | "The hour before bedtime", not "before the bed". |
 
 ## What a hook is (and is not)
