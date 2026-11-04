@@ -1,7 +1,7 @@
 {
   "project": "Home Orbit — Batch 1 (10 static posts)",
-  "updatedAt": "2026-11-04T14:16:48.391719+00:00",
-  "currentStep": 7,
+  "updatedAt": "2026-11-04T14:21:02.174123+00:00",
+  "currentStep": 8,
   "steps": [
     {
       "n": 1,
@@ -104,7 +104,7 @@
       "key": "production",
       "title": "Production",
       "subtitle": "The Copywriter writes every picked post in Arabic.",
-      "status": "needs-you",
+      "status": "done",
       "idea": {
         "title": "Never from a blank page",
         "body": "Each post starts from a picked concept, a chosen hook, a decided format and her own words."
@@ -113,14 +113,14 @@
         "label": "Read the drafts.",
         "phrase": "Looks good. Edit and test."
       },
-      "report": "## 10 carousels drafted\n\nAll 10 are in **The posts** section below. Each one shows the Arabic slides, the caption, and the Copywriter's flag plus a back-translation underneath.\n\n**What the Copywriter checked:**\n- Slide 1 is the approved hook, word for word.\n- Each slide is 8–25 words.\n- Your dialect is used: تسوي, جمبه, إلين ما, تبدئي, هذا الأسبوع.\n- No em dashes, no hedging words, no «التوحد», no causes, no therapy.\n- Attention posts have no CTA. Each conversion post ends with its own bridge and one CTA to the link in the bio.\n\n| Post | Job | Slides | Please check when you read it aloud |\n|---|---|---|---|\n| p1 park | attention | 7 | «تفرشوا / الفرشة»: is that your word for the picnic blanket? |\n| p2 عزيمة | attention | 7 | \"Leave while he's still happy\" might mean leaving before dinner, which is awkward at a Saudi عزيمة. OK, or soften? |\n| p3 lying beside him | attention | 8 | Does «لأنك عارفة ايش بيصير» read as warm? |\n| p4 his own plate | attention | 7 | Is فلافل / تميس right for your table? The research suggested a \"see a doctor if he's losing weight\" line; it's left out because of the no-specialist rule. |\n| p5 vacuum | attention | 7 | «مكنسة» as the one word said before switching on? |\n| p6 shoes | conversion | 8 | «ومحد قطعها»: natural? |\n| p7 iPad | conversion | 8 | Slide 2 «وما يبقى قدامه شي»: is it a description, or does it sound like we're claiming a cause? |\n| p8 change | conversion | 8 | Slide 7 lists all six areas (~20 words): too dense? «الدرج» for where the cups live? |\n| p9 name | conversion | 8 | The CTA is folded into the last slide. Should it be a separate short slide? «فهد» is a placeholder name. |\n| p10 cries | conversion | 8 | Slide 7 is ~25 words. Cut «من نومه لأكله لطلعاته»? |\n\n**Director's note:** one item in p1 needs her to do something before the trip: \"a toy that only comes out on the way home\" means leaving it in the car. It's small, but say if it breaks the no-prep rule.\n"
+      "report": "## 10 carousels drafted\n\nAll 10 are in **The posts** section below. Each one shows the Arabic slides, the caption, and the Copywriter's flag plus a back-translation underneath.\n\n**What the Copywriter checked:**\n- Slide 1 is the approved hook, word for word.\n- Each slide is 8–25 words.\n- Your dialect is used: تسوي, جمبه, إلين ما, تبدئي, هذا الأسبوع.\n- No em dashes, no hedging words, no «التوحد», no causes, no therapy.\n- Attention posts have no CTA. Each conversion post ends with its own bridge and one CTA to the link in the bio.\n\n| Post | Job | Slides | Please check when you read it aloud |\n|---|---|---|---|\n| p1 park | attention | 7 | «تفرشوا / الفرشة»: is that your word for the picnic blanket? |\n| p2 عزيمة | attention | 7 | \"Leave while he's still happy\" might mean leaving before dinner, which is awkward at a Saudi عزيمة. OK, or soften? |\n| p3 lying beside him | attention | 8 | Does «لأنك عارفة ايش بيصير» read as warm? |\n| p4 his own plate | attention | 7 | Is فلافل / تميس right for your table? The research suggested a \"see a doctor if he's losing weight\" line; it's left out because of the no-specialist rule. |\n| p5 vacuum | attention | 7 | «مكنسة» as the one word said before switching on? |\n| p6 shoes | conversion | 8 | «ومحد قطعها»: natural? |\n| p7 iPad | conversion | 8 | Slide 2 «وما يبقى قدامه شي»: is it a description, or does it sound like we're claiming a cause? |\n| p8 change | conversion | 8 | Slide 7 lists all six areas (~20 words): too dense? «الدرج» for where the cups live? |\n| p9 name | conversion | 8 | The CTA is folded into the last slide. Should it be a separate short slide? «فهد» is a placeholder name. |\n| p10 cries | conversion | 8 | Slide 7 is ~25 words. Cut «من نومه لأكله لطلعاته»? |\n\n**Director's note:** one item in p1 needs her to do something before the trip: \"a toy that only comes out on the way home\" means leaving it in the car. It's small, but say if it breaks the no-prep rule.\n\n\n---\n\n## Anhar's review: done\nAnhar edited all 10 posts in comments: p3 and p8 were rewritten, p7's slides 2–6 are hers, and the bridges in p6 and p10 were shortened. **Every edit is distilled into `app/anhar_voice_notes.md` (the Voice & Content Playbook)**, with 12 line-edit patterns, her word list, and hook, concept and carousel rules. All specialists read it from now on."
     },
     {
       "n": 8,
       "key": "test",
       "title": "Arabic + Test",
       "subtitle": "The Arabic Voice Editor, then three sceptical mothers score every post.",
-      "status": "idle",
+      "status": "working",
       "idea": {
         "title": "Strong AND safe",
         "body": "Lukewarm is invisible; unsafe is harm. Both fail."
@@ -129,7 +129,7 @@
         "label": "Review the ranked posts and pick what ships.",
         "phrase": "Ship the winners."
       },
-      "report": ""
+      "report": "*The Arabic Voice Editor is reading the playbook and the Arabic files in full, then checking every unlocked line. Anhar's own lines are locked. Then the Test Panel scores.*"
     },
     {
       "n": 9,
@@ -184,7 +184,7 @@
         "key": "av",
         "name": "Arabic Voice Editor",
         "role": "Makes it sound native",
-        "status": "idle"
+        "status": "working"
       },
       {
         "key": "tp",

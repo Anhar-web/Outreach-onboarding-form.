@@ -1,70 +1,143 @@
-# Anhar's voice & value notes (from batch 1 hook review)
+# Anhar's Voice & Content Playbook
 
-Every specialist reads this alongside the Arabic language file and addendum. Where it conflicts with them, this file is newer and wins.
+Distilled from every edit Anhar made in batch 1, in chat and in comments: hooks, concepts and all 10 posts. **Every specialist reads this in full before writing or editing.** It sits on top of the Arabic language file and Addendum 2. Where they conflict, this file is newer and wins.
 
-## Her dialect (brand voice = how people in her area speak)
+The goal: the next batch shouldn't need any of these corrections again.
+
+---
+
+## Part 1: The patterns behind her line edits
+
+Each pattern below comes from real before → after pairs. Learn the *move*, not just the words.
+
+### 1. Say the plain thing, not a clever English idea
+She removes every line that carries an English concept in Arabic words. If a line needs a moment to decode, it was translated.
+
+| Before (ours) | After (Anhar) | The move |
+|---|---|---|
+| وتخلي الرجعة شي يشوفه جاي | عشان ما يحس إنكم فجأة قررتوا تمشوا | "Something he sees coming" → what he'd actually feel: *you suddenly decided to leave* |
+| يكون شاف الرجعة جاية من أول ما وصلتوا | يكون عارف إن وقت الخرجة خلص | Abstract → the plain result: *he knows outing time is over* |
+| الطلعة تصير هي اللي قطعته | طبيعي ما يبغى يوقف | A clever framing → a plain, normalising truth |
+| تخلص، ومحد قطعها | يخلص منها، وبعدها تطلعوا | Abstract point → the simple sequence of what happens |
+| عشان تبدئي من الجانب اللي يفرق في يومكم | (deleted) | Sounded translated, so it was cut, not patched |
+
+**Test:** could she say this line, word for word, to her sister on the phone? If it sounds like a caption, rewrite it.
+
+### 2. Empathy first: normalise the child's reaction
+She adds words that make his reaction sound *natural*, never wrong: «طبيعي ما يبغى يوقف», «هو متعود إنك إنتي اللي تجهزيه». No blame on him and none on her.
+
+### 3. Suggest, don't command, when it may not be possible
+«وصلي بدري» → «**حاولي** توصلي بدري». If a tip depends on things outside her control (other people, timing), soften it with حاولي. Her real life doesn't always allow it.
+
+### 4. Spell out cause and effect with «كذا»
+«يدخل والمكان لسه هادي» → «**كذا** يدخل والمكان لسه هادي». «**كذا** لما تقولي يلا نمشي…». «**كذا** صار قدامه سبب ثاني يعترض عليه». After a tip, she shows *why it works* in one plain كذا clause.
+
+### 5. Quote her own inner voice
+«وتأجلي الكنس إلين ما ينام» → «**وتقولي بكنس لما ينام**، ولما ينام ما عاد فيكي حيل». Put her own self-talk in her mouth instead of narrating it from outside.
+
+### 6. Show the full real scene, with how he actually reacts
+«يروح الآيباد، وما يبقى قدامه شي» → «تسحبيه، **فيصرخ ويحاول ياخذه، وكل شي تعطيه بعدها يقابله بـ لا**». The scene is the sequence she lives, beat by beat. It's not a summary, and it doesn't hint at a cause.
+
+### 7. Use a mid-slide question to make a tip land
+«تسحبي الآيباد، وعلى طول تقولي يلا شاور؟ كذا صار قدامه سبب ثاني يعترض عليه.» Name the mistake as a recognisable moment (a question), then the plain consequence. Don't state an abstract rule like «مو شاور ولا نوم».
+
+### 8. Generic and natural beats over-specific and invented
+| Before | After |
+|---|---|
+| آخر قطعة راحت من صحنه | خلص الاكل اللي في صحنه |
+| طلعة خلصت | رجعتوا من طلعه |
+| سياراته على الأرض | العاب جاهزة على الأرض |
+| ايش اللي خلص قبل البكا | ايش اللي صار قبل البكا |
+| لا آيباد، ولا علبة الألعاب الكبيرة | لا آيباد ولا غيره |
+| شي جديد يبدأه | شي جديد يحتاج وقت |
+
+Pick the detail every mother recognises, not a cute invented one.
+
+### 9. Put the subject where it belongs
+«ماركة وحدة **ما يغيرها**» → «ماركة وحدة **ما تتغير**». «لازم **تجيه** باردة» → «لازم **تكون** باردة». Describe the thing itself, and don't make him an agent of something he doesn't do.
+
+### 10. Tips said as she'd say them
+«والجزمة تروح له مكانه، مو تناديه للباب» → «**لا تناديه يجي للباب عشان يلبس الجزمة. خذيها له مكانه، ولبّسيه وهو جالس، وبعدها اطلعوا.**» Direct, ordered, plain verbs. The tip comes first as what *not* to do (when that's the mistake she makes), then what to do.
+
+### 11. Don't open a scene slide with «و»
+«وتجيبي له موية…» → «تجيبي له موية…». Starting with و reads like a continuation from nowhere.
+
+### 12. «ممكن» is OK when it's honest, not softening
+In her own bridge: «تغيير شخص واحد **ممكن** يغيّر تجربة كاملة.» Hedging is banned only when it softens a claim out of fear.
+
+---
+
+## Part 2: Her dialect: word list
+
 | Use | Not | Note |
 |---|---|---|
-| تسوي | تسوين | "you (f.) do". تسوي is her speech, even if تسوين is common elsewhere in Saudi. |
-| هذا الأسبوع | هالأسبوع | Same pattern likely for هاليوم / هالمرة → هذا اليوم / هذي المرة. |
+| تسوي | تسوين | "you (f.) do". Her area's speech. |
+| هذا الأسبوع | هالأسبوع | Same for هذا اليوم / هذي المرة. |
 | النقت | الناقتس | Nuggets. |
-| جمبه | جنبه | Beside him. |
+| جمبه | جنبه | ⚠ She wrote جنبه once (p7). Pending her answer. |
 | إلين ما | لين | Until. |
-| كل رجعه من الحديقة | كل طلعة من الحديقة | Coming back from the park is the battle. |
-| من اول ما توصلوا | من لحظة ما توصلوا | |
-| تحسبي لها ألف حساب | تسوي ألف حساب | The idiom is حسب حساب, with لها. |
-| تبدئي / ابدئي | تبدأي / ابدأي | Her spelling. It overrides the locked-list spelling. |
-| تلاحظيها | تشوفيها | "Notice" rather than "see", for observing him. |
-| مبسوط | مستانس | Happy. |
-| فيكي | فيك | "In you", as in ما عاد فيكي حيل. Same -كي ending as معاكي. |
-| وقت النوم | السرير | "The hour before bedtime", not "before the bed". |
+| كل رجعه من الحديقة | كل طلعة من الحديقة | |
+| من اول ما | من لحظة ما | |
+| تحسبي لها ألف حساب | تسوي ألف حساب | |
+| تبدئي / ابدئي | تبدأي / ابدأي | Overrides the locked list. |
+| تلاحظيها | تشوفيها | For observing him. |
+| مبسوط | مستانس | |
+| فيكي | فيك | ما عاد فيكي حيل. |
+| تتغير / تكون | يغيرها / تجيه | See pattern 9. |
+| السفرة | سفرة البيت | |
+| الخرجة / طلعه | | Her words for an outing. |
+| حاجة بسيطة، على راحته، على طول، زي، دايما، يقابله بـ لا، يعترض عليه | | Words she brought in herself. Use them. |
+| إنتي | أنتي | ⚠ She wrote إنتي in p8. Pending her answer. |
+| وقت النوم | السرير | "The hour before bedtime". |
 
-## What a hook is (and is not)
-- **One voice, start to finish.** The second half must continue the first half's thought in the same breath. If it reads like two people wrote two halves, rewrite the whole hook.
-- **A hook, not a headline.** No jarring jump from the question to a "here are X things" announcement.
-- **The second half promises something concrete she gets**: a solution, what she'll see, what to change. "Answer these three questions" is vague and promises nothing.
-- **No quiz or test framing.** It's a post, not a test.
-- **No homework.** Don't ask her to log, write down, record or fill in a table. Nobody opens social media to get homework. Observing something in the moment is OK if it's framed as what she'll *see*.
-- **The first line must be a moment she can relive**, specific enough that she sees it. "Is it a phase?" is too vague. A phase of what?
-- **No translated punctuation patterns**, like a list of single words each with a question mark («موية؟ أكل؟ آيباد؟»).
-- **"Notice who was near him" doesn't work.** At home it's always the same people. Use situational triggers instead: what he was doing, what just ended, where he was.
-- **Lukewarm fails.** If the hook doesn't make her feel anything, cut it.
-- **Phrases that sound translated:** «ارجعي للساعة اللي قبل…».
+**Punctuation:** spoken lines on slides use straight quotes "…", not «…».
 
-## Facts from Anhar
-- **The iPad scream happens every time**, not just at certain times of day. Don't build anything on "is it only sometimes?".
-- **The client case (waking up angry / «كان يصحى معصب…») stays off social media.** It's on the website only.
+---
 
-## Value rules for posts
-- **No generic advice:** nothing she has heard or read a million times (timers, "be patient", "make a routine", "10 tips").
-- **Must be realistic in a real home.** Bad example: a child who opens and closes doors all day → "give him one designated door". The house is full of doors, he won't stick to one, and many children his age can't follow "this is your door". Test every tip: *would this actually work in a busy Saudi home, with this child, today?*
-- She leaves with something tangible she can use.
+## Part 3: Hooks
+- **One voice, start to finish.** If the two halves read like two writers, rewrite the whole hook.
+- **A hook, not a headline.** «كيف تساعدي طفلك…» is a headline. No jarring jump to "here are X things".
+- **The second half promises something concrete she gets.** "Answer these three questions" promises nothing.
+- **No quiz, no test, no homework** (logs, writing down, tables).
+- **The first line is a moment she can relive.** "Is it a phase?" is too vague.
+- **Hand the value to her; don't order her** as if she doesn't know what she's doing: «هذي ثلاث أشياء تلاحظيها…».
+- **No translated punctuation**, like a list of single words each with a question mark: «موية؟ أكل؟».
+- **Lukewarm fails.** «ارجعي للساعة اللي قبل…» sounds translated.
+- **Naming the fear works:** «مو كل مرة يرفض فيها طفلك التغيير يعني إنه يعاندك.» (her chosen hook).
 
-## Realism of the scene (from round 2)
-- **The scene itself has to be realistic, not just the advice.** A young child in a car doesn't know you took a different turn. For "things being different" posts, keep the scene **at home**: moved furniture, a different cup, a toy moved.
-- **Don't sound like we're telling her what to do**, as if she doesn't know what she's doing. Frame the value as something we hand her: «هذي ثلاث أشياء…», «شوفي هذي الأربع…».
+---
 
-## Carousel copy (for the Copywriter)
-- People open social media for a solution, something valuable, or to be entertained. **Not a lecture.**
-- **No walls of text.** Few words per slide, big fonts, easy to read at a glance. If a slide needs small text to fit, it has too much on it. Split it or cut it.
-- She should never feel like she's reading a book.
+## Part 4: Concepts and value
 
-## Real-life context (from concept review)
-- **Parks here are not amusement parks.** They're open grass where families sit on picnic blankets with food for a while. Sometimes there are rentable electric cars or bikes for kids; very young children may only manage the electric cars. No rides, no "last ride".
-- **Visits may be to a friend's or relative's house that has no spare room.** Don't assume a quiet corner or a free room exists. Use only what she controls: where she sits, what she brings, when she arrives and leaves.
-- **She is tired and doing everything herself.** Every tip around chores (vacuuming, cooking, cleaning) must take seconds, not preparation. She wants the chore done so she can rest. No team and no spare time. If a tip adds a whole routine before the chore, it fails.
+### Real goal, real life
+- **Solve the goal she actually has.** A bedtime post = him sleeping on his own, not living around it. Name the goal; don't promise it or a timeline.
+- **Don't assume free time.** She's busy all day, and her chores often happen *after* he sleeps.
+- **Chore tips take seconds.** She's tired, alone, and wants it done.
+- **No generic advice:** timers, "be patient", "make a routine", "10 tips".
+- **Realistic in a real home.** The door example: "give him one designated door" fails.
 
-## Punctuation
-- **Quoted speech on slides uses straight double quotes** "…", not guillemets «…». Example: "هذي سيارتنا، نرجع لها بعدين."
+### Real scenes
+- **Parks** are open grass with picnic blankets, sometimes electric cars or bikes. No rides.
+- **Visits** may be to a house with no spare room. Use only what she controls: when she arrives and leaves, where she sits, what he brings.
+- **"Things being different" happens at home.** A child in a car doesn't notice a different route.
+- **No cups or plates** for change posts (Anhar's recent post). No odd changes like moving his bed.
+- **People change routines too:** her best change scene was the aunt doing bedtime instead of mum. Real family life beats object swaps.
+- **The iPad scream happens every time.**
+- **The client case** (waking up angry) never goes on social.
+- **"Notice who was near him" doesn't work.** Use situational triggers instead.
 
-## Solve her real goal, not a workaround (from p3 review)
-- **Give her the solution she actually wants.** A mother reading a bedtime post wants **him to sleep on his own**, not tips for living with lying beside him. Name the real goal and give steps toward it, without promising it or a timeline.
-- **Don't assume she has spare time or can rearrange her day.** She's been busy all day; often the only time for chores is *after* he sleeps. Tips like "finish your chores before you lie down" fail.
+### Intensity
+- **Show the problem, then the steps.** The scene must make her feel it, but no manufactured drama. Match the real size of the problem.
 
-## Scenes and intensity (from p8 review)
-- **No cups or plates for "change" posts.** Anhar recently posted about cups, so it's taken. The concept is "he wants things to stay the same", not a specific object.
-- **No jarring or odd changes** (e.g. moving his bed) that a mother wouldn't normally do.
-- **Show the problem, then the steps.** The scene must make her *feel* it: not a flat statement (apathy), and not overdramatic or manufactured drama. Match the real size of the problem.
+---
 
-## Step labels
-- **Label steps in full: «الخطوة الأولى:»، «الخطوة الثانية:»…**, not a bare «الأولى:». Where the items aren't steps, name what they are: «الحساب الأول:» for calculations, «أول شي:» for things to notice.
+## Part 5: Carousel structure
+- **No walls of text.** Few words, big fonts, readable at a glance.
+- **Steps are labelled in full:** «الخطوة الأولى:»… Non-step items name what they are: «الحساب الأول:», «أول شي:».
+- **The bridge and CTA share ONE slide.** A separate CTA slide that repeats the bridge gets deleted.
+- **Bridge formula she approved** (vary the wording each post):
+  - «[الموقف] موقف واحد بس.»
+  - «التقييم المجاني يساعدك تشوفي الصورة الأكبر وتعرفي/وتحددي من فين تبدئي/أول خطوة.»
+  - «الرابط في البايو.»
+- **Don't list the six areas.** It's dense and sounds like a brochure. «فيه مواقف تتكرر وقت النوم والأكل والطلعات وغيرها» is the most she wants.
+- **Give her a reason to tap**, tied back to the hook. For example: «…بدل ما تخمني» on a post whose hook was about guessing.
