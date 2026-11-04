@@ -349,3 +349,6 @@ Her answers:
 - **Never show the child's face.**
 - **Fight sameness:** recent work ("Too Much", "Leaving Grandma's") was all wide side-view room scenes with paper puppets. Vary the composition, viewpoint, scale and ground colour from post to post. The paper-art texture is the through-line, not the layout.
 - **Build:** both Canva (filed in the "Home Orbit social media" folder) and rendered PNGs.
+- **Blue is the primary colour.** The feed must NOT be dominated by Pearl/cream. Pearl is an accent and an occasional ground, not the default.
+- **Recognisable, not identical, is non-negotiable.** "If it all looks the same, then this is another version of apathy." Open to new directions when research supports them.
+- **Long slides:** when a slide is too long to stay big, split it at an existing line break or full stop (same words, one more slide). Don't shrink it into a wall of text.
