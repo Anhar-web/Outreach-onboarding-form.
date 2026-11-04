@@ -1,6 +1,6 @@
 {
   "project": "Home Orbit: production, Batch 1",
-  "updatedAt": "2026-11-04T15:48:54.986006+00:00",
+  "updatedAt": "2026-11-04T16:01:37.605033+00:00",
   "currentStage": 4,
   "canvaFolderId": "FAHZ9G86KFo",
   "stages": [
@@ -66,7 +66,7 @@
         "label": "Review the slides.",
         "phrase": "Looks good. QA it."
       },
-      "report": "## Build in progress: the first 3 posts are done\n\n**Vacuum (p5), iPad (p7), the عزيمة (p2)** are rendered: 23 slides at 1080×1350. Every slide's Arabic is checked letter by letter against the approved copy, and both fonts are verified as loaded before each render.\n\n- **Vacuum:** night-blue ground. One big paper vacuum that shrinks and drifts away as she takes control. A paper door for \"leave his way out open\".\n- **iPad:** split ground, with a diagonal torn seam. The glowing iPad loses space while the ready plate takes over. Gold conversion end slide with the «الرابط في البايو.» tag.\n- **The عزيمة:** a top-down paper map of the majlis. Each «حساب» lights up one zone in gold: the arrival path, the seat by the door, the bag from home.\n\nThe other 7 posts are being built now by two designers, from the same kit, with deliberately different compositions.\n\n*Shared kit:* `app/production-library/kit/` (paper textures, torn tabs, dots, end slides, a renderer that refuses to shoot if the fonts or the Arabic are wrong).\n"
+      "report": "## Build in progress: 6 of 10 done\n\n**Vacuum (p5), iPad (p7), the عزيمة (p2)** are rendered: 23 slides at 1080×1350. Every slide's Arabic is checked letter by letter against the approved copy, and both fonts are verified as loaded before each render.\n\n- **Vacuum:** night-blue ground. One big paper vacuum that shrinks and drifts away as she takes control. A paper door for \"leave his way out open\".\n- **iPad:** split ground, with a diagonal torn seam. The glowing iPad loses space while the ready plate takes over. Gold conversion end slide with the «الرابط في البايو.» tag.\n- **The عزيمة:** a top-down paper map of the majlis. Each «حساب» lights up one zone in gold: the arrival path, the seat by the door, the bag from home.\n\nThe other 7 posts are being built now by two designers, from the same kit, with deliberately different compositions.\n\n*Shared kit:* `app/production-library/kit/` (paper textures, torn tabs, dots, end slides, a renderer that refuses to shoot if the fonts or the Arabic are wrong).\n\n\n### Also built: His name (p9), Park (p1), Aunt at bedtime (p8)\n- **His name:** pale teal ground. A giant paper fridge dominates the hook. Slide by slide the fridge shrinks and the empty speech bubble grows: his name gets louder than the fridge. A biscuit in the bubble for step 3, the bubble down at floor level for \"get down to his height\".\n- **Park:** a top-down paper map (no photo): teal lawn, gold picnic blanket, a dashed path to the car. The walked part of the path turns gold as she follows the steps.\n- **Aunt at bedtime:** the type-first test. Huge Deep Sea El Messiri on pearl with a gold offset shadow. Small paper props: the storybook, the gold chair with someone else's handbag, the routine cards, pyjamas handed over by a hand from the edge (no face).\n"
     },
     {
       "n": 5,
@@ -417,7 +417,7 @@
       "job": "conversion",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "يسمع باب الثلاجة من آخر البيت، ولما تناديه باسمه ما يلتفت؟ جربي هذي الأربع خطوات، وراح تبدئي تكتشفي ايش اللي يخليه يلتفت لك.",
@@ -429,7 +429,17 @@
         "وإذا ما فحصتوا سمعه قبل، فحص السمع خطوة بسيطة وتستاهل.",
         "الاسم جزء من تواصله، والتواصل واحد من ستة جوانب في يومه.\nالتقييم المجاني في البايو يمر عليها كلها."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p9/slide-1.jpg",
+        "preview/p9/slide-2.jpg",
+        "preview/p9/slide-3.jpg",
+        "preview/p9/slide-4.jpg",
+        "preview/p9/slide-5.jpg",
+        "preview/p9/slide-6.jpg",
+        "preview/p9/slide-7.jpg",
+        "preview/p9/slide-8.jpg",
+        "preview/p9/slide-9.jpg"
+      ],
       "notes": "8 slides · CTA: الرابط في البايو."
     },
     {
@@ -441,7 +451,7 @@
       "job": "attention",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "كل رجعه من الحديقة نفس المعركة؟ جهزيه للخروج من اول ما توصلوا، مو آخر خمس دقايق.",
@@ -452,7 +462,15 @@
         "وخلي في السيارة شي يحبه، يلقاه أول ما يركب.\nعصير، أو لعبة ما تطلع إلا في طريق الرجعة.",
         "كذا لما تقولي يلا نمشي، يكون عارف إن وقت الخرجة خلص."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p1/slide-1.jpg",
+        "preview/p1/slide-2.jpg",
+        "preview/p1/slide-3.jpg",
+        "preview/p1/slide-4.jpg",
+        "preview/p1/slide-5.jpg",
+        "preview/p1/slide-6.jpg",
+        "preview/p1/slide-7.jpg"
+      ],
       "notes": "7 slides · CTA: none"
     },
     {
@@ -464,7 +482,7 @@
       "job": "conversion",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "مو كل مرة يرفض فيها طفلك التغيير يعني إنه يعاندك. قبل ما تفرضي عليه التغيير، ابدئي بهذي الأربع خطوات.",
@@ -476,7 +494,16 @@
         "الخطوة الرابعة: ابدئي بخطوة بسيطة. خلي خالته تساعده في لبس البيجامة، وإنتي كمّلي باقي الروتين.",
         "تغيير شخص واحد ممكن يغيّر تجربة كاملة. التقييم المجاني يساعدك تشوفي جوانب مختلفه من يومه. الرابط في البايو."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p8/slide-1.jpg",
+        "preview/p8/slide-2.jpg",
+        "preview/p8/slide-3.jpg",
+        "preview/p8/slide-4.jpg",
+        "preview/p8/slide-5.jpg",
+        "preview/p8/slide-6.jpg",
+        "preview/p8/slide-7.jpg",
+        "preview/p8/slide-8.jpg"
+      ],
       "notes": "8 slides · CTA: الرابط في البايو."
     }
   ]

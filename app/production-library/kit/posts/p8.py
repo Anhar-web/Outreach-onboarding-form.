@@ -22,10 +22,10 @@ CSS = """
 .slide .typefirst, .slide .tf { color: var(--deep); }
 .typefirst { text-shadow: -8px 8px 0 var(--gold);
   filter: drop-shadow(-1px 2px 1px rgba(14,47,56,.30)) drop-shadow(-5px 9px 8px rgba(14,47,56,.14)); }
-.tf { font-family: 'El Messiri'; font-weight: 700; font-size: 84px; line-height: 1.3; text-wrap: balance;
-  text-shadow: -6px 6px 0 var(--gold);
+.tf { font-family: 'El Messiri'; font-weight: 700; font-size: 100px; line-height: 1.28; text-wrap: balance;
+  text-shadow: -7px 7px 0 var(--gold);
   filter: drop-shadow(-1px 2px 1px rgba(14,47,56,.30)) drop-shadow(-4px 8px 7px rgba(14,47,56,.14)); }
-.tf + .support, .tf + .clause, .support + .tf, .clause + .typefirst { margin-top: 64px; }
+.tf + .support { margin-top: 48px; } .support + .tf { margin-top: 36px; }
 .typefirst + .clause { margin-top: 70px; }
 .g-gold .tf { color: var(--ink); text-shadow: none; }
 """
@@ -77,6 +77,16 @@ def cardigan(cx, cy, s=1.0):
     g = (f'<path d="M {cx - 120 * s:.1f} {cy:.1f} Q {cx:.1f} {cy - 40 * s:.1f} {cx + 120 * s:.1f} {cy:.1f} L {cx + 104 * s:.1f} {cy + 150 * s:.1f} '
          f'L {cx + 40 * s:.1f} {cy + 120 * s:.1f} L {cx:.1f} {cy + 60 * s:.1f} L {cx - 40 * s:.1f} {cy + 120 * s:.1f} L {cx - 104 * s:.1f} {cy + 150 * s:.1f} Z" fill="{C["sandLight"]}"/>'
          + ''.join(f'<circle cx="{cx + dx * s:.1f}" cy="{cy + dy * s:.1f}" r="{6 * s:.1f}" fill="{C["deep"]}"/>' for dx, dy in ((-24, 50), (-34, 84), (24, 50), (34, 84))))
+    return paper(g, TONE, 3)
+
+
+def handbag(cx, cy, s=1.0):
+    """Someone else's sandLight handbag sitting on your chair: deep strap, gold clasp."""
+    w, h = 150 * s, 110 * s
+    g = (f'<path d="M {cx - w * .3:.1f} {cy - h / 2:.1f} Q {cx:.1f} {cy - h * 1.35:.1f} {cx + w * .3:.1f} {cy - h / 2:.1f}" fill="none" stroke="{C["deep"]}" stroke-width="{10 * s:.1f}" stroke-linecap="round"/>'
+         f'<path d="M {cx - w / 2:.1f} {cy - h / 2:.1f} L {cx + w / 2:.1f} {cy - h / 2:.1f} L {cx + w / 2 + 12 * s:.1f} {cy + h / 2:.1f} L {cx - w / 2 - 12 * s:.1f} {cy + h / 2:.1f} Z" fill="{C["sandLight"]}"/>'
+         f'<rect x="{cx - w / 2:.1f}" y="{cy - h / 2:.1f}" width="{w:.1f}" height="{h * .32:.1f}" fill="{C["deep"]}" fill-opacity=".85"/>'
+         f'<rect x="{cx - 12 * s:.1f}" y="{cy - h * .22:.1f}" width="{24 * s:.1f}" height="{20 * s:.1f}" rx="{4 * s:.1f}" fill="{C["gold"]}"/>')
     return paper(g, TONE, 3)
 
 
@@ -165,7 +175,8 @@ BREAKS = {
     8: ['تغيير شخص واحد', 'ممكن يغيّر تجربة كاملة.', 'التقييم المجاني يساعدك', 'تشوفي جوانب مختلفه من يومه.'],
 }
 
-LOW = 1170      # floor of the low vignettes
+TF_SIZE = {2: 104, 3: 108, 4: 116, 5: 116, 6: 104, 7: 116}   # big-type size per slide (shorter = bigger)
+LOW = 1160      # floor of the low vignettes
 
 
 def two_part(ctx, at='. ', big_first=True):
@@ -186,8 +197,8 @@ def slide(ctx):
         q, clause = ctx.t.split_seg(ctx.t.body()[0], '. ')
         q.role, clause.role = 'typefirst', 'clause'
         keep_in(ctx.t.segs, *BREAKS[1])
-        art = book(250, 1105, 1.05, rot=-9) + rule(MX + 640, 790)
-        html = text_box([q, clause], 72, MT - 10, W - 144, 'deep', size={'typefirst': 116})
+        art = book(270, 1110, 1.1, rot=-9) + rule(W - MX - 150, 740)
+        html = text_box([q, clause], MX, MT - 10, W - 2 * MX, 'deep', size={'typefirst': 112})
         r.update(art=art, html=html)
         return r
 
@@ -210,14 +221,15 @@ def slide(ctx):
     keep_in(ctx.t.segs, *BREAKS[s])
 
     top = MT + 130 if ctx.t.label() else MT + 30
-    html = (step_tab(ctx.t.label()) if ctx.t.label() else '') + text_box(ctx.t.body(), MX, top, W - 2 * MX, 'ink')
+    html = ((step_tab(ctx.t.label()) if ctx.t.label() else '')
+            + text_box(ctx.t.body(), MX, top, W - 2 * MX, 'ink', size={'tf': TF_SIZE[s]}))
 
     if s == 2:
-        art = floor_line(LOW) + door(540, LOW, .8)
+        art = floor_line(LOW) + door(540, LOW, .95)
     elif s == 3:
-        art = floor_line(LOW) + avoid(chair(540, LOW, .85) + cardigan(540, LOW - 270, .85), 'chair')
+        art = floor_line(LOW) + avoid(chair(540, LOW, 1.0) + handbag(560, LOW - 175, 1.0), 'chair')
     elif s == 4:
-        sz, gap = 150, 30
+        sz, gap = 172, 30
         x0 = (W - 4 * sz - 3 * gap) / 2
         icons = [ic_book, ic_pyj, ic_cup, ic_moon]          # RTL: the routine reads from the right
         thread = paper(f'<path d="M {x0 + sz / 2} {LOW - 150} H {x0 + 3 * (sz + gap) + sz / 2}" stroke="{C["deep"]}" stroke-width="4" stroke-dasharray="2 12" stroke-linecap="round"/>', TONE, 1)
@@ -225,10 +237,10 @@ def slide(ctx):
                         for k in range(4))
         art = avoid(thread + cards, 'routine')
     elif s == 5:
-        art = avoid(sun(330, LOW - 160, 52), 'sun') + speech(640, LOW - 170, .95)
+        art = avoid(sun(320, LOW - 190, 60), 'sun') + speech(650, LOW - 200, 1.15)
     elif s == 6:
-        art = floor_line(LOW) + avoid(chair(600, LOW, .8), 'chair') + book(330, LOW - 70, .7, rot=-4, layer=2)
+        art = floor_line(LOW) + avoid(chair(620, LOW, .95), 'chair') + book(330, LOW - 78, .78, rot=-4, layer=2)
     else:
-        art = avoid(hand(330, LOW - 150, 1.0), "hand") + avoid(pyjamas(660, LOW - 160, .9, rot=-8), 'pyjamas')
+        art = avoid(hand(360, LOW - 170, 1.1), 'hand') + avoid(pyjamas(700, LOW - 190, 1.05, rot=-8), 'pyjamas')
     r.update(art=art, html=html)
     return r
