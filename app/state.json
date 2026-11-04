@@ -129,7 +129,7 @@
         "label": "Review the ranked posts and pick what ships.",
         "phrase": "Ship the winners."
       },
-      "report": "*The Arabic Voice Editor is reading the playbook and the Arabic files in full, then checking every unlocked line. Anhar's own lines are locked. Then the Test Panel scores.*"
+      "report": "*The Arabic Voice Editor is done (27 lines polished; Anhar's lines locked). The Test Panel is now reading all 10 posts cold…*"
     },
     {
       "n": 9,
@@ -184,13 +184,13 @@
         "key": "av",
         "name": "Arabic Voice Editor",
         "role": "Makes it sound native",
-        "status": "working"
+        "status": "done"
       },
       {
         "key": "tp",
         "name": "Test Panel",
         "role": "Sceptical mothers, scored",
-        "status": "idle"
+        "status": "working"
       },
       {
         "key": "an",

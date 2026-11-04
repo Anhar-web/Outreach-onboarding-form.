@@ -9,23 +9,31 @@
       "كل رجعه من الحديقة نفس المعركة؟ جهزيه للخروج من اول ما توصلوا، مو آخر خمس دقايق.",
       "هذي أربع أشياء تبدأ من أول ما تفرشوا الفرشه، عشان ما يحس إنكم فجأة قررتوا تمشوا.",
       "أول ما تنزلوا من السيارة، وريه فين وقفتوا.\n\"هذي سيارتنا، نرجع لها بعدين.\"",
-      "ولما يقرب وقت الرجعة، لمّي الأغراض على مراحل قدامه.\nكيس الأكل أول، بعدين الألعاب، والفرشة آخر شي.",
+      "ولما يقرب وقت الرجعة، لمّي الأغراض قدامه شوي شوي.\nكيس الأكل أول، بعدين الألعاب، والفرشة آخر شي.",
       "وخلي له شي يشيله بنفسه.\nالكورة، أو شنطته الصغيرة، هو اللي يوديها للسيارة.",
-      "وفي السيارة، خلي شي يحبه ينتظره.\nعصير يحبه، أو لعبة ما تطلع إلا في طريق الرجعة.",
+      "وخلي في السيارة شي يحبه، يلقاه أول ما يركب.\nعصير، أو لعبة ما تطلع إلا في طريق الرجعة.",
       "كذا لما تقولي يلا نمشي، يكون عارف إن وقت الخرجة خلص."
     ],
-    "caption_ar": "الرجعة من الحديقة تبدأ من أول ما تفرشوا.\nأربع أشياء ما تحتاج تجهيز، تسويها وأنتي هناك.",
+    "caption_ar": "كل رجعه من الحديقة نفس المعركة؟\nأربع أشياء تسويها وأنتي هناك، عشان ما يحس إنكم فجأة قررتوا تمشوا.",
     "cta_ar": "",
     "gloss_en": [
       "Every trip back from the park is the same battle? Prepare him for leaving from the moment you arrive, not the last five minutes.",
       "Here are four things that start from the moment you spread the blanket, so he doesn't feel you suddenly decided to leave.",
       "As soon as you get out of the car, show him where you parked. \"This is our car, we come back to it later.\"",
-      "And when it's nearly time to go, pack up in stages in front of him. The food bag first, then the toys, and the blanket last.",
+      "And when it's nearly time to go, pack things up bit by bit in front of him. The food bag first, then the toys, and the blanket last.",
       "And give him something to carry himself. The ball, or his little bag, he's the one who takes it to the car.",
-      "And in the car, leave something he loves waiting for him. A juice he likes, or a toy that only comes out on the way home.",
+      "And keep something he loves in the car, that he finds as soon as he gets in. A juice, or a toy that only comes out on the way home.",
       "That way, when you say 'come on, let's go', he knows the outing time is over."
     ],
-    "notes_en": "Built for an open grass park with a picnic blanket; no rides. Every step happens while she's already there (no prep at home) except leaving one juice or toy in the car. Check «تفرشوا» / «الفرشة» is how she'd say spreading the picnic blanket (vs البساط / السفرة)."
+    "notes_en": "Built for an open grass park with a picnic blanket; no rides. Every step happens while she's already there (no prep at home) except leaving one juice or toy in the car. Check «تفرشوا» / «الفرشة» is how she'd say spreading the picnic blanket (vs البساط / السفرة).",
+    "editor_en": [
+      "s4: «لمّي الأغراض على مراحل قدامه» → «لمّي الأغراض قدامه شوي شوي». Why: «على مراحل» is translated 'in stages'; شوي شوي is how she'd say it (pattern 1).",
+      "s6: «وفي السيارة، خلي شي يحبه ينتظره. عصير يحبه…» → «وخلي في السيارة شي يحبه، يلقاه أول ما يركب. عصير…». Why: «شي ينتظره» is the English 'something waiting for him' and is ambiguous (who waits?); the plain moment is 'he finds it when he gets in' (patterns 1, 6). Also removed the repeated يحبه.",
+      "Caption: «الرجعة من الحديقة تبدأ من أول ما تفرشوا. أربع أشياء ما تحتاج تجهيز…» → hook question + her own approved line «عشان ما يحس إنكم فجأة قررتوا تمشوا». Why: 'leaving starts when you arrive' is a clever English framing (pattern 1), and 'no prep needed' wasn't true (s6 needs the juice/toy in the car).",
+      "FLAG (structure): the four things (s3–s6) carry no labels; Part 5 asks non-step items to name what they are («أول شي:»). s3 is locked, so not changed. Anhar to decide.",
+      "FLAG (spelling): locked s2 has «الفرشه», s4 has «الفرشة». Pick one."
+    ],
+    "status": "edited"
   },
   {
     "id": "p2",
@@ -38,22 +46,28 @@
       "الحساب الأول: متى توصلي ومتى تمشي.\nحاولي توصلي بدري قبل ما يمتلئ المجلس. كذا يدخل والمكان لسه هادي.",
       "وامشي وهو لسه مبسوط، مو بعد ما يبدأ الصياح.\nالطلعة وهو مرتاح أخف عليك بكثير من الطلعة وكل العيون عليكم.",
       "الحساب الثاني: فين تجلسي.\nقريب من الباب، وهو جمبك، وبعيد عن التلفزيون والسماعات.",
-      "قريب من الباب عشان لو احتاج يطلع شوي، تطلعوا بهدوء بدون ما تمروا قدام الكل.",
+      "كذا لو احتاج يطلع شوي، تطلعوا بهدوء بدون ما تمروا قدام الكل.",
       "الحساب الثالث: ايش يجي معاه من البيت.\nكوبه، وأكلة يعرفها، وشي يمسكه بيده.",
       "هذي الثلاث تنحسب في البيت قبل ما تطلعي.\nعشان لما توصلي، تقدري تجلسي مع أهلك بدل ما تقضي العزيمة كلها وراه من غرفة لغرفة."
     ],
-    "caption_ar": "الألف حساب تنزل لثلاث.\nمتى توصلي، فين تجلسي، وايش يجي معاه من البيت.",
+    "caption_ar": "من الألف حساب اللي تحسبيها قبل العزيمة، ثلاث بس اللي فعلاً تفرق:\nمتى توصلي وتمشي، فين تجلسي، وايش يجي معاه من البيت.",
     "cta_ar": "",
     "gloss_en": [
       "Before every family gathering you make a thousand calculations for it? These are the three calculations that actually make a difference.",
       "The first: when you arrive and when you leave. Try to arrive early, before the majlis fills up. That way he walks in while the place is still quiet.",
       "And leave while he's still happy, not after the screaming starts. Leaving while he's calm is much lighter on you than leaving with every eye on you both.",
       "The second: where you sit. Near the door, with him beside you, and away from the TV and the speakers.",
-      "Near the door so that if he needs to step out for a bit, you both slip out calmly without walking past everyone.",
+      "That way, if he needs to step out for a bit, you both slip out calmly without walking past everyone.",
       "The third: what comes with him from home. His cup, a food he knows, and something to hold in his hand.",
       "These three get worked out at home before you leave. So that when you arrive, you can sit with your family instead of spending the whole gathering behind him from room to room."
     ],
-    "notes_en": "No quiet room assumed; everything is what she controls (arrival, exit, seat, what she brings). Leaving 'while he's still happy' can mean leaving before dinner is served at a Saudi عزيمة, which is socially awkward. Check she'd accept that, or whether it should read 'leave a little earlier than usual'."
+    "notes_en": "No quiet room assumed; everything is what she controls (arrival, exit, seat, what she brings). Leaving 'while he's still happy' can mean leaving before dinner is served at a Saudi عزيمة, which is socially awkward. Check she'd accept that, or whether it should read 'leave a little earlier than usual'.",
+    "editor_en": [
+      "s5: «قريب من الباب عشان لو احتاج يطلع شوي…» → «كذا لو احتاج يطلع شوي…». Why: s4 already says near the door; her move is the plain كذا cause→effect clause (pattern 4).",
+      "Caption: «الألف حساب تنزل لثلاث» → «من الألف حساب اللي تحسبيها قبل العزيمة، ثلاث بس اللي فعلاً تفرق». Why: 'boils down to three' is a translated idiom (pattern 1); uses her word تحسبي (Part 2). Added «وتمشي» so the caption matches the first calculation (arrive AND leave).",
+      "FLAG (cup): s6 lists «كوبه». The cup ban is for CHANGE posts (a cup swap as the 'change'). Here the cup is the familiar thing he brings, the opposite of a change, so it is not a rule conflict. But she reacted to cups specifically; if she wants them gone everywhere, «مويته في قارورته» or simply «أكلة يعرفها، وشي يمسكه بيده» works. Not changed."
+    ],
+    "status": "edited"
   },
   {
     "id": "p3",
@@ -63,7 +77,7 @@
     "format": "slides",
     "slides_ar": [
       "تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟",
-      "وكل ليلة نفس القصة.\nهو ما ينام إلا وأنتي جمبه، وأنتي تبغيه ينام لحاله.",
+      "كل ليلة نفس القصة.\nهو ما ينام إلا وأنتي جمبه، وأنتي تبغيه ينام لحاله.",
       "هذي أربع خطوات تبعدي فيها عنه شوي شوي، بدون ما تختفي من الغرفة فجأة.",
       "الخطوة الأولى: بدل ما تنسدحي جمبه، اجلسي جمب سريره.\nنفس القرب، بس أنتي جالسة، وما راح تنامي قبله.",
       "الخطوة الثانية: يدك على ظهره في البداية.\nوبعد كم ليلة، صوتك بس، بدون يدك.",
@@ -75,7 +89,7 @@
     "cta_ar": "",
     "gloss_en": [
       "You lie down beside him until he sleeps, and wake up two hours later and you're the one who fell asleep?",
-      "And every night it's the same story. He only sleeps with you beside him, and you want him to sleep on his own.",
+      "Every night it's the same story. He only sleeps with you beside him, and you want him to sleep on his own.",
       "Here are four steps where you move away from him bit by bit, without disappearing from the room suddenly.",
       "The first: instead of lying down beside him, sit beside his bed. The same closeness, but you're sitting, and you won't fall asleep before him.",
       "The second: your hand on his back at the start. And after a few nights, just your voice, without your hand.",
@@ -83,7 +97,14 @@
       "The fourth: if he gets out of bed, take him back calmly with the same two words every time. No discussion, and without lying down beside him again.",
       "It takes time, but every night you're one step further. And the goal is a night when you walk out of the room while he's still awake."
     ],
-    "notes_en": "Rewritten from Anhar's comment: the goal is him sleeping on his own, not working around it, and 'finish your chores first' was unrealistic. Gradual step-back (sit, hand, voice, spot moves toward the door). The goal is named as a goal, not promised. No timeline promised."
+    "notes_en": "Rewritten from Anhar's comment: the goal is him sleeping on his own, not working around it, and 'finish your chores first' was unrealistic. Gradual step-back (sit, hand, voice, spot moves toward the door). The goal is named as a goal, not promised. No timeline promised.",
+    "editor_en": [
+      "s2 (locked set, edited under the pattern exception): «وكل ليلة نفس القصة.» → «كل ليلة نفس القصة.» Why: a scene slide opening with و (pattern 11). Only the و removed.",
+      "FLAG (meaning, s8 locked): «كل ليلة أنتي أبعد بخطوة» contradicts s6 «كل كم ليلة، مكانك يبعد شوي» (every few nights, not every night). Suggest «وكل كم ليلة أنتي أبعد بخطوة».",
+      "FLAG (s7 locked): «بنفس الكلمتين كل مرة» leaves her guessing which two words. A real example (e.g. \"يلا نوم\") would make it usable (pattern 6/8).",
+      "Caption checked against the rewritten slides: still matches (bed → door, a step every few nights). Unchanged."
+    ],
+    "status": "edited"
   },
   {
     "id": "p4",
@@ -97,10 +118,10 @@
       "إذا صحنه نقت وبطاطس وتوست، كلها مقرمشة ولونها ذهبي.",
       "ومرات اللي يجمعها ماركة وحدة ما تتغير، أو إنها لازم تكون باردة.",
       "ولما تلاحظي الشي المشترك، اختاري أكلة وحدة من السفرة فيها نفس الشي.\nحبة فلافل، أو قطعة تميس.",
-      "حطيها في صحن صغير جمب صحنه، مو داخله.\nبدون ما تطلبي منه يذوقها، وبدون أي تعليق.",
-      "إذا لمسها أو شمها، هذا يكفي اليوم.\nوبكرة نفس الحبة، في نفس الصحن الصغير، جمب صحنه."
+      "لا تحطيها داخل صحنه، ولا تطلبي منه يذوقها.\nحطيها في صحن صغير جمب صحنه، وخليها بدون ما تقولي شي.",
+      "إذا لمسها أو شمها، هذا يكفي اليوم.\nوبكرة حطي نفس الأكلة، في نفس الصحن الصغير، جمب صحنه."
     ],
-    "caption_ar": "ما تحتاجي تطبخي له شي زيادة.\nأكلة وحدة من سفرتكم، جمب صحنه، وبدون ضغط.",
+    "caption_ar": "ما تحتاجي تطبخي له شي زيادة.\nأكلة وحدة من السفرة، في صحن صغير جمب صحنه، وبدون ما تطلبي منه يذوقها.",
     "cta_ar": "",
     "gloss_en": [
       "You cook for the whole house, and he has his own plate with the same three foods every day?",
@@ -108,10 +129,17 @@
       "If his plate is nuggets, fries and toast, they're all crunchy and golden.",
       "And sometimes what they share is one brand that never changes, or that they have to be cold.",
       "And once you notice the shared thing, pick one food from the table that has the same thing. A falafel, or a piece of tamees bread.",
-      "Put it on a small plate beside his plate, not on it. Without asking him to taste it, and without any comment.",
-      "If he touches it or smells it, that's enough for today. And tomorrow the same piece, on the same small plate, beside his plate."
+      "Don't put it on his plate, and don't ask him to taste it. Put it on a small plate beside his plate, and leave it without saying anything.",
+      "If he touches it or smells it, that's enough for today. And tomorrow put the same food, on the same small plate, beside his plate."
     ],
-    "notes_en": "Zero extra cooking: the new food comes from what she already made for the family. Separate small plate because many of these children reject a plate where foods touch. Research advises sending her to a doctor if he's losing weight; left out because of the no-specialist rule. Flag if Anhar wants a line. Check فلافل / تميس fit her table (swap for whatever crunchy golden food is common at hers)."
+    "notes_en": "Zero extra cooking: the new food comes from what she already made for the family. Separate small plate because many of these children reject a plate where foods touch. Research advises sending her to a doctor if he's losing weight; left out because of the no-specialist rule. Flag if Anhar wants a line. Check فلافل / تميس fit her table (swap for whatever crunchy golden food is common at hers).",
+    "editor_en": [
+      "s6: «حطيها في صحن صغير جمب صحنه، مو داخله. بدون ما تطلبي منه يذوقها، وبدون أي تعليق.» → «لا تحطيها داخل صحنه، ولا تطلبي منه يذوقها. حطيها في صحن صغير جمب صحنه، وخليها بدون ما تقولي شي.» Why: tip said as she'd say it, the usual mistake first, then what to do (pattern 10); «بدون أي تعليق» is translated 'without any comment'.",
+      "s7: «وبكرة نفس الحبة» → «وبكرة حطي نفس الأكلة». Why: «نفس الحبة» literally means the same piece from yesterday; the meaning is the same food. Added the verb so it reads as a tip.",
+      "Caption: «وبدون ضغط» → «وبدون ما تطلبي منه يذوقها». Why: 'without pressure' is an English concept; the concrete action is plainer (pattern 1). «سفرتكم» → «السفرة» (Part 2).",
+      "FLAG (carried over): no line about weight loss/doctor, by the no-specialist rule. Anhar to decide."
+    ],
+    "status": "edited"
   },
   {
     "id": "p5",
@@ -123,23 +151,31 @@
       "يغطي أذنه أول ما تشغلي المكنسة، فصرتي تكنسي وهو نايم؟",
       "وتقولي بكنس لما ينام، ولما ينام ما عاد فيكي حيل.",
       "هذي ثلاث أشياء ما تاخذ إلا ثواني، وأنتي ماسكة المكنسة.",
-      "قبل ما تضغطي الزر، قولي كلمة وحدة: \"مكنسة\".\nنفس الكلمة، بنفس الصوت، كل مرة.",
-      "ابدئي من أبعد غرفة عنه، مو من الغرفة اللي هو فيها.\nالصوت يقرب شوي شوي، بدل ما يبدأ جمبه.",
-      "ولا توقفي بالمكنسة بينه وبين الباب.\nإذا بغى يبعد، طريقه مفتوح.",
-      "عشان الكنس يرجع للعصر، مو لآخر الليل وأنتي تعبانة."
+      "أول شي: قبل ما تشغليها، قولي له \"بشغل المكنسة\".\nنفس الجملة كل مرة، عشان يعرف إن الصوت جاي.",
+      "ثاني شي: ابدئي من أبعد غرفة عنه، مو من الغرفة اللي هو فيها.\nكذا الصوت يقرب شوي شوي، بدل ما يبدأ جمبه.",
+      "ثالث شي: لا توقفي بالمكنسة بينه وبين الباب.\nإذا بغى يبعد، طريقه مفتوح.",
+      "والهدف إنك تكنسي العصر وهو صاحي، بدل ما تستني إلين ما ينام."
     ],
-    "caption_ar": "ثلاث أشياء تسويها وأنتي ماسكة المكنسة.\nبدون تجهيز، وبدون ما تأجلي الكنس لآخر الليل.",
+    "caption_ar": "يغطي أذنه أول ما تشغلي المكنسة؟\nثلاث أشياء تسويها وأنتي ماسكة المكنسة، ما تاخذ إلا ثواني.",
     "cta_ar": "",
     "gloss_en": [
       "He covers his ears the moment you turn on the vacuum, so now you vacuum while he's asleep?",
       "And you tell yourself you'll vacuum when he sleeps, and when he sleeps you've got no energy left.",
       "Here are three things that take only seconds, while you're holding the vacuum.",
-      "Before you press the button, say one word: \"vacuum\". The same word, in the same voice, every time.",
-      "Start from the room farthest from him, not the room he's in. The sound gets closer bit by bit, instead of starting right beside him.",
-      "And don't stand with the vacuum between him and the door. If he wants to move away, his way out is open.",
-      "So vacuuming goes back to the afternoon, not the end of the night when you're exhausted."
+      "First thing: before you turn it on, tell him \"I'm turning on the vacuum.\" The same sentence every time, so he knows the sound is coming.",
+      "Second thing: start from the room farthest from him, not the room he's in. That way the sound gets closer bit by bit, instead of starting right beside him.",
+      "Third thing: don't stand with the vacuum between him and the door. If he wants to move away, his way out is open.",
+      "And the goal is that you vacuum in the afternoon while he's awake, instead of waiting until he sleeps."
     ],
-    "notes_en": "No ear defenders, no 'sensory' cause, no setup before the chore. Last slide is her outcome (when she vacuums), framed with عشان rather than a promise about him. Check «مكنسة» as the one word: she may prefer her own word, and the slide reads fine either way."
+    "notes_en": "No ear defenders, no 'sensory' cause, no setup before the chore. Last slide is her outcome (when she vacuums), framed with عشان rather than a promise about him. Check «مكنسة» as the one word: she may prefer her own word, and the slide reads fine either way.",
+    "editor_en": [
+      "s4: «قبل ما تضغطي الزر، قولي كلمة وحدة: \"مكنسة\". نفس الكلمة، بنفس الصوت، كل مرة.» → «قبل ما تشغليها، قولي له \"بشغل المكنسة\". نفس الجملة كل مرة، عشان يعرف إن الصوت جاي.» Why: 'press the button' and 'say one cue word' are translated technique-speak; a mother just says what she's about to do (patterns 1, 10). Added the reason in one plain clause (pattern 4). Same idea: a fixed spoken warning before the noise.",
+      "s5: «الصوت يقرب شوي شوي…» → «كذا الصوت يقرب شوي شوي…». Why: her كذا cause→effect (pattern 4).",
+      "s7: «عشان الكنس يرجع للعصر، مو لآخر الليل وأنتي تعبانة.» → «والهدف إنك تكنسي العصر وهو صاحي، بدل ما تستني إلين ما ينام.» Why: a dangling عشان fragment and a clever 'vacuuming goes back to the afternoon'; now names the goal without promising it (Part 4, as in p3), echoes her own s2 inner voice, uses إلين ما.",
+      "s4–s6: added «أول شي: / ثاني شي: / ثالث شي:» and dropped the و on s6. Why: Part 5, non-step items name what they are (same as her locked p10).",
+      "Caption: «بدون تجهيز، وبدون ما تأجلي الكنس لآخر الليل» → hook question + three things that take seconds. Why: 'no prep' is English caption-speak, and the second half read as a promise."
+    ],
+    "status": "edited"
   },
   {
     "id": "p6",
@@ -150,24 +186,33 @@
     "slides_ar": [
       "يبدأ الصراخ أول ما تجيبي الجزمة عشان تطلعوا؟ الفرق كله في الربع ساعة اللي قبلها.",
       "لما تجي الجزمة وهو لسه مستمتع باللعب، طبيعي ما يبغى يوقف.",
-      "هذي ثلاث أشياء في الربع ساعة اللي قبل الطلعة.",
+      "هذي ثلاث أشياء تسويها في الربع ساعة اللي قبل الطلعة.",
       "قبل الطلعة بربع ساعة، لا تبدئي معاه شي جديد يحتاج وقت.\nلا آيباد ولا غيره.",
       "وخلي آخر شي قبل الطلعة حاجة بسيطة يخلصها على راحته.\nعصير يشربه، أو بسكوتة ياكلها. يخلص منها، وبعدها تطلعوا.",
       "لا تناديه يجي للباب عشان يلبس الجزمة.\nخذيها له مكانه، ولبّسيه وهو جالس، وبعدها اطلعوا.",
       "الطلعة موقف واحد بس.\nالتقييم المجاني يساعدك تشوفي الصورة الأكبر، وتعرفي من فين تبدئي."
     ],
-    "caption_ar": "الصراخ عند الجزمة يبدأ قبلها بربع ساعة.\nثلاث أشياء تغيريها في هذي الربع ساعة.",
-    "cta_ar": "التقييم المجاني في الرابط اللي في البايو.",
+    "caption_ar": "يبدأ الصراخ أول ما تجيبي الجزمة؟ طبيعي ما يبغى يوقف وهو مستمتع باللعب.\nهذي ثلاث أشياء تسويها في الربع ساعة اللي قبل الطلعة.",
+    "cta_ar": "الرابط في البايو.",
     "gloss_en": [
       "The screaming starts the moment you bring the shoes to go out? The whole difference is in the quarter hour before it.",
       "When the shoes come while he's still enjoying playing, naturally he doesn't want to stop.",
-      "Here are three things for the quarter hour before going out.",
+      "Here are three things you do in the quarter hour before going out.",
       "A quarter hour before going out, don't start anything new with him that takes time. No iPad, nothing else either.",
       "And make the last thing before going out something simple he finishes at his own pace. A juice he drinks, or a biscuit he eats. He finishes it, and then you go out.",
       "Don't call him to come to the door to put on his shoes. Take them to where he is, put them on him while he's sitting, and then go out.",
       "Going out is just one situation. The free assessment helps you see the bigger picture, and know where to start."
     ],
-    "notes_en": "Each step happens inside the 15 minutes she already has; nothing to prepare earlier. Bridge says 'one moment' and 'six areas', no promise for him. Check «ومحد قطعها» reads naturally (the juice ended by itself, nobody took it away)."
+    "notes_en": "Each step happens inside the 15 minutes she already has; nothing to prepare earlier. Bridge says 'one moment' and 'six areas', no promise for him. Check «ومحد قطعها» reads naturally (the juice ended by itself, nobody took it away).",
+    "editor_en": [
+      "s3: added «تسويها». Why: the line had no verb ('three things in the quarter hour'); she'd say what you do.",
+      "Caption: «الصراخ عند الجزمة يبدأ قبلها بربع ساعة. ثلاث أشياء تغيريها…» → hook + her normalising line «طبيعي ما يبغى يوقف» + three things. Why: 'the screaming starts 15 minutes earlier' is a clever, inaccurate framing (pattern 1); «تغيريها» implies she's doing it wrong (no mother-blame); pattern 2.",
+      "CTA: «التقييم المجاني في الرابط اللي في البايو.» → «الرابط في البايو.» Why: wordy; matches her approved formula.",
+      "FLAG (s7 locked): the bridge slide has no «الرابط في البايو». Part 5 wants bridge + CTA on one slide; suggest adding that line to s7.",
+      "FLAG (structure): the three things (s4–s6, locked) have no «أول شي:» labels. Fine by her approval; noted for consistency with p5/p10.",
+      "Note: notes_en is stale (mentions 'six areas' and «ومحد قطعها», neither is in the post). Not edited."
+    ],
+    "status": "edited"
   },
   {
     "id": "p7",
@@ -183,7 +228,7 @@
       "وبعد ما تخلصوا، رجعي الآيباد مكانه. لا تتركيه قدامه على الطاولة.",
       "والموضوع مو بس الآيباد.\nفيه مواقف تتكرر وقت النوم والأكل والطلعات وغيرها.\nالتقييم المجاني يساعدك تشوفي الصورة الأكبر وتحددي أول خطوة.\nالرابط في البايو."
     ],
-    "caption_ar": "قبل ما يروح الآيباد، خلي اللي بعده قدام عينه.\nومو شاور.",
+    "caption_ar": "قبل ما تسحبي الآيباد، جهزي له شي ينتقل له على طول.\nبس لا يكون شي دايما يرفضه.",
     "cta_ar": "الرابط في البايو.",
     "gloss_en": [
       "You take the iPad and the screaming starts? Get what comes after ready before you take it.",
@@ -193,7 +238,12 @@
       "And once you're done, put the iPad back in its place. Don't leave it in front of him on the table.",
       "And it's not just the iPad. There are situations that repeat at bedtime, mealtimes, outings and more. The free assessment helps you see the bigger picture and pick your first step. The link is in the bio."
     ],
-    "notes_en": "Slides 2–6 rewritten by Anhar."
+    "notes_en": "Slides 2–6 rewritten by Anhar.",
+    "editor_en": [
+      "Caption: «قبل ما يروح الآيباد، خلي اللي بعده قدام عينه. ومو شاور.» → «قبل ما تسحبي الآيباد، جهزي له شي ينتقل له على طول. بس لا يكون شي دايما يرفضه.» Why: «ومو شاور» is exactly the abstract rule pattern 7 removes; «يروح الآيباد» is the wording she replaced with تسحبي (pattern 6). The new caption uses her own slide words.",
+      "FLAG (s3 locked): «جنبه» vs her word list «جمبه» (pending her answer). Also «العاب» (no hamza) vs «الألعاب» elsewhere."
+    ],
+    "status": "edited"
   },
   {
     "id": "p8",
@@ -223,7 +273,13 @@
       "Step four: start with a simple step. Let his aunt help him put on his pyjamas, and you finish the rest of the routine.",
       "Changing one person can change a whole experience. The free assessment helps you see different areas of his day. The link is in the bio."
     ],
-    "notes_en": "Rewritten by Anhar (all 8 slides). Caption updated by the Director to match the new scene."
+    "notes_en": "Rewritten by Anhar (all 8 slides). Caption updated by the Director to match the new scene.",
+    "editor_en": [
+      "No changes. All slides locked; the caption (Director's) matches the new aunt-at-bedtime scene and sounds spoken.",
+      "FLAG (s8 locked, typo): «مختلفه» → «مختلفة»? (same ه/ة pattern as «الفرشه», «طلعه»; may be her style).",
+      "FLAG: «إنتي» here vs «أنتي» in other posts. Pending her answer (Part 2)."
+    ],
+    "status": "edited"
   },
   {
     "id": "p9",
@@ -233,27 +289,39 @@
     "format": "slides",
     "slides_ar": [
       "يسمع باب الثلاجة من آخر البيت، ولما تناديه باسمه ما يلتفت؟ جربي هذي الأربع خطوات، وراح تبدئي تكتشفي ايش اللي يخليه يلتفت لك.",
-      "الخطوة الأولى: من قدامه، مو من وراه.\nخليه يشوفك وأنتي تقولي اسمه.",
-      "الخطوة الثانية: وهو فاضي، مو وهو مندمج في لعبة أو قدام شاشة.",
-      "الخطوة الثالثة: اسمه، وبعده على طول شي يحبه.\n\"فهد، بسكوت!\" والبسكوتة في يدك يشوفها.",
-      "الخطوة الرابعة: قربي منه وانزلي لطوله.\nمن جمبه، وعيونك قدام عيونه، مو من آخر الصالة.",
+      "الخطوة الأولى: ناديه من قدامه، مو من وراه.\nخليه يشوفك وأنتي تقولي اسمه.",
+      "الخطوة الثانية: ناديه وهو فاضي.\nلما يكون مندمج في لعبة أو قدام الشاشة، طبيعي ما ينتبه.",
+      "الخطوة الثالثة: قولي اسمه، وبعده على طول شي يحبه.\n\"فهد، بسكوت!\" والبسكوتة في يدك يشوفها.",
+      "الخطوة الرابعة: لا تناديه من آخر الصالة.\nقربي منه، وانزلي لطوله، وعينك في عينه.",
       "ولاحظي مع أي وحدة فيهم يلتفت لك أكثر.\nهذي اللي تبدئي منها.",
-      "وإذا سمعه ما انفحص قبل، فحص السمع خطوة بسيطة تستاهل تسويها.",
+      "وإذا ما فحصتوا سمعه قبل، فحص السمع خطوة بسيطة وتستاهل.",
       "الاسم جزء من تواصله، والتواصل واحد من ستة جوانب في يومه.\nالتقييم المجاني في البايو يمر عليها كلها."
     ],
-    "caption_ar": "قدامه، وهو فاضي، مع شي يحبه، ومن قريب.\nلاحظي أي وحدة يلتفت معاها.",
-    "cta_ar": "التقييم المجاني في البايو يمر عليها كلها.",
+    "caption_ar": "يسمع باب الثلاجة من آخر البيت، ولما تناديه ما يلتفت؟\nناديه من قدامه، وهو فاضي، ومن قريب، ومع شي يحبه، ولاحظي مع أي وحدة يلتفت لك أكثر.",
+    "cta_ar": "الرابط في البايو.",
     "gloss_en": [
       "He hears the fridge door from the far end of the house, but when you call his name he doesn't turn? Try these four steps, and you'll start discovering what makes him turn to you.",
-      "The first: from in front of him, not from behind. Let him see you while you say his name.",
-      "The second: when he's free, not when he's absorbed in a game or in front of a screen.",
-      "The third: his name, and right after it something he loves. \"Fahad, biscuit!\" with the biscuit in your hand where he can see it.",
-      "The fourth: come close and get down to his height. From beside him, your eyes in front of his eyes, not from the far end of the living room.",
+      "Step one: call him from in front of him, not from behind. Let him see you while you say his name.",
+      "Step two: call him when he's free. When he's absorbed in a game or in front of the screen, it's natural that he doesn't notice.",
+      "Step three: say his name, and right after it something he loves. \"Fahad, biscuit!\" with the biscuit in your hand where he can see it.",
+      "Step four: don't call him from the far end of the living room. Come close, get down to his height, eye to eye.",
       "And notice with which one of them he turns to you most. That's the one you start from.",
-      "And if his hearing hasn't been checked before, a hearing check is a simple step worth doing.",
+      "And if you haven't had his hearing checked before, a hearing check is a simple step and worth it.",
       "His name is part of how he communicates, and communication is one of six areas of his day. The free assessment in the bio goes through all of them."
     ],
-    "notes_en": "Hearing line is one plain practical sentence, no 'signs', no doctor/specialist framing. «فهد» is a placeholder example name. CTA is folded into the bridge slide to keep 8 slides; least sure the last line «ورابطه في البايو» lands as a clear CTA vs a separate short CTA slide."
+    "notes_en": "Hearing line is one plain practical sentence, no 'signs', no doctor/specialist framing. «فهد» is a placeholder example name. CTA is folded into the bridge slide to keep 8 slides; least sure the last line «ورابطه في البايو» lands as a clear CTA vs a separate short CTA slide.",
+    "editor_en": [
+      "s2–s4: verbless fragments («من قدامه، مو من وراه» / «وهو فاضي، مو وهو مندمج…» / «اسمه، وبعده…») → each step now starts with what she does (ناديه / قولي). Why: tips said as she'd say them (pattern 10).",
+      "s3: added «طبيعي ما ينتبه» when he's absorbed. Why: normalise his reaction (pattern 2). Meaning flag: it is said about absorbed moments only, not about the name problem in general.",
+      "s5: «قربي منه وانزلي لطوله. من جمبه، وعيونك قدام عيونه، مو من آخر الصالة.» → «لا تناديه من آخر الصالة. قربي منه، وانزلي لطوله، وعينك في عينه.» Why: the habit first, then the fix (pattern 10); «عيونك قدام عيونه» is a translated 'your eyes in front of his'; «عينك في عينه» is the spoken phrase.",
+      "s7: «وإذا سمعه ما انفحص قبل، فحص السمع خطوة بسيطة تستاهل تسويها.» → «وإذا ما فحصتوا سمعه قبل، فحص السمع خطوة بسيطة وتستاهل.» Why: she is the subject of the action (pattern 9); shorter.",
+      "Caption: a list of fragments («قدامه، وهو فاضي، مع شي يحبه، ومن قريب.») → hook + one spoken sentence. Why: translated list punctuation (Part 3).",
+      "CTA: «التقييم المجاني في البايو يمر عليها كلها.» → «الرابط في البايو.» Why: «عليها» has no referent outside the slide; matches her formula.",
+      "FLAG (s8 locked): «والتواصل واحد من ستة جوانب في يومه… يمر عليها كلها» doesn't list the six, but naming 'six areas' plus «التواصل» reads like the brochure tone Part 5 cut. Suggest her formula: «الاسم موقف واحد بس. التقييم المجاني يساعدك تشوفي الصورة الأكبر وتعرفي من فين تبدئي. الرابط في البايو.» Not changed.",
+      "FLAG (safety, s7): the hearing check is a medical step. It is plain and practical, with no 'signs' or specialist, but Anhar should confirm it fits the no-specialist rule.",
+      "Note: notes_en mentions «ورابطه في البايو», which isn't in the post (stale)."
+    ],
+    "status": "edited"
   },
   {
     "id": "p10",
@@ -267,8 +335,8 @@
       "أول شي: ايش اللي صار قبل البكا بشوي.\nالآيباد طفى أو رجعتوا من طلعه أو خلص الاكل اللي في صحنه.",
       "ثاني شي: ايش كان يسوي لما بدأ.\nيحاول يركب قطعة وما ركبت، أو يدور على لعبة وما لقاها.",
       "ثالث شي: فين كان.\nفي المطبخ والخلاط شغال، أو في الصالة والتلفزيون عالي، أو في غرفة نورها قوي.",
-      "هذي الثلاث تلاحظيها في ثواني، وهو لسه يبكي.\nوبدل ما تجربي كل شي، تبدئي من وحدة منهم.",
-      "وإذا البكا يتكرر كل يوم، التقييم المجاني يساعدك تشوفي يومه كامل وتعرفي من فين تبدئي، بدل ما تخمني.\nالرابط في البايو."
+      "هذي الثلاث تلاحظيها في ثواني، وهو لسه يبكي.\nكذا بدل ما تجربي كل شي، تبدئي من وحدة منهم.",
+      "إذا البكا يتكرر كل يوم، التقييم المجاني يساعدك تشوفي يومه كامل بدل ما تخمني.\nالرابط في البايو."
     ],
     "caption_ar": "قبل ما تجيبي الموية والأكل واللعبة،\nثلاث أشياء تلاحظيها في ثواني.",
     "cta_ar": "الرابط في البايو.",
@@ -278,9 +346,15 @@
       "First thing: what happened just before the crying. The iPad switched off, or you came back from an outing, or the food on his plate ran out.",
       "The second: what he was doing when it started. Trying to fit a piece that wouldn't fit, or looking for a toy and not finding it.",
       "The third: where he was. In the kitchen with the blender on, or in the living room with the TV loud, or in a room with strong light.",
-      "You notice these three in seconds, while he's still crying. And instead of trying everything, you start from one of them.",
-      "And if the crying repeats every day, the free assessment helps you see his whole day and know where to start, instead of guessing. The link is in the bio."
+      "You notice these three in seconds, while he's still crying. That way, instead of trying everything, you start from one of them.",
+      "If the crying repeats every day, the free assessment helps you see his whole day instead of guessing. The link is in the bio."
     ],
-    "notes_en": "Only situational triggers (what ended, what he was doing, where); no 'who was near him'. Slide 5 names noise and light as places, not as a cause, to stay off 'sensory'. Observing is in the moment, no logging. Check slide 7 at ~25 words; could drop «من نومه لأكله لطلعاته» if it's too dense."
+    "notes_en": "Only situational triggers (what ended, what he was doing, where); no 'who was near him'. Slide 5 names noise and light as places, not as a cause, to stay off 'sensory'. Observing is in the moment, no logging. Check slide 7 at ~25 words; could drop «من نومه لأكله لطلعاته» if it's too dense.",
+    "editor_en": [
+      "s6: «وبدل ما تجربي كل شي…» → «كذا بدل ما تجربي كل شي…». Why: her كذا cause→effect (pattern 4).",
+      "s7: dropped the opening و and «وتعرفي من فين تبدئي» (s6 already says تبدئي). Why: bridge + CTA must be short (Part 5); kept «بدل ما تخمني», which ties back to the guessing hook.",
+      "s4, s5 and caption already sound like her. Unchanged. Mild note: s5 «غرفة نورها قوي» / noise are places, not a cause; kept."
+    ],
+    "status": "edited"
   }
 ]
