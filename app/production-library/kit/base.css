@@ -1,0 +1,105 @@
+/* Home Orbit carousel kit: base styles. Values mirror app/art_tokens.json.
+   Every slide HTML links this file. Fonts are blocking so nothing renders in a
+   fallback face; render.js additionally refuses to shoot if they did not load. */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@500;700&display=block');
+
+:root {
+  /* brand */
+  --deep: #005A70; --teal: #00A9A5; --pearl: #F6F3EB; --gold: #C9935A;
+  /* derived */
+  --night: #003F4F; --ink: #0E2F38; --tealMist: #DCEEEC; --sandLight: #EBD6BC;
+  --goldDeep: #8A5A2B; --tealDeep: #007A77;
+
+  /* type (px @ 1080 wide) */
+  --hook: 96px;        --hook-lh: 1.35;
+  --hookClause: 54px;  --hookClause-lh: 1.5;
+  --typeFirst: 120px;  --typeFirst-lh: 1.3;
+  --stepLabel: 44px;   --stepLabel-lh: 1.2;
+  --bodyLead: 60px;    --bodyLead-lh: 1.45;
+  --bodySupport: 50px; --bodySupport-lh: 1.5;
+  --quietEnd: 72px;    --quietEnd-lh: 1.4;
+  --tag: 46px;         --tag-lh: 1.3;
+  --floor: 44px;
+
+  /* spacing */
+  --mx: 96px; --mt: 120px; --mb: 150px; --crop-safe: 60px;
+
+  /* shadows for HTML elements (SVG art uses the filters in paper.svg) */
+  --sh-light: drop-shadow(-1px 2px 1px rgba(14,47,56,.28)) drop-shadow(-6px 10px 9px rgba(14,47,56,.18));
+  --sh-dark:  drop-shadow(-1px 2px 1px rgba(0,20,26,.45)) drop-shadow(-6px 10px 9px rgba(0,20,26,.35));
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; background: #000; }
+
+.slide {
+  position: relative; width: 1080px; height: 1350px; overflow: hidden;
+  direction: rtl; text-align: right;
+  letter-spacing: 0; font-synthesis: none; font-kerning: normal;
+  -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision;
+  font-family: 'Tajawal', sans-serif;
+}
+/* grounds (the SVG ground rect paints the grained colour; this is the fallback) */
+.g-pearl { background: var(--pearl); }   .g-tealMist { background: var(--tealMist); }
+.g-sandLight { background: var(--sandLight); } .g-deep { background: var(--deep); }
+.g-night { background: var(--night); }   .g-gold { background: var(--gold); }
+
+.art { position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; z-index: 1; }
+
+/* text colours: only the pairs allowed in art_tokens.colors.textOn */
+.c-pearl { color: var(--pearl); } .c-ink { color: var(--ink); } .c-deep { color: var(--deep); }
+
+/* text boxes */
+.tx { position: absolute; z-index: 10; }
+.tx > div { white-space: normal; }
+.nb { white-space: nowrap; }   /* kit.keep(): phrase that must not break */
+.hook   { font-family: 'El Messiri'; font-weight: 700; font-size: var(--hook); line-height: var(--hook-lh); text-wrap: balance; }
+.clause { font-family: 'Tajawal'; font-weight: 500; font-size: var(--hookClause); line-height: var(--hookClause-lh); text-wrap: balance; }
+.typefirst { font-family: 'El Messiri'; font-weight: 700; font-size: var(--typeFirst); line-height: var(--typeFirst-lh); text-wrap: balance; }
+.lead    { font-family: 'Tajawal'; font-weight: 700; font-size: var(--bodyLead); line-height: var(--bodyLead-lh); text-wrap: balance; }
+.support { font-family: 'Tajawal'; font-weight: 500; font-size: var(--bodySupport); line-height: var(--bodySupport-lh); text-wrap: balance; }
+.lead + .support, .support + .support { margin-top: 22px; }
+.quiet  { font-family: 'El Messiri'; font-weight: 600; font-size: var(--quietEnd); line-height: var(--quietEnd-lh); text-wrap: balance; }
+.quiet + .quiet { margin-top: 18px; }
+/* amber slides: whole body at bodySupport size (lead keeps its weight) */
+.amber .lead { font-size: var(--bodySupport); line-height: var(--bodySupport-lh); }
+.amber .lead + .support { margin-top: 18px; }
+
+/* ---- step tab: torn gold strip, top-right, -2deg ---- */
+.step-tab {
+  position: absolute; z-index: 12; height: 72px; padding: 0 40px;
+  display: flex; align-items: center; transform: rotate(-2deg); transform-origin: right center;
+  isolation: isolate;
+}
+.step-tab .label { font-family: 'El Messiri'; font-weight: 600; font-size: var(--stepLabel); line-height: var(--stepLabel-lh); color: var(--ink); white-space: nowrap; position: relative; top: 3px; }
+
+/* ---- conversion tag: pearl torn tag, -3deg, punched hole + deep string ---- */
+.cta-tag {
+  position: absolute; z-index: 12; padding: 26px 52px 26px 104px; isolation: isolate;
+  transform-origin: right center;
+}
+.cta-tag .tag { font-family: 'Tajawal'; font-weight: 700; font-size: var(--tag); line-height: var(--tag-lh); color: var(--ink); white-space: nowrap; position: relative; top: 2px; }
+
+/* torn backgrounds are injected by kit.js behind the element's own text */
+.torn > svg.torn-bg { position: absolute; left: 0; top: 0; overflow: visible; z-index: -1; }
+
+/* ---- progress dots: 14px paper discs, 12px gap, active 20px gold; RTL ---- */
+.dots {
+  position: absolute; left: 0; right: 0; bottom: 72px; z-index: 12;
+  display: flex; flex-direction: row; direction: rtl; justify-content: center; align-items: center; gap: 12px;
+}
+.dots i { display: block; width: 14px; height: 14px; border-radius: 50%; }
+.dots i.on { width: 20px; height: 20px; background: var(--gold); }
+.dots-dark i  { background: rgba(246,243,235,.40); }
+.dots-dark i.on { filter: var(--sh-dark); }
+.dots-light i { background: rgba(14,47,56,.40); }
+.dots-light i.on { filter: var(--sh-light); }
+.dots-gold i  { background: rgba(14,47,56,.40); }
+.dots-gold i.on { background: var(--ink); }
+
+/* shadow utility classes for HTML pieces (contact + cast) */
+.sh-l { filter: var(--sh-light); }
+.sh-d { filter: var(--sh-dark); }
+
+/* debug: add class "debug" to <body> to see the safe area */
+.debug .slide::after { content: ''; position: absolute; left: var(--mx); right: var(--mx); top: var(--mt); bottom: var(--mb); outline: 2px dashed magenta; z-index: 99; }

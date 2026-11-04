@@ -1,6 +1,6 @@
 {
   "project": "Home Orbit: production, Batch 1",
-  "updatedAt": "2026-11-04T15:22:49.272748+00:00",
+  "updatedAt": "2026-11-04T15:48:54.986006+00:00",
   "currentStage": 4,
   "canvaFolderId": "FAHZ9G86KFo",
   "stages": [
@@ -66,7 +66,7 @@
         "label": "Review the slides.",
         "phrase": "Looks good. QA it."
       },
-      "report": "*Branch A is building: first the shared paper-art kit, then the slides, rendered to 1080×1350 PNGs…*"
+      "report": "## Build in progress: the first 3 posts are done\n\n**Vacuum (p5), iPad (p7), the عزيمة (p2)** are rendered: 23 slides at 1080×1350. Every slide's Arabic is checked letter by letter against the approved copy, and both fonts are verified as loaded before each render.\n\n- **Vacuum:** night-blue ground. One big paper vacuum that shrinks and drifts away as she takes control. A paper door for \"leave his way out open\".\n- **iPad:** split ground, with a diagonal torn seam. The glowing iPad loses space while the ready plate takes over. Gold conversion end slide with the «الرابط في البايو.» tag.\n- **The عزيمة:** a top-down paper map of the majlis. Each «حساب» lights up one zone in gold: the arrival path, the seat by the door, the bag from home.\n\nThe other 7 posts are being built now by two designers, from the same kit, with deliberately different compositions.\n\n*Shared kit:* `app/production-library/kit/` (paper textures, torn tabs, dots, end slides, a renderer that refuses to shoot if the fonts or the Arabic are wrong).\n"
     },
     {
       "n": 5,
@@ -230,7 +230,7 @@
       "job": "attention",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "يغطي أذنه أول ما تشغلي المكنسة، فصرتي تكنسي وهو نايم؟",
@@ -241,7 +241,15 @@
         "ثالث شي: لا توقفي بالمكنسة بينه وبين الباب.\nإذا بغى يبعد، طريقه مفتوح.",
         "والهدف إنك تكنسي العصر وهو صاحي، بدل ما تستني إلين ما ينام."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p5/slide-1.jpg",
+        "preview/p5/slide-2.jpg",
+        "preview/p5/slide-3.jpg",
+        "preview/p5/slide-4.jpg",
+        "preview/p5/slide-5.jpg",
+        "preview/p5/slide-6.jpg",
+        "preview/p5/slide-7.jpg"
+      ],
       "notes": "7 slides · CTA: none"
     },
     {
@@ -253,7 +261,7 @@
       "job": "conversion",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "تسحبي الآيباد ويبدأ الصراخ؟ جهزي اللي بعده قبل ما تسحبيه.",
@@ -263,7 +271,16 @@
         "وبعد ما تخلصوا، رجعي الآيباد مكانه. لا تتركيه قدامه على الطاولة.",
         "والموضوع مو بس الآيباد.\nفيه مواقف تتكرر وقت النوم والأكل والطلعات وغيرها.\nالتقييم المجاني يساعدك تشوفي الصورة الأكبر وتحددي أول خطوة.\nالرابط في البايو."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p7/slide-1.jpg",
+        "preview/p7/slide-2.jpg",
+        "preview/p7/slide-3.jpg",
+        "preview/p7/slide-4.jpg",
+        "preview/p7/slide-5.jpg",
+        "preview/p7/slide-6.jpg",
+        "preview/p7/slide-7.jpg",
+        "preview/p7/slide-8.jpg"
+      ],
       "notes": "6 slides · CTA: الرابط في البايو."
     },
     {
@@ -275,7 +292,7 @@
       "job": "attention",
       "platform": "Instagram + TikTok",
       "dimensions": "1080×1350",
-      "status": "building",
+      "status": "built",
       "score": null,
       "onAsset_ar": [
         "قبل كل عزيمة تحسبي لها ألف حساب؟ هذي الحسابات الثلاث اللي فعلاً تفرق.",
@@ -286,7 +303,16 @@
         "الحساب الثالث: ايش يجي معاه من البيت.\nكوبه، وأكلة يعرفها، وشي يمسكه بيده.",
         "هذي الثلاث تنحسب في البيت قبل ما تطلعي.\nعشان لما توصلي، تقدري تجلسي مع أهلك بدل ما تقضي العزيمة كلها وراه من غرفة لغرفة."
       ],
-      "assets": [],
+      "assets": [
+        "preview/p2/slide-1.jpg",
+        "preview/p2/slide-2.jpg",
+        "preview/p2/slide-3.jpg",
+        "preview/p2/slide-4.jpg",
+        "preview/p2/slide-5.jpg",
+        "preview/p2/slide-6.jpg",
+        "preview/p2/slide-7.jpg",
+        "preview/p2/slide-8.jpg"
+      ],
       "notes": "7 slides · CTA: none"
     },
     {
