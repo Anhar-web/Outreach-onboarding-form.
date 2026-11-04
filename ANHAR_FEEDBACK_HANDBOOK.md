@@ -352,3 +352,5 @@ Her answers:
 - **Blue is the primary colour.** The feed must NOT be dominated by Pearl/cream. Pearl is an accent and an occasional ground, not the default.
 - **Recognisable, not identical, is non-negotiable.** "If it all looks the same, then this is another version of apathy." Open to new directions when research supports them.
 - **Long slides:** when a slide is too long to stay big, split it at an existing line break or full stop (same words, one more slide). Don't shrink it into a wall of text.
+- **Deliverables: PNGs only.** No PDFs, and no Canva unless she asks. She downloads the PNGs herself.
+- **Documentation lives in Airtable** too: the base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP). Read its Feedback & Lessons, Visual Style, Posts and Post Performance tables at the start of every new batch.
