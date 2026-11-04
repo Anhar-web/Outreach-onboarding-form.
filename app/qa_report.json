@@ -1,0 +1,732 @@
+{
+ "batch": {
+  "date": "2026-11-04",
+  "posting_order": [
+   "p5",
+   "p7",
+   "p2",
+   "p10",
+   "p3",
+   "p6",
+   "p4",
+   "p9",
+   "p1",
+   "p8"
+  ],
+  "ranking": [
+   {
+    "post": "p10",
+    "score": 87,
+    "job": "conversion"
+   },
+   {
+    "post": "p6",
+    "score": 87,
+    "job": "conversion"
+   },
+   {
+    "post": "p5",
+    "score": 85,
+    "job": "attention"
+   },
+   {
+    "post": "p1",
+    "score": 85,
+    "job": "attention"
+   },
+   {
+    "post": "p8",
+    "score": 85,
+    "job": "conversion"
+   },
+   {
+    "post": "p3",
+    "score": 84,
+    "job": "attention"
+   },
+   {
+    "post": "p7",
+    "score": 83,
+    "job": "conversion"
+   },
+   {
+    "post": "p9",
+    "score": 82,
+    "job": "conversion"
+   },
+   {
+    "post": "p4",
+    "score": 80,
+    "job": "attention"
+   },
+   {
+    "post": "p2",
+    "score": 78,
+    "job": "attention"
+   }
+  ],
+  "gate_summary": "All 10 posts pass the Arabic legibility gate: verify.py verbatim PASS on all 10; El Messiri/Tajawal only; RTL; all text >=44px; no broken ligatures, clipping or text behind art seen in full-size review; contrast >=4.5:1 everywhere (lowest ink on gold 5.3:1). Non-blocking: renderer margin warnings on p5 and p2 slide 1 (hook to x=84-1000, inside the 96px margin but outside the 60px grid crop).",
+  "status_counts": {
+   "qa-passed": 10,
+   "sent-back": 0
+  },
+  "dimensions": "All 81 slide PNGs are 1080x1350 (4:5). Correct for Instagram.",
+  "blue_leading": "Yes. 6 of 10 covers are deep/night-led (p5, p2, p3, p4, p1, plus p7's deep left panel), and deep is the main motif colour on p9 and p8. Pearl is a ground only on p8, as the override requires. Watch-outs: p6 is fully gold, and p1's lawn puts a large field of bright teal on the grid.",
+  "grid_verdict": "Recognisable, not identical. The paper grain, torn edges, gold tabs and El Messiri hooks hold the feed together, while composition changes every post (macro, split, plan, board, panorama, radial, flat-lay, scale, map, type). In a 3-column profile the light and dark covers make a near checkerboard. This is a clear step away from the older wide side-view room scenes.",
+  "too_similar": [
+   "p7 and p4: both use a round gold plate of dotted round biscuits/nuggets on a deep ground. Change one plate/food treatment.",
+   "p3 is the one post still in the old side-view room genre (bed, window, lamp, floor line). It is the most at risk of 'more of the same'."
+  ],
+  "minor_cross_batch": [
+   "p5 and p3 both sit on night with a top hook; their motifs differ enough.",
+   "p6 (all gold) and the gold conversion ends make gold the second-most visible colour. Keep it as an accent."
+  ],
+  "priority_fixes_before_posting": [
+   "p2 cover: zoom out so the majlis reads at a glance (lowest attention score).",
+   "p4/p7 plate duplication.",
+   "p9 cover crop so the fridge reads as a fridge."
+  ]
+ },
+ "posts": {
+  "p5": {
+   "job": "attention",
+   "slides": 7,
+   "score": 85,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "All text verbatim (verify.py PASS), El Messiri/Tajawal, RTL, nothing behind art, pearl on night 10.4:1. Margin warning only.",
+   "verdict": "Strongest scroll-stopper in the dark half of the grid: a bold macro object a tired mum recognises instantly, with the hook in clean pearl El Messiri. The shrinking-vacuum device carries the 'start far away' logic well. Middle slides 2-3 are visually repetitive and the head/ear shape is slightly unclear.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 19,
+     "weight": 22,
+     "why": "Huge cropped pearl vacuum with torn noise strips firing at two mitten-hands stops the thumb; hook is big and high. The brown/tan disc behind the mittens is an ambiguous 'head' blob that takes a beat to read."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 14,
+     "weight": 16,
+     "why": "One object per frame; text always sits clear of art. Slide 5's nested-squares 'far room' needs a second look."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Night ground, paper grain, double shadows, El Messiri hook, gold tabs and dots all present."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Macro single object, no room, no puppets: clearly unlike the old side-view rooms."
+    },
+    {
+     "name": "Storytelling",
+     "score": 10,
+     "weight": 12,
+     "why": "Vacuum shrinks and drifts away as the advice moves it further from him; s6 open doorway lands 'path out'."
+    },
+    {
+     "name": "Retention",
+     "score": 9,
+     "weight": 12,
+     "why": "s2 and s3 are near-identical (mid-size vacuum on empty night), so the middle sags before the first step."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean render; checker warns hook lines run to x=84-1000 (16px into the 96px margin) but still inside the 60px grid-crop zone."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Attention post: quiet end line centred with the tiny vacuum is a calm payoff; nothing pushes to save/share."
+    }
+   ],
+   "push": [
+    "Make the covered-ear figure unambiguous (a clearer hair/head silhouette, still faceless) so the 'he covers his ears' reading is instant.",
+    "Differentiate s2 and s3: e.g. s2 shows the noise strips mid-burst, s3 the moon over a sleeping-hours clock, so the setup slides each add something.",
+    "Pull the hook 16px inward to clear the 96px side margin the checker flagged."
+   ]
+  },
+  "p7": {
+   "job": "conversion",
+   "slides": 8,
+   "score": 83,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; ink on tealMist / pearl on deep, all >=44px; split slides keep exact words.",
+   "verdict": "A clear, warm, on-brand conversion post: the iPad glow does the hook work and the plate quietly becomes the hero. It leans blue (deep left panel) which helps the grid. Weaknesses are the repeated shower-head and a plate motif that duplicates p4.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 18,
+     "weight": 22,
+     "why": "Glowing teal iPad against a torn split frame reads in a split second; two-line hook at full size is punchy."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 14,
+     "weight": 16,
+     "why": "Plate vs iPad duality is clear on every slide; s6 crumbs-on-empty-plate is a nice detail."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Deep/tealMist split, grain, gold tab and conversion tag are on-system."
+    },
+    {
+     "name": "Freshness",
+     "score": 7,
+     "weight": 10,
+     "why": "Split frame is new, but the gold plate of dotted round biscuits on deep blue is almost the same motif as p4's plate of dotted round nuggets on deep blue."
+    },
+    {
+     "name": "Storytelling",
+     "score": 10,
+     "weight": 12,
+     "why": "Plate side grows as the 'what comes next' idea takes over; the crossed shower-head appears on both s4 and s5, which reads as a repeat rather than a progression."
+    },
+    {
+     "name": "Retention",
+     "score": 9,
+     "weight": 12,
+     "why": "8 slides after the red-flag splits; the s7 four-tile 'other situations' row gives a lift before the end."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean edges, glow and shadows; no checker warnings."
+    },
+    {
+     "name": "Conversion support",
+     "score": 7,
+     "weight": 8,
+     "why": "Gold end, ink text, pearl tag «الرابط في البايو.» clear; the 25% motif (iPad card plus plate) is a little cluttered."
+    }
+   ],
+   "push": [
+    "Give p4 or p7 a different plate treatment (e.g. p7 uses a square tray or a single biscuit tin) so the two posts don't share the same dotted-round-biscuits-on-deep look.",
+    "Drop the crossed shower-head from one of s4/s5 and show the 'something he likes' alternative instead, so the pair progresses.",
+    "Simplify the end-slide motif to just the plate (or just the iPad) so the tag is the only focal point."
+   ]
+  },
+  "p2": {
+   "job": "attention",
+   "slides": 8,
+   "score": 78,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; pearl on deep 7:1; text crowds but does not cross the right cushion column.",
+   "verdict": "Smart concept and on-brand, but the first frame is the weakest in the batch: the majlis plan is cropped into anonymous rectangles and nothing says 'gathering' at a glance. The inner slides explain themselves far better than the cover. Passes the gate; needs a stronger cover to earn the scroll.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 15,
+     "weight": 22,
+     "why": "Cover is cropped cushions and a gold ring around the text: at feed size it reads as abstract tiles, not a majlis. The hook text carries the stop alone."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 11,
+     "weight": 16,
+     "why": "Top-down blueprint asks a tired reader to decode a plan; inner zoom slides (arrival path, seat ring) are clearer than the cover."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Deep ground, pearl outlines, sandLight cushions, gold rings: clearly the house kit."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Plan view is genuinely new versus side-view rooms."
+    },
+    {
+     "name": "Storytelling",
+     "score": 10,
+     "weight": 12,
+     "why": "Each الحساب lifts one zone in gold (path, seat, bag), which is good structure."
+    },
+    {
+     "name": "Retention",
+     "score": 9,
+     "weight": 12,
+     "why": "Zoom crops vary the rhythm; s6 recap map helps."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Checker warns hook runs to x=84-1000; hook sits ~15px from the right-hand cushion column, cramped."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Attention end: quiet line with the gold seat ring is a fitting payoff."
+    }
+   ],
+   "push": [
+    "Rebuild the cover so the full U of cushions, door gap and TV bar are visible below the hook (zoom out), so it reads as a majlis in one glance.",
+    "Add one human-scale cue on the cover (e.g. a row of pearl slippers at the door or a dallah on a tray) to anchor 'عزيمة'.",
+    "Move the hook 20px left/inward to clear the cushion column and the 96px margin flag."
+   ]
+  },
+  "p10": {
+   "job": "conversion",
+   "slides": 7,
+   "score": 87,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; ink on sandLight 10:1; nothing behind art.",
+   "verdict": "The clearest storytelling in the batch: the board fills up exactly as the copy lists the three things, and the end slide carries the board to the link. Cover is gentle rather than loud on the light sandLight ground.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 17,
+     "weight": 22,
+     "why": "Deep teardrop pinned to three blank notes is an intriguing 'clue board' question mark; the sandLight cover is softer in the feed than the dark posts."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 15,
+     "weight": 16,
+     "why": "One enlarged note + one flat deep icon per slide: very easy to follow."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Paper notes, gold pins, ink type, gold end: on-system."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Symbolic board with no scene: nothing like the old room scenes."
+    },
+    {
+     "name": "Storytelling",
+     "score": 11,
+     "weight": 12,
+     "why": "Notes fill one by one (iPad off, puzzle, blender), then all three together on s6: the format literally builds the checklist."
+    },
+    {
+     "name": "Retention",
+     "score": 10,
+     "weight": 12,
+     "why": "Clear 'collect all three' pull keeps her swiping."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean; icons crisp; no checker warnings."
+    },
+    {
+     "name": "Conversion support",
+     "score": 7,
+     "weight": 8,
+     "why": "Gold end with the mini clue board on the tag string ties the CTA to the story; «الرابط في البايو.» tag clear."
+    }
+   ],
+   "push": [
+    "Raise cover contrast: make the teardrop bigger (~380px) or add a thin deep string web so the cover pops among dark neighbours.",
+    "On s2 (the guessing slide) show the water/food/toy items scattered and slightly crossed out to dramatise 'guessing'.",
+    "Consider a tiny 'one note filled' hint on the cover to promise the payoff."
+   ]
+  },
+  "p3": {
+   "job": "attention",
+   "slides": 9,
+   "score": 84,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS (red s7 split verbatim); pearl on night 10.4:1; no text over art.",
+   "verdict": "Emotionally the strongest idea and the best journey (the chair moving to the door is a great device). But visually it is the side-view room scene the brand is trying to move away from, so it risks feeling like the old feed. Execution is mostly clean; the hand on s5 looks pasted on.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 18,
+     "weight": 22,
+     "why": "Two blanket lumps under a moonlit window says 'you fell asleep next to him' instantly; centred hook is large and emotive."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 15,
+     "weight": 16,
+     "why": "Text always in the upper area, scene below; easy read."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Night ground, grain, gold lamp glow, gold tabs."
+    },
+    {
+     "name": "Freshness",
+     "score": 5,
+     "weight": 10,
+     "why": "This is a wide side-view bedroom scene, the exact genre the handbook calls out as 'more of the same' (no puppets, but same viewpoint and staging)."
+    },
+    {
+     "name": "Storytelling",
+     "score": 12,
+     "weight": 12,
+     "why": "Best narrative of the batch: the gold chair walks bed > mid-room > door, ending on the door ajar with the light wedge."
+    },
+    {
+     "name": "Retention",
+     "score": 11,
+     "weight": 12,
+     "why": "Continuous panorama floor line rewards each swipe; 9 slides is long but justified by the journey."
+    },
+    {
+     "name": "Production quality",
+     "score": 8,
+     "weight": 10,
+     "why": "s5 hand is oversized and floats above the blanket rather than resting on his back; s9 dots sit on the light wedge."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Attention end: door ajar plus chair is a moving, earned payoff."
+    }
+   ],
+   "push": [
+    "Break the side-view sameness on the cover: e.g. a top-down view of the bed with two blanket lumps, then switch to the side panorama inside.",
+    "Scale the s5 hand down and rest it on the blanket lump so it reads as 'hand on his back'.",
+    "Lift the slide-9 dots above the light wedge or darken them so they don't wash out."
+   ]
+  },
+  "p6": {
+   "job": "conversion",
+   "slides": 7,
+   "score": 87,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; ink on gold 5.3:1 (passes 4.5); amber s5/s7 at 50px still readable.",
+   "verdict": "A strong, legible concept: the clock makes an abstract tip ('the quarter hour before') concrete. Gold ground was approved by Anhar, but it costs the end slide its signal and is the least blue cover in the batch.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 19,
+     "weight": 22,
+     "why": "Big clock with a torn quarter-hour wedge and little shoes at 12 is instantly 'the 15 minutes before', and the warm ground stands out in the grid."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 15,
+     "weight": 16,
+     "why": "Single radial object; each inner slide adds one item into the wedge."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 8,
+     "weight": 10,
+     "why": "On-system kit, but the whole post sits on gold (approved override), which pulls away from 'blue primary' and is the one warm-dominant cover."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Radial clock, time instead of place: fresh."
+    },
+    {
+     "name": "Storytelling",
+     "score": 11,
+     "weight": 12,
+     "why": "Wedge empties of iPad, fills with cup and biscuit, then the shoes move into it: the logic is visual."
+    },
+    {
+     "name": "Retention",
+     "score": 10,
+     "weight": 12,
+     "why": "Clear progression keeps attention through 7 slides."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean; the end-slide mini clock loses the shoes detail at that size."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Tag «الرابط في البايو.» is clear, but because every slide is already gold, the conversion end doesn't feel like a new 'moment'."
+    }
+   ],
+   "push": [
+    "Differentiate the end slide: put it on deep with a pearl panel, or make the inner slides sandLight so the gold end still lands as the 'action' slide.",
+    "Keep the shoes visible on the end-slide mini clock (scale them up) so the motif reads.",
+    "Add a deep-blue accent on the cover (e.g. darker rim or deep hands) so the post still contributes to the blue-led grid."
+   ]
+  },
+  "p4": {
+   "job": "attention",
+   "slides": 7,
+   "score": 80,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; pearl on deep 7:1; no text over art.",
+   "verdict": "Solid, clear and on-brand, with a clever middle (the s4 'cold/brand' transformation). The cover is the problem: a cropped plate of beige food on blue doesn't create tension, and it reads too close to p7's biscuit plate.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 15,
+     "weight": 22,
+     "why": "Plate cropped low with tan nuggets, fries and toast is accurate but generic; the hook does all the work and the image doesn't add tension."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 14,
+     "weight": 16,
+     "why": "Flat-lay is easy to read; s3 dotted triangle connecting the three foods is clear."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Deep ground, pearl plate, gold food, grain: on-system."
+    },
+    {
+     "name": "Freshness",
+     "score": 6,
+     "weight": 10,
+     "why": "Overhead flat-lay is new, but the round plate of dotted gold rounds on deep repeats p7, two posts earlier in the grid."
+    },
+    {
+     "name": "Storytelling",
+     "score": 11,
+     "weight": 12,
+     "why": "Good beats: connect the foods (s3), turn them blue with snowflakes and a band for 'brand/cold' (s4), introduce the falafel in its own dish."
+    },
+    {
+     "name": "Retention",
+     "score": 10,
+     "weight": 12,
+     "why": "s4 is the surprise slide that keeps her going."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean render; no warnings."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Attention end: falafel in the small dish beside the plate is a calm, correct payoff."
+    }
+   ],
+   "push": [
+    "Make the cover about the contrast: the family's big shared dish (many colours) beside his small plate of the same three beige foods.",
+    "Change the plate/food palette so p4 and p7 don't share 'round dotted gold items on a round plate on deep'.",
+    "Bring the empty side dish forward on the cover so the 'what goes here?' question is visible."
+   ]
+  },
+  "p9": {
+   "job": "conversion",
+   "slides": 9,
+   "score": 82,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS (red s1 split verbatim); ink on tealMist 11.8:1.",
+   "verdict": "Concept is clever (his name has to compete with the fridge), and the end slide converts well. Cover crop is too tight to read as a fridge, and with 9 slides of the same layout the middle drags. Inconsistent fridge scale weakens the 'name grows louder' story.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 17,
+     "weight": 22,
+     "why": "Giant fridge door crop vs tiny speech bubble is a smart scale gag, but at thumbnail size the cropped fridge reads as a blue cabinet or building."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 14,
+     "weight": 16,
+     "why": "Fridge + bubble is clear on inner slides; bubble icons (biscuit, sound waves, dots) explain the steps."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "TealMist ground, deep fridge, gold tabs, gold end: on-system."
+    },
+    {
+     "name": "Freshness",
+     "score": 8,
+     "weight": 10,
+     "why": "Scale contrast is new; still a side-view object on a floor strip."
+    },
+    {
+     "name": "Storytelling",
+     "score": 10,
+     "weight": 12,
+     "why": "Bubble grows, but the fridge doesn't steadily recede (it shrinks, grows again on s5, shrinks again), which muddles the device."
+    },
+    {
+     "name": "Retention",
+     "score": 8,
+     "weight": 12,
+     "why": "9 slides of nearly the same fridge-plus-bubble layout; the middle is monotonous."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean; hook keeps ~65px clear of the fridge."
+    },
+    {
+     "name": "Conversion support",
+     "score": 7,
+     "weight": 8,
+     "why": "Gold end with the mini fridge on the tag string; the custom CTA «التقييم المجاني في البايو يمر عليها كلها.» is readable on the tag."
+    }
+   ],
+   "push": [
+    "Show more of the fridge on the cover (handle, magnets, a light spill) so it reads as a fridge at thumbnail size.",
+    "Make the fridge recede monotonically and the bubble grow monotonically across s3-s8 so the scale story is unbroken.",
+    "Vary at least two inner layouts (e.g. s6 close-up of the bubble only) to break the 9-slide sameness."
+   ]
+  },
+  "p1": {
+   "job": "attention",
+   "slides": 7,
+   "score": 85,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; ink on pearl strip 12.8:1, pearl on deep 7:1.",
+   "verdict": "One of the most distinctive covers: the pearl strip hook plus aerial map gives the grid a new shape. The story is easy to follow. The bright teal lawn is a lot of teal for a blue-led brand, and the dots get lost on it.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 18,
+     "weight": 22,
+     "why": "Pearl torn strip with the hook over a bold top-down park map is distinctive and readable at thumbnail size."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 15,
+     "weight": 16,
+     "why": "Route map (car, path, blanket) is immediately understood; items travel the path."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 8,
+     "weight": 10,
+     "why": "Paper kit present, but the teal lawn covers ~60% of most slides and edges toward 'teal as a ground', a little off the blue-primary palette."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Map with path and markers: nothing like the old landscape/photo hybrid."
+    },
+    {
+     "name": "Storytelling",
+     "score": 11,
+     "weight": 12,
+     "why": "Items peel off toward the car slide by slide; s6 juice box waiting in the car is a nice reward."
+    },
+    {
+     "name": "Retention",
+     "score": 10,
+     "weight": 12,
+     "why": "Steady progression; 7 slides, good length."
+    },
+    {
+     "name": "Production quality",
+     "score": 8,
+     "weight": 10,
+     "why": "Slide dots (pearl at 40%) nearly vanish on the teal lawn on several slides."
+    },
+    {
+     "name": "Conversion support",
+     "score": 6,
+     "weight": 8,
+     "why": "Attention end: car alone with path in, quiet line; a fitting payoff."
+    }
+   ],
+   "push": [
+    "Darken the lawn to tealDeep (#007A77) or shrink it to ~45% so deep stays the dominant colour.",
+    "Switch dots to ink or put them on a small pearl pill where they cross the lawn.",
+    "On the end slide, show the blanket/bag already in the car so the payoff is visual, not just text."
+   ]
+  },
+  "p8": {
+   "job": "conversion",
+   "slides": 8,
+   "score": 85,
+   "gate": "pass",
+   "status": "qa-passed",
+   "gate_notes": "Verbatim PASS; deep on pearl 7:1; El Messiri 700 hook at 120px with gold duplicate, still legible at 270px.",
+   "verdict": "A confident type-led close to the grid that respects the pearl override (pearl ground, deep type). It reads well at phone size. Inner illustrations are a bit small and generic compared with the strength of the type.",
+   "items": [
+    {
+     "name": "Attention: first frame",
+     "score": 17,
+     "weight": 22,
+     "why": "Big deep cut-paper type with a gold offset makes a bold statement cover, different from every other post; the pearl ground is softer in the feed."
+    },
+    {
+     "name": "Visual clarity",
+     "score": 15,
+     "weight": 16,
+     "why": "Type-first slides are very clear; the gold offset adds a slight 'double' around dots at small sizes but stays readable."
+    },
+    {
+     "name": "Brand recognizability",
+     "score": 9,
+     "weight": 10,
+     "why": "Pearl is the only pearl-ground post (per override), deep letters keep it blue-led."
+    },
+    {
+     "name": "Freshness",
+     "score": 9,
+     "weight": 10,
+     "why": "Pure type plus one prop: fresh."
+    },
+    {
+     "name": "Storytelling",
+     "score": 10,
+     "weight": 12,
+     "why": "Vignettes (book, chair with bag, open door, sun + speech bubble, pyjamas to a hand) map to each step, but they're small and generic."
+    },
+    {
+     "name": "Retention",
+     "score": 9,
+     "weight": 12,
+     "why": "Large step headlines keep a good swipe rhythm."
+    },
+    {
+     "name": "Production quality",
+     "score": 9,
+     "weight": 10,
+     "why": "Clean; gold offset consistent."
+    },
+    {
+     "name": "Conversion support",
+     "score": 7,
+     "weight": 8,
+     "why": "Gold end, ink text, pearl tag «الرابط في البايو.» with the mini book: clear CTA."
+    }
+   ],
+   "push": [
+    "Make the vignettes bigger and specific to the aunt (e.g. her gold chair beside his bed on s3, a calendar/sun icon on the door for s5).",
+    "Reduce the gold offset to -5px 5px on body-size headlines so letter dots don't double up at small sizes.",
+    "Add a single deep-blue band or panel to one inner slide to keep the post anchored to blue."
+   ]
+  }
+ }
+}
