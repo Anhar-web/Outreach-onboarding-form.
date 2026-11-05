@@ -354,3 +354,7 @@ Her answers:
 - **Long slides:** when a slide is too long to stay big, split it at an existing line break or full stop (same words, one more slide). Don't shrink it into a wall of text.
 - **Deliverables: PNGs only.** No PDFs, and no Canva unless she asks. She downloads the PNGs herself.
 - **Documentation lives in Airtable** too: the base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP). Read its Feedback & Lessons, Visual Style, Posts and Post Performance tables at the start of every new batch.
+
+# PART D: PERFORMANCE READING RULES
+- **Zero comments is NOT a failure.** An earlier post that performed about like the vacuum post had 0 comments, but 5 people took the assessment. This audience reads quietly and acts privately. Judge posts by assessment starts, waitlist sign-ups and profile visits first, then by saves, shares and swipe depth ("photos viewed"). Comments matter least.
+- **Batch 1, first data (day 1, TikTok):** Vacuum got 3,468 views, 26 likes, 8 shares, 7 saves, 3.5/7 slides viewed and 11 followers. The iPad post (an earlier pre-QA version, posted as a deliberate early test) got 466 views, 4 likes, 2 shares, 1 save, 2.1/7 slides viewed and 1 follower. Full numbers are in Airtable → Post Performance.
