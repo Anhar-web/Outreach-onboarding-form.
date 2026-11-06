@@ -358,3 +358,32 @@ Her answers:
 # PART D: PERFORMANCE READING RULES
 - **Zero comments is NOT a failure.** An earlier post that performed about like the vacuum post had 0 comments, but 5 people took the assessment. This audience reads quietly and acts privately. Judge posts by assessment starts, waitlist sign-ups and profile visits first, then by saves, shares and swipe depth ("photos viewed"). Comments matter least.
 - **Batch 1, first data (day 1, TikTok):** Vacuum got 3,468 views, 26 likes, 8 shares, 7 saves, 3.5/7 slides viewed and 11 followers. The iPad post (an earlier pre-QA version, posted as a deliberate early test) got 466 views, 4 likes, 2 shares, 1 save, 2.1/7 slides viewed and 1 follower. Full numbers are in Airtable → Post Performance.
+
+# PART E: FORMATS & STRATEGY FOR BATCH 2 (Anhar, before the Batch 1 review)
+- **Every post ends with a strong call to action, attention posts included.** This reverses Batch 1, where attention posts had no CTA. Why: "Our vacuum post did really well, but it didn't have a call to action, so no one actually went to the assessment."
+- **Label every post's format** and vary formats across a batch, so we can compare by format. The labelled list lives in Airtable → Formats:
+  - **F0 Steps:** the Batch 1 baseline.
+  - **F1 HPSPC:** Hook → Problem → Solution → Proof → CTA. The default framework:
+    - **Hook:** strong, specific, never mild.
+    - **Problem:** made worse by going layers deep into the human "why", but not cringe.
+    - **Solution:** comes right after the problem, as real actionable steps.
+    - **Proof:** for the logical reader. It must be honest: no invented testimonials, and no client case on social.
+    - **CTA.**
+  - **F2 Story:** one moment told beat by beat.
+  - **F3 Two voices:** a dialogue.
+  - **F4 Metaphor:** a visual metaphor or analogy, never implying a clinical cause.
+  - **F5 Walk-through:** an adapted walk-in listicle.
+  - **F6 Checklist build:** self-reflection plus tension.
+- **Think like Hook Point / Brendan Kane.** Storytelling over ads; formats chosen to suit the brand.
+- **The four performance drivers, used to score every hook and post:**
+  1. **Perspective shift:** a surprising take, not a predictable one.
+  2. **Delivery and credibility:** confident, concise, no filler or over-explaining.
+  3. **Hook:** short and punchy, nothing diluting it.
+  4. **Self-reflection and tension:** build it up, for example with a 3-part checklist.
+- **Generalist Principle:**
+  - Simple words.
+  - Tell it as a story.
+  - A universal angle, accessible to anyone while speaking to her.
+  - Turn specifics into relatable stories.
+  - Use analogies.
+  - Decide the **effect on the viewer** first: what should she feel, think and say to herself?
