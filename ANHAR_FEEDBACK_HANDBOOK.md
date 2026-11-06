@@ -387,3 +387,15 @@ Her answers:
   - Turn specifics into relatable stories.
   - Use analogies.
   - Decide the **effect on the viewer** first: what should she feel, think and say to herself?
+- **Proof = the method, not testimonials** (Anhar). The proof slide shows HOW Home Orbit works, in plain words:
+  - We look at his whole day, not just the moment.
+  - We work on one area at a time.
+  - The plan adjusts to how he responds, reviewed every two weeks.
+  - It's built from her own observations.
+  - The free assessment looks at six areas of his day.
+  
+  No invented testimonials. The client case stays off social.
+- **A real audience comment, on an OLD problem-only post that flopped** (problem → more problem → more problem → CTA, with no tool or steps):
+  > «عزيزتي نصيحة اذا تريدي الناس يشتركو معك او يشترو المنتج الي عارضتيه لازم تعطينا رؤوس اقلام تخلي الواحد يحكم ان الكلام يستاهل الشراء، مو تطرحي المشكلة وخلاص طريقتك غير مقنعة ابداً تقبلي نقدي وتحياتي»
+  
+  The lesson in the audience's own words: never post problem-only content. Every post gives «رؤوس أقلام», meaning concrete key points (steps, the tool, the method), so she can judge it's worth it **before** the CTA.
