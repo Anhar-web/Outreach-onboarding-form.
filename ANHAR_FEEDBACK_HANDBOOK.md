@@ -399,3 +399,15 @@ Her answers:
   > «عزيزتي نصيحة اذا تريدي الناس يشتركو معك او يشترو المنتج الي عارضتيه لازم تعطينا رؤوس اقلام تخلي الواحد يحكم ان الكلام يستاهل الشراء، مو تطرحي المشكلة وخلاص طريقتك غير مقنعة ابداً تقبلي نقدي وتحياتي»
   
   The lesson in the audience's own words: never post problem-only content. Every post gives «رؤوس أقلام», meaning concrete key points (steps, the tool, the method), so she can judge it's worth it **before** the CTA.
+- **F5 Walking listicle** (refined from a Hook Point talk Anhar shared, Robert Croke's example):
+  - **Hook:** her desired result, asked as a question, plus "here are my 3 best…".
+  - **Points:** one numbered point per slide, short and confident.
+  - **The twist:** each point has one that is **unexpected but true** and breaks advice she's heard before. It's never against her or the child, and never a clinical claim.
+  - **Close:** fast and energetic, then the CTA.
+  - Easy to produce. On a carousel, swiping replaces walking, so cut every filler slide.
+
+# HOW TO START A NEW CHAT (for Anhar)
+Context in one chat eventually runs out, so start each new batch in a fresh chat:
+1. Attach this file (ANHAR_FEEDBACK_HANDBOOK.md).
+2. Say: "Run the social media agency skill. Before anything, read this handbook in full and the Airtable base 'Home Orbit, Social Media Agency': Batches, Feedback & Lessons, Formats, Visual Style, Posts, Post Performance, Conversion Windows."
+3. Mention the repo branch if you want the design kit reused: Anhar-web/Outreach-onboarding-form., branch ccr-95e1d196-cuqe7q (app/production-library/kit).
