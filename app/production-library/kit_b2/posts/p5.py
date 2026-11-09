@@ -11,7 +11,7 @@ method on three torn notes. CTA end: gold, the steaming pot small bottom-right,
 the tag on the left.
 """
 import math
-from kit import C, MX, MT, W, H, paper, torn_strip, torn_rect, torn_circle, torn_poly, avoid
+from kit import C, MX, MT, W, H, keep_in, brk, paper, torn_strip, torn_rect, torn_circle, torn_poly, avoid
 from common import hook_box, body_box, soft_cta, cta_end
 
 G = 'sandLight'
@@ -195,20 +195,34 @@ def one_spot(cx, cy, r):
 
 
 def loop_two(cx, cy, r):
-    """Adjust every two weeks: a loop arrow of deep paper around two gold dots."""
+    """Adjust every two weeks: a loop arrow of deep paper with two gold stops ON the
+    ring (never inside it: two dots in a circle would read as a face)."""
     a0, a1 = -60, 230
     pts = [(cx + r * math.cos(math.radians(a0 + (a1 - a0) * i / 30)), cy + r * math.sin(math.radians(a0 + (a1 - a0) * i / 30))) for i in range(31)]
     out = torn_strip(pts, 22, C['deep'], T, seed=91, layer=2)
     ex, ey = pts[-1]
     out += paper(f'<polygon points="{ex - 30},{ey - 6} {ex + 30},{ey - 14} {ex + 4},{ey + 34}" fill="{C["deep"]}"/>'
-                 f'<circle cx="{cx - r * .3}" cy="{cy}" r="{r * .2}" fill="{C["gold"]}"/>'
-                 f'<circle cx="{cx + r * .3}" cy="{cy}" r="{r * .2}" fill="{C["gold"]}"/>', T, 3)
+                 + ''.join(f'<circle cx="{cx + r * math.cos(math.radians(g)):.1f}" cy="{cy + r * math.sin(math.radians(g)):.1f}" r="{r * .2}" fill="{C["gold"]}"/>'
+                           for g in (20, 140)), T, 3)
     return out
 
 
 # ---------------------------------------------------------------- slides
+KEEP = {
+    2: ('تفتحي الثلاجة، ويمسك رجلك.', 'تقطعي البصل، ويسحب بلوزتك.'),
+    7: ('طريقتنا في الخطة الحية:', 'نشوف يومه كامل'),
+    8: ('ولا لما تبدئي تطبخي.',),
+}
+
+
 def slide(ctx):
     s = ctx.s
+    if s in KEEP:
+        keep_in(ctx.t.segs, *KEEP[s])
+    if s == 2:
+        ctx.t.body()[0].comma = 'glue'
+    if s == 7:
+        brk(ctx.t.body()[0], 'الحية: ')
     if ctx.last:
         mini = pot(860, 1250, .55, steam=True, seed=41) + counter(1250, 50, 560, 1100)
         return cta_end(ctx, mini_art=mini, tag_x=MX + 10, tag_y=1040)

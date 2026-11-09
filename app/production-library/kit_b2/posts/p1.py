@@ -12,7 +12,7 @@ s6 mum on a chair beside his bed (head and shoulders from above, sitting up).
 s7 the day/night strip with one marked moment.  CTA: the bed small, bottom-right.
 """
 import math
-from kit import C, MX, MT, W, H, paper, torn_strip, torn_rect, torn_circle, torn_poly, glow, avoid, keep_in, arc_pts
+from kit import C, MX, MT, W, H, keep_in, paper, torn_strip, torn_rect, torn_circle, torn_poly, glow, avoid, arc_pts
 from common import hook_box, body_box, soft_cta, cta_end
 
 G = 'night'
@@ -223,6 +223,7 @@ def slide(ctx):
         art = (crescent(880, 900, 50, layer=1) + sleepy_eyes(520, 1080, w=300, gap=150))
         html = body_box(ctx, G)
     elif s == 4:
+        keep_in(ctx.t.segs, 'في وسط الليل')
         art = crescent(470, 660, 40, layer=1) + night_clock(260, 790, 120)
         html = body_box(ctx, G) + soft_cta(ctx, y=940)
     elif s == 5:
@@ -237,6 +238,7 @@ def slide(ctx):
                + chair_top(720, 1000, 1.0))
         html = body_box(ctx, G)
     elif s == 7:
+        keep_in(ctx.t.segs, 'في الخطة الحية:')
         art = day_night(y=1000)
         html = body_box(ctx, G)
     return {'ground': G, 'art': art, 'html': html}

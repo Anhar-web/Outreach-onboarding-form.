@@ -7,7 +7,7 @@ cut at ten (s5), gentle from a hand shower (s6), all three tools together (s7).
 CTA end: gold, the towel + hand shower small in the bottom-left.
 """
 import math
-from kit import C, MX, MT, W, H, paper, torn_strip, torn_rect, torn_circle, avoid
+from kit import C, MX, MT, W, H, keep_in, paper, torn_strip, torn_rect, torn_circle, avoid
 from common import hook_box, body_box, soft_cta, cta_end
 
 G = 'deep'
@@ -169,6 +169,8 @@ def splash(cx, cy, r, seed=70):
 
 def slide(ctx):
     s = ctx.s
+    if s == 5:
+        keep_in(ctx.t.segs, 'كذا يعرف إن الموية لها آخر.')
     if ctx.last:
         mini = (f'<g transform="translate(40 960) scale(.62)">{towel(260, 330, 300, 150, rot=-8, hand=False)}</g>'
                 + hand_shower(200, 1000, .5, rot=-25, stream=False, hose=False))
