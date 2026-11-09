@@ -61,3 +61,4 @@
 | p7 s5 «…وخليه هو يضغط الزر» | «…وتقدري تخليه هو يضغط الزر» | Offer optional extras as a choice (**تقدري**), not an order. Hand her the value; don't command. |
 | p8 s2 «وتطلي على الصالة تشوفيه فين» | «وتروحي الصالة تشوفي فينه» | Her words: **تروحي** (not تطلي على), **فينه** ("where is he"). Answers الصالة: yes. |
 | p8 s4 (and s8) «الصوت اللي يبعد عنه» | «الصوت اللي يخاف منه» | Name the plain feeling (**يخاف منه**), not a detached behaviour description. |
+| p8 s4–8 | Edited by Anhar (verbatim) | «تغيري فيها» → **«تغيريها»**. «فوطة مطوية… صوته على الرخام يخف على طول، والفوطة موجودة في مطبخك» → **«منشفة مطبقة… تخفف صوت الخلاط.»** (her words منشفة / مطبقة; cut the over-explaining). «كذا يكون شاف…» → **«عشان يشوف…»** (purpose = عشان). «خطة مبنية على يومه هو» → **«خطة على يومه»** (shorter). She **kept** the longer «ولو الخلاط مو الصوت الوحيد اللي تحسبي له حساب…» soft CTA here: a soft CTA that ties back to the hook's idea (تحسبي له حساب) can stay. |
