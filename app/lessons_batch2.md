@@ -39,3 +39,4 @@
 | p2 «شوي» (×4: «شوي شوي»، «بعد شوي») | «شويه» | Her spelling of "a little" is **شويه**. |
 | p2 s7 «…ايش آخر شي يشوفه قبل ما يغمض» | «…قبل ما ينام» | يغمض is not her word here. Use the plain verb **ينام**. |
 | p3 s2 «…ومتى بجلس أنا؟» | «…ومتى ارتاح أنا؟» | Her inner voice names the real need, rest (**ارتاح**), not the literal act. |
+| p3 s4 «…يكون لسه فيه حيل» | «…يكون لسه مصحصح» | For a child who's still wide awake, she says **مصحصح**. Keep «فيه حيل» for energy to *do* something (e.g. her own «ما عاد فيكي حيل»). |
