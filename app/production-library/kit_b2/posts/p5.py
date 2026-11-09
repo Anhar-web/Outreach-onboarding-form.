@@ -230,8 +230,8 @@ def slide(ctx):
         html = body_box(ctx, G, y=MT + 40)
     elif s == 4:
         cy = 1070
-        art = (pot(230, cy, .7, seed=15, sn=6) + child_back(760, 960, 100) + counter(cy) + chair(600, cy + 96, w=280, legs_to=1250))
-        html = body_box(ctx, G) + soft_cta(ctx, y=665, w=620)
+        art = (pot(230, cy, .7, seed=15, sn=6) + child_back(760, 1000, 95) + counter(cy) + chair(600, cy + 96, w=280, legs_to=1250))
+        html = body_box(ctx, G) + soft_cta(ctx, y=652, w=620)
     elif s == 5:
         cy = 1060
         art = (counter(cy) + zabdiya(480, 930, 620) + cucumber(760, 800, 75, .95)
