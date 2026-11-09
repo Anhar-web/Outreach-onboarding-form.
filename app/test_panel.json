@@ -1,0 +1,448 @@
+{
+  "p1": {
+    "score": 83,
+    "breakdown": {
+      "Scroll-stop": 14,
+      "Recognition": 11,
+      "Emotion": 10,
+      "Her own words": 9,
+      "Usable value": 9,
+      "Trust & safety": 9,
+      "Arabic naturalness": 7,
+      "The turn": 5,
+      "CTA seen and earned": 7,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "Half-the-bed result is her ironic twist, but two questions; the second («كل ليلة الساعة اثنين…») dilutes it.",
+      "Recognition": "Every mother of a 2am visitor knows 'waking on the edge of the bed'.",
+      "Emotion": "s2 «خلاص، المهم ننام» + «ظهرك يوجعك» lands; s3 is explanation, not feeling.",
+      "Her own words": "Inner voice and «بالقوة فاتحة عيونك» are hers.",
+      "Usable value": "Decide-before-sleep is fresh and real; return-to-bed with two words is the known method.",
+      "Trust & safety": "No promise, no clinical claim. Fine.",
+      "Arabic naturalness": "s8 «ايش صار قبل ما نام متى نام» runs on with no comma; reads breathless on a slide.",
+      "The turn": "«you pick the easy option because you can't think at 2am» is a mild shift, not a surprise.",
+      "CTA seen and earned": "Soft CTA at s4 sits past the ~2-slide drop and opens with a condition («وإذا الموضوع يتكرر…»), against the p2 soft-CTA rule.",
+      "Save/share-worthy": "Three steps for a 2am problem: saveable."
+    },
+    "skimmer": "Stops on s1 (the half-bed image). Reads s2, nods, drops at s3 (a dense 3-line 'why'). Saw no CTA on slides; only the caption carries it.",
+    "cynic": "\"Walk him back, same two words, don't lie down: that's every sleep account. Step 1 (decide before you sleep) is the only thing I haven't heard, and it's the one I actually need at 2am.\"",
+    "cautious": "\"Honest, no promises. The method slide is fine. But it's the same 'whole day' line I'll see again in p5.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS (s2–s3) · Soft CTA by s4: PASS (s4, conditional wording) · Final CTA C→P→D + «الرابط في البايو»: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Steps 2 and 3 are near-identical to p4 s6–s7 («نفس الكلمتين، مثلا \"يلا سريرك\"» / «ولا تنسدحي»); change one post's steps or space them far apart in the posting order.",
+      "Cut s3 to one line and let step 1 arrive on s3, so the soft CTA lands on s3 not s4.",
+      "Drop the «وإذا…» condition from the soft CTA: «التقييم المجاني في البايو يساعدك تشوفي يومه كامل، مو بس وسط الليل.»"
+    ],
+    "gate": "ok"
+  },
+  "p2": {
+    "score": 90,
+    "breakdown": {
+      "Scroll-stop": 15,
+      "Recognition": 12,
+      "Emotion": 11,
+      "Her own words": 10,
+      "Usable value": 8,
+      "Trust & safety": 9,
+      "Arabic naturalness": 7,
+      "The turn": 7,
+      "CTA seen and earned": 9,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "Past-tense single moment, exactly her shape; twist is implied (the hour wasted) rather than said.",
+      "Recognition": "«ماما» before the door is the most universal beat in the batch.",
+      "Emotion": "s2–s3 are a real peak: «والساعة بدأت من أولها» hurts in the right way.",
+      "Her own words": "«بس ينام، بقوم أرتب المطبخ» is her inner voice word for word.",
+      "Usable value": "Only two steps; 1-2-5-minute check-ins are the known graduated method, though the 'finish your chores in between' adds real value.",
+      "Trust & safety": "Honest: «برجع لك» is a promise to him she can keep. No promised result.",
+      "Arabic naturalness": "Double space in s1 («ساعة  تنوميه»); otherwise natural.",
+      "The turn": "Leave while he's still awake is counter-intuitive and true: a genuine shift.",
+      "CTA seen and earned": "Soft CTA on s3, short, names the benefit. Best placement in the batch.",
+      "Save/share-worthy": "Save-worthy for the check-in timings."
+    },
+    "skimmer": "Stops on s1 (she has lived it last night). Swipes s2 for the «ماما». Likely drops at s3, but s3 has the soft CTA: she saw it.",
+    "cynic": "\"Check-ins at 1, 2, 5 minutes: I've seen the chart. What's new is 'leave while he's awake' and doing the kitchen in between. That I'd try.\"",
+    "cautious": "\"It doesn't promise he'll sleep. The CTA asks me to notice who's next to him and what he sees last: that's observation, not a sales pitch.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS (s3) · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Fix the double space in s1.",
+      "s6 is pure explanation; fold «كذا يشوف إنك تطلعي وترجعي» into s5 and use the freed slide for a third step (what to do if he follows her out), so 'two steps' doesn't feel thin.",
+      "s7 «ومين يكون جمبه» is close to the 'who was near him' trigger Anhar rejected (A2); «ومتى ينام» is safer."
+    ],
+    "gate": "ok"
+  },
+  "p3": {
+    "score": 85,
+    "breakdown": {
+      "Scroll-stop": 14,
+      "Recognition": 11,
+      "Emotion": 9,
+      "Her own words": 9,
+      "Usable value": 8,
+      "Trust & safety": 10,
+      "Arabic naturalness": 7,
+      "The turn": 6,
+      "CTA seen and earned": 9,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«ما تطلعي … إلا الساعة عشره» is her ما…إلا shape; specific and ironic about her evening.",
+      "Recognition": "Two hours in a dark room is common to most mothers of toddlers.",
+      "Emotion": "s2 «ومتى ارتاح أنا؟» lands; the three checks are calm and cool.",
+      "Her own words": "Locked slides are hers; «مصحصح», «شي دافي» ring true.",
+      "Usable value": "Nap timing, calm last activity, keep the routine on guest nights: true but closest to the generic 'make a routine' advice A1 bans.",
+      "Trust & safety": "Clean.",
+      "Arabic naturalness": "«شوي» in s4 vs her «شويه» (locked, left as is).",
+      "The turn": "The real turn («الساعة ثمانيه لعشره ما تبدأ في غرفته») is buried on s8, which nobody reaches.",
+      "CTA seen and earned": "Soft CTA on s3 with the promise; final CTA is Anhar's own formula.",
+      "Save/share-worthy": "Checklist shape saves well."
+    },
+    "skimmer": "Stops on s1 (8 to 10 is precise). s2 recognisable. Hits s3: sees the promise and the soft CTA, then likely drops. Got the CTA, not the insight.",
+    "cynic": "\"Earlier nap end, calmer last activity, keep the routine. I could write this list myself. If you'd opened with 'the two hours start in the afternoon' I'd have kept going.\"",
+    "cautious": "\"'You don't have to change all three' feels respectful. Fine.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS (s3) · Final CTA: PASS · No em dash: PASS · Items labelled (أول شي…): PASS · No homework: PASS",
+    "push_higher": [
+      "Move the s8 turn line up to s3: «الساعة ثمانيه لعشره ما تبدأ في غرفته. هذي ثلاث أشياء من يومه تفرق في ليلته.» It is the perspective shift and the reason to swipe.",
+      "Make one check less generic (e.g. s5: name the exact last activity and what replaces it in her house tonight).",
+      "Space it from p1/p2/p4 in posting order: four bedtime posts back to back will read as one account repeating itself."
+    ],
+    "gate": "ok"
+  },
+  "p4": {
+    "score": 87,
+    "breakdown": {
+      "Scroll-stop": 15,
+      "Recognition": 11,
+      "Emotion": 11,
+      "Her own words": 9,
+      "Usable value": 7,
+      "Trust & safety": 10,
+      "Arabic naturalness": 8,
+      "The turn": 7,
+      "CTA seen and earned": 7,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«قلتي له اليوم بس…» names the guilt and the problem she has now. Strong.",
+      "Recognition": "Very common, slightly narrower than p1 (co-sleeping that stuck).",
+      "Emotion": "s3 «تسمعي أصوات البيت برا، وأنتي مو قادرة تقومي» and s4 «ما سويتي شي غلط» are the emotional high of the batch.",
+      "Her own words": "Her past-tense voice throughout.",
+      "Usable value": "Nap-first is a real, fresh step; steps 2 and 3 duplicate p1 almost word for word.",
+      "Trust & safety": "Absolves her without promising he'll sleep alone.",
+      "Arabic naturalness": "Natural; «دحين» / «ذيك الليلة» sit right.",
+      "The turn": "Start with the day nap, not the night: a true surprise.",
+      "CTA seen and earned": "Soft CTA on s5, a full slide past the drop. Final CTA Direct is clean.",
+      "Save/share-worthy": "Saveable."
+    },
+    "skimmer": "Stops on s1 (guilt). Reads s2 and probably s3. Drops before s5: never sees the soft CTA.",
+    "cynic": "\"Nap first, I'll give you. 'Same two words, don't lie back down' I literally saw yesterday on your p1.\"",
+    "cautious": "\"s4 telling me I didn't do anything wrong makes me trust them. No timeline. Good.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS (s2–s3, s4 signals) · Soft CTA by s4: FAIL (s5) · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Move the soft CTA up onto s4 under «وهذي ثلاث خطوات…» so it lands before step 1.",
+      "Rewrite steps 2–3 so they differ from p1 (e.g. what to do on the first night she doesn't lie down: sit, then the door), or post p1 and p4 a week apart.",
+      "Keep s3 and s4 exactly; they are the batch's best feeling."
+    ],
+    "gate": "ok"
+  },
+  "p5": {
+    "score": 90,
+    "breakdown": {
+      "Scroll-stop": 16,
+      "Recognition": 12,
+      "Emotion": 10,
+      "Her own words": 10,
+      "Usable value": 9,
+      "Trust & safety": 9,
+      "Arabic naturalness": 8,
+      "The turn": 6,
+      "CTA seen and earned": 8,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«…فصرتي تطبخي غدا بكرة وهو نايم؟» is the vacuum winner's exact shape with a fresh moment.",
+      "Recognition": "Every mother of a toddler has cooked with one on her leg.",
+      "Emotion": "s2 beat by beat (رجلك، بلوزتك، تقلبي القدر) is felt; ends on «أطبخ بعدين».",
+      "Her own words": "Hers: تقلبي، زبديه، هوه، الطاوله.",
+      "Usable value": "Chair beside her and a cucumber job work with what he wants (her); narration step is softer.",
+      "Trust & safety": "Commenter risk: a toddler on a chair at the counter beside a knife. «بعيد عن النار» helps; a note, not a gate.",
+      "Arabic naturalness": "Clean.",
+      "The turn": "Bring him closer instead of distracting him is a shift, but it is not stated as one.",
+      "CTA seen and earned": "Soft CTA on s4; final CTA good, «شوفي ايش يحتاج اهتمامك أول» is earned.",
+      "Save/share-worthy": "Very saveable."
+    },
+    "skimmer": "Stops hard on s1 (she cooked last night at 11). Reads s2. s3 is one line so she flicks to s4 and catches the soft CTA. Good chance she saw it.",
+    "cynic": "\"Kitchen helper chair: I've seen the learning-tower reels. But this one doesn't ask me to buy anything and the cucumber job is actually what he'd do. Realistic.\"",
+    "cautious": "\"Method slide is plain. Fine. One worry: a chair at the counter while I'm cutting onions.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Pre-empt the safety comment with two words on s4 or the pinned comment: «كرسي ثابت» and «بعيد عن السكين والنار».",
+      "Put the soft CTA on s3 (the promise slide is one line and has room).",
+      "Space from p6 (same 'after he sleeps' twist) in posting order."
+    ],
+    "gate": "ok"
+  },
+  "p6": {
+    "score": 87,
+    "breakdown": {
+      "Scroll-stop": 14,
+      "Recognition": 12,
+      "Emotion": 9,
+      "Her own words": 10,
+      "Usable value": 9,
+      "Trust & safety": 10,
+      "Arabic naturalness": 8,
+      "The turn": 5,
+      "CTA seen and earned": 8,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "Anhar's «ما تقدري … إلا» shape; covers two chores so it's a pattern more than one moment.",
+      "Recognition": "Direct sequel to the vacuum winner; she will recognise herself.",
+      "Emotion": "s2 «تحتاري تخلصيه ولا ترتاحي» is the hit; the checklist after is cooler.",
+      "Her own words": "«بسويه لما ينام» is her inner voice.",
+      "Usable value": "Count the rooms out loud, laundry job, منشفه for the table: all seconds, all realistic.",
+      "Trust & safety": "Clean.",
+      "Arabic naturalness": "Natural.",
+      "The turn": "No real perspective shift; it's sorted tips.",
+      "CTA seen and earned": "Soft CTA on s4 after the first item; Reflection CTA connects well.",
+      "Save/share-worthy": "Saveable."
+    },
+    "skimmer": "Stops on s1 (the vacuum audience). Reads s2. s3 promises three things; may tap to s4 and see the CTA, more likely drops at s3.",
+    "cynic": "\"'Two rooms only, then say done one': that's a small thing I haven't seen and I could try it tomorrow. The rest is fine.\"",
+    "cautious": "\"It stays about him, not housework tips. Trustworthy.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS · Final CTA: PASS · No em dash: PASS · Items labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Add the turn on s3 (e.g. what each sign is telling you about him) so the checklist feels like a discovery, not a list.",
+      "Hook overlaps p5's «بعد ما ينام» twist; keep them at least 3 days apart.",
+      "Put the soft CTA on s3 with the promise."
+    ],
+    "gate": "ok"
+  },
+  "p7": {
+    "score": 84,
+    "breakdown": {
+      "Scroll-stop": 14,
+      "Recognition": 11,
+      "Emotion": 10,
+      "Her own words": 9,
+      "Usable value": 9,
+      "Trust & safety": 9,
+      "Arabic naturalness": 7,
+      "The turn": 5,
+      "CTA seen and earned": 8,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«ما تقدري تشغلي الاستشوار إلا…» is her shape and passed her realism check.",
+      "Recognition": "Narrower: only the noise-sensitive child; still visible behaviour.",
+      "Emotion": "s2 «ونص شعرك لسه مبلول» with guests coming is real and slightly funny.",
+      "Her own words": "Hers, after two rewrites.",
+      "Usable value": "Low setting first, warn him, let him sit at a distance: seconds, at the mirror. Useful.",
+      "Trust & safety": "He presses the dryer button: minor; no gate.",
+      "Arabic naturalness": "«علّيه» fine; s6 slightly long.",
+      "The turn": "Letting him move away instead of stopping is a quiet shift; no surprise.",
+      "CTA seen and earned": "Soft CTA on s4; s7 «الأشياء اللي صرتي تأجليها» connects nicely.",
+      "Save/share-worthy": "Saveable."
+    },
+    "skimmer": "Stops on s1 if her child does this; otherwise flicks past. Reads s2. s3 is short, may reach s4 and the CTA.",
+    "cynic": "\"Low setting first. Obvious once you say it, but I haven't done it. Fine, not 50th-account.\"",
+    "cautious": "\"The CTA asks what else I postpone until he's away. That's a fair question, not a pitch.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Same 'he presses it' device appears in p8, p10, p11; keep it here and vary one of the others.",
+      "Tighten s6 to two lines so the slide stays big type.",
+      "Consider soft CTA on s3 with the promise."
+    ],
+    "gate": "ok"
+  },
+  "p8": {
+    "score": 83,
+    "breakdown": {
+      "Scroll-stop": 12,
+      "Recognition": 11,
+      "Emotion": 9,
+      "Her own words": 10,
+      "Usable value": 10,
+      "Trust & safety": 8,
+      "Arabic naturalness": 8,
+      "The turn": 6,
+      "CTA seen and earned": 7,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "Lukewarm hook: a statement of her caution, no ironic twist about her and no «فصرتي / إلا» punch.",
+      "Recognition": "Mothers whose child fears loud sounds recognise it; others scroll.",
+      "Emotion": "s3 (blender back with the banana in) is real but low stakes; nothing here hurts.",
+      "Her own words": "Hers: منشفة مطبقة، أسويه بعدين.",
+      "Usable value": "Towel under the blender and short pulses: two of the most usable, instant tips in the batch.",
+      "Trust & safety": "Step 3 «خليه هو يحط الموز في الخلاط» will draw blade comments. Add «وهو مطفي» and it's solved. Note, not gate.",
+      "Arabic naturalness": "Natural.",
+      "The turn": "Bring him in instead of keeping him away is a real shift, unstated.",
+      "CTA seen and earned": "Soft CTA on s5 (late, long conditional); final Direct is clipped («ابدئي بالتقييم المجاني، الرابط في البايو»).",
+      "Save/share-worthy": "The towel tip is shareable."
+    },
+    "skimmer": "Pauses on s1 only if this is her child. s2 is calm; likely drops there. Saw no CTA.",
+    "cynic": "\"The towel trick is genuinely good. But the opening didn't make me feel anything.\"",
+    "cautious": "\"Let my toddler put his hand in the blender jar? You need to say it's off.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: FAIL (s5) · Final CTA: PASS (purpose thin) · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Sharpen the hook with the twist about her: e.g. «…فصرتي تسوي العصير وهو نايم؟» or end on the banana going brown on the counter.",
+      "Add «والخلاط مطفي» to step 3 (s7).",
+      "Move the soft CTA to s4 under «وهذي الثلاث تقدري تغيريها».",
+      "Lukewarm: s1–s3 carry no feeling; the value is all in s5–s6, which most won't reach."
+    ],
+    "gate": "ok"
+  },
+  "p9": {
+    "score": 88,
+    "breakdown": {
+      "Scroll-stop": 14,
+      "Recognition": 12,
+      "Emotion": 11,
+      "Her own words": 10,
+      "Usable value": 9,
+      "Trust & safety": 9,
+      "Arabic naturalness": 7,
+      "The turn": 7,
+      "CTA seen and earned": 7,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "Winning shape («فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟») but long; double space before «أول».",
+      "Recognition": "Universal: almost every toddler does this at the bathroom door.",
+      "Emotion": "s3 «جيت، جيت… وتطلعي له وما خلصتي» is felt.",
+      "Her own words": "Hers throughout.",
+      "Usable value": "Go in when he's busy, keep talking, give him the towel job: realistic, seconds.",
+      "Trust & safety": "Leaving him outside alone is everyday reality; no gate.",
+      "Arabic naturalness": "Soft CTA «يساعدك تعرف» (masculine) and s8 «نقطة البداية» (written form she replaced elsewhere); both locked, flag only.",
+      "The turn": "«من جهته: الباب اتسكر، وصوتك اختفى» is a true shift to his side.",
+      "CTA seen and earned": "Soft CTA on s5, past the drop. Final Reflection question is the warmest in the batch.",
+      "Save/share-worthy": "Saveable."
+    },
+    "skimmer": "Stops on s1. Swipes s2–s3 for the two sides of the door. Drops at s4: no CTA seen.",
+    "cynic": "\"Talk to him through the door: obvious. The towel job is cute and it would work with mine.\"",
+    "cautious": "\"s8 «أي وحدة فيها تتمني ترجعي تسويها وهو صاحي؟» made me think. That's the kind of CTA I'd follow.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS (s2–s3, s4 signals) · Soft CTA by s4: FAIL (s5) · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Fix the double space in s1; ask Anhar whether to shorten to one clause.",
+      "Move the soft CTA onto s4 with the signal line.",
+      "Ask Anhar about «تعرف» → «تعرفي» and «نقطة البداية» → «من فين تبدئي» (both locked)."
+    ],
+    "gate": "ok"
+  },
+  "p10": {
+    "score": 92,
+    "breakdown": {
+      "Scroll-stop": 16,
+      "Recognition": 12,
+      "Emotion": 10,
+      "Her own words": 10,
+      "Usable value": 11,
+      "Trust & safety": 8,
+      "Arabic naturalness": 8,
+      "The turn": 7,
+      "CTA seen and earned": 8,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«…وأنتي اللي مبلولة أكثر منه؟» is a direct echo of the bedtime winner's «وأنتي اللي نمتي».",
+      "Recognition": "Every parent of a toddler has done this bath.",
+      "Emotion": "s2 «والشامبو لسه في شعره» is the felt beat.",
+      "Her own words": "Hers.",
+      "Usable value": "Towel on his own eyes, count to ten, he holds the shower: three things she can do tonight with what's in the bathroom.",
+      "Trust & safety": "«اعطيه الدش يمسكه» will draw a hot-water comment; say «والموية دافية» on s6. Note, not gate.",
+      "Arabic naturalness": "Natural.",
+      "The turn": "He covers his own eyes, stop at ten even with shampoo left: unexpected and true.",
+      "CTA seen and earned": "Soft CTA on s4 is honest («هذا غسيل الشعر بس»). Final Direct is clipped.",
+      "Save/share-worthy": "s7 recap is a perfect save slide."
+    },
+    "skimmer": "Stops hard on s1 (laughs, it's her). Reads s2. Reaches s3 promise; maybe s4 with the CTA.",
+    "cynic": "\"Counting to ten and stopping even if there's shampoo? I've never been told that. That's the one I'll try.\"",
+    "cautious": "\"Recap slide plus 'ويمكن' instead of a promise. I trust it.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS · Final CTA: PASS (direct clipped) · No em dash: PASS · Steps labelled: PASS · No homework: PASS",
+    "push_higher": [
+      "Add «والموية دافية» to step 3 (s6) to pre-empt the scald comment (pinned comment already covers warm water).",
+      "Soft CTA on s3 with the promise line.",
+      "Lead the posting order with this one."
+    ],
+    "gate": "ok"
+  },
+  "p11": {
+    "score": 81,
+    "breakdown": {
+      "Scroll-stop": 11,
+      "Recognition": 11,
+      "Emotion": 10,
+      "Her own words": 9,
+      "Usable value": 9,
+      "Trust & safety": 8,
+      "Arabic naturalness": 8,
+      "The turn": 5,
+      "CTA seen and earned": 8,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "The losing Batch 1 shape: the child's behaviour as the problem, no twist about her. The twist («المرة الجاية أقصه أنا في البيت») is buried on s2.",
+      "Recognition": "Common, but a monthly event, not daily.",
+      "Emotion": "«وكل اللي في الصالون يطالع» is real public shame; felt.",
+      "Her own words": "Hers.",
+      "Usable value": "Quiet time and comfort object are fine; a whole 'watch only' visit costs her a trip; the clipper hold is useful.",
+      "Trust & safety": "«خلي الحلاق يخليه يمسكها» (running clipper): a few comments possible; barber-supervised, guarded clipper, low risk. Note.",
+      "Arabic naturalness": "Natural.",
+      "The turn": "«كل شي يجيه مرة وحدة» explains, doesn't surprise.",
+      "CTA seen and earned": "Soft CTA on s4 ties to the pattern («ايش اللي يتكرر»); proof+CTA merged well on s8.",
+      "Save/share-worthy": "Saveable before a haircut."
+    },
+    "skimmer": "Pauses on s1 only if a salon trip is coming. Reads s2 (the stares). Drops at s3.",
+    "cynic": "\"A whole trip just to watch another kid get a haircut? With two other kids and traffic? No.\"",
+    "cautious": "\"Method stated plainly, no promises. Fine.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: PASS · Soft CTA by s4: PASS · Final CTA: PASS · No em dash: PASS · Steps labelled: PASS · No homework: PASS (extra visit is a time cost, not homework)",
+    "push_higher": [
+      "Ask Anhar to try the twist-about-her version of the hook, e.g. «…فصرتي تقصي شعره بنفسك في البيت؟», keeping the screaming in s2.",
+      "Make step 2 cheaper: watch a sibling's or cousin's haircut on a visit she already makes.",
+      "Add «بعد ما يشغلها الحلاق قدامه» or «مع الغطا» to the clipper step to pre-empt comments."
+    ],
+    "gate": "ok"
+  },
+  "p12": {
+    "score": 81,
+    "breakdown": {
+      "Scroll-stop": 15,
+      "Recognition": 11,
+      "Emotion": 9,
+      "Her own words": 9,
+      "Usable value": 7,
+      "Trust & safety": 10,
+      "Arabic naturalness": 7,
+      "The turn": 7,
+      "CTA seen and earned": 4,
+      "Save/share-worthy": 2
+    },
+    "reasons": {
+      "Scroll-stop": "«…إلا لما تدخلي الحمام وتقفلي الباب؟» is a sharp, very Saudi twist about her.",
+      "Recognition": "Calls with mum are universal; the phone-grab is common.",
+      "Emotion": "s2 «ايش فيه؟ ما أسمعك» lands; s3–s4 metaphor then explanation goes cool.",
+      "Her own words": "Hers (rewritten).",
+      "Usable value": "Call-only box is the most familiar tip in the batch; step 3 repeats step 1; speaker + out of reach helps.",
+      "Trust & safety": "Clean.",
+      "Arabic naturalness": "s6 missing full stop; s8 says «من فين تبدئي» twice in two lines.",
+      "The turn": "Your favourite toy in someone else's hand: a real shift to his side.",
+      "CTA seen and earned": "No soft CTA anywhere on the slides; final CTA repeats itself.",
+      "Save/share-worthy": "Shareable for the metaphor."
+    },
+    "skimmer": "Stops on s1 (smiles). Reads s2. Metaphor on s3 is a pause; drops. No CTA seen on slides.",
+    "cynic": "\"A busy box for phone calls. I've got the Pinterest board. The metaphor made me see it from his side though.\"",
+    "cautious": "\"Gentle, honest. But I didn't know there was an assessment until the last slide.\"",
+    "checks": "Slide 2 escalates: PASS · ≤3 story slides: BORDERLINE (s2–s4, no signal line before s5) · Soft CTA by s4: FAIL (none) · Final CTA: PASS (redundant) · No em dash: PASS · Steps labelled: PASS · No homework: PASS (one-time box setup)",
+    "push_higher": [
+      "Add a soft CTA and a signal on s4: «وهذي ثلاث خطوات للمكالمة الجاية.» + «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.»",
+      "s8: cut the duplicate line; keep «هذي اللحظة تساعدك تحددي من فين تبدئي. ابدئي بالتقييم المجاني، الرابط في البايو.»",
+      "Merge steps 1 and 3 (box + pick one thing for him) and use the free step for something new (e.g. a short call signal he learns).",
+      "Add the full stop on s6."
+    ],
+    "gate": "ok"
+  }
+}
