@@ -435,10 +435,11 @@ Context in one chat eventually runs out, so start each new batch in a fresh chat
   2. **Give it a purpose:** why that matters when building a plan around her child.
   3. **Direct her:** the free assessment, to find out where to start.
 - **Anhar's examples:**
-  - Bedtime: «لاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبدئي بخطة تناسب طفلك. ابدئي بالتقييم المجاني واعرفي من فين تبدأي.»
+  - Bedtime: «لاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبدئي بخطة تناسب طفلك. ابدئي بالتقييم المجاني واعرفي من فين تبدئي.»
   - iPad transitions: «انتبهي للمواقف اللي يصعب فيها الانتقال من نشاط لثاني. ابدئي بالتقييم المجاني عشان تعرفي فين تركزي أول شي.»
-  - Family visits: «لاحظي ايش يصير قبل ما تضطري تخرجي من العزيمة. ابدئي بالتقييم المجاني واعرفي من فين تبدأي.»
+  - Family visits: «لاحظي ايش يصير قبل ما تضطري تخرجي من العزيمة. ابدئي بالتقييم المجاني واعرفي من فين تبدئي.»
 - **Rotate three variations** (the destination stays the same, the transition fits the post):
-  - Observation: «لاحظي هذي التفاصيل، وابدئي بالتقييم المجاني عشان تعرفي من فين تبدأي.»
+  - Observation: «لاحظي هذي التفاصيل، وابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي.»
   - Reflection: «فكري في أكثر موقف يتكرر مع طفلك. التقييم المجاني يساعدك تحددي نقطة البداية.»
   - Direct: «ابدئي بالتقييم المجاني، واعرفي فين تحتاجي تركزي أول شي.»
+- **Spelling standard:** always «تبدئي / ابدئي», never «تبدأي». Both are correct, but Anhar chose تبدئي.
