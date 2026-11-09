@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T15:59:31.900039+00:00",
- "currentStep": 7,
+ "updatedAt": "2026-11-09T16:01:25.613933+00:00",
+ "currentStep": 8,
  "steps": [
   {
    "n": 1,
@@ -104,7 +104,7 @@
    "key": "production",
    "title": "Production",
    "subtitle": "The Copywriter writes every picked post in Arabic.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Written last, never from a blank page",
     "body": "Every post starts from a picked concept, a chosen hook and her own words."
@@ -113,14 +113,14 @@
     "label": "Read the drafts.",
     "phrase": "Looks good. Edit and test."
    },
-   "report": "### 12 drafts are in\nEvery post has your hook verbatim on slide 1, a scene or inner-voice slide 2, one soft CTA under the first step (marked ⟵ on the cards), steps labelled in full, a final Connect → Purpose → Direct CTA ending «الرابط في البايو», a caption whose first line carries the CTA, and a pinned comment \"part two\". 7–8 slides each. Proof slides (method only) on the three F1 posts. Automatic checks: no em dash, hooks verbatim.\n\nThe full slides are in **The posts** section below.\n\n### Director's flags (the Arabic Voice Editor fixes these next unless you say otherwise)\n1. **p3 uses the \"X ما تبدأ … تبدأ من العصر\" line twice** (slides 3 and 8). That's the «الزيارة تبدأ في السيارة» pattern you rejected. It will be rewritten plainly.\n2. **p12 final slide «…بدل ما تقفلي الباب كل ما رن جوالك» leans toward a promise.** It will be softened.\n3. **p10 slide 7 «ويمكن هذي المرة تطلعي … ناشفة أكثر منه»** is a callback joke. It may read as forced or as a promise, so it's a candidate to cut.\n4. **p7 slide 4 «الكل يقولك…»** is the F5 twist that breaks advice she's heard. Is that OK, or does it feel like the «قالوا لك» angle you didn't want?\n5. **The method slide says «الخطة الحية»** (p1, p5). Is that the Arabic name you use publicly, or should it say «في مدار البيت»?\n\n### Your realism checks\n- **p2:** leave while he's still awake, «برجع لك بعد شوي», and come back after 1, then 2, then 5 minutes.\n- **p3:** wake him a bit earlier from the afternoon nap («ولو نص ساعة»). Realistic?\n- **p4:** start with the **midday nap** in his own bed. Do most of your audience's children still nap?\n- **p8:** a folded towel under the blender, and he puts the banana in himself.\n\n### Word questions, in one batch\n| Word | Used for | Question |\n|---|---|---|\n| سوالف / يسولف | chatting | Natural for you? |\n| توسعي له مكان | make room for him | OK? |\n| ذيك الليلة | that night | or «هذيك الليلة»? |\n| نومة الظهر / نومة العصر | the afternoon nap | which one do you say? |\n| بلوزتك | your top | OK? |\n| وعاء / طاسة | a bowl | which? |\n| ودك | you'd like | OK? |\n| الصالة | living room | OK? |\n| الدش | hand shower | or «الشطاف» / «رشاش الشاور»? |\n| مفصول | unplugged | OK? |\n| المكينة، ترج | clipper, its buzz | OK? |\n| سناكه، السبيكر | his snacks, speakerphone | keep, or Arabic? |\n| من جهته هو | from his side | or «من برا الباب»? |\n"
+   "report": "### 12 drafts are in\nEvery post has your hook verbatim on slide 1, a scene or inner-voice slide 2, one soft CTA under the first step (marked ⟵ on the cards), steps labelled in full, a final Connect → Purpose → Direct CTA ending «الرابط في البايو», a caption whose first line carries the CTA, and a pinned comment \"part two\". 7–8 slides each. Proof slides (method only) on the three F1 posts. Automatic checks: no em dash, hooks verbatim.\n\nThe full slides are in **The posts** section below.\n\n### Director's flags (the Arabic Voice Editor fixes these next unless you say otherwise)\n1. **p3 uses the \"X ما تبدأ … تبدأ من العصر\" line twice** (slides 3 and 8). That's the «الزيارة تبدأ في السيارة» pattern you rejected. It will be rewritten plainly.\n2. **p12 final slide «…بدل ما تقفلي الباب كل ما رن جوالك» leans toward a promise.** It will be softened.\n3. **p10 slide 7 «ويمكن هذي المرة تطلعي … ناشفة أكثر منه»** is a callback joke. It may read as forced or as a promise, so it's a candidate to cut.\n4. **p7 slide 4 «الكل يقولك…»** is the F5 twist that breaks advice she's heard. Is that OK, or does it feel like the «قالوا لك» angle you didn't want?\n5. **The method slide says «الخطة الحية»** (p1, p5). Is that the Arabic name you use publicly, or should it say «في مدار البيت»?\n\n### Your realism checks\n- **p2:** leave while he's still awake, «برجع لك بعد شوي», and come back after 1, then 2, then 5 minutes.\n- **p3:** wake him a bit earlier from the afternoon nap («ولو نص ساعة»). Realistic?\n- **p4:** start with the **midday nap** in his own bed. Do most of your audience's children still nap?\n- **p8:** a folded towel under the blender, and he puts the banana in himself.\n\n### Word questions, in one batch\n| Word | Used for | Question |\n|---|---|---|\n| سوالف / يسولف | chatting | Natural for you? |\n| توسعي له مكان | make room for him | OK? |\n| ذيك الليلة | that night | or «هذيك الليلة»? |\n| نومة الظهر / نومة العصر | the afternoon nap | which one do you say? |\n| بلوزتك | your top | OK? |\n| وعاء / طاسة | a bowl | which? |\n| ودك | you'd like | OK? |\n| الصالة | living room | OK? |\n| الدش | hand shower | or «الشطاف» / «رشاش الشاور»? |\n| مفصول | unplugged | OK? |\n| المكينة، ترج | clipper, its buzz | OK? |\n| سناكه، السبيكر | his snacks, speakerphone | keep, or Arabic? |\n| من جهته هو | from his side | or «من برا الباب»? |\n\n\n**Anhar's edit round (Nov 9):** about 35 slide-level edits across all 12 posts, made through dashboard comments. Every one was applied verbatim and studied into rules in `app/lessons_batch2.md`. She moved on to testing."
   },
   {
    "n": 8,
    "key": "test",
    "title": "Arabic + Test",
    "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
-   "status": "idle",
+   "status": "working",
    "idea": {
     "title": "Born in Arabic, tested cold",
     "body": "A line that sounds translated loses, whatever its score."
@@ -129,7 +129,7 @@
     "label": "Choose what ships.",
     "phrase": "Ship the winners."
    },
-   "report": ""
+   "report": "*The Arabic Voice Editor is doing a light pass on the parts you didn't touch. Your edited slides are locked. The Test Panel runs after the editor.*"
   },
   {
    "n": 9,
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -184,7 +184,7 @@
     "key": "av",
     "name": "Arabic Voice Editor",
     "role": "Makes it sound native",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "tp",
