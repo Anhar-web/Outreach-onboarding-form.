@@ -1,0 +1,59 @@
+{
+ "post": "p10",
+ "slides": [
+  {
+   "file": "slide-1.html",
+   "src": 0,
+   "part": 0,
+   "lines": 5
+  },
+  {
+   "file": "slide-2.html",
+   "src": 1,
+   "part": 0,
+   "lines": 6
+  },
+  {
+   "file": "slide-3.html",
+   "src": 2,
+   "part": 0,
+   "lines": 2
+  },
+  {
+   "file": "slide-4.html",
+   "src": 3,
+   "part": 0,
+   "lines": 8
+  },
+  {
+   "file": "slide-5.html",
+   "src": 4,
+   "part": 0,
+   "lines": 6
+  },
+  {
+   "file": "slide-6.html",
+   "src": 5,
+   "part": 0,
+   "lines": 4
+  },
+  {
+   "file": "slide-7.html",
+   "src": 6,
+   "part": 0,
+   "lines": 5
+  },
+  {
+   "file": "slide-8.html",
+   "src": 7,
+   "part": 0,
+   "lines": 8
+  }
+ ],
+ "fail": [],
+ "warn": [
+  "slide-4.html: 8 text lines (max 5 + tab)",
+  "slide-8.html: 8 text lines (max 5 + tab)"
+ ],
+ "verbatim": "PASS"
+}

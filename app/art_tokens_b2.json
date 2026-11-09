@@ -1,0 +1,347 @@
+{
+ "canvas": {
+  "w": 1080,
+  "h": 1350,
+  "ratio": "4:5",
+  "dir": "rtl",
+  "lang": "ar"
+ },
+ "colors": {
+  "brand": {
+   "deep": "#005A70",
+   "teal": "#00A9A5",
+   "pearl": "#F6F3EB",
+   "gold": "#C9935A"
+  },
+  "derived": {
+   "night": "#003F4F",
+   "ink": "#0E2F38",
+   "tealMist": "#DCEEEC",
+   "sandLight": "#EBD6BC",
+   "goldDeep": "#8A5A2B",
+   "tealDeep": "#007A77"
+  },
+  "grounds": {
+   "light": [
+    "pearl",
+    "tealMist",
+    "sandLight"
+   ],
+   "dark": [
+    "deep",
+    "night"
+   ],
+   "endSlideOnly": [
+    "gold"
+   ],
+   "neverGround": [
+    "teal"
+   ]
+  },
+  "textOn": {
+   "pearl": "ink|deep",
+   "tealMist": "ink",
+   "sandLight": "ink",
+   "gold": "ink",
+   "deep": "pearl",
+   "night": "pearl"
+  },
+  "contrast": {
+   "ink/pearl": 12.78,
+   "ink/tealMist": 11.79,
+   "ink/sandLight": 10.04,
+   "ink/gold": 5.26,
+   "deep/pearl": 7.02,
+   "pearl/night": 10.38,
+   "gold/night": 4.28,
+   "banned": {
+    "gold/deep": 2.89,
+    "pearl/teal": 2.62,
+    "white/teal": 2.91,
+    "teal/pearl": 2.62
+   }
+  }
+ },
+ "fonts": {
+  "heading": "El Messiri",
+  "body": "Tajawal",
+  "googleFonts": "https://fonts.googleapis.com/css2?family=El+Messiri:wght@600;700&family=Tajawal:wght@500;700&display=swap",
+  "maxHeadingWeight": 700,
+  "letterSpacing": 0
+ },
+ "type": {
+  "hook": {
+   "font": "El Messiri",
+   "weight": 700,
+   "size": 96,
+   "range": [
+    88,
+    110
+   ],
+   "lh": 1.35,
+   "maxLines": 4
+  },
+  "hookClause": {
+   "font": "Tajawal",
+   "weight": 500,
+   "size": 54,
+   "lh": 1.5
+  },
+  "typeFirstHook": {
+   "font": "El Messiri",
+   "weight": 700,
+   "size": 120,
+   "lh": 1.3
+  },
+  "stepLabel": {
+   "font": "El Messiri",
+   "weight": 600,
+   "size": 44,
+   "lh": 1.2
+  },
+  "bodyLead": {
+   "font": "Tajawal",
+   "weight": 700,
+   "size": 60,
+   "lh": 1.45
+  },
+  "bodySupport": {
+   "font": "Tajawal",
+   "weight": 500,
+   "size": 50,
+   "lh": 1.5
+  },
+  "quietEnd": {
+   "font": "El Messiri",
+   "weight": 600,
+   "size": 72,
+   "lh": 1.4
+  },
+  "tag": {
+   "font": "Tajawal",
+   "weight": 700,
+   "size": 46,
+   "lh": 1.3
+  },
+  "minSize": 44,
+  "maxLinesPerSlide": 5,
+  "charsPerLine": {
+   "96": 20,
+   "60": 32,
+   "50": 36
+  }
+ },
+ "spacing": {
+  "marginX": 96,
+  "marginTop": 120,
+  "marginBottom": 150,
+  "textBox": [
+   888,
+   1080
+  ],
+  "gridCropSafeX": 60
+ },
+ "paper": {
+  "grain": {
+   "mottle": {
+    "type": "fractalNoise",
+    "baseFrequency": 0.035,
+    "numOctaves": 3,
+    "seed": 7,
+    "opacity": 0.05
+   },
+   "fibre": {
+    "type": "fractalNoise",
+    "baseFrequency": 0.9,
+    "numOctaves": 4,
+    "seed": 3,
+    "opacity": 0.07,
+    "blend": "multiply"
+   },
+   "groundOpacity": 0.04
+  },
+  "tornEdge": {
+   "method": "jagged polygon",
+   "amplitudePx": [
+    6,
+    12
+   ],
+   "stepPx": [
+    10,
+    18
+   ],
+   "core": {
+    "color": "pearl",
+    "offsetPx": 3,
+    "opacity": 0.7
+   },
+   "useFor": [
+    "notes",
+    "strips",
+    "tabs",
+    "tags"
+   ]
+  },
+  "cutEdge": {
+   "method": "feDisplacementMap over feTurbulence 0.05",
+   "scale": 3,
+   "useFor": [
+    "objects"
+   ]
+  },
+  "light": "top-right",
+  "shadow": {
+   "light": {
+    "contact": "-1px 2px 2px rgba(14,47,56,.28)",
+    "cast": "-6px 10px 18px rgba(14,47,56,.18)"
+   },
+   "dark": {
+    "contact": "-1px 2px 2px rgba(0,20,26,.45)",
+    "cast": "-6px 10px 18px rgba(0,20,26,.35)"
+   },
+   "perLayerCastOffsetAddPx": 4,
+   "edgeHighlight": "1px rgba(255,255,255,.18) top-right"
+  },
+  "shapesPerSlide": [
+   6,
+   12
+  ]
+ },
+ "components": {
+  "stepTab": {
+   "fill": "gold",
+   "text": "ink",
+   "height": 72,
+   "padX": 40,
+   "rotateDeg": -2,
+   "position": "top-right inset 96",
+   "edge": "torn",
+   "label": "verbatim slide text up to and incl. colon"
+  },
+  "progressDots": {
+   "size": 14,
+   "gap": 12,
+   "activeSize": 20,
+   "activeColor": "gold",
+   "inactive": "text colour @40%",
+   "bottom": 72,
+   "direction": "rtl",
+   "showOnSlide1": false,
+   "slideNumbers": false
+  },
+  "conversionEnd": {
+   "ground": "gold",
+   "text": "ink",
+   "motifScale": 0.25,
+   "motifPos": "bottom-left",
+   "tag": {
+    "fill": "pearl",
+    "edge": "torn",
+    "rotateDeg": -3,
+    "hole": 22,
+    "string": "deep"
+   },
+   "tagText": {
+    "p1": "الرابط في البايو.",
+    "p2": "الرابط في البايو.",
+    "p3": "الرابط في البايو.",
+    "p4": "الرابط في البايو.",
+    "p5": "الرابط في البايو.",
+    "p6": "الرابط في البايو.",
+    "p7": "الرابط في البايو.",
+    "p8": "الرابط في البايو.",
+    "p9": "الرابط في البايو.",
+    "p10": "الرابط في البايو.",
+    "p11": "الرابط في البايو.",
+    "p12": "الرابط في البايو."
+   }
+  },
+  "attentionEnd": {
+   "ground": "post ground",
+   "text": "quietEnd centred",
+   "accent": "one small motif"
+  }
+ },
+ "postingOrder": [
+  "p5",
+  "p7",
+  "p2",
+  "p10",
+  "p3",
+  "p6",
+  "p4",
+  "p9",
+  "p1",
+  "p8"
+ ],
+ "posts": {},
+ "fitFlags": {
+  "red": {},
+  "amber": {
+   "p1.s2": 125,
+   "p1.s3": 171,
+   "p1.s4": 136,
+   "p1.s5": 99,
+   "p1.s6": 112,
+   "p1.s7": 148,
+   "p1.s8": 167,
+   "p2.s2": 152,
+   "p2.s3": 112,
+   "p2.s5": 149,
+   "p2.s7": 181,
+   "p3.s2": 121,
+   "p3.s3": 117,
+   "p3.s4": 120,
+   "p3.s5": 192,
+   "p3.s6": 122,
+   "p3.s8": 181,
+   "p4.s3": 102,
+   "p4.s7": 113,
+   "p4.s8": 149,
+   "p5.s2": 127,
+   "p5.s4": 115,
+   "p5.s6": 119,
+   "p5.s7": 144,
+   "p5.s8": 181,
+   "p6.s3": 109,
+   "p6.s4": 159,
+   "p6.s5": 117,
+   "p6.s6": 107,
+   "p6.s7": 149,
+   "p7.s2": 116,
+   "p7.s5": 101,
+   "p7.s6": 144,
+   "p7.s7": 172,
+   "p8.s2": 122,
+   "p8.s6": 117,
+   "p8.s8": 126,
+   "p9.s5": 107,
+   "p9.s7": 120,
+   "p9.s8": 163,
+   "p10.s2": 120,
+   "p10.s4": 118,
+   "p10.s5": 134,
+   "p10.s8": 171,
+   "p11.s2": 122,
+   "p11.s3": 124,
+   "p11.s4": 118,
+   "p11.s5": 102,
+   "p11.s6": 110,
+   "p11.s7": 118,
+   "p11.s8": 181,
+   "p12.s2": 100,
+   "p12.s5": 105,
+   "p12.s7": 99,
+   "p12.s8": 168
+  },
+  "splitHooks": [],
+  "noLineBreaks": []
+ },
+ "anharOverrides": {
+  "primary": "Blue (Deep Sea #005A70 / night) is the dominant colour of the batch. Pearl must NOT dominate: only p8 uses a pearl ground (with big deep-blue type).",
+  "variety": "Recognisable, not identical. If posts look the same, it's apathy.",
+  "longSlides": "Split red-flag slides into two at an existing line break or full stop (same words, verbatim). Red list: p7 s6, p9 s1, p3 s7, p2 s7, p7 s4. Amber slides stay single, set at bodySupport size.",
+  "noRealism": "No photos or realistic objects; stylised cut paper only.",
+  "noLineEndComma": "No line on a slide may end with a comma. Where a line breaks at a comma, the comma is hidden (kept in the DOM for the verbatim check). render.js FAILs any visible line ending in a comma."
+ }
+}

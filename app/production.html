@@ -1,0 +1,152 @@
+<title>Home Orbit Production Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=El+Messiri:wght@600;700&display=swap">
+<style>
+/* Layout: one calm centred column, an agency's internal run sheet. Stepper on top, the selected step as the hero card, then team, scorecard, concepts, posts, performance. */
+:root{
+  --bg:#f7f5ef; --surface:#ffffff; --ink:#122a31; --muted:#5d6d71; --line:#dfe3e0;
+  --accent:#005A70; --accent-soft:#e1eef0; --gold:#C9935A; --gold-soft:#f4e6d4;
+  --idle:#a3adad; --working:#d79a0b; --needs:#005A70; --done:#1d9a53; --idea:#0f2f39; --idea-ink:#eef3f2;
+  --display:Georgia,"Times New Roman",serif; --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; --ar:"Tajawal","El Messiri",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10191b; --surface:#172326; --ink:#e8eeec; --muted:#9db0b1; --line:#2a3a3d;
+  --accent:#5cc7c3; --accent-soft:#16383d; --gold:#d9a873; --gold-soft:#3a2e20;
+  --idle:#5d6a6b; --working:#e0aa2a; --needs:#5cc7c3; --done:#3cbf72; --idea:#0b2329; --idea-ink:#e8eeec; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10191b; --surface:#172326; --ink:#e8eeec; --muted:#9db0b1; --line:#2a3a3d;
+  --accent:#5cc7c3; --accent-soft:#16383d; --gold:#d9a873; --gold-soft:#3a2e20;
+  --idle:#5d6a6b; --working:#e0aa2a; --needs:#5cc7c3; --done:#3cbf72; --idea:#0b2329; --idea-ink:#e8eeec; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);margin:0}
+.wrap{max-width:900px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{width:44px;height:44px;border-radius:10px;background:var(--accent);color:var(--bg);display:grid;place-items:center;font:700 15px var(--ar)}
+.hgroup{flex:1;min-width:0}
+.hgroup .k{font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hgroup h1{margin:0;font:600 20px var(--display)}
+.chip{font:11px var(--mono);color:var(--muted);border:1px solid var(--line);padding:4px 8px;border-radius:99px}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tbtn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px}
+.stepper{display:grid;grid-template-columns:repeat(7,1fr);position:relative;overflow-x:auto}
+.stepper:before{content:"";position:absolute;top:15px;left:5%;right:5%;height:2px;background:var(--line)}
+.st{background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative;min-width:60px}
+.dot{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font:600 13px var(--mono);background:var(--surface);border:2px solid var(--idle);color:var(--muted)}
+.st[data-s="working"] .dot{border-color:var(--working);background:var(--working);color:#fff}
+.st[data-s="needs-you"] .dot{border-color:var(--needs);background:var(--needs);color:var(--bg)}
+.st[data-s="done"] .dot{border-color:var(--done);background:var(--done);color:#fff}
+.st.cur .dot{box-shadow:0 0 0 4px var(--accent-soft)}
+.st.sel .lbl{color:var(--ink);font-weight:600}
+.lbl{font-size:11px;color:var(--muted);text-align:center;line-height:1.2}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.eyebrow{display:flex;gap:10px;align-items:center;font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pill{font:600 11px var(--mono);padding:3px 8px;border-radius:99px;text-transform:uppercase;letter-spacing:.05em}
+.pill[data-s="idle"]{background:var(--line);color:var(--muted)}
+.pill[data-s="working"]{background:var(--working);color:#fff}
+.pill[data-s="needs-you"]{background:var(--needs);color:var(--bg)}
+.pill[data-s="done"]{background:var(--done);color:#fff}
+.card h2{margin:0;font:600 30px/1.15 var(--display);text-wrap:balance}
+.sub{margin:0;font-style:italic;color:var(--muted)}
+details.idea{background:var(--idea);color:var(--idea-ink);border-radius:10px;padding:12px 14px}
+details.idea summary{cursor:pointer;font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+details.idea b{display:block;font:600 17px var(--display);margin-top:8px}
+.action{border:1.5px solid var(--accent);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.action .row{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.action .k{font:600 11px var(--mono);letter-spacing:.08em;color:var(--accent)}
+.send{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 14px;font-weight:600;align-self:flex-start}
+.hint{font-size:12px;color:var(--muted)}
+.md{min-width:0}
+.md h3{font:600 19px var(--display);margin:18px 0 6px}.md h4{margin:14px 0 4px}
+.md p{margin:8px 0}.md ul,.md ol{margin:6px 0;padding-left:22px}.md li{margin:3px 0}
+.md code{font:12.5px var(--mono);background:var(--accent-soft);padding:1px 5px;border-radius:4px}
+.md blockquote{margin:8px 0;padding:6px 12px;border-left:3px solid var(--gold);background:var(--gold-soft);border-radius:0 6px 6px 0}
+.tw{overflow-x:auto}.md table,table.perf{border-collapse:collapse;width:100%;font-size:13px}
+.md th,.md td,table.perf th,table.perf td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.md th,table.perf th{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+table.perf td{font-variant-numeric:tabular-nums}
+.ar{direction:rtl;text-align:right;font-family:var(--ar);font-size:17px;line-height:1.75}
+section h3.sec{font:600 22px var(--display);margin:0 0 12px}
+.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.mem{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
+.av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:600 12px var(--mono);flex:none;background:var(--idle);color:#fff}
+.av[data-s="working"]{background:var(--working)}.av[data-s="needs-you"]{background:var(--needs);color:var(--bg)}.av[data-s="done"]{background:var(--done)}
+.mem b{display:block;font-size:13.5px}.mem span{font-size:12px;color:var(--muted)}
+.sc{display:grid;grid-template-columns:minmax(120px,190px) 1fr 44px;gap:10px;align-items:center;font-size:13.5px;padding:4px 0}
+.bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.sc .v{text-align:right;font:12px var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.cc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cc.picked{border:2px solid var(--accent)}.cc.rejected{opacity:.45}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font:600 10.5px var(--mono);text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px;background:var(--line);color:var(--muted)}
+.tag.acc{background:var(--accent-soft);color:var(--accent)}.tag.gold{background:var(--gold-soft);color:var(--gold)}
+.hook{background:var(--accent-soft);border-radius:8px;padding:8px 10px}
+.gloss{font-style:italic;color:var(--muted);font-size:13px}
+.post{display:flex;flex-direction:column;gap:10px}
+.score{font:600 12px var(--mono);padding:3px 8px;border-radius:99px;background:var(--done);color:#fff}.score.low{background:var(--working)}
+.body{white-space:pre-wrap;background:var(--bg);border-radius:8px;padding:12px}
+.note{font-size:13px;color:var(--muted);white-space:pre-wrap}
+.callout{background:var(--accent-soft);border-radius:10px;padding:12px 14px;font-size:13.5px}
+.empty{color:var(--muted);font-style:italic}
+.thumbs{display:grid;gap:8px}.thumbs img{width:100%;border-radius:8px;display:block;border:1px solid var(--line)}
+@media (max-width:560px){.stepper{grid-template-columns:repeat(7,64px)}.card h2{font-size:24px}.sc{grid-template-columns:110px 1fr 40px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap" id="app"><p class="empty">Waiting for the agency to start…</p></div>
+<script>
+let S=null, sel=null, last="";
+const $=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const isAr=s=>/[؀-ۿ]/.test(s||"");
+function inl(s){return esc(s).replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/(^|[^*])\*([^*]+)\*/g,"$1<i>$2</i>")}
+function arwrap(s){return s.replace(/([«"][^»"]*[؀-ۿ][^»"]*[»"])/g,'<span dir="rtl">$1</span>')}
+function md(src){
+  const L=(src||"").split("\n");let o="",i=0;
+  while(i<L.length){let l=L[i];
+    if(/^\s*$/.test(l)){i++;continue}
+    let m;
+    if(m=l.match(/^(#{1,4})\s+(.*)/)){const n=Math.min(4,m[1].length+2);o+=`<h${n}>${arwrap(inl(m[2]))}</h${n}>`;i++;continue}
+    if(/^\|/.test(l)){const rows=[];while(i<L.length&&/^\|/.test(L[i]))rows.push(L[i++]);
+      const cells=r=>r.replace(/^\||\|$/g,"").split("|").map(c=>c.trim());
+      let h=cells(rows[0]),body=rows.slice(rows[1]&&/^\|[\s:-|]+\|?$/.test(rows[1])?2:1);
+      o+=`<div class="tw"><table><thead><tr>${h.map(c=>`<th>${inl(c)}</th>`).join("")}</tr></thead><tbody>${body.map(r=>`<tr>${cells(r).map(c=>`<td${isAr(c)&&!/[a-z]{4}/i.test(c)?' class="ar"':''}>${arwrap(inl(c))}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;continue}
+    if(/^>\s?/.test(l)){let b=[];while(i<L.length&&/^>\s?/.test(L[i]))b.push(L[i++].replace(/^>\s?/,""));const t=b.join(" ");o+=`<blockquote${isAr(t)&&!/[a-z]{4}/i.test(t)?' class="ar"':''}>${inl(t)}</blockquote>`;continue}
+    if(/^\s*[-*]\s+/.test(l)){o+="<ul>";while(i<L.length&&/^\s*[-*]\s+/.test(L[i]))o+=`<li>${arwrap(inl(L[i++].replace(/^\s*[-*]\s+/,"")))}</li>`;o+="</ul>";continue}
+    if(/^\s*\d+[.)]\s+/.test(l)){o+="<ol>";while(i<L.length&&/^\s*\d+[.)]\s+/.test(L[i]))o+=`<li>${arwrap(inl(L[i++].replace(/^\s*\d+[.)]\s+/,"")))}</li>`;o+="</ol>";continue}
+    let p=[];while(i<L.length&&!/^\s*$/.test(L[i])&&!/^(#|\||>|\s*[-*]\s|\s*\d+[.)]\s)/.test(L[i]))p.push(L[i++]);
+    const t=p.join(" ");o+=`<p${isAr(t)&&!/[a-z]{4}/i.test(t)?' class="ar"':''}>${arwrap(inl(t))}</p>`;
+  }return o}
+const flag={"idle":"Waiting","working":"Working","needs-you":"Needs you","done":"Confirmed"};
+function render(){
+  if(!S)return;const app=document.getElementById('app');
+  const cur=S.currentStep;if(sel==null)sel=cur;const st=S.steps.find(s=>s.n===sel)||S.steps[0];
+  const upd=S.updatedAt?new Date(S.updatedAt).toLocaleString([], {dateStyle:"medium",timeStyle:"short"}):"";
+  let h=`<header><div class="logo" dir="rtl">مدار</div><div class="hgroup"><div class="k">Creative Production</div><h1>${esc(S.project)}</h1></div><span class="chip">Updated ${esc(upd)}</span><button class="tbtn" id="tt">Theme</button></header>`;
+  h+=`<nav class="stepper" aria-label="Steps">${S.steps.map(s=>`<button class="st ${s.n===cur?"cur":""} ${s.n===sel?"sel":""}" data-s="${s.status}" data-n="${s.n}"><span class="dot">${s.status==="done"?"✓":s.n}</span><span class="lbl">${esc(s.title)}</span></button>`).join("")}</nav>`;
+  const a=st.action||{};
+  h+=`<article class="card"><div class="eyebrow">Stage ${st.n} of 7 <span class="pill" data-s="${st.status}">${flag[st.status]||st.status}</span></div><h2>${esc(st.title)}</h2><p class="sub">${esc(st.subtitle)}</p>
+  ${st.idea?`<details class="idea"><summary>The idea behind this step</summary><b>${esc(st.idea.title)}</b><p style="margin:4px 0 0">${esc(st.idea.body)}</p></details>`:""}
+  <div class="action"><div class="row"><span class="k">YOUR ACTION</span><span class="pill" data-s="${st.status}">${st.status==="needs-you"?"Needs you":st.status==="done"?"Confirmed":"Waiting"}</span></div><div>${esc(a.label)}</div>
+  ${a.phrase?`<button class="send" data-p="${esc(a.phrase)}">Send: "${esc(a.phrase)}"</button><div class="hint">Type this phrase in your chat to move the agency to the next step.</div>`:""}</div>
+  <div class="md">${st.report?md(st.report):'<p class="empty">No report yet.</p>'}</div></article>`;
+  h+=`<section><h3 class="sec">The agency</h3><div class="team">${S.plan.specialists.map(p=>`<div class="mem"><span class="av" data-s="${p.status}">${esc(p.name.split(" ").map(w=>w[0]).join("").slice(0,2))}</span><div><b>${esc(p.name)}</b><span>${esc(p.role)}</span></div></div>`).join("")}</div></section>`;
+  h+=`<section><h3 class="sec">The production scorecard <span class="chip">${S.scorecard.total} pts</span></h3>${S.scorecard.items.map(it=>`<div class="sc"><span>${esc(it.name)}</span><span class="bar"><i style="width:${it.score!=null?Math.round(100*it.score/it.weight):0}%"></i></span><span class="v">${it.score!=null?it.score+"/"+it.weight:it.weight}</span></div>`).join("")}</section>`;
+  if(S.concepts&&S.concepts.length)h+=`<section><h3 class="sec">The concepts</h3><div class="grid">${S.concepts.map(c=>`<div class="cc ${c.status}"><div class="tags"><span class="tag">${esc(c.id)}</span>${c.job?`<span class="tag acc">${esc(c.job)}</span>`:""}${c.status==="picked"?'<span class="tag acc">picked</span>':""}${c.format?`<span class="tag gold">${esc(c.format)}</span>`:""}</div><b>${esc(c.title)}</b><div class="note">${esc(c.angle)}</div><div class="hook ar" dir="rtl">${esc(c.hook_ar)}</div><div class="gloss">${esc(c.hook_gloss)}</div></div>`).join("")}</div></section>`;
+  if(S.posts&&S.posts.length)h+=`<section><h3 class="sec">The pieces</h3><div style="display:flex;flex-direction:column;gap:14px">${S.posts.map(p=>`<div class="card post"><div class="tags"><span class="tag">${esc(p.id)}</span><span class="tag gold">${esc(p.format)}</span><span class="tag">${esc(p.status)}</span>${p.score!=null?`<span class="score ${p.score<70?"low":""}">${p.score}</span>`:""}</div><b style="font:600 18px var(--display)">${esc(p.title)}</b><div class="body ar" dir="rtl">${esc(p.body_ar)}</div>${p.caption_ar?`<div class="ar" dir="rtl" style="font-size:15px"><b>Caption:</b> ${esc(p.caption_ar)}</div>`:""}${p.images&&p.images.length?`<div class="thumbs">${p.images.map(u=>`<a href="${esc(u)}" target="_blank"><img loading="lazy" src="${esc(u)}" alt="${esc(p.title)} slides"></a>`).join('')}</div>`:''}${p.notes?`<div class="note">${esc(p.notes)}</div>`:""}</div>`).join("")}</div></section>`;
+  const pr=(S.performance||[]).filter(r=>["views","likes","saves","comments","profileVisits","assessmentStarts"].some(k=>r[k]!=null));
+  const f=v=>v==null||v===""?"—":esc(v);
+  h+=`<section><h3 class="sec">Performance</h3><p class="hint">Partial numbers are fine.</p>${pr.length?`<div class="tw"><table class="perf"><thead><tr><th>Post</th><th>Job</th><th>Format</th><th>Views</th><th>Likes</th><th>Saves</th><th>Comments</th><th>Profile</th><th>Assess.</th></tr></thead><tbody>${pr.map(r=>`<tr><td>${esc(r.postId)}${r.note?`<div class="hint">${esc(r.note)}</div>`:""}</td><td>${f(r.job)}</td><td>${f(r.format)}</td><td>${f(r.views)}</td><td>${f(r.likes)}</td><td>${f(r.saves)}</td><td>${f(r.comments)}</td><td>${f(r.profileVisits)}</td><td>${f(r.assessmentStarts)}</td></tr>`).join("")}</tbody></table></div>`:""}<p class="callout">To feed the next batch, just tell the agency in chat — then say "what's working?" and the Analyst reads the numbers into the next brief. No spreadsheet.</p></section>`;
+  app.innerHTML=h;
+  app.querySelectorAll('.st').forEach(b=>b.onclick=()=>{sel=+b.dataset.n;render()});
+  const sb=app.querySelector('.send');if(sb)sb.onclick=()=>{const p=sb.dataset.p;try{navigator.clipboard.writeText(p).then(()=>{sb.textContent="Copied"},()=>{sb.textContent=p})}catch(e){sb.textContent=p}};
+  document.getElementById('tt').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?"light":"dark";try{localStorage.setItem('ho-theme',r.dataset.theme)}catch(e){}};
+}
+try{const t=localStorage.getItem('ho-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}
+async function load(){
+  try{ if(window.__STATE__){S=window.__STATE__;}else{const r=await fetch('production.json',{cache:'no-store'});if(!r.ok)return;const t=await r.text();if(t===last)return;last=t;const prev=S&&S.currentStep;S=JSON.parse(t);if(prev&&prev!==S.currentStep)sel=S.currentStep;}
+    render();}catch(e){}
+}
+load();setInterval(load,2000);
+</script>

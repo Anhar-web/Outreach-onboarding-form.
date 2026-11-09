@@ -1,0 +1,69 @@
+{
+ "post": "p10",
+ "slides": [
+  {
+   "file": "slide-1.html",
+   "src": 0,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-2.html",
+   "src": 1,
+   "part": 0,
+   "amber": true,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-3.html",
+   "src": 2,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-4.html",
+   "src": 3,
+   "part": 0,
+   "amber": true,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-5.html",
+   "src": 4,
+   "part": 0,
+   "amber": true,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-6.html",
+   "src": 5,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-7.html",
+   "src": 6,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-8.html",
+   "src": 7,
+   "part": 0,
+   "amber": true,
+   "red": false,
+   "ground": "gold"
+  }
+ ]
+}
