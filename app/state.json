@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T11:08:51.429401+00:00",
- "currentStep": 2,
+ "updatedAt": "2026-11-09T12:05:39.297231+00:00",
+ "currentStep": 3,
  "steps": [
   {
    "n": 1,
@@ -24,7 +24,7 @@
    "key": "scorecard",
    "title": "Scorecard",
    "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Define 'good' before anyone writes",
     "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
@@ -40,7 +40,7 @@
    "key": "research",
    "title": "Research",
    "subtitle": "Audience Researcher and Market Analyst work in parallel.",
-   "status": "idle",
+   "status": "working",
    "idea": {
     "title": "Her words, not ours",
     "body": "The best lines are the ones she has already said to her sister."
@@ -49,7 +49,7 @@
     "label": "Read both reports.",
     "phrase": "Both look good. Next step."
    },
-   "report": ""
+   "report": "*The Audience Researcher and Market Analyst are working in parallel…*"
   },
   {
    "n": 4,
@@ -154,19 +154,19 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
     "name": "Audience Researcher",
     "role": "What mothers actually say",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "ma",
     "name": "Market Analyst",
     "role": "What the market has heard",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "hk",
