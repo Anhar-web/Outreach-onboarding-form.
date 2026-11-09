@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T12:10:47.317934+00:00",
- "currentStep": 3,
+ "updatedAt": "2026-11-09T12:13:34.729194+00:00",
+ "currentStep": 4,
  "steps": [
   {
    "n": 1,
@@ -17,7 +17,7 @@
     "label": "Answer the five questions in chat, then confirm.",
     "phrase": "Looks right. Next step."
    },
-   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?\n\n### Confirmed (Nov 9)\nAnhar confirmed the brief. The proposed defaults stand: **10 posts**, TikTok, static carousels unless step 6 chooses video for a concept. Still open, but not blocking the writing: whether the bio link is tagged `?src=tiktok`, whether someone is tracking assessment starts, and whether the Nov 8 waitlist record was a test."
+   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?\n\n### Confirmed (Nov 9)\nAnhar confirmed the brief. The proposed defaults stand: **10 posts**, TikTok, static carousels unless step 6 chooses video for a concept. Still open, but not blocking the writing: whether the bio link is tagged `?src=tiktok`, whether someone is tracking assessment starts, and whether the Nov 8 waitlist record was a test.\n\n**Update (Nov 9):** Anhar set the batch to **12 posts**."
   },
   {
    "n": 2,
@@ -40,7 +40,7 @@
    "key": "research",
    "title": "Research",
    "subtitle": "Audience Researcher and Market Analyst work in parallel.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Her words, not ours",
     "body": "The best lines are the ones she has already said to her sister."
@@ -56,7 +56,7 @@
    "key": "hooks",
    "title": "Angles & hooks",
    "subtitle": "The Hook Specialist builds angles and scored hooks.",
-   "status": "idle",
+   "status": "working",
    "idea": {
     "title": "The hook carries most of the result",
     "body": "Frame one decides whether the rest exists for her."
@@ -65,7 +65,7 @@
     "label": "Pick, cut or rewrite hooks.",
     "phrase": "These are good. Build concepts."
    },
-   "report": ""
+   "report": "*The Hook Specialist is building angles and hooks…*"
   },
   {
    "n": 5,
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -172,7 +172,7 @@
     "key": "hk",
     "name": "Hook Specialist",
     "role": "Angles and hooks",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "cw",
