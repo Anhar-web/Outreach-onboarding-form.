@@ -1,14 +1,14 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T10:26:49.666497Z",
- "currentStep": 1,
+ "updatedAt": "2026-11-09T11:08:51.429401+00:00",
+ "currentStep": 2,
  "steps": [
   {
    "n": 1,
    "key": "brief",
    "title": "Brief",
    "subtitle": "The Strategist turns your answers into the brief every specialist works from.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Decide the job before the post",
     "body": "Most content fails because nobody decided what it was for."
@@ -17,14 +17,14 @@
     "label": "Answer the five questions in chat, then confirm.",
     "phrase": "Looks right. Next step."
    },
-   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?"
+   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?\n\n### Confirmed (Nov 9)\nAnhar confirmed the brief. The proposed defaults stand: **10 posts**, TikTok, static carousels unless step 6 chooses video for a concept. Still open, but not blocking the writing: whether the bio link is tagged `?src=tiktok`, whether someone is tracking assessment starts, and whether the Nov 8 waitlist record was a test."
   },
   {
    "n": 2,
    "key": "scorecard",
    "title": "Scorecard",
    "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
-   "status": "idle",
+   "status": "needs-you",
    "idea": {
     "title": "Define 'good' before anyone writes",
     "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
@@ -33,7 +33,7 @@
     "label": "Approve the weights and the plan.",
     "phrase": "Go."
    },
-   "report": ""
+   "report": "### Batch 2 scorecard (reweighted, still 100)\n\nBatch 1 taught us three things. Reach came from the hook shape. Saves came from real, usable steps. Business died because nobody saw a CTA. The weights move to match that.\n\n| Item | B1 | B2 | Why it moved |\n|---|---|---|---|\n| Scroll-stop (winning hook shape) | 18 | **16** | Still the biggest item. It is now judged against the proven shape: her moment plus a true, ironic twist about her. |\n| Recognition | 15 | **12** | Folded partly into the hook shape. |\n| Emotion, not apathy | 15 | **12** | Still a fail line: if nothing is felt, it fails. |\n| Her own words | 12 | **10** | |\n| **Usable value («رؤوس أقلام»)** | new | **12** | Replaces \"One job\". Could she do something different tonight? Is it generic? Is it realistic in her home? Bedtime's 36 saves came from this. |\n| Trust & safety (gate) | 10 | **10** | A violation still caps the post. |\n| Arabic naturalness | 8 | **8** | |\n| The turn / perspective shift | 6 | **8** | Hook Point driver 1: a surprising but true take beats a predictable one. |\n| **CTA: seen and earned** | 4 | **10** | There's an early soft CTA, a final CTA in the Connect → Purpose → Direct shape, and a pinned comment. It must read as the next step, not a lead grab. |\n| Save / share-worthy | 2 | **2** | |\n\n**Why \"One job\" was dropped:** every Batch 2 post has the same job (value, then the assessment), so it no longer tells posts apart. It becomes a pass/fail check.\n\n### Pass/fail checks (the Test Panel ticks these on every post)\n- Slide 2 escalates the problem with a scene or her inner voice. It does not start the list.\n- Around 7 slides. Big type, few words.\n- A soft CTA by slide 3 (or right after the first tip), and a final CTA. No repeated CTA slide.\n- A format label (F1–F6) is recorded. Formats vary across the 10.\n- Proof, where used, is the method. No testimonials, no client case.\n- Steps are labelled in full («الخطوة الأولى:»). No em dash. تبدئي / ابدئي.\n- Hand her the value; don't order her. No homework, no quiz.\n\n### Agency plan\n| Step | Who | What |\n|---|---|---|\n| 3 | **Audience Researcher + Market Analyst, in parallel** | Her words on bedtime, chores/noise and new candidate moments; the market stage and the open lane. They get the Batch 1 results as input. |\n| 4 | Hook Specialist (Hook Point mechanics) | 3 angles × 4–6 hooks, all in the winning shape, scored on the 4 performance drivers. |\n| 5 | Strategist | About 14 concepts so you can pick 10: 4 sequels and the rest new. Each gets a suggested format label. |\n| 6 | **You** | Static or video, plus the format label, for each concept. |\n| 7 | Copywriter | Reads your Arabic file and the addendum first, then writes all 10 with captions and pinned comments. |\n| 8 | Arabic Voice Editor, then Test Panel | Native edit (Original → Corrected → Why), then 3 sceptical mothers and this scorecard. |\n| 9 | Strategist | Handoff, Airtable rows, posting order (one a day). |\n"
   },
   {
    "n": 3,
@@ -204,32 +204,32 @@
   "total": 100,
   "items": [
    {
-    "name": "Scroll-stop",
-    "weight": 18,
+    "name": "Scroll-stop (winning hook shape)",
+    "weight": 16,
     "score": null
    },
    {
     "name": "Recognition",
-    "weight": 15,
-    "score": null
-   },
-   {
-    "name": "Emotion, not apathy",
-    "weight": 15,
-    "score": null
-   },
-   {
-    "name": "Her own words",
     "weight": 12,
     "score": null
    },
    {
-    "name": "One job",
+    "name": "Emotion, not apathy",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "Her own words",
     "weight": 10,
     "score": null
    },
    {
-    "name": "Trust & safety",
+    "name": "Usable value («رؤوس أقلام»)",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "Trust & safety (gate)",
     "weight": 10,
     "score": null
    },
@@ -239,17 +239,17 @@
     "score": null
    },
    {
-    "name": "The turn",
-    "weight": 6,
+    "name": "The turn / perspective shift",
+    "weight": 8,
     "score": null
    },
    {
-    "name": "Next step",
-    "weight": 4,
+    "name": "CTA: seen and earned",
+    "weight": 10,
     "score": null
    },
    {
-    "name": "Shareable",
+    "name": "Save / share-worthy",
     "weight": 2,
     "score": null
    }
