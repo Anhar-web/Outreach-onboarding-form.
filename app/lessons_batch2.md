@@ -29,3 +29,4 @@
 | Ours | Anhar's | Rule |
 |---|---|---|
 | p1 s3 «وأنتي بالكاد فاتحة عيونك» | «وأنتي بالقوة فاتحة عيونك» | بالكاد is written/MSA. Her spoken word is **بالقوة** ("barely"). |
+| p1 s3 «ولما ينفع مرة، طبيعي يرجع الليلة الجاية» | «…راح يرجع الليلة الجاية» | Use طبيعي only to normalise a reaction. A consequence is stated plainly with راح. Don't overuse طبيعي. |
