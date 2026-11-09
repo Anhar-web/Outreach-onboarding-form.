@@ -166,14 +166,14 @@
   "slides": [
    "ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟",
    "كل شي عندك صار \"بسويه لما ينام\".\nولما ينام، تلقي كل شي ينتظرك، وتحتاري تخلصيه ولا ترتاحي.",
-   "ما تحتاجي ترجعي كل شي لوقت صحيانه.\nوحدة بس تكفي تبدئي فيها، وهذي ثلاث أشياء تساعدك تختاريها.\n[soft CTA] وإذا ودك تعرفي أي وحدة تبدئي فيها مع يومه هو، التقييم المجاني في البايو.",
-   "أول شي: أقصر وحدة في القائمة.\nمو الكنس كله، كنس الصالة بس. مو الغدا كله، الرز بس.",
-   "ثاني شي: نفس الوقت كل يوم، زي بعد الغدا على طول.\nكذا يعرف إن هذا وقتها، وما تجيه فجأة.",
-   "ثالث شي: دور صغير له فيها.\nهو اللي يضغط زر المكنسة ويطفيها، أو يجيب لك الأغراض من الثلاجة.\nكذا يكون جزء منها، مو بس يسمعها.",
-   "فكري في القائمة اللي صارت كلها \"بعد ما ينام\"، وأي وحدة فيها أثقل عليكي.\nهذي هي اللي تستاهل تبدأ منها خطة تناسبه وتناسب يومك.\nالتقييم المجاني يساعدك تختاري أول وحدة تشتغلي عليها. الرابط في البايو."
+   "قبل ما تدوري حل، لاحظي ايش يصير معاه أول ما تبدئي شغل البيت.\nهذي ثلاث أشياء ممكن تلاحظيها، وكل وحدة لها خطوة.",
+   "أول شي: يغطي أذنه أو يطلع من الغرفة أول ما تشغلي المكنسة.\nقولي له قبل ما تبدئي \"بكنس غرفتين بس\"، وكل ما خلصتي غرفة قولي \"خلصت وحدة\".\nعشان يعرف إن الصوت له آخر.\n[soft CTA] التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.",
+   "ثاني شي: يتعلق فيكي ويسحبك من يدك.\nخليه معاكي في نفس الشغلة. يمسك الكيس وأنتي تكنسي، أو يناولك الملابس وأنتي تنشريها.",
+   "ثالث شي: يبغى ياخذ المكنسة منك ويسويها هو.\nاعطيه فوطة يمسح فيها الطاوله جمبك، هو له شغلته وأنتي لك شغلتك.",
+   "فكري ايش اللي يصير معاه أكثر وأنتي تشتغلي في البيت.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو."
   ],
-  "caption_ar": "صارت قائمتك كلها \"بعد ما ينام\"؟ فكري أي وحدة أثقل عليكي، والتقييم المجاني في البايو يساعدك تحددي من فين تبدئي.\nفي الصور ثلاث أشياء تساعدك ترجعي وحدة منها للنهار.",
-  "pinned_comment_ar": "الجزء الثاني: خلي بعد الشغلة اللي رجعتيها للنهار شي يحبه على طول، زي ينزل يلعب برا أو يشرب عصيره. كذا يصير وقتها شي يعرف إن بعده شي حلو.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع يومه كامل.",
+  "caption_ar": "ما تقدري تكنسي وهو صاحي؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\nفي الصور ثلاث أشياء تلاحظيها عليه، وخطوة لكل وحدة.",
+  "pinned_comment_ar": "الجزء الثاني: لو طلع من الغرفة أول ما شغلتي المكنسة، لا تطفيها وتلحقيه. خليه يرجع لما يبغى، وكملي الغرفة اللي قلتي له عليها.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.",
   "backtranslation": [
    "s1: You can't vacuum while he's awake, and you don't cook until after he sleeps?",
    "s2: Everything you have has become \"I'll do it when he sleeps\". And when he sleeps, you find everything waiting for you, and you're torn between finishing it or resting.",
@@ -185,6 +185,6 @@
    "caption: Your whole list has become \"after he sleeps\"? Think which one weighs on you most, and the free assessment in the bio helps you decide where to start. In the slides, three things that help you bring one of them back to the daytime.",
    "pinned: Part two: right after the chore you brought back to the daytime, put something he likes, like going out to play or drinking his juice. That way its time becomes something he knows has something nice after it. And the free assessment in the bio helps you know where to start with his whole day."
   ],
-  "notes": "F6: s2 is her inner voice («بسويه لما ينام») as the peak; s3 is the surprising take (you only need to win back ONE) with the soft CTA; then the 3-part check revealed one per slide (shortest, same time daily, a part for him) so she runs her own list; the turn is merged into the Reflection CTA on s7 (7 slides). The 'he presses the button' idea also appears in c7 (hair dryer); flag to avoid it showing twice in the batch close together. Word question: «ودك» (you'd like) natural for her? «الصالة» for the living room OK?"
+  "notes": "Rewritten from slide 3 on (Anhar: keep it about the child, not home tips). F6 checklist now = what she notices in HIM when she starts a chore (the sound / he wants you / he wants to do it himself), one move each. F6: s2 is her inner voice («بسويه لما ينام») as the peak; s3 is the surprising take (you only need to win back ONE) with the soft CTA; then the 3-part check revealed one per slide (shortest, same time daily, a part for him) so she runs her own list; the turn is merged into the Reflection CTA on s7 (7 slides). The 'he presses the button' idea also appears in c7 (hair dryer); flag to avoid it showing twice in the batch close together. Word question: «ودك» (you'd like) natural for her? «الصالة» for the living room OK?"
  }
 ]
