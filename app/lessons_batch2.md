@@ -24,3 +24,8 @@
 5. **There must be a real problem at stake.** If it can wait, it's a statement, not a hook.
 6. **End on the problem she has now** (ما يرضى ينام لحاله), not on clever irony.
 7. **Spellings to keep as written:** تنوميه، اثنين، ثمانيه، عشره، الاستشوار، صالون الاطفال، قُمتي، جنبك / جمبه (both).
+
+## Step 7 drafts (Nov 9, comments)
+| Ours | Anhar's | Rule |
+|---|---|---|
+| p1 s3 «وأنتي بالكاد فاتحة عيونك» | «وأنتي بالقوة فاتحة عيونك» | بالكاد is written/MSA. Her spoken word is **بالقوة** ("barely"). |
