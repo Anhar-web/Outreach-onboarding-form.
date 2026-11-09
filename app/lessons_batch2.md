@@ -60,3 +60,4 @@
 | p7 after first rewrite (comb step, "point it away from him") | Misaligned: steps read like she's doing *his* hair | **Every slide must stay inside the hook's scene.** Say plainly whose action it is («على شعرك»، «بنشف شعري»). Slide 2 must show the actual problem (the noise → he covers his ears and screams), not a side detail. |
 | p7 s5 «…وخليه هو يضغط الزر» | «…وتقدري تخليه هو يضغط الزر» | Offer optional extras as a choice (**تقدري**), not an order. Hand her the value; don't command. |
 | p8 s2 «وتطلي على الصالة تشوفيه فين» | «وتروحي الصالة تشوفي فينه» | Her words: **تروحي** (not تطلي على), **فينه** ("where is he"). Answers الصالة: yes. |
+| p8 s4 (and s8) «الصوت اللي يبعد عنه» | «الصوت اللي يخاف منه» | Name the plain feeling (**يخاف منه**), not a detached behaviour description. |
