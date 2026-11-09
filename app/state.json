@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T16:09:14.639605+00:00",
- "currentStep": 8,
+ "updatedAt": "2026-11-09T16:29:02.031237+00:00",
+ "currentStep": 9,
  "steps": [
   {
    "n": 1,
@@ -120,7 +120,7 @@
    "key": "test",
    "title": "Arabic + Test",
    "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Born in Arabic, tested cold",
     "body": "A line that sounds translated loses, whatever its score."
@@ -129,14 +129,14 @@
     "label": "Choose what ships.",
     "phrase": "Ship the winners."
    },
-   "report": "### Arabic Voice Editor\nLight pass on the unlocked slides, captions and pinned comments only. A script confirmed every slide Anhar wrote or edited is byte-identical. Main fixes:\n- Soft CTAs in captions and pinned comments are now one benefit line.\n- p3 s3 dropped the banned \"ما تبدأ… تبدأ من\" line.\n- Captions realigned to the rewritten slides (p5, p7, p12).\n- p12 pinned comment is now about the phone, not attention.\n- طبيعي→ممكن and كذا→عشان where the line states a purpose.\n- p6 «يمسك الكيس» → «يحط الملابس في الغسالة» (plastic-bag risk).\n- p5 pinned: carrot → cucumber (choking risk).\n\n### Test Panel: ranked\n| Post | Concept | Score |\n|---|---|---|\n| p10 | Hair wash: you come out wetter | 92 |\n| p2 | Sneaking out: he opens his eyes | 90 |\n| p5 | Cooking: he hangs on you | 90 |\n| p9 | Shower: knocking and crying | 88 |\n| p4 | \"Just today\" became every night | 87 |\n| p6 | Only after he sleeps | 87 |\n| p3 | Your evening: 8 to 10 | 85 |\n| p7 | Hair dryer: only when he's far | 84 |\n| p1 | Night waking: half your bed is his | 83 |\n| p8 | Blender: make sure he's far | 83 |\n| p11 | Kids' salon: screaming and running | 81 |\n| p12 | Phone calls: only behind a locked door | 81 |\n\n**No post fails the safety gate.** Three sceptical mothers' reactions are on each post card below.\n\n**Batch strengths:**\n- 9 of 12 hooks use the winning shape or your «ما … إلا» shape.\n- Every slide 2 escalates.\n- Method-only proof, nothing promised, every CTA ends «الرابط في البايو».\n\n**Biggest risk: CTA visibility.** Viewers see about 2 slides, and no soft CTA sits earlier than slide 3. Six are on s4, three on s5, and p12 has none.\n\n### Decisions for you (one batch; my recommendation in bold)\n1. **Soft CTA earlier:** **move each soft CTA up onto the slide that says the steps are coming (s3/s4), add one to p12, and put a small «التقييم المجاني في البايو» footer on every slide at design.**\n2. **Four short safety phrases on your slides:** p8 s7 «والخلاط مطفي», p10 s6 «والموية دافية», p11 s6 the barber keeps hold of the clipper, p5 s4 «كرسي ثابت». **Add them.**\n3. **Repetition:** p1 and p4 share steps 2–3 («يلا سريرك», «ولا تنسدحي»). **Keep p4's nap step and give p1 a different step 3.** In the posting order, keep the bedtime posts apart.\n4. **Two weaker hooks** (p8 blender, p11 salon) don't have the twist about her. The panel suggests something like «…فصرتي تقصي شعره بنفسك في البيت؟». **Keep yours; test them as they are.**\n5. **Your wording checks:**\n   - **p9:** «تعرف» → «تعرفي»? «نقطة البداية» → «من فين تبدئي»?\n   - **p10 s3:** add «أسهل»?\n   - **p12 s8:** «من فين تبدئي» appears twice; drop one?\n   - **p8 s5 and p12 s6:** add the missing full stops?\n\n   **Yes to all.**\n\n**Suggested posting order (strongest first, topics apart):** p10, p5, p2, p9, p6, p4, p7, p3, p12, p1, p8, p11."
+   "report": "### Arabic Voice Editor\nLight pass on the unlocked slides, captions and pinned comments only. A script confirmed every slide Anhar wrote or edited is byte-identical. Main fixes:\n- Soft CTAs in captions and pinned comments are now one benefit line.\n- p3 s3 dropped the banned \"ما تبدأ… تبدأ من\" line.\n- Captions realigned to the rewritten slides (p5, p7, p12).\n- p12 pinned comment is now about the phone, not attention.\n- طبيعي→ممكن and كذا→عشان where the line states a purpose.\n- p6 «يمسك الكيس» → «يحط الملابس في الغسالة» (plastic-bag risk).\n- p5 pinned: carrot → cucumber (choking risk).\n\n### Test Panel: ranked\n| Post | Concept | Score |\n|---|---|---|\n| p10 | Hair wash: you come out wetter | 92 |\n| p2 | Sneaking out: he opens his eyes | 90 |\n| p5 | Cooking: he hangs on you | 90 |\n| p9 | Shower: knocking and crying | 88 |\n| p4 | \"Just today\" became every night | 87 |\n| p6 | Only after he sleeps | 87 |\n| p3 | Your evening: 8 to 10 | 85 |\n| p7 | Hair dryer: only when he's far | 84 |\n| p1 | Night waking: half your bed is his | 83 |\n| p8 | Blender: make sure he's far | 83 |\n| p11 | Kids' salon: screaming and running | 81 |\n| p12 | Phone calls: only behind a locked door | 81 |\n\n**No post fails the safety gate.** Three sceptical mothers' reactions are on each post card below.\n\n**Batch strengths:**\n- 9 of 12 hooks use the winning shape or your «ما … إلا» shape.\n- Every slide 2 escalates.\n- Method-only proof, nothing promised, every CTA ends «الرابط في البايو».\n\n**Biggest risk: CTA visibility.** Viewers see about 2 slides, and no soft CTA sits earlier than slide 3. Six are on s4, three on s5, and p12 has none.\n\n### Decisions for you (one batch; my recommendation in bold)\n1. **Soft CTA earlier:** **move each soft CTA up onto the slide that says the steps are coming (s3/s4), add one to p12, and put a small «التقييم المجاني في البايو» footer on every slide at design.**\n2. **Four short safety phrases on your slides:** p8 s7 «والخلاط مطفي», p10 s6 «والموية دافية», p11 s6 the barber keeps hold of the clipper, p5 s4 «كرسي ثابت». **Add them.**\n3. **Repetition:** p1 and p4 share steps 2–3 («يلا سريرك», «ولا تنسدحي»). **Keep p4's nap step and give p1 a different step 3.** In the posting order, keep the bedtime posts apart.\n4. **Two weaker hooks** (p8 blender, p11 salon) don't have the twist about her. The panel suggests something like «…فصرتي تقصي شعره بنفسك في البيت؟». **Keep yours; test them as they are.**\n5. **Your wording checks:**\n   - **p9:** «تعرف» → «تعرفي»? «نقطة البداية» → «من فين تبدئي»?\n   - **p10 s3:** add «أسهل»?\n   - **p12 s8:** «من فين تبدئي» appears twice; drop one?\n   - **p8 s5 and p12 s6:** add the missing full stops?\n\n   **Yes to all.**\n\n**Suggested posting order (strongest first, topics apart):** p10, p5, p2, p9, p6, p4, p7, p3, p12, p1, p8, p11.\n\n**Decision (Nov 9):** no further edits. Anhar: her edited slides are final, and the suggested wording fixes \"don't sound like me\". All posts ship exactly as she edited them."
   },
   {
    "n": 9,
    "key": "handoff",
    "title": "Handoff",
    "subtitle": "The Strategist packages the final posts.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "Finished when the numbers teach us",
     "body": "After posting, tell us the numbers and ask 'what's working?'."
@@ -145,7 +145,7 @@
     "label": "Done.",
     "phrase": null
    },
-   "report": ""
+   "report": "### Batch 2 handoff: 12 posts, final\nEvery slide is exactly as Anhar approved it. Captions and pinned comments are on each post card and in Airtable.\n\n| Day | Post | Concept | Format | Slides | Panel |\n|---|---|---|---|---|---|\n| 1 | p10 | Hair wash: you come out wetter | F5 Walk-through | 8 | 92 |\n| 2 | p5 | Cooking: he hangs on you | F1 HPSPC | 8 | 90 |\n| 3 | p2 | Sneaking out: he opens his eyes | F2 Story | 7 | 90 |\n| 4 | p9 | Shower: knocking and crying | F3 Two voices | 8 | 88 |\n| 5 | p6 | Only after he sleeps | F6 Checklist | 7 | 87 |\n| 6 | p4 | \"Just today\" became every night | F3 Two voices | 8 | 87 |\n| 7 | p7 | Hair dryer: only when he's far | F5 Walk-through | 7 | 84 |\n| 8 | p3 | Your evening: 8 to 10 | F6 Checklist | 8 | 85 |\n| 9 | p12 | Phone calls: only behind a locked door | F4 Metaphor | 8 | 81 |\n| 10 | p1 | Night waking: half your bed is his | F1 HPSPC | 8 | 83 |\n| 11 | p8 | Blender: make sure he's far | F2 Story | 8 | 83 |\n| 12 | p11 | Kids' salon: screaming and running | F1 HPSPC | 8 | 81 |\n\nOne a day. Topics are alternated, and the four bedtime posts are kept apart.\n\n### Logged\n- **Airtable → Batches:** \"Batch 2: 12 static carousels (Nov 2026)\".\n- **Airtable → Posts:** 12 rows (B2-p1 … B2-p12) with the final slides, caption, pinned comment, format label, posting order, score and who wrote what.\n- **Airtable → Feedback & Lessons:** 29 new Batch 2 rows covering every edit, with before → after → her reason → rule: hooks, structure, CTA, realism, connectors and her word list.\n- **Handbook:** `app/ANHAR_FEEDBACK_HANDBOOK.md` now has **Part H (Batch 2 lessons)**. Attach this version to the next chat.\n- **Repo** (branch `claude/adoring-planck-83m3n1`): `app/posts_final.json`, `app/lessons_batch2.md`, `app/test_panel.json`.\n\n### Next\n- **Visuals:** run the Creative Production skill on `app/posts_final.json`. Consider a small «التقييم المجاني في البايو» footer on every slide, since viewers see about 2 slides.\n- **Tracking:** tag the bio link `?src=tiktok` and record assessment *starts*.\n- **After posting:** send the numbers and say **\"what's working?\"**."
   }
  ],
  "plan": {
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -383,7 +383,7 @@
    "conceptId": "c1",
    "title": "Night waking: half your bed is his",
    "format": "slides · F1 HPSPC · CTA: Reflection",
-   "status": "tested",
+   "status": "final",
    "score": 83,
    "body_ar": "(1) سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟\n\n(2) تحسي بخطواته في الظلام، وقبل ما يوصل تقولي في نفسك \"خلاص، المهم ننام\".\nتوسعي له مكان، وتصحي الصبح على طرف سريرك، وظهرك يوجعك.\n\n(3) الساعة اثنين أنتي مو قادرة تفكري.\nترجعيه لسريره يعني تقومي، وتمشي معاه، وتجلسي جنبه، وأنتي بالقوة فاتحة عيونك.\nفطبيعي تختاري الأسهل، ولما ينفع مرة، راح يرجع الليلة الجاية.\n\n(4) الخطوة الأولى: قبل ما تنامي، حددي كيف بتتصرفي لو جاكي في وسط الليل.\nعشان لما يجيكي تكوني عارفة إيش بتسوي وما تضطري تقرري وانتي نص نايمة.\n⟵ soft CTA: وإذا الموضوع يتكرر كل ليلة، التقييم المجاني في البايو يساعدك تشوفي يومه كامل، مو بس اللي يصير في وسط الليل.\n\n(5) الخطوة الثانية: رجعيه لسريره كل مرة، بنفس الكلمتين، مثلا \"يلا سريرك\".\nالنور خفيف، وبدون كلام زيادة.\n\n(6) الخطوة الثالثة: لو ما قدرتي تطلعي على طول، اجلسي جنب سريره، ولا تنسدحي.\nعشان يكمل نومه في سريره هو، مو في سريرك.\n\n(7) كذا نشتغل في الخطة الحية: نشوف يومه كامل، مو بس اللي يصير في نص بالليل.\nنبدأ بموقف واحد والخطة تتعدل حسب استجابته.\nوكلها مبنية من اللي تلاحظيه أنتي.\n\n(8) فكري في ليلتكم كاملة، ايش صار قبل ما نام متى نام وكيف نام ومتى بدأ يصحى.\nهذي التفاصيل هي بداية خطة تناسبه.\nالتقييم المجاني يساعدك تحددي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: ممكن يرجع لك مرة ثانية وثالثة في نفس الليلة. كل مرة رجعيه بنفس الطريقة ونفس الكلمتين، حتى لو تعبتي. كذا يعرف إن الجواب واحد مهما رجع.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
    "caption_ar": "سريرك صار نصه لطفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات لما يجيكي في نص الليل، وأولها قبل ما تنامي أنتي.",
@@ -394,9 +394,9 @@
    "conceptId": "c2",
    "title": "Sneaking out: he opens his eyes",
    "format": "slides · F2 Story · CTA: Observation",
-   "status": "tested",
+   "status": "final",
    "score": 90,
-   "body_ar": "(1) جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟\n\n(2) كنتي تعدي الدقايق في الظلام، وتقولي في نفسك \"بس ينام، بقوم أرتب المطبخ\".\nسحبتي يدك شويه شويه، وقمتي على أطراف أصابعك.\nوقبل ما توصلي الباب، سمعتي \"ماما\".\n\n(3) رجعتي جمبه، والساعة بدأت من أولها.\nطبيعي يصحى. هو نام وأنتي جمبه، ولما فتح عيونه ما لقاكي، كأن شي تغير وهو نايم.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\n\n(4) الخطوة الأولى: اطلعي وهو لسه صاحي.\nقولي له \"برجع لك بعد شويه\"، واطلعي وهو يشوفك.\n\n(5) الخطوة الثانية: ارجعي له زي ما قلتي.\nأول مرة بعد دقيقة، وبعدين بعد دقيقتين، وبعدين بعد خمس دقايق. كل مرة نفس الجملة، وتطلعي.\nوبين كل مرة، كملي اللي وراك برا.\n\n(6) كذا يشوف إنك تطلعي وترجعي.\nويصير طلوعك من الغرفة شي يعرفه، مو شي يتفاجأ فيه لما يصحى.\n\n(7) لاحظي كيف ينام كل ليلة، ومين يكون جمبه، وايش آخر شي يشوفه قبل ما ينام.\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لما ترجعي له، لا تشيليه ولا تفتحي معاه سوالف جديدة. نفس الجملة، \"برجع لك بعد شويه\"، وبعدها اطلعي. عشان ما يتحول رجوعك لوقت لعب.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
+   "body_ar": "(1) جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟\n\n(2) كنتي تعدي الدقايق في الظلام، وتقولي في نفسك \"بس ينام، بقوم أرتب المطبخ\".\nسحبتي يدك شويه شويه، وقمتي على أطراف أصابعك.\nوقبل ما توصلي الباب، سمعتي \"ماما\".\n\n(3) رجعتي جمبه، والساعة بدأت من أولها.\nطبيعي يصحى. هو نام وأنتي جمبه، ولما فتح عيونه ما لقاكي، كأن شي تغير وهو نايم.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\n\n(4) الخطوة الأولى: اطلعي وهو لسه صاحي.\nقولي له \"برجع لك بعد شويه\"، واطلعي وهو يشوفك.\n\n(5) الخطوة الثانية: ارجعي له زي ما قلتي.\nأول مرة بعد دقيقة، بعدها بعد دقيقتين، بعدها بعد خمس. كل مرة نفس الجملة، وتطلعي.\nوبين كل مرة، كملي اللي وراك برا.\n\n(6) كذا يشوف إنك تطلعي وترجعي.\nويصير طلوعك من الغرفة شي يعرفه، مو شي يتفاجأ فيه لما يصحى.\n\n(7) لاحظي كيف ينام كل ليلة، ومين يكون جمبه، وايش آخر شي يشوفه قبل ما ينام.\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لما ترجعي له، لا تشيليه ولا تفتحي معاه سوالف جديدة. نفس الجملة، \"برجع لك بعد شويه\"، وبعدها اطلعي. عشان ما يتحول رجوعك لوقت لعب.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
    "caption_ar": "جلستي ساعة تنوميه، وأول ما قمتي من جمبه فتح عيونه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور خطوتين تخلي طلوعك من غرفته شي يعرفه.",
    "notes": "Skimmer: Stops on s1 (she has lived it last night). Swipes s2 for the «ماما». Likely drops at s3, but s3 has the soft CTA: she saw it.\nCynic: \"Check-ins at 1, 2, 5 minutes: I've seen the chart. What's new is 'leave while he's awake' and doing the kitchen in between. That I'd try.\"\nCautious: \"It doesn't promise he'll sleep. The CTA asks me to notice who's next to him and what he sees last: that's observation, not a sales pitch.\"\nPush higher: Fix the double space in s1. · s6 is pure explanation; fold «كذا يشوف إنك تطلعي وترجعي» into s5 and use the freed slide for a third step (what to do if he follows her out), so 'two steps' doesn't feel thin. · s7 «ومين يكون جمبه» is close to the 'who was near him' trigger Anhar rejected (A2); «ومتى ينام» is safer.\nGate: ok"
   },
@@ -405,9 +405,9 @@
    "conceptId": "c3",
    "title": "Your evening: 8 to 10",
    "format": "slides · F6 Checklist · CTA: Observation",
-   "status": "tested",
+   "status": "final",
    "score": 85,
-   "body_ar": "(1) تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟\n\n(2) ساعتين وأنتي في الظلام. يقوم، يطلب موية، يرجع ينسدح، يبدأ يسولف.\nوأنتي تقولي في نفسك \"المطبخ لسه ما خلص، ومتى ارتاح أنا؟\"\n\n(3) هذي ثلاث أشياء من يومه تفرق في ليلته.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\n\n(4) أول شي: نومة العصر.\nلو صحى منها قريب المغرب، طبيعي الساعة ثمانيه يكون لسه مصحصح.\nحاولي تصحيه منها بدري شوي، ولو نص ساعة.\n\n(5) ثاني شي: انتبهي لإيش كان يسوي قبل وقت النوم.\nلو كان يلعب ويركض أو يتفرج على شاشة، فهو ينتقل من نشاطه مباشرة للسرير.\nخلي آخر نشاط قبل النوم أهدأ وأبسط، زي إنه يرتب ألعابه معاكي أو يشرب شي دافي.\n\n(6) ثالث شي: الليالي اللي فيها ضيوف أو طلعة.\nلو تأخر وقت النوم، خلي خطواته نفسها حتى لو قصرتيها.\nالبيجاما، وبعدها نفس الروتين.\n\n(7) لو لقيتي وحده من الثلاثة في يومكم، هذا مكان تبدئي منه.\nمو لازم تغيري الثلاثة مع بعض.\n\n(8) الساعة ثمانيه لعشره ما تبدأ في غرفته.\nلاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nابدئي بالتقييم المجاني واعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: إذا كان كل ليلة يقوم يطلب موية أو يبغى الحمام بعد ما ينسدح، خليها من خطوات ما قبل النوم: موية، حمام، وبعدها وقت النوم. كذا تقل الأسباب اللي يقوم عشانها.\nوالتقييم المجاني في البايو يساعدك تشوفي يومه كامل وتعرفي من فين تبدئي.",
+   "body_ar": "(1) تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟\n\n(2) ساعتين وأنتي في الظلام. يقوم، يطلب موية، يرجع ينسدح، يبدأ يسولف.\nوأنتي تقولي في نفسك \"المطبخ لسه ما خلص، ومتى ارتاح أنا؟\"\n\n(3) الساعتين هذي ما تبدأ الساعة ثمانيه، تبدأ من العصر.\nهذي ثلاث أشياء من نهاره تفرق في ليلته، وكلها قبل ما يلبس البيجاما.\n⟵ soft CTA: ولو تبغي تشوفي هذا على يومه كامل، التقييم المجاني في البايو.\n\n(4) أول شي: نومة العصر.\nلو صحى منها قريب المغرب، طبيعي الساعة ثمانيه يكون لسه مصحصح.\nحاولي تصحيه منها بدري شوي، ولو نص ساعة.\n\n(5) ثاني شي: انتبهي لإيش كان يسوي قبل وقت النوم.\nلو كان يلعب ويركض أو يتفرج على شاشة، فهو ينتقل من نشاطه مباشرة للسرير.\nخلي آخر نشاط قبل النوم أهدأ وأبسط، زي إنه يرتب ألعابه معاكي أو يشرب شي دافي.\n\n(6) ثالث شي: الليالي اللي فيها ضيوف أو طلعة.\nلو تأخر وقت النوم، خلي خطواته نفسها حتى لو قصرتيها.\nالبيجاما، وبعدها نفس الروتين.\n\n(7) لو لقيتي وحده من الثلاثة في يومكم، هذا مكان تبدئي منه.\nمو لازم تغيري الثلاثة مع بعض.\n\n(8) الساعة ثمانيه لعشره ما تبدأ في غرفته.\nلاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nابدئي بالتقييم المجاني واعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: إذا كان كل ليلة يقوم يطلب موية أو يبغى الحمام بعد ما ينسدح، خليها من خطوات ما قبل النوم: موية، حمام، وبعدها وقت النوم. كذا تقل الأسباب اللي يقوم عشانها.\nوالتقييم المجاني في البايو يساعدك تشوفي يومه كامل وتعرفي من فين تبدئي.",
    "caption_ar": "من الساعة ثمانيه لعشره وأنتي في غرفته؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور ثلاث أشياء من يومه تفرق في ليلته، كل وحدة في صورة.",
    "notes": "Skimmer: Stops on s1 (8 to 10 is precise). s2 recognisable. Hits s3: sees the promise and the soft CTA, then likely drops. Got the CTA, not the insight.\nCynic: \"Earlier nap end, calmer last activity, keep the routine. I could write this list myself. If you'd opened with 'the two hours start in the afternoon' I'd have kept going.\"\nCautious: \"'You don't have to change all three' feels respectful. Fine.\"\nPush higher: Move the s8 turn line up to s3: «الساعة ثمانيه لعشره ما تبدأ في غرفته. هذي ثلاث أشياء من يومه تفرق في ليلته.» It is the perspective shift and the reason to swipe. · Make one check less generic (e.g. s5: name the exact last activity and what replaces it in her house tonight). · Space it from p1/p2/p4 in posting order: four bedtime posts back to back will read as one account repeating itself.\nGate: ok"
   },
@@ -416,9 +416,9 @@
    "conceptId": "c4",
    "title": "\"Just today\" became every night",
    "format": "slides · F3 Two voices · CTA: Direct",
-   "status": "tested",
+   "status": "final",
    "score": 87,
-   "body_ar": "(1) قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟\n\n(2) ذيك الليلة كنتي تعبانة، وهو يبكي ويمد يدينه لك.\nقلتي في نفسك \"اليوم بس. بكرة يرجع لسريره\".\n\n(3) دحين كل ليلة تقولي \"متى آخر مرة نام لحاله؟\"\nتنسدحي جنبه، وتسمعي أصوات البيت برا، وأنتي مو قادرة تقومي.\n\n(4) ذيك الليلة ما سويتي شي غلط.\nوهذي ثلاث خطوات تبدئي فيها عشان يرجع ينام في سريره.\n\n(5) الخطوة الأولى: ابدئي بنومة الظهر في سريره، مو بنوم الليل.\nالنهار أهون عليكي وعليه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تحددي أول خطوة.\n\n(6) الخطوة الثانية: لما تحطيه في سريره بالليل، قولي نفس الكلمتين كل مرة، مثلا \"يلا سريرك\".\nقوليها بهدوء، وما تزيدي عليها.\n\n(7) الخطوة الثالثة: إذا قام وجاكي، رجعيه لسريره، ولا ترجعي تنسدحي جنبه.\nعشان يكون الجواب واحد كل ليلة، ويعرف ايش يتوقع.\n\n(8) لاحظي متى يكون أسهل عليه ينام في سريره، في الظهر ولا بالليل، وايش يصير قبلها.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لا تبدئي في ليلة متعبة، زي بعد عزيمة أو طلعة طويلة. اختاري ليلة عادية، عشان يكون فيكي حيل ترجعيه كل مرة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
+   "body_ar": "(1) قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟\n\n(2) ذيك الليلة كنتي تعبانة، وهو يبكي ويمد يدينه لك.\nقلتي في نفسك \"اليوم بس. بكرة يرجع لسريره\".\n\n(3) دحين كل ليلة تقولي \"متى آخر مرة نام لحاله؟\"\nتنسدحي جنبه، وتسمعي أصوات البيت برا، وأنتي مو قادرة تقومي.\n\n(4) ذيك الليلة ما سويتي شي غلط.\nوهذي ثلاث خطوات تبدئي فيها عشان يرجع ينام في سريره.\n\n(5) الخطوة الأولى: ابدئي بنومة الظهر في سريره، مو بنوم الليل.\nالنهار أهون عليكي وعليه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تحددي أول خطوة.\n\n(6) الخطوة الثانية: في الليل، نفس الكلمتين كل مرة، زي \"يلا سريرك\".\nقوليها بهدوء، وما تزيدي عليها.\n\n(7) الخطوة الثالثة: إذا قام وجاك، رجعيه لسريره، ولا ترجعي تنسدحي جنبه.\nكذا يكون الجواب واحد كل ليلة، ويعرف ايش يتوقع.\n\n(8) \"اليوم بس\" صارت كل ليلة بالتدريج، مو فجأة.\nوالرجوع منها يبدأ بخطوة وحدة تناسبه هو.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لا تبدئي في ليلة متعبة، زي بعد عزيمة أو طلعة طويلة. اختاري ليلة عادية، عشان يكون فيكي حيل ترجعيه كل مرة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
    "caption_ar": "قلتي له \"اليوم بس\"، ودحين ما يرضى ينام لحاله؟ ابدئي بالتقييم المجاني في البايو، واعرفي فين تركزي أول شي.\nفي الصور ثلاث خطوات عشان يرجع ينام في سريره، وأولها من نومة الظهر.",
    "notes": "Skimmer: Stops on s1 (guilt). Reads s2 and probably s3. Drops before s5: never sees the soft CTA.\nCynic: \"Nap first, I'll give you. 'Same two words, don't lie back down' I literally saw yesterday on your p1.\"\nCautious: \"s4 telling me I didn't do anything wrong makes me trust them. No timeline. Good.\"\nPush higher: Move the soft CTA up onto s4 under «وهذي ثلاث خطوات…» so it lands before step 1. · Rewrite steps 2–3 so they differ from p1 (e.g. what to do on the first night she doesn't lie down: sit, then the door), or post p1 and p4 a week apart. · Keep s3 and s4 exactly; they are the batch's best feeling.\nGate: ok"
   },
@@ -427,9 +427,9 @@
    "conceptId": "c5",
    "title": "Cooking: he hangs on you",
    "format": "slides · F1 HPSPC · CTA: Direct",
-   "status": "tested",
+   "status": "final",
    "score": 90,
-   "body_ar": "(1) أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟\n\n(2) تفتحي الثلاجة، ويمسك رجلك. تقطعي البصل، ويسحب بلوزتك.\nتشيليه بيد وتقلبي القدر باليد الثانية.\nوتقولي في نفسك \"خلاص، أطبخ بعدين\".\n\n(3) في ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.\n\n(4) الخطوة الأولى: بدل ما يتعلق في رجلك، خليه جمبك على طولك.\nحطي له كرسي عند الطاوله، بعيد عن النار، يشوف منه ايش تسوي.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\n\n(5) الخطوة الثانية: اعطيه شغلة جمبك، بعيد عن النار.\nيغسل الخيار في زبديه، ويناولك هوه حبة حبة.\n\n(6) الخطوة الثالثة: قولي له ايش تسوي وانتي تطبخي، مثلا \"دحين بنقطع البصل\"، \"دحين بنحط الرز\".\nعشان يكون معاكي في الطبخ، بدون ما يتعلق فيكي.\n\n(7) كذا نشتغل في الخطة الحية: نشوف يومه كامل، مو بس وقت الطبخ.\nنبدأ بموقف واحد والخطة تتعدل حسب استجابته.\nوكلها مبنية من اللي تلاحظيه أنتي.\n\n(8) انتبهي متى يتعلق فيكي أكثر، أول ما تدخلي المطبخ ولا لما تبدئي تطبخي.\nهذي التفاصيل تساعدك تبني خطة على يومه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: وأنتي تقطعي، اعطيه شريحة خيار صغيرة يذوقها.\nكذا يحس إنه معاكي في الطبخ، مو بس يستناكي تخلصي.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "body_ar": "(1) أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟\n\n(2) تفتحي الثلاجة، ويمسك رجلك. تقطعي البصل، ويسحب بلوزتك.\nتشيليه بيد وتقلبي القدر باليد الثانية.\nوتقولي في نفسك \"خلاص، أطبخ بعدين\".\n\n(3) في ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.\n\n(4) الخطوة الأولى: بدل ما يتعلق في رجلك، خليه جمبك على طولك.\nحطي له كرسي عند الطاوله، بعيد عن النار، يشوف منه ايش تسوي.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\n\n(5) الخطوة الثانية: اعطيه شغلة جمبك، بعيد عن النار.\nيغسل الخيار في زبديه، ويناولك هوه حبة حبة.\n\n(6) الخطوة الثالثة: قولي بصوت عالي ايش تسوي.\n\"دحين بنقطع البصل\"، \"دحين بنحط الرز\".\nكذا يكون معاكي، بدون ما يكون متعلق فيكي.\n\n(7) طريقتنا في الخطة الحية: نشوف يومه كامل، مو بس وقت الطبخ.\nنشتغل على موقف واحد، ونعدّل كل أسبوعين حسب استجابته.\nوكل هذا مبني من اللي تلاحظيه أنتي.\n\n(8) انتبهي متى يتعلق فيكي أكثر، أول ما تدخلي المطبخ ولا لما تبدئي تطبخي.\nهذي التفاصيل تفرق لما تنبني خطة على يومه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: وأنتي تقطعي، اعطيه شريحة خيار صغيرة يذوقها.\nكذا يحس إنه معاكي في الطبخ، مو بس يستناكي تخلصي.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "يتعلق فيكي أول ما تدخلي المطبخ؟ ابدئي بالتقييم المجاني في البايو، وشوفي ايش يحتاج اهتمامك أول.\nوفي الصور ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.",
    "notes": "Skimmer: Stops hard on s1 (she cooked last night at 11). Reads s2. s3 is one line so she flicks to s4 and catches the soft CTA. Good chance she saw it.\nCynic: \"Kitchen helper chair: I've seen the learning-tower reels. But this one doesn't ask me to buy anything and the cucumber job is actually what he'd do. Realistic.\"\nCautious: \"Method slide is plain. Fine. One worry: a chair at the counter while I'm cutting onions.\"\nPush higher: Pre-empt the safety comment with two words on s4 or the pinned comment: «كرسي ثابت» and «بعيد عن السكين والنار». · Put the soft CTA on s3 (the promise slide is one line and has room). · Space from p6 (same 'after he sleeps' twist) in posting order.\nGate: ok"
   },
@@ -438,9 +438,9 @@
    "conceptId": "c6",
    "title": "Only after he sleeps",
    "format": "slides · F6 Checklist · CTA: Reflection",
-   "status": "tested",
+   "status": "final",
    "score": 87,
-   "body_ar": "(1) ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟\n\n(2) كل شي عندك صار \"بسويه لما ينام\".\nولما ينام، تلقي كل شي ينتظرك، وتحتاري تخلصيه ولا ترتاحي.\n\n(3) هذي ثلاث أشياء ممكن تلاحظيها عليه أول ما تبدئي شغل البيت، ولكل وحدة خطوة.\n\n(4) أول شي: يغطي أذنه أو يطلع من الغرفة أول ما تشغلي المكنسة.\nقولي له قبل ما تبدئي \"بكنس غرفتين بس\"، وكل ما خلصتي غرفة قولي \"خلصت وحدة\".\nعشان يعرف إن الصوت له آخر.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) ثاني شي: يتعلق فيكي ويسحبك من يدك.\nخليه معاكي في نفس الشغلة. يحط الملابس في الغسالة، أو يناولك القطع وأنتي تنشريها.\n\n(6) ثالث شي: يبغى ياخذ المكنسة منك ويكنس بنفسه.\nاعطيه منشفه يمسح فيها الطاوله جمبك، هو له شغلته وأنتي لك شغلتك.\n\n(7) فكري أي وحده من الثلاثة تصير معاه أكثر وأنتي تشتغلي في البيت.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو طلع من الغرفة أول ما شغلتي المكنسة، لا تطفيها وتلحقيه. خليه يرجع لما يبغى، وكملي الغرفة اللي قلتي له عليها.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.",
+   "body_ar": "(1) ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟\n\n(2) كل شي عندك صار \"بسويه لما ينام\".\nولما ينام، تلقي كل شي ينتظرك، وتحتاري تخلصيه ولا ترتاحي.\n\n(3) قبل ما تدوري حل، لاحظي ايش يصير معاه أول ما تبدئي شغل البيت.\nهذي ثلاث أشياء ممكن تلاحظيها، وكل وحدة لها خطوة.\n\n(4) أول شي: يغطي أذنه أو يطلع من الغرفة أول ما تشغلي المكنسة.\nقولي له قبل ما تبدئي \"بكنس غرفتين بس\"، وكل ما خلصتي غرفة قولي \"خلصت وحدة\".\nعشان يعرف إن الصوت له آخر.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) ثاني شي: يتعلق فيكي ويسحبك من يدك.\nخليه معاكي في نفس الشغلة. يمسك الكيس وأنتي تكنسي، أو يناولك الملابس وأنتي تنشريها.\n\n(6) ثالث شي: يبغى ياخذ المكنسة منك ويكنس بنفسه.\nاعطيه منشفه يمسح فيها الطاوله جمبك، هو له شغلته وأنتي لك شغلتك.\n\n(7) فكري ايش اللي يصير معاه أكثر وأنتي تشتغلي في البيت.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو طلع من الغرفة أول ما شغلتي المكنسة، لا تطفيها وتلحقيه. خليه يرجع لما يبغى، وكملي الغرفة اللي قلتي له عليها.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.",
    "caption_ar": "ما تقدري تكنسي وهو صاحي؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\nفي الصور ثلاث أشياء تلاحظيها عليه، وخطوة لكل وحدة.",
    "notes": "Skimmer: Stops on s1 (the vacuum audience). Reads s2. s3 promises three things; may tap to s4 and see the CTA, more likely drops at s3.\nCynic: \"'Two rooms only, then say done one': that's a small thing I haven't seen and I could try it tomorrow. The rest is fine.\"\nCautious: \"It stays about him, not housework tips. Trustworthy.\"\nPush higher: Add the turn on s3 (e.g. what each sign is telling you about him) so the checklist feels like a discovery, not a list. · Hook overlaps p5's «بعد ما ينام» twist; keep them at least 3 days apart. · Put the soft CTA on s3 with the promise.\nGate: ok"
   },
@@ -449,9 +449,9 @@
    "conceptId": "c7",
    "title": "Hair dryer: only when he's far",
    "format": "slides · F5 Walk-through · CTA: Direct",
-   "status": "tested",
+   "status": "final",
    "score": 84,
-   "body_ar": "(1) ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟\n\n(2) عندكم عزيمة وأنتي متأخرة.\nأول ما شغلتي الاستشوار على شعرك، غطى أذنه وبدأ يصيح.\nطفيتيه، ورحتي له، ونص شعرك لسه مبلول.\n\n(3) هذي ثلاث خطوات تاخذ ثواني، وأنتي تنشفي شعرك قدام المراية.\n\n(4) الخطوة الأولى: لا تشغليه على أعلى درجة من أول.\nابدئي بأخف درجة، وبعدين علّيه شويه شويه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) الخطوة الثانية: قبل ما تبدئي، قولي له \"بنشف شعري\"، وتقدري تخليه هو يضغط الزر.\nكذا الصوت ما يجيه فجأة.\n\n(6) الخطوة الثالثة: خليه يجلس في مكان يشوفك منه، بس مو لاصق فيكي، زي طرف السرير أو عند الباب.\nعشان لو الصوت ضايقه، يبعد شويه بدون ما تطفي الاستشوار.\n\n(7) فكري في الأشياء اللي صرتي تأجليها إلين ما يبعد عنك، والاستشوار وحده منها.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو بدأ يصيح وأنتي في النص، طفيه ثواني وقولي له \"باقي شويه\"، وبعدها كملي على أخف درجة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "body_ar": "(1) ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟\n\n(2) عندكم عزيمة وأنتي متأخرة.\nأول ما شغلتي الاستشوار على شعرك، غطى أذنه وبدأ يصيح.\nطفيتيه، ورحتي له، ونص شعرك لسه مبلول.\n\n(3) هذي ثلاث خطوات تاخذ ثواني، وأنتي تنشفي شعرك قدام المراية.\n\n(4) الخطوة الأولى: لا تشغليه على أعلى درجة من أول.\nابدئي بأخف درجة، وبعدين علّيه شويه شويه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) الخطوة الثانية: قبل ما تبدئي، قولي له \"بنشف شعري\"، وتقدري تخليه هو يضغط الزر.\nكذا الصوت ما يجيه فجأة.\n\n(6) الخطوة الثالثة: خليه يجلس في مكان يشوفك منه، بس مو لاصق فيكي، زي طرف السرير أو عند الباب.\nعشان لو الصوت ضايقه، يبعد شويه بدون ما تطفي الاستشوار.\n\n(7) الاستشوار واحد من أشياء كثيرة صرتي تأجليها إلين ما يبعد عنك.\nوالخطة تبدأ من الشي اللي يضغط على يومك أكثر.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو بدأ يصيح وأنتي في النص، طفيه ثواني وقولي له \"باقي شويه\"، وبعدها كملي على أخف درجة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات تاخذ ثواني، وأنتي قدام المراية.",
    "notes": "Skimmer: Stops on s1 if her child does this; otherwise flicks past. Reads s2. s3 is short, may reach s4 and the CTA.\nCynic: \"Low setting first. Obvious once you say it, but I haven't done it. Fine, not 50th-account.\"\nCautious: \"The CTA asks what else I postpone until he's away. That's a fair question, not a pitch.\"\nPush higher: Same 'he presses it' device appears in p8, p10, p11; keep it here and vary one of the others. · Tighten s6 to two lines so the slide stays big type. · Consider soft CTA on s3 with the promise.\nGate: ok"
   },
@@ -460,9 +460,9 @@
    "conceptId": "c8",
    "title": "Blender: make sure he's far",
    "format": "slides · F2 Story · CTA: Observation",
-   "status": "tested",
+   "status": "final",
    "score": 83,
-   "body_ar": "(1) كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟\n\n(2) تحطي الموز والحليب في الخلاط، وتروحي الصالة تشوفي فينه.\nجالس يلعب، قريب من باب المطبخ.\nتقولي \"أستنى شوي، يمكن يروح غرفته\".\n\n(3) تستني شويه، ويدخل المطبخ ويوقف جمبك.\nترجعي الخلاط مكانه والموز فيه، وتقولي \"خلاص، أسويه بعدين\".\n\n(4) الصوت اللي يخاف منه يجي فجأة، وعالي، ويطول.\nوهذي الثلاث تقدري تغيريها وأنتي واقفة مكانك.\n\n(5) الخطوة الأولى: حطي منشفة مطبقة تحت الخلاط. تخفف صوت الخلاط.\n⟵ soft CTA: ولو الخلاط مو الصوت الوحيد اللي تحسبي له حساب، التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي\n\n(6) الخطوة الثانية: لا تشغليه مرة وحدة طويلة.\nاضغطي ضغطة قصيرة ووقفي، وبعدها ضغطة ثانية. كذا الصوت يجي ويروح بدل ما يطول.\n\n(7) الخطوة الثالثة: خليه هو يحط الموز في الخلاط.\nعشان يشوف ايش بيصير قبل ما يسمع الصوت.\n\n(8) لاحظي أي أصوات يخاف منها، وأيها ما تفرق معاه.\nهذي التفاصيل تساعدك تبني خطة على يومه.\nابدئي بالتقييم المجاني، الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: إذا غطا الخلاط عندك شفاف، خليه يتفرج على الموز وهو ينفرم. كذا يصير عنده شي يتفرج عليه، مو بس صوت يسمعه.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "body_ar": "(1) كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟\n\n(2) تحطي الموز والحليب في الخلاط، وتروحي الصالة تشوفي فينه.\nجالس يلعب، قريب من باب المطبخ.\nتقولي \"أستنى شوي، يمكن يروح غرفته\".\n\n(3) تستني. يدخل المطبخ ويوقف جمبك.\nترجعي الخلاط مكانه والموز فيه، وتقولي \"خلاص، أسويه بالليل\".\n\n(4) الصوت اللي يخاف منه يجي فجأة، وعالي، ويطول.\nوهذي الثلاث تقدري تغيريها وأنتي واقفة مكانك.\n\n(5) الخطوة الأولى: حطي منشفة مطبقة تحت الخلاط. تخفف صوت الخلاط.\n⟵ soft CTA: ولو الخلاط مو الصوت الوحيد اللي تحسبي له حساب، التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي\n\n(6) الخطوة الثانية: لا تشغليه مرة وحدة طويلة.\nاضغطي ضغطة قصيرة ووقفي، وبعدها ضغطة ثانية. كذا الصوت يجي ويروح بدل ما يطول.\n\n(7) الخطوة الثالثة: خليه هو يحط الموز في الخلاط.\nعشان يشوف ايش بيصير قبل ما يسمع الصوت.\n\n(8) لاحظي أي أصوات يخاف منها، وأيها ما تفرق معاه.\nهذي التفاصيل تساعدك تبني خطة على يومه.\nابدئي بالتقييم المجاني، الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: إذا غطا الخلاط عندك شفاف، خليه يتفرج على الموز وهو ينفرم. كذا يصير عنده شي يتفرج عليه، مو بس صوت يسمعه.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات ما تاخذ إلا ثواني، وأنتي واقفة جنب الخلاط.",
    "notes": "Skimmer: Pauses on s1 only if this is her child. s2 is calm; likely drops there. Saw no CTA.\nCynic: \"The towel trick is genuinely good. But the opening didn't make me feel anything.\"\nCautious: \"Let my toddler put his hand in the blender jar? You need to say it's off.\"\nPush higher: Sharpen the hook with the twist about her: e.g. «…فصرتي تسوي العصير وهو نايم؟» or end on the banana going brown on the counter. · Add «والخلاط مطفي» to step 3 (s7). · Move the soft CTA to s4 under «وهذي الثلاث تقدري تغيريها». · Lukewarm: s1–s3 carry no feeling; the value is all in s5–s6, which most won't reach.\nGate: ok"
   },
@@ -471,7 +471,7 @@
    "conceptId": "c9",
    "title": "Shower: knocking and crying",
    "format": "slides · F3 Two voices · CTA: Reflection",
-   "status": "tested",
+   "status": "final",
    "score": 88,
    "body_ar": "(1) يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟\n\n(2) برا الباب: يدق ويبكي.\nيوقف شويه، يسمع، وما يسمع شي، فيرجع يدق.\n\n(3) جوا الحمام: الموية شغالة وأنتي تقولي \"جيت، جيت\" وتستعجلي.\nتطلعي له وما خلصتي.\n\n(4) من جهته: الباب اتسكر، وصوتك اختفى. فيدق ويبكي.\nوهذي ثلاث خطوات تخلي الباب المسكر أخف عليه.\n\n(5) الخطوة الأولى: لا تدخلي الحمام وطفلك فاضي يدور عليك. ادخلي أول ما يبدأ شي يحبه، ياكل سناكه أو يلعب بألعابه.\n⟵ soft CTA: والشاور عادة مو الشي الوحيد اللي صار يستنى نومه. التقييم المجاني في البايو يساعدك تعرف من فين تبدئي.\n\n(6) الخطوة الثانية: خلي صوتك يوصله طول الوقت.\nكلميه. كذا يسمع إنك موجودة، حتى والباب مسكّر.\n\n(7) الخطوة الثالثة: اعطيه شغلة برا. يمسك منشفتك جنب الباب، ويعطيك إياها أول ما تطلعي.\nكذا يستنى عشان يعطيك شي، مو بس يستناك.\n\n(8) فكري في الأشياء اللي صرتي تسويها قبل ما يصحى أو بعد ما ينام.\nأي وحدة فيها تتمني ترجعي تسويها وهو صاحي؟\nالتقييم المجاني يساعدك تحددي نقطة البداية. الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: حطي كرسيه الصغير جنب باب الحمام، ومنشفتك في حضنه. عشان يكون له مكان يستناك فيه، بدل ما يوقف يدق.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "صار الشاور حقك يتحدد على حسب نومه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور: هو برا الباب، وأنتي جوا، وثلاث خطوات تخلي الباب المسكر أخف عليه.",
@@ -482,7 +482,7 @@
    "conceptId": "c10",
    "title": "Hair wash: you come out wetter",
    "format": "slides · F5 Walk-through · CTA: Observation",
-   "status": "tested",
+   "status": "final",
    "score": 92,
    "body_ar": "(1) تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟\n\n(2) تميلي راسه لورا، ويرجعه لقدام.\nالموية تنزل على عيونه، فيصيح أكثر ويضرب.\nوأنتي تقولي \"خلاص، خلصنا\"، والشامبو لسه في شعره.\n\n(3) هذي ثلاث خطوات تخلي غسيل الشعر عليكم.\n\n(4) الخطوة الأولى: لا تحطي يدك على عيونه. اعطيه منشفة وجه ناشفة يمسكها هو على عيونه.\nكذا يده مشغولة، وعيونه مغطية بطريقته.\n⟵ soft CTA: هذا غسيل الشعر بس. التقييم المجاني في البايو يمر على باقي يومه، ويساعدك تعرفي فين تبدئي.\n\n(5) الخطوة الثانية: عدي معاه بصوت عالي من واحد لعشرة، وعند عشرة وقفي الموية.\nولو باقي شامبو، ابدئي عشرة ثانية. كذا يعرف إن الموية لها آخر.\n\n(6) الخطوة الثالثة: اعطيه الدش يمسكه.\nالموية اللي يوجهها بيده غير الموية اللي تنزل عليه فجأة.\n\n(7) منشفة على عيونه، عشرة وتوقف الموية، والدش في يده.\nويمكن هذي المرة تطلعي من الحمام وانتي ناشفة.\n\n(8) لاحظي متى يبدأ الصياح: أول ما تنزل الموية، ولا لما تقولي يلا الحمام، ولا قبلها بشوي.\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني، الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: جهزي الشامبو والمنشفة وخلي الموية دافية قبل ما يدخل. عشان ما يوقف مبلول يستناك تضبطي الحرارة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "تطلعي من الحمام مبلولة أكثر منه؟ لاحظي متى يبدأ الصياح، وابدئي بالتقييم المجاني في البايو.\nثلاث خطوات بأشياء موجودة في حمامك دحين.",
@@ -493,7 +493,7 @@
    "conceptId": "c11",
    "title": "Kids' salon: screaming and running",
    "format": "slides · F1 HPSPC · CTA: Direct",
-   "status": "tested",
+   "status": "final",
    "score": 81,
    "body_ar": "(1) كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟\n\n(2) الحلاق يحاول، وأنتي ماسكة يديه، وكل اللي في الصالون يطالع.\nتطلعوا وشعره نص مقصوص، وتقولي \"المرة الجاية أقصه أنا في البيت\".\n\n(3) في الصالون كل شي يجيه مرة وحدة: كرسي غريب، صوت المكينة، ويد ما يعرفها على راسه.\nفيحاول يهرب.\nوهذي أربع خطوات للزيارة الجاية.\n\n(4) الخطوة الأولى: حاولي تروحوا أهدى وقت، الصبح وسط الأسبوع قبل ما يزحم الصالون.\nعشان ما في انتظار، ولا أطفال يصيحوا قبله.\n⟵ soft CTA: ولو كل مكان جديد معاه بنفس الطريقة، التقييم المجاني في البايو يساعدك تشوفي ايش اللي يتكرر.\n\n(5) الخطوة الثانية: أول زيارة، لا تقصوا شي.\nخليه يجلس في حضنك ويتفرج على طفل ثاني يقص شعره، وبعدها تطلعوا.\n\n(6) الخطوة الثالثة: قبل ما توصل المكينة لراسه، خلي الحلاق يخليه يمسكها.\nعشان يحس فيها وهي ترج قبل ما تقرب من راسه.\n\n(7) الخطوة الرابعة: خليه يمسك شي من البيت، سيارته أو اللعبة اللي دائما معاه.\nشي يعرفه في يده، في مكان كل شي فيه جديد عليه.\n\n(8) كذا نبدأ: الخطة تنبني من اللي تلاحظيه أنتي، تبدأ بموقف واحد، وتتعدل حسب استجابته.\nوالصالون موقف واحد من يومه كامل.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nخطوة خامسة: اطلبي من الحلاق يبدأ من ورا، بعيد عن وجهه. عشان ما يشوف المكينة جاية على وجهه من أول ثانية.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "كل قصة شعر تخلص بصياح ونص قصة؟ التقييم المجاني في البايو يساعدك تعرفي فين تركزي أول شي.\nأربع خطوات قبل زيارتكم الجاية للصالون.",
@@ -504,7 +504,7 @@
    "conceptId": "c12",
    "title": "Phone calls: only behind a locked door",
    "format": "slides · F4 Metaphor · CTA: Reflection",
-   "status": "tested",
+   "status": "final",
    "score": 81,
    "body_ar": "(1) ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟\n\n(2) تتصل أمك وتردي، وهو جالس يلعب.\nبعد دقيقة يسحب يدك ويحاول ياخذ الجوال، وأمك تقول \"ايش فيه؟ ما أسمعك\".\n\n(3) تخيلي لعبتك المفضلة بيد أحد، وكل ما تحاولي تاخذيها يبعدها عنك.\n\n(4) طول المكالمة، الجوال قدامه وفي يدك.\nيشوفه، يسمع أصواته، ويبغى يلعب به.\n\n(5) الخطوة الأولى: جهزي علبة ما تطلع إلا وقت المكالمات.\nألوان، ستيكرات، أو لعبة يحبها.\nيتصل احد وتطلع العلبة.\n\n(6) الخطوة الثانية: قبل المكالمة، حطي الجوال على السبيكر وخليه بعيد عن يده\n\n(7) الخطوة الثالثة: اختاري له شي يقدر يسويه بنفسه من العلبة.\nزي يلصق الاستيكرات على ورقة أو يلوّن رسمة.\n\n(8) فكري في آخر مرة كملتي فيها مكالمة ورا باب مقفول، وايش كان يصير قبلها.\nهذي اللحظة تساعدك تحددي من فين تبدئي.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: لما تخلصي المكالمة، رجعي العلبة مكانها قدامه. عشان تظل العلبة شي ما يطلع إلا وقت المكالمات.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "caption_ar": "ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ليش يبغى الجوال اللي في يدك، وثلاث خطوات للمكالمة الجاية.",
@@ -553,6 +553,174 @@
    "profileVisits": null,
    "assessmentStarts": 0,
    "note": "416–483 views each; 0 assessments in window"
+  },
+  {
+   "postId": "B2 p10",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F5 Walk-through",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 1"
+  },
+  {
+   "postId": "B2 p5",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F1 HPSPC",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 2"
+  },
+  {
+   "postId": "B2 p2",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F2 Story",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 3"
+  },
+  {
+   "postId": "B2 p9",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F3 Two voices",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 4"
+  },
+  {
+   "postId": "B2 p6",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F6 Checklist",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 5"
+  },
+  {
+   "postId": "B2 p4",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F3 Two voices",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 6"
+  },
+  {
+   "postId": "B2 p7",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F5 Walk-through",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 7"
+  },
+  {
+   "postId": "B2 p3",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F6 Checklist",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 8"
+  },
+  {
+   "postId": "B2 p12",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F4 Metaphor",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 9"
+  },
+  {
+   "postId": "B2 p1",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F1 HPSPC",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 10"
+  },
+  {
+   "postId": "B2 p8",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F2 Story",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 11"
+  },
+  {
+   "postId": "B2 p11",
+   "postedOn": "",
+   "job": "value + CTA",
+   "format": "F1 HPSPC",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 12"
   }
  ]
 }
