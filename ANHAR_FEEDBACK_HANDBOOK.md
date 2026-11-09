@@ -411,3 +411,18 @@ Context in one chat eventually runs out, so start each new batch in a fresh chat
 1. Attach this file (ANHAR_FEEDBACK_HANDBOOK.md).
 2. Say: "Run the social media agency skill. Before anything, read this handbook in full and the Airtable base 'Home Orbit, Social Media Agency': Batches, Feedback & Lessons, Formats, Visual Style, Posts, Post Performance, Conversion Windows."
 3. Mention the repo branch if you want the design kit reused: Anhar-web/Outreach-onboarding-form., branch ccr-95e1d196-cuqe7q (app/production-library/kit).
+
+# PART F: BATCH 1 RESULTS & INSTRUCTIONS FOR BATCH 2 (Nov 9)
+- **Two-tier results:**
+  - Bedtime: 4.4K views, 36 saves.
+  - Vacuum: 3.9K views, 13 followers.
+  - Both are still growing. The other 8 stopped at about 420–480 views (TikTok's first test audience).
+- **0 assessment completions** between Nov 4 and 9. The two posts that got reach had no CTA. On the conversion posts the CTA was on the last slide, but viewers saw about 2 slides on average.
+- **The winning hook shape** is her real moment plus a true, ironic twist about HER: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». It's universal (Generalist Principle) and a perspective shift. The posts that stalled mostly opened on the child's behavior as a problem to fix.
+- **Batch 2 instructions:**
+  1. Use the winning hook shape on every post.
+  2. Put a CTA on every post, and make sure it gets seen: an early soft CTA, plus a final CTA, the caption and a pinned comment.
+  3. Slide 2 escalates the problem. Keep carousels to about 7 slides.
+  4. Make sequels to the bedtime and chores/noise posts in the new labelled formats.
+  5. Post one per day.
+  6. Tag the bio link (`?src=tiktok`), track assessment starts, and collect profile views.
