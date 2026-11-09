@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T13:22:28.157758+00:00",
- "currentStep": 6,
+ "updatedAt": "2026-11-09T13:24:03.898783+00:00",
+ "currentStep": 7,
  "steps": [
   {
    "n": 1,
@@ -88,7 +88,7 @@
    "key": "format",
    "title": "Format",
    "subtitle": "You decide static slides or video for each picked concept, and its format label.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Format follows the idea",
     "body": "Some ideas need to be swiped, some need to move."
@@ -97,14 +97,14 @@
     "label": "Choose static or video (and the F-label) per concept.",
     "phrase": "Formats chosen."
    },
-   "report": "### Static slides or video, for each concept?\nNothing gets written until you decide. **Proposed:** all 12 as static carousels, the same as Batch 1, so the format labels (F1–F6) are the only thing that changes and the comparison stays clean.\n\n| # | Concept | Format label | Static / video |\n|---|---|---|---|\n| c1 | Night waking: half your bed is his | F1 HPSPC | static (proposed) |\n| c2 | Sneaking out: he opens his eyes | F2 Story | static (proposed) |\n| c3 | Your evening: 8 to 10 | F6 Checklist | static (proposed) |\n| c4 | \"Just today\" became every night | F3 Two voices | static (proposed) |\n| c5 | Cooking: he hangs on you | F1 HPSPC | static (proposed) |\n| c6 | Only after he sleeps | F6 Checklist | static (proposed) |\n| c7 | Hair dryer: only when he's far | F5 Walk-through | static (proposed) |\n| c8 | Blender: make sure he's far | F2 Story | static (proposed) |\n| c9 | Shower: knocking and crying | F3 Two voices | static (proposed) |\n| c10 | Hair wash: you come out wetter | F5 Walk-through | static (proposed) |\n| c11 | Kids' salon: screaming and running | F1 HPSPC | static (proposed) |\n| c12 | Phone calls: only behind a locked door | F4 Metaphor | static (proposed) |\n\n**Concepts that could also work as video** (a concept can be both):\n- **c2 Sneaking out (F2 Story):** the slow arm-slide and creaking floor are real movement and sound.\n- **c9 Shower (F3 Two voices):** the knocking and crying at the door, heard from inside.\n- **c8 Blender (F2 Story):** the before/after sound of the towel trick is something you hear, not read.\n\nVideo would need a script plus faceless footage or animation, which is a separate production run."
+   "report": "### Static slides or video, for each concept?\nNothing gets written until you decide. **Proposed:** all 12 as static carousels, the same as Batch 1, so the format labels (F1–F6) are the only thing that changes and the comparison stays clean.\n\n| # | Concept | Format label | Static / video |\n|---|---|---|---|\n| c1 | Night waking: half your bed is his | F1 HPSPC | static (proposed) |\n| c2 | Sneaking out: he opens his eyes | F2 Story | static (proposed) |\n| c3 | Your evening: 8 to 10 | F6 Checklist | static (proposed) |\n| c4 | \"Just today\" became every night | F3 Two voices | static (proposed) |\n| c5 | Cooking: he hangs on you | F1 HPSPC | static (proposed) |\n| c6 | Only after he sleeps | F6 Checklist | static (proposed) |\n| c7 | Hair dryer: only when he's far | F5 Walk-through | static (proposed) |\n| c8 | Blender: make sure he's far | F2 Story | static (proposed) |\n| c9 | Shower: knocking and crying | F3 Two voices | static (proposed) |\n| c10 | Hair wash: you come out wetter | F5 Walk-through | static (proposed) |\n| c11 | Kids' salon: screaming and running | F1 HPSPC | static (proposed) |\n| c12 | Phone calls: only behind a locked door | F4 Metaphor | static (proposed) |\n\n**Concepts that could also work as video** (a concept can be both):\n- **c2 Sneaking out (F2 Story):** the slow arm-slide and creaking floor are real movement and sound.\n- **c9 Shower (F3 Two voices):** the knocking and crying at the door, heard from inside.\n- **c8 Blender (F2 Story):** the before/after sound of the towel trick is something you hear, not read.\n\nVideo would need a script plus faceless footage or animation, which is a separate production run.\n\n**Decided (Nov 9):** all 12 are **static slides**, with the labels as proposed."
   },
   {
    "n": 7,
    "key": "production",
    "title": "Production",
    "subtitle": "The Copywriter writes every picked post in Arabic.",
-   "status": "idle",
+   "status": "working",
    "idea": {
     "title": "Written last, never from a blank page",
     "body": "Every post starts from a picked concept, a chosen hook and her own words."
@@ -113,7 +113,7 @@
     "label": "Read the drafts.",
     "phrase": "Looks good. Edit and test."
    },
-   "report": ""
+   "report": "*Two Copywriters are writing the 12 posts in parallel (c1–c6 and c7–c12)…*"
   },
   {
    "n": 8,
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -178,7 +178,7 @@
     "key": "cw",
     "name": "Copywriter",
     "role": "Writes the posts",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "av",
@@ -264,7 +264,7 @@
    "hook_ar": "سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟",
    "hook_gloss": "Your bed has become half your child's? Every night at two he comes to sleep beside you?",
    "status": "picked",
-   "format": null
+   "format": "slides · F1 HPSPC"
   },
   {
    "id": "c2",
@@ -274,7 +274,7 @@
    "hook_ar": "جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟",
    "hook_gloss": "You sat an hour getting him to sleep, and the moment you got up from beside him he opened his eyes?",
    "status": "picked",
-   "format": null
+   "format": "slides · F2 Story"
   },
   {
    "id": "c3",
@@ -284,7 +284,7 @@
    "hook_ar": "تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟",
    "hook_gloss": "You start putting him to sleep at eight, and you don't leave his room until ten?",
    "status": "picked",
-   "format": null
+   "format": "slides · F6 Checklist"
   },
   {
    "id": "c4",
@@ -294,7 +294,7 @@
    "hook_ar": "قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟",
    "hook_gloss": "You told him 'just today you'll sleep beside me', and now he refuses to sleep on his own?",
    "status": "picked",
-   "format": null
+   "format": "slides · F3 Two voices"
   },
   {
    "id": "c5",
@@ -304,7 +304,7 @@
    "hook_ar": "أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟",
    "hook_gloss": "As soon as you enter the kitchen he clings to you, so now you cook tomorrow's lunch while he's asleep?",
    "status": "picked",
-   "format": null
+   "format": "slides · F1 HPSPC"
   },
   {
    "id": "c6",
@@ -314,7 +314,7 @@
    "hook_ar": "ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟",
    "hook_gloss": "You can't vacuum while he's awake, and you don't cook until after he sleeps?",
    "status": "picked",
-   "format": null
+   "format": "slides · F6 Checklist"
   },
   {
    "id": "c7",
@@ -324,7 +324,7 @@
    "hook_ar": "ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟",
    "hook_gloss": "You can't turn on the hair dryer unless your child is far from you?",
    "status": "picked",
-   "format": null
+   "format": "slides · F5 Walk-through"
   },
   {
    "id": "c8",
@@ -334,7 +334,7 @@
    "hook_ar": "كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟",
    "hook_gloss": "Every time you want to turn on the blender, you have to make sure your child is far away?",
    "status": "picked",
-   "format": null
+   "format": "slides · F2 Story"
   },
   {
    "id": "c9",
@@ -344,7 +344,7 @@
    "hook_ar": "يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟",
    "hook_gloss": "He knocks on the bathroom door and cries the moment you close it, so now you shower after he sleeps or before he wakes?",
    "status": "picked",
-   "format": null
+   "format": "slides · F3 Two voices"
   },
   {
    "id": "c10",
@@ -354,7 +354,7 @@
    "hook_ar": "تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟",
    "hook_gloss": "You wash his hair while he screams, and you come out of the bathroom wetter than him?",
    "status": "picked",
-   "format": null
+   "format": "slides · F5 Walk-through"
   },
   {
    "id": "c11",
@@ -364,7 +364,7 @@
    "hook_ar": "كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟",
    "hook_gloss": "Every time you take him to the kids' salon, the screaming starts and he tries to run?",
    "status": "picked",
-   "format": null
+   "format": "slides · F1 HPSPC"
   },
   {
    "id": "c12",
@@ -374,7 +374,7 @@
    "hook_ar": "ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟",
    "hook_gloss": "You can't finish a call with your mum unless you go into the bathroom and lock the door?",
    "status": "picked",
-   "format": null
+   "format": "slides · F4 Metaphor"
   }
  ],
  "posts": [],
