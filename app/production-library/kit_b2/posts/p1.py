@@ -35,7 +35,8 @@ def big_bed(cx, cy, s=1.0, tone=T, child=True, mum=True, name='bed'):
     if mum:
         # mum: a long narrow lump on the far left edge, back of her head on the pillow edge
         out += paper(f'<path d="M -372 -230 Q -300 -240 -282 -150 L -270 300 Q -300 380 -372 380 Z" fill="{C["pearl"]}"/>'
-                     f'<path d="M -300 -150 Q -292 80 -296 300" fill="none" stroke="{C["tealMist"]}" stroke-width="8"/>', tone, 3, T=tr)
+                     f'<path d="M -282 -150 Q -270 80 -272 300" fill="none" stroke="{C["deep"]}" stroke-opacity=".45" stroke-width="10"/>'
+                     f'<path d="M -330 -180 Q -318 60 -326 330" fill="none" stroke="{C["tealMist"]}" stroke-width="8"/>', tone, 3, T=tr)
         out += paper(f'<ellipse cx="-330" cy="-300" rx="58" ry="66" fill="{C["ink"]}"/>', tone, 3, T=tr)
         out += paper(f'<g transform="rotate(8 -372 -100)"><rect x="-470" y="-130" width="110" height="64" rx="26" fill="{C["pearl"]}"/>'
                      f'<path d="M -470 -126 Q -540 -120 -540 -98 Q -540 -72 -470 -70 Z" fill="{C["sandLight"]}"/></g>', tone, 3, T=tr)
@@ -66,13 +67,13 @@ def small_bed(cx, cy, s=1.0, tone=T, child=True, rot=0, name='smallbed'):
     return avoid(out, name)
 
 
-def footprint(x, y, rot, s=1.0, right=True, col=None, op=.55):
-    """A small bare footprint from above: sole + five toes (toes are a row, never a face)."""
+def footprint(x, y, rot, s=1.0, right=True, col=None, op=.9):
+    """A small bare footprint from above: a sole and a row of five toes (big toe inside)."""
     col = col or C['pearl']
     m = 1 if right else -1
-    toes = ''.join(f'<ellipse cx="{m * (-14 + k * 7)}" cy="{-44 + abs(k - 1) * 3}" rx="{6 - k * .6:.1f}" ry="{7 - k * .6:.1f}"/>' for k in range(5))
+    toes = ''.join(f'<circle cx="{m * (-13 + k * 10.5):.1f}" cy="{-40 + k * k * 1.1:.1f}" r="{7.5 - k * .8:.1f}"/>' for k in range(5))
     return (f'<g transform="translate({x} {y}) rotate({rot}) scale({s})" fill="{col}" fill-opacity="{op}">'
-            f'<path d="M {m * -16} -30 Q {m * 18} -40 {m * 16} -6 Q {m * 14} 18 {m * 8} 34 Q {m * -4} 44 {m * -12} 30 Q {m * -20} 6 {m * -16} -30 Z"/>'
+            f'<path d="M {m * -14} -24 Q {m * 4} -34 {m * 20} -22 Q {m * 24} 0 {m * 12} 20 Q {m * 14} 40 {m * 0} 42 Q {m * -16} 40 {m * -14} 18 Q {m * -22} -6 {m * -14} -24 Z"/>'
             f'{toes}</g>')
 
 
@@ -81,8 +82,8 @@ def footsteps(pts, s=1.0):
     out = ''
     for k, (x, y, h) in enumerate(pts):
         a = math.radians(h)
-        off = 18 * (1 if k % 2 else -1)
-        out += footprint(x + off * math.cos(a), y + off * math.sin(a), h + 90, s, right=bool(k % 2))
+        off = 30 * (1 if k % 2 else -1)
+        out += footprint(x - off * math.sin(a), y + off * math.cos(a), h + 90, s, right=bool(k % 2))
     return avoid(paper(out, T, 1, 't'), 'steps')
 
 
@@ -141,34 +142,27 @@ def lamp_top(cx, cy, r=60, on=.35, tone=T):
     return g + avoid(stand + shade, 'lamp')
 
 
-def led_hands(path, f=.55):
-    """Top-down: mum's pearl sleeve from the right holding his small hand, his teal
-    pajama sleeve trailing towards his bed. Both walking along the dashed path."""
-    x, y = path
-    mum = paper(f'<path d="M 1120 {y + 230} L {x + 70} {y + 22} L {x + 40} {y - 40} L 1120 {y + 150} Z" fill="{C["pearl"]}"/>'
-                f'<rect x="{x + 40}" y="{y - 42}" width="40" height="66" rx="12" transform="rotate(25 {x + 60} {y - 10})" fill="{C["sandLight"]}"/>', T, 2)
-    hand_big = paper(f'<g transform="translate({x} {y}) rotate(25)"><path d="M 40 -38 Q -40 -48 -66 -12 Q -70 18 -40 34 L 40 30 Z" fill="{C["sandLight"]}"/>'
-                     + ''.join(f'<rect x="-92" y="{-30 + n * 15}" width="40" height="13" rx="6.5" fill="{C["sandLight"]}"/>' for n in range(4)) + '</g>', T, 3)
-    kid = paper(f'<path d="M {x - 50} {y - 6} L {x - 300} {y - 80} L {x - 290} {y - 130} L {x - 40} {y - 52} Z" fill="{C["tealDeep"]}"/>'
-                f'<ellipse cx="{x - 46}" cy="{y - 24}" rx="38" ry="28" fill="{C["sandLight"]}"/>', T, 2)
-    return avoid(kid + mum + hand_big, 'hands')
+def led_hands(x, y):
+    """Mum's pearl sleeve from the right edge, her big hand closed round his small
+    hand; his teal pajama sleeve trails ahead, towards his own bed (left)."""
+    kid = torn_strip([(x - 330, y - 50), (x - 60, y + 6)], 64, C['tealDeep'], T, seed=91, layer=2)
+    arm = torn_strip([(1110, y + 250), (x + 70, y + 30)], 96, C['pearl'], T, seed=92, layer=3)
+    palm = paper(f'<g transform="translate({x + 30} {y + 18}) rotate(22)">'
+                 f'<rect x="-30" y="-50" width="110" height="100" rx="40" fill="{C["sandLight"]}"/>'
+                 + ''.join(f'<rect x="-92" y="{-44 + n * 23}" width="{86 - abs(n - 1.5) * 10:.0f}" height="20" rx="10" fill="{C["sandLight"]}"/>' for n in range(4))
+                 + f'<path d="M -84 -44 Q -60 -60 -30 -50" fill="none" stroke="{C["goldDeep"]}" stroke-opacity=".4" stroke-width="3"/>'
+                 '</g>', T, 3)
+    cuff = paper(f'<g transform="translate({x + 112} {y + 46}) rotate(22)"><rect x="-14" y="-56" width="34" height="112" rx="12" fill="{C["pearl"]}"/></g>', T, 3)
+    small = paper(f'<g transform="translate({x - 64} {y + 4}) rotate(14)">'
+                  f'<ellipse cx="0" cy="0" rx="40" ry="32" fill="{C["sandLight"]}"/>'
+                  + ''.join(f'<rect x="10" y="{-26 + n * 15}" width="44" height="13" rx="6.5" fill="{C["sandLight"]}"/>' for n in range(4))
+                  + f'<path d="M -30 -10 Q 0 -30 30 -14" fill="none" stroke="{C["goldDeep"]}" stroke-opacity=".35" stroke-width="3"/></g>', T, 3)
+    return avoid(kid + arm + palm + cuff + small, 'hands')
 
 
-def dashed(pts, col=None, width=12, dash=34, gap=24, seed=0):
-    """A dashed path of small torn strips along a polyline."""
+def dotted_path(d, col=None, width=14):
     col = col or C['pearl']
-    from kit import resample
-    dense = resample(pts, 4)
-    out, acc, on, cur = '', 0, True, [dense[0]]
-    for a, b in zip(dense, dense[1:]):
-        acc += math.hypot(b[0] - a[0], b[1] - a[1])
-        if on:
-            cur.append(b)
-        if on and acc >= dash:
-            out += torn_strip(cur, width, col, T, seed=seed + len(out) % 97, layer=1, core=False); on, acc = False, 0
-        elif not on and acc >= gap:
-            on, acc, cur = True, 0, [b]
-    return out
+    return paper(f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{width}" stroke-linecap="round" stroke-dasharray="26 30" stroke-opacity=".8"/>', T, 1, 't')
 
 
 def chair_top(cx, cy, s=1.0, mum=True):
@@ -218,25 +212,24 @@ def slide(ctx):
         art = (crescent(170, 640, 56, layer=1)
                + lamp_top(980, 760, 46, on=.3)
                + big_bed(540, 1110, .86))
-        html = hook_box(ctx, G, y=MT - 10, size=96, breaks=('؟ ',), keep=('سريرك صار نصه لطفلك؟', 'الساعة اثنين'))
+        html = hook_box(ctx, G, y=MT - 10, size=88, w=920, breaks=('؟ ',), keep=('سريرك صار نصه لطفلك؟', 'الساعة اثنين', 'ينام جنبك؟'))
     elif s == 2:
-        steps = [(150 + k * 72, 1290 - k * 44, -32) for k in range(8)]
+        steps = [(110 + k * 92, 1230 - k * 53, -30) for k in range(6)]
         art = (door_light(0, 900, 40, 450)
-               + big_bed(800, 1070, .5)
-               + footsteps(steps, 1.0))
+               + big_bed(810, 990, .5)
+               + footsteps(steps, 1.15))
         html = body_box(ctx, G)
     elif s == 3:
-        art = (crescent(880, 900, 50, layer=1) + sleepy_eyes(500, 1130, w=230, gap=140))
+        art = (crescent(880, 900, 50, layer=1) + sleepy_eyes(520, 1080, w=300, gap=150))
         html = body_box(ctx, G)
     elif s == 4:
-        art = crescent(560, 700, 44, layer=1) + night_clock(300, 820, 150)
-        html = body_box(ctx, G) + soft_cta(ctx, y=1050)
+        art = crescent(470, 660, 40, layer=1) + night_clock(260, 790, 120)
+        html = body_box(ctx, G) + soft_cta(ctx, y=940)
     elif s == 5:
-        path = [(1080, 1240), (900, 1150), (700, 1110), (480, 1130), (330, 1070)]
-        art = (lamp_top(120, 760, 40, on=.18)
-               + small_bed(240, 1080, .62, child=False, rot=0)
-               + dashed(path, seed=3)
-               + led_hands((760, 1080)))
+        art = (lamp_top(120, 700, 40, on=.18)
+               + small_bed(230, 1060, .62, child=False)
+               + dotted_path('M 1060 1250 C 860 1200, 640 1200, 400 1130')
+               + led_hands(690, 1000))
         html = body_box(ctx, G)
     elif s == 6:
         art = (lamp_top(110, 640, 36, on=.15)
@@ -244,6 +237,6 @@ def slide(ctx):
                + chair_top(720, 1000, 1.0))
         html = body_box(ctx, G)
     elif s == 7:
-        art = day_night(y=1050) + big_bed(820, 1330, .22, name='mini') + small_bed(560, 1330, .25, name='mini2')
+        art = day_night(y=1000)
         html = body_box(ctx, G)
     return {'ground': G, 'art': art, 'html': html}

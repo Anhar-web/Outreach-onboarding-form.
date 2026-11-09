@@ -132,12 +132,13 @@ def bubble(x, y, w=230, h=140, tail='right', seed=5, words=2, tone=T):
     return avoid(torn_rect(x, y, w, h, C['pearl'], tone, 'tblr', seed=seed, layer=3, inner=tl + bars), 'bubble')
 
 
-def mum_hand(x, y, s=1.0, tone=T):
+def mum_hand(x, y, s=1.0, length=380, tone=T):
     """Mum's wet pearl sleeve + hand reaching right, to the inside of the handle."""
     tr = f'translate({x} {y}) scale({s})'
-    out = paper(f'<path d="M -420 -56 L -40 -48 L -40 48 L -420 56 Z" fill="{C["pearl"]}"/>'
+    L = -40 - length
+    out = paper(f'<path d="M {L} -56 L -40 -48 L -40 48 L {L} 56 Z" fill="{C["pearl"]}"/>'
                 f'<path d="M -40 -40 Q 40 -54 74 -24 Q 88 4 64 30 Q 30 50 -40 40 Z" fill="{C["sandLight"]}"/>', tone, 2, T=tr)
-    out += paper(''.join(f'<ellipse cx="{-360 + k * 72}" cy="{-12 + (k % 2) * 28}" rx="20" ry="11" fill="{C["teal"]}" fill-opacity=".6"/>' for k in range(5)),
+    out += paper(''.join(f'<ellipse cx="{L + 50 + k * 72}" cy="{-12 + (k % 2) * 28}" rx="20" ry="11" fill="{C["teal"]}" fill-opacity=".6"/>' for k in range(int(length / 80))),
                  tone, 3, 't', T=tr)
     return avoid(out, 'sleeve')
 
@@ -164,7 +165,7 @@ def sound_arcs(x, y, n=4, r0=90, gap=70, a=48, tone=T):
     """Gold arcs of the voice, centred at (x, y), opening to the right."""
     out = ''
     for k in range(n):
-        out += torn_strip(arc_pts(x, y, r0 + k * gap, -a, a, 18), 18, C['gold'], tone, seed=110 + k, layer=3)
+        out += torn_strip(arc_pts(x, y, r0 + k * gap, -a, a, 18), 24, C['teal' if k % 2 == 0 else 'gold'], tone, seed=110 + k, layer=3)
     return avoid(out, 'voice')
 
 
@@ -175,13 +176,14 @@ def chair(x, s=1.0, towel=True, hands=True, tone=T):
     legs = paper(f'<rect x="-80" y="-150" width="18" height="150" rx="5" fill="{C["goldDeep"]}"/>'
                  f'<rect x="62" y="-150" width="18" height="150" rx="5" fill="{C["goldDeep"]}"/>', tone, 1, T=tr)
     seat = paper(f'<rect x="-92" y="-176" width="184" height="32" rx="8" fill="{C["gold"]}"/>'
-                 f'<rect x="62" y="-380" width="30" height="214" rx="10" fill="{C["gold"]}"/>'
-                 f'<rect x="-50" y="-360" width="130" height="22" rx="8" fill="{C["gold"]}"/>', tone, 2, T=tr)
+                 f'<rect x="58" y="-400" width="40" height="234" rx="14" fill="{C["gold"]}"/>'
+                 f'<path d="M 64 -330 H 92" stroke="{C["goldDeep"]}" stroke-opacity=".35" stroke-width="6"/>', tone, 2, T=tr)
     out = legs + seat
     if towel:
-        out += paper(f'<rect x="-84" y="-262" width="160" height="86" rx="10" fill="{C["pearl"]}"/>'
-                     f'<rect x="-84" y="-234" width="160" height="14" fill="{C["teal"]}"/>'
-                     f'<path d="M -84 -218 H 76" stroke="{C["tealMist"]}" stroke-width="6"/>', tone, 3, T=tr)
+        out += paper(f'<rect x="-80" y="-222" width="150" height="46" rx="10" fill="{C["pearl"]}"/>'
+                     f'<rect x="-80" y="-206" width="150" height="12" fill="{C["teal"]}"/>', tone, 3, T=tr)
+        out += paper(f'<rect x="-70" y="-262" width="134" height="44" rx="10" fill="{C["pearl"]}"/>'
+                     f'<rect x="-70" y="-248" width="134" height="12" fill="{C["teal"]}"/>', tone, 3, T=tr)
         if hands:
             out += paper(f'<rect x="-108" y="-252" width="44" height="58" rx="20" fill="{C["sandLight"]}"/>'
                          f'<rect x="56" y="-252" width="44" height="58" rx="20" fill="{C["sandLight"]}"/>', tone, 3, T=tr)
@@ -198,19 +200,19 @@ def slide(ctx):
     s = ctx.s
     if ctx.last:
         keep_in(ctx.t.segs, 'فكري في الأشياء', 'اللي صرتي تسويها', 'قبل ما يصحى', 'أو بعد ما ينام.')
-        mini = (f'<g transform="translate(70 {1350 - 420}) scale(.36)">'
+        mini = (f'<g transform="translate(60 {1350 - 500}) scale(.42)">'
                 + f'<g transform="translate(0 {-FL + 1100})">{door(330, 1.0, light=False, tone="l")}{chair(640, 1.0, hands=False, tone="l")}</g></g>')
         return cta_end(ctx, mini_art=mini, tag_y=1030, tag_x=W - MX - 520)
 
     art, html = '', ''
     if s == 1:
-        dx, ds = 560, .82
+        dx, ds = 540, .66
         art = (scene(dx, ds)
-               + shower_head(120, 780, .8) + water(120, 850, length=300, n=4, spread=24, seed=3)
-               + steam(170, 1120, n=3, h=240)
-               + knocks(dx + DW * ds / 2 + 6, 960, .9)
-               + fist(dx + DW * ds / 2 + 52, 960, .9)
-               + drops([(880, 1080), (930, 1150), (850, 1170)], r=13))
+               + shower_head(130, 880, .72) + water(130, 945, length=230, n=4, spread=22, seed=3)
+               + steam(190, 1180, n=3, h=200)
+               + knocks(dx + DW * ds / 2 + 6, 1020, .8)
+               + fist(dx + DW * ds / 2 + 46, 1020, .8)
+               + drops([(860, 1110), (910, 1170), (830, 1180)], r=12))
         html = hook_box(ctx, G, y=MT - 20, size=92, w=900,
                         keep=('يدق باب الحمام', 'ويبكي  أول ما تسكريه،', 'فصرتي تتروشي', 'بعد ما ينام', 'أو قبل ما يصحى؟'))
     elif s == 2:
@@ -226,10 +228,10 @@ def slide(ctx):
         # INSIDE: the door pushed right; the bathroom fills the frame
         dx = 840
         art = (scene(dx, 1.0, tiles_top=560)
-               + shower_head(240, 640, 1.05) + water(240, 735, length=420, n=6, spread=26, seed=11)
-               + steam(110, 1180, n=3, h=300, seed=21) + steam(400, 1180, n=2, h=260, seed=31)
-               + bubble(470, 820, 220, 130, tail='left', seed=8)
-               + mum_hand(dx - DW / 2 - 50, FL - DH / 2 + 4, 1.0))
+               + shower_head(200, 640, 1.0) + water(200, 735, length=400, n=5, spread=24, seed=11)
+               + steam(60, 1190, n=2, h=260, seed=21)
+               + bubble(390, 610, 230, 130, tail='left', seed=8)
+               + mum_hand(dx - DW / 2 - 50, FL - DH / 2 + 4, 1.0, length=280))
         keep_in(ctx.t.segs, 'الموية شغالة', 'وأنتي تقولي "جيت، جيت"', 'وتستعجلي.', 'تطلعي له', 'وما خلصتي.')
         html = body_box(ctx, G, y=MT + 115)
     elif s == 4:
@@ -246,25 +248,25 @@ def slide(ctx):
         html = body_box(ctx, G, y=MT + 115)
     elif s == 5:
         # step 1: the snack bowl outside, a calm small hand in it; the door small and low
-        dx, ds = 330, .56
+        dx, ds = 330, .48
         art = (scene(dx, ds) + steam(70, 1190, n=2, h=150, seed=61)
                + bowl(720, 1130, .92))
         keep_in(ctx.t.segs, 'لا تدخلي الحمام', 'وطفلك فاضي يدور عليك.', 'ادخلي أول ما يبدأ شي يحبه،', 'ياكل سناكه', 'أو يلعب بألعابه.')
-        html = body_box(ctx, G, y=MT + 115) + soft_cta(ctx, y=640, w=860)
+        html = body_box(ctx, G, y=MT + 115) + soft_cta(ctx, y=600, w=888)
     elif s == 6:
         # step 2: her voice passes through the closed door as gold arcs
         dx = 540
         art = (scene(dx, .92)
                + shower_head(130, 690, .78) + water(130, 760, length=300, n=4, spread=22, seed=71)
                + bubble(110, 1000, 200, 120, tail='right', seed=14)
-               + sound_arcs(330, 1060, n=5, r0=120, gap=82, a=40))
+               + sound_arcs(300, 960, n=5, r0=110, gap=92, a=30))
         keep_in(ctx.t.segs, 'خلي صوتك يوصله', 'طول الوقت.', 'كذا يسمع إنك موجودة،', 'حتى والباب مسكّر.')
         html = body_box(ctx, G, y=MT + 115)
     elif s == 7:
         # step 3: a small chair by the door, mum's folded towel held in small hands
         dx, ds = 420, .8
         art = (scene(dx, ds) + steam(80, 1190, n=2, h=180, seed=81)
-               + chair(dx + DW * ds / 2 + 190, 1.05))
+               + chair(dx + DW * ds / 2 + 190, 1.1, hands=False))
         keep_in(ctx.t.segs, 'اعطيه شغلة برا.', 'يمسك منشفتك جنب الباب،', 'ويعطيك إياها', 'أول ما تطلعي.', 'كذا يستنى', 'عشان يعطيك شي،', 'مو بس يستناك.')
         html = body_box(ctx, G, y=MT + 115)
     return {'ground': G, 'art': art, 'html': html}

@@ -110,7 +110,7 @@ def hand_shower(x, y, s=1.0, rot=0, stream=True, seed=5, hand=False, hose=True, 
                  f'<ellipse cx="0" cy="-4" rx="98" ry="44" fill="{C["gold"]}"/>' + holes, T, 3, T=tr)
     if hand:
         # a small hand wrapped round the handle, wrist + sleeve running off down the handle line
-        out += paper(f'<g transform="{tr}"><path d="M 150 300 L 260 620 L 170 660 L 74 330 Z" fill="{C["tealDeep"]}"/>'
+        out += paper(f'<g transform="{tr}"><path d="M 150 300 L 200 450 L 116 480 L 74 330 Z" fill="{C["tealDeep"]}"/>'
                      f'<path d="M 40 150 Q 30 120 66 112 L 120 104 Q 150 104 154 136 L 168 270 Q 172 310 130 316 L 96 320 Q 64 320 60 290 Z" fill="{C["sandLight"]}"/>'
                      + ''.join(f'<path d="M {50 + k * 4} {150 + k * 34} Q {100 + k * 4} {140 + k * 34} {150 + k * 4} {150 + k * 34}" fill="none" '
                                f'stroke="{C["goldDeep"]}" stroke-opacity=".45" stroke-width="5" stroke-linecap="round"/>' for k in range(4))
@@ -170,8 +170,8 @@ def splash(cx, cy, r, seed=70):
 def slide(ctx):
     s = ctx.s
     if ctx.last:
-        mini = (f'<g transform="translate(70 940) scale(.62)">{towel(260, 330, 300, 150, rot=-8, hand=False)}</g>'
-                + hand_shower(250, 1010, .5, rot=-40, stream=False, hose=True))
+        mini = (f'<g transform="translate(40 960) scale(.62)">{towel(260, 330, 300, 150, rot=-8, hand=False)}</g>'
+                + hand_shower(200, 1000, .5, rot=-25, stream=False, hose=False))
         return cta_end(ctx, mini_art=mini, tag_y=1000, tag_x=W - MX - 520)
     art, html = '', ''
     if s == 1:
@@ -189,9 +189,9 @@ def slide(ctx):
     elif s == 3:
         # the promise: the three tools lined up big on a torn pearl shelf
         art = avoid(torn_rect(90, 1110, 900, 40, C['pearl'], T, sides='tb', seed=12, layer=1), 'shelf')
-        art += towel(800, 1035, 300, 150, rot=-3, hand=False)
-        art += counting(620, 950, n=10, lit=10, r=27, gap=66)
-        art += hand_shower(220, 760, .95, rot=-8, stream=False, hose=False)
+        art += towel(862, 1040, 230, 150, rot=-3, hand=False)
+        art += counting(680, 960, n=10, lit=10, r=25, gap=58)
+        art += hand_shower(200, 760, .95, rot=-8, stream=False, hose=False)
         html = body_box(ctx, G, y=MT + 60)
     elif s == 4:
         art = towel_eyes(400, 1170, 150) + small_head(400, 1170, r=150, foam=True)
@@ -200,19 +200,17 @@ def slide(ctx):
         # water cut at ten: the stream stops, ten gold discs counted out
         art = (shower_head(270, 745, .9) + water(270, 860, n=6, length=330, angle=80, seed=14, gaps=True, width=24)
                + drops([(300, 1030), (250, 1110), (330, 1190)], r=16)
-               + counting(900, 990, n=10, lit=10, r=38, gap=92)
-               + avoid(torn_circle(900 - 4 * 92, 1082, 56, C['gold'], T, seed=91, layer=1), 'stop'))
+               + counting(900, 990, n=10, lit=10, r=38, gap=92))
         html = body_box(ctx, G)
     elif s == 6:
         # the small hand holds the hand shower; the stream is short and gentle
         art = (small_head(720, 1215, r=135, foam=False)
-               + hand_shower(430, 860, 1.05, rot=148, stream=True, seed=21, hand=True, hose=False, n_stream=5, L=230))
+               + hand_shower(450, 930, 1.0, rot=148, stream=True, seed=21, hand=True, hose=False, n_stream=5, L=230))
         html = body_box(ctx, G)
     elif s == 7:
         # the three tools together, a little cascade from top-left, and a dry pearl sleeve
         art = (hand_shower(200, 760, .82, rot=-12, stream=False, hose=False)
-               + counting(600, 900, n=10, lit=10, r=26, gap=62)
-               + towel(790, 1090, 320, 160, rot=-5, hand=False)
-               + sleeve(1060, 1260, rot=-165, wet=False))
+               + counting(680, 930, n=10, lit=10, r=26, gap=62)
+               + towel(760, 1110, 340, 170, rot=-5, hand=False))
         html = body_box(ctx, G)
     return {'ground': G, 'art': art, 'html': html}

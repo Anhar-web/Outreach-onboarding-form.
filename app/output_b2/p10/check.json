@@ -53,10 +53,6 @@
  "fail": [],
  "warn": [
   "slide-4.html: 8 text lines (max 5 + tab)",
-  "slide-6.html: text line \"اعطيه الدش يمسكه.\" crosses motif \"shower\"",
-  "slide-6.html: text line \"الموية اللي يوجهها بيده \" crosses motif \"shower\"",
-  "slide-6.html: text line \"الموية اللي يوجهها بيده \" crosses motif \"shower\"",
-  "slide-8.html: text line \"الرابط في البايو.\" crosses motif \"shower\"",
   "slide-8.html: 8 text lines (max 5 + tab)"
  ],
  "verbatim": "PASS"

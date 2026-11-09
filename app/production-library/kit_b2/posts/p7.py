@@ -86,7 +86,7 @@ def dryer(x, y, s=1.0, rot=0, tone=T, levels=None, button=False, hand=True, slee
                       f'fill="{C["gold"] if lit else C["pearl"]}" fill-opacity="{1 if lit else .45}"/>')
         o += paper(f'<g transform="rotate(14 60 40)">{marks}</g>', tone, layer + 1, T=tr)
     if button:
-        o += paper(f'<g transform="rotate(14 60 40)"><rect x="34" y="60" width="64" height="40" rx="14" fill="{C["gold"]}"/></g>', tone, layer + 1, T=tr)
+        o += paper(f'<circle cx="10" cy="20" r="30" fill="{C["gold"]}"/><circle cx="10" cy="20" r="14" fill="{C["goldDeep"]}" fill-opacity=".5"/>', tone, layer + 2, T=tr)
     if hand:
         # mum's fingers wrapped round the handle (four rounded bars) + teal sleeve below
         f = ''.join(f'<rect x="-6" y="{118 + n * 40}" width="128" height="36" rx="18" fill="{C["sandLight"]}"/>' for n in range(4))
@@ -121,13 +121,13 @@ def mum_back(cx, cy, s=1.0, wet=True, tone=T):
     tr = f'translate({cx} {cy}) scale({s})'
     sh = paper(f'<path d="M -280 420 Q -270 200 -70 175 L 70 175 Q 270 200 280 420 Z" fill="{C["teal"]}"/>'
                f'<path d="M -70 175 Q 0 215 70 175" fill="none" stroke="{C["tealDeep"]}" stroke-width="10"/>', tone, 1, T=tr)
-    hair = paper(f'<circle cx="0" cy="-30" r="150" fill="{C["night"]}"/>'
-                 f'<path d="M -150 -30 Q -170 150 -205 300 Q -110 330 0 318 Q 110 330 205 300 Q 170 150 150 -30 Z" fill="{C["night"]}"/>'
+    hair = paper(f'<path d="M -128 60 Q -150 180 -200 300 Q -110 330 0 318 Q 110 330 200 300 Q 150 180 128 60 Z" fill="{C["night"]}"/>'
+                 f'<circle cx="0" cy="-40" r="150" fill="{C["night"]}"/>'
                  f'<path d="M 0 -178 Q -10 60 -6 300" fill="none" stroke="{C["deep"]}" stroke-width="8" stroke-linecap="round"/>'
                  f'<path d="M -90 -110 Q -130 100 -150 290 M 90 -110 Q 130 100 150 290" fill="none" stroke="{C["deep"]}" stroke-width="8" stroke-linecap="round"/>',
                  tone, 2, T=tr)
     clip = paper(f'<rect x="-70" y="-150" width="140" height="34" rx="14" fill="{C["gold"]}" transform="rotate(-6 0 -133)"/>', tone, 3, T=tr)
-    o = sh + hair + clip
+    o = sh + hair
     if wet:
         d = ''
         for k, (dx, dy) in enumerate(((-170, 350), (-130, 395), (165, 345), (135, 400), (-195, 440), (40, 360))):
@@ -174,7 +174,7 @@ def small_hand(x, y, s=1.0, rot=0, tone=T):
     g = (f'<rect x="-15" y="0" width="30" height="100" rx="15" fill="{C["sandLight"]}"/>'
          f'<path d="M -40 80 Q -44 70 -20 66 L 50 66 Q 66 70 62 100 L 58 170 Q 50 196 10 196 L -26 196 Q -48 190 -46 160 Z" fill="{C["sandLight"]}"/>'
          f'<path d="M -14 110 H 50 M -14 138 H 52" stroke="{C["goldDeep"]}" stroke-opacity=".3" stroke-width="4"/>'
-         f'<rect x="-46" y="190" width="104" height="160" rx="18" fill="{C["gold"]}"/>')
+         f'<rect x="-50" y="186" width="112" height="70" rx="18" fill="{C["gold"]}"/>')
     return avoid(paper(g, tone, 4, T=tr), 'finger')
 
 
@@ -231,7 +231,7 @@ def slide(ctx):
     elif s == 5:
         # his small finger on the button while mum holds the handle
         art = (dryer(560, 830, 1.05, rot=-4, button=True, sleeve=True)
-               + small_hand(600, 925, .8, rot=90))
+               + small_hand(566, 858, .85, rot=40))
         html = body(ctx)
     elif s == 6:
         # far from the mirror: the bed corner left, him seated, space around; arcs fade before him
