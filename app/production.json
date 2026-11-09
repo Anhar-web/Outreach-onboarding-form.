@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — production: Batch 2 (12 carousels)",
- "updatedAt": "2026-11-09T16:38:25.995938+00:00",
- "currentStep": 4,
+ "updatedAt": "2026-11-09T18:52:16.103163+00:00",
+ "currentStep": 7,
  "steps": [
   {
    "n": 1,
@@ -56,7 +56,7 @@
    "key": "build",
    "title": "Build",
    "subtitle": "Carousel Designers + Illustrators build every slide in the cut-paper kit.",
-   "status": "working",
+   "status": "done",
    "idea": {
     "title": "Built in paper, checked by machine",
     "body": "Every slide's Arabic is read back from the render and compared to the approved copy, character for character."
@@ -65,14 +65,14 @@
     "label": "Wait for the build; then review the slides and comment.",
     "phrase": null
    },
-   "report": "*Four designers are building three posts each…*\n\n**Kit additions for Batch 2:**\n- An automatic check that **no line ends with a comma**: where a line breaks at a comma, the comma is hidden, and short list commas are kept off line ends.\n- The soft CTA on a gold torn strip.\n- A gold CTA end slide on every post."
+   "report": "### Build complete: 12 posts, 94 slides\nFour designers built the posts in the Batch 2 kit. Every slide is cut paper on a grained ground, with El Messiri hooks and Tajawal body text.\n\n**Automatic checks on every slide (all pass):**\n- **Verbatim Arabic.** The text is read back from the rendered slide and matched character by character against your final copy.\n- **No line ends with a comma.** Where a line breaks at a comma, the comma is dropped. Short list commas are kept off line ends.\n- Both fonts loaded, nothing under 44px, nothing outside the 60px crop-safe edge, no text crossing the art.\n\n| Day | Post | Ground | Composition |\n|---|---|---|---|\n| 1 | p10 Hair wash | deep | vertical cascade |\n| 2 | p5 Cooking | sandLight | child's-eye counter |\n| 3 | p2 Sneaking out | night | the door ajar |\n| 4 | p9 Shower | deep | the door as divider |\n| 5 | p6 Only after he sleeps | tealMist | pinned notes |\n| 6 | p4 \"Just today\" | night | moons multiply |\n| 7 | p7 Hair dryer | pearl | the mirror |\n| 8 | p3 8 to 10 | deep | the day band |\n| 9 | p12 Phone calls | tealMist | tug of war |\n| 10 | p1 Night waking | night | top-down bed |\n| 11 | p8 Blender | deep | macro jar |\n| 12 | p11 Kids' salon | sandLight | chair as a stage |\n\nEvery post ends on the gold CTA slide with the «الرابط في البايو.» tag. The soft CTA sits on a small gold strip."
   },
   {
    "n": 5,
    "key": "repurpose",
    "title": "Repurposing",
    "subtitle": "Optional cutdowns from the same ideas.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "One idea, many cuts",
     "body": ""
@@ -81,14 +81,14 @@
     "label": "",
     "phrase": null
    },
-   "report": ""
+   "report": "Skipped for this run: static only."
   },
   {
    "n": 6,
    "key": "qa",
    "title": "Creative QA",
    "subtitle": "Scored against the production scorecard; Arabic legibility is a gate.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "The gate",
     "body": "Broken or altered Arabic never ships."
@@ -97,14 +97,14 @@
     "label": "",
     "phrase": null
    },
-   "report": ""
+   "report": "### Creative QA\n| Post | Score | Note |\n|---|---|---|\n| p10 | 86 | Strongest first frame: the falling-water cascade lands the hook's irony. The redrawn hand shower now reads clearly. The soft CTA strip runs to 3 lines on s4. |\n| p5 | 84 | The child's-eye counter band is fresh for the feed. Steam and the hem read instantly. Flag: s7 (the method slide) keeps «كل أسبوعين» from the approved copy. Your rule says to drop it, but the copy is locked, so it's your call. |\n| p2 | 83 | The door-ajar sliver of light carries the tension. The footprints, then «ماما», then the door loop tell the story. s5 has a squat door to fit the long copy. |\n| p9 | 85 | The door as the divider is the clearest two-voices layout in the batch, with outside and inside swapping sides. The spoken «جيت، جيت» is kept on one line. |\n| p6 | 82 | The tealMist light ground breaks up the dark run. The notes turn over one per slide. Flag: the ear icon on note 1 is small and could read as «?» in a thumbnail. |\n| p4 | 84 | The moon multiplying into a row is a strong visual metaphor for «اليوم بس». The beds stay on one floor line, so it reads as one room. |\n| p7 | 84 | The batch's only pearl ground. It's about HER own hair: she's seen from behind at the mirror, and the mirror shows glare only, with no face. |\n| p3 | 80 | The day band is a new device. The checks are illustrated clearly. Text-heavy slides (s4, s5, s8) push the art low. The tab overlap on s5 is fixed. |\n| p12 | 83 | The tug of war over the PHONE matches your correction (he wants the phone). The toy-car metaphor slide is clear. |\n| p1 | 82 | The top-down bed is distinct from the Batch 1 side panorama. s3 shows closed-eye arcs only, with no head shape. The soft CTA strip on s4 is 4 lines long. |\n| p8 | 81 | The macro jar on slide 1 is bold. Flag: the hook itself has no ironic twist about her (Test Panel note). The towel and pulse slides are the most usable. |\n| p11 | 83 | The chair as a stage under a spotlight, on a warm sandLight ground. The back-of-head lap view on s5 keeps faces off. |\n\n**Gate:** Arabic legibility passed on all 12 (verbatim PASS, fonts loaded, no clipped text, no comma at a line end).\n\n**Open flags for you:**\n1. **p5 s7** still says «ونعدّل كل أسبوعين». It's in your locked copy, but your p1 rule removes it.\n2. Several long slides run past 5 lines (your approved copy), so the art sits smaller on those.\n3. Some soft-CTA strips run to 3–4 lines (p1, p3, p8, p11).\n\nScores are a flag, not a verdict. Your eye decides."
   },
   {
    "n": 7,
    "key": "delivery",
    "title": "Delivery & library",
    "subtitle": "PNGs handed over, the library updated.",
-   "status": "idle",
+   "status": "needs-you",
    "idea": {
     "title": "Ready to post",
     "body": ""
@@ -113,7 +113,7 @@
     "label": "",
     "phrase": null
    },
-   "report": ""
+   "report": "### Delivery\n- **Previews:** one contact sheet per post below (read right to left, slide 1 top-right).\n- **Full-size PNGs:** the \"Slide N PNG\" links under each post open the 1080×1350 file. Save from there.\n- **Repo:** `app/output_b2/<post>/slide-N.png` on branch `claude/adoring-planck-83m3n1`.\n\nReview the slides and leave comments on this page or in chat. I'll apply your input, then file everything to Airtable (Posts: Composition / Ground colour / Files; Visual Style: the new compositions)."
   }
  ],
  "plan": {
@@ -140,19 +140,19 @@
     "key": "cd",
     "name": "Carousel Designers ×4",
     "role": "Branch A: static & carousel",
-    "status": "working"
+    "status": "done"
    },
    {
     "key": "il",
     "name": "Illustrators",
     "role": "Branch A: paper-art motifs",
-    "status": "working"
+    "status": "done"
    },
    {
     "key": "qa",
     "name": "Creative QA",
     "role": "Scored, brand & Arabic gate",
-    "status": "idle"
+    "status": "done"
    }
   ]
  },
@@ -205,134 +205,275 @@
   {
    "id": "p10",
    "title": "Day 1 · Hair wash: you come out wetter",
-   "format": "slides · F5 Walk-through",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 86,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "تطلعي من الحمام مبلولة أكثر منه؟ لاحظي متى يبدأ الصياح، وابدئي بالتقييم المجاني في البايو.\nثلاث خطوات بأشياء موجودة في حمامك دحين.",
+   "notes": "Strongest first frame: the falling-water cascade lands the hook's irony. The redrawn hand shower now reads clearly. The soft CTA strip runs to 3 lines on s4.",
+   "images": [
+    "previews/day01-p10.jpg"
+   ],
+   "links": [
+    "png/day01-p10/slide-1.png",
+    "png/day01-p10/slide-2.png",
+    "png/day01-p10/slide-3.png",
+    "png/day01-p10/slide-4.png",
+    "png/day01-p10/slide-5.png",
+    "png/day01-p10/slide-6.png",
+    "png/day01-p10/slide-7.png",
+    "png/day01-p10/slide-8.png"
+   ]
   },
   {
    "id": "p5",
    "title": "Day 2 · Cooking: he hangs on you",
-   "format": "slides · F1 HPSPC",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 84,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "يتعلق فيكي أول ما تدخلي المطبخ؟ ابدئي بالتقييم المجاني في البايو، وشوفي ايش يحتاج اهتمامك أول.\nوفي الصور ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.",
+   "notes": "The child's-eye counter band is fresh for the feed. Steam and the hem read instantly. Flag: s7 (the method slide) keeps «كل أسبوعين» from the approved copy. Your rule says to drop it, but the copy is locked, so it's your call.",
+   "images": [
+    "previews/day02-p5.jpg"
+   ],
+   "links": [
+    "png/day02-p5/slide-1.png",
+    "png/day02-p5/slide-2.png",
+    "png/day02-p5/slide-3.png",
+    "png/day02-p5/slide-4.png",
+    "png/day02-p5/slide-5.png",
+    "png/day02-p5/slide-6.png",
+    "png/day02-p5/slide-7.png",
+    "png/day02-p5/slide-8.png"
+   ]
   },
   {
    "id": "p2",
    "title": "Day 3 · Sneaking out: he opens his eyes",
-   "format": "slides · F2 Story",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 83,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "جلستي ساعة تنوميه، وأول ما قمتي من جمبه فتح عيونه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور خطوتين تخلي طلوعك من غرفته شي يعرفه.",
+   "notes": "The door-ajar sliver of light carries the tension. The footprints, then «ماما», then the door loop tell the story. s5 has a squat door to fit the long copy.",
+   "images": [
+    "previews/day03-p2.jpg"
+   ],
+   "links": [
+    "png/day03-p2/slide-1.png",
+    "png/day03-p2/slide-2.png",
+    "png/day03-p2/slide-3.png",
+    "png/day03-p2/slide-4.png",
+    "png/day03-p2/slide-5.png",
+    "png/day03-p2/slide-6.png",
+    "png/day03-p2/slide-7.png"
+   ]
   },
   {
    "id": "p9",
    "title": "Day 4 · Shower: knocking and crying",
-   "format": "slides · F3 Two voices",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 85,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "صار الشاور حقك يتحدد على حسب نومه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور: هو برا الباب، وأنتي جوا، وثلاث خطوات تخلي الباب المسكر أخف عليه.",
+   "notes": "The door as the divider is the clearest two-voices layout in the batch, with outside and inside swapping sides. The spoken «جيت، جيت» is kept on one line.",
+   "images": [
+    "previews/day04-p9.jpg"
+   ],
+   "links": [
+    "png/day04-p9/slide-1.png",
+    "png/day04-p9/slide-2.png",
+    "png/day04-p9/slide-3.png",
+    "png/day04-p9/slide-4.png",
+    "png/day04-p9/slide-5.png",
+    "png/day04-p9/slide-6.png",
+    "png/day04-p9/slide-7.png",
+    "png/day04-p9/slide-8.png"
+   ]
   },
   {
    "id": "p6",
    "title": "Day 5 · Only after he sleeps",
-   "format": "slides · F6 Checklist",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 82,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "ما تقدري تكنسي وهو صاحي؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\nفي الصور ثلاث أشياء تلاحظيها عليه، وخطوة لكل وحدة.",
+   "notes": "The tealMist light ground breaks up the dark run. The notes turn over one per slide. Flag: the ear icon on note 1 is small and could read as «?» in a thumbnail.",
+   "images": [
+    "previews/day05-p6.jpg"
+   ],
+   "links": [
+    "png/day05-p6/slide-1.png",
+    "png/day05-p6/slide-2.png",
+    "png/day05-p6/slide-3.png",
+    "png/day05-p6/slide-4.png",
+    "png/day05-p6/slide-5.png",
+    "png/day05-p6/slide-6.png",
+    "png/day05-p6/slide-7.png"
+   ]
   },
   {
    "id": "p4",
    "title": "Day 6 · \"Just today\" became every night",
-   "format": "slides · F3 Two voices",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 84,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "قلتي له \"اليوم بس\"، ودحين ما يرضى ينام لحاله؟ ابدئي بالتقييم المجاني في البايو، واعرفي فين تركزي أول شي.\nفي الصور ثلاث خطوات عشان يرجع ينام في سريره، وأولها من نومة الظهر.",
+   "notes": "The moon multiplying into a row is a strong visual metaphor for «اليوم بس». The beds stay on one floor line, so it reads as one room.",
+   "images": [
+    "previews/day06-p4.jpg"
+   ],
+   "links": [
+    "png/day06-p4/slide-1.png",
+    "png/day06-p4/slide-2.png",
+    "png/day06-p4/slide-3.png",
+    "png/day06-p4/slide-4.png",
+    "png/day06-p4/slide-5.png",
+    "png/day06-p4/slide-6.png",
+    "png/day06-p4/slide-7.png",
+    "png/day06-p4/slide-8.png"
+   ]
   },
   {
    "id": "p7",
    "title": "Day 7 · Hair dryer: only when he's far",
-   "format": "slides · F5 Walk-through",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 84,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات تاخذ ثواني، وأنتي قدام المراية.",
+   "notes": "The batch's only pearl ground. It's about HER own hair: she's seen from behind at the mirror, and the mirror shows glare only, with no face.",
+   "images": [
+    "previews/day07-p7.jpg"
+   ],
+   "links": [
+    "png/day07-p7/slide-1.png",
+    "png/day07-p7/slide-2.png",
+    "png/day07-p7/slide-3.png",
+    "png/day07-p7/slide-4.png",
+    "png/day07-p7/slide-5.png",
+    "png/day07-p7/slide-6.png",
+    "png/day07-p7/slide-7.png"
+   ]
   },
   {
    "id": "p3",
    "title": "Day 8 · Your evening: 8 to 10",
-   "format": "slides · F6 Checklist",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 80,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "من الساعة ثمانيه لعشره وأنتي في غرفته؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور ثلاث أشياء من يومه تفرق في ليلته، كل وحدة في صورة.",
+   "notes": "The day band is a new device. The checks are illustrated clearly. Text-heavy slides (s4, s5, s8) push the art low. The tab overlap on s5 is fixed.",
+   "images": [
+    "previews/day08-p3.jpg"
+   ],
+   "links": [
+    "png/day08-p3/slide-1.png",
+    "png/day08-p3/slide-2.png",
+    "png/day08-p3/slide-3.png",
+    "png/day08-p3/slide-4.png",
+    "png/day08-p3/slide-5.png",
+    "png/day08-p3/slide-6.png",
+    "png/day08-p3/slide-7.png",
+    "png/day08-p3/slide-8.png"
+   ]
   },
   {
    "id": "p12",
    "title": "Day 9 · Phone calls: only behind a locked door",
-   "format": "slides · F4 Metaphor",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 83,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ليش يبغى الجوال اللي في يدك، وثلاث خطوات للمكالمة الجاية.",
+   "notes": "The tug of war over the PHONE matches your correction (he wants the phone). The toy-car metaphor slide is clear.",
+   "images": [
+    "previews/day09-p12.jpg"
+   ],
+   "links": [
+    "png/day09-p12/slide-1.png",
+    "png/day09-p12/slide-2.png",
+    "png/day09-p12/slide-3.png",
+    "png/day09-p12/slide-4.png",
+    "png/day09-p12/slide-5.png",
+    "png/day09-p12/slide-6.png",
+    "png/day09-p12/slide-7.png",
+    "png/day09-p12/slide-8.png"
+   ]
   },
   {
    "id": "p1",
    "title": "Day 10 · Night waking: half your bed is his",
-   "format": "slides · F1 HPSPC",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 82,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "سريرك صار نصه لطفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات لما يجيكي في نص الليل، وأولها قبل ما تنامي أنتي.",
+   "notes": "The top-down bed is distinct from the Batch 1 side panorama. s3 shows closed-eye arcs only, with no head shape. The soft CTA strip on s4 is 4 lines long.",
+   "images": [
+    "previews/day10-p1.jpg"
+   ],
+   "links": [
+    "png/day10-p1/slide-1.png",
+    "png/day10-p1/slide-2.png",
+    "png/day10-p1/slide-3.png",
+    "png/day10-p1/slide-4.png",
+    "png/day10-p1/slide-5.png",
+    "png/day10-p1/slide-6.png",
+    "png/day10-p1/slide-7.png",
+    "png/day10-p1/slide-8.png"
+   ]
   },
   {
    "id": "p8",
    "title": "Day 11 · Blender: make sure he's far",
-   "format": "slides · F2 Story",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 81,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات ما تاخذ إلا ثواني، وأنتي واقفة جنب الخلاط.",
+   "notes": "The macro jar on slide 1 is bold. Flag: the hook itself has no ironic twist about her (Test Panel note). The towel and pulse slides are the most usable.",
+   "images": [
+    "previews/day11-p8.jpg"
+   ],
+   "links": [
+    "png/day11-p8/slide-1.png",
+    "png/day11-p8/slide-2.png",
+    "png/day11-p8/slide-3.png",
+    "png/day11-p8/slide-4.png",
+    "png/day11-p8/slide-5.png",
+    "png/day11-p8/slide-6.png",
+    "png/day11-p8/slide-7.png",
+    "png/day11-p8/slide-8.png"
+   ]
   },
   {
    "id": "p11",
    "title": "Day 12 · Kids' salon: screaming and running",
-   "format": "slides · F1 HPSPC",
-   "status": "building",
-   "score": null,
+   "format": "slides · 1080×1350 PNG",
+   "status": "qa-passed",
+   "score": 83,
    "body_ar": "",
-   "caption_ar": "",
-   "notes": "",
-   "images": []
+   "caption_ar": "كل قصة شعر تخلص بصياح ونص قصة؟ التقييم المجاني في البايو يساعدك تعرفي فين تركزي أول شي.\nأربع خطوات قبل زيارتكم الجاية للصالون.",
+   "notes": "The chair as a stage under a spotlight, on a warm sandLight ground. The back-of-head lap view on s5 keeps faces off.",
+   "images": [
+    "previews/day12-p11.jpg"
+   ],
+   "links": [
+    "png/day12-p11/slide-1.png",
+    "png/day12-p11/slide-2.png",
+    "png/day12-p11/slide-3.png",
+    "png/day12-p11/slide-4.png",
+    "png/day12-p11/slide-5.png",
+    "png/day12-p11/slide-6.png",
+    "png/day12-p11/slide-7.png",
+    "png/day12-p11/slide-8.png"
+   ]
   }
  ],
  "performance": []

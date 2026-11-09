@@ -231,7 +231,7 @@ def slide(ctx):
         cy = 960
         art = (pot(205, cy, .85, seed=3, sn=5) + counter(cy) + hem(560, 1000, cy - 40)
                + grip(640, 1130, rot=-8, s=1.1, sleeve=700))
-        html = hook_box(ctx, G, y=MT - 10, size=96, w=920)
+        html = hook_box(ctx, G, y=MT - 10, size=96, w=920, keep=('غدا بكرة',))
     elif s == 2:
         cy = 990
         art = (pot(700, cy, .85, seed=7, lid=False, steam=False) + mum_sleeve(880, 795, rot=168) + counter(cy)

@@ -59,8 +59,9 @@ def bed(x0, x1, lump=True, y=FLOOR):
     pil = paper(f'<path d="M {x1 - 200} {y - 182} Q {x1 - 196} {y - 246} {x1 - 124} {y - 242} Q {x1 - 60} {y - 238} {x1 - 60} {y - 182} Z" fill="{C["tealMist"]}"/>', T, 2)
     bx0, bx1, by = x0 + 26, x1 - 130, y - 182
     if lump:
-        d = (f'M {bx0} {by + 70} L {bx0} {by} Q {bx0 + 120} {by - 6} {bx0 + 180} {by - 40} '
-             f'Q {bx0 + 300} {by - 150} {bx1 - 60} {by - 70} L {bx1} {by - 40} L {bx1} {by + 70} Z')
+        L = bx1 - bx0
+        d = (f'M {bx0} {by + 70} L {bx0} {by} Q {bx0 + L * .3} {by - 8} {bx0 + L * .42} {by - 50} '
+             f'Q {bx0 + L * .62} {by - 140} {bx0 + L * .8} {by - 80} Q {bx0 + L * .9} {by - 46} {bx1} {by - 30} L {bx1} {by + 70} Z')
     else:
         d = f'M {bx0} {by + 70} L {bx0} {by} L {bx1} {by - 20} L {bx1} {by + 70} Z'
     duv = paper(f'<path d="{d}" fill="{C["pearl"]}"/>'
@@ -105,9 +106,11 @@ def mum_back(cx, foot, h=560, col='ink'):
 def mum_hand(x, y, rot=-160, s=1.0):
     """Mum's pearl sleeve reaching in from the left edge, her hand on the duvet."""
     g = (f'<g transform="translate({x} {y}) rotate({rot}) scale({s})">'
-         f'<rect x="20" y="-56" width="460" height="112" rx="20" fill="{C["pearl"]}"/>'
+         f'<rect x="20" y="-56" width="460" height="112" rx="20" fill="{C["tealMist"]}"/>'
          f'<rect x="0" y="-58" width="40" height="116" rx="10" fill="{C["tealDeep"]}"/>'
-         f'<path d="M 4 -44 Q -80 -54 -110 -14 Q -118 18 -88 38 Q -44 54 4 42 Z" fill="{C["sandLight"]}"/></g>')
+         f'<g fill="{C["sandLight"]}"><rect x="-70" y="-44" width="84" height="88" rx="30"/>'
+         + ''.join(f'<rect x="{-150 + abs(n - 1.5) * 10:.0f}" y="{-40 + n * 21}" width="{96 - abs(n - 1.5) * 10:.0f}" height="18" rx="9"/>' for n in range(4))
+         + '<rect x="-40" y="34" width="60" height="20" rx="10" transform="rotate(20 -10 44)"/></g></g>')
     return avoid(paper(g, T, 3), 'hand')
 
 
@@ -117,8 +120,7 @@ def tag(x, y, n, rot, seed):
     string = paper(f'<path d="M {x + w / 2} {y - 60} L {x + w / 2} {y + 14}" stroke="{C["pearl"]}" stroke-width="4"/>', T, 1, 't')
     pos = {1: [(0, 0)], 2: [(0, -.22), (0, .22)], 5: [(-.24, -.26), (.24, -.26), (0, 0), (-.24, .26), (.24, .26)]}[n]
     dots = ''.join(f'<circle cx="{x + w / 2 + dx * w}" cy="{y + h / 2 + 10 + dy * h}" r="13" fill="{C["deep"]}"/>' for dx, dy in pos)
-    hole = f'<circle cx="{x + w / 2}" cy="{y + 22}" r="8" fill="{C["night"]}"/>'
-    return string + torn_rect(x, y, w, h, C['gold'], T, seed=seed, layer=3, rot=rot, inner=hole + dots)
+    return string + torn_rect(x, y, w, h, C['gold'], T, seed=seed, layer=3, rot=rot, inner=dots)
 
 
 def loop(cx, cy, r, seed=50):
@@ -150,7 +152,7 @@ def slide(ctx):
                         keep=('وأول ما قُمتي', 'من جمبه', 'فتح عيونه؟'))
     elif s == 2:
         art = (floor() + door(90, 750, w=260, gap=44) + bed(560, 1040)
-               + prints([(760, 1222), (640, 1240), (520, 1218), (400, 1236)], .85)
+               + prints([(780, 1206), (660, 1220), (540, 1204), (420, 1218)], .8)
                + bubble(470, 800, 230, (600, 900)))
         html = body_box(ctx, G)
     elif s == 3:
@@ -161,8 +163,8 @@ def slide(ctx):
                + bed(640, 1060))
         html = body_box(ctx, G)
     elif s == 5:
-        art = (floor() + door(330, 870, w=420, gap=40)
-               + tag(380, 935, 1, -4, 61) + tag(500, 950, 2, 3, 62) + tag(620, 935, 5, -2, 63))
+        art = (floor() + door(290, 850, w=500, gap=44)
+               + tag(330, 905, 1, -4, 61) + tag(480, 920, 2, 3, 62) + tag(630, 905, 5, -2, 63))
         html = body_box(ctx, G)
     elif s == 6:
         art = (floor()

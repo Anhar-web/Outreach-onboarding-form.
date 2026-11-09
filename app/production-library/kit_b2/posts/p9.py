@@ -232,8 +232,11 @@ def slide(ctx):
                + steam(60, 1190, n=2, h=260, seed=21)
                + bubble(390, 610, 230, 130, tail='left', seed=8)
                + mum_hand(dx - DW / 2 - 50, FL - DH / 2 + 4, 1.0, length=280))
-        keep_in(ctx.t.segs, 'الموية شغالة', 'وأنتي تقولي "جيت، جيت"', 'وتستعجلي.', 'تطلعي له', 'وما خلصتي.')
-        html = body_box(ctx, G, y=MT + 115)
+        for g in ctx.t.segs:
+            if 'جيت، جيت' in g.text:
+                g.comma = 'glue'   # keep the spoken «جيت، جيت» on one line
+        keep_in(ctx.t.segs, 'الموية شغالة', 'وأنتي تقولي "جيت، جيت" وتستعجلي.', 'تطلعي له', 'وما خلصتي.')
+        html = body_box(ctx, G, y=MT + 115, size={'lead': 54})
     elif s == 4:
         # HIS SIDE: both sides; her voice bubble stops at the door, he knocks again
         dx, ds = 540, .78
