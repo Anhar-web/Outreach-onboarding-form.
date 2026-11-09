@@ -426,3 +426,19 @@ Context in one chat eventually runs out, so start each new batch in a fresh chat
   4. Make sequels to the bedtime and chores/noise posts in the new labelled formats.
   5. Post one per day.
   6. Tag the bio link (`?src=tiktok`), track assessment starts, and collect profile views.
+
+# PART G: CTA RULES (Anhar, Nov 9). These override the earlier bridge rules.
+- **The separate "conversion" post type is eliminated.** It didn't work: all 5 stalled at about 420–470 views, with 0 assessments. From Batch 2 on, **every post is a value post that ends with a CTA.** Don't plan an attention vs conversion mix.
+- **The CTA must feel like the logical next step** after what she just learned, never like we want her as a lead.
+- **The CTA formula:**
+  1. **Connect** to the post: what to notice from this exact post.
+  2. **Give it a purpose:** why that matters when building a plan around her child.
+  3. **Direct her:** the free assessment, to find out where to start.
+- **Anhar's examples:**
+  - Bedtime: «لاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبدئي بخطة تناسب طفلك. ابدئي بالتقييم المجاني واعرفي من فين تبدأي.»
+  - iPad transitions: «انتبهي للمواقف اللي يصعب فيها الانتقال من نشاط لثاني. ابدئي بالتقييم المجاني عشان تعرفي فين تركزي أول شي.»
+  - Family visits: «لاحظي ايش يصير قبل ما تضطري تخرجي من العزيمة. ابدئي بالتقييم المجاني واعرفي من فين تبدأي.»
+- **Rotate three variations** (the destination stays the same, the transition fits the post):
+  - Observation: «لاحظي هذي التفاصيل، وابدئي بالتقييم المجاني عشان تعرفي من فين تبدأي.»
+  - Reflection: «فكري في أكثر موقف يتكرر مع طفلك. التقييم المجاني يساعدك تحددي نقطة البداية.»
+  - Direct: «ابدئي بالتقييم المجاني، واعرفي فين تحتاجي تركزي أول شي.»
