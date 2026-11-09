@@ -38,3 +38,4 @@
 | p2 s3 soft CTA «ولو هذا صار عندكم أكثر من ليلة، التقييم المجاني في البايو تقدري تسويه وأنتي جالسة جمبه.» | (Anhar's direction) "Give her a benefit from taking the assessment, and make it shorter so it doesn't feel like a plug." → «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.» | **Soft CTAs: one short line that names what she gets** (where to start with *this* moment). No conditions («ولو…»), no clever logistics, nothing that reads like an ad. |
 | p2 «شوي» (×4: «شوي شوي»، «بعد شوي») | «شويه» | Her spelling of "a little" is **شويه**. |
 | p2 s7 «…ايش آخر شي يشوفه قبل ما يغمض» | «…قبل ما ينام» | يغمض is not her word here. Use the plain verb **ينام**. |
+| p3 s2 «…ومتى بجلس أنا؟» | «…ومتى ارتاح أنا؟» | Her inner voice names the real need, rest (**ارتاح**), not the literal act. |
