@@ -52,7 +52,6 @@
  ],
  "fail": [],
  "warn": [
-  "slide-4.html: text line \"التقييم المجاني في الباي\" crosses motif \"child\"",
   "slide-4.html: 9 text lines (max 5 + tab)",
   "slide-8.html: 8 text lines (max 5 + tab)"
  ],
