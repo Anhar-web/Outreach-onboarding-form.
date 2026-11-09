@@ -30,3 +30,4 @@
 |---|---|---|
 | p1 s3 «وأنتي بالكاد فاتحة عيونك» | «وأنتي بالقوة فاتحة عيونك» | بالكاد is written/MSA. Her spoken word is **بالقوة** ("barely"). |
 | p1 s3 «ولما ينفع مرة، طبيعي يرجع الليلة الجاية» | «…راح يرجع الليلة الجاية» | Use طبيعي only to normalise a reaction. A consequence is stated plainly with راح. Don't overuse طبيعي. |
+| p1 s4 «الخطوة الأولى: قرري ايش بتسوي الساعة اثنين، قبل ما تنامي أنتي. كذا لما يجيك، القرار جاهز…» | «الخطوة الأولى: قبل ما تنامي، حددي كيف بتتصرفي لو جاكي في وسط الليل. عشان لما يجيكي تكوني عارفة إيش بتسوي وما تضطري تقرري وانتي نص نايمة.» | Don't repeat the hook's detail ("الساعة اثنين") on every slide; vary it («وسط الليل»). The condition goes first («قبل ما تنامي»). Say it as a person, not an abstraction («القرار جاهز» → «تكوني عارفة إيش بتسوي»). Her forms: جاكي / يجيكي، إيش، انتي. Soft CTA wording she wrote: «يساعدك تشوفي يومه كامل، مو بس اللي يصير في وسط الليل». |
