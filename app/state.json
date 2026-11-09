@@ -1,0 +1,304 @@
+{
+ "project": "Home Orbit — Batch 2 (Nov 2026)",
+ "updatedAt": "2026-11-09T10:26:49.666497Z",
+ "currentStep": 1,
+ "steps": [
+  {
+   "n": 1,
+   "key": "brief",
+   "title": "Brief",
+   "subtitle": "The Strategist turns your answers into the brief every specialist works from.",
+   "status": "needs-you",
+   "idea": {
+    "title": "Decide the job before the post",
+    "body": "Most content fails because nobody decided what it was for."
+   },
+   "action": {
+    "label": "Answer the five questions in chat, then confirm.",
+    "phrase": "Looks right. Next step."
+   },
+   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?"
+  },
+  {
+   "n": 2,
+   "key": "scorecard",
+   "title": "Scorecard",
+   "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
+   "status": "idle",
+   "idea": {
+    "title": "Define 'good' before anyone writes",
+    "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
+   },
+   "action": {
+    "label": "Approve the weights and the plan.",
+    "phrase": "Go."
+   },
+   "report": ""
+  },
+  {
+   "n": 3,
+   "key": "research",
+   "title": "Research",
+   "subtitle": "Audience Researcher and Market Analyst work in parallel.",
+   "status": "idle",
+   "idea": {
+    "title": "Her words, not ours",
+    "body": "The best lines are the ones she has already said to her sister."
+   },
+   "action": {
+    "label": "Read both reports.",
+    "phrase": "Both look good. Next step."
+   },
+   "report": ""
+  },
+  {
+   "n": 4,
+   "key": "hooks",
+   "title": "Angles & hooks",
+   "subtitle": "The Hook Specialist builds angles and scored hooks.",
+   "status": "idle",
+   "idea": {
+    "title": "The hook carries most of the result",
+    "body": "Frame one decides whether the rest exists for her."
+   },
+   "action": {
+    "label": "Pick, cut or rewrite hooks.",
+    "phrase": "These are good. Build concepts."
+   },
+   "report": ""
+  },
+  {
+   "n": 5,
+   "key": "concepts",
+   "title": "Concepts",
+   "subtitle": "The Strategist assembles distinct concepts for you to pick.",
+   "status": "idle",
+   "idea": {
+    "title": "Options, not one answer",
+    "body": "A batch is a test. We need real variety to learn from."
+   },
+   "action": {
+    "label": "Pick the concepts to produce.",
+    "phrase": "Produce these."
+   },
+   "report": ""
+  },
+  {
+   "n": 6,
+   "key": "format",
+   "title": "Format",
+   "subtitle": "You decide static slides or video for each picked concept, and its format label.",
+   "status": "idle",
+   "idea": {
+    "title": "Format follows the idea",
+    "body": "Some ideas need to be swiped, some need to move."
+   },
+   "action": {
+    "label": "Choose static or video (and the F-label) per concept.",
+    "phrase": "Formats chosen."
+   },
+   "report": ""
+  },
+  {
+   "n": 7,
+   "key": "production",
+   "title": "Production",
+   "subtitle": "The Copywriter writes every picked post in Arabic.",
+   "status": "idle",
+   "idea": {
+    "title": "Written last, never from a blank page",
+    "body": "Every post starts from a picked concept, a chosen hook and her own words."
+   },
+   "action": {
+    "label": "Read the drafts.",
+    "phrase": "Looks good. Edit and test."
+   },
+   "report": ""
+  },
+  {
+   "n": 8,
+   "key": "test",
+   "title": "Arabic + Test",
+   "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
+   "status": "idle",
+   "idea": {
+    "title": "Born in Arabic, tested cold",
+    "body": "A line that sounds translated loses, whatever its score."
+   },
+   "action": {
+    "label": "Choose what ships.",
+    "phrase": "Ship the winners."
+   },
+   "report": ""
+  },
+  {
+   "n": 9,
+   "key": "handoff",
+   "title": "Handoff",
+   "subtitle": "The Strategist packages the final posts.",
+   "status": "idle",
+   "idea": {
+    "title": "Finished when the numbers teach us",
+    "body": "After posting, tell us the numbers and ask 'what's working?'."
+   },
+   "action": {
+    "label": "Done.",
+    "phrase": null
+   },
+   "report": ""
+  }
+ ],
+ "plan": {
+  "specialists": [
+   {
+    "key": "st",
+    "name": "Strategist",
+    "role": "The brief, scorecard, concepts, handoff",
+    "status": "needs-you"
+   },
+   {
+    "key": "ar",
+    "name": "Audience Researcher",
+    "role": "What mothers actually say",
+    "status": "idle"
+   },
+   {
+    "key": "ma",
+    "name": "Market Analyst",
+    "role": "What the market has heard",
+    "status": "idle"
+   },
+   {
+    "key": "hk",
+    "name": "Hook Specialist",
+    "role": "Angles and hooks",
+    "status": "idle"
+   },
+   {
+    "key": "cw",
+    "name": "Copywriter",
+    "role": "Writes the posts",
+    "status": "idle"
+   },
+   {
+    "key": "av",
+    "name": "Arabic Voice Editor",
+    "role": "Makes it sound native",
+    "status": "idle"
+   },
+   {
+    "key": "tp",
+    "name": "Test Panel",
+    "role": "Sceptical mothers, scored",
+    "status": "idle"
+   },
+   {
+    "key": "an",
+    "name": "Analyst",
+    "role": "Batch 1 read; next read after posting",
+    "status": "done"
+   }
+  ]
+ },
+ "scorecard": {
+  "total": 100,
+  "items": [
+   {
+    "name": "Scroll-stop",
+    "weight": 18,
+    "score": null
+   },
+   {
+    "name": "Recognition",
+    "weight": 15,
+    "score": null
+   },
+   {
+    "name": "Emotion, not apathy",
+    "weight": 15,
+    "score": null
+   },
+   {
+    "name": "Her own words",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "One job",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Trust & safety",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Arabic naturalness",
+    "weight": 8,
+    "score": null
+   },
+   {
+    "name": "The turn",
+    "weight": 6,
+    "score": null
+   },
+   {
+    "name": "Next step",
+    "weight": 4,
+    "score": null
+   },
+   {
+    "name": "Shareable",
+    "weight": 2,
+    "score": null
+   }
+  ]
+ },
+ "concepts": [],
+ "posts": [],
+ "performance": [
+  {
+   "postId": "B1 p3 Bedtime",
+   "postedOn": "Nov 6",
+   "job": "attention",
+   "format": "F0",
+   "views": 4433,
+   "likes": 60,
+   "saves": 36,
+   "comments": 0,
+   "shares": 10,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 3, still growing"
+  },
+  {
+   "postId": "B1 p5 Vacuum",
+   "postedOn": "Nov 4",
+   "job": "attention",
+   "format": "F0",
+   "views": 3857,
+   "likes": 35,
+   "saves": 9,
+   "comments": 0,
+   "shares": 10,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 5, 13 followers"
+  },
+  {
+   "postId": "B1 other 8 (range)",
+   "postedOn": "Nov 4–8",
+   "job": "mixed",
+   "format": "F0",
+   "views": 448,
+   "likes": null,
+   "saves": null,
+   "comments": 0,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": 0,
+   "note": "416–483 views each; 0 assessments in window"
+  }
+ ]
+}
