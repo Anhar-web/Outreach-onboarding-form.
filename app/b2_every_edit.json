@@ -1,0 +1,1065 @@
+[
+ {
+  "lesson": "B2 edit · hook p1 night waking: opens on the result, then the scene",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Dialect / word choice"
+  ],
+  "before": "«يجي سريرك كل ليلة الساعة ثنتين، فصرتي تنامي على طرف السرير؟»",
+  "after": "«سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟»",
+  "reason": "\"I reworded it because it sounded a bit off.\"",
+  "rule": "A hook can open on the result she lives with (half her bed is his), then give the scene. Spell it اثنين, not ثنتين. جنبك."
+ },
+ {
+  "lesson": "B2 edit · hook p2 sneaking out: one past-tense moment, no second half",
+  "posts": [
+   "p2"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Translated-sounding",
+   "Dialect / word choice"
+  ],
+  "before": "«تقضي ساعة تنيميه، وأول ما تقومي من جمبه يفتح عيونه؟ الطلعة من غرفته تبدأ قبل ما تنسدحي.»",
+  "after": "«جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟»",
+  "reason": "\"The language in the first half of the hook, the translation is off. It sounds translated.\"",
+  "rule": "Tell one specific time it happened, in the past tense (جلستي، قمتي، فتح). تنوميه, not تنيميه. Drop the second half: one question only."
+ },
+ {
+  "lesson": "B2 edit · hook p3 8 to 10: «ما … إلا» contrast, her number spellings",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Dialect / word choice"
+  ],
+  "before": "«تنيميه الساعة ثمان، وتطلعي من غرفته الساعة عشر؟ الساعتين هذي تبدأ من العصر، وفيها ثلاث أشياء تقدري تغيريها من بكرة.»",
+  "after": "«تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Make the contrast explicit with «ما … إلا». Her spellings: ثمانيه، عشره، تنوميه. No second half."
+ },
+ {
+  "lesson": "B2 edit · hook p4 \"just today\": what she said, past tense; end on the real problem",
+  "posts": [
+   "p4"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Dialect / word choice"
+  ],
+  "before": "«تقولي \"الليلة بس\" وتخليه ينام جمبك، وصارت كل ليلة؟»",
+  "after": "«قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Past tense for the one time she said it (قلتي له). She says «اليوم بس», not «الليلة بس». End on the problem she has now (he won't sleep alone), not on the irony."
+ },
+ {
+  "lesson": "B2 edit · hook p6 after he sleeps: shorter, «ما تقدري … إلا بعد»",
+  "posts": [
+   "p6"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure"
+  ],
+  "before": "«الكنس بعد ما ينام، والطبخ بعد ما ينام، والشاور بعد ما ينام، ولما ينام تنامي قبل ما تبدئي؟»",
+  "after": "«ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks. (Much shorter.)",
+  "rule": "Shorter: two chores, not a list of four. Her shape «ما تقدري X … إلا بعد Y؟» states the workaround as a limit on her."
+ },
+ {
+  "lesson": "B2 edit · hook p7 hair dryer: real-habit check",
+  "posts": [
+   "p7"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Real-life context",
+   "Hook structure",
+   "Dialect / word choice"
+  ],
+  "before": "«يغطي أذنه أول ما تشغلي السشوار، فصرتي تنشفي شعرك بالفوطة؟»",
+  "after": "«ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟»",
+  "reason": "\"This doesn't work because most, if not all parents, don't blow dry their kids' hair. They just let it air dry or dry it with a towel.\"",
+  "rule": "Check every detail against what mothers really do. Spell it الاستشوار, not السشوار. Name him as «طفلك»."
+ },
+ {
+  "lesson": "B2 edit · hook p8 blender: physics check (no footsteps over a blender)",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Real-life context",
+   "Hook structure"
+  ],
+  "before": "«صرتي تطفي الخلاط أول ما تسمعي خطواته جاية للمطبخ؟»",
+  "after": "«كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟»",
+  "reason": "\"I like the concept, but how can she hear his footsteps if the blender is on? The blender is loud.\"",
+  "rule": "Every sensory detail in a scene must be physically possible."
+ },
+ {
+  "lesson": "B2 edit · hook p9 shower: he knocks AND cries; the twist is when she showers",
+  "posts": [
+   "p9"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Real-life context"
+  ],
+  "before": "«يدق على باب الحمام أول ما تسكريه، فصرتي تتروشي والباب مفتوح؟»",
+  "after": "«يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟»",
+  "reason": "\"He knocks and cries on the bathroom door… So now you shower after he goes to sleep or before he wakes up in the morning.\"",
+  "rule": "The twist is where she has moved her own need to (after he sleeps or before he wakes), not a door detail. She says «يدق باب الحمام» (no على)."
+ },
+ {
+  "lesson": "B2 edit · hook p11 kids' salon: a statement is not a hook",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure",
+   "Value / realism"
+  ],
+  "before": "«تأجلي قصة شعره أسبوع ورا أسبوع، لأنك عارفة ايش ينتظرك عند الحلاق؟ القصة تبدأ في البيت، قبل ما تطلعوا.»",
+  "after": "«كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟»",
+  "reason": "\"This one is just a statement. It doesn't make me feel anything. There isn't really a problem or a challenge here. It's not really something I have to deal with. It can wait.\"",
+  "rule": "A hook needs a real problem she has to face. If it can wait, it's a statement. Her spelling: صالون الاطفال."
+ },
+ {
+  "lesson": "B2 edit · hook p12 phone calls: give the whole move",
+  "posts": [
+   "p12"
+  ],
+  "stage": "Hooks",
+  "cats": [
+   "Hook structure"
+  ],
+  "before": "«أول ما تردي على الجوال يجي يشد يدك ويعلي صوته، فصرتي تكلمي أمك من الحمام؟»",
+  "after": "«ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟»",
+  "reason": "\"This is incomplete.\"",
+  "rule": "Give the complete move (goes in AND locks the door). «ما … إلا» again."
+ },
+ {
+  "lesson": "B2 edit · p1 s3 بالكاد → بالقوة",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«وأنتي بالكاد فاتحة عيونك»",
+  "after": "«وأنتي بالقوة فاتحة عيونك»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "بالكاد is written Arabic. For \"barely\" she says بالقوة."
+ },
+ {
+  "lesson": "B2 edit · p1 s3 طبيعي → راح (a consequence, not a reaction)",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ولما ينفع مرة، طبيعي يرجع الليلة الجاية»",
+  "after": "«ولما ينفع مرة، راح يرجع الليلة الجاية»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Use طبيعي only to normalise his reaction. A consequence is stated plainly with راح."
+ },
+ {
+  "lesson": "B2 edit · p1 s4 step rewritten by Anhar",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Translated-sounding",
+   "Dialect / word choice",
+   "Carousel structure"
+  ],
+  "before": "الخطوة الأولى: قرري ايش بتسوي الساعة اثنين، قبل ما تنامي أنتي.\nكذا لما يجيك، القرار جاهز، وما تحتاجي تفكري وأنتي نص نايمة.\n[soft CTA] ولو صحيانه يتكرر كل ليلة، التقييم المجاني في البايو يمر على يومه كامل، مو بس الساعة اثنين.",
+  "after": "الخطوة الأولى: قبل ما تنامي، حددي كيف بتتصرفي لو جاكي في وسط الليل.\nعشان لما يجيكي تكوني عارفة إيش بتسوي وما تضطري تقرري وانتي نص نايمة.\n[soft CTA] وإذا الموضوع يتكرر كل ليلة، التقييم المجاني في البايو يساعدك تشوفي يومه كامل، مو بس اللي يصير في وسط الليل.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks. She sent the full slide.",
+  "rule": "Put the condition first («قبل ما تنامي، …»). Say it as a person would («تكوني عارفة إيش بتسوي»), not as an abstraction («القرار جاهز»). Her forms: جاكي / يجيكي، إيش، انتي."
+ },
+ {
+  "lesson": "B2 edit · p1 s4 «القرار جاهز» → «تكوني عارفة إيش بتسوي»",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Translated-sounding"
+  ],
+  "before": "«كذا لما يجيك، القرار جاهز، وما تحتاجي تفكري وأنتي نص نايمة.»",
+  "after": "«عشان لما يجيكي تكوني عارفة إيش بتسوي وما تضطري تقرري وانتي نص نايمة.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Avoid abstract nouns like «القرار جاهز». Describe her state instead. «ما تضطري تقرري», not «ما تحتاجي تفكري»."
+ },
+ {
+  "lesson": "B2 edit · the hook's time detail repeated on every slide (p1 s4, s7, s8)",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure",
+   "Dialect / word choice"
+  ],
+  "before": "s4 «الساعة اثنين، قبل ما تنامي» · s4 soft CTA «مو بس الساعة اثنين» · s7 «مو بس اللي يصير الساعة اثنين» · s8 «مو بس الساعة اثنين»",
+  "after": "s4 «لو جاكي في وسط الليل» · s4 soft CTA «مو بس اللي يصير في وسط الليل» · s7 «مو بس اللي يصير في نص بالليل» · s8 dropped (replaced by «ايش صار قبل ما نام»)",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Don't repeat the hook's exact detail on every slide. Vary it («وسط الليل»، «نص بالليل») or drop it."
+ },
+ {
+  "lesson": "B2 edit · p1 s4 soft CTA: «ولو صحيانه … يمر على» → «وإذا الموضوع … يساعدك تشوفي»",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "CTA / bridge",
+   "Dialect / word choice"
+  ],
+  "before": "«ولو صحيانه يتكرر كل ليلة، التقييم المجاني في البايو يمر على يومه كامل…»",
+  "after": "«وإذا الموضوع يتكرر كل ليلة، التقييم المجاني في البايو يساعدك تشوفي يومه كامل…»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "The assessment «يساعدك» (helps you). It doesn't «يمر على». «وإذا الموضوع», not «ولو صحيانه»."
+ },
+ {
+  "lesson": "B2 edit · p1 s5 «زي» → «مثلا» before example words",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«بنفس الكلمتين، زي \"يلا سريرك\"»",
+  "after": "«بنفس الكلمتين، مثلا \"يلا سريرك\"»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Introduce an example of the words she will say with مثلا."
+ },
+ {
+  "lesson": "B2 edit · p1 s5 cut the explanation line",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure"
+  ],
+  "before": "«…النور خفيف، وبدون كلام زيادة. كذا يعرف إن الساعة اثنين مو وقت سوالف.»",
+  "after": "«…النور خفيف، وبدون كلام زيادة.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "When a step already speaks for itself, cut the «كذا…» explanation. Not every step needs one."
+ },
+ {
+  "lesson": "B2 edit · كذا → عشان when the line is the purpose (p1 s4, p1 s6, p8 s7, p11 s4, p11 s6)",
+  "posts": [
+   "p1",
+   "p8",
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "p1 s6 «كذا يكمل نومه في سريره هو» · p8 s7 «كذا يكون شاف…» · p11 s4 «كذا ما في انتظار» · p11 s6 «كذا يحس فيها…»",
+  "after": "p1 s6 «عشان يكمل نومه في سريره هو» · p8 s7 «عشان يشوف…» · p11 s4 «عشان ما في انتظار» · p11 s6 «عشان يحس فيها…»",
+  "reason": "p1 s6 was her one-word comment «عشان». The others were in slides she rewrote.",
+  "rule": "Purpose = عشان. Use كذا only to show a result."
+ },
+ {
+  "lesson": "B2 edit · «كل أسبوعين» removed from the method (p1 s7, p11 s8)",
+  "posts": [
+   "p1",
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism",
+   "Dialect / word choice"
+  ],
+  "before": "p1 s7 «نبدأ بموقف واحد، والخطة تتعدل كل أسبوعين حسب استجابته.» · p11 s8 «كذا نشتغل: … كل أسبوعين على…»",
+  "after": "p1 s7 «نبدأ بموقف واحد والخطة تتعدل حسب استجابته.» · p11 s8 «كذا نبدأ: …» (no interval)",
+  "reason": "She removed it both times without a reason. Not stated, but consistent.",
+  "rule": "Don't put the review interval («كل أسبوعين») on slides. Keep «الخطة الحية» as the name. «كذا نبدأ», not «كذا نشتغل»."
+ },
+ {
+  "lesson": "B2 edit · p1 s8 CTA: «ايش صار قبل ما نام», one flowing sentence",
+  "posts": [
+   "p1"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "CTA / bridge",
+   "Translated-sounding"
+  ],
+  "before": "«فكري في ليلتكم كاملة، مو بس الساعة اثنين. متى نام، وكيف نام، ومتى بدأ يصحى. … التقييم المجاني يساعدك تحددي نقطة البداية.»",
+  "after": "«فكري في ليلتكم كاملة، ايش صار قبل ما نام متى نام وكيف نام ومتى بدأ يصحى. … التقييم المجاني يساعدك تحددي من فين تبدئي.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks. She sent the full slide.",
+  "rule": "Drop the «مو بس…» contrast. Add what happened before he slept. One flowing sentence, not chopped fragments. «من فين تبدئي», not «نقطة البداية»."
+ },
+ {
+  "lesson": "B2 edit · p2 s3 soft CTA: shorter, with a benefit",
+  "posts": [
+   "p2"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "CTA / bridge"
+  ],
+  "before": "«[soft CTA] ولو هذا صار عندكم أكثر من ليلة، التقييم المجاني في البايو تقدري تسويه وأنتي جالسة جمبه.»",
+  "after": "«[soft CTA] التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.»",
+  "reason": "\"This needs to give her some sort of benefit from taking the assessment. And it also needs to be shorter so it doesn't feel like a plug.\"",
+  "rule": "A soft CTA is one short line that names what she gets. No conditions («ولو…»), no logistics."
+ },
+ {
+  "lesson": "B2 edit · شوي → شويه (p2 s2, s4, pinned; p7 s2)",
+  "posts": [
+   "p2",
+   "p7"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«شوي شوي» · «بعد شوي»",
+  "after": "«شويه شويه» · «بعد شويه»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Her spelling of \"a little\" is شويه, everywhere."
+ },
+ {
+  "lesson": "B2 edit · p2 s7 يغمض → ينام",
+  "posts": [
+   "p2"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«…ايش آخر شي يشوفه قبل ما يغمض.»",
+  "after": "«…ايش آخر شي يشوفه قبل ما ينام.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Use the plain verb ينام, not يغمض."
+ },
+ {
+  "lesson": "B2 edit · p3 s2 inner voice بجلس → ارتاح",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«…ومتى بجلس أنا؟»",
+  "after": "«…ومتى ارتاح أنا؟»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Her inner voice names the real need (rest, ارتاح), not the literal act."
+ },
+ {
+  "lesson": "B2 edit · p3 s4 فيه حيل → مصحصح",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«…يكون لسه فيه حيل.»",
+  "after": "«…يكون لسه مصحصح.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "For a child who is still wide awake she says مصحصح. «فيه حيل» means energy to DO something."
+ },
+ {
+  "lesson": "B2 edit · p3 s5 rewritten: \"translated, and translated wrong\"",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Translated-sounding",
+   "Dialect / word choice"
+  ],
+  "before": "ثاني شي: آخر شي سواه قبل البيجاما.\nلو كان يركض أو قدام الشاشة، صار ينتقل من هذا لوقت النوم على طول.\nخلي آخر شي حاجة بسيطة، زي يرتب ألعابه معاكي أو يشرب حليبه.",
+  "after": "ثاني شي: انتبهي لإيش كان يسوي قبل وقت النوم.\nلو كان يلعب ويركض أو يتفرج على شاشة، فهو ينتقل من نشاطه مباشرة للسرير.\nخلي آخر نشاط قبل النوم أهدأ وأبسط، زي إنه يرتب ألعابه معاكي أو يشرب شي دافي.",
+  "reason": "\"This section feels like it was written weirdly. It sounds like it was translated and also translated wrong.\"",
+  "rule": "Don't use a bare noun phrase as an item label («آخر شي سواه قبل البيجاما»). Make each item a full spoken sentence telling her what to notice («انتبهي لإيش كان يسوي…»). Name the activity concretely. Use نشاط instead of repeating شي."
+ },
+ {
+  "lesson": "B2 edit · p3 s5 word changes inside her rewrite",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«قبل البيجاما» · «يركض أو قدام الشاشة» · «صار ينتقل من هذا لوقت النوم على طول» · «آخر شي حاجة بسيطة» · «زي يرتب» · «يشرب حليبه»",
+  "after": "«قبل وقت النوم» · «يلعب ويركض أو يتفرج على شاشة» · «فهو ينتقل من نشاطه مباشرة للسرير» · «آخر نشاط قبل النوم أهدأ وأبسط» · «زي إنه يرتب» · «يشرب شي دافي»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "«يتفرج على شاشة», not «قدام الشاشة». «للسرير», not «لوقت النوم». Use نشاط. «زي إنه…» before a clause."
+ },
+ {
+  "lesson": "B2 edit · p3 s6 «الجملة» → «الروتين»",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism"
+  ],
+  "before": "«البيجاما، وبعدها نفس الجملة، زي \"يلا نوم\".»",
+  "after": "«البيجاما، وبعدها نفس الروتين.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "On a busy night the point is the same routine, not one sentence. Don't force a \"same words\" example where the step is about the whole routine."
+ },
+ {
+  "lesson": "B2 edit · p3 s7 واحد → وحده",
+  "posts": [
+   "p3"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«لو لقيتي واحد من الثلاثة…»",
+  "after": "«لو لقيتي وحده من الثلاثة…»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Things she checks are feminine in her speech: وحده (with ه)."
+ },
+ {
+  "lesson": "B2 edit · تبدئي بخطة → تبني خطة (p3 s8, p8 s8)",
+  "posts": [
+   "p3",
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice",
+   "CTA / bridge"
+  ],
+  "before": "«هذي التفاصيل تساعدك تبدئي بخطة…»",
+  "after": "«هذي التفاصيل تساعدك تبني خطة…»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "She builds a plan (تبني خطة). She doesn't \"start with\" one."
+ },
+ {
+  "lesson": "B2 edit · p4 s4 shortened; bridge to the steps",
+  "posts": [
+   "p4"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure"
+  ],
+  "before": "ذيك الليلة ما سويتي شي غلط. كنتي تبغي ليلة هادية، وهو لقى مكان مرتاح فيه.\nوطبيعي يتمسك فيه.",
+  "after": "ذيك الليلة ما سويتي شي غلط.\nوهذي ثلاث خطوات تبدئي فيها عشان يرجع ينام في سريره.",
+  "reason": "\"Shorten it and add something that lets them know there are going to be steps after this that actually help them. Like here are three steps to X, Y, Z. I think the first three slides was enough story.\"",
+  "rule": "Three story slides at most. By slide 4 she must know steps are coming and what they're for («هذي ثلاث خطوات… عشان…»)."
+ },
+ {
+  "lesson": "B2 edit · p4 s5 soft CTA shortened",
+  "posts": [
+   "p4"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "CTA / bridge"
+  ],
+  "before": "[soft CTA] وإذا النوم واحد من أشياء كثيرة تتعبكم في اليوم، التقييم المجاني في البايو يساعدك تحددي أولها.",
+  "after": "[soft CTA] التقييم المجاني في البايو يساعدك تحددي أول خطوة.",
+  "reason": "\"In slide 5, the first step, I want you to shorten the soft call to action.\"",
+  "rule": "One short soft-CTA line with the benefit. No «وإذا…» set-up."
+ },
+ {
+  "lesson": "B2 edit · p5 s2 «على جنبك وتحركي» → «بيد وتقلبي»",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«تشيليه على جنبك وتحركي القدر باليد الثانية.»",
+  "after": "«تشيليه بيد وتقلبي القدر باليد الثانية.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "You تقلبي a pot (stir), not تحركي. «بيد… باليد الثانية» is the natural pairing."
+ },
+ {
+  "lesson": "B2 edit · p5 s2 inner voice بالليل → بعدين",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«\"خلاص، أطبخ بالليل\"»",
+  "after": "«\"خلاص، أطبخ بعدين\"»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Her inner voice in the moment is vague and tired (بعدين), not a precise plan."
+ },
+ {
+  "lesson": "B2 edit · p5 s3: don't explain the obvious, go to the steps",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure"
+  ],
+  "before": "اللي يبغاه مو المطبخ، يبغاكي أنتي.\nطبيعي، كنتي معاه، وفجأة صرتي قدامه ومشغولة عنه.\nوالطبخ بالليل صار ياخذ من نومك أنتي.",
+  "after": "في ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.",
+  "reason": "\"Here it's obvious that he doesn't want the kitchen. He wants his mom.\"",
+  "rule": "Don't explain what is obvious. Go straight to the promise of the steps. Her numeral: ٣."
+ },
+ {
+  "lesson": "B2 edit · p5 s4 unrealistic tip (his own drawer) replaced",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism",
+   "Real-life context"
+  ],
+  "before": "الخطوة الأولى: درج واحد تحت، يكون له.\nحطي فيه علب بلاستيك وملاعق خشب من اللي عندك.\nكذا يكون له شي في المطبخ، وهو جمبك.\n[soft CTA] ولو نفس الشي يصير لما تتروشي أو تكلمي في الجوال، التقييم المجاني في البايو يساعدك تشوفيها كلها مع بعض.",
+  "after": "الخطوة الأولى: بدل ما يتعلق في رجلك، خليه جمبك على طولك.\nحطي له كرسي عند الرخامة، بعيد عن النار، يشوف منه ايش تسوي.\n[soft CTA] التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "reason": "\"This is one of those unrealistic advices. If he's one of those kids who opens and closes drawers and cabinets, he's not going to stick to just one. And if he just wants to cling to his mom, he's not gonna suddenly find containers and Tupperware, spoons interesting. And it's also annoying when kids start banging utensils on Tupperware. And also make the soft call to action shorter.\"",
+  "rule": "A step must work WITH what he actually wants (to be next to her), not distract him from it. No noisy-toy tips. Shorter soft CTA."
+ },
+ {
+  "lesson": "B2 edit · p5 s4 الرخامة → الطاوله",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«حطي له كرسي عند الرخامة»",
+  "after": "«حطي له كرسي عند الطاوله»",
+  "reason": "She sent the full slide back with الطاوله.",
+  "rule": "Her word for the kitchen counter is الطاوله (her spelling)."
+ },
+ {
+  "lesson": "B2 edit · عطيه → اعطيه (p5 s5, p9 s7, p10 s4, s6)",
+  "posts": [
+   "p5",
+   "p9",
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«عطيه»",
+  "after": "«اعطيه»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Always اعطيه, never عطيه."
+ },
+ {
+  "lesson": "B2 edit · p5 s5 «وعاء موية» → «زبديه»",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«يغسل الخيار في وعاء موية»",
+  "after": "«يغسل الخيار في زبديه»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "A bowl is زبديه (her spelling). وعاء is written Arabic."
+ },
+ {
+  "lesson": "B2 edit · p5 s5 إياه → هوه",
+  "posts": [
+   "p5"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ويناولك إياه حبة حبة»",
+  "after": "«ويناولك هوه حبة حبة»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "She says هوه, not إياه (written Arabic)."
+ },
+ {
+  "lesson": "B2 edit · p6 s3–s7 rewritten around the child (not home tips)",
+  "posts": [
+   "p6"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism",
+   "Carousel structure"
+  ],
+  "before": "s3 «ما تحتاجي ترجعي كل شي لوقت صحيانه…» · s4 «أول شي: أقصر وحدة في القائمة…» · s5 «ثاني شي: نفس الوقت كل يوم…» · s6 «ثالث شي: دور صغير له فيها…»",
+  "after": "s3 «قبل ما تدوري حل، لاحظي ايش يصير معاه أول ما تبدئي شغل البيت…» · s4 «أول شي: يغطي أذنه أو يطلع من الغرفة أول ما تشغلي المكنسة…» · s5 «ثاني شي: يتعلق فيكي ويسحبك من يدك…» · s6 «ثالث شي: يبغى ياخذ المكنسة منك ويكنس بنفسه…»",
+  "reason": "\"As someone reading slide one, I'd expect this to be a post about how can I do all of my chores while my child is still awake. She doesn't need help with her chores. She wants help with her child. This is not a home tips vlog. It's not on brand, and she'll be disappointed.\"",
+  "rule": "Stay on slide 1's promise, and it's always about the child. Never housework or home-organising tips."
+ },
+ {
+  "lesson": "B2 edit · p6 s6 «ويسويها هو» → «ويكنس بنفسه»",
+  "posts": [
+   "p6"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«يبغى ياخذ المكنسة منك ويسويها هو.»",
+  "after": "«يبغى ياخذ المكنسة منك ويكنس بنفسه.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Name the concrete action (يكنس), not a vague يسويها. «بنفسه» over «هو»."
+ },
+ {
+  "lesson": "B2 edit · فوطة → منشفة everywhere (p6, p8, p9, p10)",
+  "posts": [
+   "p6",
+   "p8",
+   "p9",
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«فوطة» · «فوطتك» · «الفوطة»",
+  "after": "«منشفه / منشفة» · «منشفتك» · «المنشفة»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "A towel or cloth is منشفة. Never فوطة."
+ },
+ {
+  "lesson": "B2 edit · \"not like other advice\" claims removed (p7 s3, s4, caption; p10 s3)",
+  "posts": [
+   "p7",
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Translated-sounding",
+   "CTA / bridge"
+  ],
+  "before": "p7 s3 «وكل وحدة فيها غير النصيحة اللي سمعتيها ألف مرة.» · p7 s4 «الكل يقولك \"قولي له قبل ما تشغليه\". بس…» · p10 s3 «وكل وحدة فيها عكس اللي نسويه عادة.»",
+  "after": "Removed.",
+  "reason": "\"When you say this is not like the other 1,000 advice you heard 1,000 times before, we might as well be saying we're not like the other girls.\"",
+  "rule": "Never claim our advice is different from what she has heard, and no \"everyone tells you…\" set-ups. Let the steps show it."
+ },
+ {
+  "lesson": "B2 edit · p7 steps: fantasy advice → seconds, at the mirror",
+  "posts": [
+   "p7"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism",
+   "Real-life context"
+  ],
+  "before": "«خليه يمسك الاستشوار وهو مفصول…» · «لا تبدئي من جمبه… وأنتي في آخر الغرفة» · «خليه هو اللي يشغله…»",
+  "after": "«لا تشغليه على أعلى درجة من أول. ابدئي بأخف درجة…» · «قبل ما تبدئي، قولي له \"بنشف شعري\"، وتقدري تخليه هو يضغط الزر.» · «خليه يجلس في مكان يشوفك منه… زي طرف السرير أو عند الباب.»",
+  "reason": "\"This is one of those unrealistic advice, fantasy advice that in a perfect world on a perfect day. This mom is most likely already running late. She don't want to have to do all of these things just so she can finally do her hair. Keep in mind that this is a busy mom who's already running late and probably running out of patience too.\"",
+  "rule": "Picture her real state in that moment (late, out of patience). Steps take seconds where she already is, with no setup."
+ },
+ {
+  "lesson": "B2 edit · p7 misaligned: it's HER hair, not his",
+  "posts": [
+   "p7"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure",
+   "Real-life context"
+  ],
+  "before": "تجهزي لعزيمة، والاستشوار في يدك، وهو جالس على سريرك يطالعك.\nتقولي له \"روح العب برا شويه\"، وتستني إلين ما يطلع.\nيرجع بعد دقيقة، وأنتي ما خلصتي نص راسك.",
+  "after": "عندكم عزيمة وأنتي متأخرة.\nأول ما شغلتي الاستشوار على شعرك، غطى أذنه وبدأ يصيح.\nطفيتيه، ورحتي له، ونص شعرك لسه مبلول.",
+  "reason": "\"Now the post is misaligned. It starts with she's doing her own hair, but the steps suggest that she's doing the child's hair. She's trying to do her hair, and her child doesn't like loud noises, so maybe they scream or cry.\"",
+  "rule": "Every slide stays inside the hook's scene. Say whose action it is («على شعرك»، «بنشف شعري»). Slide 2 shows the actual problem (the noise → he covers his ears and screams)."
+ },
+ {
+  "lesson": "B2 edit · p7 s5 «وخليه» → «وتقدري تخليه»",
+  "posts": [
+   "p7"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«…وخليه هو يضغط الزر.»",
+  "after": "«…وتقدري تخليه هو يضغط الزر.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Offer optional extras as a choice (تقدري), not an order. Hand her the value; don't command her."
+ },
+ {
+  "lesson": "B2 edit · p8 s2 «وتطلي على الصالة تشوفيه فين» → «وتروحي الصالة تشوفي فينه»",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«وتطلي على الصالة تشوفيه فين»",
+  "after": "«وتروحي الصالة تشوفي فينه»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "تروحي, not تطلي على. فينه = \"where is he\"."
+ },
+ {
+  "lesson": "B2 edit · يبعد عنه → يخاف منه (p8 s4, s8)",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«الصوت اللي يبعد عنه» · «يبعد عنها»",
+  "after": "«الصوت اللي يخاف منه» · «يخاف منها»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Name the plain feeling (يخاف منه), not a detached description of behaviour."
+ },
+ {
+  "lesson": "B2 edit · p8 s4 تغيري فيها → تغيريها",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«تقدري تغيري فيها»",
+  "after": "«تقدري تغيريها»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Shorter verb form: تغيريها."
+ },
+ {
+  "lesson": "B2 edit · p8 s5 «فوطة مطوية» → «منشفة مطبقة»; explanation cut",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice",
+   "Carousel structure"
+  ],
+  "before": "«حطي فوطة مطوية تحت الخلاط. صوته على الرخام يخف على طول، والفوطة موجودة في مطبخك.»",
+  "after": "«حطي منشفة مطبقة تحت الخلاط. تخفف صوت الخلاط.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Her words: منشفة مطبقة. Cut the over-explaining (\"it's already in your kitchen\")."
+ },
+ {
+  "lesson": "B2 edit · soft CTA ending → «يساعدك تعرفي من فين تبدئي» (p7 s4, p8 s5, p9 s5, p12 s8)",
+  "posts": [
+   "p7",
+   "p8",
+   "p9",
+   "p12"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "CTA / bridge",
+   "Dialect / word choice"
+  ],
+  "before": "«يوريك أي واحد تبدئي فيه» · «يساعدك تعرفي أي واحد يستاهل تبدئي فيه» · «يساعدك تشوفيها كلها وتختاري أولها» · «يمشي معاكي فيها، بدل ما تقفلي الباب كل ما رن جوالك»",
+  "after": "«يساعدك تعرفي من فين تبدئي (مع طفلك)» in all four (p9 kept as she typed it: «تعرف من فين تبدئي»)",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Her default assessment line: «التقييم المجاني (في البايو) يساعدك تعرفي من فين تبدئي». Don't invent clever variations."
+ },
+ {
+  "lesson": "B2 edit · p8 s8 «خطة مبنية على يومه هو» → «خطة على يومه»",
+  "posts": [
+   "p8"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«تساعدك تبني خطة مبنية على يومه هو.»",
+  "after": "«تساعدك تبني خطة على يومه.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Shorter. Drop the extra words («مبنية»، «هو»)."
+ },
+ {
+  "lesson": "B2 edit · drop the obvious detail (p9 «يدق بيده», p10 «ويضرب الموية بيده»)",
+  "posts": [
+   "p9",
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«يدق بيده» · «ويضرب الموية بيده.»",
+  "after": "«يدق» · «ويضرب.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Drop details the reader already sees (bangs with his hand). Shorter is more natural."
+ },
+ {
+  "lesson": "B2 edit · p9 s3 «وما كملتي» → «وما خلصتي»",
+  "posts": [
+   "p9"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«تطلعي له وما كملتي.»",
+  "after": "«تطلعي له وما خلصتي.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "She says خلصتي for \"finished\"."
+ },
+ {
+  "lesson": "B2 edit · p9 s4 «من جهته هو: الباب تسكر» → «من جهته: الباب اتسكر»",
+  "posts": [
+   "p9"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«من جهته هو: الباب تسكر،»",
+  "after": "«من جهته: الباب اتسكر،»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "اتسكر, not تسكر. Drop the extra «هو»."
+ },
+ {
+  "lesson": "B2 edit · «طبيعي + verb» → «فـ + verb» for a consequence (p9 s4, p11 s3)",
+  "posts": [
+   "p9",
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«طبيعي يدق ويبكي» · «طبيعي يحاول يهرب»",
+  "after": "«فيدق ويبكي» · «فيحاول يهرب»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "A consequence takes فـ. Use طبيعي only when normalising his reaction, and don't overuse it."
+ },
+ {
+  "lesson": "B2 edit · p9 s5 «وهو فاضي» → «وطفلك فاضي»",
+  "posts": [
+   "p9"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«لا تدخلي الحمام وهو فاضي يدور عليك.»",
+  "after": "«لا تدخلي الحمام وطفلك فاضي يدور عليك.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Name him as طفلك where «هو» could be unclear."
+ },
+ {
+  "lesson": "B2 edit · p9 s6 «كلميه أو غني له من ورا الباب» → «كلميه»",
+  "posts": [
+   "p9"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism"
+  ],
+  "before": "الخطوة الثانية: خلي صوتك يوصله طول الوقت.\nكلميه أو غني له من ورا الباب. كذا يسمع إنك موجودة، حتى والباب مسكّر.",
+  "after": "الخطوة الثانية: خلي صوتك يوصله طول الوقت.\nكلميه. كذا يسمع إنك موجودة، حتى والباب مسكّر.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "One realistic action per step. Singing through the door is too much."
+ },
+ {
+  "lesson": "B2 edit · p10 s3 «غسلة الشعر أقصر عليكم الاثنين» → «غسيل الشعر عليكم»",
+  "posts": [
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "هذي ثلاث خطوات تخلي غسلة الشعر أقصر عليكم الاثنين.",
+  "after": "هذي ثلاث خطوات تخلي غسيل الشعر عليكم.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "غسيل الشعر, not غسلة الشعر. And «هذا غسيل الشعر» (masculine), not «هذي غسلة»."
+ },
+ {
+  "lesson": "B2 edit · p10 s7 callback «ناشفة أكثر منه» → «وانتي ناشفة»",
+  "posts": [
+   "p10"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ويمكن هذي المرة تطلعي من الحمام ناشفة أكثر منه.»",
+  "after": "«ويمكن هذي المرة تطلعي من الحمام وانتي ناشفة.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "A light callback to the hook is fine, framed with «ويمكن». Say it simply («وانتي ناشفة»)."
+ },
+ {
+  "lesson": "B2 edit · p11 s2 «والكل في الصالون» → «وكل اللي في الصالون»",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«والكل في الصالون يطالع»",
+  "after": "«وكل اللي في الصالون يطالع»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "«كل اللي في…», not «الكل في…»."
+ },
+ {
+  "lesson": "B2 edit · p11 s3 bridge line to the steps",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Carousel structure"
+  ],
+  "before": "في الصالون كل شي يجيه مرة وحدة: كرسي غريب، صوت المكينة، ويد ما يعرفها على راسه.\nطبيعي يحاول يهرب.",
+  "after": "في الصالون كل شي يجيه مرة وحدة: كرسي غريب، صوت المكينة، ويد ما يعرفها على راسه.\nفيحاول يهرب.\nوهذي أربع خطوات للزيارة الجاية.",
+  "reason": "\"Here I want you to add something that lets them know that there are steps coming next. Make it short. Let's keep this slide short.\"",
+  "rule": "After the story, one short line that signals the steps («وهذي أربع خطوات للزيارة الجاية.»)."
+ },
+ {
+  "lesson": "B2 edit · p11 s4 soft CTA «كل مكان جديد يبدأ معاه» → «كل مكان جديد معاه»",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ولو كل مكان جديد يبدأ معاه بنفس الطريقة»",
+  "after": "«ولو كل مكان جديد معاه بنفس الطريقة»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Drop the extra verb."
+ },
+ {
+  "lesson": "B2 edit · p11 s5 «ويطالع طفل ثاني يقص» → «خليه… ويتفرج على طفل ثاني يقص شعره»",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "الخطوة الثانية: أول زيارة، لا تقصوا شي.\nيجلس في حضنك ويطالع طفل ثاني يقص، وبعدها تطلعوا.",
+  "after": "الخطوة الثانية: أول زيارة، لا تقصوا شي.\nخليه يجلس في حضنك ويتفرج على طفل ثاني يقص شعره، وبعدها تطلعوا.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "Watching = يتفرج على, not يطالع. Finish the phrase («يقص شعره»). Start the instruction with خليه."
+ },
+ {
+  "lesson": "B2 edit · p11 s6 clipper step simplified",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism"
+  ],
+  "before": "الخطوة الثالثة: قبل ما توصل المكينة لراسه، خلي الحلاق يحطها على يدك أنتي، وبعدها على يده هو.\nكذا يحس فيها وهي ترج قبل ما تقرب من راسه.",
+  "after": "الخطوة الثالثة: قبل ما توصل المكينة لراسه، خلي الحلاق يخليه يمسكها.\nعشان يحس فيها وهي ترج قبل ما تقرب من راسه.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "One simple action: the barber lets him hold it. Not a two-stage demo on her arm, then his."
+ },
+ {
+  "lesson": "B2 edit · p11 s7 «ما تفارقه» → «دائما معاه»",
+  "posts": [
+   "p11"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ما تفارقه.»",
+  "after": "«دائما معاه.»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "ما تفارقه is written Arabic. She says دائما معاه."
+ },
+ {
+  "lesson": "B2 edit · p12 s2 ترن → تتصل",
+  "posts": [
+   "p12"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice"
+  ],
+  "before": "«ترن أمك»",
+  "after": "«تتصل أمك»",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks.",
+  "rule": "She says تتصل, not ترن."
+ },
+ {
+  "lesson": "B2 edit · p12 s2–s8 rewritten: he wants the phone",
+  "posts": [
+   "p12"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Value / realism",
+   "Real-life context"
+  ],
+  "before": "s3 «تذكري لما تكلمي أحد، وهو ماسك جواله ويطالع فيه. قدامك، بس مو معاكي.» · s4 «أنتي جمبه، بس صوتك وعيونك راحوا لمكان ثاني. طبيعي يحاول يرجعك له.» · s6 «خليه يسلم على جدته على السبيكر» · s7 «خلي يدك عليه وأنتي تكلمي»",
+  "after": "s3 «تخيلي لعبتك المفضلة بيد أحد، وكل ما تحاولي تاخذيها يبعدها عنك.» · s4 «طول المكالمة، الجوال قدامه وفي يدك. يشوفه، يسمع أصواته، ويبغى يلعب به.» · s6 «قبل المكالمة، حطي الجوال على السبيكر وخليه بعيد عن يده» · s7 «اختاري له شي يقدر يسويه بنفسه من العلبة…»",
+  "reason": "She rewrote the post: he isn't upset that her attention went elsewhere. He wants the phone itself, to take it and play with it.",
+  "rule": "Get the child's real motive right. Before writing steps, ask what he actually wants in that moment, and make the metaphor and steps match it."
+ },
+ {
+  "lesson": "B2 edit · p12 s5 ملصقات → ستيكرات; step and soft CTA",
+  "posts": [
+   "p12"
+  ],
+  "stage": "Copy",
+  "cats": [
+   "Dialect / word choice",
+   "CTA / bridge"
+  ],
+  "before": "الخطوة الأولى: علبة صغيرة فيها أشياء ما تطلع إلا وقت المكالمة. ألوان، ملصقات، سيارة ما يشوفها غير ذاك الوقت.\nترن أمك، تطلع العلبة.\n[soft CTA] ولو نفس الشي يصير كل ما انشغلتي بأحد غيره، التقييم المجاني في البايو يساعدك تشوفي الصورة كاملة.",
+  "after": "الخطوة الأولى: جهزي علبة ما تطلع إلا وقت المكالمات.\nألوان، ستيكرات، أو لعبة يحبها.\nيتصل احد وتطلع العلبة.",
+  "reason": "No reason given. Language: she changed it to sound more natural and more like how she talks. She also removed the soft CTA from this slide.",
+  "rule": "ستيكرات / الاستيكرات, not ملصقات. «جهزي علبة…» as a full instruction. A soft CTA can be dropped when she chooses."
+ },
+ {
+  "lesson": "B2 rule · no line ends with a comma",
+  "posts": [
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9",
+   "p10",
+   "p11",
+   "p12"
+  ],
+  "stage": "Design",
+  "cats": [
+   "Carousel structure",
+   "Process"
+  ],
+  "before": "Slides set with a comma at the end of a line (e.g. a hook in two parts, the first ending «،»)",
+  "after": "The line is left open (no comma). A dot is the second choice.",
+  "reason": "\"Make sure that the lines or sentences don't end with a comma… Either leave it open, or put a dot. I rather you leave it open.\"",
+  "rule": "No visible line may end with «،». At a line break, hide the comma (leave it open). The kit FAILs any line ending with a comma."
+ }
+]
