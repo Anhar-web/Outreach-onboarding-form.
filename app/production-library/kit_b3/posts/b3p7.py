@@ -151,6 +151,8 @@ def slide(ctx):
         art = (table(1080)
                + scattered(2, [(170, 1210, 8), (450, 1190, -20)], layer=1, s=.9)
                + avoid(scattered(1, [(170, 930, -30), (360, 850, 18), (560, 960, -12), (330, 1060, 40), (690, 870, 28)], layer=3, s=.85), 'cards')
+               + ''.join(torn_strip([(x, y), (x + dx, y + dy)], 8, C['gold'], T, seed=90 + k, layer=1)
+                         for k, (x, y, dx, dy) in enumerate(((520, 800, 40, -50), (250, 780, -30, -50), (800, 760, 50, -30), (110, 860, -40, -20))))
                + hand_fan(860, 1190, 1.0, sleeve='gold', rot=-8, spread=70))
         html = hook_box(ctx, G, y=MT - 20, size=90, w=920,
                         keep=('صار لك شهور', 'تخسري لطفلك بعمد،', 'ودحين أخته تسألك', 'ليش دايما', 'هو اللي يفوز؟'))

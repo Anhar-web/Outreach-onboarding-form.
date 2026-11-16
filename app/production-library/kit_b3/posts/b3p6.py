@@ -69,19 +69,19 @@ def floor(y, seed=3, x0=80, x1=1000, h=150):
 
 
 def knees(x, y, s=1.0):
-    """mum getting up from the floor at the right edge, seen from the side: the
-    abaya over a bent knee (knee at (x, y)), thigh rising off-canvas to the
-    right, gold hem along the floor, a hand pressing on the knee, rising lines."""
+    """mum getting up at the right edge: the abaya from the knees down, its gold
+    hem lifting off the floor, two bare feet (side view) under it, one heel up,
+    pearl rising lines beside it. (x, y) = the hem's left end."""
     g = (f'<g transform="translate({x} {y}) scale({s})">'
-         f'<path d="M -40 230 L -40 40 Q -40 -40 40 -40 L 400 -300 L 400 230 Z" fill="{C["ink"]}"/>'
-         f'<rect x="-50" y="212" width="460" height="20" fill="{C["gold"]}"/>'
-         f'<path d="M 20 -70 Q -30 -90 -60 -60 Q -78 -40 -60 -22 L 0 -10 L 70 -30 Z" fill="{C["sandLight"]}"/>'
-         f'<rect x="20" y="-110" width="300" height="90" rx="30" fill="{C["ink"]}" transform="rotate(-38 20 -60)"/>'
-         f'<rect x="12" y="-112" width="22" height="94" fill="{C["gold"]}" transform="rotate(-38 20 -60)"/></g>')
+         f'<path d="M 30 0 Q 60 -260 180 -420 L 420 -470 L 420 30 Z" fill="{C["ink"]}"/>'
+         f'<path d="M 120 -20 Q 150 -220 240 -360" fill="none" stroke="{C["night"]}" stroke-width="8" stroke-opacity=".7"/>'
+         f'<path d="M 30 0 L 420 30 L 420 52 L 26 22 Z" fill="{C["gold"]}"/>'
+         f'<path d="M 70 40 Q 40 46 20 70 Q 14 86 34 88 L 140 86 Q 160 84 156 60 L 150 40 Z" fill="{C["sandLight"]}"/>'
+         f'<path d="M 250 50 Q 214 64 196 100 Q 190 118 212 116 L 300 96 Q 318 90 312 70 L 306 48 Z" fill="{C["sandLight"]}"/></g>')
     out = paper(g, T, 3)
     for k in range(3):
-        xx = x - 110 * s - k * 40 * s
-        out += torn_strip([(xx, y + 60 * s - k * 30), (xx, y - 60 * s - k * 30)], 9, C['pearl'], T, seed=40 + k, layer=1)
+        xx = x - 40 * s - k * 42 * s
+        out += torn_strip([(xx, y - 20 * s - k * 30), (xx, y - 150 * s - k * 30)], 9, C['pearl'], T, seed=40 + k, layer=1)
     return out
 
 
@@ -150,7 +150,7 @@ def slide(ctx):
     if s == 1:
         art = floor(1120, x0=60, x1=760)
         art += avoid(toppling(520, 1190, 6, sz=104), 'tower')
-        art += avoid(knees(860, 1050, 1.0), 'mum')
+        art += avoid(knees(790, 1150, .9), 'mum')
         html = hook_box(ctx, G, y=MT - 10, size=94)
     elif s == 2:
         art = floor(1120, x0=200, x1=760)

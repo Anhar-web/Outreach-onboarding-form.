@@ -84,13 +84,15 @@ def biscuit(cx, cy, r, crack=None, split=0, seed=3, rot=0, name='biscuit', crack
     half_a = rim_pts(cx, cy, r, crack, crack + 180, amp=0) + z[::-1]
     half_b = rim_pts(cx, cy, r, crack + 180, crack + 360, amp=0) + z
     out = ''
+    arcs = {1: rim_pts(cx, cy, r * .86, crack + 14, crack + 166, amp=0), -1: rim_pts(cx, cy, r * .86, crack + 194, crack + 346, amp=0)}
     for sgn, pts in ((1, half_a), (-1, half_b)):
         dx, dy = nx * split / 2 * sgn, ny * split / 2 * sgn
+        rg = f'<polyline points="{P(arcs[sgn])}" fill="none" stroke="{C["gold"]}" stroke-opacity=".55" stroke-width="{r * .03:.1f}"/>'
         keep = (lambda sg: (lambda x, y: sg * ((x - cx) * nx + (y - cy) * ny) > r * .1))(sgn)
         hl = holes(cx, cy, r, keep)
         out += paper(f'<g transform="translate({dx:.1f} {dy:.1f}) rotate({sgn * tilt} {cx} {cy}) rotate({rot} {cx} {cy})">'
                      f'<polygon points="{P(pts)}" fill="{C["sandLight"]}"/>'
-                     f'<path d="M {cx} {cy}" />{hl}</g>', T, 2)
+                     f'{rg}{hl}</g>', T, 2)
     return avoid(out, name)
 
 
