@@ -89,7 +89,6 @@ def small_head_ears(cx, cy, r=150):
              f'<rect x="{-30 + sd * 50}" y="30" width="80" height="40" rx="12" fill="{C["tealMist"]}"/>'
              f'<rect x="-54" y="-40" width="108" height="110" rx="40" fill="{C["sandLight"]}"/>'
              + ''.join(f'<rect x="{-50 + n * 26}" y="{-118 + abs(n - 1.5) * 12:.0f}" width="22" height="110" rx="11" fill="{C["sandLight"]}" transform="rotate({(n - 1.5) * 5} {-39 + n * 26} 0)"/>' for n in range(4))
-             + f'<rect x="{-sd * 70 - 17}" y="-20" width="34" height="84" rx="17" fill="{C["sandLight"]}" transform="rotate({sd * 30} {-sd * 70} 20)"/>'
              + '</g>')
         out += paper(g, T, 3)
     out += drops([(cx - r * 1.3, cy + r * .9), (cx + r * 1.35, cy + r * 1.0), (cx - r * 1.1, cy + r * 1.35)], r=12)
@@ -199,7 +198,7 @@ def slide(ctx):
         html = body_box(ctx, G) + soft_cta(ctx, y=660)
     elif s == 4:
         inside = dryer(760, 900, .36, on=False, name='dryer_in')
-        art = doorway(600, 760, 330, 600, inside) + hand_up(330, 900, 1.05, rot=24, point=True)
+        art = doorway(600, 760, 330, 600, inside) + hand_up(330, 930, 1.05, rot=24, point=False)
         html = body_box(ctx, G)
     elif s == 5:
         art = (dryer(330, 830, .85, on=True) + arcs(330, 830, 215, 1, 50, 20, seed=40)
