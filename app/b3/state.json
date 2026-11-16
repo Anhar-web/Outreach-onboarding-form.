@@ -1,0 +1,570 @@
+{
+ "project": "Home Orbit — Batch 3 (Nov 2026)",
+ "currentStep": 1,
+ "steps": [
+  {
+   "n": 1,
+   "key": "brief",
+   "title": "Brief",
+   "subtitle": "The Analyst reads Batches 1–2, then the Strategist turns it into the Batch 3 brief.",
+   "status": "needs-you",
+   "idea": {
+    "title": "Decide the job before the post",
+    "body": "Most content fails because nobody decided what it was for."
+   },
+   "action": {
+    "label": "Read the Analyst + brief, answer the 4 questions in chat, then confirm.",
+    "phrase": "Looks right. Next step."
+   },
+   "report": "## Part 1 · Analyst: what's working (Batches 1 and 2, 22 posts)\n\n**Sources read:** handbook v3 (all parts), every Airtable table (169 Feedback & Lessons rows, including all 72 \"B2 edit ·\" rows, plus 22 posts, 25 performance check-ins, 2 conversion windows, 9 formats and 20 visual-style rows), the assessment base (17 completed assessments; dates, status, q14 and click flags only), and the repo's B3 input files.\n\n**What's new since Part J:** there are no new numbers. The last completed assessment was on **Nov 14, 05:59** (Saudi time). Post Performance only has day-1 snapshots for Batch 2, apart from the shower post, which also has an evening update. Everything below matches Part J, plus three findings that only showed up once I lined the posts up together.\n\n### 1. Under clean conditions, the hook decides\n\"Clean\" means a dark ground and either the first post of the evening or one about an hour after the first. Twelve posts ran under those conditions:\n\n| Hook type | Broke out | Posts |\n|---|---|---|\n| **Her moment + the cost lands on HER, with a body or time detail** | **6 of 7** | vacuum, bedtime, hair wash, sneaking out, shower, 8 to 10 ✅ · night waking ❌ |\n| Planning, rules, the child's behaviour, or a second half | **0 of 5** | عزيمة, park, plate, \"just today\", blender |\n\nThe one miss with the winning shape, night waking, was the **4th sleep post in 4 nights**, so it reads as topic fatigue. It doesn't count against the hook.\n\n### 2. Light grounds and posting minutes apart: 0 of 10\nNone of the 10 posts on a light ground or posted 1–11 min after another broke out, **whatever the hook**. Cooking had a «فصرتي» hook and still stalled (light ground, 1 min after hair wash).\n\nThere is one confound to fix in Batch 3: the three light posts that went out at a clean time all used «ما تقدري… إلا». So we still can't tell whether the ground or the hook shape held them back. **One «ما تقدري» hook on a dark ground settles it.**\n\n### 3. Reach plus a CTA turns into assessments, at a rate we can plan around\n- **Batch 1:** 0 completions in a window where no post that reached people had a CTA.\n- **Batch 2:** 9 completions. 5 came within ~19 h of hair wash (4.1K), 1 after the shower evening (3.2K) and 2 after 8 to 10 (1.9K). None came after the stalled posts.\n- **Working rate:** about **1 completed assessment per ~1,100–1,250 breakout views** (timing-based attribution only).\n- **What that means for Batch 3:** every breakout is worth roughly 2–5 assessments, and a stalled post is worth ~0. Reach is the business lever.\n\n### 4. The leak has moved downstream\n- 9 completions → 4 clicked \"learn more about the Living Plan\" → **0 joined the waitlist**.\n- The posts now deliver assessments. The assessment → waitlist step is where the business win is lost.\n- This is outside the carousels. The **explainer extension** (Part K2) is the content-side lever, because it sets up the beliefs that make the waitlist feel obvious before she ever reaches the results page.\n- **Flag for you:** the results/plan page is probably worth a separate look.\n\n### 5. Topics\n- **What she's struggling with (Q14, all 17 assessments):** emotions **6**, sleep **5**, communication 2, D 2, B 1, other 1. Emotions also led in Batch 2 (4 of 9).\n- **Sleep posts are fading:** 4.3K (B1), then 1.0K, 1.9K, 555 and 509 in B2.\n- **What wins:** body-care and sensory chores where she pays the price (vacuum, hair wash, shower).\n- **Never tested since the agency started:** public or family scenes with witnesses. Your legacy winners were all public scenes (200K, 40K, 38K).\n\n### 6. Depth, saves and format\n- **Depth:** breakouts average 3.0–3.5 slides viewed; stalled posts 2.0–2.8. Most viewers still leave by slide 3, so the soft CTA has to sit on slide 3 or 4.\n- **Saves:** practical routine posts get saved (35 / 29 / 25).\n- **Format:** F1 HPSPC went 0 of 3. F2, F3, F5 and F6 had one winner each. Format matters less than hook, ground and timing, which is why Batch 3 can afford to test new formats.\n- **Comments:** ~0 everywhere. As agreed, that's not a failure signal.\n\n### Instructions for the Batch 3 brief\n1. **Hook:** every hook is her moment plus the cost landing on HER, with a body or time detail. One question, past tense. Test «ما تقدري… إلا» exactly once, on a dark ground.\n2. **Conditions:** slide 1 always deep or night. Two posts an evening, about an hour apart, 7:00–8:30 PM. Hold these two constant so the format tests stay readable.\n3. **Topics:** emotions/meltdowns and public/family scenes lead. Sensory chores and body care keep the winning shape. **At most 1 sleep post.**\n4. **Waitlist:** every post carries one explainer belief, aimed at the waitlist gap. Also look at the results page separately.\n\n---\n\n## Part 2 · Strategist: Batch 3 brief (draft for your approval)\n\n**What this batch is for:** more breakouts, each one carrying a CTA. Every post is a value post that ends with a CTA, with no attention vs conversion split. The batch also tests three ideas from your talks (F7, F8 and the explainer extension), labelled so we can compare them.\n\n**Size and shape:**\n- 12 static TikTok carousels, 1080×1350.\n- About 7–8 slides, with no more than 3 story slides.\n- **Win =** completed assessments per evening, waitlist joins, saves, ≥3 slides viewed, and followers. Views only count as the route to those.\n\n**Audience:** a cold new mother who doesn't know Home Orbit. We describe behaviour she can see, never a diagnosis.\n\n### Format slate (12 posts, each one labelled)\n| Label | Count | Why |\n|---|---|---|\n| **F7 Inception list: mistakes** | 2 | Your test. Slide 1 = her scene only, slide 2 = the count. \"The mistake most of us make\", never blaming her. The last point is the explainer. |\n| **F7 Inception list: benefits / one tool** | 2 | The other half of the test, built the same way. |\n| **F8 Scene + one tool** | 2 | Public or family scene with witnesses' lines, one game-like tool, the twist, and a one-word comment prompt. Two posts, so one result isn't luck. |\n| **F5 Walk-through** | 2 | Hair wash, the biggest winner, used this format. |\n| **F3 Two voices** | 1 | Shower (3.2K). |\n| **F2 Story** | 1 | Sneaking out (1K). |\n| **F6 Checklist** | 1 | 8 to 10 (1.9K, 25 saves). |\n| **F4 Metaphor** (Eric's parallel story) | 1 | Re-test on a dark ground. Its only post so far was on a light ground. The parallel comes from her everyday life, never the brain or science. |\n| F1 HPSPC | 0 | Resting (0 of 3). |\n\n### Topic mix (to be confirmed by Research at step 3)\n- **Emotions and meltdowns: 5.** When something ends, breaks or goes wrong, or when he hears \"no\".\n- **Public and family scenes: 4.** A loud women's party, the supermarket checkout, leaving a gathering and, if the format calls for it, a restaurant-type scene. Not a copy of the legacy posts.\n- **Sensory chores and body care: 3.** For example nail cutting, teeth, new clothes or a hand dryer. Not vacuum, blender, hair dryer, shower, hair wash or salon again.\n- **Sleep: 1 at most**, or none.\n- These overlap: an F8 public post can also be an emotions post. Research picks the actual moments.\n- **No repeats of B1–B2 topics:** vacuum, iPad, the عزيمة, crying-why, bedtime, shoes, plate, his name, park, aunt/change, hair wash, cooking, sneaking out, shower, only-after-he-sleeps, \"just today\", hair dryer, 8 to 10, phone calls, night waking, blender, salon.\n\n### What every post carries\n1. **The value:** real, realistic steps or one tool. They take seconds where she already is, work with what the child actually wants, and give one action per step.\n2. **The explainer extension (K2):**\n   - It comes after the steps as a smooth continuation of the last one («و…»، «وبعدها…»، «ومن هنا نبني الخطة…»).\n   - **One type + one belief per post**, logged on the concept, spread across the 9 types.\n   - Never a whole explainer post. No «أخصائي», no «كل أسبوعين», no \"everyone tells you…\".\n   - In F7, the last point *is* the explainer.\n3. **A soft CTA on slide 3 or 4:** one short line that names the benefit (e.g. «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي»).\n4. **The final CTA:** Connect → Purpose → Direct, as one flowing sentence. It names what happened before the moment, and she «تبني خطة».\n5. **Caption and pinned comment.**\n\n**Voice:** all 169 Feedback & Lessons rules apply, with the 72 B2 edits as the model.\n\n**Production:** Part I rules, built on the B2 kit. I build everything first, then you review the finished slides. Delivered as one zip per post, in posting order.\n\n### Posting plan\n- 6 evenings × 2 posts: about 7:15 PM, then about 8:15 PM.\n- The stronger bet of each pair goes first.\n- Day-1 numbers are logged in Post Performance, and completions are checked after each evening.\n\n### Assumptions I've made (correct anything)\n- F8 = 2 posts and F4 = 1 post. Your prompt didn't give counts.\n- The one sleep slot may stay empty if Research doesn't find a fresh moment.\n- The comment prompt goes on the F8 posts only, so we can see whether it moves comments.\n\n### Questions for you (all at once)\n1. Are **F8 ×2** and **one F4 parallel story** right, or would you rather move those slots to F5/F3?\n2. **Sleep:** one post, or none this batch?\n3. Do you have **any newer numbers** (day-7 views for B2, profile visits, bio-link clicks)? They're optional, and we can start without them.\n4. Do you want a **separate look at the assessment → waitlist step** (results page), outside this batch? 0 of 9 joined.\n"
+  },
+  {
+   "n": 2,
+   "key": "scorecard",
+   "title": "Scorecard",
+   "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
+   "status": "idle",
+   "idea": {
+    "title": "Define 'good' before anyone writes",
+    "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
+   },
+   "action": {
+    "label": "Approve the weights and the plan.",
+    "phrase": "Go."
+   },
+   "report": ""
+  },
+  {
+   "n": 3,
+   "key": "research",
+   "title": "Research",
+   "subtitle": "Audience Researcher and Market Analyst work in parallel.",
+   "status": "idle",
+   "idea": {
+    "title": "Her words, not ours",
+    "body": "The best lines are the ones she has already said to her sister."
+   },
+   "action": {
+    "label": "Read both reports.",
+    "phrase": "Both look good. Next step."
+   },
+   "report": ""
+  },
+  {
+   "n": 4,
+   "key": "hooks",
+   "title": "Angles & hooks",
+   "subtitle": "The Hook Specialist builds angles and scored hooks.",
+   "status": "idle",
+   "idea": {
+    "title": "The hook carries most of the result",
+    "body": "Frame one decides whether the rest exists for her."
+   },
+   "action": {
+    "label": "Pick, cut or rewrite hooks.",
+    "phrase": "These are good. Build concepts."
+   },
+   "report": ""
+  },
+  {
+   "n": 5,
+   "key": "concepts",
+   "title": "Concepts",
+   "subtitle": "The Strategist assembles distinct concepts for you to pick.",
+   "status": "idle",
+   "idea": {
+    "title": "Options, not one answer",
+    "body": "A batch is a test. We need real variety to learn from."
+   },
+   "action": {
+    "label": "Pick the concepts to produce.",
+    "phrase": "Produce these."
+   },
+   "report": ""
+  },
+  {
+   "n": 6,
+   "key": "format",
+   "title": "Format",
+   "subtitle": "You decide static slides or video for each picked concept, and its format label.",
+   "status": "idle",
+   "idea": {
+    "title": "Format follows the idea",
+    "body": "Some ideas need to be swiped, some need to move."
+   },
+   "action": {
+    "label": "Choose static or video (and the F-label) per concept.",
+    "phrase": "Formats chosen."
+   },
+   "report": ""
+  },
+  {
+   "n": 7,
+   "key": "production",
+   "title": "Production",
+   "subtitle": "The Copywriter writes every picked post in Arabic.",
+   "status": "idle",
+   "idea": {
+    "title": "Written last, never from a blank page",
+    "body": "Every post starts from a picked concept, a chosen hook and her own words."
+   },
+   "action": {
+    "label": "Read the drafts.",
+    "phrase": "Looks good. Edit and test."
+   },
+   "report": ""
+  },
+  {
+   "n": 8,
+   "key": "test",
+   "title": "Arabic + Test",
+   "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
+   "status": "idle",
+   "idea": {
+    "title": "Born in Arabic, tested cold",
+    "body": "A line that sounds translated loses, whatever its score."
+   },
+   "action": {
+    "label": "Choose what ships.",
+    "phrase": "Ship the winners."
+   },
+   "report": ""
+  },
+  {
+   "n": 9,
+   "key": "handoff",
+   "title": "Handoff",
+   "subtitle": "The Strategist packages the final posts.",
+   "status": "idle",
+   "idea": {
+    "title": "Finished when the numbers teach us",
+    "body": "After posting, tell us the numbers and ask 'what's working?'."
+   },
+   "action": {
+    "label": "Done.",
+    "phrase": null
+   },
+   "report": ""
+  }
+ ],
+ "plan": {
+  "specialists": [
+   {
+    "key": "st",
+    "name": "Strategist",
+    "role": "The brief, scorecard, concepts, handoff",
+    "status": "needs-you"
+   },
+   {
+    "key": "ar",
+    "name": "Audience Researcher",
+    "role": "What mothers actually say",
+    "status": "idle"
+   },
+   {
+    "key": "ma",
+    "name": "Market Analyst",
+    "role": "What the market has heard",
+    "status": "idle"
+   },
+   {
+    "key": "hk",
+    "name": "Hook Specialist",
+    "role": "Angles and hooks",
+    "status": "idle"
+   },
+   {
+    "key": "cw",
+    "name": "Copywriter",
+    "role": "Writes the posts",
+    "status": "idle"
+   },
+   {
+    "key": "av",
+    "name": "Arabic Voice Editor",
+    "role": "Makes it sound native",
+    "status": "idle"
+   },
+   {
+    "key": "tp",
+    "name": "Test Panel",
+    "role": "Sceptical mothers, scored",
+    "status": "idle"
+   },
+   {
+    "key": "an",
+    "name": "Analyst",
+    "role": "Batch 1 read; next read after posting",
+    "status": "done"
+   }
+  ]
+ },
+ "scorecard": {
+  "total": 100,
+  "items": [
+   {
+    "name": "Scroll-stop (winning hook shape)",
+    "weight": 16,
+    "score": null
+   },
+   {
+    "name": "Recognition",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "Emotion, not apathy",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "Her own words",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Usable value («رؤوس أقلام»)",
+    "weight": 12,
+    "score": null
+   },
+   {
+    "name": "Trust & safety (gate)",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Arabic naturalness",
+    "weight": 8,
+    "score": null
+   },
+   {
+    "name": "The turn / perspective shift",
+    "weight": 8,
+    "score": null
+   },
+   {
+    "name": "CTA: seen and earned",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Save / share-worthy",
+    "weight": 2,
+    "score": null
+   }
+  ]
+ },
+ "concepts": [],
+ "posts": [],
+ "performance": [
+  {
+   "postId": "B1 Vacuum",
+   "postedOn": "Nov 4",
+   "job": "",
+   "format": "F0 · night",
+   "views": 3468,
+   "likes": 26,
+   "saves": 7,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "day 1; 3,857 by day 5"
+  },
+  {
+   "postId": "B1 iPad",
+   "postedOn": "Nov 4",
+   "job": "",
+   "format": "F0 · split",
+   "views": 466,
+   "likes": 4,
+   "saves": 1,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "11 min after"
+  },
+  {
+   "postId": "B1 عزيمة",
+   "postedOn": "Nov 5",
+   "job": "",
+   "format": "F0 · deep",
+   "views": 418,
+   "likes": 0,
+   "saves": 2,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "B1 Cries",
+   "postedOn": "Nov 5",
+   "job": "",
+   "format": "F0 · sandLight",
+   "views": 416,
+   "likes": 0,
+   "saves": 3,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "5 min after"
+  },
+  {
+   "postId": "B1 Bedtime",
+   "postedOn": "Nov 6",
+   "job": "",
+   "format": "F0 · night",
+   "views": 4333,
+   "likes": 57,
+   "saves": 35,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "4,433 by day 3"
+  },
+  {
+   "postId": "B1 Shoes",
+   "postedOn": "Nov 6",
+   "job": "",
+   "format": "F0 · gold",
+   "views": 467,
+   "likes": 2,
+   "saves": 1,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "2 min after"
+  },
+  {
+   "postId": "B1 Plate",
+   "postedOn": "Nov 7",
+   "job": "",
+   "format": "F0 · deep",
+   "views": 483,
+   "likes": 0,
+   "saves": 0,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "B1 Name",
+   "postedOn": "Nov 7",
+   "job": "",
+   "format": "F0 · tealMist",
+   "views": 419,
+   "likes": 1,
+   "saves": 0,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1 min after"
+  },
+  {
+   "postId": "B1 Park",
+   "postedOn": "Nov 8",
+   "job": "",
+   "format": "F0 · deep",
+   "views": 448,
+   "likes": 2,
+   "saves": 2,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "B1 Aunt",
+   "postedOn": "Nov 8",
+   "job": "",
+   "format": "F0 · pearl",
+   "views": 426,
+   "likes": 2,
+   "saves": 2,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1 min after"
+  },
+  {
+   "postId": "B2 Hair wash",
+   "postedOn": "Nov 10",
+   "job": "value+CTA",
+   "format": "F5 · deep",
+   "views": 4081,
+   "likes": 57,
+   "saves": 29,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "5 assessments within ~19h"
+  },
+  {
+   "postId": "B2 Cooking",
+   "postedOn": "Nov 10",
+   "job": "value+CTA",
+   "format": "F1 · sandLight",
+   "views": 518,
+   "likes": 9,
+   "saves": 3,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1 min after"
+  },
+  {
+   "postId": "B2 Sneaking out",
+   "postedOn": "Nov 11",
+   "job": "value+CTA",
+   "format": "F2 · night",
+   "views": 1047,
+   "likes": 9,
+   "saves": 8,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "B2 Shower",
+   "postedOn": "Nov 11",
+   "job": "value+CTA",
+   "format": "F3 · deep",
+   "views": 3153,
+   "likes": 16,
+   "saves": 8,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1h after; evening update"
+  },
+  {
+   "postId": "B2 Only after he sleeps",
+   "postedOn": "Nov 12",
+   "job": "value+CTA",
+   "format": "F6 · tealMist",
+   "views": 480,
+   "likes": 6,
+   "saves": 3,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "ما تقدري"
+  },
+  {
+   "postId": "B2 Just today",
+   "postedOn": "Nov 12",
+   "job": "value+CTA",
+   "format": "F3 · night",
+   "views": 555,
+   "likes": 5,
+   "saves": 3,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1h after"
+  },
+  {
+   "postId": "B2 Hair dryer",
+   "postedOn": "Nov 13",
+   "job": "value+CTA",
+   "format": "F5 · pearl",
+   "views": 436,
+   "likes": 2,
+   "saves": 0,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "ما تقدري"
+  },
+  {
+   "postId": "B2 8 to 10",
+   "postedOn": "Nov 13",
+   "job": "value+CTA",
+   "format": "F6 · deep",
+   "views": 1931,
+   "likes": 25,
+   "saves": 25,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1h after; 2 assessments"
+  },
+  {
+   "postId": "B2 Phone calls",
+   "postedOn": "Nov 14",
+   "job": "value+CTA",
+   "format": "F4 · tealMist",
+   "views": 413,
+   "likes": 1,
+   "saves": 0,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "ما تقدري"
+  },
+  {
+   "postId": "B2 Night waking",
+   "postedOn": "Nov 14",
+   "job": "value+CTA",
+   "format": "F1 · night",
+   "views": 509,
+   "likes": 4,
+   "saves": 3,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "1h after; 4th sleep post"
+  },
+  {
+   "postId": "B2 Blender",
+   "postedOn": "Nov 15",
+   "job": "value+CTA",
+   "format": "F2 · deep",
+   "views": 701,
+   "likes": 4,
+   "saves": 2,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "B2 Salon",
+   "postedOn": "Nov 15",
+   "job": "value+CTA",
+   "format": "F1 · sandLight",
+   "views": 436,
+   "likes": 4,
+   "saves": 1,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": "10 min after"
+  }
+ ],
+ "updatedAt": "2026-11-16T10:05:39.889465+00:00"
+}
