@@ -1,0 +1,140 @@
+<title>Home Orbit Production Board B3</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=El+Messiri:wght@600;700&display=swap">
+<style>
+/* Layout: one calm centred column, an agency's internal run sheet. Stepper on top, the selected step as the hero card, then team, scorecard, concepts, posts, performance. */
+:root{
+  --bg:#f7f5ef; --surface:#ffffff; --ink:#122a31; --muted:#5d6d71; --line:#dfe3e0;
+  --accent:#005A70; --accent-soft:#e1eef0; --gold:#C9935A; --gold-soft:#f4e6d4;
+  --idle:#a3adad; --working:#d79a0b; --needs:#005A70; --done:#1d9a53; --idea:#0f2f39; --idea-ink:#eef3f2;
+  --display:Georgia,"Times New Roman",serif; --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; --ar:"Tajawal","El Messiri",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10191b; --surface:#172326; --ink:#e8eeec; --muted:#9db0b1; --line:#2a3a3d;
+  --accent:#5cc7c3; --accent-soft:#16383d; --gold:#d9a873; --gold-soft:#3a2e20;
+  --idle:#5d6a6b; --working:#e0aa2a; --needs:#5cc7c3; --done:#3cbf72; --idea:#0b2329; --idea-ink:#e8eeec; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10191b; --surface:#172326; --ink:#e8eeec; --muted:#9db0b1; --line:#2a3a3d;
+  --accent:#5cc7c3; --accent-soft:#16383d; --gold:#d9a873; --gold-soft:#3a2e20;
+  --idle:#5d6a6b; --working:#e0aa2a; --needs:#5cc7c3; --done:#3cbf72; --idea:#0b2329; --idea-ink:#e8eeec; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);margin:0}
+.wrap{max-width:900px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{width:44px;height:44px;border-radius:10px;background:var(--accent);color:var(--bg);display:grid;place-items:center;font:700 15px var(--ar)}
+.hgroup{flex:1;min-width:0}
+.hgroup .k{font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hgroup h1{margin:0;font:600 20px var(--display)}
+.chip{font:11px var(--mono);color:var(--muted);border:1px solid var(--line);padding:4px 8px;border-radius:99px}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tbtn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px}
+.stepper{display:grid;grid-template-columns:repeat(7,1fr);position:relative;overflow-x:auto}
+.stepper:before{content:"";position:absolute;top:15px;left:5%;right:5%;height:2px;background:var(--line)}
+.st{background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative;min-width:60px}
+.dot{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font:600 13px var(--mono);background:var(--surface);border:2px solid var(--idle);color:var(--muted)}
+.st[data-s="working"] .dot{border-color:var(--working);background:var(--working);color:#fff}
+.st[data-s="needs-you"] .dot{border-color:var(--needs);background:var(--needs);color:var(--bg)}
+.st[data-s="done"] .dot{border-color:var(--done);background:var(--done);color:#fff}
+.st.cur .dot{box-shadow:0 0 0 4px var(--accent-soft)}
+.st.sel .lbl{color:var(--ink);font-weight:600}
+.lbl{font-size:11px;color:var(--muted);text-align:center;line-height:1.2}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.eyebrow{display:flex;gap:10px;align-items:center;font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pill{font:600 11px var(--mono);padding:3px 8px;border-radius:99px;text-transform:uppercase;letter-spacing:.05em}
+.pill[data-s="idle"]{background:var(--line);color:var(--muted)}
+.pill[data-s="working"]{background:var(--working);color:#fff}
+.pill[data-s="needs-you"]{background:var(--needs);color:var(--bg)}
+.pill[data-s="done"]{background:var(--done);color:#fff}
+.card h2{margin:0;font:600 30px/1.15 var(--display);text-wrap:balance}
+.sub{margin:0;font-style:italic;color:var(--muted)}
+details.idea{background:var(--idea);color:var(--idea-ink);border-radius:10px;padding:12px 14px}
+details.idea summary{cursor:pointer;font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+details.idea b{display:block;font:600 17px var(--display);margin-top:8px}
+.action{border:1.5px solid var(--accent);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.action .row{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.action .k{font:600 11px var(--mono);letter-spacing:.08em;color:var(--accent)}
+.send{background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:10px 14px;font-weight:600;align-self:flex-start}
+.hint{font-size:12px;color:var(--muted)}
+.md{min-width:0}
+.md h3{font:600 19px var(--display);margin:18px 0 6px}.md h4{margin:14px 0 4px}
+.md p{margin:8px 0}.md ul,.md ol{margin:6px 0;padding-left:22px}.md li{margin:3px 0}
+.md code{font:12.5px var(--mono);background:var(--accent-soft);padding:1px 5px;border-radius:4px}
+.md blockquote{margin:8px 0;padding:6px 12px;border-left:3px solid var(--gold);background:var(--gold-soft);border-radius:0 6px 6px 0}
+.tw{overflow-x:auto}.md table,table.perf{border-collapse:collapse;width:100%;font-size:13px}
+.md th,.md td,table.perf th,table.perf td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.md th,table.perf th{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+table.perf td{font-variant-numeric:tabular-nums}
+.ar{direction:rtl;text-align:right;font-family:var(--ar);font-size:17px;line-height:1.75}
+section h3.sec{font:600 22px var(--display);margin:0 0 12px}
+.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.mem{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
+.av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:600 12px var(--mono);flex:none;background:var(--idle);color:#fff}
+.av[data-s="working"]{background:var(--working)}.av[data-s="needs-you"]{background:var(--needs);color:var(--bg)}.av[data-s="done"]{background:var(--done)}
+.mem b{display:block;font-size:13.5px}.mem span{font-size:12px;color:var(--muted)}
+.sc{display:grid;grid-template-columns:minmax(120px,190px) 1fr 44px;gap:10px;align-items:center;font-size:13.5px;padding:4px 0}
+.bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.sc .v{text-align:right;font:12px var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.cc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cc.picked{border:2px solid var(--accent)}.cc.rejected{opacity:.45}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font:600 10.5px var(--mono);text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px;background:var(--line);color:var(--muted)}
+.tag.acc{background:var(--accent-soft);color:var(--accent)}.tag.gold{background:var(--gold-soft);color:var(--gold)}
+.hook{background:var(--accent-soft);border-radius:8px;padding:8px 10px}
+.gloss{font-style:italic;color:var(--muted);font-size:13px}
+.post{display:flex;flex-direction:column;gap:10px}
+.score{font:600 12px var(--mono);padding:3px 8px;border-radius:99px;background:var(--done);color:#fff}.score.low{background:var(--working)}
+.body{white-space:pre-wrap;background:var(--bg);border-radius:8px;padding:12px}
+.note{font-size:13px;color:var(--muted);white-space:pre-wrap}
+.callout{background:var(--accent-soft);border-radius:10px;padding:12px 14px;font-size:13.5px}
+.empty{color:var(--muted);font-style:italic}
+@media (max-width:560px){.stepper{grid-template-columns:repeat(7,64px)}.card h2{font-size:24px}.sc{grid-template-columns:110px 1fr 40px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.thumb{width:100%;border-radius:8px;border:1px solid var(--line);background:#000}.grp{font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0}</style>
+<div class="wrap">
+<header><div class="logo">مدار</div><div class="hgroup"><div class="k">Creative Production</div><h1>Home Orbit · Batch 3 production (12 static carousels)</h1></div><span class="chip">Updated Nov 16, 18:44 (Saudi)</span><button class="tbtn" id="tt" type="button">Theme</button></header>
+<nav class="stepper"><div class="st" data-s="done"><span class="dot">✓</span><span class="lbl">Intake &amp; brief</span></div><div class="st" data-s="done"><span class="dot">✓</span><span class="lbl">Visual direction</span></div><div class="st" data-s="done"><span class="dot">✓</span><span class="lbl">Art direction &amp; brand</span></div><div class="st cur" data-s="working"><span class="dot">4</span><span class="lbl">Build</span></div><div class="st" data-s="idle"><span class="dot">5</span><span class="lbl">Repurposing</span></div><div class="st" data-s="idle"><span class="dot">6</span><span class="lbl">Creative QA</span></div><div class="st" data-s="idle"><span class="dot">7</span><span class="lbl">Delivery</span></div></nav>
+<section class="card"><div class="eyebrow">Stage 4 of 7 <span class="pill" data-s="working">working</span></div><h2>Build</h2><p class="sub">Three designers build the 12 carousels in parallel, four posts each, then fix them by eye.</p>
+<div class="action"><div class="row"><span class="k">YOUR ACTION</span></div><div>Nothing yet. Per your Batch 2 rule, everything gets built first; you review the finished slides at the end.</div></div>
+<div class="md"><h3>What&#x27;s happening</h3>
+<ul>
+<li><b>Intake (done):</b> the 12 final posts, verbatim from your edit file, in posting order.</li>
+<li><b>Direction + art direction (done):</b> slide 1 and the whole post on deep or night (the data: light grounds 0 of 10); gold only for the end slide. Same cut-paper through-line. <b>12 new compositions</b>, none from Batch 1–2 (see each card below). Full spec: <code>app/art_direction_b3.md</code>.</li>
+<li><b>Build (working now):</b> each designer renders, reads the contact sheet, and fixes until the kit&#x27;s checks pass: your words verbatim, no line ending in a comma, no text under 44px, nothing crossing the art.</li>
+<li><b>Next:</b> Creative QA scores every post (Arabic legibility is a gate), then you get one zip per post in posting order.</li>
+</ul>
+<h3>The contact sheets below are work in progress</h3>
+<p>They update each time I republish this board. Slide 1 is at the top-right; read right to left.</p></div></section>
+<section><h3 class="sec">The department</h3><div class="team"><div class="mem"><span class="av" data-s="working">PR</span><div><b>Production Director</b><span>Intake, delivery, the library</span></div></div><div class="mem"><span class="av" data-s="done">VI</span><div><b>Visual Researcher</b><span>The look, fresh directions</span></div></div><div class="mem"><span class="av" data-s="done">AR</span><div><b>Art Director</b><span>Through-line + varied system</span></div></div><div class="mem"><span class="av" data-s="working">CA</span><div><b>Carousel Designer A</b><span>Checkout · hand dryer · ملكة · biscuit</span></div></div><div class="mem"><span class="av" data-s="working">CA</span><div><b>Carousel Designer B</b><span>جمعة · jacket · nails · tower</span></div></div><div class="mem"><span class="av" data-s="working">CA</span><div><b>Carousel Designer C</b><span>Ride · &quot;no&quot; · fast food · cards</span></div></div><div class="mem"><span class="av" data-s="idle">CR</span><div><b>Creative QA</b><span>Scored, brand &amp; Arabic gate</span></div></div></div></section>
+<section><h3 class="sec">The production scorecard</h3><div class="sc"><span>Attention — first frame</span><span class="bar"><i style="width:0"></i></span><span class="v">22</span></div><div class="sc"><span>Visual clarity</span><span class="bar"><i style="width:0"></i></span><span class="v">16</span></div><div class="sc"><span>Brand recognizability</span><span class="bar"><i style="width:0"></i></span><span class="v">10</span></div><div class="sc"><span>Freshness — not more of the same</span><span class="bar"><i style="width:0"></i></span><span class="v">10</span></div><div class="sc"><span>Storytelling</span><span class="bar"><i style="width:0"></i></span><span class="v">12</span></div><div class="sc"><span>Retention</span><span class="bar"><i style="width:0"></i></span><span class="v">12</span></div><div class="sc"><span>Production quality</span><span class="bar"><i style="width:0"></i></span><span class="v">10</span></div><div class="sc"><span>Conversion support</span><span class="bar"><i style="width:0"></i></span><span class="v">8</span></div><p class="note">Creative QA scores each post once the build is done. Arabic legibility is a gate.</p></section>
+<section><h3 class="sec">The pieces (posting order)</h3><div class="grp">Branch A · Static carousels (all 12). No video this batch.</div><div class="grid"><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F8</span><span class="tag">Evening 1 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>Checkout: beat mum to the belt</b><div class="hook ar" dir="rtl">تركتي العربية مليانة عند الكاشير، وطلعتي شايله طفلك وكل اللي في الطابور يتفرجوا عليكي؟</div>
+<div class="note">Low conveyor band: the checkout belt across the lower third; the full trolley left behind; a race of small vs big hands loading the belt. Ground: deep.</div><img class="thumb" src="thumb-b3p3.jpg" alt="Contact sheet for Checkout: beat mum to the belt, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F5</span><span class="tag">Evening 1 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Mall hand dryer: 3 steps</b><div class="hook ar" dir="rtl">غطيتي اذاني طفل اول ما اشتغلت نشافه اليدين في المول وطلعتي من الحمام بدون ما تنشفي يدينك.</div>
+<div class="note">Wall-tile grid macro: one big wall dryer with gold sound arcs; wet hands over small ears. Ground: night.</div><img class="thumb" src="thumb-b3p11.jpg" alt="Contact sheet for Mall hand dryer: 3 steps, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F8</span><span class="tag">Evening 2 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>Sister&#x27;s ملكة: the secret squeeze (practised days before)</b><div class="hook ar" dir="rtl">جلستي تجهزي ساعتين لملكة أختك، وفي النهاية طلعتي قبل العشا وهو يبكي على كتفك؟</div>
+<div class="note">Doorway glow: the majlis door pouring gold light into a dark corridor; the two-squeeze hands. Ground: deep.</div><img class="thumb" src="thumb-b3p1.jpg" alt="Contact sheet for Sister&#x27;s ملكة: the secret squeeze (practised days before), slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F4</span><span class="tag">Evening 2 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Broken biscuit: the cracked screen</b><div class="hook ar" dir="rtl">فتحتي الباكت كله تدوري له على بسكوتة مهي مكسوره، وأكلتي أنتي المكسور؟</div>
+<div class="note">Split pair: the cracked biscuit beside a phone with the same crack. Ground: night.</div><img class="thumb" src="thumb-b3p5.jpg" alt="Contact sheet for Broken biscuit: the cracked screen, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F7 mistakes</span><span class="tag">Evening 3 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>Weekly جمعة: 3 things most people do</b><div class="hook ar" dir="rtl">رحتي جمعة أهلك عشان تجلسي معاهم، وقضيتيها كلها مع طفلك في الغرفة الثانية؟</div>
+<div class="note">Cut-away house: the big majlis next to the small side room. Ground: night.</div><img class="thumb" src="thumb-b3p2.jpg" alt="Contact sheet for Weekly جمعة: 3 things most people do, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F3</span><span class="tag">Evening 3 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Winter jacket: two voices (dress together)</b><div class="hook ar" dir="rtl">صرتي تشيلي جاكيته في يدك طول الطلعة، وهو بردان ومو راضي يلبسه؟</div>
+<div class="note">Coat-hook rail: his jacket carried, then hung low beside your abaya. Ground: deep.</div><img class="thumb" src="thumb-b3p12.jpg" alt="Contact sheet for Winter jacket: two voices (dress together), slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F7 benefits</span><span class="tag">Evening 4 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>Nails: cut yours in front of him first</b><div class="hook ar" dir="rtl">ما تقدري تقصي أظافره إلا وهو نايم وعلى فلاش الجوال؟</div>
+<div class="note">Torch cone: the phone flash cutting through the dark onto a small hand; then your own nail first. Ground: night (the «ما تقدري … إلا» test).</div><img class="thumb" src="thumb-b3p10.jpg" alt="Contact sheet for Nails: cut yours in front of him first, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F2</span><span class="tag">Evening 4 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Sibling and the tower: build in a box</b><div class="hook ar" dir="rtl">جلستي العصريه كلها على الأرض بينهم، وأول ما قمتي طاح برجه وبدأ الصراخ؟</div>
+<div class="note">Vertical stack hero: one tall block tower, then the box with raised edges. Ground: deep.</div><img class="thumb" src="thumb-b3p6.jpg" alt="Contact sheet for Sibling and the tower: build in a box, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F7 mistakes</span><span class="tag">Evening 5 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>The ride ends: 3 things most people do</b><div class="hook ar" dir="rtl">ينزل من اللعبة وهو يبكي، فصرتي تطلعي من المول من باب ثاني؟</div>
+<div class="note">Kiddie ride on a tiled mall floor (no face, no headlight eyes). Ground: night.</div><img class="thumb" src="thumb-b3p8.jpg" alt="Contact sheet for The ride ends: 3 things most people do, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F6</span><span class="tag">Evening 5 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Hearing &quot;no&quot;: prepare before and after</b><div class="hook ar" dir="rtl">آخر مرة قلتي له &quot;لا&quot;، انتهى الموضوع ببكاء وبسكوتة في يده؟</div>
+<div class="note">High shelf: the packet on top of the wardrobe, a small hand reaching; then the prepared activity. Ground: deep.</div><img class="thumb" src="thumb-b3p9.jpg" alt="Contact sheet for Hearing &quot;no&quot;: prepare before and after, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F7 benefits</span><span class="tag">Evening 6 · 7:15 PM</span><span class="tag gold">building</span></div>
+<b>Fast-food wait: his job at pickup</b><div class="hook ar" dir="rtl">قبل ما يوصل الأكل قلتي لهم خلوه سفري، وأكلتيه بارد في السيارة؟</div>
+<div class="note">Order screen of blank tiles (one glowing) + a curling receipt; no waiter. Ground: night.</div><img class="thumb" src="thumb-b3p4.jpg" alt="Contact sheet for Fast-food wait: his job at pickup, slide 1 at top-right"><div class="note"></div></div><div class="cc"><div class="tags"><span class="tag acc">A · Static</span><span class="tag">F5</span><span class="tag">Evening 6 · 8:15 PM</span><span class="tag gold">building</span></div>
+<b>Losing a game: help him accept losing</b><div class="hook ar" dir="rtl">صار لك شهور تخسري لطفلك بعمد، ودحين أخته تسألك ليش دايما هو اللي يفوز؟</div>
+<div class="note">Fanned paper cards (no numbers), tossed, then stacked in a box. Ground: deep.</div><img class="thumb" src="thumb-b3p7.jpg" alt="Contact sheet for Losing a game: help him accept losing, slide 1 at top-right"><div class="note"></div></div></div></section>
+<p class="note">The department proposes. You decide at every checkpoint.</p>
+</div>
+<script>try{const t=localStorage.getItem('ho-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}
+document.getElementById('tt').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?"light":"dark";try{localStorage.setItem('ho-theme',r.dataset.theme)}catch(e){}};</script>
