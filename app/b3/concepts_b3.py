@@ -1,0 +1,89 @@
+import json
+C=[
+dict(id="c1",n=1,title="Sister's ملكة: the secret squeeze",F="F8 Scene + one tool",bucket="Public",q14="B «الخروج من البيت والزيارات العائلية»",
+hook="جلستي تجهزي ساعتين لملكة أختك، وفي النهاية طلعتي قبل العشا وهو يصيح على كتفك؟",
+gloss="You sat getting ready for two hours for your sister's ملكة, and in the end left before dinner with him screaming on your shoulder?",
+flow="Scene: a women's ملكة at the family home, loud and full. Witnesses: «خليه شويه» / «ليش زعلان؟». Make it worse: she spends the night between the hallway and the door. Reframe: when he has no way to say «أبغى أطلع», the scream is the only way out he knows. ONE tool: the secret squeeze. Before you go in, agree that two squeezes on your hand mean «أبغى أطلع شويه». Every time, you answer it: you step out with him for a few minutes, then come back. Twist: once he knows he CAN leave, he can stay longer. Comment prompt: «استقبال» or «حارسة الباب» (the one who spent the ملكة at the door).",
+expl="Type 6 Prevention before intervention · Belief 3: what happens before the hard moment matters"),
+dict(id="c2",n=2,title="Weekly جمعة: 3 things most of us do",F="F7 Inception list · MISTAKES",bucket="Public",q14="B «الخروج من البيت والزيارات العائلية»",
+hook="رحتي جمعة أهلك عشان تجلسي معاهم، وقضيتيها كلها معاه في الغرفة الثانية؟",
+gloss="You went to your family's gathering to sit with them, and spent all of it with him in the other room?",
+flow="s1 the hook. s2 the count line: three things most of us do at the جمعة that make it harder. Then, one per slide, each with a short second-person story: (1) answering the room before answering him («تعبان، ما نام») when «دلعتيه» lands; (2) waiting until he's already on the floor before you leave the majlis, instead of stepping out at the first sign you've learned to notice; (3, the explainer) going home remembering only the scream, not the minute before it. That minute is what a plan is built from. Then the CTA.",
+expl="Type 7 From observation to plan · Belief 4 «اللي أشوفه كل يوم معلومة، مو شكوى»"),
+dict(id="c3",n=3,title="Checkout: beat the cashier",F="F8 Scene + one tool",bucket="Public",q14="B «الخروج من البيت والزيارات العائلية»",
+hook="تركتي العربية مليانة عند الكاشير، وطلعتي شايله طفلك وكل اللي في الطابور يتفرجوا عليكي؟",
+gloss="You left the full trolley at the checkout and walked out carrying your child, with everyone in the queue watching you?",
+flow="Scene: the queue, the sweets at the till, he grabs one and screams. Witness lines from the queue and the cashier. Make it worse: the trolley stays behind. Reframe: the hard part wasn't the sweets, it was standing still with nothing to do. ONE tool: he races the cashier, putting every item on the belt before she scans it, and he 'wins' every round. Twist: give him a job and the waiting stops being waiting. Comment prompt: «شيالة» or «مفاوضة».",
+expl="Type 3 Real-life demonstration · Belief 8: growth fits into ordinary routines"),
+dict(id="c4",n=4,title="Restaurant wait: one job at the table",F="F7 Inception list · BENEFITS / one tool",bucket="Public",q14="B «الخروج من البيت والزيارات العائلية»",
+hook="قبل ما يوصل الأكل قلتي لهم خلوه سفري، وأكلتيه بارد في السيارة؟",
+gloss="Before the food came you told them to make it takeaway, and ate it cold in the car?",
+flow="s1 the hook. s2 the count line: three things that make the wait easier. (1) Order his food first, the moment you sit down. (2) The one tool: «خذ طلبنا»: he's the waiter, you order wrong on purpose, he corrects you. (3, the explainer) notice which minute it starts (after the menu? when the next table's food arrives?). That minute is where a plan starts, and it changes as he gets used to it. Then the CTA.",
+expl="Type 1 Hidden pattern · Belief 3: what happens before the hard moment matters"),
+dict(id="c5",n=5,title="Broken biscuit: the cracked screen",F="F4 Metaphor (Eric's parallel story)",bucket="Emotions",q14="F «التعامل مع الغضب والانفعال»",
+hook="فتحتي الباكت كله تدوري له على بسكوتة ما فيها كسر، وأكلتي أنتي المكسور؟",
+gloss="You opened the whole packet looking for a biscuit with no crack, and ate the broken ones yourself?",
+flow="Parallel from her own life: a new phone with a hairline crack. It still works, but every time you pick it up, all you see is the crack. To him the biscuit isn't 'a biscuit with a crack'; it has turned into 'broken'. Move, in seconds: before you hand it over, let him break it himself («نكسرها نصين؟ وحده لك ووحده للدبدوب»). When he makes the break, it's his. Explainer: same scream, different reasons. For one child it's the crack, for another it's who broke it, and noticing which is your information.",
+expl="Type 2 Same behaviour, different reasons · Belief 2: the obvious explanation isn't always the right one"),
+dict(id="c6",n=6,title="Sibling and the tower: one afternoon",F="F2 Story",bucket="Emotions",q14="F «التعامل مع الغضب والانفعال»",
+hook="جلستي العصريه كلها على الأرض بينهم، وأول ما قمتي طاح برجه وبدأ الصياح؟",
+gloss="You sat on the floor between them all afternoon, and the moment you got up his tower fell and the screaming started?",
+flow="Beat by beat: the afternoon on the floor, she gets up for one minute (the pot, the door), his sister's hand, the tower falls, the scream, she runs back. Turn: what made it so hard wasn't the fall. The tower was his, and it vanished with no ending. The move, in seconds: before you get up, take a photo of the tower with him («نصوره قبل ما أقوم؟»). If it falls, it still exists. Explainer: real-life demonstration of how one observation changes a routine.",
+expl="Type 3 Real-life demonstration · Belief 1: his behaviour may have a reason I haven't recognised yet"),
+dict(id="c7",n=7,title="Losing a game: 3 moves",F="F5 Walk-through",bucket="Emotions",q14="F «التعامل مع الغضب والانفعال»",
+hook="صار لك شهور تخسري لطفلك بعمد، ودحين أخته تسألك ليش دايم هو اللي يفوز؟",
+gloss="For months you've lost to your child on purpose, and now his sister asks you why he always wins?",
+flow="Three numbered points, each with a true twist: (1) let him watch YOU lose for real, and say out loud what you do next («خسرت… يلا مرة ثانية»); (2) make the game short, so losing costs one minute, not twenty; (3) let him be the one who says «مرة ثانية». Fast close. Explainer: notice which games end in screaming (the long ones? the ones with his sister?). That's your information, and the plan changes as he gets used to losing.",
+expl="Type 8 The Living Plan evolves · Belief 10 «الخطة اللي تشتغل لازم تتغيّر معه»"),
+dict(id="c8",n=8,title="The ride ends: 3 things most of us do",F="F7 Inception list · MISTAKES",bucket="Emotions",q14="E «الانتقال من نشاط لنشاط أو التوقف عن شيء يحبه»",
+hook="ينزل من العبة وهو ييبكي، فصرتي تطلعي من المول من باب ثاني؟",
+gloss="He gets off the ride crying, so now you leave the mall through a different door?",
+flow="s1 the hook. s2 the count line: three things most of us do when the ride stops. (1) Saying «خلاص» with your arms already lifting him off; (2) promising «مرة وحده بس» and then taking it back; (3, the explainer) remembering the crying, not the second before it. That's the part a plan starts from. Each mistake comes with the move (e.g. let him press «انزل» or choose to climb off himself). Then the CTA.",
+expl="Type 6 Prevention before intervention · Belief 3"),
+dict(id="c9",n=9,title="Hearing \"no\": 3 things to notice",F="F6 Checklist",bucket="Emotions",q14="F «التعامل مع الغضب والانفعال»",
+hook="صار لك شهر ما قلتي له \"لا\"، والبسكوت مخبى فوق الدولاب؟",
+gloss="It's been a month since you said \"no\" to him, and the biscuits are hidden on top of the wardrobe?",
+flow="A three-part checklist, one per slide, each a full spoken sentence telling her what to notice: (1) «انتبهي لإيش كان يسوي قبل ما يطلب»; (2) «انتبهي لإيش كان في يدك لما قلتي لا» (saying it while holding the thing); (3) «انتبهي لإيش جاه بعد اللا» (was there something to go to?). The turn: the «لا» isn't always the problem; what surrounds it is. Explainer: these three notes are information, not complaints.",
+expl="Type 4 The parent's knowledge · Belief 4 «اللي أشوفه كل يوم معلومة، مو شكوى»"),
+dict(id="c10",n=10,title="Nails: he holds the clippers",F="F7 Inception list · BENEFITS / steps · and the «ما تقدري … إلا» dark-ground test",bucket="Body care",q14="general (not a Q14 option)",
+hook="ما تقدري تقصي أظافره إلا وهو نايم وعلى فلاش الجوال؟",
+gloss="You can only cut his nails while he's asleep, by the phone's flashlight?",
+flow="s1 the hook. s2 the count line: three steps that move nail cutting to while he's awake. (1) He 'cuts' your nails first, with the clippers closed; (2) he picks the first finger, and he picks the last; (3, the explainer) one hand today is enough. Next time it might be both hands, or it might stay at one. The plan follows how he responds. Then the CTA (general).",
+expl="Type 8 The Living Plan evolves · Belief 10 «الخطة اللي تشتغل لازم تتغيّر معه»"),
+dict(id="c11",n=11,title="Mall hand dryer: 3 moves",F="F5 Walk-through",bucket="Body care",q14="general (not a Q14 option)",
+hook="غطيتي اذاني طفل اول ما اشتغلت نشافه اليدين في المول وطلعتي من الحمام بدون ما تنشفي يدينيك.",
+gloss="You covered your child's ears the moment the hand dryer came on in the mall, and left the bathroom without drying your hands.",
+flow="Three numbered points with twists: (1) tell him before you go in «فيه نشافه، تبغى تشغلها انت؟»; (2) he presses the button and your job is to jump. The noise he starts isn't the same as the noise that catches him off guard; (3) start from the door: listen together from outside first, then step closer on the next visit. Explainer: two children can cover their ears for different reasons. Which one is yours is what you notice.",
+expl="Type 2 Same behaviour, different reasons · Belief 7: the same strategy won't work for every child"),
+dict(id="c12",n=12,title="Winter jacket: two voices",F="F3 Two voices",bucket="Body care",q14="general (not a Q14 option)",
+hook="صرتي تشيلي جاكيته في يدك طول الطلعة، وهو بردان ومو راضي يلبسه؟",
+gloss="Now you carry his jacket in your hand the whole outing, while he's cold and won't put it on?",
+flow="Two voices across the slides: the grandmother («لبسيه غصب، بيبرد») and her own inner voice, which knows what happens when she forces his arms in. Turn: it's the putting-on he refuses, not the jacket. The move: the jacket flip. Lay it upside down on the floor, he puts his arms in and flips it over his head himself. Explainer: it starts with what you noticed, and the plan changes with him.",
+expl="Type 2 Same behaviour, different reasons · Belief 2")
+]
+order=[("Evening 1","7:15 PM",11),("Evening 1","8:15 PM",3),("Evening 2","7:15 PM",1),("Evening 2","8:15 PM",5),("Evening 3","7:15 PM",2),("Evening 3","8:15 PM",12),("Evening 4","7:15 PM",10),("Evening 4","8:15 PM",6),("Evening 5","7:15 PM",8),("Evening 5","8:15 PM",9),("Evening 6","7:15 PM",4),("Evening 6","8:15 PM",7)]
+slot={n:(i+1,e,t) for i,(e,t,n) in enumerate(order)}
+cta={"B":"Observation","E":"Reflection","F":"Direct","g":"Observation"}
+for c in C:
+    i,e,t=slot[c['n']]; c['slot']=f"#{i:02d} · {e} · {t}"
+    c['cta']=["Observation","Reflection","Direct"][(i-1)%3]
+json.dump(C,open('concepts_b3.json','w'),ensure_ascii=False,indent=1)
+md="## Step 5 · Concepts: 12 posts (your hook edits are final)\n\nEvery post: slide 1 on deep/night · ≤3 story slides · soft CTA on slide 3–4 · explainer extension after the steps · final CTA (Connect → Purpose → Direct, rotating type) · caption + pinned comment · CTAs only from `assessment_truth.md`.\n\n| Slot | # | Concept | Format | Explainer | Assessment match |\n|---|---|---|---|---|---|\n"
+for c in sorted(C,key=lambda c:c['slot']): md+=f"| {c['slot']} | {c['n']} | {c['title']} | {c['F']} | {c['expl']} | {c['q14']} |\n"
+md+="\n**Format count:** F7 ×4 (mistakes #2, #8 · benefits #4, #10) · F8 ×2 (#1, #3) · F5 ×2 (#7, #11) · F2 #6 · F3 #12 · F4 #5 · F6 #9. **No sleep.** The «ما تقدري … إلا» test is #10, on night/deep.\n\n**Posting logic:** each evening pairs two different buckets, with the stronger bet first at 7:15 and the next an hour later. Evening 1 opens with the hand-dryer post (the most HER-cost hook) and the checkout F8.\n\n### Each concept's flow (the Copywriter builds from this)\n"
+for c in C: md+=f"\n**{c['n']} · {c['title']}** · {c['F']} · CTA type: {c['cta']}\n\n{c['hook']}\n\n*{c['gloss']}*\n\n{c['flow']}\n"
+md+="\n### Step 6 is pre-filled\nAll 12 are **static carousels** (your brief). The F-labels are above. Change any label before production if you like.\n"
+open('step5_report.md','w').write(md)
+s=json.load(open('state.json'))
+s['concepts']=[{"id":c['id'],"title":f"{c['n']} · {c['title']}","job":"value+CTA","angle":f"{c['F']} · {c['bucket']} · {c['slot']} · {c['expl']}","hook_ar":c['hook'],"hook_gloss":c['gloss'],"status":"picked","format":"slides · "+c['F'].split(' ·')[0]} for c in C]
+for k in (3,4,5): s['steps'][k]['status']='done' if k==3 else s['steps'][k]['status']
+s['steps'][4]['report']=md; s['steps'][4]['status']='needs-you'; s['currentStep']=5
+s['steps'][4]['action']={"label":"Check the 12 concepts (tools, explainers, posting order). Cut or change anything, then confirm. Step 6 (static + F-labels) is pre-filled.","phrase":"Produce these."}
+s['steps'][5]['report']="All 12 = static carousels (brief). F-labels listed in step 5. Confirm with \"Formats chosen.\" or change any label."
+s['steps'][5]['action']={"label":"Confirm static + the F-label for each concept.","phrase":"Formats chosen."}
+s['steps'][3]['report']=s['steps'][3]['report']+"\n\n### Your edits (final, logged in Feedback & Lessons as 'B3 edit · hook …')\nAll 9 edits are applied verbatim. #2, #4 and #9 are kept as written."
+import re
+for c in C:
+    s['steps'][3]['report']=s['steps'][3]['report']
+json.dump(s,open('state.json','w'),ensure_ascii=False,indent=1)
+print('ok')
