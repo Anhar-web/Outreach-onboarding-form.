@@ -1,0 +1,836 @@
+[
+ {
+  "id": "b3p11",
+  "conceptId": "c11",
+  "title": "Mall hand dryer: 3 moves",
+  "format": "slides · F5 Walk-through",
+  "slides_ar": [
+   "غطيتي اذاني طفل اول ما اشتغلت نشافه اليدين في المول وطلعتي من الحمام بدون ما تنشفي يدينك.",
+   "غسلتي يدينك، ووحده جنبك شغلت النشافه.\nصرخ ولزق في رجلك، وانتي حطيتي يدينك المبلولة على اذانه.\nوقلتي في نفسك \"خلاص، المرة الجاية نستنى إلين ما نرجع البيت\".",
+   "طبيعي يخاف منها. صوتها عالي، ويجي فجأة بدون ما يعرف من فين.\nوهذي ثلاث خطوات للمرة الجاية في حمام المول.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الخطوة الأولى: قبل ما تدخلوا الحمام، قولي له \"جوا فيه نشافه، تبغى تشغلها انت؟\"\nعشان يدخل وهو عارف إنها موجودة، بدل ما يتفاجأ فيها.",
+   "الخطوة الثانية: خليه هو اللي يشغلها، وانتي سوي نفسك انخرعتي.\nالصوت اللي يشغله هو غير الصوت اللي يجيه فجأة. ويمكن يبغى يخرعك مرة ثانية.",
+   "الخطوة الثالثة: لو ما رضي يدخل، لا تسحبيه لجوا.\nوقفوا عند الباب واسمعوها من برا لما احد يشغلها. والمرة الجاية قربوا خطوة.",
+   "ومو كل طفل يخاف منها لنفس السبب.\nفيه طفل يخاف من الصوت العالي نفسه، وطفل ثاني يخاف إنه يجي فجأة.\nنفس الموقف، بس كل واحد يحتاج خطوة غير.",
+   "لاحظي ايش صار قبل ما يغطي اذانه: دخلتوا وهي شغالة، ولا اشتغلت فجأة وانتو جوا؟\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "غطيتي اذانه في حمام المول وطلعتي بدون ما تنشفي يدينك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات للمرة الجاية، وأولها قبل ما تدخلوا الحمام.",
+  "pinned_ar": "الجزء الثاني: لو احد شغل النشافه فجأة وانتو جوا، قولي له بهدوء \"هذي النشافه\" وقربيه من الباب. عشان يعرف ايش الصوت، بدل ما يكون صوت ما يعرف من فين جا.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 1,
+  "explainer": "Type 2 Same behaviour, different reasons · Belief 7: the same strategy won't work for every child",
+  "notes_en": "Slide 1 copied byte-for-byte (it ends with a full stop, not a question mark; kept as you wrote it). Step 2's twist («سوي نفسك انخرعتي») lives inside the step. Unsure whether «انخرعتي / يخرعك» is your area's word for startled; swap for «تفاجأتي» if not. Body care is not a Q14 option, so the soft CTA stays general.",
+  "backtranslation_en": [
+   "You covered your child's ears the moment the hand dryer came on in the mall, and left the bathroom without drying your hands.",
+   "You washed your hands, and a woman next to you switched on the dryer. He screamed and clung to your leg, and you put your wet hands on his ears. And you said to yourself \"That's it, next time we'll wait till we get home.\"",
+   "It's normal he's scared of it. Its sound is loud, and it comes suddenly without him knowing where from. And here are three steps for the next time in the mall bathroom. The free assessment in the bio helps you know where to start.",
+   "Step one: before you go into the bathroom, tell him \"There's a dryer inside, do you want to switch it on?\" So he goes in knowing it's there, instead of being surprised by it.",
+   "Step two: let him be the one who switches it on, and you pretend you got startled. The noise he starts himself is different from the noise that comes at him suddenly. And maybe he'll want to startle you again.",
+   "Step three: if he won't go in, don't pull him inside. Stand at the door and listen to it from outside when someone switches it on. And next time move one step closer.",
+   "And not every child is scared of it for the same reason. One child is scared of the loud noise itself, another is scared that it comes suddenly. Same situation, but each one needs a different step.",
+   "Notice what happened before he covered his ears: did you walk in while it was running, or did it come on suddenly while you were inside? These details are what a plan that suits him is built on. Start with the free assessment so you know where to start. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s2",
+    "original": "غسلتي يدينك، وقبل ما توصلي للمناديل شغلت وحده النشافه.",
+    "corrected": "غسلتي يدينك، ووحده جنبك شغلت النشافه.",
+    "why": "Meaning: reaching for paper towels made the hook illogical (if towels were there she could dry her hands). Hook rule: the dryer is the one thing she can't use. Simpler, physically clear."
+   },
+   {
+    "slide": "s4",
+    "original": "مو يتفاجأ فيها.",
+    "corrected": "بدل ما يتفاجأ فيها.",
+    "why": "Her contrast is «بدل ما», not «مو» (B1 عزيمة rule)."
+   },
+   {
+    "slide": "s5",
+    "original": "خليه هو يضغط الزر، وانتي سوي نفسك انخرعتي.",
+    "corrected": "خليه هو اللي يشغلها، وانتي سوي نفسك انخرعتي.",
+    "why": "Physics: most mall hand dryers are sensor-operated, with no button. «يشغلها» covers both kinds and matches step 1 («تشغلها انت؟»)."
+   },
+   {
+    "slide": "s5",
+    "original": "وغالبا بيبغى يخرعك مرة ثانية.",
+    "corrected": "ويمكن يبغى يخرعك مرة ثانية.",
+    "why": "Safety (light): «غالبا» predicts the child's reaction; «يمكن» says only what may happen."
+   },
+   {
+    "slide": "s7",
+    "original": "وانتبهي ايش اللي يخليه يغطي اذانه.",
+    "corrected": "ومو كل طفل يخاف منها لنفس السبب.",
+    "why": "Slides 7 and 8 both opened with an observe-order and both repeated «يغطي اذانه» (the hook detail). s7 now states the explainer (Type 2) plainly; the noticing stays in the CTA."
+   },
+   {
+    "slide": "s8",
+    "original": "لاحظي ايش صار قبل ما يغطي اذانه، دخلتوا وهي شغالة ولا اشتغلت فجأة وانتو جوا.",
+    "corrected": "لاحظي ايش صار قبل ما يغطي اذانه: دخلتوا وهي شغالة، ولا اشتغلت فجأة وانتو جوا؟",
+    "why": "Colon + question, as in her B2 hair-wash CTA («لاحظي متى يبدأ الصياح: …، ولا…»). The comma splice read as two sentences glued."
+   },
+   {
+    "slide": "s8",
+    "original": "هذي التفاصيل تساعدك تبني خطة تناسبه.",
+    "corrected": "هذي التفاصيل هي اللي تنبني عليها خطة تناسبه.",
+    "why": "CTA sameness: her approved B2 variant (p2/p10)."
+   },
+   {
+    "slide": "s8",
+    "original": "ابدئي بالتقييم المجاني واعرفي من فين تبدئي.",
+    "corrected": "ابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي.",
+    "why": "CTA variety: her B2 p2 wording."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": [
+   "Startled: is «انخرعتي / يخرعك» how you say it, or «تفاجأتي / يفجعك»?"
+  ]
+ },
+ {
+  "id": "b3p3",
+  "conceptId": "c3",
+  "title": "Checkout: beat the cashier",
+  "format": "slides · F8 Scene + one tool",
+  "slides_ar": [
+   "تركتي العربية مليانة عند الكاشير، وطلعتي شايله طفلك وكل اللي في الطابور يتفرجوا عليكي؟",
+   "الطابور طويل، وقدامكم رف الحلاو.\nمسك وحده وقلتي له \"لا\"، فطاح على الأرض يصيح.\nوحده وراكم تقول \"اعطيه وخلصينا\"، والكاشير واقف يستناكي.",
+   "حاولتي تشيليه بيد وتحاسبي باليد الثانية، وما قدرتي.\nفتركتي الأغراض كلها وطلعتي، والعيون كلها عليكي.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+   "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.\nوهذي لعبة وحده للمرة الجاية عند الكاشير.",
+   "سابق الكاشير: أول ما توصلوا عند السير، قولي له \"تقدر تحط الأغراض قبل ما يلحقك الكاشير؟\"\nيحطها وحده وحده، وكل ما سبقه قولي \"غلبته!\"",
+   "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
+   "ويمكن المرة الجاية تطلعي والعربية معاكي.\nاذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
+   "فكري في آخر مرة تركتي فيها الأغراض وطلعتي، وايش كان يصير قبلها في الطابور.\nهذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات."
+  ],
+  "caption_ar": "تركتي العربية مليانة عند الكاشير وطلعتي شايله طفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.\nفي الصور لعبة وحده تخلي الطابور سباق، وهو اللي يفوز فيه.",
+  "pinned_ar": "الجزء الثاني: بعد ما تخلصوا من الكاشير، اعطيه كيس خفيف يشيله إلين ما توصلوا السيارة. عشان تكون له شغلة لآخر الطلعة، مو بس عند الكاشير.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+  "posting_order": 2,
+  "explainer": "Type 3 Real-life demonstration · Belief 8: growth fits into ordinary routines",
+  "notes_en": "8 slides: I put the twist and the explainer on one slide (s6) to stay at 8. Comment prompt «شيالة» names her role. «الكاشير» kept masculine; change to «الكاشيرة» if you picture a woman at the till. Soft CTA uses «مع الطلعات والزيارات» because this post's Q14 option is outings/visits. Check «السير» isn't needed: I avoided naming the belt and said «تحط الأغراض».",
+  "backtranslation_en": [
+   "You left the full trolley at the checkout and walked out carrying your child, with everyone in the queue watching you?",
+   "The queue is long, and in front of you is the sweets rack. He grabbed one and you told him \"no\", so he dropped to the floor screaming. A woman behind you says \"Give it to him and get it over with\", and the cashier is standing waiting for you.",
+   "You tried to carry him with one hand and pay with the other, and you couldn't. So you left all the shopping and walked out, with every eye on you. The free assessment in the bio helps you know where to start with outings and visits.",
+   "What wore him out wasn't just the sweets. What wore him out is standing in the queue with nothing to do. And here is one game for next time at the checkout.",
+   "Race the cashier: as soon as you reach the belt, tell him \"Can you put the shopping down before the cashier catches you?\" He puts it down one by one, and every time he gets ahead, say \"You beat him!\"",
+   "When he has a job in his hands, the queue becomes a race, and he's the one winning it. And all of this is in the queue you stand in every week anyway, without preparing anything from home.",
+   "And maybe next time you'll leave with the trolley. If you feel that on every outing you carry the shopping and your child together, write: carrier",
+   "Think about the last time you left the shopping and walked out, and what was happening before it in the queue. These details help you build a plan that suits your child. And the free assessment helps you know where to start with outings and visits. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "اللي كان صعب عليه الوقوف في الطابور بدون شي يسويه، أكثر من الحلاو نفسه.",
+    "corrected": "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.",
+    "why": "Translated reframe (\"the hard part was X more than Y\"). Said plainly, the way she'd tell her sister."
+   },
+   {
+    "slide": "s5",
+    "original": "أول ما توقفوا في الطابور",
+    "corrected": "أول ما توصلوا عند السير",
+    "why": "Physics: in the queue there is nowhere to put the shopping yet. The race starts when you reach the belt."
+   },
+   {
+    "slide": "s6",
+    "original": "ولما صار عنده شغلة، ما عاد اسمه انتظار. صار سباق، وهو اللي يفوز فيه.\nوكذا الطابور اللي توقفيه كل أسبوع صار مكان يتعلم فيه يستنى، بدون ما تجهزي شي من البيت.",
+    "corrected": "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
+    "why": "Director note + safety: «صار مكان يتعلم فيه يستنى» promised a result for the child. Now it says what she sees (a race he wins) and keeps Belief 8 (it fits the weekly shop). «ما عاد اسمه انتظار» was a translated line; cut."
+   },
+   {
+    "slide": "s7",
+    "original": "اذا حسيتي إنك صرتي تشيلي الأغراض والطفل ونظرات الطابور كلها مع بعض، اكتبي: شيالة",
+    "corrected": "اذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
+    "why": "«تشيلي … نظرات الطابور» is a constructed pun (a joke that needs a second to decode). Plain version; «طفلك» per her hook edit."
+   },
+   {
+    "slide": "s8",
+    "original": "هذي التفاصيل تساعدك تبني خطة تناسبه.",
+    "corrected": "هذي التفاصيل تساعدك تبني خطة تناسب طفلك.",
+    "why": "CTA sameness: her B2 p3 wording."
+   },
+   {
+    "slide": "s8",
+    "original": "التقييم المجاني يساعدك تعرفي",
+    "corrected": "والتقييم المجاني يساعدك تعرفي",
+    "why": "Flows as one spoken run (Part H3)."
+   },
+   {
+    "slide": "s8",
+    "original": "وايش كان يصير قبلها وانتو واقفين في الطابور.",
+    "corrected": "وايش كان يصير قبلها في الطابور.",
+    "why": "Trim filler: slide was 36 words."
+   }
+  ],
+  "safety_flags_en": [
+   "s6 «صار مكان يتعلم فيه يستنى» promised a result for the child (he learns to wait). Rewritten to what she sees; meaning kept (the weekly queue is where the game happens)."
+  ],
+  "questions_for_anhar": [
+   "Sweets at the till: «الحلاو» or «الحلويات»? And the cashier: «الكاشير» or «الكاشيرة» (if you picture a woman)?"
+  ]
+ },
+ {
+  "id": "b3p1",
+  "conceptId": "c1",
+  "title": "Sister's ملكة: the secret squeeze",
+  "format": "slides · F8 Scene + one tool",
+  "slides_ar": [
+   "جلستي تجهزي ساعتين لملكة أختك، وفي النهاية طلعتي قبل العشا وهو يصيح على كتفك؟",
+   "المجلس مليان والأصوات عالية، وكل وحده تسلم عليه وتبوسه.\nبدأ يسحبك من يدك ويصيح، والحريم حولك يقولوا \"خليه شويه\" و\"ليش زعلان؟\"",
+   "قضيتي الليلة بين الممر والباب. تدخلي دقيقة ويرجع يصيح، فتطلعي.\nوقبل ما يحطوا العشا، كنتي عند السيارة وهو على كتفك.",
+   "هو ما عنده طريقة يقولك فيها \"أبغى أطلع شويه\"، فيقولها بالصياح.\nوهذي حركة وحده للمناسبة الجاية.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+   "الضغطة السرية: قبل ما تنزلوا من السيارة، علميه إن ضغطتين على يدك معناها \"أبغى أطلع\".\nوكل مرة يضغط، جاوبيه. اطلعوا للممر دقايق، وبعدها ارجعوا.",
+   "لما يعرف إنه يقدر يطلع متى ما احتاج، ممكن يجلس أكثر.\nوهذا كله تتفقوا عليه في السيارة، قبل ما تدخلوا.",
+   "ويمكن المناسبة الجاية تلحقي العشا.\nاذا حسيتي إنك قضيتي المناسبات كلها عند الباب، اكتبي: حارسة الباب",
+   "الصياح بدأ قبل العشا بكثير، من أول ما علت الأصوات ولما صاروا يسلموا عليه.\nهذي التفاصيل تفرق لما تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي من فين تبدئي مع الطلعات والزيارات. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات."
+  ],
+  "caption_ar": "جلستي تجهزي ساعتين، وطلعتي من الملكة قبل العشا؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.\nفي الصور حركة وحده تبدأ في السيارة، قبل ما تدخلوا.",
+  "pinned_ar": "الجزء الثاني: أول كم مرة، اضغطي انتي على يده ضغطتين وقولي \"نطلع شويه؟\" واطلعوا. كذا يعرف ايش معنى الضغطة قبل ما يستخدمها هو.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+  "posting_order": 3,
+  "explainer": "Type 6 Prevention before intervention · Belief 3: what happens before the hard moment matters",
+  "notes_en": "Witness lines «خليه شويه» / «ليش زعلان؟» come from your legacy post; I gave them to «الحريم حولك», not an aunt. Twist softened with an honest «ممكن يجلس أكثر» so it doesn't promise a result. Unsure a child who can't yet say «أبغى أطلع» learns the squeeze from one car talk, so the pinned comment adds 'you squeeze first the first few times'. Comment prompt: «حارسة الباب».",
+  "backtranslation_en": [
+   "You sat getting ready for two hours for your sister's ملكة, and in the end left before dinner with him screaming on your shoulder?",
+   "The majlis is full and the voices are loud, and every woman greets him and kisses him. He started pulling you by the hand and screaming, and the women around you say \"Leave him a bit\" and \"Why is he upset?\"",
+   "You spent the night between the hallway and the door. You go in for a minute and he starts screaming again, so you go out. And before they put out the dinner, you were at the car with him on your shoulder.",
+   "He has no way to tell you \"I want to go out for a bit\", so he says it by screaming. And here is one trick for the next occasion. The free assessment in the bio helps you know where to start with outings and visits.",
+   "The secret squeeze: before you get out of the car, teach him that two squeezes on your hand mean \"I want to go out\". And every time he squeezes, answer him. Go out to the hallway for a few minutes, then come back.",
+   "When he knows he can go out whenever he needs to, he may be able to sit longer. And all of this you agree on in the car, before you go in.",
+   "And maybe at the next occasion you'll make it to dinner. If you feel you've spent every occasion at the door, write: door guard",
+   "The screaming started long before dinner, from when the voices got loud and when they started greeting him. These details make a difference when you build a plan that suits him. Start with the free assessment, and know where to start with outings and visits. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "هو ما عنده طريقة يقول فيها \"أبغى أطلع شويه\".\nفالصياح هو الطريقة الوحيدة اللي يعرفها. وهذي حركة وحده للمناسبة الجاية.",
+    "corrected": "هو ما عنده طريقة يقولك فيها \"أبغى أطلع شويه\"، فيقولها بالصياح.\nوهذي حركة وحده للمناسبة الجاية.",
+    "why": "Two translated-sounding lines (\"the only way he knows\") said in one plain spoken line. Shorter slide (was 32 words)."
+   },
+   {
+    "slide": "s5",
+    "original": "ضغطتين على يدك يعني",
+    "corrected": "ضغطتين على يدك معناها",
+    "why": "More spoken."
+   },
+   {
+    "slide": "s6",
+    "original": "لما يعرف إنه يقدر يطلع، ممكن يجلس أكثر.\nوالفرق كله صار في السيارة، قبل ما تدخلوا. اللي يصير قبل اللحظة الصعبة يغير اللي يصير فيها.",
+    "corrected": "لما يعرف إنه يقدر يطلع متى ما احتاج، ممكن يجلس أكثر.\nوهذا كله تتفقوا عليه في السيارة، قبل ما تدخلوا.",
+    "why": "Director note: the principle line was translated. Cut it; the \"before\" (Type 6) is now carried by the plain fact that it's agreed in the car. «والفرق كله صار» also over-claimed a result."
+   },
+   {
+    "slide": "s7",
+    "original": "ويمكن الملكة الجاية تلحقي العشا.",
+    "corrected": "ويمكن المناسبة الجاية تلحقي العشا.",
+    "why": "Real-life check: her sister's ملكة happens once; «المناسبة الجاية» matches s4."
+   },
+   {
+    "slide": "s8",
+    "original": "الصياح على كتفك بدأ قبل العشا بكثير، من أول ما علت الأصوات أو لما صاروا يسلموا عليه.",
+    "corrected": "الصياح بدأ قبل العشا بكثير، من أول ما علت الأصوات ولما صاروا يسلموا عليه.",
+    "why": "Don't repeat the hook's detail («على كتفك», already in s1 and s3)."
+   },
+   {
+    "slide": "s8",
+    "original": "هذي التفاصيل تساعدك تبني خطة تناسبه.",
+    "corrected": "هذي التفاصيل تفرق لما تبني خطة تناسبه.",
+    "why": "CTA sameness: her B2 p5 pattern («هذي التفاصيل تفرق لما…»)."
+   },
+   {
+    "slide": "pinned",
+    "original": "كذا يعرف ايش تعني الضغطة",
+    "corrected": "كذا يعرف ايش معنى الضغطة",
+    "why": "«تعني» is written Arabic; «ايش معنى» is spoken."
+   }
+  ],
+  "safety_flags_en": [
+   "s6 «والفرق كله صار في السيارة» claimed the tool made the difference. Cut with the principle line; «ممكن يجلس أكثر» (already honest) kept. Not a hard-rule breach."
+  ],
+  "questions_for_anhar": []
+ },
+ {
+  "id": "b3p5",
+  "conceptId": "c5",
+  "title": "Broken biscuit: the cracked screen",
+  "format": "slides · F4 Metaphor (Eric's parallel story)",
+  "slides_ar": [
+   "فتحتي الباكت كله تدوري له على بسكوتة ما فيها كسر، وأكلتي أنتي المكسور؟",
+   "جبتي له بسكوتة، وانكسرت في يده.\nرماها وصاح، وما رضي ياخذ الثانية لأن فيها شق صغير.\nفصرتي تفتحي الباكت كله، وكل المكسور يروح لك.",
+   "تخيلي جوالك الجديد، وفي الشاشة كسر صغير.\nيشتغل عادي، بس كل ما مسكتيه، عيونك تروح للكسر.",
+   "وهو يشوف البسكوتة نفس الشي. ما عادت \"بسكوتة فيها كسر\"، صارت \"خربانة\".\nوهذي خطوتين تاخذ ثواني.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الخطوة الأولى: قبل ما تعطيه البسكوتة، اسأليه \"نكسرها نصين؟ وحده لك ووحده لي\".\nوخليه هو اللي يكسرها.",
+   "الخطوة الثانية: لو انكسرت قبل ما يلحق، لا تقولي له \"نفس الشي\".\nمدي له النصين وقولي \"تكسرها انت أصغر؟\". كذا هو اللي كسرها.",
+   "فيه طفل يضايقه الكسر نفسه، وطفل ثاني يضايقه إن غيره اللي كسرها.\nنفس الصياح، بس السبب مو دايما اللي يبان من أول.",
+   "لاحظي ايش صار قبل ما يرميها: انكسرت في يده، ولا شافها مكسورة في الباكت، ولا انتي اللي كسرتيها له؟\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "فتحتي الباكت كله تدوري له على بسكوتة ما فيها كسر؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ليش البسكوتة المكسورة صارت \"خربانة\" عنده، وخطوتين تاخذ ثواني.",
+  "pinned_ar": "الجزء الثاني: نفس الحركة تنفع مع التوست والموز. قبل ما تقطعيها، اسأليه \"نقطعها نصين؟\" وخليه هو يقول من فين. عشان يكون الكسر قراره هو.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 4,
+  "explainer": "Type 2 Same behaviour, different reasons · Belief 2: the obvious explanation isn't always the right one",
+  "notes_en": "The concept had one move; I added a second step (when it breaks by accident, hand him the halves and let him break it smaller) so «الخطوة الأولى/الثانية» has two real steps. Changed «للدبدوب» to «وحده لك ووحده لي» (not every child has a teddy, and she ends up with half anyway). Kept the post on the break, not on food variety. Used the default soft CTA, not «مع الغضب»; add «مع عصبيته» if you want the Q14 match.",
+  "backtranslation_en": [
+   "You opened the whole packet looking for a biscuit with no crack, and ate the broken ones yourself?",
+   "You brought him a biscuit, and it broke in his hand. He threw it and screamed, and wouldn't take the second one because it had a small crack. So now you open the whole packet, and all the broken ones go to you.",
+   "Imagine your new phone, with a small crack in the screen. It works fine, but every time you pick it up, your eyes go to the crack.",
+   "And he sees the biscuit the same way. It's no longer \"a biscuit with a crack\", it's \"ruined\". And here are two steps that take seconds. The free assessment in the bio helps you know where to start.",
+   "Step one: before you give him the biscuit, ask him \"Shall we break it in two? One for you and one for me.\" And let him be the one who breaks it.",
+   "Step two: if it breaks before he gets to it, don't tell him \"it's the same thing\". Hold out the two halves and say \"Do you want to break it smaller?\" That way he's the one who broke it.",
+   "One child is bothered by the crack itself, and another is bothered that someone else broke it. Same scream, but the reason isn't always the one that shows at first.",
+   "Notice what happened before he threw it: did it break in his hand, did he see it broken in the packet, or were you the one who broke it for him? These details help you build a plan that suits him. The free assessment helps you know where to start. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "وهذي خطوتين تاخذ ثواني، قبل ما توصل البسكوتة ليده.",
+    "corrected": "وهذي خطوتين تاخذ ثواني.",
+    "why": "Meaning: step 2 happens AFTER it breaks, so \"before it reaches his hand\" contradicted it."
+   },
+   {
+    "slide": "s6",
+    "original": "كذا الكسر يصير حقه هو.",
+    "corrected": "كذا هو اللي كسرها.",
+    "why": "«الكسر يصير حقه» is a translated idea (\"the break becomes his\"). Plain shown result."
+   },
+   {
+    "slide": "s7",
+    "original": "وانتبهي ايش اللي ضايقه بالضبط.\n",
+    "corrected": "",
+    "why": "Slides 7 and 8 both opened with an observe-order. s7 now goes straight to the two children (Type 2); the noticing stays in the CTA."
+   },
+   {
+    "slide": "s8",
+    "original": "لاحظي ايش صار قبل ما يرمي البسكوتة، انكسرت في يده ولا شافها مكسورة في الباكت ولا انتي اللي كسرتيها له.",
+    "corrected": "لاحظي ايش صار قبل ما يرميها: انكسرت في يده، ولا شافها مكسورة في الباكت، ولا انتي اللي كسرتيها له؟",
+    "why": "Colon + question as in her B2 CTA; slide was 36 words."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": []
+ },
+ {
+  "id": "b3p2",
+  "conceptId": "c2",
+  "title": "Weekly جمعة: 3 things most of us do",
+  "format": "slides · F7 Inception list · MISTAKES",
+  "slides_ar": [
+   "رحتي جمعة أهلك عشان تجلسي معاهم، وقضيتيها كلها معاه في الغرفة الثانية؟",
+   "هذي ثلاث أشياء أغلبنا يسويها في جمعة الأهل بدون ما ننتبه، وتخلي الجمعة أصعب عليه وعلينا.",
+   "أول شي: نرد على اللي في المجلس قبل ما نرد عليه.\nيصيح، ويقولوا \"دلعتيه\"، فتقولي \"تعبان، ما نام\"، وهو لسه يسحبك.\nانزلي له أول، والمجلس يستنى.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الشي الثاني: نستنى إلين ما يطيح على الأرض عشان نطلع.\nيبدأ يلزق فيكي، وتقولي في نفسك \"شويه ويهدى\"، وبعد دقيقة صار على الأرض.\nأول ما يلزق فيكي، اطلعي معاه شويه وارجعوا.",
+   "الشي الثالث: نرجع البيت وما نتذكر إلا الصياح.\nبس الدقيقة اللي قبله هي اللي تفرق: ايش كان يسوي، وايش صار حوله، وكم صار لكم جالسين.\nواللي تشوفيه كل جمعة معلومة، مو شكوى.",
+   "ومن هنا نبني الخطة: نرتب اللي لاحظتيه من كل جمعة، ونختار منه خطوة وحده تبدئي فيها الجمعة الجاية.",
+   "فكري في آخر جمعة، وايش صار قبل ما تقومي معاه للغرفة الثانية.\nهذي الدقيقة هي بداية خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "رحتي جمعة أهلك وقضيتيها في الغرفة الثانية؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.\nفي الصور ثلاث أشياء أغلبنا يسويها في الجمعة، وايش نسوي بدالها.",
+  "pinned_ar": "الجزء الثاني: أول ما توصلوا، اختاري مكان جلستك قريب من الباب. عشان لما تحتاجي تطلعي معاه، تطلعي بهدوء بدون ما تمري على المجلس كله.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+  "posting_order": 5,
+  "explainer": "Type 7 From observation to plan · Belief 4 «اللي أشوفه كل يوم معلومة، مو شكوى»",
+  "notes_en": "7 slides. Mistakes are written in «نـ» (we) so they read as 'what most of us do', with her moment in second person. Mistake 2's move (step out at the first sign) is close to the 'take him aside' wallpaper; the value is the timing, before the floor. The signs «يلزق فيكي» are a guess at a common first sign; change to his real one if you prefer. «ومن هنا نبني الخطة» is the explainer continuation (Type 7).",
+  "backtranslation_en": [
+   "You went to your family's gathering to sit with them, and spent all of it with him in the other room?",
+   "Here are three things most of us do at the family gathering without noticing, and they make the gathering harder for him and for us.",
+   "First thing: we answer the people in the majlis before we answer him. He screams, they say \"you spoiled him\", and you say \"he's tired, he didn't sleep\", while he's still pulling you. Get down to him first, and the majlis can wait. The free assessment in the bio helps you know where to start.",
+   "The second thing: we wait until he drops to the floor before we step out. He starts clinging to you, you tell yourself \"he'll calm down in a bit\", and a minute later he's on the floor. As soon as he clings to you, step out with him for a bit and come back.",
+   "The third thing: we go home remembering only the screaming. But the minute before it is what makes the difference: what he was doing, what happened around him, and how long you'd been sitting. And what you see every gathering is information, not a complaint.",
+   "And from here we build the plan: we organise what you've noticed from each gathering, and choose one step from it for you to start with at the next gathering.",
+   "Think about the last gathering, and what happened before you got up with him to the other room. That minute is the start of a plan that suits him. And the free assessment helps you know where to start with outings and visits. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s3",
+    "original": "نرد على المجلس قبل ما نرد عليه.\nيصيح وتسمعي \"دلعتيه\"، فتقولي لهم \"تعبان، ما نام زين\"، وهو لسه يسحبك.",
+    "corrected": "نرد على اللي في المجلس قبل ما نرد عليه.\nيصيح، ويقولوا \"دلعتيه\"، فتقولي \"تعبان، ما نام\"، وهو لسه يسحبك.",
+    "why": "«نرد على المجلس» = answering the room itself; she'd say «على اللي في المجلس». Trimmed filler (slide was 38 words)."
+   },
+   {
+    "slide": "s3",
+    "original": "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+    "corrected": "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+    "why": "Length: slide was 38 words. The default soft line (no «مع…») keeps it near 35 without cutting her moment."
+   },
+   {
+    "slide": "s4",
+    "original": "تشوفيه بدأ يلزق فيكي، وتقولي في نفسك \"شويه ويهدى\"، وبعد دقيقتين صار على الأرض.\nأول ما يلزق فيكي، اطلعي معاه دقيقتين وارجعوا.",
+    "corrected": "يبدأ يلزق فيكي، وتقولي في نفسك \"شويه ويهدى\"، وبعد دقيقة صار على الأرض.\nأول ما يلزق فيكي، اطلعي معاه شويه وارجعوا.",
+    "why": "«دقيقتين» appeared twice with two meanings; trimmed."
+   },
+   {
+    "slide": "s5",
+    "original": "بس الدقيقة اللي قبله فيها المعلومة: ايش كان يسوي، وايش صار حوله، وكم صار لكم في المجلس.",
+    "corrected": "بس الدقيقة اللي قبله هي اللي تفرق: ايش كان يسوي، وايش صار حوله، وكم صار لكم جالسين.",
+    "why": "«فيها المعلومة» reads translated; «هي اللي تفرق» is her phrasing. Belief 4 stays word for word on the next line."
+   },
+   {
+    "slide": "s7",
+    "original": "فكري في آخر جمعة، ايش صار قبل ما تقومي معاه للغرفة الثانية وكم كان صار لكم جالسين.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nالتقييم المجاني",
+    "corrected": "فكري في آخر جمعة، وايش صار قبل ما تقومي معاه للغرفة الثانية.\nهذي الدقيقة هي بداية خطة تناسبه.\nوالتقييم المجاني",
+    "why": "Slide was 36 words and repeated s5's «كم صار لكم». CTA sameness: «هذي الدقيقة هي بداية خطة…» (her B2 p1 pattern), tied to the explainer's minute."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": []
+ },
+ {
+  "id": "b3p12",
+  "conceptId": "c12",
+  "title": "Winter jacket: two voices",
+  "format": "slides · F3 Two voices",
+  "slides_ar": [
+   "صرتي تشيلي جاكيته في يدك طول الطلعة، وهو بردان ومو راضي يلبسه؟",
+   "جدته: \"لبسيه غصب، بيبرد الولد!\"\nوانتي في نفسك: \"آخر مرة دخلت يده في الكم بالقوة، صاح إلين ما رجعنا البيت.\"",
+   "جدته: \"شوفي يدينه، ثلج!\"\nوانتي تردي: \"أدري. بس لو لبسته غصب، بيقلعه ويرميه.\"\nوالجاكيت لسه معاكي.",
+   "يمكن هو مو رافض الجاكيت، رافض إن احد يدخل يدينه فيه بالقوة.\nوهذي خطوتين عشان يلبسه بنفسه.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الخطوة الأولى: حطي الجاكيت قدامه على الأرض مفتوح، بطانته لفوق والياقة عند رجوله.",
+   "الخطوة الثانية: خليه يدخل يدينه في الكمين، ويرفعهم فوق راسه.\nالجاكيت ينقلب وينزل على ظهره، ويكون لبسه بنفسه بدون ما احد يمسك يده.",
+   "ولو لبسه بنفسه ورجع قلعه، هذي معلومة ثانية. يمكن اللي يضايقه الجاكيت نفسه، مو اللبس.\nنفس الرفض، بس مو دايما لنفس السبب.",
+   "قبل ما يرفض الجاكيت فيه لحظة: كنتي ماسكة يده، ولا كان مستعجل يطلع؟\nوالخطة تبدأ من اللي لاحظتيه أنتي.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "تشيلي جاكيته طول الطلعة وهو بردان؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور صوت جدته وصوتك، وخطوتين يلبس فيها الجاكيت بنفسه.",
+  "pinned_ar": "الجزء الثاني: لو قلعه بعد شويه، لا ترجعي تلبسيه غصب. حطيه قدامه مقلوب مرة ثانية، وخليه هو يلبسه. عشان يظل اللبس شي يسويه هو.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 6,
+  "explainer": "Type 2 Same behaviour, different reasons · Belief 2",
+  "notes_en": "The flip split into two steps (lay it out / arms in and over the head) so each step is one action. «على الأرض» works at home or on the park grass; if most outings start from the car, «على الكرسي» may be more real. Grandmother is the outside voice, her inner voice the second. Body care isn't a Q14 option, so the CTA lines stay general. «ثلج» for cold hands: check it's how you'd say it.",
+  "backtranslation_en": [
+   "Now you carry his jacket in your hand the whole outing, while he's cold and won't put it on?",
+   "His grandmother: \"Put it on him by force, the boy will get cold!\" And you, to yourself: \"Last time I pushed his arm into the sleeve by force, he screamed until we got home.\"",
+   "His grandmother: \"Look at his hands, ice!\" And you answer: \"I know. But if I put it on him by force, he'll take it off and throw it.\" And the jacket is still with you.",
+   "Maybe he isn't refusing the jacket, he's refusing someone pushing his arms into it by force. And here are two steps so he puts it on himself. The free assessment in the bio helps you know where to start.",
+   "Step one: lay the jacket in front of him on the floor, open, lining up and the collar by his feet.",
+   "Step two: let him put his arms into the sleeves and lift them over his head. The jacket flips and comes down on his back, and he has put it on himself without anyone holding his arm.",
+   "And if he puts it on himself and then takes it off again, that's another piece of information. Maybe what bothers him is the jacket itself, not putting it on. Same refusal, but not always for the same reason.",
+   "Before he refuses the jacket there's a moment: were you holding his arm, or was he in a hurry to go out? And the plan starts from what you noticed. Start with the free assessment, and know where to focus first. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "هو مو رافض الجاكيت. رافض إن احد يدخل يدينه فيه بالقوة.",
+    "corrected": "يمكن هو مو رافض الجاكيت، رافض إن احد يدخل يدينه فيه بالقوة.",
+    "why": "Meaning + safety: s4 stated the reason as fact, then s7 says it may be the jacket itself. «يمكن» keeps it a possibility, not a cause we claim."
+   },
+   {
+    "slide": "s6",
+    "original": "ولبسه بنفسه بدون ما احد يمسك يده.",
+    "corrected": "ويكون لبسه بنفسه بدون ما احد يمسك يده.",
+    "why": "Tense: the step is a present-tense sequence."
+   },
+   {
+    "slide": "s7",
+    "original": "ولو لبسه بنفسه وبرضو قلعه",
+    "corrected": "ولو لبسه بنفسه ورجع قلعه",
+    "why": "«برضو» leans Egyptian/Levantine; «ورجع قلعه» is plain Saudi."
+   },
+   {
+    "slide": "s8",
+    "original": "انتبهي ايش صار قبل ما يرفض، كنتي ماسكة يده ولا كان مستعجل يطلع ولا ما رضي حتى يشوف الجاكيت.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي من فين تبدئي.",
+    "corrected": "قبل ما يرفض الجاكيت فيه لحظة: كنتي ماسكة يده، ولا كان مستعجل يطلع؟\nوالخطة تبدأ من اللي لاحظتيه أنتي.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي.",
+    "why": "Concept CTA type is Direct, but the draft used an Observation order. Now Direct (her B2 p4 shape: statement → plan line → «ابدئي…، واعرفي فين تركزي أول شي»). CTA sameness fixed. 35 → 30 words."
+   }
+  ],
+  "safety_flags_en": [
+   "s4 stated as fact what he refuses, which s7 then contradicts. Softened with «يمكن»."
+  ],
+  "questions_for_anhar": [
+   "Cold hands: is «يدينه ثلج» how you say it?"
+  ]
+ },
+ {
+  "id": "b3p10",
+  "conceptId": "c10",
+  "title": "Nails: he cuts yours first",
+  "format": "slides · F7 Inception list · BENEFITS / steps",
+  "slides_ar": [
+   "ما تقدري تقصي أظافره إلا وهو نايم وعلى فلاش الجوال؟",
+   "تدخلي غرفته على أطراف أصابعك، وبعد ثلاث أظافر يتحرك ويسحب يده.\nوتقولي في نفسك \"خلاص، الباقي بكره\".\nوهذي ثلاث خطوات عشان تبدئي تقصيها وهو صاحي.",
+   "الخطوة الأولى: هو يقص أظافرك أنتي أول.\nتمدي له يدك، ويحط القراضة وهي مسكّرة على كل ظفر ويقول \"تك\".\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الخطوة الثانية: هو يختار أول اصبع.\nتسأليه \"أي اصبع نبدأ فيه؟\"، ويمد لك اصبعه بنفسه.\nوآخر اصبع بعد يختاره هو، عشان يعرف إن القص له آخر.",
+   "الخطوة الثالثة: يد وحده اليوم تكفي.\nلو سحب يده بعد كم ظفر، وقفي وقولي له \"الباقي المرة الجاية\".",
+   "والمرة الجاية يمكن يمد لك اليدين، ويمكن تظلوا على يد وحده.\nوهذا مو رجوع لورا. الخطة اللي تنفع تمشي على حسب استجابته، وتتغير معاه.",
+   "لاحظي ايش يصير قبل ما يسحب يده: أول ما يشوف القراضة، ولا لما تمسكي اصبعه؟\nهذي التفاصيل تساعدك تبني خطة تتغير معاه.\nوالتقييم المجاني يساعدك تحددي من فين تبدئي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "ما تقدري تقصي أظافره إلا وهو نايم؟\nفي الصور ثلاث خطوات عشان تقصيها وهو صاحي. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "pinned_ar": "الجزء الثاني: اجلسي وهو في حضنك وظهره لك، ويده قدامه. كذا يشوف يده والقراضة زي ما يشوف يدك لما تقصي أظافرك.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 7,
+  "explainer": "Type 8 The Living Plan Evolves · Belief 10 «الخطة اللي تشتغل لازم تتغيّر معه»",
+  "notes_en": "This is the «ما تقدري … إلا» dark-ground test, so slide 1 must go on deep/night. I didn't repeat the phone torch after slide 1. I used «المقص» for the nail clippers and «اصبع» without a hamza; tell me if you say «القصاصة» or «صبع». Step 1 hands him the clippers closed (he only touches them to your nail), so it stays safe. «الخطة الحية» is left out here on purpose; it appears once in post #12.",
+  "backtranslation_en": [
+   "You can only cut his nails while he's asleep, by the phone's flashlight?",
+   "You tiptoe into his room, and after three nails he moves and pulls his hand away. And you say to yourself \"That's it, the rest tomorrow.\" And here are three steps so you can start cutting them while he's awake.",
+   "Step one: he cuts YOUR nails first. You hold out your hand, and he puts the clippers, closed, on each nail and says \"click\". The free assessment in the bio helps you know where to start.",
+   "Step two: he picks the first finger.\nYou ask him \"Which finger do we start with?\", and he holds out his finger himself.\nAnd he picks the last finger too, so he knows the cutting has an end.",
+   "Step three: one hand today is enough.\nIf he pulls his hand away after a few nails, stop and tell him \"the rest next time\".",
+   "And next time he might give you both hands, or you might stay on one hand.\nAnd that isn't going backwards. A plan that works moves according to how he responds, and changes with him.",
+   "Notice what happens before he pulls his hand away: as soon as he sees the clippers, or when you hold his finger? These details help you build a plan that changes with him. And the free assessment helps you pin down where to start. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s2",
+    "original": "وهذي ثلاث خطوات عشان تقصيها وهو صاحي.",
+    "corrected": "وهذي ثلاث خطوات عشان تبدئي تقصيها وهو صاحي.",
+    "why": "Safety (light): «تبدئي» names the goal without promising it."
+   },
+   {
+    "slide": "s3",
+    "original": "ويحط المقص وهو مسكّر",
+    "corrected": "ويحط القراضة وهي مسكّرة",
+    "why": "Director note: «المقص» is scissors; the everyday Saudi word for nail clippers is «القراضة». Listed as a question to confirm."
+   },
+   {
+    "slide": "s7",
+    "original": "لاحظي ايش يصير قبل ما يسحب يده، أول ما يشوف المقص ولا لما تمسكي اصبعه، لأن هذي التفاصيل تساعدك تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي.",
+    "corrected": "لاحظي ايش يصير قبل ما يسحب يده: أول ما يشوف القراضة، ولا لما تمسكي اصبعه؟\nهذي التفاصيل تساعدك تبني خطة تتغير معاه.\nوالتقييم المجاني يساعدك تحددي من فين تبدئي.",
+    "why": "Clippers word; «لأن…» chained the CTA into one long run-on line. CTA sameness: «خطة تتغير معاه» carries this post's Belief 10; «تحددي من فين تبدئي» is her B2 p1 wording."
+   },
+   {
+    "slide": "pinned",
+    "original": "يشوف يده والمقص",
+    "corrected": "يشوف يده والقراضة",
+    "why": "Clippers word (see s3)."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": [
+   "Nail clippers: I changed «المقص» to «القراضة» (spelled with ة). Is «القراضة» your word, or do you say «مقص الأظافر» / «القصاصة»? And «اصبع» or «صبع»?"
+  ]
+ },
+ {
+  "id": "b3p6",
+  "conceptId": "c6",
+  "title": "Sibling and the tower: take a photo first",
+  "format": "slides · F2 Story",
+  "slides_ar": [
+   "جلستي العصريه كلها على الأرض بينهم، وأول ما قمتي طاح برجه وبدأ الصياح؟",
+   "كان يبني برجه مكعب مكعب، وأخته تمد يدها، وأنتي كل شويه تقولي لها \"لا، هذا حق أخوك\".\nوبعدين تذكرتي القدر اللي على النار، وقمتي دقيقة وحده.",
+   "ما وصلتي المطبخ إلا وسمعتي الطيحه.\nرجعتي تركضي، وهو يصيح ويرمي المكعبات، وأخته تبكي وتقول \"ما قصدت\".",
+   "طبيعي يزعل. البرج حقه، وراح في ثانية قبل ما يخلصه.\nوهذي حركة وحده تاخذ ثواني قبل ما تقومي.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "قبل ما تقومي، قولي له \"نصوره قبل ما أقوم؟\"\nاعطيه جوالك، ويصوره هو.\nكذا لو طاح وأنتي في المطبخ، برجه لسه موجود في الصورة.",
+   "والحركة هذي جات من ملاحظة وحده: البرج راح قبل ما يخلصه.\nوأحيانا يكون ورا زعله سبب مو واضح من أول، ولما تلاحظيه تقدري تغيري شي صغير في يومكم.",
+   "فكري في آخر مرة بدأ فيها الصياح بينهم، وايش صار قبلها بشويه.\nومن هذي اللحظة تنبني الخطة.\nوالتقييم المجاني يساعدك تختاري الموقف اللي يتكرر معاكي، وتطلعي بأول خطوة تناسبه. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "جلستي العصريه كلها بينهم، وأول ما قمتي طاح برجه؟\nفي الصور حركة وحده تاخذ ثواني قبل ما تقومي. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "pinned_ar": "الجزء الثاني: لو طاح البرج قبل ما تلحقي تصوريه، لا تبنيه بداله. اعطيه أول مكعب وقولي \"نرجع نبنيه؟\"، وخليه يبدأ هو.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 8,
+  "explainer": "Type 3 Real-Life Demonstration · Belief 1: his behaviour may have a reason I haven't recognised yet",
+  "notes_en": "Three story slides (s2–s4), then one move. The sister is shown kindly («ما قصدت»), never blamed. Slide 6 frames the reason with «يمكن» so it is a possibility she notices, not a cause we claim. I kept the soft CTA general rather than «مع زعله»; tell me if you want the anger option named.",
+  "backtranslation_en": [
+   "You sat on the floor between them all afternoon, and the moment you got up his tower fell and the screaming started?",
+   "He was building his tower block by block, his sister reached her hand out, and every little while you told her \"No, that's your brother's\". Then you remembered the pot on the stove, and got up for one minute.",
+   "You hadn't reached the kitchen when you heard the crash.\nYou ran back, and he's screaming and throwing the blocks, and his sister is crying and saying \"I didn't mean it\".",
+   "Of course he's upset. The tower is his, and it was gone in a second before he finished it.\nAnd here is one move that takes seconds, before you get up.\nThe free assessment in the bio helps you know where to start.",
+   "Before you get up, say to him \"Shall we take a photo before I get up?\"\nGive him your phone, and he takes the photo himself.\nThat way if it falls while you're in the kitchen, his tower still exists in the photo.",
+   "And this trick came from one observation: the tower was gone before he finished it. And sometimes there's a reason behind his upset that isn't clear at first, and when you notice it you can change something small in your day.",
+   "Think about the last time the screaming started between them, and what happened a little before it. From that moment the plan is built. And the free assessment helps you choose the situation that keeps repeating for you, and come out with a first step that suits it. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s2",
+    "original": "هو يبني برجه مكعب مكعب",
+    "corrected": "كان يبني برجه مكعب مكعب",
+    "why": "Past tense for the one real afternoon (hook is past: جلستي… قمتي)."
+   },
+   {
+    "slide": "s6",
+    "original": "والحركة هذي جات من ملاحظة وحده: يمكن اللي زعله مو الطيحه، إن برجه راح قبل ما يخلصه.\nوأحيانا يكون ورا زعله سبب مو واضح من أول، ولما تلاحظيه تتغير خطوة صغيرة في يومكم.",
+    "corrected": "والحركة هذي جات من ملاحظة وحده: البرج راح قبل ما يخلصه.\nوأحيانا يكون ورا زعله سبب مو واضح من أول، ولما تلاحظيه تقدري تغيري شي صغير في يومكم.",
+    "why": "«يمكن اللي زعله مو الطيحه، إن…» was missing a word and repeated s4. «تتغير خطوة صغيرة في يومكم» is translated; «تقدري تغيري شي صغير» is how she'd say it."
+   },
+   {
+    "slide": "s7",
+    "original": "فكري في آخر مرة بدأ فيها الصياح، وايش صار قبلها بشويه، لأن هذي اللحظة تساعدك تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي.",
+    "corrected": "فكري في آخر مرة بدأ فيها الصياح بينهم، وايش صار قبلها بشويه.\nومن هذي اللحظة تنبني الخطة.\nوالتقييم المجاني يساعدك تختاري الموقف اللي يتكرر معاكي، وتطلعي بأول خطوة تناسبه.",
+    "why": "Run-on «لأن…» split into her CTA rhythm. CTA sameness: uses the accurate assessment_truth line (choose the situation, get a first step)."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": []
+ },
+ {
+  "id": "b3p8",
+  "conceptId": "c8",
+  "title": "The ride ends: 3 things most of us do",
+  "format": "slides · F7 Inception list · MISTAKES",
+  "slides_ar": [
+   "ينزل من اللعبة وهو يبكي، فصرتي تطلعي من المول من باب ثاني؟",
+   "توقف اللعبة، ويمسك فيها ويبكي، والأطفال في الطابور يستنوا دورهم.\nوهذي ثلاث أشياء أغلبنا يسويها في هذي اللحظة، وكل وحدة لها حركة بسيطة.",
+   "أول شي: تقولي \"خلاص\" وأنتي تشيليه في نفس الثانية، فيمسك في اللعبة أكثر.\nخليه هو اللي يقول لها \"باي\"، وينزل بنفسه.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الشي الثاني: يبكي، فتقولي \"طيب مرة وحده بس\"، وبعدها تشوفي الوقت وتقولي \"لا خلاص، تأخرنا\".\nقبل ما يركب، قولي له كم مرة، وعديها معاه على أصابعه.",
+   "الشي الثالث: ترجعوا البيت وفي بالك البكا وكل اللي كانوا يتفرجوا، وتنسي ايش صار قبله بثانية.\nاللعبة وقفت فجأة؟ ولا شاف الطفل اللي بعده يقرب؟",
+   "وهذي الثانية هي اللي تفرق. لما تعرفيها، تقدري تجهزيه قبل ما توقف اللعبة، بدل ما تلحقي البكا بعد ما يبدأ.",
+   "كل مرة تنزلوا من اللعبة فيه ثانية قبل البكا، ومن هذي الثانية تبدأ خطة تناسبه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "ينزل من اللعبة وهو يبكي؟\nفي الصور ثلاث أشياء أغلبنا يسويها لما توقف اللعبة، وحركة بسيطة لكل وحدة. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "pinned_ar": "الجزء الثاني: لو عندكم مشاوير في المول، خلي الألعاب آخر شي. كذا بعد اللعبة تطلعوا للسيارة على طول، بدل ما تكملوا المول وهو لسه يبكي.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 9,
+  "explainer": "Type 6 Prevention Before Intervention · Belief 3: what happens before the hard moment matters",
+  "notes_en": "The mistakes are her loving moves, framed as «أغلبنا يسويها», never as her fault. Mistake 2 is \"one more, then taking it back\", and the move is deciding the count before he gets on. Ride payment is by card now, so I never mention coins or price. Slide 3 runs to about 36 words with the soft line; it can split at the line break if it looks crowded.",
+  "backtranslation_en": [
+   "He gets off the ride crying, so now you leave the mall through a different door?",
+   "The ride stops, and he holds on to it and cries, and the kids in the queue are waiting their turn.\nAnd here are three things most of us do in that moment, and each one has a simple move.",
+   "First thing: you say \"that's it\" while lifting him off in the same second, so he holds on to the ride even more. Let him be the one who says \"bye\" to it, and climb down himself. The free assessment in the bio helps you know where to start.",
+   "Second thing: he cries, so you say \"OK, just one more time\", then you see the time and say \"No, that's it, we're late\".\nBefore he gets on, tell him how many times, and count them with him on his fingers.",
+   "The third thing: you go home with the crying and everyone who was watching on your mind, and you forget what happened a second before it. Did the ride stop suddenly? Or did he see the next child coming closer?",
+   "And this second is what makes the difference. Once you know it, you can get him ready before the ride stops, instead of catching the crying after it starts.",
+   "Every time you get off the ride there's a second before the crying, and from that second a plan that suits him starts. Start with the free assessment, and see what needs your attention first. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s3",
+    "original": "خليه هو اللي يودعها: يدق عليها مرتين ويقول \"باي\"، وينزل بنفسه.",
+    "corrected": "خليه هو اللي يقول لها \"باي\"، وينزل بنفسه.",
+    "why": "One action per step: tap twice + say bye + climb down was three moves."
+   },
+   {
+    "slide": "s5",
+    "original": "وكل اللي تفرجوا",
+    "corrected": "وكل اللي كانوا يتفرجوا",
+    "why": "Complete the phrase."
+   },
+   {
+    "slide": "s6",
+    "original": "لما تعرفيها، تجهزي له قبل ما توقف اللعبة، مو بعد ما يبدأ البكا.\nومن هنا تبدأ الخطة.",
+    "corrected": "لما تعرفيها، تقدري تجهزيه قبل ما توقف اللعبة، بدل ما تلحقي البكا بعد ما يبدأ.",
+    "why": "«تجهزي له» (prepare something for him) → «تجهزيه» (get him ready). «بدل ما», not «مو», for the contrast. «ومن هنا تبدأ الخطة» moved out: s7 said the same thing again."
+   },
+   {
+    "slide": "s7",
+    "original": "الثانية اللي قبل ما يبدأ البكا عند اللعبة هي اللي تساعدك تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي من فين تبدئي.",
+    "corrected": "كل مرة تنزلوا من اللعبة فيه ثانية قبل البكا، ومن هذي الثانية تبدأ خطة تناسبه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول.",
+    "why": "CTA sameness: her B2 p5 Direct line («وشوفي ايش يحتاج اهتمامك أول»). Connect line now names the moment, not a repeat of s6."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": []
+ },
+ {
+  "id": "b3p9",
+  "conceptId": "c9",
+  "title": "Hearing \"no\": 3 things to notice",
+  "format": "slides · F6 Checklist",
+  "slides_ar": [
+   "صار لك شهر ما قلتي له \"لا\"، والبسكوت مخبى فوق الدولاب؟",
+   "آخر مرة قلتي له \"لا\"، طاح على الأرض يصيح، وما سكت إلا لما اعطيتيه البسكوتة.\nمن يومها صرتي تخبي كل شي، وتفتحي الثلاجة وهو مو شايفك.",
+   "مو دايما \"لا\" نفسها هي اللي تزعله. أحيانا اللي قبلها واللي بعدها.\nوهذي ثلاث أشياء تلاحظيها قبلها وبعدها.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "أول شي: انتبهي لإيش كان يسوي قبل ما يطلب.\nلو كان طفشان يلف في البيت، فيمكن يدور شي يسويه، مو بس بسكوت.",
+   "ثاني شي: انتبهي لإيش كان في يدك لما قلتي \"لا\".\nلو قلتيها والباكت في يدك، فهو يشوف البسكوت أكثر ما يسمع الكلمة.\nرجعي الباكت مكانه أول، وبعدها جاوبيه.",
+   "ثالث شي: انتبهي لإيش جاه بعد \"لا\".\nلو ما كان فيه شي يروح له، فيظل واقف مكانه وكل اللي في باله البسكوت.\nقوليها وأنتي ماشية معاه لشي ثاني يحبه.",
+   "وهذي الثلاث أشياء أنتي تلاحظيها كل يوم أصلا، بس تمر كأنها تفاصيل.\nاللي تلاحظيه كل يوم مع طفلك معلومة، مو شكوى، ومنه تبدأ الخطة.",
+   "لاحظي ايش يصير قبل \"لا\" وايش يجيه بعدها.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تشوفي نقاط القوة في طريقتك، وايش تحتاجي تنظمي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "صار لك شهر ما قلتي له \"لا\"؟\nفي الصور ثلاث أشياء تلاحظيها قبل \"لا\" وبعدها. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "pinned_ar": "الجزء الثاني: لما يكون اللي يبغاه ممكن بعدين، قولي \"إيه، بعد الغدا\" بدل \"لا\". نفس الجواب، بس أول كلمة يسمعها \"إيه\".\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 10,
+  "explainer": "Type 4 The Parent's Knowledge · Belief 4 «اللي أشوفه كل يوم معلومة، مو شكوى»",
+  "notes_en": "Checklist items are full spoken sentences («انتبهي لإيش…»). Item 1 is notice-only, while items 2 and 3 each carry one move. Slide 2 shows the last time she said no ending in her giving the biscuit; I kept it plain and not blaming, but say if it reads as a judgement. «طفشان» = bored. Belief 4 is stated almost word for word on slide 7.",
+  "backtranslation_en": [
+   "It's been a month since you said \"no\" to him, and the biscuits are hidden on top of the wardrobe?",
+   "The last time you said \"no\" to him, he dropped to the floor screaming, and only stopped when you gave him the biscuit.\nSince that day you hide everything, and open the fridge when he can't see you.",
+   "It's not always the \"no\" itself that upsets him. Sometimes it's what comes before it and after it. And here are three things you notice before it and after it. The free assessment in the bio helps you know where to start.",
+   "First thing: notice what he was doing before he asked. If he was bored, wandering around the house, maybe he's looking for something to do, not just a biscuit.",
+   "Second thing: notice what was in your hand when you said \"no\". If you said it with the packet in your hand, he sees the biscuits more than he hears the word. Put the packet back first, then answer him.",
+   "Third thing: notice what came for him after \"no\". If there was nothing for him to go to, he stays standing there with nothing on his mind but the biscuits. Say it while you're walking with him to something else he loves.",
+   "And these three things you already notice every day, they just pass as if they're details.\nWhat you notice every day with your child is information, not a complaint, and the plan starts from it.",
+   "Notice what happens before \"no\" and what comes for him after it. These details help you build a plan that suits him. And the free assessment helps you see the strengths in your approach, and what you need to organise. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s3",
+    "original": "وهذي ثلاث أشياء تلاحظيها حولها.",
+    "corrected": "وهذي ثلاث أشياء تلاحظيها قبلها وبعدها.",
+    "why": "«حولها» (around the \"no\") is a translated idea; the line before already says before/after."
+   },
+   {
+    "slide": "s4",
+    "original": "فهو يدور شي يسويه، مو بس بسكوت.",
+    "corrected": "فيمكن يدور شي يسويه، مو بس بسكوت.",
+    "why": "Safety: stated a reason for his behaviour as fact; «يمكن» keeps it a possibility she notices."
+   },
+   {
+    "slide": "s5",
+    "original": "رجعيه مكانه أول، وبعدها جاوبيه.",
+    "corrected": "رجعي الباكت مكانه أول، وبعدها جاوبيه.",
+    "why": "«رجعيه» could read as \"take HIM back\". Name the thing."
+   },
+   {
+    "slide": "s6",
+    "original": "لو ما كان فيه شي يروح له، يظل واقف مكانه",
+    "corrected": "لو ما كان فيه شي يروح له، فيظل واقف مكانه",
+    "why": "A consequence takes فـ (B2 rule)."
+   },
+   {
+    "slide": "s8",
+    "original": "لاحظي ايش يصير قبل \"لا\" وبعدها، لأن هذي التفاصيل تساعدك تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي.",
+    "corrected": "لاحظي ايش يصير قبل \"لا\" وايش يجيه بعدها.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تشوفي نقاط القوة في طريقتك، وايش تحتاجي تنظمي.",
+    "why": "Run-on «لأن…» split into her CTA rhythm. CTA sameness: the Direct line now uses the accurate assessment_truth line about her strengths and what to organise, which fits this post's belief (what she sees is information)."
+   }
+  ],
+  "safety_flags_en": [
+   "s4 «فهو يدور شي يسويه» stated the reason for his behaviour as fact. Softened to «فيمكن»."
+  ],
+  "questions_for_anhar": [
+   "Bored: is «طفشان» your word?"
+  ]
+ },
+ {
+  "id": "b3p4",
+  "conceptId": "c4",
+  "title": "Restaurant wait: he is the waiter",
+  "format": "slides · F7 Inception list · BENEFITS / one tool",
+  "slides_ar": [
+   "قبل ما يوصل الأكل قلتي لهم خلوه سفري، وأكلتيه بارد في السيارة؟",
+   "طلبتوا، والطاوله اللي جنبكم وصلها أكلها، وهو ينزل من الكرسي ويصيح.\nوهذي ثلاث أشياء تخلي الانتظار أسهل عليه وعليكي.",
+   "أول شي: من اول ما تجلسوا، اطلبي أكله قبل ما تختاري أكلك.\nوقولي لهم \"أكله أول لو سمحت\".\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات.",
+   "ثاني شي: خليه هو الجرسون، وغلطي انتي في طلبك.\nقولي له مثلا \"أنا طلبت بيتزا صح؟\"، ويصحح لك هو.\nالانتظار أصعب عليه وهو فاضي، وكذا صار عنده شغلة.",
+   "ثالث شي: لاحظي متى يبدأ يصيح بالضبط.\nبعد ما يشيلوا المنيو؟ ولا لما يوصل أكل الطاوله اللي جنبكم؟",
+   "ولما تعرفي هذي الدقيقة، تقدري تبدئي لعبة الجرسون قبلها بشويه، بدل ما تبدئيها بعد ما ينزل من الكرسي.\nومن هنا تبدأ الخطة، وتتغير معاه حسب استجابته.",
+   "فكري في آخر مرة طلعتوا تاكلوا برا، وايش صار قبل ما يبدأ يصيح.\nومن هذي اللحظة تبدئي تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات."
+  ],
+  "caption_ar": "قبل ما يوصل الأكل قلتي لهم خلوه سفري؟\nفي الصور ثلاث أشياء تخلي انتظار الأكل أسهل، وحدة منها لعبة الجرسون. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات.",
+  "pinned_ar": "الجزء الثاني: لو تقدري تختاري الطاوله، خليه يجلس جهة الجدار، مو جهة الممر. كذا ما يشوف كل صحن يمشي قدامه وهو يستنى.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات.",
+  "posting_order": 11,
+  "explainer": "Type 1 Hidden Pattern · Belief 3: what happens before the hard moment matters",
+  "notes_en": "The only post of my six that uses «مع الطلعات», because its Q14 option is outings and family visits. «الجرسون» for waiter, and «شاي بالكاتشب» as the wrong order he corrects (light humour, from the research). I used «الطاوله» (your spelling) for the restaurant table too; switch it to «الطاولة» if that spelling is only for the kitchen counter.",
+  "backtranslation_en": [
+   "Before the food came you told them to make it takeaway, and ate it cold in the car?",
+   "You ordered, the table next to you got its food, and he climbs down from the chair and screams.\nAnd here are three things that make the wait easier on him and on you.",
+   "First thing: the moment you sit down, order his food before you choose yours.\nAnd tell them \"His food first, please\".\nThe free assessment in the bio helps you know where to start with outings.",
+   "Second thing: let him be the waiter, and you get your own order wrong. Say to him, for example, \"I ordered pizza, right?\", and he corrects you. Waiting is harder for him when he has nothing to do, and this way he has a job.",
+   "Third thing: notice exactly when he starts screaming. After they take the menus? Or when the next table's food arrives?",
+   "And once you know that minute, you can start the waiter game a little before it, instead of starting it after he climbs off the chair. And this is where the plan starts, and it changes with him according to how he responds.",
+   "Think about the last time you went out to eat, and what happened before he started screaming. And from that moment you start building a plan that suits him. And the free assessment helps you know where to start with outings. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "ثاني شي: خليه هو الجرسون، ويسألك \"ايش تبغي؟\".\nقولي له \"شاي بالكاتشب\"، ويصحح لك هو.\nالانتظار أصعب وهو فاضي، فاعطيه أكثر شغلة على الطاوله.",
+    "corrected": "ثاني شي: خليه هو الجرسون، وغلطي انتي في طلبك.\nقولي له مثلا \"أنا طلبت بيتزا صح؟\"، ويصحح لك هو.\nالانتظار أصعب عليه وهو فاضي، وكذا صار عنده شغلة.",
+    "why": "Director note: «شاي بالكاتشب» is a constructed joke from the research, and there's nothing real for him to correct it to. A plain wrong order about what you really ordered is the wrong-shoe move: he knows the right answer and corrects you. «مثلا» before the example. «أكثر شغلة» was translated (\"the busiest job\")."
+   },
+   {
+    "slide": "s5",
+    "original": "لاحظي متى يبدأ بالضبط.",
+    "corrected": "لاحظي متى يبدأ يصيح بالضبط.",
+    "why": "\"Starts\" what? Complete the phrase."
+   },
+   {
+    "slide": "s6",
+    "original": "مو بعد ما ينزل من الكرسي.\nومن هنا تبدأ الخطة، وتتغير معاه كل ما تعود على الانتظار.",
+    "corrected": "بدل ما تبدئيها بعد ما ينزل من الكرسي.\nومن هنا تبدأ الخطة، وتتغير معاه حسب استجابته.",
+    "why": "Safety: «كل ما تعود على الانتظار» assumed he WILL get used to waiting (a promised result). «حسب استجابته» is her approved wording. «بدل ما», not «مو», for contrast."
+   },
+   {
+    "slide": "s7",
+    "original": "فكري في آخر مرة طلعتوا تاكلوا برا، وايش صار قبل ما يبدأ يصيح، لأن هذي اللحظة تساعدك تبني خطة تناسبه.",
+    "corrected": "فكري في آخر مرة طلعتوا تاكلوا برا، وايش صار قبل ما يبدأ يصيح.\nومن هذي اللحظة تبدئي تبني خطة تناسبه.",
+    "why": "Run-on «لأن…» split. CTA sameness: varied the plan line."
+   }
+  ],
+  "safety_flags_en": [
+   "s6 «وتتغير معاه كل ما تعود على الانتظار» assumed he will get used to waiting. Changed to «حسب استجابته»."
+  ],
+  "questions_for_anhar": [
+   "Waiter: «الجرسون» or «القرسون» (or «الويتر»)? And the restaurant table: «الطاوله» (your spelling for the kitchen counter) or «الطاولة»?"
+  ]
+ },
+ {
+  "id": "b3p7",
+  "conceptId": "c7",
+  "title": "Losing a game: 3 steps",
+  "format": "slides · F5 Walk-through",
+  "slides_ar": [
+   "صار لك شهور تخسري لطفلك بعمد، ودحين أخته تسألك ليش دايم هو اللي يفوز؟",
+   "ذيك المرة خسر، رمى الورق وصاح \"غش!\"، وانقلب اللعب بكا.\nفصرتي تخسري كل مرة، وأخته تتفرج وتسكت، إلين ما سألتك.",
+   "هذي ثلاث خطوات عشان ترجعي تلعبي معاه بدون ما تخسري بعمد.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "الخطوة الأولى: خليه يشوفك تخسري من جد.\nلما تخسري جولة، قولي بصوت عالي \"خسرت، يلا مرة ثانية\"، وكملي عادي.",
+   "الخطوة الثانية: خلي اللعبة قصيرة.\nبدل جولة تطول عشرين دقيقة، العبوا جولات قصيرة.\nكذا لما يخسر، يكون خسر كم دقيقة بس، والجولة الجاية قدامه.",
+   "الخطوة الثالثة: لما يخسر، اجمعي الورق وحطيه قدامه، واستني.\nخليه هو اللي يقول \"مرة ثانية\".",
+   "وبعدها لاحظي أي لعبة تخلص بصياح: الطويلة؟ ولا اللي تلعب فيها أخته؟\nهذا اللي يحدد الخطوة الجاية. وكذا تمشي الخطة الحية: تتغير معاه حسب استجابته.",
+   "قبل ما يرمي الورق فيه لحظة تقدري تلاحظيها.\nوالرجوع للعب العادي يبدأ بخطوة وحدة تناسبه هو.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي."
+  ],
+  "caption_ar": "صار لك شهور تخسري لطفلك بعمد؟\nفي الصور ثلاث خطوات عشان ترجعي تلعبي معاه بدون ما تخسري بعمد. والتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "pinned_ar": "الجزء الثاني: لما تخسر أخته، خليها تقول هي بعد \"خسرت، يلا مرة ثانية\". كذا يسمعها من أكثر من واحد في البيت، مو بس منك.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+  "posting_order": 12,
+  "explainer": "Type 8 The Living Plan Evolves · Belief 10 «الخطة اللي تشتغل لازم تتغيّر معه»",
+  "notes_en": "The twists live inside the steps, and none of them is announced as different advice. «الخطة الحية» is named once here (slide 7, the explainer), since this is the Type 8 post that comes last. The game is cards («الورق»). Slide 7 offers two possibilities as questions, «الطويل؟ ولا اللي تلعب فيه أخته؟»; check that the pair doesn't read like the banned one-word question list.",
+  "backtranslation_en": [
+   "For months you've lost to your child on purpose, and now his sister asks you why he always wins?",
+   "That time he lost, he threw the cards and shouted \"Cheat!\", and the game turned into crying.\nSo now you lose every time, and his sister watches and keeps quiet, until she asked you.",
+   "Here are three steps so you can go back to playing with him without losing on purpose.\nThe free assessment in the bio helps you know where to start.",
+   "Step one: let him see you lose for real.\nWhen you lose a round, say out loud \"I lost, come on, again\", and carry on as normal.",
+   "Step two: keep the game short. Instead of a round that lasts twenty minutes, play short rounds. That way, when he loses, he has only lost a few minutes, and the next round is right in front of him.",
+   "Step three: when he loses, gather the cards, put them in front of him, and wait.\nLet him be the one who says \"again\".",
+   "And then notice which game ends in screaming: the long one? Or the one his sister plays in? That decides the next step. And that's how the Living Plan works: it changes with him according to how he responds.",
+   "Before he throws the cards there's a moment you can notice. And going back to playing normally starts with one step that suits him. Start with the free assessment so you know where to start. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s5",
+    "original": "العبوا جولات تخلص في دقيقة.\nكذا لما يخسر، يخسر دقيقة بس",
+    "corrected": "العبوا جولات قصيرة.\nكذا لما يخسر، يكون خسر كم دقيقة بس",
+    "why": "Physics: a card round can't really end in one minute. Kept the twist, made it true."
+   },
+   {
+    "slide": "s7",
+    "original": "وبعدها لاحظي أي لعب يخلص بصياح: الطويل؟ ولا اللي تلعب فيه أخته؟",
+    "corrected": "وبعدها لاحظي أي لعبة تخلص بصياح: الطويلة؟ ولا اللي تلعب فيها أخته؟",
+    "why": "Grammar: «لعبة» (a game) is feminine. The two questions are full phrases, not the banned one-word list."
+   },
+   {
+    "slide": "s7",
+    "original": "تتغير معاه على حسب كيف يستقبل الخسارة.",
+    "corrected": "تتغير معاه حسب استجابته.",
+    "why": "«كيف يستقبل الخسارة» is written/translated Arabic; «حسب استجابته» is her approved wording."
+   },
+   {
+    "slide": "s8",
+    "original": "قبل ما يرمي الورق فيه لحظة، ولما تعرفيها تقدري تبني خطة تناسبه.\nابدئي بالتقييم المجاني، واعرفي من فين تبدئي.",
+    "corrected": "قبل ما يرمي الورق فيه لحظة تقدري تلاحظيها.\nوالرجوع للعب العادي يبدأ بخطوة وحدة تناسبه هو.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي.",
+    "why": "CTA sameness: her B2 p4 Direct shape («والرجوع منها يبدأ بخطوة وحدة تناسبه هو»), tied to this post's goal (playing normally again)."
+   }
+  ],
+  "safety_flags_en": [],
+  "questions_for_anhar": []
+ }
+]
