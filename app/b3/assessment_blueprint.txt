@@ -1,0 +1,602 @@
+﻿MADAR ALBAIT | مدار البيت
+Assessment Blueprint: ليش نفس المواقف تتكرر مع طفلك؟
+________________
+
+
+PART 1 — PROJECT OVERVIEW
+1.1. Assessment Name
+ليش نفس المواقف تتكرر مع طفلك؟
+This is the official assessment name. Keep it as a question. Do not add a separate branded title.
+1.2. Assessment Purpose
+Create a free, valuable online assessment for mothers of autistic children. The assessment should help mothers understand their current approach to recurring challenges, identify their strongest foundations, and discover the next area to focus on.
+The assessment also serves as the entry point to الخطة الحية (Living Plan), a personalized digital plan designed around a child's needs and the family's everyday life.
+The assessment must deliver standalone value, even if the mother never purchases anything.
+1.3. Core Realization
+The most important realization we want the mother to leave with is:
+"I don't need another collection of tips. I need a clear approach designed around my child and our life."
+The assessment should guide her toward this realization through her own answers rather than simply telling her what to believe.
+1.4. What We Are Assessing
+We are assessing three connected dimensions of the family's current approach:
+1. فهم الأنماط المتكررة — Understanding Repeating Patterns.
+2. تخصيص الطريقة لطفلك — Personalizing the Approach.
+3. وضوح الخطة واستمراريتها — Clarity and Consistency.
+We are NOT assessing the mother's worth, parenting ability, dedication, or the child's developmental level.
+The assessment is not a diagnostic tool or a clinical developmental evaluation.
+1.5. Brand Positioning
+The brand believes that everyday life at home offers meaningful opportunities to support a child's growth.
+Mothers do not necessarily need more disconnected advice. They need a clear, personalized approach that fits their child's needs and their family's actual routine.
+The brand empowers mothers to become active guides in their child's growth without suggesting that they must replace therapists or other professionals.
+1.6. Language and Tone
+All customer-facing copy must use natural Saudi Arabic consistent with the following preferences:
+* Use "ايش" rather than "وش".
+* Use "تساعدي" rather than "تساعدين".
+* Use "تحسي" rather than "تحسين".
+* Prefer natural, conversational phrasing over formal Arabic.
+* Avoid awkward or unnecessary extra ن endings.
+* Be confident, direct, warm, and precise.
+* Avoid unnecessary hedging such as "يمكن" and "ممكن".
+* Do not use language that blames mothers or makes them feel inadequate.
+* Do not describe autistic children as broken, defective, or needing to be fixed.
+* Do not imply that every child responds to the same strategy.
+* Do not make unsupported promises about developmental outcomes.
+* Do not use fear, shame, or artificial urgency to sell the Living Plan.
+The desired emotional tone is empowered, grounded, and hopeful.
+________________
+
+
+PART 2 — ASSESSMENT INTRODUCTION
+2.1. Opening Screen
+Headline
+ليش نفس المواقف تتكرر مع طفلك؟
+Subtitle
+جاوبي على 15 سؤال واكتشفي نقاط القوة في طريقتك الحالية، وايش تحتاجي تنظمي عشان تتعاملي مع المواقف المتكررة بخطة تناسب طفلك وحياتكم.
+Supporting Copy
+كل يوم فيه مواقف تتكرر، ومحاولات جديدة، وأشياء تتعلميها عن طفلك.
+هذا التقييم يساعدك تشوفي الصورة بشكل أوضح: ايش اللي تعرفيه عن طفلك، ايش اللي يشتغل معاه، وفين تحتاجي تركزي عشان تكون عندك طريقة واضحة ترجعي لها.
+Primary Button
+ابدئي التقييم
+Secondary Information
+* 15 سؤال.
+* نتيجة شخصية بناءً على إجاباتك.
+* توصية عملية تساعدك تعرفي من فين تبدأي.
+Do not display an estimated completion time unless it has been tested.
+________________
+
+
+PART 3 — THE 15 ASSESSMENT QUESTIONS
+Display one question at a time, or use a clearly organized multi-question interface if that works better on mobile.
+Show the question number and progress, such as "السؤال 3 من 15".
+Answers should be easy to select on a mobile screen.
+Questions 1–12 contribute to the numerical scoring system.
+Questions 13–15 personalize the results and recommendations.
+QUESTION 1 OF 15
+لما يتكرر نفس الموقف الصعب مع طفلك، ايش يصير عادة؟
+A. أعرف كيف أتعامل معاه، وعندي طريقة أمشي عليها.
+B. أحيانًا أعرف كيف أتعامل معاه، وأحيانًا أحتار.
+C. أجرب طرق مختلفة، وأشوف ايش ينفع وقتها.
+D. أحس إني جربت كل شيء، ولسه نفس الموقف يتكرر.
+Purpose: Understand whether the mother has an established approach to recurring situations or is still experimenting with different responses.
+QUESTION 2 OF 15
+لما طفلك يبدأ يتضايق أو ينفعل، قد كيف تعرفي ايش اللي ضايقه؟
+A. غالبًا أعرف السبب من العلامات اللي تظهر عليه.
+B. أقدر أحدد السبب بعد ما أراجع اللي صار.
+C. احتار بين أكثر من سبب.
+D. غالبًا ما أعرف ايش اللي ضايقه.
+Purpose: Explore how well the mother recognizes patterns and possible triggers.
+QUESTION 3 OF 15
+لما تعرفي إن فيه موقف صعب جاي، زي وقت النوم أو الخروج من البيت، كيف تستعدي له؟
+A. عندي خطوات واضحة أسويها قبل الموقف.
+B. أجهزه أحيانًا، لكن مو في كل مرة.
+C. أحاول أشرح له اللي بيصير قبلها مباشرة.
+D. أنتظر وأشوف كيف يتصرف وقتها.
+Purpose: Understand whether the mother has a proactive approach to predictable situations.
+QUESTION 4 OF 15
+إذا طفلك ما قدر يوصلك ايش يبغى بالكلام، كيف يتواصل معاك؟
+A. عنده طريقة واضحة يستخدمها، مثل الإشارة أو الصور أو الكلمات.
+B. عنده أكثر من طريقة، لكن مو دائمًا أقدر أفهمه.
+C. أحاول أخمن ايش يبغى من تصرفاته.
+D. غالبًا ما أعرف ايش يحتاج إلا بعد ما يتضايق.
+Purpose: Understand how the child communicates needs and how clearly the mother can recognize those communication attempts.
+Important interpretation rule: This question concerns communication access and the family's ability to understand the child. A lower score must never be interpreted as a failure by the mother or child.
+QUESTION 5 OF 15
+لما تجربي طريقة جديدة مع طفلك، كيف تعرفي إذا كانت مناسبة له؟
+A. أراقب استجابته وأعدل الطريقة حسب احتياجه.
+B. أجربها أكثر من مرة وأشوف إذا فيه فرق.
+C. إذا ما نفعت من البداية، أجرب طريقة ثانية.
+D. أحتار كيف أعرف إذا الطريقة مناسبة أو لا.
+Purpose: Assess how the mother evaluates and adapts strategies.
+QUESTION 6 OF 15
+لو نفس الموقف الصعب صار اليوم وبكرة وبعد أسبوع، كيف يكون تعاملك معاه؟
+A. عندي طريقة واضحة أكررها وأعدلها حسب الموقف.
+B. أحاول أستخدم نفس الطريقة، لكن مو دائمًا أقدر.
+C. يختلف تعاملي حسب الظروف وكيف يكون يومنا.
+D. كل مرة أبدأ من جديد وأحاول ألاقي حل.
+Purpose: Assess consistency and the presence of a repeatable approach.
+QUESTION 7 OF 15
+لما تلاقي نصيحة عن التعامل مع سلوك طفلك، ايش تسوي عادة؟
+A. أشوف إذا تناسب طفلي وأعدلها حسب احتياجه.
+B. أجربها مثل ما هي، وبعدها أشوف إذا تحتاج تعديل.
+C. أجرب أكثر من نصيحة عشان أعرف ايش ينفع.
+D. صرت محتارة من كثرة النصائح والطرق المختلفة.
+Purpose: Understand how the mother evaluates advice and translates it into an individualized approach.
+QUESTION 8 OF 15
+قد كيف تعرفي ايش يساعد طفلك يهدأ لما يتضايق؟
+A. أعرف الأشياء اللي تساعده وأستخدمها حسب الموقف.
+B. أعرف بعض الأشياء، لكن مو دائمًا تنفع.
+C. أجرب أكثر من شيء لين ألاقي اللي يساعده.
+D. لسه ما عرفت ايش يساعده وقت الضيق.
+Purpose: Explore the mother's understanding of what supports her child during difficult moments.
+Important interpretation rule: A child's distress can have many causes. Do not interpret this answer as proof that the mother can or should prevent every difficult moment.
+QUESTION 9 OF 15
+خلال يومكم العادي، كيف تساعدي طفلك يتدرب على مهارة يحتاجها؟
+A. أستغل مواقف من روتيننا اليومي عشان يتدرب عليها.
+B. أحاول أدربه لما يكون عندنا وقت مناسب.
+C. أعرف المهارة اللي يحتاجها، لكن أحتار كيف أدخلها في يومنا.
+D. مو واضحة لي المهارة اللي أبدأ أركز عليها.
+Purpose: Assess how the mother incorporates opportunities for growth into everyday activities.
+QUESTION 10 OF 15
+لما تلاحظي تحسن في موقف معين، ايش تسوي عشان يستمر؟
+A. أعرف ايش اللي ساعد وأحاول أكرره في المواقف المناسبة.
+B. أستمر على نفس الطريقة، لكن ما أعرف بالضبط ايش اللي أحدث الفرق.
+C. أفرح بالتحسن، لكن أحتار كيف أحافظ عليه.
+D. ما لاحظت تحسن واضح في المواقف اللي أحاول أغيرها.
+Purpose: Explore whether the mother can recognize useful strategies and build on progress.
+Important interpretation rule: Do not imply that a lack of visible improvement means the mother has failed or that the child is not progressing in other ways.
+QUESTION 11 OF 15
+لما أحد ثاني يتعامل مع طفلك، زي أبوه أو جدته، ايش يصير مع الطرق اللي تستخدموها؟
+A. عندنا طريقة متفقين عليها، وكل شخص يعرف كيف يطبقها.
+B. يعرفوا بعض الخطوات، لكن كل شخص يتعامل بطريقته.
+C. أنا اللي أعرف كيف أتعامل مع الموقف، والباقي غالبًا يتصرفوا بشكل مختلف.
+D. ما عندنا طريقة واضحة نقدر نتفق عليها.
+Purpose: Understand whether strategies are communicated and used consistently across caregivers.
+Do not assume that every mother has the same level of support from other caregivers.
+QUESTION 12 OF 15
+قد كيف الطرق اللي تستخدميها مع طفلك تناسب وقتك وروتين بيتكم؟
+A. تناسب يومنا وأقدر أطبقها بدون ما أغير جدولنا بالكامل.
+B. أقدر أطبقها في بعض الأيام، لكن مو دائمًا.
+C. تحتاج وقت أو تجهيز أكثر من اللي أقدر أوفره.
+D. ما عندي طريقة ثابتة أقدر أدمجها في يومنا.
+Purpose: Assess how practical and sustainable the family's current approach is.
+QUESTION 13 OF 15
+لما تفكري في المواقف الصعبة اللي تتكرر مع طفلك، ايش أكثر شيء تحسي إنه ناقصك؟
+A. فهم أوضح للأشياء اللي تسبق الموقف وتؤثر فيه.
+B. معرفة الطريقة المناسبة لطفلي بدل تجربة نصائح مختلفة.
+C. خطوات واضحة أقدر أطبقها باستمرار.
+D. طريقة أعرف من خلالها إذا فيه تحسن وايش أغير بعدها.
+E. عندي طريقة واضحة، لكن أبغى أطورها أكثر.
+Purpose: Capture the mother's own interpretation of her biggest need.
+This question does not contribute to the numerical score. Use it to personalize the result and recommendation.
+QUESTION 14 OF 15
+ايش أكثر موقف تتمني يصير أسهل مع طفلك حاليًا؟
+A. وقت النوم والاستعداد له.
+B. الخروج من البيت والزيارات العائلية.
+C. التواصل والتعبير عن احتياجاته.
+D. الأكل وتجربة الأطعمة.
+E. الانتقال من نشاط لنشاط أو التوقف عن شيء يحبه.
+F. التعامل مع الغضب والانفعال.
+G. شيء ثاني: [Free-text response]
+Purpose: Identify the mother's immediate priority so that the recommendation feels relevant to her life.
+QUESTION 15 OF 15
+تخيلي إنك بعد أسبوعين لاحظتي فرق واضح في الموقف اللي اخترتيه. ايش التغيير اللي تتمني تشوفيه؟
+Supporting text:
+اكتبي التغيير اللي يهمك، حتى لو كان بسيط.
+Example shown beneath the question:
+بدل ما يبكي ويشدني كل ما نطلع من بيت جدته، يبدأ يعرف إن وقت الزيارة انتهى ويقدر يطلع معايا بهدوء أكثر.
+Input: Free-text response.
+Purpose: Capture the mother's desired outcome in her own words. Reuse this answer on the results page when appropriate.
+Do not automatically promise that this outcome will occur within two weeks.
+SUBMISSION BUTTON
+اكتشفي نتيجتك
+After submission, calculate the scores, determine the result profile, and generate the personalized result experience described below.
+________________
+
+
+PART 4 — SCORING SYSTEM
+4.1. Overall Scoring
+Questions 1–12 contribute to the overall score.
+Each question has four answers, scored as follows:
+* A = 3 points.
+* B = 2 points.
+* C = 1 point.
+* D = 0 points.
+The maximum overall score is 36.
+Questions 13, 14, and 15 do not contribute to the score.
+Question 13 captures the mother's perceived need. Question 14 identifies the situation she wants to change. Question 15 captures her desired outcome.
+These three answers are used to personalize the results.
+4.2. The Three Scoring Dimensions
+Dimension 1: فهم الأنماط المتكررة
+Questions: 1, 2, 3, and 8.
+Maximum: 12 points.
+Calculate:
+Q1 + Q2 + Q3 + Q8.
+This dimension explores the mother's ability to recognize recurring situations, understand what precedes them, prepare for predictable challenges, and identify what supports her child.
+Dimension 2: تخصيص الطريقة لطفلك
+Questions: 4, 5, 7, and 9.
+Maximum: 12 points.
+Calculate:
+Q4 + Q5 + Q7 + Q9.
+This dimension explores communication, individualized strategies, evaluating advice, and integrating opportunities for growth into everyday life.
+Because question 4 includes the child's communication abilities, interpret this score cautiously. Do not assume that the child has a communication difficulty simply because the mother cannot always interpret their needs.
+Dimension 3: وضوح الخطة واستمراريتها
+Questions: 6, 10, 11, and 12.
+Maximum: 12 points.
+Calculate:
+Q6 + Q10 + Q11 + Q12.
+This dimension explores whether the family has a repeatable approach, recognizes useful strategies, communicates across caregivers, and can realistically sustain its approach.
+4.3. How Scores Should Appear
+The results page must prioritize the three dimension scores.
+Display each dimension using a clear visual indicator, such as a progress bar with a score out of 12.
+Example:
+فهم الأنماط المتكررة — 9/12
+تخصيص الطريقة لطفلك — 6/12
+وضوح الخطة واستمراريتها — 4/12
+Show the overall score as secondary information:
+مجموع نتيجتك: 19 من 36
+Do not present the overall score as a grade, percentile, or measure of parenting quality.
+Do not compare the mother with other mothers.
+Do not label a score as a clinical measurement.
+The score is an organizing tool that helps identify areas to explore.
+4.4. Important Scoring Limitation
+The three dimensions are related but not interchangeable.
+A mother may understand her child's patterns well while still finding it difficult to maintain a consistent approach. Another may have established routines but struggle to interpret communication attempts.
+The result must reflect these differences.
+The score does not establish why a situation occurs, whether a strategy caused improvement, or whether a child is making developmental progress.
+Before launch, test the scoring system against realistic family scenarios and refine questions or scoring rules that create misleading interpretations.
+________________
+
+
+PART 5 — RESULT PROFILE SELECTION
+Use three overall result profiles.
+These score ranges are provisional and should be tested before launch.
+PROFILE 1: 0–12 POINTS
+Title
+البداية تحتاج وضوح
+Interpretation
+The mother's answers indicate that her current approach may benefit from clearer starting points and a more organized way of understanding recurring situations.
+Do not interpret this as a lack of effort, knowledge, or commitment.
+PROFILE 2: 13–24 POINTS
+Title
+عندك أساس، والخطوة الجاية تنظيمه
+Interpretation
+The mother's answers indicate that she already has some useful knowledge or strategies, but consistency, personalization, or organization may be areas to develop.
+PROFILE 3: 25–36 POINTS
+Title
+عندك طريقة واضحة، وحان وقت تطويرها
+Interpretation
+The mother's answers indicate an established foundation that she can continue refining around her child's needs and the family's current priorities.
+Do not assume that a high overall score means every dimension is equally strong.
+Profile Selection Rule
+Determine the overall profile from the total score.
+Then use the dimension scores to personalize the result.
+For example, a mother with 27/36 may still have a low score in consistency. Her result should acknowledge her overall foundation while addressing that specific opportunity.
+Never let the overall profile override the dimension-level findings.
+________________
+
+
+PART 6 — COMPLETE RESULT COPY
+RESULT PROFILE 1
+Title: البداية تحتاج وضوح
+Overall Score
+نتيجتك: [OVERALL_SCORE] من 36
+Section 1: ايش تكشف إجاباتك؟
+إجاباتك توضح إنك تتعاملي مع مواقف كثيرة حسب اللي يصير وقتها، ولسه ما عندك طريقة واضحة ترجعي لها كل ما تكرر نفس الموقف.
+وهذا يخلي كل موقف يحتاج منك تفكير وقرارات جديدة، حتى لو مريتي بنفس التجربة قبل كذا.
+Section 2: فين الفرصة الكبيرة؟
+إنك تنتقلي من التعامل مع كل موقف لحاله إلى فهم النمط اللي يتكرر.
+بدل ما يكون السؤال كل مرة: ايش أسوي دحين؟
+يصير عندك وضوح حول ثلاثة أشياء:
+* ايش اللي يصير عادة قبل الموقف؟
+* ايش اللي يساعد طفلك خلاله؟
+* ايش الخطوة اللي تقدري تكرريها في المرات الجاية؟
+Section 3: من فين تبدأي؟
+اختاري موقف واحد يتكرر خلال الاسبوع.
+في المرات الجاية، ركزي على ملاحظة ايش اللي صار قبله، وكيف يستجيب طفلك، وايش اللي يساعده.
+
+
+الهدف إنك تفهمي موقف واحد بشكل أوضح، عشان تعرفي من فين تبدأي.
+________________
+
+
+RESULT PROFILE 2
+Title: عندك أساس، والخطوة الجاية تنظيمه
+Overall Score
+نتيجتك: [OVERALL_SCORE] من 36
+Section 1: ايش تكشف إجاباتك؟
+إجاباتك توضح إن عندك معرفة بطفلك، وجربتي طرق تساعدك في التعامل مع بعض المواقف.
+لكن تطبيق الطرق مو دائمًا بنفس الوضوح أو الاستمرارية.
+أحيانًا تعرفي ايش يساعد طفلك، لكن وسط انشغالات اليوم أو لما تتغير الظروف، ترجعي تجربي حلول مختلفة.
+Section 2: فين الفرصة الكبيرة؟
+إنك تحولي الأشياء اللي عرفتي إنها تساعد طفلك إلى طريقة واضحة تقدري ترجعي لها.
+مو كل مرة تحتاجي نصيحة جديدة.
+عندك أساس تقدري تبني عليه.
+والخطوة الجاية هي إنك تنظمي هذا الأساس حسب احتياجات طفلك وروتين بيتكم.
+Section 3: من فين تبدأي؟
+اختاري موقف واحد تعرفي إن فيه طريقة ساعدت طفلك من قبل.
+حددي:
+* ايش الخطوة اللي ساعدته؟
+* متى استخدمتيها؟
+* كيف تقدري تدخليها في روتينكم بشكل ثابت؟
+الهدف إن الطريقة المناسبة ما تظل مجرد تجربة نجحت مرة، لكن تصير جزء واضح من يومكم.
+________________
+
+
+RESULT PROFILE 3
+Title: عندك طريقة واضحة، وحان وقت تطويرها
+Overall Score
+نتيجتك: [OVERALL_SCORE] من 36
+Section 1: ايش تكشف إجاباتك؟
+إجاباتك توضح إن عندك أساس واضح في فهم طفلك والتعامل مع المواقف المتكررة.
+تعرفي أشياء تساعده، وتعدلي طريقتك حسب احتياجه، وعندك خطوات تقدري ترجعي لها.
+وهذا أساس مهم.
+Section 2: فين الفرصة الكبيرة؟
+إنك تستخدمي الوضوح اللي بنيتيه عشان تحددي الخطوة الجاية في نمو طفلك.
+لما تكون عندك طريقة واضحة، تقدري تركزي على تطويرها بدل البدء من الصفر كل مرة.
+وتقدري تختاري مهارة أو موقف يحتاج اهتمام أكبر، وتحددي كيف تدعمي طفلك خلال أنشطتكم اليومية.
+Section 3: من فين تبدأي؟
+راجعي المواقف اللي صارت أسهل خلال الفترة الماضية.
+اختاري موقف واحد لسه يحتاج دعم، وحددي التغيير اللي تبغي تشتغلي عليه خلال الأسبوعين الجاية.
+الهدف إنك تبني على اللي يشتغل مع طفلك، خطوة بعد خطوة.
+________________
+
+
+PART 7 — PERSONALIZING THE RESULTS
+The overall profile alone is not enough.
+Two mothers with the same overall score may need completely different recommendations.
+The results must combine three elements:
+1. Overall profile.
+2. Strongest dimension.
+3. Highest-priority opportunity.
+The mother's answers to questions 13, 14, and 15 then make the result more personally relevant.
+7.1. Identify the Strongest Dimension
+Compare the three dimension scores.
+The highest-scoring dimension is the mother's strongest foundation within this assessment.
+Use the following copy according to the highest dimension.
+If the highest dimension is فهم الأنماط المتكررة
+Label: نقطة قوتك
+أوضح نقطة قوة في إجاباتك هي فهمك للأنماط اللي تتكرر مع طفلك.
+هذا يعطيك أساس يساعدك تربطي بين اللي يصير قبل الموقف، واستجابة طفلك، والطريقة اللي تتعاملي معاه فيها.
+If the highest dimension is تخصيص الطريقة لطفلك
+Label: نقطة قوتك
+أوضح نقطة قوة في إجاباتك هي اهتمامك بتكييف الطريقة حسب احتياجات طفلك.
+هذا يعطيك أساس مهم عشان تختاري الطرق اللي تناسبه وتدمجيها في حياتكم اليومية.
+If the highest dimension is وضوح الخطة واستمراريتها
+Label: نقطة قوتك
+أوضح نقطة قوة في إجاباتك هي وجود خطوات واضحة تقدري ترجعي لها في حياتكم اليومية.
+هذا يعطيك أساس يساعدك تبني على اللي يشتغل مع طفلك وتطوريه حسب احتياجه.
+Tie-Breaking Rule
+If two or more dimensions have the same highest score, display all tied strengths rather than arbitrarily selecting one.
+If all three dimensions have the same score, display:
+عندك أساس في أكثر من جانب، والخطوة الجاية هي تحديد الجانب اللي يحتاج تركيز أكبر.
+Do not invent a stronger finding than the scores support.
+7.2. Identify the Highest-Priority Opportunity
+The lowest-scoring dimension is the starting candidate for the next opportunity.
+However, do not automatically assume that it must always be the recommendation.
+Use this priority order:
+1. Review question 13 to understand the mother's stated need.
+2. Review question 14 to identify her chosen situation.
+3. Review question 15 to understand the outcome she wants.
+4. Review the dimension scores.
+5. Select a recommendation that fits the answers without contradicting the evidence.
+The recommendation should focus on one primary opportunity, not all three dimensions.
+If the mother's stated priority and lowest dimension differ, use her stated priority when it is supported by the answers. The lowest dimension can appear as a secondary insight.
+If the answers do not support a confident interpretation, provide a practical starting point based on the selected situation rather than claiming to know the cause of the problem.
+7.3. Opportunity Copy by Dimension
+If فهم الأنماط المتكررة is the primary opportunity
+Label: فرصتك الجاية
+أكبر فرصة للتطوير عندك هي فهم الأشياء اللي تسبق الموقف وتساعدك تستعدي له.
+لما تلاحظي النمط اللي يتكرر، تقدري تختاري خطوات تناسب الموقف بدل ما تبدئي من جديد كل مرة.
+If تخصيص الطريقة لطفلك is the primary opportunity
+Label: فرصتك الجاية
+أكبر فرصة للتطوير عندك هي بناء طريقة تناسب احتياجات طفلك بدل الاعتماد على نصائح متفرقة.
+ركزي على الطريقة اللي تناسب طفلك، وراقبي استجابته، وعدلي الخطوات حسب احتياجه.
+If وضوح الخطة واستمراريتها is the primary opportunity
+Label: فرصتك الجاية
+أكبر فرصة للتطوير عندك هي تحويل الطرق اللي تعرفي إنها تساعد طفلك إلى خطوات واضحة تقدري تكرريها خلال يومكم.
+اختاري موقف واحد، وحددي الخطوات اللي تناسبه، وابدئي بإدخالها في روتينكم.
+7.4. Use Question 13 to Refine the Recommendation
+Question 13 asks what the mother feels is missing.
+Use the answer to refine the recommendation:
+* A — Understanding what precedes the situation: Emphasize recognizing patterns and preparing for predictable situations.
+* B — Finding a suitable approach instead of trying different tips: Emphasize individualization and evaluating whether a strategy fits the child.
+* C — Having clear steps she can apply consistently: Emphasize creating a repeatable approach that fits the family's routine.
+* D — Recognizing progress and knowing what to change next: Emphasize observing responses and reviewing what is working.
+* E — Developing an existing approach: Emphasize refining established strategies and selecting the next priority.
+Do not simply repeat the same recommendation if the mother's dimension scores indicate a different need.
+Instead, combine the selected answer with the dimension scores and chosen situation to create a coherent result.
+7.5. Personalize Around Question 14
+Question 14 identifies the situation the mother most wants to change.
+The result should refer to that situation by name.
+Use these situation-specific starting points.
+A. وقت النوم والاستعداد له
+ابدئي بملاحظة الخطوات اللي تسبق وقت النوم، واللحظة اللي يبدأ فيها طفلك يواجه صعوبة.
+ركزي على ترتيب واضح يناسب احتياجه وروتين بيتكم.
+B. الخروج من البيت والزيارات العائلية
+ابدئي بتحديد أكثر لحظة يصعب فيها الانتقال، سواء كان الاستعداد للخروج أو مغادرة المكان.
+ركزي على خطوات تساعد طفلك يستعد للتغيير وتناسب ظروف الزيارة.
+C. التواصل والتعبير عن احتياجاته
+ابدئي بملاحظة المواقف اللي يحاول فيها طفلك يوصلك طلب أو احتياج.
+ركزي على طريقة تواصل تناسب قدراته وتساعده يعبّر عن نفسه، بما في ذلك الصور أو الإشارات أو وسائل التواصل المناسبة له.
+D. الأكل وتجربة الأطعمة
+ابدئي بملاحظة الظروف المحيطة بوقت الأكل والأطعمة اللي يرتاح لها طفلك.
+ركزي على فهم احتياجاته وتحديد خطوة مناسبة، مع مراعاة أي احتياجات صحية أو حسية تستدعي دعمًا متخصصًا.
+E. الانتقال من نشاط لنشاط أو التوقف عن شيء يحبه
+ابدئي بتحديد الانتقالات اللي تتكرر فيها الصعوبة.
+ركزي على طريقة واضحة تساعد طفلك يعرف إن النشاط بيتغير، بما يناسب احتياجه وطريقة فهمه.
+F. التعامل مع الغضب والانفعال
+ابدئي بملاحظة ما يحدث قبل الانفعال، والعلامات اللي تظهر على طفلك، والأشياء اللي تساعده خلال الموقف وبعده.
+ركزي على فهم احتياجه وتوفير وسائل دعم مناسبة، بدل التركيز فقط على إيقاف السلوك الظاهر.
+G. شيء ثاني
+Use the mother's free-text answer to identify the situation she wants to address.
+Do not invent a specific cause or strategy.
+If the answer is too vague, offer a general recommendation focused on observing the situation and identifying one manageable starting point.
+7.6. Personalize Around Question 15
+Question 15 captures the mother's desired outcome.
+When displaying the result, include a section titled:
+التغيير اللي تبغي تشوفيه
+Display her answer in her own words.
+Example:
+التغيير اللي تبغي تشوفيه:
+"بدل ما يبكي ويشدني كل ما نطلع من بيت جدته، يبدأ يعرف إن وقت الزيارة انتهى ويقدر يطلع معايا بهدوء أكثر."
+Then display:
+هذا هو التغيير اللي تقدري تخليه نقطة البداية في خطوتك الجاية.
+Do not rewrite the mother's answer in a way that changes her meaning.
+Do not promise that the desired outcome will occur within two weeks.
+If the answer is empty, omit the section instead of generating an imagined answer.
+________________
+
+
+PART 8 — COMPLETE PERSONALIZED RESULTS PAGE
+The results page should follow this order.
+SECTION 1: YOUR PROFILE
+Display:
+* The profile title.
+* The overall score out of 36, as secondary information.
+* The corresponding profile explanation.
+SECTION 2: YOUR DIMENSION SCORES
+Display all three dimensions, each with a score out of 12 and a visual progress indicator.
+Example:
+فهم الأنماط المتكررة — 9/12
+تخصيص الطريقة لطفلك — 6/12
+وضوح الخطة واستمراريتها — 4/12
+Use the actual scores calculated from the mother's answers.
+Do not show generic placeholder scores.
+SECTION 3: YOUR STRONGEST FOUNDATION
+Display the relevant strength copy based on the highest-scoring dimension.
+If multiple dimensions are tied, display the appropriate tied-strength message.
+SECTION 4: YOUR NEXT OPPORTUNITY
+Display the primary opportunity based on the lowest dimension, refined by question 13.
+Keep the language specific and constructive.
+SECTION 5: YOUR SITUATION
+Display the situation selected in question 14 and its corresponding practical starting point.
+SECTION 6: THE CHANGE YOU WANT TO SEE
+Display the mother's answer to question 15, if provided.
+SECTION 7: YOUR FIRST STEP
+Provide one practical action that fits the selected situation.
+Keep the action small enough to explore within everyday life.
+Do not give the mother a long list of tasks or attempt to create a complete personalized plan from the assessment alone.
+SECTION 8: THE LIVING PLAN INVITATION
+Display the Living Plan transition copy in Part 9.
+________________
+
+
+PART 9 — TRANSITION TO الخطة الحية
+Headline
+عرفتي نقطة البداية. ايش الخطوة الجاية؟
+Body Copy
+نتيجتك وضحت لك نقاط القوة في طريقتك الحالية، والجوانب اللي تحتاج اهتمام أكبر.
+لكن معرفة نقطة البداية شيء، وتحويلها إلى خطوات واضحة تناسب طفلك وحياتكم شيء ثاني.
+وهنا يجي دور الخطة الحية.
+بدل ما تجمعي نصائح مختلفة وتحاولي تعرفي كيف تطبقيها، تحصلي على خطة شخصية مبنية على احتياجات طفلك، والمواقف اللي تتكرر معاه، وروتين بيتكم.
+كل أسبوعين تركزي على تحدي واحد، بخطوات تدخل في يومكم العادي بدون ما تحولي البيت إلى مركز تدريب.
+ومع المتابعة، تتطور الخطة حسب استجابة طفلك والتغييرات اللي تلاحظيها.
+خطة واضحة تعرفي كيف تستخدميها في حياتكم.
+Primary Button
+اكتشفي كيف تشتغل الخطة الحية
+CTA Behavior
+The button should lead to the Living Plan information page or offer section.
+The next page should explain:
+* What the Living Plan is.
+* How the personalized plan is created.
+* How the two-week focus works.
+* How the plan adapts based on observations and feedback.
+* What the mother receives.
+* Pricing and availability.
+* How to express interest or request a place.
+Do not automatically enroll the mother or require payment simply to view the offer.
+Do not make the assessment result conditional on purchasing the Living Plan.
+The assessment result must remain accessible to the mother whether or not she continues.
+________________
+
+
+PART 10 — DESIGN AND USER EXPERIENCE
+10.1. Overall Experience
+The assessment should feel like a helpful, personalized discovery rather than an exam or clinical screening.
+The mother should be able to complete it comfortably on a mobile device.
+10.2. Visual Style
+Follow the established مدار البيت visual direction:
+* Deep Sea Blue: #005A70.
+* Teal: #00A9A5.
+* Creamy Pearl: #F6F3EB.
+* Sunrise Gold: #C9935A.
+Use the darker oceanic colors as grounding elements, with pearl as a supporting neutral rather than the dominant visual.
+The visual experience should feel refined, grounded, empowering, and calm.
+Avoid childish illustrations, sad motherhood imagery, or clinical diagnostic aesthetics.
+10.3. Question Interface
+For each question:
+* Display the question number.
+* Display the question text prominently.
+* Display all available answer options.
+* Make the entire answer card clickable.
+* Clearly show the selected answer.
+* Allow the mother to change her answer before submitting.
+* Preserve her answers if she navigates backward.
+* Provide a clear way to continue.
+Do not automatically select an answer on her behalf.
+10.4. Results Interface
+The results page should visually distinguish:
+1. Overall profile.
+2. Three dimension scores.
+3. Strongest foundation.
+4. Next opportunity.
+5. Situation-specific recommendation.
+6. Desired outcome.
+7. Living Plan invitation.
+The three dimension scores should be more prominent than the overall score.
+Do not use red warning colors or labels that make the mother feel she has failed.
+10.5. Mobile Readability
+Use short paragraphs, clear headings, and comfortable spacing.
+Avoid displaying the entire results experience as one uninterrupted wall of text.
+The mother should be able to scan the page and understand her result without having to read a long explanation first.
+________________
+
+
+PART 11 — FINAL IMPLEMENTATION RULES
+1. Use the exact assessment title: ليش نفس المواقف تتكرر مع طفلك؟
+2. Include all 15 questions and their answer options.
+3. Questions 1–12 contribute to scoring. Questions 13–15 personalize the results.
+4. Calculate three dimension scores, each out of 12.
+5. Calculate the overall score out of 36, but display it as secondary information.
+6. Use the provisional score bands to select the overall profile.
+7. Use the highest dimension to identify the strongest foundation.
+8. Use the lowest dimension, the mother's stated need, and her selected situation to determine the next opportunity.
+9. Use question 15 to personalize the desired-outcome section when the mother provides an answer.
+10. If dimensions are tied, handle the tie explicitly rather than arbitrarily choosing a result.
+11. Never invent information about the child, the mother's situation, or the reasons a behavior occurs.
+12. Never imply that a lower score means the mother is failing.
+13. Never treat the assessment as a clinical evaluation or a measure of the child's developmental progress.
+14. Provide a useful, practical starting point before presenting the Living Plan invitation.
+15. Keep the Living Plan invitation visible and clear, but never make purchasing the service a condition of receiving the result.
+16. Preserve the established Saudi Arabic voice throughout all customer-facing copy.
+17. Treat the scoring thresholds and scoring model as provisional until tested against realistic scenarios.
+18. Do not add questions, change the assessment title, or modify the result profiles without preserving the core assessment strategy.
+________________
+
+
+THE COMPLETE CUSTOMER JOURNEY
+TikTok content
+The mother encounters a situation that feels familiar.
+↓
+Assessment invitation
+ليش نفس المواقف تتكرر مع طفلك؟
+↓
+15 questions
+She reflects on recurring situations, existing strategies, consistency, and what she wants to change.
+↓
+Personalized results
+She discovers her strongest foundation, the next opportunity, and a practical starting point.
+↓
+Living Plan invitation
+She learns how a personalized plan can help her turn that starting point into clear, practical steps that fit her child and everyday life.
+↓
+Expression of interest
+She can explore the offer and request a place if it fits her needs.
+________________
+
+
+THE STRATEGIC PRINCIPLE BEHIND THE ASSESSMENT
+The assessment is not designed to convince every mother that she needs a service.
+It is designed to help each mother understand her current approach, recognize an opportunity, and see the value of having a clear, personalized way to support her child's growth.
+The assessment delivers value first.
+The Living Plan becomes the natural next step for mothers who want help turning that discovery into a practical, personalized approach.
+The central message remains:
+ انتي مو محتاجة تجمعي نصائح أكثر. تحتاجي طريقة واضحة تناسب طفلك وحياتكم.

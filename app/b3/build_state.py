@@ -17,7 +17,7 @@ else:
         if p['key']=='an':p['status']='done'
     for i in s['scorecard']['items']: i['score']=None
     s['performance']=[dict(r,note=('B1/B2 · '+(r.get('note') or ''))) for r in old.get('performance',[])]
-s['steps'][0]['report']=open(os.path.join(H,'step1_report.md')).read()
+# reports set by step scripts
 s['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
 json.dump(s,open(sp,'w'),ensure_ascii=False,indent=1)
 d=open(os.path.join(H,'..','dashboard.html')).read()

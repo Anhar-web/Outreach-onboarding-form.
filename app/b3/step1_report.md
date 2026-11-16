@@ -51,7 +51,9 @@ There is one confound to fix in Batch 3: the three light posts that went out at 
 
 ---
 
-## Part 2 · Strategist: Batch 3 brief (draft for your approval)
+## Part 2 · Strategist: Batch 3 brief (CONFIRMED Nov 16, with your answers)
+
+**Your answers:** (1) F8 ×2 and F4 ×1 kept (your call: our judgment). (2) **No sleep posts.** (3) Start without new numbers. (4) No separate assessment/waitlist look inside this agency (see note below). **New input:** the assessment blueprint. Every CTA now follows `app/b3/assessment_truth.md`.
 
 **What this batch is for:** more breakouts, each one carrying a CTA. Every post is a value post that ends with a CTA, with no attention vs conversion split. The batch also tests three ideas from your talks (F7, F8 and the explainer extension), labelled so we can compare them.
 
@@ -79,7 +81,7 @@ There is one confound to fix in Batch 3: the three light posts that went out at 
 - **Emotions and meltdowns: 5.** When something ends, breaks or goes wrong, or when he hears "no".
 - **Public and family scenes: 4.** A loud women's party, the supermarket checkout, leaving a gathering and, if the format calls for it, a restaurant-type scene. Not a copy of the legacy posts.
 - **Sensory chores and body care: 3.** For example nail cutting, teeth, new clothes or a hand dryer. Not vacuum, blender, hair dryer, shower, hair wash or salon again.
-- **Sleep: 1 at most**, or none.
+- **Sleep: none** (your call).
 - These overlap: an F8 public post can also be an emotions post. Research picks the actual moments.
 - **No repeats of B1–B2 topics:** vacuum, iPad, the عزيمة, crying-why, bedtime, shoes, plate, his name, park, aunt/change, hair wash, cooking, sneaking out, shower, only-after-he-sleeps, "just today", hair dryer, 8 to 10, phone calls, night waking, blender, salon.
 
@@ -90,9 +92,10 @@ There is one confound to fix in Batch 3: the three light posts that went out at 
    - **One type + one belief per post**, logged on the concept, spread across the 9 types.
    - Never a whole explainer post. No «أخصائي», no «كل أسبوعين», no "everyone tells you…".
    - In F7, the last point *is* the explainer.
-3. **A soft CTA on slide 3 or 4:** one short line that names the benefit (e.g. «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي»).
-4. **The final CTA:** Connect → Purpose → Direct, as one flowing sentence. It names what happened before the moment, and she «تبني خطة».
-5. **Caption and pinned comment.**
+3. **CTAs claim only what the assessment does** (`assessment_truth.md`). It's about her approach. She picks one situation and gets her strengths, where to start, and one first step. It never looks at "his whole day" or "six areas".
+4. **A soft CTA on slide 3 or 4:** one short line that names the benefit (e.g. «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي»).
+5. **The final CTA:** Connect → Purpose → Direct, as one flowing sentence. It names what happened before the moment, and she «تبني خطة».
+6. **Caption and pinned comment.**
 
 **Voice:** all 169 Feedback & Lessons rules apply, with the 72 B2 edits as the model.
 
