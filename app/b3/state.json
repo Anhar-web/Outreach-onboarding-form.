@@ -165,7 +165,7 @@
     "key": "ma",
     "name": "Market Analyst",
     "role": "What the market has heard",
-    "status": "working"
+    "status": "done"
    },
    {
     "key": "hk",
@@ -566,5 +566,5 @@
    "note": "10 min after"
   }
  ],
- "updatedAt": "2026-11-16T10:25:40.749614+00:00"
+ "updatedAt": "2026-11-16T10:29:53.255725+00:00"
 }
