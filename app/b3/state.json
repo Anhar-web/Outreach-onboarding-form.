@@ -1,6 +1,6 @@
 {
  "project": "Home Orbit — Batch 3 (Nov 2026)",
- "currentStep": 3,
+ "currentStep": 4,
  "steps": [
   {
    "n": 1,
@@ -39,7 +39,7 @@
    "key": "research",
    "title": "Research",
    "subtitle": "Audience Researcher and Market Analyst work in parallel.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Her words, not ours",
     "body": "The best lines are the ones she has already said to her sister."
@@ -55,7 +55,7 @@
    "key": "hooks",
    "title": "Angles & hooks",
    "subtitle": "The Hook Specialist builds angles and scored hooks.",
-   "status": "idle",
+   "status": "working",
    "idea": {
     "title": "The hook carries most of the result",
     "body": "Frame one decides whether the rest exists for her."
@@ -153,7 +153,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -171,7 +171,7 @@
     "key": "hk",
     "name": "Hook Specialist",
     "role": "Angles and hooks",
-    "status": "idle"
+    "status": "working"
    },
    {
     "key": "cw",
@@ -566,5 +566,5 @@
    "note": "10 min after"
   }
  ],
- "updatedAt": "2026-11-16T10:33:39.321553+00:00"
+ "updatedAt": "2026-11-16T10:34:59.072201+00:00"
 }
