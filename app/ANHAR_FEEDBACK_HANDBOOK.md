@@ -4,6 +4,14 @@
 
 **How to use it:** Part A is the rulebook (read it first). Part B is the full history, every before → after with her reasons, in the order it happened. Study the *moves* in Part B, not just the words. The goal is that she never has to give the same correction twice.
 
+> **READ FIRST: version 3 (Nov 16, 2026), going into Batch 3.**
+> - Parts are in time order. **Where they conflict, the later part wins:** L > K > J > I > H > G > F > E > A–D.
+> - **Batch 1:** Parts A–G.
+> - **Batch 2:** Part H (her edits), Part I (production rules), Part J (results and what's working).
+> - **Batch 3:** Part K (Anhar's three new inputs) and Part L (the Batch 3 plan, plus the prompt to start the new chat).
+> - **Airtable is the source of truth for detail.** Base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP). Read every table before starting: Batches, Feedback & Lessons (all rows, including the 72 "B2 edit ·" rows, the "B3 plan ·" rows and the "B2 results ·" rows), Formats (F0–F8), Visual Style, Posts, Post Performance, Conversion Windows.
+> - **Assessment results:** the base "Home orbit assessment." (appxFnfLWBVqgv8sO), table Submissions. Read only dates, status, q14 and the click/waitlist flags. Never names or emails.
+
 ---
 
 # PART A: THE RULEBOOK
@@ -390,7 +398,7 @@ Her answers:
 - **Proof = the method, not testimonials** (Anhar). The proof slide shows HOW Home Orbit works, in plain words:
   - We look at his whole day, not just the moment.
   - We work on one area at a time.
-  - The plan adjusts to how he responds, reviewed every two weeks.
+  - The plan adjusts to how he responds. *(Superseded: never put "every two weeks" on slides, H3.)*
   - It's built from her own observations.
   - The free assessment looks at six areas of his day.
   
@@ -411,6 +419,7 @@ Context in one chat eventually runs out, so start each new batch in a fresh chat
 1. Attach this file (ANHAR_FEEDBACK_HANDBOOK.md).
 2. Say: "Run the social media agency skill. Before anything, read this handbook in full and the Airtable base 'Home Orbit, Social Media Agency': Batches, Feedback & Lessons, Formats, Visual Style, Posts, Post Performance, Conversion Windows."
 3. Mention the repo branch if you want the design kit reused: Anhar-web/Outreach-onboarding-form., branch ccr-95e1d196-cuqe7q (app/production-library/kit).
+*(Superseded for Batch 3: use the prompt at the end of Part L. The newest kit is on branch claude/adoring-planck-83m3n1, app/production-library/kit_b2.)*
 
 # PART F: BATCH 1 RESULTS & INSTRUCTIONS FOR BATCH 2 (Nov 9)
 - **Two-tier results:**
@@ -452,7 +461,7 @@ Full before → after → her reason for every edit: Airtable → Feedback & Les
 
 ## H2. Hooks
 - **One question. No second half.** She removed every second half. No "here are X things", no "X starts before Y".
-- **Her shape: «ما تقدري X إلا لما/بعد Y؟»**, beside «فصرتي…» and «وأنتي اللي…».
+- **Her shape: «ما تقدري X إلا لما/بعد Y؟»**, beside «فصرتي…» and «وأنتي اللي…». *(Performance caveat, Part J: 0 of 3 broke out, though all 3 were on light grounds. Test it once on a dark ground.)*
 - **Past tense for one real time it happened** (جلستي، قمتي، قلتي له، وديتيه). Present tense for a habit sounded translated.
 - **Physics and real-habit check.** You can't hear footsteps over a blender. Parents don't blow-dry a child's hair.
 - **There must be a real problem she has to face.** If it can wait (a haircut), it's a statement.
@@ -484,3 +493,129 @@ Full before → after → her reason for every edit: Airtable → Feedback & Les
 ## H6. Her words (use by default; keep mixed spellings as written)
 بالقوة · شويه · منشفة / منشفه · الطاوله · زبديه · اعطيه · هوه · تقلبي القدر · بيد… باليد الثانية · تروحي الصالة تشوفي فينه · تتصل · ستيكرات / الاستيكرات · اتسكر · خلصتي · غسيل الشعر · يتفرج · دائما معاه · وحده · تنوميه · اثنين · ثمانيه · عشره · الاستشوار · تغيريها · منشفة مطبقة · صالون الاطفال · الروتين.
 Approved as used: الصالة · الدش · السبيكر · سناكه · المكينة ترج · ذيك الليلة · بلوزتك · سوالف · جاكي / يجيكي · ٣.
+
+---
+
+# PART I: BATCH 2 PRODUCTION RULES (creative production, Nov 9–10)
+- **Don't stop to ask at every stage of production.** Build everything through the build stage, then she reviews the finished slides (*"I can't really tell until you build them and I can see the slides."*).
+- **No visible line ends with a comma.** Where a sentence breaks across lines at a comma, **leave the line open** (no comma). A dot is the second choice. The kit hides the comma at a line break and glues short list commas. `render.js` FAILs any line ending with «،». Never change her words to fix a layout; choose the break points.
+- **Her edited text is set verbatim.** The kit's verbatim check must PASS.
+- **Look:** cut-paper objects that are big, simple and recognisable at a glance, with lots of breathing room. Big pearl El Messiri hook top-right. Grained flat grounds. Light from the top-right. No faces, ever, including anything that reads as one (two dots and a curve on a round shape). No words or numbers drawn on the art.
+- **The motif evolves across slides** (state, scale, position) so the swipe feels like a story. Every post has its own composition (list in Airtable → Posts → Composition).
+- **Soft CTA:** set small on a torn gold strip with ink text, low on the slide, never over art or text.
+- **Last slide = gold ground, ink text.** «الرابط في البايو.» goes on the pearl torn tag with a punched hole and string. The post's motif sits small in a corner, with its corner and pose varied per post.
+- **Step tabs** (torn gold, top-right) only for real labels: الخطوة X / أول شي / ثاني شي / ثالث شي, plus scene labels she used (برا الباب / جوا الحمام / من جهته). **Check every tab slide by eye.** A tab once covered «انتبهي لإيش».
+- **Grounds:** see Part J. Slide 1 goes on deep or night from now on.
+- **Kit:** branch `claude/adoring-planck-83m3n1`, `app/production-library/kit_b2` (`python3 build.py <ids>` then `node render.js <ids>`; DESIGNER_BRIEF.md; one module per post in `posts/`). Copy comes from a JSON of final slides. Never type Arabic in a module.
+- **Delivery:** PNG links inside an artifact page don't work for her. Deliver **one zip per post, named in posting order** (`day01-<topic>.zip`), holding `01.png…NN.png` and `caption.txt` (caption + pinned comment), sent as files.
+
+# PART J: BATCH 2 RESULTS & WHAT'S WORKING (Nov 16). Analyst read of 22 posts (B1 + B2)
+**Day-1 TikTok views, Batch 2** (posting order; ground; format):
+
+| # | Post | Views | Likes | Saves | Followers | Ground | Format |
+|---|---|---|---|---|---|---|---|
+| 1 | Hair wash | **4,081** | 57 | 29 | 8 | deep | F5 |
+| 2 | Cooking (1 min after #1) | 518 | 9 | 3 | 4 | sandLight | F1 |
+| 3 | Sneaking out | **1,047** | 9 | 8 | 1 | night | F2 |
+| 4 | Shower (1 h later) | **2,845 → 3,153** | 16 | 8 | 8 | deep | F3 |
+| 5 | Only after he sleeps | 480 | 6 | 3 | 0 | tealMist | F6 |
+| 6 | "Just today" (1 h later) | 555 | 5 | 3 | 1 | night | F3 |
+| 7 | Hair dryer | 436 | 2 | 0 | 0 | pearl | F5 |
+| 8 | 8 to 10 (1 h later) | **1,931** | 25 | 25 | 2 | deep | F6 |
+| 9 | Phone calls | 413 | 1 | 0 | 1 | tealMist | F4 |
+| 10 | Night waking (1 h later) | 509 | 4 | 3 | 3 | night | F1 |
+| 11 | Blender | 701 | 4 | 2 | 0 | deep | F2 |
+| 12 | Kids' salon (10 min later) | 436 | 4 | 1 | 2 | sandLight | F1 |
+
+**Business:** **9 completed assessments Nov 10–16** (Batch 1 window: 0). Five came within ~19 h of the hair-wash breakout, the first post with a CTA that reached people. Two came the morning after 8 to 10. **The CTA on every post works when the post gets reach.** Biggest challenge (Q14): **emotions 4**, sleep 3, communication 1, other 1. 4 of 9 clicked "learn more about the Living Plan"; 0 joined the waitlist. Account: about 13 / 3 / 7 new followers on the days she reported.
+
+**What's working:**
+1. **The hook.** All 6 breakouts across both batches are one picture of HER paying for it, with a concrete body or time detail:
+   - «وأنتي اللي مبلولة أكثر منه»
+   - «وأنتي اللي نمتي»
+   - «فصرتي تكنسي وهو نايم»
+   - «فصرتي تتروشي بعد ما ينام…»
+   - «ما تطلعي… إلا الساعة عشره»
+   - «جلستي ساعة… فتح عيونه»
+
+   Hooks that state a limit or a rule («ما تقدري… إلا»، «لازم تتأكدي»), or open or end on the child's behaviour, went **0 of 7**. *Caveat:* 3 of those were on light grounds, so test «ما تقدري» once on a dark ground.
+2. **Ground.** **Light grounds: 0 of 10 across both batches. Dark (deep/night): 6 of 12.**
+3. **Timing.** A post published **1–11 minutes after another: 0 of 7** broke out. **About an hour apart, 7:00–8:30 PM: 2 of 4.**
+4. **Topics.** Sensory home chores and body care where she's the punchline (vacuum, hair wash, shower). Early sleep posts worked, then faded (B2 sleep: 1K → 1.9K → 555 → 509). Anhar wants a change from bedtime.
+5. **Format** matters less than hook + ground + timing. **F1 HPSPC 0 of 3.** F2, F3, F5 and F6 had one winner each. F4 had 1 post (stalled, light ground).
+6. **Depth and saves.** Breakouts average 3.0–3.5 slides viewed; stalled posts 2.0–2.8. Practical routine posts get saved (35, 29, 25). Comments are ~0 everywhere (not a failure signal, Part D).
+
+# PART K: ANHAR'S THREE INPUTS FOR BATCH 3 (Nov 15). Test them, adapted to our audience
+*"These are things I heard from talks and summits, and I want to test it here… maybe there's a new way that works even better from what we already have."* Don't block a test because it breaks an older structural rule. Label it, flag it, measure it. Voice rules (Part H) and hard rules (A1) always apply.
+
+## K1. Eric Edmeades, Inception Marketing → **F7 Inception list** (Airtable → Formats)
+- The "inceptive" instructional story. In his bride example: seven mistakes that ruin a wedding day, each taught well and **anchored in a story** that lets her live the mistake ("I was totally going to make that mistake"). Each one builds credibility, authority and reciprocity. The last point leads naturally to the friend's service (the photographer with two memory cards) **without pointing only at him.**
+- **For us:**
+  - 3–4 points.
+  - **Slide 1 = her scene only (no number). Slide 2 = the count line.**
+  - One point per slide, each a genuinely useful move with a short **second-person** story (her moment, never an invented first-person story).
+  - The **last point is true for anyone and happens to be what the assessment / الخطة الحية does**. Examples: look at what happens before the moment; start with one moment, not everything; expect the plan to change as he responds. Then the CTA.
+- **Test two variants: 2 posts as MISTAKES** (e.g. "X mistakes that make meltdowns worse") and **2 posts as BENEFITS / steps / one tool** (e.g. "this tool that calms meltdowns down"). Her examples are placeholders; the Hook Specialist writes the real lines. Mistakes are never framed as blaming her; normalise them ("the mistake most of us make").
+- **Eric's parallel (metaphorical) story** (repo `app/b3_eric_parallel_story.txt`): teach a hard concept through something she already understands (his example: water in a pipe for electricity). It is already proven here. Anhar's «تخيلي لعبتك المفضلة بيد أحد، وكل ما تحاولي تاخذيها يبعدها عنك» (phone calls). Parallels come from her everyday life, never brain, clinical or science metaphors. Logged in Formats → F4.
+
+## K2. Daniel Priestley, Oversubscribed → **the explainer extension** (never a whole post)
+- Explainer content **on its own has not performed** for her. So: make the post as normal, and **after the steps / tool / ideas, continue into the explainer as a smooth extension of the last step** («و…»، «وبعدها…»، «ومن هنا نبني الخطة…»). It should read as the solution that follows from THIS post's problem, the next thing she'd naturally do. Not salesy, not a jarring switch. **Never make a whole post that is only explainer about us or the service.**
+- Her explainer system (full text, verbatim: repo `app/b3_explainer_system.md`; Airtable "B3 plan ·" rows):
+  - Three categories: Proof / Principles / Process.
+  - **Nine types:**
+    1. Hidden Pattern
+    2. Same Behaviour, Different Reasons
+    3. Real-Life Demonstration
+    4. The Parent's Knowledge
+    5. Generic Advice Trap
+    6. Prevention Before Intervention
+    7. From Observation to Plan
+    8. The Living Plan Evolves
+    9. Inside الخطة الحية
+  - **12 buying beliefs**, e.g. «اللي أشوفه كل يوم معلومة، مو شكوى», «الخطة اللي تشتغل لازم تتغيّر معه», "I don't need to work on everything at once; I need a clear starting point".
+  - **Every concept names ONE type + ONE primary belief.** Don't force Home Orbit / الخطة الحية into every post.
+- **Where it meets current rules:**
+  - **Type 5:** only by showing, inside his moment, why a common move didn't fit HIM. Never "everyone tells you X, but…" (H3).
+  - **Belief 5:** carry it without the word «أخصائي» (no specialists on social).
+  - **Types 1–2:** reasons stay everyday and situational, never medical or "sensory".
+  - **Process:** no «كل أسبوعين»; use «الخطة الحية» and «كذا نبدأ».
+- **In F7, the service-adjacent last point IS the explainer.**
+
+## K3. Her legacy winners (before the agency) → **F8 Scene + one tool** (Airtable → Formats; repo `app/b3_legacy_winners.md`)
+- **Leaving grandma's house:** 200K+ views, 2K+ likes, hundreds of followers, her best ever.
+- **Restaurant chase / "no inner brakes":** ~40K views, 993 likes, 281 followers, lots of comments.
+- **Bedtime "last push":** 38K views, 354 likes, 53 followers.
+- **Why it stopped working:** she repeated the format over and over. Use it as one ingredient; rotate formats.
+- **The shape:**
+  1. **A public scene with witnesses** (family gathering, restaurant), with people's lines in their voice ("it's okay, just leave him a bit" / "why is he so upset?").
+  2. **Make it worse** ("now going home is a bigger battle than the outing itself").
+  3. **Reframe** what it means to him (the shoes = the fun is over), or that it's not her failure.
+  4. **ONE clever, game-like tool**, e.g. the wrong shoe: "I think this is mine…", and he corrects you and puts it on himself.
+  5. **The twist** that explains why it works (kids love correcting adults; sometimes he needs to empty his energy before he can calm down).
+  6. **Light, natural humour**, and sometimes a **one-word comment prompt** ("if you feel like a full-time security guard, write: evening shift"). It filled her comments.
+- **Batch 2 didn't do this:**
+  - Batch 2 was almost all private home scenes.
+  - Every Batch 2 post had 3 steps; she has never tested one tool.
+  - No Batch 2 post had a comment prompt.
+- **Translate the old posts' "brain" lines** ("his brain will learn to stop") into plain words. The tool must still pass her realism check (seconds, where she already is).
+
+# PART L: BATCH 3 PLAN (start here)
+1. **Before anything, run the Analyst on Batches 1–2** (Part J + Airtable). Confirm or update the rules with any newer numbers she gives, then brief from them.
+2. **Hooks:** every one is her moment + the cost landing on HER, with a concrete body/time detail (Part J1). One question, no second half; where a format needs a count, it goes on slide 2. Test «ما تقدري… إلا» once, on a dark ground.
+3. **Grounds:** slide 1 always deep or night. Light colours only as accents and the gold CTA end.
+4. **Posting:** at most two per evening, about an hour apart, 7:00–8:30 PM. Never minutes apart.
+5. **Topics:** lean into **emotions / meltdowns** (the top assessment focus), **public and family scenes**, and sensory chores and body care. **Max 1–2 sleep posts.** Don't repeat B1–B2 topics (Airtable → Posts).
+6. **Formats:**
+   - **Test F7 Inception list:** 2 "mistakes" posts + 2 "benefits / steps / tool" posts.
+   - **Test F8 Scene + one tool:** with the twist and a one-word comment prompt.
+   - **Rest F1 HPSPC.**
+   - Mix the rest from what won (F2, F3, F5, F6), and label every post.
+7. **Every post:** value + the **explainer extension** after the steps (one type + one belief) + CTA (Connect → Purpose → Direct, Part G), soft CTA early, caption + pinned comment.
+8. **Voice:** apply every Batch 2 edit (H + the 72 "B2 edit ·" rows in Feedback & Lessons). Once she edits a slide, it is final.
+9. **Production:** Part I. Build everything, then she reviews. Zips per post in posting order.
+10. **Tracking:** log every post's day-1 numbers in Post Performance and the posted date in Posts. Check the assessment base for completions after each evening. Record assessment starts and profile visits if they become available.
+
+## The prompt for the new chat (Anhar pastes this with this file attached)
+> Run the social media agency skill for **Batch 3**. Before anything, read the attached ANHAR_FEEDBACK_HANDBOOK.md in full (version 3; later parts override earlier ones, start with the READ FIRST box and Part L). Then read the Airtable base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP): every table, all rows — Batches, Feedback & Lessons (including the "B2 edit ·", "B2 results ·" and "B3 plan ·" rows), Formats (F0–F8), Visual Style, Posts, Post Performance, Conversion Windows. Also check completed assessments in "Home orbit assessment." (Submissions: dates, status and q14 only).
+> The repo is Anhar-web/Outreach-onboarding-form., branch claude/adoring-planck-83m3n1: final copy, every edit (app/b2_every_edit.json), the Batch 3 input files (app/b3_*.md/txt) and the Batch 2 design kit (app/production-library/kit_b2).
+> Start with the "what's working?" Analyst on Batches 1 and 2, and show me the brief built on it before writing hooks. Batch 3 = **12** static TikTok carousels, every post a value post with a CTA. Test F7 Inception list (2 mistakes + 2 benefits posts) and F8 Scene + one tool, and add the explainer extension after the steps on every post, as Part K describes. Hooks follow Part J. Slide 1 on a dark ground. Apply every Batch 2 edit so I don't have to make the same corrections again. Show me the dashboard as a link I can open.
