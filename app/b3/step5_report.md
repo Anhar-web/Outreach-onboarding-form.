@@ -81,7 +81,7 @@ Three numbered points, each with a true twist: (1) let him watch YOU lose for re
 
 **8 · The ride ends: 3 things most of us do** · F7 Inception list · MISTAKES · CTA type: Direct
 
-ينزل من العبة وهو ييبكي، فصرتي تطلعي من المول من باب ثاني؟
+ينزل من اللعبة وهو يبكي، فصرتي تطلعي من المول من باب ثاني؟
 
 *He gets off the ride crying, so now you leave the mall through a different door?*
 
@@ -105,7 +105,7 @@ s1 the hook. s2 the count line: three steps that move nail cutting to while he's
 
 **11 · Mall hand dryer: 3 moves** · F5 Walk-through · CTA type: Observation
 
-غطيتي اذاني طفل اول ما اشتغلت نشافه اليدين في المول وطلعتي من الحمام بدون ما تنشفي يدينيك.
+غطيتي اذاني طفل اول ما اشتغلت نشافه اليدين في المول وطلعتي من الحمام بدون ما تنشفي يدينك.
 
 *You covered your child's ears the moment the hand dryer came on in the mall, and left the bathroom without drying your hands.*
 
