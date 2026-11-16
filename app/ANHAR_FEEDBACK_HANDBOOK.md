@@ -4,8 +4,8 @@
 
 **How to use it:** Part A is the rulebook (read it first). Part B is the full history, every before → after with her reasons, in the order it happened. Study the *moves* in Part B, not just the words. The goal is that she never has to give the same correction twice.
 
-> **READ FIRST: version 3 (Nov 16, 2026), going into Batch 3.**
-> - Parts are in time order. **Where they conflict, the later part wins:** L > K > J > I > H > G > F > E > A–D.
+> **READ FIRST: version 4 (Nov 16, 2026). Batch 3 copy is final; Part M holds its lessons.**
+> - Parts are in time order. **Where they conflict, the later part wins:** M > L > K > J > I > H > G > F > E > A–D.
 > - **Batch 1:** Parts A–G.
 > - **Batch 2:** Part H (her edits), Part I (production rules), Part J (results and what's working).
 > - **Batch 3:** Part K (Anhar's three new inputs) and Part L (the Batch 3 plan, plus the prompt to start the new chat).
@@ -619,3 +619,44 @@ Approved as used: الصالة · الدش · السبيكر · سناكه · ا
 > Run the social media agency skill for **Batch 3**. Before anything, read the attached ANHAR_FEEDBACK_HANDBOOK.md in full (version 3; later parts override earlier ones, start with the READ FIRST box and Part L). Then read the Airtable base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP): every table, all rows — Batches, Feedback & Lessons (including the "B2 edit ·", "B2 results ·" and "B3 plan ·" rows), Formats (F0–F8), Visual Style, Posts, Post Performance, Conversion Windows. Also check completed assessments in "Home orbit assessment." (Submissions: dates, status and q14 only).
 > The repo is Anhar-web/Outreach-onboarding-form., branch claude/adoring-planck-83m3n1: final copy, every edit (app/b2_every_edit.json), the Batch 3 input files (app/b3_*.md/txt) and the Batch 2 design kit (app/production-library/kit_b2).
 > Start with the "what's working?" Analyst on Batches 1 and 2, and show me the brief built on it before writing hooks. Batch 3 = **12** static TikTok carousels, every post a value post with a CTA. Test F7 Inception list (2 mistakes + 2 benefits posts) and F8 Scene + one tool, and add the explainer extension after the steps on every post, as Part K describes. Hooks follow Part J. Slide 1 on a dark ground. Apply every Batch 2 edit so I don't have to make the same corrections again. Show me the dashboard as a link I can open.
+
+
+# PART M: BATCH 3 LESSONS (Nov 16). These override earlier parts where they conflict
+Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · hook …" and "B3 copy · …" rows), repo `app/b3/b3_hook_edits.json` and `app/b3/anhar/Batch_3_anhar_edits.txt` (her final file with a note per post). Final copy: `app/b3/posts_b3_final.json`.
+
+## M1. What the assessment actually does (CTA truth)
+- She answers 15 questions about **her own approach**, picks **one** situation, and writes the change she wants. She gets her strengths, what to organise, where to start, and one first step. It never looks at "his whole day" or "six areas", never finds why he does it, and never solves this post's problem. Sheet: `app/b3/assessment_truth.md`. **This corrects Part E**, which said the assessment "looks at six areas".
+
+## M2. Voice
+- **No "we" language** (أغلبنا, نـ verbs). It's deceptive: it implies Anhar has a child. Use second person, or «الاغلب يسويها».
+- **«عشان», not «كذا».** This replaces A4.4 and H5 ("كذا for a shown result").
+- **«خطوة», not «حركة».**
+- **Captions say «البوست»**, never «الصور».
+- **Crying is «يبكي / بكاء».** «يصيح» reads as screaming. Keep «الصراخ» only for real screaming.
+- **Her hook moves:** add the spoken words that complete the picture («جلستي تجهزي… وفي النهاية…»); name him «طفلك»; never label a thing by a detail nobody uses ("لعبة الريال"); name the full problem («ومو راضي يلبسه»).
+- **Her words:** بعمد · العصريه · فلاش الجوال · نشافه اليدين · في يدك · القطاطه · بالقوه · شاله · مهي · انفجعتي · الحلويات · الكاشير · يلصق فيكي · انزلي لمستواه · الخرجه · الطفش.
+
+## M3. Value
+- **"Things to notice" is not value.** Every point is something she DOES: prepare, prevent or respond. Noticing lives only in the explainer and the CTA. F6 = actions.
+- **The hook must show the problem landing**, not just a fact about her habit.
+- **Prevention tools are practised days before**, never taught at the door.
+- **Check how the place really works.** At the checkout, the customer loads the belt. Fast food has an order number and no waiter. Never ask staff or strangers for special treatment.
+- **Her tool shapes:**
+  - model it first
+  - let him hold it safely
+  - start tiny and ask him
+  - change the space
+  - agree what he does when it goes wrong
+- **The outcome** is "what he does when he's upset", never "he won't get upset".
+- **Tools must be clear on first read.** The jacket flip failed.
+
+## M4. Process
+- **She edits in a plain text file, not on the board.** The board's text can't be copied. Deliver copy as a .txt file with numbered slides, caption, pinned comment and questions at the bottom.
+- **Word and typing checks go in one batch.** She welcomed the typo check, and «اذاني طفل» is intended.
+
+## M5. Batch 3 test plan (to read when the numbers come in)
+- **F7 Inception list:** mistakes = جمعة + ride; benefits = nails + fast food.
+- **F8 Scene + one tool:** checkout + ملكة, each with a one-word comment prompt (شيالة / حارسة الباب).
+- **F4 parallel story** re-tested on a dark ground (biscuit).
+- **One «ما تقدري … إلا» hook** on a dark ground (nails).
+- **Posting:** 6 evenings × 2, 7:15 and 8:15 PM. Order is in Airtable → Posts.
