@@ -265,7 +265,7 @@ class Seg:
 SEP_CODE = {'': 'none', ' ': 'sp', '\n': 'nl'}
 SOFT = set()   # soft-CTA lines (filled by build.py from posts_b3_final.json)
 
-LABEL_RE = re.compile(r'^((?:الخطوة \S+|أول شي|ثاني شي|ثالث شي|برا الباب|جوا الحمام|من جهته):) ')
+LABEL_RE = re.compile(r'^((?:الخطوة \S+|أول شي|ثاني شي|ثالث شي|الشي الثاني|الشي الثالث|برا الباب|جوا الحمام|من جهته):) ')
 
 
 class SlideText:

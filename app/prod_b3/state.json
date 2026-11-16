@@ -1,30 +1,148 @@
-{"currentStage":4,
-"stages":[
-{"n":1,"title":"Intake & brief","status":"done","subtitle":"","action":"","report":""},
-{"n":2,"title":"Visual direction","status":"done","subtitle":"","action":"","report":""},
-{"n":3,"title":"Art direction & brand","status":"done","subtitle":"","action":"","report":""},
-{"n":4,"title":"Build","status":"working","subtitle":"Three designers build the 12 carousels in parallel, four posts each, then fix them by eye.","action":"Nothing yet. Per your Batch 2 rule, everything gets built first; you review the finished slides at the end.","report":"### What's happening\n- **Intake (done):** the 12 final posts, verbatim from your edit file, in posting order.\n- **Direction + art direction (done):** slide 1 and the whole post on deep or night (the data: light grounds 0 of 10); gold only for the end slide. Same cut-paper through-line. **12 new compositions**, none from Batch 1–2 (see each card below). Full spec: `app/art_direction_b3.md`.\n- **Build (working now):** each designer renders, reads the contact sheet, and fixes until the kit's checks pass: your words verbatim, no line ending in a comma, no text under 44px, nothing crossing the art.\n- **Next:** Creative QA scores every post (Arabic legibility is a gate), then you get one zip per post in posting order.\n\n### The contact sheets below are work in progress\nThey update each time I republish this board. Slide 1 is at the top-right; read right to left."},
-{"n":5,"title":"Repurposing","status":"idle","subtitle":"","action":"","report":""},
-{"n":6,"title":"Creative QA","status":"idle","subtitle":"","action":"","report":""},
-{"n":7,"title":"Delivery","status":"idle","subtitle":"","action":"","report":""}],
-"team":[
-{"name":"Production Director","role":"Intake, delivery, the library","status":"working"},
-{"name":"Visual Researcher","role":"The look, fresh directions","status":"done"},
-{"name":"Art Director","role":"Through-line + varied system","status":"done"},
-{"name":"Carousel Designer A","role":"Checkout · hand dryer · ملكة · biscuit","status":"working"},
-{"name":"Carousel Designer B","role":"جمعة · jacket · nails · tower","status":"working"},
-{"name":"Carousel Designer C","role":"Ride · \"no\" · fast food · cards","status":"working"},
-{"name":"Creative QA","role":"Scored, brand & Arabic gate","status":"idle"}],
-"pieces":{
-"b3p3":{"composition":"Low conveyor band: the checkout belt across the lower third; the full trolley left behind; a race of small vs big hands loading the belt. Ground: deep."},
-"b3p11":{"composition":"Wall-tile grid macro: one big wall dryer with gold sound arcs; wet hands over small ears. Ground: night."},
-"b3p1":{"composition":"Doorway glow: the majlis door pouring gold light into a dark corridor; the two-squeeze hands. Ground: deep."},
-"b3p5":{"composition":"Split pair: the cracked biscuit beside a phone with the same crack. Ground: night."},
-"b3p2":{"composition":"Cut-away house: the big majlis next to the small side room. Ground: night."},
-"b3p12":{"composition":"Coat-hook rail: his jacket carried, then hung low beside your abaya. Ground: deep."},
-"b3p10":{"composition":"Torch cone: the phone flash cutting through the dark onto a small hand; then your own nail first. Ground: night (the «ما تقدري … إلا» test)."},
-"b3p6":{"composition":"Vertical stack hero: one tall block tower, then the box with raised edges. Ground: deep."},
-"b3p8":{"composition":"Kiddie ride on a tiled mall floor (no face, no headlight eyes). Ground: night."},
-"b3p9":{"composition":"High shelf: the packet on top of the wardrobe, a small hand reaching; then the prepared activity. Ground: deep."},
-"b3p4":{"composition":"Order screen of blank tiles (one glowing) + a curling receipt; no waiter. Ground: night."},
-"b3p7":{"composition":"Fanned paper cards (no numbers), tossed, then stacked in a box. Ground: deep."}}}
+{
+ "currentStage": 7,
+ "stages": [
+  {
+   "n": 1,
+   "title": "Intake & brief",
+   "status": "done",
+   "subtitle": "",
+   "action": "",
+   "report": ""
+  },
+  {
+   "n": 2,
+   "title": "Visual direction",
+   "status": "done",
+   "subtitle": "",
+   "action": "",
+   "report": ""
+  },
+  {
+   "n": 3,
+   "title": "Art direction & brand",
+   "status": "done",
+   "subtitle": "",
+   "action": "",
+   "report": ""
+  },
+  {
+   "n": 4,
+   "title": "Build",
+   "status": "done",
+   "subtitle": "Three designers build the 12 carousels in parallel, four posts each, then fix them by eye.",
+   "action": "Nothing yet. Per your Batch 2 rule, everything gets built first; you review the finished slides at the end.",
+   "report": "### What's happening\n- **Intake (done):** the 12 final posts, verbatim from your edit file, in posting order.\n- **Direction + art direction (done):** slide 1 and the whole post on deep or night (the data: light grounds 0 of 10); gold only for the end slide. Same cut-paper through-line. **12 new compositions**, none from Batch 1–2 (see each card below). Full spec: `app/art_direction_b3.md`.\n- **Build (working now):** each designer renders, reads the contact sheet, and fixes until the kit's checks pass: your words verbatim, no line ending in a comma, no text under 44px, nothing crossing the art.\n- **Next:** Creative QA scores every post (Arabic legibility is a gate), then you get one zip per post in posting order.\n\n### The contact sheets below are work in progress\nThey update each time I republish this board. Slide 1 is at the top-right; read right to left."
+  },
+  {
+   "n": 5,
+   "title": "Repurposing",
+   "status": "done",
+   "subtitle": "",
+   "action": "",
+   "report": ""
+  },
+  {
+   "n": 6,
+   "title": "Creative QA",
+   "status": "done",
+   "subtitle": "",
+   "action": "",
+   "report": ""
+  },
+  {
+   "n": 7,
+   "title": "Delivery",
+   "status": "needs-you",
+   "subtitle": "All 12 carousels are built, QA-checked and zipped in posting order.",
+   "action": "Download the 12 zips I sent in chat, look through the slides, and tell me anything to change. Your call decides what ships.",
+   "report": "### Creative QA (Director's pass, all 12 contact sheets read by eye)\n- **Arabic gate: PASS on all 12.** The kit compared every rendered line with your final copy: verbatim PASS, no line ending in a comma, nothing under 44px, nothing past the crop edge, no text crossing the art.\n- **Fixed in QA:** «الشي الثاني:» and «الشي الثالث:» (جمعة, ride) now get the gold step tab like your other labels. «قبل الكاشير:» and «الضغطة السرية:» are tabs too.\n- **Ground rule held:** every post is deep or night from slide 1 to the last body slide; gold only on the end slide with the «الرابط في البايو.» tag.\n- **Faces:** none. People are backs of heads, abayas from behind, hands and sleeves.\n- **Freshness:** 12 compositions, none from Batch 1–2. The pair in each evening alternates deep and night and uses different shapes (belt vs tile wall, doorway vs biscuit, house vs hook rail, torch cone vs tower, ride vs shelf, order screen vs cards).\n- **Remaining warnings (accepted):** some long approved slides run 6–8 lines; the text stays at body size and the art sits lower.\n\n### Notes for your eye\n- **Nails:** slide 1 is the «ما تقدري … إلا» dark-ground test. Keep it at its slot (evening 4, 7:15).\n- **Tower:** the tower isn't cropped at the top (it would have crossed the text).\n- **Jacket:** check the pearl hooks on the rail read as hooks to you.\n- **جمعة:** the hook is set at 88px (slightly smaller) so the house fits under it.\n\n### Delivery\n12 zips, named in posting order (`01-evening1-715pm-checkout.zip` … `12-evening6-815pm-losing-game.zip`). Each has `01.png…NN.png` (1080×1350) and `caption.txt` (caption, plus the pinned comment where there is one).\n"
+  }
+ ],
+ "team": [
+  {
+   "name": "Production Director",
+   "role": "Intake, delivery, the library",
+   "status": "needs-you"
+  },
+  {
+   "name": "Visual Researcher",
+   "role": "The look, fresh directions",
+   "status": "done"
+  },
+  {
+   "name": "Art Director",
+   "role": "Through-line + varied system",
+   "status": "done"
+  },
+  {
+   "name": "Carousel Designer A",
+   "role": "Checkout · hand dryer · ملكة · biscuit",
+   "status": "done"
+  },
+  {
+   "name": "Carousel Designer B",
+   "role": "جمعة · jacket · nails · tower",
+   "status": "done"
+  },
+  {
+   "name": "Carousel Designer C",
+   "role": "Ride · \"no\" · fast food · cards",
+   "status": "done"
+  },
+  {
+   "name": "Creative QA",
+   "role": "Scored, brand & Arabic gate",
+   "status": "done"
+  }
+ ],
+ "pieces": {
+  "b3p3": {
+   "composition": "Low conveyor band: the checkout belt across the lower third; the full trolley left behind; a race of small vs big hands loading the belt. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p11": {
+   "composition": "Wall-tile grid macro: one big wall dryer with gold sound arcs; wet hands over small ears. Ground: night.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p1": {
+   "composition": "Doorway glow: the majlis door pouring gold light into a dark corridor; the two-squeeze hands. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p5": {
+   "composition": "Split pair: the cracked biscuit beside a phone with the same crack. Ground: night.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p2": {
+   "composition": "Cut-away house: the big majlis next to the small side room. Ground: night.",
+   "notes": "QA passed: verbatim PASS, no FAIL. Step tabs fixed in QA."
+  },
+  "b3p12": {
+   "composition": "Coat-hook rail: his jacket carried, then hung low beside your abaya. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p10": {
+   "composition": "Torch cone: the phone flash cutting through the dark onto a small hand; then your own nail first. Ground: night (the «ما تقدري … إلا» test).",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p6": {
+   "composition": "Vertical stack hero: one tall block tower, then the box with raised edges. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p8": {
+   "composition": "Kiddie ride on a tiled mall floor (no face, no headlight eyes). Ground: night.",
+   "notes": "QA passed: verbatim PASS, no FAIL. Step tabs fixed in QA."
+  },
+  "b3p9": {
+   "composition": "High shelf: the packet on top of the wardrobe, a small hand reaching; then the prepared activity. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p4": {
+   "composition": "Order screen of blank tiles (one glowing) + a curling receipt; no waiter. Ground: night.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  },
+  "b3p7": {
+   "composition": "Fanned paper cards (no numbers), tossed, then stacked in a box. Ground: deep.",
+   "notes": "QA passed: verbatim PASS, no FAIL."
+  }
+ }
+}

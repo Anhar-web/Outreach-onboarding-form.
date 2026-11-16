@@ -31,10 +31,12 @@ def rail(x0, x1, y, hooks=(), s=1.0):
 
 
 def hook(x, y, s=1.0):
+    """A coat hook: a round pearl back-plate on the rail and one short, thick
+    curved prong ending in a ball (kept chunky so it never reads as a letter)."""
     return paper(f'<g transform="translate({x} {y}) scale({s})">'
-                 f'<circle cx="0" cy="0" r="14" fill="{C["tealMist"]}"/>'
-                 f'<path d="M 0 0 V 62 Q 0 100 36 92 Q 52 86 50 66" fill="none" stroke="{C["pearl"]}" stroke-width="15" stroke-linecap="round"/>'
-                 f'<circle cx="50" cy="62" r="11" fill="{C["pearl"]}"/></g>', T, 2)
+                 f'<circle cx="0" cy="0" r="24" fill="{C["tealMist"]}"/><circle cx="0" cy="0" r="7" fill="{C["goldDeep"]}"/>'
+                 f'<path d="M 0 6 Q -4 62 34 66" fill="none" stroke="{C["pearl"]}" stroke-width="22" stroke-linecap="round"/>'
+                 f'<circle cx="40" cy="62" r="16" fill="{C["pearl"]}"/></g>', T, 2)
 
 
 def jacket(x, y, s=1.0, rot=0, splay=8, layer=2):
@@ -60,7 +62,9 @@ def jacket(x, y, s=1.0, rot=0, splay=8, layer=2):
 
 
 ARM_HAND = ('<path d="M 6 -48 Q -60 -60 -110 -38 Q -140 -20 -130 6 Q -120 26 -90 22 L -40 30 Q -10 52 6 48 Z" fill="{sk}"/>'
-            '<path d="M -100 -30 Q -150 -12 -126 18" fill="none" stroke="{gd}" stroke-opacity=".35" stroke-width="4"/>')
+            '<path d="M -100 -30 Q -150 -12 -126 18" fill="none" stroke="{gd}" stroke-opacity=".35" stroke-width="4"/>'
+            '<path d="M -96 -10 H -40 M -92 8 H -40 M -84 24 H -44" stroke="{gd}" stroke-opacity=".4" stroke-width="5" stroke-linecap="round"/>'
+            '<path d="M -20 -50 Q -60 -76 -96 -62 Q -110 -54 -100 -42 L -40 -40 Z" fill="{sk}"/>')
 
 
 def arm(x, y, rot=0, s=1.0, sleeve='pearl', length=520, hand=True, layer=3, band=None):
@@ -127,7 +131,9 @@ def flake(x, y, r=16):
 
 
 def floor(y, seed=3):
-    return torn_rect(-20, y, W + 40, H - y + 20, C['night'], T, sides='t', seed=seed, layer=1)
+    """Hallway floor: a flat night sheet with a gold skirting line on its top edge."""
+    return paper(f'<rect x="-20" y="{y}" width="{W + 40}" height="{H - y + 20}" fill="{C["night"]}"/>'
+                 f'<rect x="-20" y="{y}" width="{W + 40}" height="10" fill="{C["goldDeep"]}"/>', T, 1)
 
 
 def slide(ctx):

@@ -14,7 +14,7 @@ cards=''
 for p in sorted(F,key=lambda p:p['posting_order']):
     pid=p['id']; d=os.path.join(APP,'output_b3',pid); c=os.path.join(d,'contact.png')
     pc=S['pieces'].get(pid,{})
-    st=pc.get('status','building')
+    st=pc.get('status','qa passed' if os.path.exists(os.path.join(APP,'output_b3','zips')) else 'building')
     img=''
     if os.path.exists(c):
         im=Image.open(c).convert('RGB'); im.thumbnail((1000,1000)); out=os.path.join(H,f'thumb-{pid}.jpg'); im.save(out,quality=78)

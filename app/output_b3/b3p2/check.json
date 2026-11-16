@@ -23,7 +23,7 @@
    "file": "slide-4.html",
    "src": 3,
    "part": 0,
-   "lines": 7
+   "lines": 8
   },
   {
    "file": "slide-5.html",
@@ -47,7 +47,7 @@
  "fail": [],
  "warn": [
   "slide-3.html: 9 text lines (max 5 + tab)",
-  "slide-4.html: 7 text lines (max 5 + tab)",
+  "slide-4.html: 8 text lines (max 5 + tab)",
   "slide-5.html: 7 text lines (max 5 + tab)",
   "slide-7.html: 7 text lines (max 5 + tab)"
  ],
