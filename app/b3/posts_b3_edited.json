@@ -1,5 +1,90 @@
 [
  {
+  "id": "b3p3",
+  "conceptId": "c3",
+  "title": "Checkout: beat the cashier",
+  "format": "slides · F8 Scene + one tool",
+  "slides_ar": [
+   "تركتي العربية مليانة عند الكاشير، وطلعتي شايله طفلك وكل اللي في الطابور يتفرجوا عليكي؟",
+   "الطابور طويل، وقدامكم رف الحلاو.\nمسك وحده وقلتي له \"لا\"، فطاح على الأرض يصيح.\nوحده وراكم تقول \"اعطيه وخلصينا\"، والكاشير واقف يستناكي.",
+   "حاولتي تشيليه بيد وتحاسبي باليد الثانية، وما قدرتي.\nفتركتي الأغراض كلها وطلعتي، والعيون كلها عليكي.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+   "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.\nوهذي لعبة وحده للمرة الجاية عند الكاشير.",
+   "سابق الكاشير: أول ما توصلوا عند السير، قولي له \"تقدر تحط الأغراض قبل ما يلحقك الكاشير؟\"\nيحطها وحده وحده، وكل ما سبقه قولي \"غلبته!\"",
+   "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
+   "ويمكن المرة الجاية تطلعي والعربية معاكي.\nاذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
+   "فكري في آخر مرة تركتي فيها الأغراض وطلعتي، وايش كان يصير قبلها في الطابور.\nهذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات. الرابط في البايو."
+  ],
+  "soft_lines": [
+   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات."
+  ],
+  "caption_ar": "تركتي العربية مليانة عند الكاشير وطلعتي شايله طفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.\nفي الصور لعبة وحده تخلي الطابور سباق، وهو اللي يفوز فيه.",
+  "pinned_ar": "الجزء الثاني: بعد ما تخلصوا من الكاشير، اعطيه كيس خفيف يشيله إلين ما توصلوا السيارة. عشان تكون له شغلة لآخر الطلعة، مو بس عند الكاشير.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
+  "posting_order": 1,
+  "explainer": "Type 3 Real-life demonstration · Belief 8: growth fits into ordinary routines",
+  "notes_en": "8 slides: I put the twist and the explainer on one slide (s6) to stay at 8. Comment prompt «شيالة» names her role. «الكاشير» kept masculine; change to «الكاشيرة» if you picture a woman at the till. Soft CTA uses «مع الطلعات والزيارات» because this post's Q14 option is outings/visits. Check «السير» isn't needed: I avoided naming the belt and said «تحط الأغراض».",
+  "backtranslation_en": [
+   "You left the full trolley at the checkout and walked out carrying your child, with everyone in the queue watching you?",
+   "The queue is long, and in front of you is the sweets rack. He grabbed one and you told him \"no\", so he dropped to the floor screaming. A woman behind you says \"Give it to him and get it over with\", and the cashier is standing waiting for you.",
+   "You tried to carry him with one hand and pay with the other, and you couldn't. So you left all the shopping and walked out, with every eye on you. The free assessment in the bio helps you know where to start with outings and visits.",
+   "What wore him out wasn't just the sweets. What wore him out is standing in the queue with nothing to do. And here is one game for next time at the checkout.",
+   "Race the cashier: as soon as you reach the belt, tell him \"Can you put the shopping down before the cashier catches you?\" He puts it down one by one, and every time he gets ahead, say \"You beat him!\"",
+   "When he has a job in his hands, the queue becomes a race, and he's the one winning it. And all of this is in the queue you stand in every week anyway, without preparing anything from home.",
+   "And maybe next time you'll leave with the trolley. If you feel that on every outing you carry the shopping and your child together, write: carrier",
+   "Think about the last time you left the shopping and walked out, and what was happening before it in the queue. These details help you build a plan that suits your child. And the free assessment helps you know where to start with outings and visits. The link is in the bio."
+  ],
+  "status": "edited",
+  "edits_en": [
+   {
+    "slide": "s4",
+    "original": "اللي كان صعب عليه الوقوف في الطابور بدون شي يسويه، أكثر من الحلاو نفسه.",
+    "corrected": "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.",
+    "why": "Translated reframe (\"the hard part was X more than Y\"). Said plainly, the way she'd tell her sister."
+   },
+   {
+    "slide": "s5",
+    "original": "أول ما توقفوا في الطابور",
+    "corrected": "أول ما توصلوا عند السير",
+    "why": "Physics: in the queue there is nowhere to put the shopping yet. The race starts when you reach the belt."
+   },
+   {
+    "slide": "s6",
+    "original": "ولما صار عنده شغلة، ما عاد اسمه انتظار. صار سباق، وهو اللي يفوز فيه.\nوكذا الطابور اللي توقفيه كل أسبوع صار مكان يتعلم فيه يستنى، بدون ما تجهزي شي من البيت.",
+    "corrected": "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
+    "why": "Director note + safety: «صار مكان يتعلم فيه يستنى» promised a result for the child. Now it says what she sees (a race he wins) and keeps Belief 8 (it fits the weekly shop). «ما عاد اسمه انتظار» was a translated line; cut."
+   },
+   {
+    "slide": "s7",
+    "original": "اذا حسيتي إنك صرتي تشيلي الأغراض والطفل ونظرات الطابور كلها مع بعض، اكتبي: شيالة",
+    "corrected": "اذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
+    "why": "«تشيلي … نظرات الطابور» is a constructed pun (a joke that needs a second to decode). Plain version; «طفلك» per her hook edit."
+   },
+   {
+    "slide": "s8",
+    "original": "هذي التفاصيل تساعدك تبني خطة تناسبه.",
+    "corrected": "هذي التفاصيل تساعدك تبني خطة تناسب طفلك.",
+    "why": "CTA sameness: her B2 p3 wording."
+   },
+   {
+    "slide": "s8",
+    "original": "التقييم المجاني يساعدك تعرفي",
+    "corrected": "والتقييم المجاني يساعدك تعرفي",
+    "why": "Flows as one spoken run (Part H3)."
+   },
+   {
+    "slide": "s8",
+    "original": "وايش كان يصير قبلها وانتو واقفين في الطابور.",
+    "corrected": "وايش كان يصير قبلها في الطابور.",
+    "why": "Trim filler: slide was 36 words."
+   }
+  ],
+  "safety_flags_en": [
+   "s6 «صار مكان يتعلم فيه يستنى» promised a result for the child (he learns to wait). Rewritten to what she sees; meaning kept (the weekly queue is where the game happens)."
+  ],
+  "questions_for_anhar": [
+   "Sweets at the till: «الحلاو» or «الحلويات»? And the cashier: «الكاشير» or «الكاشيرة» (if you picture a woman)?"
+  ]
+ },
+ {
   "id": "b3p11",
   "conceptId": "c11",
   "title": "Mall hand dryer: 3 moves",
@@ -19,7 +104,7 @@
   ],
   "caption_ar": "غطيتي اذانه في حمام المول وطلعتي بدون ما تنشفي يدينك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات للمرة الجاية، وأولها قبل ما تدخلوا الحمام.",
   "pinned_ar": "الجزء الثاني: لو احد شغل النشافه فجأة وانتو جوا، قولي له بهدوء \"هذي النشافه\" وقربيه من الباب. عشان يعرف ايش الصوت، بدل ما يكون صوت ما يعرف من فين جا.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-  "posting_order": 1,
+  "posting_order": 2,
   "explainer": "Type 2 Same behaviour, different reasons · Belief 7: the same strategy won't work for every child",
   "notes_en": "Slide 1 copied byte-for-byte (it ends with a full stop, not a question mark; kept as you wrote it). Step 2's twist («سوي نفسك انخرعتي») lives inside the step. Unsure whether «انخرعتي / يخرعك» is your area's word for startled; swap for «تفاجأتي» if not. Body care is not a Q14 option, so the soft CTA stays general.",
   "backtranslation_en": [
@@ -86,91 +171,6 @@
   "safety_flags_en": [],
   "questions_for_anhar": [
    "Startled: is «انخرعتي / يخرعك» how you say it, or «تفاجأتي / يفجعك»?"
-  ]
- },
- {
-  "id": "b3p3",
-  "conceptId": "c3",
-  "title": "Checkout: beat the cashier",
-  "format": "slides · F8 Scene + one tool",
-  "slides_ar": [
-   "تركتي العربية مليانة عند الكاشير، وطلعتي شايله طفلك وكل اللي في الطابور يتفرجوا عليكي؟",
-   "الطابور طويل، وقدامكم رف الحلاو.\nمسك وحده وقلتي له \"لا\"، فطاح على الأرض يصيح.\nوحده وراكم تقول \"اعطيه وخلصينا\"، والكاشير واقف يستناكي.",
-   "حاولتي تشيليه بيد وتحاسبي باليد الثانية، وما قدرتي.\nفتركتي الأغراض كلها وطلعتي، والعيون كلها عليكي.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
-   "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.\nوهذي لعبة وحده للمرة الجاية عند الكاشير.",
-   "سابق الكاشير: أول ما توصلوا عند السير، قولي له \"تقدر تحط الأغراض قبل ما يلحقك الكاشير؟\"\nيحطها وحده وحده، وكل ما سبقه قولي \"غلبته!\"",
-   "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
-   "ويمكن المرة الجاية تطلعي والعربية معاكي.\nاذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
-   "فكري في آخر مرة تركتي فيها الأغراض وطلعتي، وايش كان يصير قبلها في الطابور.\nهذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات. الرابط في البايو."
-  ],
-  "soft_lines": [
-   "التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات."
-  ],
-  "caption_ar": "تركتي العربية مليانة عند الكاشير وطلعتي شايله طفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.\nفي الصور لعبة وحده تخلي الطابور سباق، وهو اللي يفوز فيه.",
-  "pinned_ar": "الجزء الثاني: بعد ما تخلصوا من الكاشير، اعطيه كيس خفيف يشيله إلين ما توصلوا السيارة. عشان تكون له شغلة لآخر الطلعة، مو بس عند الكاشير.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات والزيارات.",
-  "posting_order": 2,
-  "explainer": "Type 3 Real-life demonstration · Belief 8: growth fits into ordinary routines",
-  "notes_en": "8 slides: I put the twist and the explainer on one slide (s6) to stay at 8. Comment prompt «شيالة» names her role. «الكاشير» kept masculine; change to «الكاشيرة» if you picture a woman at the till. Soft CTA uses «مع الطلعات والزيارات» because this post's Q14 option is outings/visits. Check «السير» isn't needed: I avoided naming the belt and said «تحط الأغراض».",
-  "backtranslation_en": [
-   "You left the full trolley at the checkout and walked out carrying your child, with everyone in the queue watching you?",
-   "The queue is long, and in front of you is the sweets rack. He grabbed one and you told him \"no\", so he dropped to the floor screaming. A woman behind you says \"Give it to him and get it over with\", and the cashier is standing waiting for you.",
-   "You tried to carry him with one hand and pay with the other, and you couldn't. So you left all the shopping and walked out, with every eye on you. The free assessment in the bio helps you know where to start with outings and visits.",
-   "What wore him out wasn't just the sweets. What wore him out is standing in the queue with nothing to do. And here is one game for next time at the checkout.",
-   "Race the cashier: as soon as you reach the belt, tell him \"Can you put the shopping down before the cashier catches you?\" He puts it down one by one, and every time he gets ahead, say \"You beat him!\"",
-   "When he has a job in his hands, the queue becomes a race, and he's the one winning it. And all of this is in the queue you stand in every week anyway, without preparing anything from home.",
-   "And maybe next time you'll leave with the trolley. If you feel that on every outing you carry the shopping and your child together, write: carrier",
-   "Think about the last time you left the shopping and walked out, and what was happening before it in the queue. These details help you build a plan that suits your child. And the free assessment helps you know where to start with outings and visits. The link is in the bio."
-  ],
-  "status": "edited",
-  "edits_en": [
-   {
-    "slide": "s4",
-    "original": "اللي كان صعب عليه الوقوف في الطابور بدون شي يسويه، أكثر من الحلاو نفسه.",
-    "corrected": "اللي تعبه مو الحلاو بس. تعبه إنه واقف في الطابور وما عنده شي يسويه.",
-    "why": "Translated reframe (\"the hard part was X more than Y\"). Said plainly, the way she'd tell her sister."
-   },
-   {
-    "slide": "s5",
-    "original": "أول ما توقفوا في الطابور",
-    "corrected": "أول ما توصلوا عند السير",
-    "why": "Physics: in the queue there is nowhere to put the shopping yet. The race starts when you reach the belt."
-   },
-   {
-    "slide": "s6",
-    "original": "ولما صار عنده شغلة، ما عاد اسمه انتظار. صار سباق، وهو اللي يفوز فيه.\nوكذا الطابور اللي توقفيه كل أسبوع صار مكان يتعلم فيه يستنى، بدون ما تجهزي شي من البيت.",
-    "corrected": "لما يكون في يده شغلة، الطابور يصير سباق، وهو اللي يفوز فيه.\nوكل هذا في الطابور اللي توقفيه كل أسبوع أصلا، بدون ما تجهزي شي من البيت.",
-    "why": "Director note + safety: «صار مكان يتعلم فيه يستنى» promised a result for the child. Now it says what she sees (a race he wins) and keeps Belief 8 (it fits the weekly shop). «ما عاد اسمه انتظار» was a translated line; cut."
-   },
-   {
-    "slide": "s7",
-    "original": "اذا حسيتي إنك صرتي تشيلي الأغراض والطفل ونظرات الطابور كلها مع بعض، اكتبي: شيالة",
-    "corrected": "اذا حسيتي إنك في كل طلعة تشيلي الأغراض وطفلك مع بعض، اكتبي: شيالة",
-    "why": "«تشيلي … نظرات الطابور» is a constructed pun (a joke that needs a second to decode). Plain version; «طفلك» per her hook edit."
-   },
-   {
-    "slide": "s8",
-    "original": "هذي التفاصيل تساعدك تبني خطة تناسبه.",
-    "corrected": "هذي التفاصيل تساعدك تبني خطة تناسب طفلك.",
-    "why": "CTA sameness: her B2 p3 wording."
-   },
-   {
-    "slide": "s8",
-    "original": "التقييم المجاني يساعدك تعرفي",
-    "corrected": "والتقييم المجاني يساعدك تعرفي",
-    "why": "Flows as one spoken run (Part H3)."
-   },
-   {
-    "slide": "s8",
-    "original": "وايش كان يصير قبلها وانتو واقفين في الطابور.",
-    "corrected": "وايش كان يصير قبلها في الطابور.",
-    "why": "Trim filler: slide was 36 words."
-   }
-  ],
-  "safety_flags_en": [
-   "s6 «صار مكان يتعلم فيه يستنى» promised a result for the child (he learns to wait). Rewritten to what she sees; meaning kept (the weekly queue is where the game happens)."
-  ],
-  "questions_for_anhar": [
-   "Sweets at the till: «الحلاو» or «الحلويات»? And the cashier: «الكاشير» or «الكاشيرة» (if you picture a woman)?"
   ]
  },
  {
@@ -265,7 +265,7 @@
    "فتحتي الباكت كله تدوري له على بسكوتة ما فيها كسر، وأكلتي أنتي المكسور؟",
    "جبتي له بسكوتة، وانكسرت في يده.\nرماها وصاح، وما رضي ياخذ الثانية لأن فيها شق صغير.\nفصرتي تفتحي الباكت كله، وكل المكسور يروح لك.",
    "تخيلي جوالك الجديد، وفي الشاشة كسر صغير.\nيشتغل عادي، بس كل ما مسكتيه، عيونك تروح للكسر.",
-   "وهو يشوف البسكوتة نفس الشي. ما عادت \"بسكوتة فيها كسر\"، صارت \"خربانة\".\nوهذي خطوتين تاخذ ثواني.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
+   "ويمكن هو يشوف البسكوتة نفس الشي. ما عادت \"بسكوتة فيها كسر\"، صارت \"خربانة\".\nوهذي خطوتين تاخذ ثواني.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
    "الخطوة الأولى: قبل ما تعطيه البسكوتة، اسأليه \"نكسرها نصين؟ وحده لك ووحده لي\".\nوخليه هو اللي يكسرها.",
    "الخطوة الثانية: لو انكسرت قبل ما يلحق، لا تقولي له \"نفس الشي\".\nمدي له النصين وقولي \"تكسرها انت أصغر؟\". كذا هو اللي كسرها.",
    "فيه طفل يضايقه الكسر نفسه، وطفل ثاني يضايقه إن غيره اللي كسرها.\nنفس الصياح، بس السبب مو دايما اللي يبان من أول.",
@@ -317,7 +317,15 @@
    }
   ],
   "safety_flags_en": [],
-  "questions_for_anhar": []
+  "questions_for_anhar": [],
+  "director_edits_en": [
+   {
+    "slide": "s4",
+    "original": "وهو يشوف البسكوتة نفس الشي.",
+    "corrected": "ويمكن هو يشوف البسكوتة نفس الشي.",
+    "why": "Test Panel: the metaphor stated what he sees as fact; slide 7 says reasons differ. «يمكن» keeps it a possibility."
+   }
+  ]
  },
  {
   "id": "b3p2",
@@ -580,7 +588,7 @@
    "ينزل من اللعبة وهو يبكي، فصرتي تطلعي من المول من باب ثاني؟",
    "توقف اللعبة، ويمسك فيها ويبكي، والأطفال في الطابور يستنوا دورهم.\nوهذي ثلاث أشياء أغلبنا يسويها في هذي اللحظة، وكل وحدة لها حركة بسيطة.",
    "أول شي: تقولي \"خلاص\" وأنتي تشيليه في نفس الثانية، فيمسك في اللعبة أكثر.\nخليه هو اللي يقول لها \"باي\"، وينزل بنفسه.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "الشي الثاني: يبكي، فتقولي \"طيب مرة وحده بس\"، وبعدها تشوفي الوقت وتقولي \"لا خلاص، تأخرنا\".\nقبل ما يركب، قولي له كم مرة، وعديها معاه على أصابعه.",
+   "الشي الثاني: يبكي، فتقولي \"طيب مرة وحده بس\"، وبعدها تشوفي الوقت وتقولي \"لا خلاص، تأخرنا\".\nولو قلتي \"مرة وحده بس\"، خليها مرة وحده فعلا، حتى لو تأخرتوا شويه.",
    "الشي الثالث: ترجعوا البيت وفي بالك البكا وكل اللي كانوا يتفرجوا، وتنسي ايش صار قبله بثانية.\nاللعبة وقفت فجأة؟ ولا شاف الطفل اللي بعده يقرب؟",
    "وهذي الثانية هي اللي تفرق. لما تعرفيها، تقدري تجهزيه قبل ما توقف اللعبة، بدل ما تلحقي البكا بعد ما يبدأ.",
    "كل مرة تنزلوا من اللعبة فيه ثانية قبل البكا، ومن هذي الثانية تبدأ خطة تناسبه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول. الرابط في البايو."
@@ -630,7 +638,15 @@
    }
   ],
   "safety_flags_en": [],
-  "questions_for_anhar": []
+  "questions_for_anhar": [],
+  "director_edits_en": [
+   {
+    "slide": "s4",
+    "original": "قبل ما يركب، قولي له كم مرة، وعديها معاه على أصابعه.",
+    "corrected": "ولو قلتي \"مرة وحده بس\"، خليها مرة وحده فعلا، حتى لو تأخرتوا شويه.",
+    "why": "Test Panel: counting on fingers is wallpaper; the move now answers this exact mistake (promising one more, then taking it back)."
+   }
+  ]
  },
  {
   "id": "b3p9",
@@ -713,10 +729,10 @@
   "slides_ar": [
    "قبل ما يوصل الأكل قلتي لهم خلوه سفري، وأكلتيه بارد في السيارة؟",
    "طلبتوا، والطاوله اللي جنبكم وصلها أكلها، وهو ينزل من الكرسي ويصيح.\nوهذي ثلاث أشياء تخلي الانتظار أسهل عليه وعليكي.",
-   "أول شي: من اول ما تجلسوا، اطلبي أكله قبل ما تختاري أكلك.\nوقولي لهم \"أكله أول لو سمحت\".\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات.",
+   "أول شي: من اول ما تجلسوا، اطلبي أكله قبل ما تختاري أكلك.\nوقولي لهم \"أكله أول لو سمحت\".\nكذا لما يوصل أكل الطاوله اللي جنبكم، يكون أكله هو بعد جاي.\nالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع الطلعات.",
    "ثاني شي: خليه هو الجرسون، وغلطي انتي في طلبك.\nقولي له مثلا \"أنا طلبت بيتزا صح؟\"، ويصحح لك هو.\nالانتظار أصعب عليه وهو فاضي، وكذا صار عنده شغلة.",
    "ثالث شي: لاحظي متى يبدأ يصيح بالضبط.\nبعد ما يشيلوا المنيو؟ ولا لما يوصل أكل الطاوله اللي جنبكم؟",
-   "ولما تعرفي هذي الدقيقة، تقدري تبدئي لعبة الجرسون قبلها بشويه، بدل ما تبدئيها بعد ما ينزل من الكرسي.\nومن هنا تبدأ الخطة، وتتغير معاه حسب استجابته.",
+   "ولما تعرفي هذي الدقيقة، تقدري تبدئي لعبة الجرسون قبلها بشويه، بدل ما تبدئيها بعد ما ينزل من الكرسي.\nومن هنا تبدأ الخطة.",
    "فكري في آخر مرة طلعتوا تاكلوا برا، وايش صار قبل ما يبدأ يصيح.\nومن هذي اللحظة تبدئي تبني خطة تناسبه.\nوالتقييم المجاني يساعدك تعرفي من فين تبدئي مع الطلعات. الرابط في البايو."
   ],
   "soft_lines": [
@@ -768,6 +784,20 @@
   ],
   "questions_for_anhar": [
    "Waiter: «الجرسون» or «القرسون» (or «الويتر»)? And the restaurant table: «الطاوله» (your spelling for the kitchen counter) or «الطاولة»?"
+  ],
+  "director_edits_en": [
+   {
+    "slide": "s3",
+    "original": "وقولي لهم \"أكله أول لو سمحت\".",
+    "corrected": "وقولي لهم \"أكله أول لو سمحت\".\nكذا لما يوصل أكل الطاوله اللي جنبكم، يكون أكله هو بعد جاي.",
+    "why": "Test Panel: F7 points need her moment; this shows the result in the scene from slide 2."
+   },
+   {
+    "slide": "s6",
+    "original": "\nومن هنا تبدأ الخطة، وتتغير معاه حسب استجابته.",
+    "corrected": "\nومن هنا تبدأ الخطة.",
+    "why": "Test Panel: one belief per post (Type 1 hidden pattern); \"changes with him\" is already in three other posts."
+   }
   ]
  },
  {

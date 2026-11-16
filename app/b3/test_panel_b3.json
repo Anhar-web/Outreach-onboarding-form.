@@ -1,0 +1,968 @@
+[
+  {
+    "id": "b3p11",
+    "posting_order": 1,
+    "reactions": {
+      "skimmer": "Stopped half-way: the wet-hands detail is real, but it reads as a statement, not a question, and the words «اذاني طفل» made me read it twice. If I got past it, slide 2 (hands on his ears) kept me; I'd likely leave after the soft CTA on slide 3.",
+      "cynic": "Making him the one who switches it on and me pretending to jump is not the 50th account, I haven't seen that. Standing at the door and moving 'one step closer next time' sounds like a programme, not a mall trip with three bags.",
+      "cautious": "Honest, no pushing. The CTA says it helps me know where to start, which is all it claims. I trust it, but I don't feel I have to do it today."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 13,
+        "why": "Her cost is real but small (wet hands); ends with a full stop, not the J1 one-question shape, and «اذاني طفل» slows the read."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 12,
+        "why": "Every mother has fled a mall bathroom; the hand-dryer moment is specific and not overused."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 9,
+        "why": "Mild: embarrassment and a wet sleeve, not a sting."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "Inner voice «المرة الجاية نستنى إلين ما نرجع البيت» is hers; «انخرعتي» is flagged as uncertain."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 8,
+        "why": "Steps 1 and 2 take seconds and work with what he wants (control); step 3 is a gradual plan, not tonight."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "No overclaim; s3 states the reason as fact («صوتها عالي، ويجي فجأة») which s7 then says differs by child."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 6,
+        "why": "Edited lines read natural; slide 1 likely has a typo that a native reader will trip on."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 2 flows from the steps cleanly and is useful on its own."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 4,
+        "why": "Soft CTA on s3, final CTA accurate; the 'notice what happened before' close is the same as most of the batch."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Situational, not a routine she repeats; low save value."
+      }
+    ],
+    "total": 76,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 1 (not for us to change, but to confirm): «اذاني طفل» reads as 'my ears, child'; ask Anhar whether it's intended before it's built. A meaning error, not a wording preference.",
+      "Posting order: this is slot 1 (the stronger bet of the pair goes first) but it scores below the checkout post in slot 2. Swap the pair so checkout leads the evening.",
+      "Slide 3: the reason line states why he's scared as fact, then slide 7 says it differs per child. Make slide 3 a possibility so the explainer isn't contradicting it."
+    ]
+  },
+  {
+    "id": "b3p3",
+    "posting_order": 2,
+    "reactions": {
+      "skimmer": "Stopped hard. A full trolley abandoned and everyone in the queue watching is my worst nightmare, and I've lived it. I stayed to slide 3; the tool on slide 5 is where I'd decide.",
+      "cynic": "The woman behind saying 'give it to him and get it over with' is exactly what they say. But the game starts 'as soon as you reach the belt', and in the story he fell apart while we were still in the long queue next to the sweets. Your tool comes in after my problem.",
+      "cautious": "I like that it doesn't promise he'll learn to wait. 'Where to start with outings and visits' is a real option in the assessment, so the CTA is honest. The comment prompt «شيالة» made me smile but I wouldn't comment publicly."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 18,
+        "why": "Public scene, witnesses, her cost (leaves the shopping, carries him out): the winning shape, past tense, one question."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "Checkout + sweets rack + a stranger's comment: near-universal and the untested public lane."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 11,
+        "why": "Shame in the queue lands; slide 3 'every eye on you' keeps it."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "Witness line is native; «شيالة» names her role well."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 7,
+        "why": "Race-the-cashier is game-like and needs nothing from home, but it starts at the belt, after the queue moment the scene showed."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "Q14 match (outings/visits) is accurate; editor removed the 'he learns to wait' promise."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural; «الكاشير» vs «الكاشيرة» open."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 3,
+        "why": "The explainer is squeezed into the twist slide (s6); the belief (growth fits into routines) is said, not shown."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, comment prompt and final CTA each clear and accurate."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Situational; a few saves at most."
+      }
+    ],
+    "total": 85,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 5: the tool begins at the belt, but the scene (s2) breaks down in the queue by the sweets rack. Give him a job from the moment you join the queue, or move the scene so it happens at the belt, so the tool answers the moment shown.",
+      "Slide 6: the explainer is a half-line glued to the twist. Give the Type 3 belief its own beat that follows from the race (this is the queue you're in every week anyway) so it reads as the next thing, not an afterthought.",
+      "Lead the evening with this post instead of the hand-dryer post (see b3p11)."
+    ]
+  },
+  {
+    "id": "b3p1",
+    "posting_order": 3,
+    "reactions": {
+      "skimmer": "Stopped: two hours getting ready and I left before dinner with him screaming on my shoulder. That's every wedding season. I'd swipe to slide 4.",
+      "cynic": "The kisses and 'why is he upset?' are real. But the tool's answer is to go out to the hallway for a few minutes, and the hallway is where I already spent the whole night. And teaching him a two-squeeze code once in the car? Mine doesn't learn a code from one talk.",
+      "cautious": "Honest: 'he may be able to sit longer', not a promise. The CTA is a true Q14 option. The 'door guard' prompt is cute, I'd laugh, not comment."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 18,
+        "why": "Time detail (two hours), body detail (screaming on her shoulder), her cost (missed dinner at her own sister's ملكة). Textbook J1."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "Family occasion with witnesses; very Saudi, not a legacy copy."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 12,
+        "why": "Her own sister's ملكة lifts the stakes; the loss is hers."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "«الحريم حولك», «حارسة الباب», «بين الممر والباب» are her register."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 6,
+        "why": "Code-in-the-car is low-effort, but it is a new skill, not seconds-in-the-moment, and the payoff is the hallway she already lives in."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "«ممكن يجلس أكثر» keeps it honest; CTA accurate."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Reads natural after the edit."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 3,
+        "why": "Type 6 (what happens before) only appears in the final CTA slide, after the comment prompt; it doesn't flow from the tool."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s4, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Low save value."
+      }
+    ],
+    "total": 85,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 5–6: show what the squeeze buys her that she didn't have that night: she steps out early, on his signal, before the screaming, instead of after. Right now the tool reads as 'go to the hallway', which is her complaint.",
+      "Slide 5: one line on how he learns the code (the pinned comment's 'you squeeze first the first few times') belongs on the slide, not only in the comments; it's what makes the cynic believe it.",
+      "Slide 8: move the 'the screaming started long before dinner' observation up next to the tool, so the explainer continues from the tool and the last slide stays pure CTA."
+    ]
+  },
+  {
+    "id": "b3p5",
+    "posting_order": 4,
+    "reactions": {
+      "skimmer": "Stopped, mostly from curiosity: eating all the broken biscuits myself is so specific it's funny. Not urgent, though. I'd go to slide 3 to see the phone line.",
+      "cynic": "The cracked phone screen is a parallel I actually get, not a brain diagram. But slide 4 tells me what he 'sees' as if you know, then slide 7 says the reason is different for each child. Pick one.",
+      "cautious": "It's gentle and the CTA is honest. Breaking it together is something I can do tomorrow at breakfast."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 14,
+        "why": "Specific and her cost is visible (she eats the broken ones), but the cost is small and cute; no body or time pressure."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 13,
+        "why": "The broken-biscuit scream is very common and rarely posted."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 9,
+        "why": "Amused recognition more than relief; low tension."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "«الباكت», «فصرتي تفتحي» are hers."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 8,
+        "why": "Two steps, seconds, work with his need for control."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "No overclaim; s4 states his inner view as fact, softened nowhere."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 2 follows the steps well."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 4,
+        "why": "Soft CTA on s4; final CTA accurate but the same 'notice what happened before' close."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Pinned 'same with toast and bananas' could earn a save."
+      }
+    ],
+    "total": 79,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 4: the metaphor's payoff states what he sees as fact («وهو يشوف البسكوتة نفس الشي»); make it 'maybe', so slide 7's 'different reasons' doesn't undo it.",
+      "Slide 2: give one more beat of her cost (the morning rush, the screaming at the table) so the emotion matches the hook's specificity; right now the stakes stay small.",
+      "This is the F4 dark-ground retest: keep the posting conditions clean (deep ground, ~1 hour after the first post) so the result means something."
+    ]
+  },
+  {
+    "id": "b3p2",
+    "posting_order": 5,
+    "reactions": {
+      "skimmer": "Stopped: I go to my family's gathering to sit with them and end up alone in the other room every week. That's my Friday. I'd read to slide 4.",
+      "cynic": "'You spoiled him' and me answering 'he's tired, he didn't sleep' while he pulls my hand: that's me exactly, nobody posts that. 'Get down to him first, the majlis can wait' is not generic. But it's the same 'step out for a bit and come back' as the ملكة post.",
+      "cautious": "The mistakes are 'what most of us do', so I don't feel blamed. Slide 6 'we organise what you've noticed' sounds like someone selling me a service. The CTA itself is honest."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 16,
+        "why": "Her cost is clear (she loses the visit she came for); time detail ('all of it') but no body detail."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "The weekly جمعة and the 'spoiled' comment are deep recognition."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 11,
+        "why": "The quiet loneliness lands."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 11,
+        "why": "«دلعتيه», «تعبان، ما نام», «شويه ويهدى» are her inner voice."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 8,
+        "why": "Mistakes 1 and 2 are real moves in seconds; mistake 3 is noticing."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "Accurate CTA; s6's «نرتب… ونختار» describes our service in 'we' voice, edging toward a pitch."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural; «ومن هنا نبني الخطة» flows."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 3,
+        "why": "Mistake 3 is the explainer (good), but s6 then adds a service process line; two explainers."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, final CTA connects to the hook."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Low save value."
+      }
+    ],
+    "total": 85,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 6: the 'we organise, we choose one step' line reads as a service pitch after mistake 3 already carried the belief. Fold it into mistake 3 or the CTA, so the explainer is one beat, not two.",
+      "Mistake 2 duplicates the ملكة tool (step out and come back). Since both run in the same batch, make this one about the timing sign she can see in HIM, which is the post's real value.",
+      "Topic sits close to B1's عزيمة: post it on a different evening from the ملكة post (slots 3 and 5 are fine) and don't add another family-gathering post this batch."
+    ]
+  },
+  {
+    "id": "b3p12",
+    "posting_order": 6,
+    "reactions": {
+      "skimmer": "Half-stopped. Carrying his jacket all outing is real in winter, but the cost is mostly on him being cold, not on me. I'd glance at the grandma line and maybe leave.",
+      "cynic": "Grandma saying 'put it on him by force' is exactly my mother-in-law. The flip trick is on every Pinterest board, though, and lay it on the floor where? At the mall door? In the park sand?",
+      "cautious": "Honest, with 'maybe' on the reason. The CTA is accurate. I'd try the flip at home before we leave, not out there."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 13,
+        "why": "Present-habit framing («صرتي تشيلي»), the cost is carrying a jacket; the body detail (cold) is his, not hers."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 13,
+        "why": "Winter jacket fights and grandma's voice are very familiar; timely for November."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 9,
+        "why": "Grandma's pressure gives some tension; it stays mild."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "Grandma line and inner voice are natural; «ثلج» flagged."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 8,
+        "why": "Two clear one-action steps, seconds; the floor setup is awkward outside."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 10,
+        "why": "«يمكن» on the reason; CTA accurate."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 2 follows from step 2 naturally ('if he takes it off again, that's another piece of information')."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 4,
+        "why": "Soft CTA on s4; final CTA accurate."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 2,
+        "why": "A how-to trick parents save."
+      }
+    ],
+    "total": 80,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 5: set the flip where she already is before going out (the house floor or the car seat, as the notes ask), not 'in front of him' mid-outing; that's the cynic's first question.",
+      "Slides 2–3: the two voices make grandma the antagonist and stop after slide 3; bring her inner voice back once near the tool so the F3 format carries through, and keep the cost on HER (her arms, her embarrassment in front of his grandmother).",
+      "Hold this post for a cold evening in the plan: its recognition depends on the weather that week."
+    ]
+  },
+  {
+    "id": "b3p10",
+    "posting_order": 7,
+    "reactions": {
+      "skimmer": "Stopped instantly: cutting his nails asleep by the phone flashlight is so exact it's almost funny. I'd read to the first step.",
+      "cynic": "Him 'cutting' my nails first with the clippers closed is something I haven't seen; I'd try it. But this is supposed to be a list with a story per point, and it's just three steps; it reads like every other walk-through.",
+      "cautious": "It names a goal ('start cutting them while he's awake') without promising it. 'One hand today is enough' feels kind. The CTA is honest."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 17,
+        "why": "Night, phone flashlight, tiptoeing: strong body/time detail; this is the one «ما تقدري… إلا» dark-ground test, still unproven."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "Nail cutting asleep is a near-universal secret."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 10,
+        "why": "Relief more than sting; slide 2's 'the rest tomorrow' lands."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "«على أطراف أصابعك», «الباقي بكره» are hers; «القراضة» flagged."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 9,
+        "why": "Three single actions, seconds, game-like, work with his need for control."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 10,
+        "why": "Safe (clippers closed), no promise; CTA accurate."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 8 flows from step 3 ('next time maybe both hands'); clear."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 2,
+        "why": "Practical routine: likely saved."
+      }
+    ],
+    "total": 88,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Format label: it's tagged F7 benefits but has no second-person story inside each point, so it's structurally F5. Either add a one-line moment to each step or relabel it, or the F7 test won't be readable.",
+      "Slide 2: the count line sits under the scene, as F7 asks; keep slide 2 short so the dark-ground «ما تقدري» test isn't diluted by a crowded second slide.",
+      "Keep this on a deep/night ground at a clean time: it's the batch's one experiment and the data only counts under those conditions."
+    ]
+  },
+  {
+    "id": "b3p6",
+    "posting_order": 8,
+    "reactions": {
+      "skimmer": "Stopped: on the floor all afternoon between them, and the one minute I get up, the tower falls. That's my afternoon. I'd read to the move.",
+      "cynic": "The sister crying 'I didn't mean it' broke me a little. The photo idea is new. But 'give him your phone' and walk to the kitchen? Getting my phone back is a second fight in my house.",
+      "cautious": "It's honest and kind to both children. The CTA describes what the assessment does (pick the situation, get a first step) almost word for word. I'd trust it."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 17,
+        "why": "Time detail (all afternoon), body detail (on the floor), her cost (she can't leave for a minute)."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 13,
+        "why": "Sibling knock-overs are universal; the pot-on-the-stove detail is real."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 12,
+        "why": "Both children upset and her caught in between: the strongest emotion in the batch."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 11,
+        "why": "«العصريه», «القدر اللي على النار», «ما قصدت» are hers."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 7,
+        "why": "Seconds, before she gets up; but handing over her phone creates a new transition many of these children struggle with."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 10,
+        "why": "Accurate CTA (the truth sheet's own building block); no blame on the sister."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 3 is well done ('this trick came from one observation')."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s4, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Low save value."
+      }
+    ],
+    "total": 87,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 5: the phone handover is the cynic's objection. Address getting the phone back in one line (he takes the photo while you hold it, or the photo is taken before she stands), so the tool doesn't create a second meltdown.",
+      "Slide 6: the explainer says 'a reason that isn't clear at first' but the observation (the tower was gone before he finished) is already clear; tie it to what she'd notice next time so it doesn't read as general.",
+      "Slide 7: the CTA asks her to think of 'the screaming between them'; this is the only sibling post, so it can carry the Q14 anger option if Anhar wants a named situation."
+    ]
+  },
+  {
+    "id": "b3p8",
+    "posting_order": 9,
+    "reactions": {
+      "skimmer": "Not sure. 'He gets off the ride crying, so now you leave the mall by another door' took me a second: why another door? I'd probably keep scrolling.",
+      "cynic": "The kids queueing for their turn is real. 'Tell him how many times before he gets on and count them on his fingers' is every countdown tip I've already tried. And each mistake says 'you do this', not 'we'.",
+      "cautious": "Honest CTA, no claims beyond 'where to start'. But I don't feel a reason to tap."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 12,
+        "why": "Present tense habit, and the cost (another door) needs decoding; no body or time detail on her."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 11,
+        "why": "Mall rides are common, but the avoidance move in the hook is less universal."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 9,
+        "why": "Little sting; the witnesses come in slide 2, not slide 1."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 9,
+        "why": "Lines are hers, but the mistakes speak in 'you' («تقولي… تشيليه») which reads closer to blame than the «أغلبنا» frame."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 7,
+        "why": "Saying bye himself is good; counting rides is generic advice she's heard."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "No overclaim; mild blame risk in the 'you' mistakes."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural; s3 is dense with the soft CTA (~36 words)."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Mistake 3 is the explainer (Type 6) and flows into s6."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 4,
+        "why": "Soft CTA on s3; final CTA accurate but formulaic."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 1,
+        "why": "Low save value."
+      }
+    ],
+    "total": 73,
+    "gate": "pass",
+    "lukewarm": true,
+    "push_higher": [
+      "Lukewarm: the edge went into the hook's detour (another door) instead of the moment itself (him clinging to the ride with a queue of kids and their mothers watching). Slide 2 has the edge; we can't touch slide 1, so make slide 2 land the cost on HER in one beat, early.",
+      "Mistakes 1–3: write each mistake as 'what most of us do' (the جمعة post's «نـ» voice), with her moment in second person, so it reads as normal, not as her fault.",
+      "Mistake 2: the count-on-fingers move is wallpaper. Find the move that fits the 'one more time, then taking it back' moment specifically (what she does at the second ride, not before the first)."
+    ]
+  },
+  {
+    "id": "b3p9",
+    "posting_order": 10,
+    "reactions": {
+      "skimmer": "Stopped: I haven't said 'no' in a month and the biscuits are on top of the wardrobe. Guilty laugh. I'd read the checklist.",
+      "cynic": "Hiding food and opening the fridge when he can't see: someone actually gets it. 'Put the packet back first, then answer' is new and tiny. 'Say it while walking him to something else he loves' is the redirection everyone says.",
+      "cautious": "Slide 2 says he only stopped when I gave him the biscuit; it's true and not judgy. The CTA says it shows the strengths in my approach and what to organise, which is exactly what it does. I trust this one."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 17,
+        "why": "Time detail (a month), physical detail (biscuits on top of the wardrobe), her cost (she lives around 'no')."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "Avoiding 'no' is a secret most mothers keep."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 11,
+        "why": "Guilt plus relief."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "«طفشان», «فوق الدولاب», «وهو مو شايفك» are natural; «طفشان» flagged."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 7,
+        "why": "Item 2 is excellent; item 3 is generic redirection; item 1 is notice-only."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 10,
+        "why": "The most accurate CTA in the batch (strengths + what to organise)."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 4 stated almost verbatim on s7; reads a little like a slogan."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 2,
+        "why": "Checklist format gets saved."
+      }
+    ],
+    "total": 87,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Item 3 (slide 6): 'walk with him to something else he loves' is the redirection she's heard; give the move that fits the 'no' moment specifically, the way item 2 does.",
+      "Slide 7: the belief «معلومة، مو شكوى» is also stated in the جمعة post; show it here through her own noticing (what she now knows about the packet in her hand) instead of saying the phrase again.",
+      "Biscuits are also the prop in the biscuit post: keep them on different evenings, and consider whether this one's 'no' can be about something other than food."
+    ]
+  },
+  {
+    "id": "b3p4",
+    "posting_order": 11,
+    "reactions": {
+      "skimmer": "Stopped: I told them to make it takeaway and ate it cold in the car. Who hasn't. I'd read to the waiter game.",
+      "cynic": "Ordering his food first is so obvious nobody says it, and it works. The waiter game is fun, if he talks; mine would just stare. The 'notice exactly when' point is good.",
+      "cautious": "Honest, no promises. 'Where to start with outings' is true. I'd try point 1 this weekend."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 18,
+        "why": "Her cost (cold food in the car), time detail (before the food came), public scene."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 13,
+        "why": "Restaurant waits are common; not a copy of the legacy chase post."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 10,
+        "why": "Defeat lands; the next table's food is a sharp detail."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 10,
+        "why": "«الطاوله اللي جنبكم», «أكله أول لو سمحت» natural."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 9,
+        "why": "Point 1 takes seconds and is very real; the waiter game assumes he can talk."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 9,
+        "why": "Accurate CTA; s6 adds 'changes with him' (Type 8) to a Type 1 post."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural; «الجرسون» flagged."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 3,
+        "why": "Two beliefs in s6 (the hidden minute + the plan changes)."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 2,
+        "why": "Point 1 is save-worthy."
+      }
+    ],
+    "total": 86,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Slide 6: keep one belief. It's a Type 1 'hidden pattern' post; drop the 'changes with him' half (three other posts already carry it) so the minute-before idea lands alone.",
+      "Slide 4: add a non-talking version of the waiter game in one clause (he shakes his head, or points to the right picture on the menu), so it works for children who don't speak yet.",
+      "F7 benefits: points 1–3 have no short second-person moment each; add one line of her moment per point or the F7 test reads as a checklist."
+    ]
+  },
+  {
+    "id": "b3p7",
+    "posting_order": 12,
+    "reactions": {
+      "skimmer": "Stopped: months of losing on purpose, and now his sister asks why he always wins. That question stings. I'd read the steps.",
+      "cynic": "Real cards thrown, 'Cheat!', the sister quietly watching: that's my living room. 'Let him see you lose' is the sportsmanship tip I've read before, but short rounds and 'let him say again' are new and realistic.",
+      "cautious": "«الخطة الحية» is named once and explained in a plain way (it changes with him). It doesn't push. The CTA is honest."
+    },
+    "scores": [
+      {
+        "item": "Scroll-stop",
+        "weight": 20,
+        "score": 16,
+        "why": "Time detail (months), her cost doubled by the sister's question; no body detail."
+      },
+      {
+        "item": "Recognition",
+        "weight": 15,
+        "score": 14,
+        "why": "Losing on purpose is common and rarely admitted."
+      },
+      {
+        "item": "Emotion",
+        "weight": 13,
+        "score": 12,
+        "why": "The sister's fairness question creates real tension and self-reflection."
+      },
+      {
+        "item": "Her own words",
+        "weight": 12,
+        "score": 11,
+        "why": "«بعمد», «ذيك المرة», «دحين» are hers."
+      },
+      {
+        "item": "Value she can use tonight",
+        "weight": 10,
+        "score": 7,
+        "why": "Steps 2 and 3 are strong; step 1 (model losing) is familiar advice."
+      },
+      {
+        "item": "Trust & safety + CTA truth (GATE)",
+        "weight": 10,
+        "score": 10,
+        "why": "No overclaim; «الخطة الحية» once, accurately."
+      },
+      {
+        "item": "Arabic naturalness",
+        "weight": 8,
+        "score": 7,
+        "why": "Natural."
+      },
+      {
+        "item": "Explainer extension",
+        "weight": 5,
+        "score": 4,
+        "why": "Type 8 flows from step 3 well; slightly pitchy with the name."
+      },
+      {
+        "item": "Next step",
+        "weight": 5,
+        "score": 5,
+        "why": "Soft CTA on s3, final CTA clear."
+      },
+      {
+        "item": "Save/share",
+        "weight": 2,
+        "score": 2,
+        "why": "Practical; likely saved."
+      }
+    ],
+    "total": 88,
+    "gate": "pass",
+    "lukewarm": false,
+    "push_higher": [
+      "Step 1 (slide 4): 'let him see you lose' is the familiar sportsmanship tip; make the twist live inside the step (what she says, when) the way steps 2–3 do.",
+      "Slide 7: the sister appears in the hook and in the explainer but never in a step; let one step include her (the pinned comment's idea), so the hook's sting gets an answer on the slides.",
+      "Q14: this is an anger/outburst moment; the final CTA could name it if Anhar wants a matched situation."
+    ]
+  },
+  {
+    "id": "ranking",
+    "order": [
+      "b3p10",
+      "b3p7",
+      "b3p6",
+      "b3p9",
+      "b3p4",
+      "b3p3",
+      "b3p1",
+      "b3p2",
+      "b3p12",
+      "b3p5",
+      "b3p11",
+      "b3p8"
+    ],
+    "batch_notes": "The hooks are the strongest set yet: 9 of 12 carry her cost with a body or time detail, and the public/family scenes (checkout, ملكة, جمعة, restaurant) finally test the legacy lane. The weakest format is F7: the two F7 benefits posts (nails, restaurant) have no second-person story inside each point, so they read as F5/F6 and the F7 test won't be readable, and the ride post (F7 mistakes) is the one lukewarm post. Every final CTA (12 of 12) uses the same 'notice what happened before' + 'these details help you build a plan that suits him' shape; it's accurate and on-brief, but by the third post on the same evening she'll skim it. Repeated across posts: 'step out for a bit and come back' (ملكة and جمعة), biscuits (two posts), «معلومة، مو شكوى» (two), 'changes with him / حسب استجابته' (three), and «خليه هو اللي» as the core move in five. All 12 pass the gate; the only flag before building is the hand-dryer slide 1 «اذاني طفل», which needs Anhar to confirm it's intended."
+  }
+]
