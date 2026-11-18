@@ -660,3 +660,13 @@ Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · h
 - **F4 parallel story** re-tested on a dark ground (biscuit).
 - **One «ما تقدري … إلا» hook** on a dark ground (nails).
 - **Posting:** 6 evenings × 2, 7:15 and 8:15 PM. Order is in Airtable → Posts.
+
+# PART N: PLANNED FOR BATCH 4 (Anhar, Nov 18). Read before the next brief
+- **Custom CTAs.** The Batch 3 CTAs all say roughly "take the assessment to learn where to start." Anhar has a method in progress for CTAs specific to each post's problem. Ask her for it before writing any copy.
+- **QR code test (she calls it a "barcode").** On the last slide, a QR code goes straight to the Living Plan page for the post's situation (the site serves one page per situation, e.g. transitions or bedtime). She creates the links and the codes.
+  - Place the code big enough to scan from a screenshot, on the gold end slide.
+  - Add one enticing, non-salesy line.
+  - Label the QR posts so they can be compared with link-in-bio-only posts.
+  - Ask her for tagged links (e.g. `?src=tiktok&post=…`).
+  - It worked for her before she reached 1,000 followers.
+- **New landing page.** It's being rebuilt in another chat and should be done before Batch 4. Re-read it and update `assessment_truth.md` before writing CTAs.
