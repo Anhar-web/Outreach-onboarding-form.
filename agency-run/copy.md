@@ -502,3 +502,9 @@ Source: `source/curriculum_answers_v2.md` (client). Stages, no weeks or dates. T
 - Time objection: each step is tied to something she already does, and no step takes more than 10 minutes.
 - Light wording fixes to the client draft: «موجهة لك» → «يطلب منك… مو بس يسحب يدك»; «الأكل الآمن» → «أكلاته المعروفة»; «التسليم» → «إطفاء الآيباد»; «صوت أقل» → «هدوء أكثر».
 - §C items (timeline per area, days to first plan, direct messaging, background/numbers, dates/founding price) are NOT on the page.
+
+## ROUND 4: client cards + headlines (applied)
+- Source: `source/cards_and_headlines_v1.txt` (client). The stage cards and the headlines are hers, verbatim, apart from these typo fixes: «الخارجه» → «الطلعة», «يجربه» → «يجربها», «اهلك» → «أهلك», «اطفائه / اطفاء الايباد» → «إطفائه / إطفاء الآيباد», «يومكم ما يكون» → «يومكم وما يكون», and double spaces removed.
+- The hero subheadline is now set per situation (FOCUS[x].sub). The subheadlines by weakest area (SUBS) are only a fallback now.
+- Headline rule: no line ends with a comma. Each comma in a headline became a line break (<br>), the comma was removed, and the headline ends with a full stop. The last two words of each line are kept together so no single word ends up alone on a line.
+- اتجاه النمو is now «اتجاه النمو (مثال)», with the line «هذي أمثلة. اتجاه النمو لطفلك يتحدد من إجاباتك على الأسئلة، ويختلف من طفل لطفل، وما يمشي بجدول.»
