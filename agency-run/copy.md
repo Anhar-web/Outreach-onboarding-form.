@@ -490,3 +490,15 @@ Numbers in Arabic-Indic digits. No countdown, no "spots left".
 
 ### Client edits via preview comments (applied)
 - Reframe: «أغلب النصائح مكتوبة بشكل عام، مو لكل طفل.» · hero price micro-line removed · food problem «وأي أكل جديد تحطيه في صحنه يرفضه.» · price block «مو اشتراك في نصائح. هي» removed · no sessions/specialists/autism anywhere (brief §16) · objection 1 «بالضبط» removed · objection 3 «ما في وعد» · FAQ «كيف تكون الخطة مناسبة لطفلي، والمتابعة كلها أونلاين؟» · invite button «اعرفي أكثر عن الخطة الحية» · FAQ «كيف ألغي الاشتراك؟» removed (waitlist page, not checkout).
+
+---
+
+## ROUND 3: CURRICULUM (built on live v7, Nov 2026)
+Source: `source/curriculum_answers_v2.md` (client). Stages, no weeks or dates. The full Arabic lives in the `CURRICULUM` object in index.html (one entry per focus, plus the default).
+- New section «خطتك في [area]، مرحلة بعد مرحلة», placed after the reframe. It has 3 stages (أول شي / بعدها / وبعدها), an «اتجاه النمو» list of 5 observable signs (the last one is about her day), and the line «الترتيب والخطوات مبنية على طفلك أنتي».
+- Lede: «ما في جدول ثابت يمشي على الكل. كل أسبوعين، الخطوة الجاية لطفلك تتحدد من اللي صار في بيتكم.»
+- «ايش يوصلك كل أسبوعين» now lists the real plan parts: ابدأي من هنا، الفكرة، اتجاه النمو، الخطة (٤ إلى ٧ خطوات، ولا خطوة أكثر من ١٠ دقايق)، ايش يعتبر تقدم، وإذا جا يوم صعب.
+- How it works: ~20 min and ~15 min questions, the plan by email with a same-day step, a 7-question check-in where she decides the next focus and her energy sets how heavy the next plan is, and each plan built from her last two weeks.
+- Time objection: each step is tied to something she already does, and no step takes more than 10 minutes.
+- Light wording fixes to the client draft: «موجهة لك» → «يطلب منك… مو بس يسحب يدك»; «الأكل الآمن» → «أكلاته المعروفة»; «التسليم» → «إطفاء الآيباد»; «صوت أقل» → «هدوء أكثر».
+- §C items (timeline per area, days to first plan, direct messaging, background/numbers, dates/founding price) are NOT on the page.

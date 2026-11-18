@@ -547,6 +547,24 @@ body.cap-on .lp-nav{top:34px}
 .wl-thanks-actions{display:grid;gap:10px;margin-top:6px}
 .confetti{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:60}
 
+
+/* curriculum: stages + direction of growth */
+.lp-lede.lp-maxp{margin-inline:auto;max-width:52ch}
+.lp-stages{list-style:none;padding:0;margin:26px auto 0;max-width:900px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:st}
+.lp-stage{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--teal);border-radius:16px;padding:18px 18px 16px}
+.lp-stage-k{display:inline-block;font-family:"El Messiri";font-weight:700;font-size:12.5px;color:var(--gold-deep);background:rgba(201,147,90,.14);border-radius:999px;padding:2px 11px;margin-bottom:8px}
+.lp-stage h3{font-family:"El Messiri";font-weight:700;color:var(--sea);font-size:17px;margin:0 0 6px;line-height:1.45}
+.lp-stage p{margin:0;font-size:14.5px;color:var(--ink-soft);line-height:1.85}
+@media(max-width:760px){.lp-stages{grid-template-columns:1fr;max-width:520px}}
+.lp-growth{max-width:620px;margin:22px auto 0;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:20px 20px 14px}
+.lp-growth h3{font-family:"El Messiri";font-weight:700;color:var(--sea);font-size:17px;margin:0 0 4px}
+.lp-growth-sub{margin:0 0 10px;font-size:13.5px;color:var(--ink-faint);line-height:1.8}
+.lp-growth ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.lp-growth li{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--ink);line-height:1.8}
+.lp-growth li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--teal);flex:none;margin-top:10px}
+.lp-growth li.lp-her{color:var(--sea);font-weight:600}
+.lp-growth li.lp-her::before{background:var(--gold)}
+
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.001s!important;transition-duration:.001s!important}
 }
@@ -564,8 +582,8 @@ body.cap-on .lp-nav{top:34px}
 const CONFIG = {
   endpoint: "https://script.google.com/macros/s/AKfycbx0O057Orb8P9X1-dunAi2xghOABQSMliPoJSH-AJZHV1U2sqpYlL1l2PZuz12DzA5B/exec", // Apps Script relay → Airtable
   waitlistUrl: "https://forms.gle/kvukC88bbAB6Wqi96", // LEGACY, unused: the waitlist is now the on-page form (see submitWaitlist)
-  waitlistEndpoint: "",      // on-page waitlist form posts here (JSON, text/plain). Empty = nothing is sent yet. Airtable relay URL goes here.
-  whatsappGroupUrl: "",      // WhatsApp waitlist group invite link, shown on the thank-you screen. Empty = placeholder.
+  waitlistEndpoint: "https://script.google.com/macros/s/AKfycbx0O057Orb8P9X1-dunAi2xghOABQSMliPoJSH-AJZHV1U2sqpYlL1l2PZuz12DzA5B/exec", // on-page waitlist form → same Apps Script relay (Airtable)
+  whatsappGroupUrl: "https://chat.whatsapp.com/EehrwSzKTz56o6YIc2QSR9?s=cl&p=a&mlu=4&ilr=4", // WhatsApp waitlist group, shown on the thank-you screen
   capacity: 10,              // first-batch places, shown in the top bar
   waitlistCount: null,       // manual waitlist count for now (later fetched from Airtable). null or < capacity = capacity-only text.
   captureLeadOnStart: false  // false = save on finish. true = also save on start (relay upserts by id).
@@ -618,6 +636,68 @@ const FOCUS = {
       problem:'نفس المواقف تتكرر كل يوم. تجربي نصيحة من مقطع، وطريقة من حساب ثاني، وبعد كم يوم ترجعي لنفس النقطة. وكل مرة تبدأي من الصفر.',
       invite:'تخيلي يكون عندك خطة واضحة للموقف اللي يشغلك، تعرفي فيها خطوتك الجاية وما تبدأي من الصفر كل مرة.' }
 };
+
+
+/* ============================================================
+   CURRICULUM per focus area (edit the Arabic here by hand)
+   area   = name of the area as it appears in the section title
+   stages = 3 stages of work, in order, no dates: [title, one line]
+   growth = اتجاه النمو: observable signs (last one is about HER day)
+   ============================================================ */
+const CURRICULUM = {
+  A:{ area:'وقت النوم',
+      stages:[['نرتب الساعة اللي قبل النوم','ترتيب ثابت كل ليلة، حركة بدري في اليوم، وهدوء أكثر آخر الليل.'],
+              ['نثبت الوقت والمكان','نفس البداية كل ليلة، ونفس الطريقة مع أي أحد ينومه.'],
+              ['القيام بالليل والليالي الصعبة','رد جاهز لما يقوم، وخطة لليلة اللي يخرب فيها كل شي.']],
+      growth:['التحضير للنوم يمشي بنفس الخطوات كل ليلة','ينام في سريره هو','يقوم بالليل أقل من قبل','الوقت من «يلا ننام» لين ينام يقصر','الساعة اللي قبل النوم ما عادت أصعب ساعة في يومك'] },
+  B:{ area:'الطلعات والزيارات',
+      stages:[['نبدأ بالمكان الأسهل','زيارة قصيرة، لمكان يعرفه، ووقت طلعة متفق عليه.'],
+              ['نطول الوقت ونوسع الأماكن','أماكن أقل ألفة، ناس أكثر، ووقت أطول.'],
+              ['المناسبات الطويلة','والأماكن اللي ما تقدري تتحكمي فيها، والرد لما يتعب في نصها.']],
+      growth:['يدخل المكان بدون ما يوقف وقت طويل عند الباب','يقعد في المناسبة وقت أطول قبل ما يطلب يرجع','يقول إنه تعب بطريقة متفقين عليها، بدل ما ينهار','الطلعة من المكان صارت أسهل من قبل','ما عدتي ترتبي يومك على أساس تتجنبي الطلعات'] },
+  C:{ area:'التواصل',
+      stages:[['نفتح له مواقف يطلب فيها','ما تسبقيه للي يبغاه، وتعطيه لحظة يطلب قبل ما تعطيه.'],
+              ['ننقلها لناس ثانية','أبوه، جدته، أي أحد حوله، بنفس الطريقة.'],
+              ['يبدأ هو','حتى في المواقف اللي يكون فيها تعبان أو متضايق.']],
+      growth:['يطلب منك اللي يبغاه بكلمة أو إشارة، مو بس يسحب يدك','يبدأ هو الكلام أو الإشارة، مو بس يرد','يحاول مرة ثانية إذا ما فهمتيه من أول مرة','الكلمات أو الإشارات اللي يستخدمها لحاله تزيد','صرتي تعرفي إنه تعبان قبل ما يبكي'] },
+  D:{ area:'الأكل',
+      stages:[['نبدأ من أكلاته المعروفة','الطاولة وجو الأكل، قبل الأكل نفسه.'],
+              ['نقرب الجديد بدون ما نطلب منه ياكله','موجود قدامه، يشوفه، يلمسه، بدون ضغط يذوقه.'],
+              ['الذوق، والأكل برا البيت','بيت الأهل، والمدرسة، والمطعم.']],
+      growth:['يقعد على الطاولة والأكل الجديد قدامه، حتى لو ما أكله','يلمسه أو يقربه من وجهه','الأكلات اللي يقبلها تزيد، ولو وحدة','وقت الأكل يخلص بدون معركة','ما عدتي تطبخي وجبتين'] },
+  E:{ area:'الانتقال وإطفاء الآيباد',
+      stages:[['نخلي النهاية متوقعة','وقت معروف، تنبيه ثابت، وشي جاهز بعدها.'],
+              ['نوحد الطريقة بين الكبار','وننقلها لانتقالات ثانية في يومه.'],
+              ['الانتقال الأصعب','ولحظة الرفض لما تصير رغم كل شي.']],
+      growth:['يسمع التنبيه ويكمل بدون توتر','يوقف بنفسه، حتى لو بعد تردد','الرفض صار أقصر من قبل','يرجع لحاله أسرع بعد الانتقال الصعب','لحظة إطفاء الآيباد ما عاد فيها جدال كل مرة'] },
+  F:{ area:'الغضب والانفعال',
+      stages:[['نخفف حمل يومه','النوم، والحركة، والشاشات، ويوم متوقع أكثر.'],
+              ['نشوف العلامة قبل الانفجار','ونعطيه طريقة يعبر فيها قبلها.'],
+              ['اللحظة نفسها، والرجوع بعدها','رد ثابت، وطريقة ترجعوا فيها لبعض.']],
+      growth:['تشوفي علامة عليه قبل ما ينفجر','يعبر بكلمة أو إشارة قبل ما يوصل للصراخ','الانفجار صار يخلص أسرع','يرجع لحاله بدون ما ياخذ اليوم كله','تحسي إن الموقف جاي قبل ما يصير'] },
+  default:{ area:'يومكم',
+      stages:[['نبني وقت ثابت بدون طلبات','وقت كل يوم تكونوا فيه مع بعض، يرتاح عليه يومكم كله.'],
+              ['نمسك النمط','ايش اللي يخلي اليوم الحلو حلو، ونكرره بقصد.'],
+              ['نختار التحدي اللي يستاهل','ونشتغل عليه بخطة خاصة فيه.']],
+      growth:['في وقت كل يوم تكونوا فيه مع بعض بدون طلبات','يومه صار متوقع أكثر','يطلب منك أشياء أكثر من قبل','المواقف الصعبة في اليوم صارت أقل','صار في وقت في يومك لنفسك'] }
+};
+const STAGE_LABELS = ['أول شي','بعدها','وبعدها'];
+function curriculumHTML(key){
+  const c = CURRICULUM[key] || CURRICULUM.default;
+  const g = c.growth.map((t,i)=>`<li class="${i===c.growth.length-1?'lp-her':''}"><span>${t}</span></li>`).join('');
+  return `
+      <h2 class="lp-h lp-center">خطتك في ${c.area}، مرحلة بعد مرحلة</h2>
+      <p class="lp-lede lp-center lp-maxp">ما في جدول ثابت يمشي على الكل. كل أسبوعين، الخطوة الجاية لطفلك تتحدد من اللي صار في بيتكم.</p>
+      <ol class="lp-stages">
+        ${c.stages.map(([t,d],i)=>`<li class="lp-stage"><span class="lp-stage-k">${STAGE_LABELS[i]}</span><h3>${t}</h3><p>${d}</p></li>`).join('')}
+      </ol>
+      <div class="lp-growth">
+        <h3>اتجاه النمو</h3>
+        <p class="lp-growth-sub">علامات إن الخطة ماشية في الاتجاه الصح. مو جدول، ومو لازم تجي بالترتيب.</p>
+        <ul>${g}</ul>
+      </div>
+      <p class="lp-pull lp-pull-c">الترتيب والخطوات مبنية على طفلك أنتي.</p>`;
+}
 
 const SUBS = {
   0:'خطة شخصية مبنية على يوم طفلك كامل، تشوفي فيها ايش يتكرر قبل الموقف، وتتعدل كل أسبوعين حسب استجابته، وتكوني مستعدة للموقف قبل ما يجي، بدل ما يفاجئك كل مرة.',
@@ -870,7 +950,6 @@ const OUTCOME = { heading:"التغيير اللي تبغي تشوفيه", line:
 const LIVING_PLAN = {
   headline:"عرفتي نقطة البداية. ايش الخطوة الجاية؟",
   what:"الخطة الحية خطة شخصية مبنية على يوم طفلك كامل، تركز على تحدي واحد، وتتعدل كل أسبوعين حسب استجابته.",
-  note:"نتيجتك تبقى لك، سواء كملتي أو لا.",
   button:"اعرفي أكثر عن الخطة الحية"
 };
 
@@ -893,10 +972,18 @@ const UI = {
   foot:"مدار البيت"
 };
 
+/* GATE — asked AFTER the last question, before the result (NEW screen; review this copy). */
+const GATE = {
+  eyebrow:"خطوة أخيرة",
+  head:"نتيجتك جاهزة",
+  sub:"اكتبي اسمك وإيميلك وشوفي نتيجتك والخطوة المقترحة لطفلك.",
+  button:"اعرضي نتيجتي"
+};
+
 /* ============================================================
    STATE
    ============================================================ */
-const state = { id:null, name:"", email:"", optin:true, idx:0, answers:{}, sent:false, lpPinged:false, wlPinged:false,
+const state = { id:null, name:"", email:"", optin:true, idx:0, answers:{}, sent:false, sentAnon:false, sentContact:false, lpPinged:false, wlPinged:false,
   done:false, r:null, ctx:null, view:null, wlDone:false, wlName:"", wlEmail:"", wlId:null };
 
 /* On-page waitlist (R7) + thank-you (R8) copy */
@@ -945,30 +1032,16 @@ function renderWelcome(){
       ${WELCOME.facts.map(f=>`<li><span class="dot">${SVG.dot}</span><span>${f}</span></li>`).join('')}
     </ul>
     <div class="reveal">
-      <div class="field" id="f-name"><label>${UI.nameLabel}</label>
-        <input id="in-name" type="text" autocomplete="name" placeholder="${UI.namePh}">
-        <div class="err">${UI.nameLabel} مطلوب.</div></div>
-      <div class="field" id="f-email"><label>${UI.emailLabel}</label>
-        <input id="in-email" type="email" inputmode="email" autocomplete="email" placeholder="${UI.emailPh}">
-        <div class="err">${UI.emailErr}</div></div>
-      <button class="btn btn-teal btn-wide" style="margin-top:20px" id="start-btn">${WELCOME.button}${SVG.arrow}</button>
+      <button class="btn btn-teal btn-wide" style="margin-top:22px" id="start-btn">${WELCOME.button}${SVG.arrow}</button>
     </div>
     ${WAVES}`;
   mount(s);
   $('#start-btn').addEventListener('click', onStart);
-  [$('#in-name'),$('#in-email')].forEach(i=>i.addEventListener('keydown',e=>{if(e.key==='Enter')onStart();}));
   observeReveals();
 }
 
 function onStart(){
-  const name = $('#in-name').value.trim();
-  const email = $('#in-email').value.trim();
-  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  $('#f-name').classList.toggle('invalid', !name);
-  $('#f-email').classList.toggle('invalid', !emailOk);
-  if(!name || !emailOk) return;
-  state.name = name; state.email = email; state.id = uid();
-  if(CONFIG.captureLeadOnStart) sendToSheet({action:'start', status:'started', id:state.id, name, email, startedAt:new Date().toISOString()});
+  state.id = uid();   // stable id for this session; name + email are asked after the last question
   state.idx = 1;
   renderQuestion();
 }
@@ -1101,10 +1174,52 @@ function computeResults(){
    ============================================================ */
 function finish(){
   const r = computeResults();
-  sendResults(r);
+  state.r = r;
+  sendComplete(r, false);   // anonymous complete: lets her see who finished but didn't leave contact
+  renderGate(r);
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+/* GATE — name + email, asked AFTER the last question and BEFORE the result. */
+function renderGate(r){
+  state.view = 'gate';
+  const s = el('section','screen');
+  s.innerHTML = `
+    ${brandHeader()}
+    <div class="reveal">
+      <div class="eyebrow">${SVG.ripple('rp')}<span>${GATE.eyebrow}</span></div>
+      <h1 class="hero-title">${GATE.head}</h1>
+      <p class="lead">${GATE.sub}</p>
+    </div>
+    <div class="reveal">
+      <div class="field" id="f-name"><label>${UI.nameLabel}</label>
+        <input id="in-name" type="text" autocomplete="name" placeholder="${UI.namePh}">
+        <div class="err">${UI.nameLabel} مطلوب.</div></div>
+      <div class="field" id="f-email"><label>${UI.emailLabel}</label>
+        <input id="in-email" type="email" inputmode="email" autocomplete="email" placeholder="${UI.emailPh}">
+        <div class="err">${UI.emailErr}</div></div>
+      <button class="btn btn-teal btn-wide" style="margin-top:20px" id="gate-btn">${GATE.button}${SVG.arrow}</button>
+    </div>
+    ${WAVES}`;
+  mount(s);
+  $('#gate-btn').addEventListener('click', onGate);
+  [$('#in-name'),$('#in-email')].forEach(i=>i.addEventListener('keydown',e=>{if(e.key==='Enter')onGate();}));
+  observeReveals();
+}
+
+function onGate(){
+  const name = $('#in-name').value.trim();
+  const email = $('#in-email').value.trim();
+  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  $('#f-name').classList.toggle('invalid', !name);
+  $('#f-email').classList.toggle('invalid', !emailOk);
+  if(!name || !emailOk) return;
+  state.name = name; state.email = email;
+  sendComplete(state.r, true);   // attach name + email to the same row
   state.done = true;
-  renderResults(r);
+  renderResults(state.r);
   saveSnap();
+  window.scrollTo({top:0,behavior:'instant'});
 }
 
 function renderResults(r){
@@ -1191,7 +1306,6 @@ function renderResults(r){
           <p>${LIVING_PLAN.what}</p>
         </div>
         <a class="btn btn-gold" href="#" id="lp-btn">${LIVING_PLAN.button}${SVG.arrow}</a>
-        <p class="lp-note">${LIVING_PLAN.note}</p>
       </div>
     </div>
 
@@ -1226,12 +1340,17 @@ function sendToSheet(payload){
       body:JSON.stringify(payload),keepalive:true}).catch(()=>{});
   }catch(e){}
 }
-function sendResults(r){
-  if(state.sent) return; state.sent = true;
+/* Sends the completed assessment to Airtable (one row, upserted by id).
+   withContact=false  → anonymous complete fired right after Q15.
+   withContact=true   → same row, now carrying name + email, fired from the gate.
+   Each kind fires at most once; the relay upserts by id so they land on one row. */
+function sendComplete(r, withContact){
+  if(withContact){ if(state.sentContact) return; state.sentContact = true; }
+  else          { if(state.sentAnon)    return; state.sentAnon    = true; }
   const a = state.answers, q14 = a[14];
-  sendToSheet({
+  const payload = {
     action:'complete', status:'completed', optin:state.optin,
-    id:state.id, name:state.name, email:state.email, completedAt:new Date().toISOString(),
+    id:state.id, completedAt:new Date().toISOString(),
     q1:a[1]||'',q2:a[2]||'',q3:a[3]||'',q4:a[4]||'',q5:a[5]||'',q6:a[6]||'',
     q7:a[7]||'',q8:a[8]||'',q9:a[9]||'',q10:a[10]||'',q11:a[11]||'',q12:a[12]||'',
     q13:a[13]||'', q14:(typeof q14==='object'&&q14)?q14.k:(q14||''),
@@ -1240,7 +1359,9 @@ function sendResults(r){
     profile:PROFILES[r.profile].title,
     strongest:r.strongest.map(i=>DIM_NAMES[i]).join(' / '),
     opportunity:DIM_NAMES[r.primary]
-  });
+  };
+  if(withContact){ payload.name = state.name; payload.email = state.email; }
+  sendToSheet(payload);
 }
 
 /* ============================================================
@@ -1283,18 +1404,19 @@ function landingHTML(ctx){
   const chk = `<svg viewBox="0 0 24 24" fill="none" stroke="#008C95" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
 
   const steps = [
-    ["ملف البداية وأول مجموعة أسئلة","أول ما تشتركي، يوصلك ملف البداية، ومعاه أول مجموعة أسئلة عن يوم طفلك: تواصله، وروتينه، ومزاجه، والأشياء اللي تضايقه، واللي جربتيه قبل."],
-    ["ملف طفلك، والأسئلة الثانية","من إجاباتك أجهز ملف خاص بطفلك، وبعدها توصلك مجموعة أسئلة ثانية أدق، عشان تكتمل الصورة."],
-    ["خطتك لأسبوعين","بعد ما ترسلي إجاباتك، توصلك خطتك على الإيميل: تحدي واحد، بخطوات تدخل في يومكم العادي، بدون أوراق عمل ولا جدول جديد."],
-    ["بعد أسبوعين، أرجع لك","أسألك ايش صار، وايش نفع، وايش ما نفع، وايش لاحظتي. ومن إجاباتك أجهز خطتك الجاية."],
-    ["لين تصير جزء من يومكم","وكل أسبوعين نفس الشي، لين تصير الخطوات جزء من حياتكم. وبعدها، إذا تبغي، تنتقلي لتحدي ثاني."]
+    ["ملف البداية وأول مجموعة أسئلة","حوالي ٢٠ دقيقة عن يوم طفلك: تواصله، وروتينه، ومزاجه، والأشياء اللي تضايقه، واللي جربتيه قبل."],
+    ["أسئلة عن التحدي اللي اخترتيه","مجموعة ثانية مبنية على إجاباتك، حوالي ١٥ دقيقة."],
+    ["خطتك لأسبوعين","توصلك على الإيميل، ومعها خطوة تبدأي فيها من نفس اليوم."],
+    ["بعد أسبوعين، سبع أسئلة","ايش تغير، ايش نفع، ايش ما نفع، وكيف طاقتك. وأنتي تقرري ايش يكون التركيز الجاي. وإذا كنتي أتعب من قبل، الخطة الجاية تكون أخف."],
+    ["خطة جديدة من اللي صار عندكم","كل خطة تنبني على أسبوعينك اللي فاتت، لين تصير الخطوات جزء من يومكم. وبعدها، إذا تبغي، تنتقلي لتحدي ثاني."]
   ];
   const gets = [
-    ["صورة كاملة عن طفلك","أسئلة موسعة عن يومه وحياتكم كلها: النوم، والإخوة، والروتين، والبيت."],
-    ["خطة شخصية على تحدي واحد","تعرفي أول شي تشتغلي عليه، والخطوة اللي بعده بالضبط."],
-    ["مراجعة معاكي كل أسبوعين","ملاحظاتك واستجابة طفلك تتحول لخطوة جاية واضحة."],
-    ["تعديلات مستمرة","الأيام الصعبة، والتراجع، وتغيّر الروتين جزء من الخطة، مو دليل إنها ما نفعت."],
-    ["متابعة الأنماط مع الوقت","بدل ما تحكمي على كل يوم لحاله، تشوفي ايش يتكرر وايش تغيّر."]
+    ["ابدأي من هنا","خطوة تبدأي فيها يوم ما توصلك الخطة، قبل حتى ما تكملي قراءتها."],
+    ["الفكرة","فقرة قصيرة مكتوبة من كلامك أنتي عن طفلك، تخليك تشوفي الموقف بطريقة ثانية."],
+    ["اتجاه النمو","في أول خطة، تتحدد معاكي العلامات اللي تبغي تشوفيها في بيتكم."],
+    ["الخطة","من ٤ إلى ٧ خطوات يومية، كل وحدة مربوطة بشي تسويه كل يوم، زي بعد الفطور أو قبل النوم. وما في خطوة تاخذ أكثر من ١٠ دقايق."],
+    ["ايش يعتبر تقدم","أكثر من علامة تقدم، وحدة منها على الأقل عن يومك أنتي، عشان ما تقيسي كل شي على نتيجة وحدة."],
+    ["وإذا جا يوم صعب","ايش تسوي لما يخرب كل شي، في أربع أسطر."]
   ];
   const after = [
     "تكتبي اسمك وايميلك هنا في الصفحة، وتنضافي لقائمة الانتظار.",
@@ -1305,7 +1427,7 @@ function landingHTML(ctx){
   ];
   const objections = [
     ["عندي نصائح كثير، ليش أدفع؟","معاكي حق، النصائح في كل مكان. بس النصيحة ما تعرف طفلك، وما تختار لك من فين تبدأي، وما ترجع تسألك ايش صار بعدها. وهذا اللي تسويه الخطة الحية."],
-    ["ما عندي وقت","الخطة ما تضيف لك جدول جديد. الخطوات تدخل في اللي تسويه كل يوم: وقت الأكل، واللعب، والروتين. وتحدي واحد بس، مو كل شي مرة وحدة. مو مطلوب منك تفضّي حياتك عشان تبدأي."],
+    ["ما عندي وقت","الخطة ما تضيف لك جدول جديد. كل خطوة مربوطة بشي تسويه كل يوم، وما في خطوة تاخذ أكثر من ١٠ دقايق. وتحدي واحد بس، مو كل شي مرة وحدة."],
     ["جربت قبل وما نفع","ما في وعد إن كل خطوة بتنجح من أول مرة، ولا وعد بنتيجة معيّنة. الفرق إنك ما تكملي على طريقة ما ناسبت طفلك. في كل مراجعة، اللي ما نفع يتعدّل."],
     ["٧٤٩ ريال مو مبلغ بسيط","صحيح، ومن حقك تعرفي ايش تاخذي مقابله: خطة لطفلك أنتي، تتعدل معاكي باستمرار، مو ملف تستلميه مرة وتكملي لحالك. والاشتراك شهري، وتقدري تلغي في أي وقت."],
     ["هل أنا السبب؟","مو كل موقف يصير مع طفلك يعني إنك سويتي شي غلط. اللي تشوفيه كل يوم معلومات مهمة، والناقص طريقة ترتبها وتحولها لخطوة واضحة."],
@@ -1326,6 +1448,7 @@ function landingHTML(ctx){
       <div class="lp-nav-in">
         <div class="brand">${SVG.mark}<div><b>مدار البيت</b><small>الخطة الحية</small></div></div>
         <div class="links">
+          <a href="#lp-path" data-jump="lp-path">خطتك</a>
           <a href="#lp-how" data-jump="lp-how">كيف تشتغل؟</a>
           <a href="#lp-offer" data-jump="lp-offer">ايش يوصلك؟</a>
           <a href="#lp-faq" data-jump="lp-faq">الأسئلة الشائعة</a>
@@ -1365,8 +1488,11 @@ function landingHTML(ctx){
       </div>
     </div></section>
 
+    <!-- C3b curriculum (personalized) -->
+    <section class="lp-sec reveal" id="lp-path"><div class="lp-wrap" id="lp-curriculum">${curriculumHTML(c.key)}</div></section>
+
     <!-- C4 how it works -->
-    <section class="lp-sec reveal" id="lp-how"><div class="lp-wrap">
+    <section class="lp-sec lp-alt reveal" id="lp-how"><div class="lp-wrap">
       <h2 class="lp-h lp-center">كيف تشتغل الخطة الحية؟</h2>
       <p class="lp-lede lp-center">يومه كامل، تحدي واحد، ومراجعة كل أسبوعين.</p>
       <ol class="lp-steps">
@@ -1381,7 +1507,8 @@ function landingHTML(ctx){
 
     <!-- C5 what she gets -->
     <section class="lp-sec reveal" id="lp-offer"><div class="lp-wrap lp-narrow">
-      <h2 class="lp-h">ايش يوصلك، عشان ما تبدأي من الصفر كل مرة</h2>
+      <h2 class="lp-h">ايش يوصلك كل أسبوعين</h2>
+      <p class="lp-small">ملف واحد لأسبوعين، تفتحيه مرة وحدة. ونفس الأجزاء في كل خطة، عشان تتعودي عليها.</p>
       <ul class="lp-checks lp-gets">${gets.map(([t,d])=>`<li>${chk}<span><b>${t}:</b> ${d}</span></li>`).join('')}</ul>
     </div></section>
 
@@ -1490,6 +1617,8 @@ function applyLanding(key, sub, sitFree){
   if(h) h.innerHTML = f.head;
   if(s) s.innerHTML = SUBS[sub] || SUBS.standard;
   if(p) p.innerHTML = problemHTML(key, sitFree||'');
+  const cu = document.getElementById('lp-curriculum');
+  if(cu) cu.innerHTML = curriculumHTML(key);
 }
 
 // Email opt-in now lives on the results page (default: yes). Update the row if she toggles it.
@@ -1621,6 +1750,24 @@ function closeWaitlist(){
   if(history.state && history.state.v==='form') history.back();
   else setView(baseView());
 }
+/* Waitlist button handler.
+   If we already have her name + email (she came through the assessment + gate),
+   join in ONE tap and go straight to the thank-you page — no form to re-type.
+   If we don't (she arrived on a direct landing link like ?plan or ?focus=sleep),
+   fall back to the form so we can still collect her name + email. */
+function joinWaitlist(){
+  const name = (state.name||'').trim();
+  const email = (state.email||'').trim();
+  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if(!name || !emailOk){ openWaitlist(); return; }   // no contact yet → show the form
+  if(state.wlDone){ setView('thanks'); return; }       // already joined → just show thanks again
+  pingWaitlist();
+  submitWaitlist(Object.assign({name, email}, wlContext()));  // fire-and-forget to the relay
+  state.wlDone = true; state.wlName = name; state.wlEmail = email;
+  try{ history.pushState({v:'thanks'}, ''); }catch(err){}
+  setView('thanks');
+  confettiBurst();
+}
 function wlContext(){
   const r = state.r, c = state.ctx || {};
   const source = state.done ? 'results' : (params.has('focus') ? 'focus' : 'plan');
@@ -1737,7 +1884,7 @@ function confettiBurst(){
 
 function wireLanding(){
   document.querySelectorAll('[data-wl]').forEach(a=>{
-    a.addEventListener('click', e=>{ e.preventDefault(); openWaitlist(); });
+    a.addEventListener('click', e=>{ e.preventDefault(); joinWaitlist(); });
   });
   wireWaitlist();
   // nav links scroll in place (no hash in the address, so the back button stays clean)
@@ -1836,6 +1983,25 @@ if(wantsLanding){
   renderLandingOnly(ctx);
   if(params.has('demo')) mountDemo(ctx);
 } else if(!restoreSnap()) renderWelcome();
+
+/* Live waitlist counter: read the current count from the relay (JSONP, no token exposed)
+   and refresh the top bar. The bar only shows the number once it reaches capacity. */
+(function(){
+  try{
+    var url = CONFIG.waitlistEndpoint || CONFIG.endpoint;
+    if(!url) return;
+    window.__hoWaitlistCount = function(d){
+      if(d && typeof d.count === 'number'){
+        CONFIG.waitlistCount = d.count;
+        if(typeof updateCapBar === 'function') updateCapBar();
+      }
+    };
+    var s = document.createElement('script');
+    s.src = url + (url.indexOf('?') > -1 ? '&' : '?') + 'callback=__hoWaitlistCount&t=' + Date.now();
+    s.async = true; s.onerror = function(){};
+    document.head.appendChild(s);
+  }catch(e){}
+})();
 </script>
 </body>
 </html>
