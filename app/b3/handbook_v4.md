@@ -670,3 +670,8 @@ Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · h
   - Ask her for tagged links (e.g. `?src=tiktok&post=…`).
   - It worked for her before she reached 1,000 followers.
 - **New landing page.** It's being rebuilt in another chat and should be done before Batch 4. Re-read it and update `assessment_truth.md` before writing CTAs.
+- **Legacy-winners analysis (Anhar will send a PDF, Nov 22).** Her best pre-agency posts with analytics under each. Notes from her, Nov 21:
+  - Some posts use the old colours and art style from before the rebrand. Judge the content, not the look.
+  - She used one format for a long time. The same format produced 2K, 3K and 4K posts, and then one went viral. So separate the format from what made the viral one different: topic, humour, danger (the restaurant chase), or simplicity.
+  - It isn't only family scenes. The restaurant chase worked through an element of danger.
+  - Goal: see what works (writing, formats, voice), then make the agency stronger for Batch 4.
