@@ -55,3 +55,20 @@ Anhar: any post with «الافتراض اللي يصعّب الموضوع» bel
 5. **Swipe depth is about the same for winners and the rest** (1.9–2.3 of 3–4). Reach came from slide 1 and topic, not from deep reads. That supports Anhar's "solution on slide 3" rule: most people never pass slide 2–3.
 6. **Shares are the viral marker.** Diaper 1,598; grandma's 1,106; bedtime 193. Restaurant had 970 saves but only 2 shares (useful, but not "send this to my sister").
 7. **The A/B "which one is your child" poll and «اكتبي "…"» prompts** appear on winners and losers alike, so they aren't the driver. Comments still depend on reach.
+
+## Part 3 of 5 (19 pages, 3 posts)
+Anhar's divider before posts 19–20: "From here, different formats in the old brand colours, and I tried to make the first slide like a thumbnail." For posts a year or older she can't see shares, follows or slides viewed.
+
+| # | Post | Format | Views | Likes | Comments | Saves |
+|---|---|---|---|---|---|---|
+| 18 | **Coffee shop floor-drop: «لما طفلك يرمي نفسه على الأرض ويصرخ… قدّام الناس… فجأة.»** | 4-slide, cream, text only, teal + navy type; **QR code on the last slide** (free sleep schedule) | **13.4K** | 119 | 10 | 90 |
+| 19 | «تعب معارك النوم؟» (bedtime running) | Illustrated thumbnail slide 1 + 5 pastel text slides, emojis, A/B/C poll, "planner coming soon" | 3,438 | 107 | 5 | 94 |
+| 20 | «ليش يشيل ملابسه» (undresses in the supermarket) | Illustrated thumbnail + 4 pastel slides, emojis, comment question | 1,411 | 24 | 0 | 15 |
+
+### What part 3 adds
+1. **Post 18 is the clearest example yet of Anhar's "twist = the unexpected, with risk at the end".** It's all steps, then the last lines turn the joke on HER: «وبيننا… مو بس الأطفال. زي في محل الشوزات بعد ١٢ جزمة ولا وحدة مناسبة وتقربي ترمي نفسك على الأرض معاه.» Not a reframe. It's a confession that makes her laugh at herself. Keep this as the model ending for B4.
+2. **Post 18's humour is observed, not performed:** the barista «واقفة مكانها كأنها شافت جريمة», «سقوط كرتوني بحت: ركب… بعدها مرفق… بعدها انسداح على الأرض». Precise physical detail and witnesses, one line each. Compare bath/car seat (part 2), which acted out a whole drama.
+3. **Public scene + witnesses + her shame = reach again** (coffee shop 13.4K; restaurant 39.5K; grandma's 203K). It's the same pattern as B3 (ملكة, جمعة, jacket all had people watching).
+4. **The "thumbnail" illustrated slide 1 didn't beat text.** The plain text-only coffee-shop post got 4–10× the illustrated ones. Supports Part O: copy is the star, and an image only supports it.
+5. **A QR code has been used before** (post 18, sleep schedule). It didn't hurt reach. We can't tell if it was scanned. B4's tagged QR will answer that.
+6. Old habits to keep banned: brain/nervous-system lines («جهازه العصبي يقول»), emojis as bullets, «نهدّي» ("we"), and "medical disclaimer" footers.
