@@ -1,0 +1,4 @@
+# "Never market with apathy" (transcript Anhar shared, Nov 22)
+Source context: a focus-pill ad (it says coffee makes your to-do list look like "broken promises and dreams"; it won't ship to Asia "because Asians are already so smart").
+Key lines: "When you're marketing something, people are either going to love you or hate you… never go for apathy. Apathy means nobody cares… you become lukewarm… It's okay to have a few haters, but what you want is a lot of people to love your product… The book isn't called The Seven Sacred States (apathy); it's called The Art of Becoming Un-F***-With-able… I'm not saying offend for the sake of offend. I'm saying be yourself. Don't become lukewarm because you're afraid a few people will be ticked off."
+For Home Orbit: the edge comes from the stance and humour about her day, never the child, the diagnosis, or her pain (handbook A1 + the skill's guardrail).

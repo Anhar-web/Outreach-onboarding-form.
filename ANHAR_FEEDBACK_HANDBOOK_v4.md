@@ -675,3 +675,23 @@ Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · h
   - She used one format for a long time. The same format produced 2K, 3K and 4K posts, and then one went viral. So separate the format from what made the viral one different: topic, humour, danger (the restaurant chase), or simplicity.
   - It isn't only family scenes. The restaurant chase worked through an element of danger.
   - Goal: see what works (writing, formats, voice), then make the agency stronger for Batch 4.
+
+# PART O: ANHAR'S DIRECTION FOR BATCH 4 (Nov 22). Draft until the legacy analysis is finished
+- **The solution comes on slide 3.** Busy, tired mothers are on TikTok to unwind. If a post can help, they want the answer now. Slide views show how fast people drop off.
+- **Structure (her "nine layers deep" / HPSPC):**
+  - s1: a strong hook, ideally a pain point.
+  - s2: deepen the problem and make it worse, without being performative.
+  - s3: the solution (the tool, or step 1).
+  - After the solution: one proof slide, then the CTA slide.
+  - One tool = 5 slides. Three steps = 7 slides. Listicles follow the same pattern.
+- **Tone:** funny, but never cringe or performative. Light-hearted and conversational, never an expert talking at her. Extreme love, never apathy (transcript in `app/b4/`).
+- **Banned word:** «طبيعي» ("naturally / it's natural"). It sounds condescending. Replaces H5.
+- **Test a new hook shape:** a problem statement or question, with the solution statement right under it, without "here are X steps". Her first breakout: «نصايح ما طلبتيها في العيد… وطرق تردي فيها».
+- **Visual test:**
+  - The first slide grabs attention, but the image supports the copy and doesn't share the spotlight 50/50.
+  - The other slides use quiet background motifs and colour, so the copy is the star and nothing feels busy.
+  - Her top posts: the 200K one used an image background behind a translucent box. The 150K one used a plain light background with a few motifs.
+  - These are ideas: decide from the data.
+- **Bring back the "assumption" series (her 200K format):** «الافتراض اللي يصعّب الموضوع». Give it its own distinct, on-brand look, and use fewer words per slide across 5–7 slides instead of 4 crammed ones. No translucent white box (the feed looked the same).
+- **The twist is not an aha moment.** It's something unexpected (Brendan Kane: "play into the unexpected; incorporate risk, especially at the end"). The reframe and realisation live elsewhere in the post.
+- **Topic can beat format.** The diaper post (150K) and wall-licking post went big in a format she was already using back to back.
