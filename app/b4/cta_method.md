@@ -38,3 +38,18 @@
 ## Also from Nov 22
 - **Proof slide:** our method, not testimonials. Her example from the format source: "Then use the 10x10 formula (you're pretty much guaranteed to go viral)." It can carry explainer content.
 - **Topics:** a mix of a few old legacy topics and new ones. Her recreations of the diaper and grandma's posts didn't do as well, so don't count on re-runs.
+
+## Tone rules (Anhar, Nov 22, evening)
+- **Strong and certain.** No «يمكن», «ممكن», «لو حابة», «إذا تبغي», «جربي», «حاولي», «لو تقدري» in any CTA. Say what she gets, plainly.
+- **Not homework.** Avoid «عبي التقييم», «جاوبي على الأسئلة», «خذي دقايق». Lead with what she walks away with («اعرفي من فين تبدئي مع طفلك», «خذي أول خطوة تناسبه»); the assessment is the vehicle, named second.
+
+## Soft CTA decision (data, Nov 22)
+- **B2:** 11 of 12 posts had a soft CTA on slides 3–5 → 9 completions. **B3:** all 12 have one → 0 completions so far (top reach 1.7K vs B2's 4.1K).
+- **B1:** no CTA on the reach posts → 0 completions.
+- So completions tracked **reach + having a CTA at all**. The soft CTA vs the final CTA can't be told apart. There's no evidence the soft line itself brought anyone.
+- **Depth:** average 2.1–2.4 slides viewed of 7–8. The mid-post soft line sits right where people already leave, and it interrupts the value with an ad.
+- **B4 decision (recommendation):**
+  - Remove the assessment soft CTA.
+  - On 7-slide posts, replace it with an honest "keep reading" line that promises what the last slides really give. The promise is the outcome she wants (the solution side), never "an assessment".
+  - 5-slide posts need no bridge: the end is two swipes after the solution.
+  - Test with/without the bridge line across the batch. The per-post tagged QR codes finally let us count scans per post.
