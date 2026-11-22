@@ -86,3 +86,59 @@ Same pastel "thumbnail" look as posts 19–20. Ends with Anhar's divider: "These
 2. **Best comment rate in the whole PDF (75 on 16.8K)** came from a question she can answer about her own child in one word: what would HE pick for the bag. Generic "what's your most embarrassing moment?" (post 20) got 0. **B4 comment prompts: ask about her child's specific preference, tied to the tool.**
 3. **Saves follow a concrete routine** (bedtime: 186 saves on 5.1K, about 3.6%, the highest save rate so far). Same as B2 (practical routine posts get saved).
 4. The bedtime post's «وإنتي البطلة اللي دايماً تعيد المشهد» is the "cost lands on her" line, again playful and one line.
+
+## Part 5 of 5 (19 pages, 3 posts: her earliest, "no format, just posting")
+| # | Post | Format | Views | Likes | Comments | Saves |
+|---|---|---|---|---|---|---|
+| 23 | «ليش طفلي يدور كثير؟» (spinning; «كأنه اعصار صغير… ولو خرجتو تصير عاصفة رمليه»), explains stimming, "notice when it happens", "follow for part 2" | Illustrated slide 1 + cream text | 4,468 | 64 | 4 | 40 |
+| 24 | «معركة وقت النوم مع طفلك» (soft brush on arms/back, "like starting a new diet"), «كومينت "نعم"» for a routine file | Photo + translucent white box | 1,253 | 62 | 2 | 31 |
+| 25 | **«نصائح غير مرغوب فيها في العيد؟ ردود لبقة تحمي هدوءك الداخلي»** (problem statement + solution statement hook; relatives' lines in quotes, then her calm replies) | Blue speech-bubble card | 1,335 | 28 | 0 | 19 |
+
+Notes: these were posted to an account with almost no audience, so 1–4K here is a weaker signal than 1–4K later. Post 25 is the hook shape Anhar wants to re-test in B4 (problem + solution in one slide). Its first run had no audience, so it hasn't had a fair test yet.
+
+---
+
+# SYNTHESIS: 25 legacy posts + Batches 1–3 (for the Batch 4 brief)
+
+## The six legacy breakouts (≥13K) and what they share
+| Post | Views | Where | Her cost on slide 1 | The tool | Humour |
+|---|---|---|---|---|---|
+| Leaving grandma's | 203.5K | Family, witnesses | at the door, in the chaos | the wrong shoe (he corrects you) | one-liners |
+| Diaper change | 159.1K | Home, universal | «أنتِ الطرف الخاسر» | predictable steps | «صبرك طلع إجازة» |
+| Restaurant chase | 39.5K | Public, danger | «فريق إنقاذ… لوحدك» | traffic-light game | light |
+| Bedtime "last push" | 38.4K | Home, universal | the frenzy before sleep | tire him out *before* calm | light |
+| Wall licking | 16.8K | عزيمة, witnesses | everyone talking, then this | sensory-swap bag | «مغطى بنوتيلا» |
+| Coffee-shop floor drop | 13.4K | Public, witnesses | barista frozen, she feels exposed | calm steps + fixed phrase | twist at the end on HER |
+
+**What all six share:**
+- **A moment almost every mother of a toddler knows** (4 of 6 in public or with relatives watching), or a strange, specific one (licking the wall).
+- **The cost lands on her** in the first lines.
+- **One concrete tool** that sounds like a trick, not like advice.
+- **Humour that observes** one precise detail, never acts out the child's drama.
+
+**The flops** (bath, car seat, outfits, shouting, "angel at nursery", undressing, Eid, brush) were narrower moments, performed humour, explanations or aspirations («تخيلي…»), or a generic question at the end.
+
+## Where legacy and Batches 1–3 agree (now strong rules)
+1. **Cost on her.** B1–B2 won 6 of 7 with this hook under clean conditions, and every legacy breakout has it.
+2. **People watching.** B3's reach posts (queen 1.7K, Friday 1.0K, jacket 948) and 4 of 6 legacy breakouts.
+3. **Most people stop by slide 2–3.** Legacy: 1.9–2.3 of 3–4 slides. B1–B3: most leave by slide 3. So the solution belongs on slide 3 and posts should be short (Part O: 5 or 7 slides).
+4. **Saves follow a concrete routine or tool.** Shares follow a universal moment ("this is literally us"), so shares are the viral marker.
+5. **Comments come from a one-word question about HER child, tied to the tool** (wall: 75). Generic "what's your most embarrassing moment" gets 0.
+
+## Where they disagree (to test, not assume)
+- **Ground colour.** Every legacy breakout ran on a light or cream ground. Our "light = 0/10" from B2 was mixed up with posting minutes apart. **Proposal: a clean test.** Two cream, text-only slide-1 posts, each first of its evening, against dark controls.
+- **Hook shape.** The legacy hooks are a scene label + behaviours + witness quotes (grandma's) or «لما…» + cost (diaper, coffee shop). B1–B2 used one past-tense question. Both have reached people. B4 tests «لما…» + cost, plus the problem + solution hook (Eid).
+
+## Twist (Part O, Brendan Kane: the unexpected, with risk at the end)
+- **The model** is the coffee-shop ending: «وبيننا… مو بس الأطفال. زي في محل الشوزات بعد ١٢ جزمة… تقربي ترمي نفسك على الأرض معاه». It's a confession that makes her laugh at herself.
+- **It isn't** a reframe, an aha line or a brain fact.
+- **Where it goes:** the last line before the CTA.
+
+## Keep banned
+- brain / nervous-system lines
+- "we" lines
+- emojis as bullets
+- «طبيعي»
+- medical disclaimers
+- performed child drama
+- "follow for part 2" cliffhangers (they hold back value)
