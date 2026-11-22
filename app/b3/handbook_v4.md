@@ -695,3 +695,14 @@ Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · h
 - **Bring back the "assumption" series (her 200K format):** «الافتراض اللي يصعّب الموضوع». Give it its own distinct, on-brand look, and use fewer words per slide across 5–7 slides instead of 4 crammed ones. No translucent white box (the feed looked the same).
 - **The twist is not an aha moment.** It's something unexpected (Brendan Kane: "play into the unexpected; incorporate risk, especially at the end"). The reframe and realisation live elsewhere in the post.
 - **Topic can beat format.** The diaper post (150K) and wall-licking post went big in a format she was already using back to back.
+
+## Part P · Batch 4 inputs (Nov 22)
+- **Legacy PDF analysed** (25 posts): see `app/b4/legacy_analysis_notes.md`.
+  - Breakouts = a universal or public/family moment with witnesses, the cost on her, one trick-like tool, and observed one-line humour.
+  - Twist = an unexpected confession at the end (the coffee-shop model).
+  - Comment prompt = a one-word question about her own child's preference, tied to the tool.
+  - Test: cream text-only slide 1 vs dark, at clean times.
+- **Custom CTA method:** see `app/b4/cta_method.md`. Sell the outcome she wants; the assessment is the bridge. Never claim it delivers the outcome. Apply the "reads it without knowing what the assessment is" test.
+- **Proof slide** = our method described (can carry explainer content), never testimonials.
+- **Topics:** a few old legacy topics plus new ones. Re-runs of the diaper and grandma posts underperformed.
+- **Timing:** Batch 4 starts after the new landing page is ready (Nov 23). Get the page links and build tagged QR codes first.
