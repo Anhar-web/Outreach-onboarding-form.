@@ -53,3 +53,4 @@
   - On 7-slide posts, replace it with an honest "keep reading" line that promises what the last slides really give. The promise is the outcome she wants (the solution side), never "an assessment".
   - 5-slide posts need no bridge: the end is two swipes after the solution.
   - Test with/without the bridge line across the batch. The per-post tagged QR codes finally let us count scans per post.
+- **Anhar's reason (the real rule):** a mid-post CTA asks her to commit to something before we've given her the value. **Give first. The only ask comes at the end.** No mid-post "follow", "comment" or "assessment". Any bridge line is a promise that asks nothing of her.
