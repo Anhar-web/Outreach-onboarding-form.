@@ -72,3 +72,17 @@ Anhar's divider before posts 19–20: "From here, different formats in the old b
 4. **The "thumbnail" illustrated slide 1 didn't beat text.** The plain text-only coffee-shop post got 4–10× the illustrated ones. Supports Part O: copy is the star, and an image only supports it.
 5. **A QR code has been used before** (post 18, sleep schedule). It didn't hurt reach. We can't tell if it was scanned. B4's tagged QR will answer that.
 6. Old habits to keep banned: brain/nervous-system lines («جهازه العصبي يقول»), emojis as bullets, «نهدّي» ("we"), and "medical disclaimer" footers.
+
+## Part 4 of 5 (14 pages, 2 posts)
+Same pastel "thumbnail" look as posts 19–20. Ends with Anhar's divider: "These next posts are among the very first I posted. They did really well… back then I didn't really have a format. It was just posting."
+
+| # | Post | Views | Likes | Comments | Saves |
+|---|---|---|---|---|---|
+| 21 | **«يلحس الجدار قدام الناس»**: at an عزيمة, everyone's talking, and suddenly he's licking the wall («كأن الجدار مغطى بنوتيلا»). Reframe, then 3 steps (a "sensory swap" bag), then «ايش أكثر شي تتوقعي طفلك يختاره لشنطة البديل؟» | **16.8K** | 199 | **75** | 115 |
+| 22 | «الهروب يبدأ وقت النوم» (bedtime escape, "action film", «وإنتي البطلة اللي دايماً تعيد المشهد») + energy-dump then calm routine + "challenge" ending | 5,114 | 192 | 25 | **186** |
+
+### What part 4 adds
+1. **The wall post is Anhar's "topic beats format" example.** It used the same pastel look as posts 19–20 (1.4–3.4K) and got 16.8K. The difference: a strange, specific, public moment (licking the wall at a gathering, people watching) plus one funny image («مغطى بنوتيلا»). Correction to part 3: the illustrated slide 1 isn't what held 19–20 back. The topic was.
+2. **Best comment rate in the whole PDF (75 on 16.8K)** came from a question she can answer about her own child in one word: what would HE pick for the bag. Generic "what's your most embarrassing moment?" (post 20) got 0. **B4 comment prompts: ask about her child's specific preference, tied to the tool.**
+3. **Saves follow a concrete routine** (bedtime: 186 saves on 5.1K, about 3.6%, the highest save rate so far). Same as B2 (practical routine posts get saved).
+4. The bedtime post's «وإنتي البطلة اللي دايماً تعيد المشهد» is the "cost lands on her" line, again playful and one line.
