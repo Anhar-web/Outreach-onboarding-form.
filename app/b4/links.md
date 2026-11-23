@@ -12,4 +12,12 @@
 
 Every `?focus=` and `?plan` link skips the assessment.
 
-**QR tag (to confirm with Anhar):** append `src=qr&post=<post id>` (e.g. `?focus=outings&src=qr&post=b4p3`, or `?src=qr&post=b4p1` on the main link). Make the codes with `make_qr.py` once the post IDs and destinations are set.
+**QR tag (confirmed by Anhar, Nov 23: tags carry into the assessment row):** append `src=qr&post=<post id>` (e.g. `?focus=outings&src=qr&post=b4p3`, or `?src=qr&post=b4p1` on the main link). Make the codes with `make_qr.py` once the post IDs and destinations are set.
+
+## Where the tags land (assessment base appxFnfLWBVqgv8sO)
+- **Visits** (tbls13mjUAix09hOE): one row per page load, deduped per phone per session, before any personal data. Fields: session_id, visited_at, src, post, focus, entry (landing/assessment). session_id = the Submissions id if she starts.
+- **Submissions:** src, post, focus_tag, last_q (1–15, shows the drop-off point), plus waitlist_source / waitlist_focus.
+- **Privacy:** read only non-personal fields (dates, status, q14, flags, tags, last_q). Never name or email.
+- **Nov 23 check:**
+  - Visits had 0 rows.
+  - Two completions at 19:04 and 19:05 (Saudi time). Each took under a minute and neither had tags, so they look like tests (to confirm).
