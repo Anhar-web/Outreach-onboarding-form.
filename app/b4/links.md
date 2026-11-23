@@ -18,6 +18,4 @@ Every `?focus=` and `?plan` link skips the assessment.
 - **Visits** (tbls13mjUAix09hOE): one row per page load, deduped per phone per session, before any personal data. Fields: session_id, visited_at, src, post, focus, entry (landing/assessment). session_id = the Submissions id if she starts.
 - **Submissions:** src, post, focus_tag, last_q (1–15, shows the drop-off point), plus waitlist_source / waitlist_focus.
 - **Privacy:** read only non-personal fields (dates, status, q14, flags, tags, last_q). Never name or email.
-- **Nov 23 check:**
-  - Visits had 0 rows.
-  - Two completions at 19:04 and 19:05 (Saudi time). Each took under a minute and neither had tags, so they look like tests (to confirm).
+- **Nov 23 check, resolved:** Anhar confirmed the two completions at 19:04–19:05 (Saudi time) were her tests and deleted them. Visits is empty because she tested it and deleted the row, so visit logging works.
