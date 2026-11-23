@@ -51,7 +51,7 @@ function mountBoard(){
   st.textContent = `
   .bd{background:#0E2E37;color:#F6F3EB;padding:12px max(14px,env(safe-area-inset-left,0px)) 12px;font-family:"Tajawal",sans-serif;direction:rtl}
   .bd-in{max-width:1080px;margin:0 auto;display:grid;gap:9px}
-  .bd-t{font-family:"El Messiri";font-weight:700;font-size:15px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+  .bd-t{font-family:"IBM Plex Sans Arabic","Tajawal";font-weight:700;font-size:15px;display:flex;justify-content:space-between;gap:10px;align-items:center}
   .bd-t small{font-family:"Tajawal";font-weight:500;font-size:12px;opacity:.7}
   .bd-row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
   .bd-row::-webkit-scrollbar{display:none}
@@ -62,7 +62,7 @@ function mountBoard(){
   .bd .bd-row.v button[aria-pressed="true"]{background:#F6F3EB;border-color:#F6F3EB;color:#0E2E37;font-weight:700}
   .bd button:focus-visible{outline:2px solid #C9935A;outline-offset:2px}
   .bd-up{all:unset;position:fixed;bottom:calc(14px + env(safe-area-inset-bottom,0px));left:14px;z-index:70;cursor:pointer;
-    background:#0E2E37;color:#F6F3EB;font-family:"El Messiri";font-weight:700;font-size:13px;padding:9px 14px;border-radius:999px;
+    background:#0E2E37;color:#F6F3EB;font-family:"IBM Plex Sans Arabic","Tajawal";font-weight:700;font-size:13px;padding:9px 14px;border-radius:999px;
     box-shadow:0 8px 20px -10px rgba(0,0,0,.5)}`;
   document.head.appendChild(st);
   const bar = document.createElement('div');
