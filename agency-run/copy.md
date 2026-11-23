@@ -508,3 +508,12 @@ Source: `source/curriculum_answers_v2.md` (client). Stages, no weeks or dates. T
 - The hero subheadline is now set per situation (FOCUS[x].sub). The subheadlines by weakest area (SUBS) are only a fallback now.
 - Headline rule: no line ends with a comma. Each comma in a headline became a line break (<br>), the comma was removed, and the headline ends with a full stop. The last two words of each line are kept together so no single word ends up alone on a line.
 - اتجاه النمو is now «اتجاه النمو (مثال)», with the line «هذي أمثلة. اتجاه النمو لطفلك يتحدد من إجاباتك على الأسئلة، ويختلف من طفل لطفل، وما يمشي بجدول.»
+
+## ROUND 5: client edits_v2 (applied)
+- اتجاه النمو lists for all 7 pages replaced with the client's versions. Anger page: "انفجار/ينفجر" → "يعصب / نوبة غضب".
+- «ايش يوصلك كل أسبوعين», step 2 of "after the button", the objection heading «قبل ما تقرري / خلينا نجاوب على أسئلتك» and all 6 objection answers are replaced with the client's text.
+- Invite card: new headline and body (solution-focused). The per-situation "تخيلي…" line is removed from the card.
+- No line ends with a comma. Each heading comma became a line break, and this also applies to how the results title and the question text are displayed. The stored text sent to the sheet is unchanged.
+- The image on the question screens is removed. Images now start on the results page.
+- Normalised to the language file: إيش → ايش, تبدئي → تبدأي, النصايح → النصائح, بناءً → بناء, ارسل/اسبوع/الاولى → أرسل/أسبوع/الأولى, اسرع → أسرع.
+- Open: F growth item 5 in the client file reads «تحسي إن الموقف جاي قبل ما يصير ويخلص السرع». Applied as «تحسي إن الموقف جاي قبل ما يصير» until the client confirms the intended ending.
