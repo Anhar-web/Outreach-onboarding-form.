@@ -984,8 +984,8 @@ function ring(val,max){
 const WELCOME = {
   headline:"ليش نفس المواقف تتكرر مع طفلك؟",
   subtitle:"جاوبي على 15 سؤال واكتشفي نقاط القوة في طريقتك الحالية، وايش تحتاجي تنظمي عشان تتعاملي مع المواقف المتكررة بخطة تناسب طفلك وحياتكم.",
-  support:"كل يوم فيه مواقف تتكرر، ومحاولات جديدة، وأشياء تتعلميها عن طفلك.\nهذا التقييم يساعدك تشوفي الصورة بشكل أوضح: ايش اللي تعرفيه عن طفلك، ايش اللي يشتغل معاه، وفين تحتاجي تركزي عشان تكون عندك طريقة واضحة ترجعي لها.",
-  button:"ابدئي التقييم",
+  support:"كل يوم في مواقف تتكرر، ومحاولات جديدة، وأشياء تتعلميها عن طفلك.\nهذي تساعدك تشوفي الصورة بشكل أوضح: ايش اللي تعرفيه عن طفلك، ايش اللي يشتغل معاه، وفين تركزي عشان تكون عندك طريقة واضحة ترجعي لها.",
+  button:"ابدئي",
   facts:["15 سؤال.","نتيجة شخصية بناءً على إجاباتك.","توصية عملية تساعدك تعرفي من فين تبدأي."]
 };
 
@@ -1206,8 +1206,7 @@ function renderWelcome(){
   s.innerHTML = `
     ${brandHeader()}
     <div class="reveal">
-      <div class="eyebrow">${SVG.ripple('rp')}<span>تقييم مدار البيت</span></div>
-      <h1 class="hero-title">${WELCOME.headline}</h1>
+      <h1 class="hero-title">${headHTML(WELCOME.headline)}</h1>
       <p class="lead">${WELCOME.subtitle}</p>
     </div>
     <p class="support reveal">${WELCOME.support}</p>
@@ -1548,7 +1547,15 @@ function sendComplete(r, withContact){
 /* ============================================================
    UTIL
    ============================================================ */
-function mount(node){ app.innerHTML=''; app.appendChild(node); }
+/* no line ends with a comma: the Arabic comma stays glued to the next word */
+function glueCommas(root){
+  try{
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    let n; while((n = w.nextNode())){ if(n.nodeValue.indexOf('، ')>-1) n.nodeValue = n.nodeValue.replace(/، /g,'،\u00a0'); }
+  }catch(e){}
+}
+function mount(node){ app.innerHTML=''; app.appendChild(node); glueCommas(app); }
+try{ new MutationObserver(ms=>{ ms.forEach(m=>m.addedNodes.forEach(x=>{ if(x.nodeType===1) glueCommas(x); else if(x.nodeType===3 && x.nodeValue.indexOf('، ')>-1) x.nodeValue=x.nodeValue.replace(/، /g,'،\u00a0'); })); }).observe(document.body,{childList:true,subtree:true}); }catch(e){}
 let io;
 function observeReveals(){
   const items = [...document.querySelectorAll('.reveal:not(.in)')];
