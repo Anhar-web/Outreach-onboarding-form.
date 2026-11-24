@@ -1,0 +1,8 @@
+Run the social-media-agency skill for Batch 4 of Home Orbit (مدار البيت).
+
+Start by reading BATCH4_HANDOFF.md in the repo Anhar-web/Outreach-onboarding-form. (branch claude/zealous-thompson-8v31dc). Then read everything it lists, in order:
+1. The Airtable base "Home Orbit, Social Media Agency" (appNJkIPFr6tPW6nP): all tables. Read every row of Legacy Posts (my pre-agency posts, my natural voice) and of Feedback & Lessons.
+2. The assessment base (appxFnfLWBVqgv8sO), Submissions and Visits tables. Read only dates, status, q14, flags, src/post/focus tags and last_q. Never names or emails.
+3. The repo files in app/b4/.
+
+Then show me the "what's working?" analysis and the Batch 4 brief (based on the draft in app/b4/step1_report.md) before writing any hooks. Write in my legacy voice, and follow the Batch 4 decisions in the handoff. Give me the dashboard as an openable link.
