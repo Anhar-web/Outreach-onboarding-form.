@@ -123,10 +123,10 @@ Built on the draft in `app/b4/step1_report.md`, with the Part 2b revisions and e
 - **A few legacy topics with a genuinely new moment or tool,** the rest new. No repeats of B1–B3 topics.
 
 **Starting pool for Research to test (English; not hooks):**
-- **Emotions:** a cousin blows out the birthday candles and he falls apart · he opens a gift in front of the giver: «ما أبغاه» · the teacher says "an angel today" and he explodes in the car (legacy L12, new tool) · he hits a cousin over a toy at grandma's while the aunt watches · floor drop in the toy aisle with strangers (L18 family, new place)
+- **Emotions:** his cousin takes the sweet he wanted from the tray at an عزيمة · a relative hands him a toy (unwrapped, or in a bag) and he says «ما أبغاه» · the teacher says "an angel today" and he explodes in the car (legacy L12, new tool) · he hits a cousin over a toy at grandma's while the aunt watches · floor drop in the toy aisle with strangers (L18 family, new place)
 - **Strange but common:** presses every lift button with strangers inside · lines up every guest's shoes at the door at an عزيمة
-- **Public or seasonal:** won't get out of the car at a winter كشتة with relatives · bolts in the mall car park (danger, L04/L09 family) · only white rice at the عزيمة buffet while the aunts comment (food)
-- **Relatives' advice:** unwanted advice at a winter gathering, plus her calm replies (the L25 re-test, new lines) · grandma hands him the biscuit you just said no to
+- **Public or seasonal:** won't get out of the car at a كشتة with relatives · bolts in the mall car park (danger, L04/L09 family) · only white rice at the عزيمة buffet while the aunts comment (food)
+- **Relatives' advice:** unwanted advice at a family gathering, plus her calm replies (the L25 re-test, new lines) · grandma hands him the biscuit you just said no to
 - **Bedtime (1):** staying over at grandma's and he won't sleep while everyone's still up
 
 ### CTA (`cta_method.md`)

@@ -1,6 +1,12 @@
 ## Director's synthesis: both reports in
 Full reports are below this summary and in `app/b4/research_audience_b4.md` and `app/b4/research_market_b4.md`.
 
+### Anhar's adjustments (Nov 24)
+- **p2:** birthdays aren't celebrated here, so the candles moment is gone. Replaced by the sweets tray at an عزيمة, with another emotions moment and people watching. The alternate is the cousin taking "his" spot next to grandma.
+- **p6:** the gift is handed over as it is, or in a bag. No wrapping, no birthday or Christmas feel.
+- **p10:** a regular family gathering. No "winter" and no season.
+- **Saved as rules in Feedback & Lessons:** check every moment against Saudi daily life (no birthday parties, unwrapped gifts), and no seasonal framing unless there's a real season or occasion now.
+
 ### The headline
 **The two reports land on the same lane from two directions.**
 - The Audience Researcher found that the spark in every moment is **a line someone else says**: the teacher's "angel", the cousin's mum's "kids will be kids", grandma's "don't tell your mum".
@@ -18,15 +24,15 @@ Full reports are below this summary and in `app/b4/research_audience_b4.md` and 
 | Post | Group · test | Moment | Witness line (the spark) | QR |
 |---|---|---|---|---|
 | b4p1 | Fallacy · cream s1 | Teacher: "an angel today", then he explodes in the car | «ما شاء الله كان ملاك» | emotions |
-| b4p2 | One tool · comment | A cousin blows out his birthday candles and he falls apart | The family singing on, "kids will be kids" | assessment |
+| b4p2 | One tool · comment | **(replaced)** At an عزيمة, the host passes the sweets tray, his cousin takes the one he wanted, and he falls apart. *Alternate: his cousin sits in "his" spot next to grandma.* | The host: «خذ غيرها حبيبي», the cousin's mum: «عادي… بزران» | assessment |
 | b4p3 | Three steps · "keep reading" | Floor drop in the toy aisle, strangers watching. **Twist:** the viral Saudi mother who lay on the floor beside him | "Get control of your child" / staring | emotions |
 | b4p4 | Fallacy · comment | Grandma hands him the biscuit you just said no to | «عطوه اللي يبي وبيسكت» | assessment |
 | b4p5 | One tool · cream s1 | Lift: someone else presses the button first, and he falls apart with strangers inside | Strangers in a tiny box, six floors | outings |
-| b4p6 | One tool · problem + solution hook | He opens a gift in front of the giver: «ما أبغاه» | The aunt: "rude" | assessment |
+| b4p6 | One tool · problem + solution hook | **(adjusted)** A relative hands him a toy as it is, or in a bag (never wrapped), and in front of her he says «ما أبغاه» | The aunt: "rude" | assessment |
 | b4p7 | Fallacy · comment | «سلّم على خالتك»: he refuses to greet or kiss at the door | «لازم يسلّم على الكل ويبوس راس جدته» | outings |
 | b4p8 | Three steps · control | He hits a cousin over a toy at grandma's, the aunt watching | The aunt's silence, then her line | assessment |
 | b4p9 | One tool · bedtime · comment | Staying over at grandma's: he won't sleep while everyone's still up | "Leave him, he's not sleepy" | sleep |
-| b4p10 | Fallacy · problem + solution hook | Unwanted advice at a winter gathering | «خلوه عندي يوم… كلمة وحدة مني ويسكت» | assessment |
+| b4p10 | Fallacy · problem + solution hook | **(adjusted)** Unwanted advice at a regular family gathering (no season) | «خلوه عندي يوم… كلمة وحدة مني ويسكت» | assessment |
 | b4p11 | Three steps · "keep reading" + comment | Only white rice at the عزيمة buffet, aunts commenting | The aunts' running commentary | food |
 | b4p12 | One tool · comment | He lines up every guest's shoes at the door (strange but common) | The guests' reaction only, never "a sign" | assessment |
 
@@ -37,7 +43,7 @@ Full reports are below this summary and in `app/b4/research_audience_b4.md` and 
   - Legacy topics come back with a new moment or tool: the teacher's angel is L12, the floor drop is L18's family, the relatives are L02/L10.
   - Nothing repeats a Batch 1–3 topic.
 - **The fallacy four** are the Analyst's top picks: «كان ملاك», «عطوه وبيسكت», «لازم يسلّم», «خلوه عندي يوم». Each one is the room's rule, never hers. «دلّعتيه» (you've spoiled him) and «قدام الناس يسويها عشان يحرجك» (he does it in front of people to embarrass you) are alternates.
-- **Held back:** the winter كشتة (no evidence) and the car park. Nobody in the car-park scene has a line, which is the type of post that stalled 4 of 4 in Batch 3.
+- **Held back:** the كشتة (no evidence, and seasonal) and the car park. Nobody in the car-park scene has a line, which is the type of post that stalled 4 of 4 in Batch 3.
 
 ### Two cautions
 1. **The shoes (p12)** is the one moment search links to diagnosis. It's safe only if the whole post stays on the guests' reaction and her day. If you'd rather not risk it, the reserve is «دلّعتيه» as a fifth relatives' post.
