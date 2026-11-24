@@ -1,14 +1,14 @@
 {
  "project": "Home Orbit — Batch 4 (Nov 2026)",
- "updatedAt": "2026-11-24T15:52:59.211374Z",
- "currentStep": 1,
+ "updatedAt": "2026-11-24T15:55:32.727325+00:00",
+ "currentStep": 2,
  "steps": [
   {
    "n": 1,
    "key": "brief",
    "title": "Brief",
    "subtitle": "The Analyst reads Batch 3 and the legacy posts; the Strategist turns it into the Batch 4 brief.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Decide the job before the post",
     "body": "Most content fails because nobody decided what it was for."
@@ -24,16 +24,16 @@
    "key": "scorecard",
    "title": "Scorecard",
    "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
-   "status": "idle",
+   "status": "needs-you",
    "idea": {
     "title": "Define 'good' before anyone writes",
     "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
    },
    "action": {
-    "label": "Approve the weights and the plan.",
+    "label": "Approve the weights and the plan, or tell me what to change.",
     "phrase": "Go."
    },
-   "report": ""
+   "report": "## Step 1 confirmed (Nov 24)\nThese are taken as agreed: 12 posts with the 4 / 5 / 3 split and the slot plan; the two hook and two cream rule suspensions (labelled tests only); the «الافتراض» label always naming the room's assumption, never hers; and odd posts' CTAs never mentioning the assessment.\n\n**Still open, asked again before they matter:**\n- the start evening (needed at handoff)\n- the three `src=bio` visits and the abandoned-start test (needed before the first evening)\n- your Arabic voice files (needed before step 7)\n\n## The Batch 4 scorecard (reweighted, total 100)\n| # | Item | B3 | **B4** | Why it moved |\n|---|---|---|---|---|\n| 1 | Scroll-stop | 18 | **18** | Slide 1 still decides everything. Most viewers never pass slide 2–3. |\n| 2 | Recognition: **people reacting + her cost** | 15 | **14** | Now judged on the two reach drivers: lines from the people in the scene (or a universal or strange-but-common moment), and the cost landing on her in the first lines. A hook ending on his behaviour scores low. |\n| 3 | Emotion, not apathy | 15 | **13** | Still the core; partly carried by #2 and #4 now. |\n| 4 | **Her legacy voice** (was \"Her own words\") | 12 | **14** | The single biggest gap between legacy (median 3.7K) and us (~500). Scored on short beats, «…» pauses, the stamp → «وأنتي؟» → «وفجأة» rhythm, 2–4 real quoted lines, ONE comic image on her, one love line. |\n| 5 | **Value by slide 3** (was \"One job\") | 10 | **10** | There's no job split any more. Is the named tool on slide 3, shown working, and could she use it tonight? |\n| 6 | Trust & safety | 10 | **10** | **Gate.** Never blames her, no diagnosis, no cause, no promise, no therapy, nothing acted out about the child. |\n| 7 | Arabic naturalness | 8 | **6** | Still checked line by line by the Arabic Voice Editor; partly overlaps #4. |\n| 8 | **The twist** (was \"The turn\") | 6 | **5** | An unexpected confession that makes her laugh at herself (the coffee-shop model), not a reframe. |\n| 9 | Next step (CTA) | 4 | **5** | Custom CTA: the outcome she wants, said with certainty, matched to the post's QR route, and it passes the \"would she click without knowing what it is?\" test. |\n| 10 | Shareable | 2 | **5** | Shares were the breakout marker in legacy (1,598 and 1,106 on the two biggest posts). Would she send it to her sister? |\n\n**How it's used:** the Hook Specialist uses #1–#4 to filter hooks; the Test Panel scores every post on all ten at step 8. **The score is a flag, not proof.** A post that reads aloud like you beats a higher number.\n\n## The agency plan\n| Step | Who | What they deliver for B4 |\n|---|---|---|\n| 3 · Research | **Audience Researcher** and **Market Analyst**, in parallel | **Researcher:** what Saudi and Gulf mothers actually say in the 13 candidate moments, especially **the lines relatives, guests and strangers say to them**, plus her inner voice, as a quote bank (Arabic + gloss, no invented quotes). It ranks the candidates by how universal they are and how much people react in them. **Analyst:** what's wallpaper in this niche now (calm-down tips, \"be patient\", emotion charts) and the open lane for the «الافتراض» series and for trick-like tools. |\n| 4 · Hooks | Hook Specialist | Angles and 4–6 hooks per angle in **your legacy voice**, covering the 12 slots, including the 2 problem + solution hooks and the 4 «الافتراض» openings. Each hook is scored against #1–#4 and tagged with its slot and QR route. |\n| 5 · Concepts | Strategist | One concept per slot, plus spares: the named tool, the deepen beat, the proof (method), the twist and the comment question. You pick. |\n| 6 · Format | You | Static or video per concept. The default proposal is static, since the slot plan is built for carousels. |\n| 7 · Copy | Copywriter | Every post in Arabic, written after reading all 25 Legacy Posts and your voice files. Delivered as a .txt file you can edit (Part M4). |\n| 8 · Edit + test | Arabic Voice Editor, then the Test Panel | Native-voice edit; three sceptical mothers react to each post; scored with this card. |\n| 9 · Handoff | Strategist | Final posts, captions, a QR code per post (`make_qr.py`), the posting order, and the Airtable rows. |\n| After each evening | Analyst | Logs day 1 in Post Performance and reads Visits and Submissions by `post` tag. |\n\nVisual production (the fresh look, the cream test, the «الافتراض» series look) runs afterwards in the Creative Production skill."
   },
   {
    "n": 3,
@@ -209,48 +209,48 @@
     "score": null
    },
    {
-    "name": "Recognition",
-    "weight": 15,
+    "name": "Recognition: people reacting + her cost",
+    "weight": 14,
     "score": null
    },
    {
     "name": "Emotion, not apathy",
-    "weight": 15,
+    "weight": 13,
     "score": null
    },
    {
-    "name": "Her own words",
-    "weight": 12,
+    "name": "Her legacy voice",
+    "weight": 14,
     "score": null
    },
    {
-    "name": "One job",
+    "name": "Value by slide 3",
     "weight": 10,
     "score": null
    },
    {
-    "name": "Trust & safety",
+    "name": "Trust & safety (gate)",
     "weight": 10,
     "score": null
    },
    {
     "name": "Arabic naturalness",
-    "weight": 8,
-    "score": null
-   },
-   {
-    "name": "The turn",
     "weight": 6,
     "score": null
    },
    {
-    "name": "Next step",
-    "weight": 4,
+    "name": "The twist",
+    "weight": 5,
+    "score": null
+   },
+   {
+    "name": "Next step (CTA)",
+    "weight": 5,
     "score": null
    },
    {
     "name": "Shareable",
-    "weight": 2,
+    "weight": 5,
     "score": null
    }
   ]
