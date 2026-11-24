@@ -37,10 +37,10 @@ Files in `app/b4/visual/`:
 
 ### What Batches 1–3 did differently, and what changes now
 - **Text was pearl on a dark ground**, with the art filling the lower half and **competing** with the copy. Legacy always kept art at the edges.
-- **"Slide 1 always dark"** came from a confounded Batch 2 read (the light posts also went out minutes apart). Legacy breakouts were mostly light (D, E) or light-card-on-dark (A). **Retired: the ground now rotates by look.**
+- **Dark stays the base (Anhar, from testing),** but not as one repeated look. Dark grounds rotate across four looks and two shades (night and deep), and a light cream page is mixed in about 1 post in 4.
 - **The rules that stay:**
   - no photos or AI images (we build everything in the SVG kit)
-  - no child faces
+  - no child faces (silhouettes are fine)
   - paper grain
   - fonts: El Messiri for hooks, Tajawal for body
   - brand colours
@@ -50,7 +50,13 @@ Files in `app/b4/visual/`:
 ---
 
 ## 2. The system: "Paper & Light"
-**One idea:** a sheet of paper carries the words, and the world is cut paper around it, lit by one warm light. Five looks share fonts, grain, the deckled pearl paper and the warm light, and differ in ground, depth and amount of art. The art always **frames** the copy and never sits behind it.
+**One idea:** a sheet of paper carries the words, and the world is cut paper around it, lit by one warm light. Five looks share fonts, grain, the deckled pearl paper and the warm light, and differ in ground, depth and amount of art. The art always **frames** the copy and never sits behind it. **Dark grounds lead** (looks 1, 3, 4 and 5); the cream page (look 2) is the occasional light change of pace.
+
+### Anhar's decisions (Nov 24)
+- **Dark is the main thing.** In testing, dark posts always did better. About **3 of every 4 posts are dark**; light posts (look 2 only) are the occasional change of pace.
+- **No dusty blue:** it was an old brand colour.
+- **The solid deckled paper card stays** as built.
+- **People, mainly silhouettes,** as in the legacy posts.
 
 ### Palette
 - **Brand colours:**
@@ -63,10 +69,9 @@ Files in `app/b4/visual/`:
   - pearl `#F6F3EB`
   - sand `#EBD6BC`
   - gold `#C9935A`
-- **Proposed, needs Anhar's OK:** **dusk `#B7CBD6`** and duskDeep `#7F9DB0`, a dusty-blue ground taken from legacy L25. Ink on dusk passes contrast.
 - **Text colours:**
-  - ink on every light surface
-  - highlight words in **tealDeep** on pearl and tealMist, and **deep** on sand and dusk; never teal (teal on light fails contrast)
+  - ink on every light surface; **pearl** directly on dark grounds (pearl on night 10.4:1, on deep 7:1)
+  - highlight words in **tealDeep** on pearl and tealMist, **deep** on sand, and **sand `#EBD6BC`** on dark grounds; never teal (teal on light fails contrast)
   - never gold text
 
 ### Type (unchanged)
@@ -77,11 +82,19 @@ Files in `app/b4/visual/`:
 ### The five looks
 | # | Look | Ground | How the art sits | Best for | Legacy root |
 |---|---|---|---|---|---|
-| **1** | **Layered Paper Night** | night / deep | 4–5 stacked paper wave layers (deep → tealDeep → sand → pearl) rising from the bottom, a darker layer at the top, one warm glow (moon, lantern or doorway), a few paper stars. Copy sits on an **opaque deckled pearl paper card** with a real shadow. *Not* the translucent box. | **Logical-fallacy series** «الافتراض اللي يصعّب الموضوع», serious or tender topics, bedtime | A (203K / 39.5K / 38.4K) |
-| **2** | **Cream Page** | pearl / sand / tealMist | Type-first. Thin gold line arcs in one corner, one soft tealMist circle bleeding off an edge, one small cut-paper object (star, shoe, cup) low in a corner. The headline is in tealDeep. | Funny story hooks, the problem + solution hook (Eid), punchy posts | D (159K / 13.4K) |
-| **3** | **Paper Vignette** | tealMist / pearl / sand | Big hook in the top 55%. A **small cut-paper stage set** in the bottom 40% that names the place: a majlis cushion row and coffee tray, a supermarket shelf edge, a café counter, a car-seat corner, a bath tile line. **No faces**: backs, hands, objects. | Public and family scenes with people reacting (the reach driver) | E's thumbnail idea, in paper |
-| **4** | **Warm Window Light** | sand / pearl | Golden-hour window light as soft pale diagonal beams across the ground. One or two paper objects at the bottom (school bag, clock, shoes). Copy directly on the ground. | Mornings, routines, home moments, time-cost hooks | B (golden interiors) |
-| **5** | **Blue Hour Minimal** | dusk / tealMist | **One big 3D paper object holds the copy:** a speech bubble, a note card, a plate, a shoe-box lid. Plus one soft circle and one tiny accent (heart, star). Simplest look. | Short hooks, relatives' quotes, "what people say" posts, CTA-heavy endings | F (L25) |
+| **1** | **Layered Paper Night** | night / deep | 4–5 stacked paper wave layers (deep → tealDeep → sand → pearl) rising from the bottom, a darker layer at the top, one warm glow (moon, lantern or doorway), a few paper stars. Copy sits on an **opaque deckled pearl paper card** with a real shadow. *Not* the translucent box. On slide 1, a mother and child silhouette at the edge, walking toward the light. | **Logical-fallacy series** «الافتراض اللي يصعّب الموضوع», serious or tender topics, bedtime | A (203K / 39.5K / 38.4K) |
+| **2** | **Cream Page** (the one light look) | pearl / sand / tealMist | Type-first. Thin gold line arcs in one corner, one soft tealMist circle bleeding off an edge, one small cut-paper object (star, shoe, cup) low in a corner. The headline is in tealDeep. | Funny story hooks, the problem + solution hook (Eid), punchy posts | D (159K / 13.4K) |
+| **3** | **Paper Vignette** | **deep / night** (light only as the rare variant) | Big hook in the top 55%. Pearl type directly on the dark ground. A **cut-paper stage set** in the bottom 40%, softly lit by a warm glow, that names the place: a majlis cushion row and coffee tray, a supermarket shelf edge, a café counter, a car-seat corner, a bath tile line. **The witnesses are there as silhouettes** (seated relatives, a shopper, staff), plus the child as a small silhouette. | Public and family scenes with people reacting (the reach driver) | E's thumbnail idea, in paper |
+| **4** | **Doorway Light** | **night / deep** | A warm gold light cone from a doorway or window at the edge falls across the dark floor. **Mother and child silhouettes** stand in or near the light. Pearl copy on the dark area above. | Mornings, bedtime, routines, home moments, time-cost hooks | B's warm light, moved to night |
+| **5** | **Night Bubble** | **deep / night** | **One big deckled pearl paper object holds the copy:** a speech bubble, a note card, a plate. A few sand paper stars, one warm glow in a corner, and two small silhouettes (the people talking) at the bottom. Simplest dark look. | Short hooks, relatives' quotes, "what people say" posts, the problem + solution hook, CTA-heavy endings | F (L25), on dark |
+
+### People: silhouettes
+- **As in the legacy posts:** mother and child, and the people watching (relatives, shoppers, staff), as **flat paper silhouettes**.
+- **No faces or features:** side or back views, readable from posture (hijab and abaya, a small child's round head, a raised arm).
+- **On dark grounds:** silhouettes one step darker than the ground (ink or night), backlit by the warm glow.
+- **On light grounds:** deep.
+- **Placement:** at the edges and bottom only, never behind text. At most 4 figures on a slide.
+- **No performed drama:** posture tells the moment (a child pulling away, a mother bent at a door), never cartoon tantrums.
 
 ### Slide rhythm inside a post
 - **Slide 1:** the look at full strength: the most art, the biggest hook.
@@ -96,20 +109,20 @@ Files in `app/b4/visual/`:
 TikTok shows 3 columns, newest top-left. Two posts a day means each day fills 2 tiles, so plan in rows of 3.
 1. **No two consecutive posts share a look.**
 2. **Every row of 3 has 3 different looks**, and no column repeats a look in adjacent rows.
-3. **Value rhythm:** at most 1 dark tile (look 1) per row. Never 2 dark tiles touching.
+3. **Dark is the base:** about **9 of 12** tiles are dark (looks 1, 3, 4 and 5), with 3 light (look 2). **Every row has at least 2 dark tiles**, and light tiles never touch (side or above/below).
 4. **Grounds rotate inside a look:** the same look returns on a different ground (look 2 on pearl, then sand, then tealMist).
-5. **About 3 posts per look per 12** (look 1 = the fallacy series, ~3–4).
+5. **About 2–3 posts per look per 12** (look 1 = the fallacy series, ~3).
 6. **Look 1 is the "series" look,** so the fallacy posts are recognisable as a series without the rest of the feed looking the same.
 7. **Every batch, retire or refresh one look** (new composition family, or a new accent object) so no look runs more than ~2 batches unchanged.
 
-**Sample 12-post sequence** (`grid_sheet.png`):
+**Sample 12-post sequence** (`grid_sheet.png`, 9 dark and 3 light):
 
 | Row | Slot 1 | Slot 2 | Slot 3 |
 |---|---|---|---|
-| 1 | Look 1, night | Look 2, pearl | Look 3, tealMist |
-| 2 | Look 4, sand | Look 1, deep | Look 5, dusk |
-| 3 | Look 2, sand | Look 3, pearl | Look 1, night |
-| 4 | Look 4, pearl | Look 5, tealMist | Look 2, tealMist |
+| 1 | Look 1, night | Look 3, deep | Look 2, pearl (light) |
+| 2 | Look 4, night | Look 2, sand (light) | Look 5, deep |
+| 3 | Look 3, night | Look 1, deep | Look 4, deep |
+| 4 | Look 2, tealMist (light) | Look 5, night | Look 1, night |
 
 **The hook decides the look,** not the other way round. Use the slate to place looks; if a hook needs a scene (people reacting), it gets look 3 even if that means swapping two posts.
 
