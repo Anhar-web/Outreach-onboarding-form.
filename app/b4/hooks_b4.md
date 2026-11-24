@@ -1,0 +1,515 @@
+## Step 4 · Angles & hooks (Hook Specialist)
+**Your clarification on p6 is noted:** the gift being unwrapped or in a bag is just how it happens here. The moment is that he doesn't like it and says «ما أبغاها» in front of the aunt.
+
+**How these were written:**
+- Your legacy voice: short beats, «…» pauses, stamp → «وأنتي؟» → «وفجأة», relatives' real-sounding lines in straight quotes, ONE comic image casting HER in an adult role, and the cost on her as the last beat (never his behaviour).
+- No «طبيعي», no "we", no «ما تقدري… إلا», no line ending on a comma, «طفلك» for him, «يبكي» for crying, «شويه», «عشان».
+- Every slot has 3 options, the mechanism named, a literal English gloss, and a 1–5 filter score on scorecard items 1–4 (scroll-stop, people reacting + her cost, emotion, legacy voice). **The scores are a filter, not proof.** Your ear decides.
+- The fallacy label «الافتراض اللي يصعّب الموضوع» doesn't appear in the hook. It lands on slide 3, as in your 200K post.
+
+### The three angles
+- **A · The room's rule** (fallacy series: p1, p4, p7, p10). A relative states the gathering's rule in quotes, and she pays for it. The open lane from the Market Analyst.
+- **B · Her cost, in front of everyone** (p2, p3, p5, p8, p9, p11, p12). The witness scene from your breakouts: people react with lines, and the comic image lands on her.
+- **C · Problem + solution in one breath** (the test: p6, p10). Your Eid shape: the problem, then the solution as a statement under it, with no "here are X steps".
+
+⭐ = my recommendation for the slot.
+
+---
+
+### b4p1 · Fallacy · cream s1 · the teacher's "angel" → he explodes in the car · QR emotions
+**1a ⭐**
+```
+تاخذيه من الروضة.
+المعلمة تقول:
+"ما شاء الله… كان ملاك اليوم"
+تشكريها… وتركبي السيارة.
+وما تلحقي تشغليها…
+إلا والملاك
+سلّمك النسخة الثانية.
+```
+*You pick him up from nursery. The teacher says: "Mashallah… he was an angel today." You thank her… get in the car. And before you can even start it… the angel has handed you the other version.*
+Mechanism: witness line → turn → comic cost on her ("handed you the other version"). **Score 5.**
+
+**1b**
+```
+الساعة 12:30.
+المعلمة: "ولا صوت… كان ملاك"
+الأم اللي جنبك: "الله يخليه لك"
+وأنتي؟
+تعرفي إن الحفلة الحقيقية
+تبدأ أول ما يتسكر باب السيارة.
+```
+*12:30. The teacher: "Not a sound… an angel." The mum next to you: "May God keep him for you." And you? You know the real party starts the moment the car door shuts.*
+Mechanism: stamp + two witness lines + «وأنتي؟». **Score 4.**
+
+**1c**
+```
+"كان ملاك اليوم"
+تسمعيها كل يوم…
+وكل يوم تقولي في نفسك:
+"طيب ليش الملاك
+ما يجي معانا البيت؟"
+```
+*"He was an angel today." You hear it every day… and every day you say to yourself: "So why doesn't the angel come home with us?"*
+Mechanism: inner voice, a shared eye-roll. Gentler. **Score 3.5.**
+
+---
+
+### b4p2 · One tool · comment prompt · the sweets tray at the عزيمة · QR assessment
+**2a**
+```
+عزيمة.
+صاحبة البيت تدور بصحن الحلويات.
+ولد خالته ياخذ…
+الحبة اللي كان يبغاها طفلك.
+وفجأة
+المجلس كله يسمع.
+"خذ غيرها حبيبي… كلها حلوة"
+وأنتي؟
+تفاوضي على حبة شوكولاته
+قدام عشرين وحدة.
+```
+*A dinner gathering. The host goes round with the sweets tray. His cousin takes… the one your child wanted. And suddenly the whole majlis can hear. "Take another, sweetheart… they're all nice." And you? Negotiating over one chocolate in front of twenty women.*
+Mechanism: stamp → «وفجأة» → witness line → comic adult role. **Score 4.5.**
+
+**2b ⭐**
+```
+صحن الحلويات وصل لطفلك…
+بعد ما ولد خالته
+أخذ الوحيدة اللي يبغاها.
+"عادي… بزران"
+قالتها أمه وكملت قهوتها.
+وأنتي؟
+صرتي مفاوضة دولية
+على قطعة شوكولاته.
+```
+*The sweets tray reached your child… after his cousin took the only one he wanted. "It's fine… they're kids," his mum said, and carried on with her coffee. And you? You've become an international negotiator over one piece of chocolate.*
+Mechanism: contrast (her calm coffee vs your negotiation), one comic image on you. **Score 5.**
+
+**2c**
+```
+عزيمة. الساعة تسع.
+الكل يسولف.
+صحن الحلويات يلف…
+وأنتي عيونك عليه
+وقلبك يعد:
+ثلاثة… اثنين…
+```
+*A gathering. Nine o'clock. Everyone's chatting. The sweets tray goes round… and your eyes are on it, and your heart is counting: three… two…*
+Mechanism: open loop, suspense, she already knows. **Score 4.**
+
+---
+
+### b4p3 · Three steps · "keep reading" line · floor drop in the toy aisle (twist: lying down beside him) · QR emotions
+**3a ⭐**
+```
+محل الألعاب.
+قلتي: "لا… اليوم بس نتفرج"
+وقبل ما تكملي الجملة
+طفلك على الأرض.
+رجال يمر: "الله يعينك"
+وحده تهمس: "دلع"
+وأنتي؟
+واقفة في نص الممر
+كأنك المتهمة في القضية.
+```
+*The toy shop. You said: "No… today we're just looking." And before you finished the sentence, your child was on the floor. A man passing: "God help you." A woman whispers: "Spoilt." And you? Standing in the middle of the aisle like the accused in the case.*
+Mechanism: stamp → her spoken line → two witness lines (one kind, one judging) → comic adult role. **Score 5.**
+
+**3b**
+```
+"اليوم بس نتفرج"
+كانت آخر جملة قلتيها…
+قبل ما الممر كله
+يصير جمهور.
+```
+*"Today we're just looking" was the last thing you said… before the whole aisle became an audience.*
+Mechanism: short and punchy, her line as the hook. Tests whether 4 lines beat 9. **Score 4.**
+
+**3c**
+```
+ممر الألعاب.
+هو على الأرض.
+ثلاث عوائل تتفرج.
+وأنتي في راسك:
+"أشيله؟ أستنى؟
+ولا أعتذر للمحل كله؟"
+```
+*The toy aisle. He's on the floor. Three families watching. And in your head: "Pick him up? Wait? Or apologise to the whole shop?"*
+Mechanism: inner voice, call-and-response. **Score 4.**
+
+---
+
+### b4p4 · Fallacy · comment prompt · grandma: «عطوه اللي يبي وبيسكت» · QR assessment
+(Chips, not a biscuit, so it doesn't echo the Batch 3 "no" post.)
+
+**4a ⭐**
+```
+قلتي له: "لا… بعد الغدا"
+بدأ يبكي.
+وجدته من آخر المجلس:
+"عطوه اللي يبي وبيسكت"
+وقبل ما تردي…
+كيس الشبس في يده.
+وأنتي؟
+قاضية… ونقضوا حكمها
+قدام الكل.
+```
+*You told him: "No… after lunch." He started crying. And his grandma, from the far end of the majlis: "Give him what he wants and he'll stop." And before you could answer… the bag of chips was in his hand. And you? A judge… whose ruling was overturned in front of everyone.*
+Mechanism: her line → witness line (the room's rule) → comic adult role. **Score 5.**
+
+**4b**
+```
+"لا"
+قلتيها مرة وحدة بس.
+جدته: "حرام عليكي… عطوه"
+خالته: "والله بيسكت"
+وأنتي؟
+الوحيدة في المجلس
+اللي صوتها "ضد".
+```
+*"No." You said it just once. His grandma: "Have a heart… give it to him." His aunt: "I swear he'll stop." And you? The only one in the majlis voting "against".*
+Mechanism: two witness lines, a vote image. **Score 4.**
+
+**4c**
+```
+عند جدته
+كلمة "لا" حقتك
+لها عمر قصير…
+تعيش ثلاث ثواني
+لين تقول جدته: "عطوه".
+```
+*At his grandma's, your "no" has a short life… it lives three seconds, until his grandma says: "Give it to him."*
+Mechanism: compressed comic image. **Score 4.**
+
+---
+
+### b4p5 · One tool · cream s1 · the lift: someone else presses the button first · QR outings
+**5a ⭐**
+```
+المصعد في المول.
+طفلك ينتظر يضغط الزر.
+وحده تدخل…
+وتضغطه قبله.
+وفجأة
+خمس أدوار
+في صندوق حديد
+مع ناس ما تعرفيهم.
+وأنتي؟
+تعدي الأدوار…
+وتبتسمي للكل.
+```
+*The lift at the mall. Your child is waiting to press the button. A woman steps in… and presses it before him. And suddenly: five floors, in a metal box, with people you don't know. And you? Counting the floors… and smiling at everyone.*
+Mechanism: stamp → «وفجأة» → cost on her (the smile). Strange but common. **Score 4.5.**
+
+**5b**
+```
+"آسفة… ما انتبهت"
+قالتها اللي ضغطت الزر.
+وأنتي؟
+باقي لك خمس أدوار
+تشرحي فيها بابتسامة
+ليش الزر قضية.
+```
+*"Sorry… I didn't notice," said the woman who pressed the button. And you? You've got five floors left to explain, with a smile, why the button is a whole case.*
+Mechanism: the witness's apology as the hook. **Score 4.**
+
+**5c**
+```
+أحد ضغط زر المصعد…
+قبل طفلك.
+وهنا تعرفي
+إن أطول خمس أدوار في حياتك
+بدأت.
+```
+*Someone pressed the lift button… before your child. And that's when you know the longest five floors of your life have begun.*
+Mechanism: curiosity gap. **Score 4.**
+
+---
+
+### b4p6 · One tool · **problem + solution hook (test)** · the gift: «ما أبغاها» · QR assessment
+**6a**
+```
+"ما أبغاها"
+قالها قدام خالته…
+واللعبة لسه في يدها.
+وجملة وحدة منك
+تطلعك من الموقف
+بدون ما تعتذري عنه عشر مرات.
+```
+*"I don't want it." He said it in front of his aunt… with the toy still in her hand. And one sentence from you gets you out of it, without apologising for him ten times.*
+Mechanism: problem → solution statement about HER (not a promise about him). **Score 4.**
+
+**6b ⭐**
+```
+خالته جابت له لعبة.
+عطته الكيس.
+طل فيه…
+ورجعه لها: "ما أبغاها"
+والحل؟
+جملة وحدة تقوليها أنتي…
+قبل ما يحمر وجهك.
+```
+*His aunt brought him a toy. Handed him the bag. He looked inside… and gave it back: "I don't want it." The fix? One sentence you say… before your face goes red.*
+Mechanism: problem scene + solution statement, your Eid shape, kept in the legacy voice. **Score 4.5.**
+
+**6c**
+```
+لما طفلك يرد الهدية
+قدام اللي جابتها…
+هذي الجملة اللي تقوليها
+وتطلعي منها بدون إحراج.
+```
+*When your child hands the gift back in front of the woman who brought it… here's the sentence you say to walk away without the embarrassment.*
+Mechanism: the cleanest problem + solution, the closest to the Eid post, but more headline-like. **Score 3.5.**
+
+---
+
+### b4p7 · Fallacy · comment prompt · «لازم يسلّم على الكل» · QR outings
+**7a**
+```
+عند الباب.
+"سلّم على خالتك"
+"بوس راس جدتك"
+"عيب… ليش ما تسلم؟"
+وطفلك ورا عباتك.
+وأنتي؟
+المتحدثة الرسمية باسمه
+عشر دقايق عند الباب.
+```
+*At the door. "Say hello to your aunt." "Kiss your grandma's head." "Shame… why won't you say hello?" And your child is behind your abaya. And you? His official spokeswoman, for ten minutes at the door.*
+Mechanism: three witness lines, a comic adult role. **Score 4.5.**
+
+**7b ⭐**
+```
+تدخلي الجمعة…
+وقبل ما تقولي السلام عليكم
+يبدأ الاستجواب:
+"ما سلّم؟"
+"ليش مستحي؟"
+"تعال بوس راس جدتك"
+وأنتي؟
+تسلمي عن اثنين.
+```
+*You walk into the family gathering… and before you say salaam, the questioning begins: "He didn't say hello?" "Why's he shy?" "Come kiss your grandma's head." And you? You greet for two.*
+Mechanism: call-and-response witness lines, a short warm punchline on her. **Score 5.**
+
+**7c**
+```
+"لازم يسلّم على الكل"
+قاعدة كل جمعة.
+وطفلك؟
+ماسك في رجلك…
+ويطالع الأرض.
+```
+*"He has to greet everyone," the rule of every family gathering. And your child? Holding your leg… looking at the floor.*
+Mechanism: states the rule up front. Ends on him, so weaker. **Score 3.**
+
+---
+
+### b4p8 · Three steps · control (no "keep reading" line) · he hits a cousin at grandma's · QR assessment
+**8a**
+```
+بيت جدته.
+الكل في المجلس.
+وفجأة صوت بكاء…
+طفلك ضرب ولد خالته
+عشان السيارة الحمرا.
+خالته ما قالت شي.
+بس طالعتك.
+وأنتي؟
+حسيتي إن النظرة هذي
+أطول من محاضرة.
+```
+*Grandma's house. Everyone in the majlis. Then suddenly, crying… your child hit his cousin over the red car. His aunt didn't say anything. She just looked at you. And you? That look felt longer than a lecture.*
+Mechanism: the silent witness, the cost on her. **Score 4.5.**
+
+**8b ⭐**
+```
+"ضربني!"
+صرخ ولد أختك.
+وكل العيون
+راحت لك…
+مو له.
+```
+*"He hit me!" your sister's son yells. And every eye went to you… not to him.*
+Mechanism: short and sharp, the room turns to her. **Score 5.**
+
+**8c**
+```
+تسمعي البكاء من الغرفة الثانية.
+وتعرفي قبل ما تقومي
+مين ضرب…
+ومين بيطالعك.
+```
+*You hear crying from the other room. And before you even get up, you know who hit… and who's going to look at you.*
+Mechanism: her foreknowledge, a shared eye-roll. **Score 4.**
+
+---
+
+### b4p9 · One tool · **the 1 bedtime post** · comment prompt · staying over at your family's · QR sleep
+**9a**
+```
+نايمين عند أهلك.
+الساعة 12 الليل.
+البيت كله صاحي:
+القهوة… السوالف… التلفزيون.
+وطفلك؟ مصحصح.
+أمك: "خليه… مو نعسان"
+وأنتي؟
+لا أنتي معاهم…
+ولا هو نايم.
+```
+*Staying over at your family's. Midnight. The whole house is awake: coffee… chatting… the TV. And your child? Wide awake. Your mum: "Leave him… he's not sleepy." And you? You're not with them… and he's not asleep.*
+Mechanism: stamp + list + witness line + a two-sided cost on her. **Score 4.5.**
+
+**9b ⭐**
+```
+"خليه يسهر معانا… مو كل يوم"
+قالتها أمك الساعة 11.
+الساعة 2…
+أمك نامت.
+وطفلك؟
+لسه يسهر معاكي.
+```
+*"Let him stay up with us… it's not every day," your mum said at 11. At 2… your mum's asleep. And your child? Still up, with you.*
+Mechanism: the witness line backfires on her, with a time stamp. **Score 5.**
+
+**9c**
+```
+أول ليلة عند أهلك.
+البيت فيه عشر أصوات…
+وطفلك يبغى العشرة كلهم.
+وأنتي؟
+شايلة مخدته
+من غرفة لغرفة.
+```
+*First night at your family's. Ten voices in the house… and your child wants all ten. And you? Carrying his pillow from room to room.*
+Mechanism: a comic image on her. **Score 4.**
+
+---
+
+### b4p10 · Fallacy · **problem + solution hook (test)** · unwanted advice at a regular family gathering · QR assessment
+**10a**
+```
+"خلوه عندي يوم…
+كلمة وحدة مني ويسكت"
+قالها خاله…
+وهو ما شافه إلا ربع ساعة.
+وهذي الردود اللي تطلعك منها هادية
+بدون ما تدخلي في نقاش.
+```
+*"Leave him with me for a day… one word from me and he'll be quiet," said his uncle… who's seen him for a quarter of an hour. And here are the replies that get you out of it calm, without getting into an argument.*
+Mechanism: the room's rule + solution statement. **Score 4.5.**
+
+**10b ⭐**
+```
+"خلوه عندي يوم… ويسكت"
+"لو كان عندي كان صار غير"
+"أنتي اللي مدلعته"
+نصايح ما طلبتيها في الجمعة…
+وردود تطلعي منها مرتاحة.
+```
+*"Leave him with me a day… and he'll be quiet." "If he were mine, it'd be different." "You're the one who's spoilt him." Advice you didn't ask for at the family gathering… and replies you walk away from at ease.*
+Mechanism: your Eid hook, rebuilt: three relatives' lines, then the solution statement. **Score 5.**
+
+**10c**
+```
+خاله عنده الحل:
+"خلوه عندي يوم"
+عمته عندها حل:
+"شدي عليه شويه"
+وأنتي؟
+عندك جملة وحدة
+تسكت الاثنين بأدب.
+```
+*His uncle has the solution: "Leave him with me a day." His aunt has a solution: "Be a bit firmer with him." And you? You've got one sentence that quiets them both, politely.*
+Mechanism: call-and-response + a solution line on her. **Score 4.5.**
+
+---
+
+### b4p11 · Three steps · "keep reading" line + comment prompt · only white rice at the عزيمة · QR food
+**11a**
+```
+عزيمة.
+سفرة فيها ثلاثين صنف.
+وصحن طفلك؟
+رز أبيض.
+خالته: "ذوقه من الكبسة شويه"
+عمته: "عشان كذا ضعيف"
+وأنتي؟
+تدافعي عن صحن رز
+قدام السفرة كلها.
+```
+*A dinner gathering. A spread with thirty dishes. And your child's plate? White rice. His aunt: "Give him a little taste of the kabsa." His other aunt: "That's why he's so thin." And you? Defending a plate of rice in front of the whole spread.*
+Mechanism: stamp + contrast + two witness lines + a comic adult role. **Score 4.5.**
+
+**11b ⭐**
+```
+"بس رز؟"
+"ما يحب الدجاج؟"
+"خليه يذوق… شويه بس"
+ثلاث أسئلة…
+وأنتي لسه ما جلستي.
+```
+*"Just rice?" "Doesn't he like chicken?" "Let him taste… just a little." Three questions… and you haven't even sat down yet.*
+Mechanism: call-and-response witness lines, the cost in the last beat. **Score 5.**
+
+**11c**
+```
+في كل عزيمة
+صحن واحد يجيب تعليقات
+أكثر من الكبسة نفسها…
+صحن طفلك.
+```
+*At every gathering, one plate gets more comments than the kabsa itself… your child's plate.*
+Mechanism: a curiosity reveal. **Score 4.**
+
+---
+
+### b4p12 · One tool · comment prompt · he lines up the guests' shoes · QR assessment
+(Kept on the guests' reaction and her day only. Nothing that reads as "a sign".)
+
+**12a**
+```
+الضيوف داخلين.
+الجزم عند الباب… على كيفها.
+وبعد ربع ساعة؟
+كلها في صف واحد.
+وحده تضحك: "مين المسؤول عن الترتيب؟"
+وأنتي؟
+تبتسمي ابتسامة "الله يستر".
+```
+*The guests come in. Their shoes at the door… any old how. And a quarter of an hour later? All in one line. A guest laughs: "Who's in charge of tidying?" And you? Smiling your "God help us" smile.*
+Mechanism: stamp → reveal → witness line → her face. **Score 4.**
+
+**12b**
+```
+"مين رتّب الجزم كذا؟"
+سألت خالتك وهي طالعة.
+وأنتي تعرفي الجواب…
+وتعرفي إن الطلعة
+بتاخذ نص ساعة.
+```
+*"Who lined the shoes up like this?" your aunt asked on her way out. And you know the answer… and you know leaving will take half an hour.*
+Mechanism: the witness question + the cost on her time. **Score 4.**
+
+**12c ⭐**
+```
+تقومي تودعي الضيوف…
+وتلقي جزمهم
+في صف واحد
+وطفلك واقف عندها حارس.
+وأنتي؟
+لازم تقنعيه
+إن الضيوف يبغوا جزمهم.
+```
+*You get up to see the guests off… and find their shoes in one line, with your child standing guard over them. And you? You have to convince him the guests want their shoes back.*
+Mechanism: strange but common, one comic image on him (the guard) and the cost on her (persuading him). **Score 4.5.**
+
+---
+
+### What I need from you
+- **Pick, cut or rewrite**, slot by slot. If you rewrite a hook yourself, it's final, as always.
+- **Two shapes to choose between where you have a view:** the long legacy scene (9 lines: 3a, 2a, 11a) vs the short punch (4–5 lines: 3b, 8b, 11b). I've mixed both across the ⭐ picks, so the batch tests length too.
+- The same hooks are in `app/b4/hooks_b4.txt` to edit in plain text.
