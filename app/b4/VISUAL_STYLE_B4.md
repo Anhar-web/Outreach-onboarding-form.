@@ -66,7 +66,7 @@ Files in `app/b4/visual/`:
 - **Proposed, needs Anhar's OK:** **dusk `#B7CBD6`** and duskDeep `#7F9DB0`, a dusty-blue ground taken from legacy L25. Ink on dusk passes contrast.
 - **Text colours:**
   - ink on every light surface
-  - highlight words in **tealDeep**, never teal (teal on light fails contrast)
+  - highlight words in **tealDeep** on pearl and tealMist, and **deep** on sand and dusk; never teal (teal on light fails contrast)
   - never gold text
 
 ### Type (unchanged)
@@ -134,4 +134,7 @@ TikTok shows 3 columns, newest top-left. Two posts a day means each day fills 2 
   - `vignette(scene)` (majlis, shelf, counter, car seat, bath)
   - `paper_tag(text)`
 - **Text-fit checks stay as they are** (verbatim, no «،» line endings, ≥44px). Add a check that **no text overlaps art**: art is allowed only outside the card or the text box.
-- **Contrast checks:** ink on every ground, ≥7:1. The tealDeep highlight on pearl and tealMist is about 4.6–5:1, so use it only on bold lines of 50px or more.
+- **Contrast checks (measured):**
+  - ink is ≥8:1 on every ground
+  - tealDeep highlight: 4.7:1 on pearl and 4.3:1 on tealMist, so use it only on bold lines of 50px or more
+  - on **sand (3.7) and dusk (3.1)**, tealDeep fails: highlight with **deep `#005A70` bold** instead
