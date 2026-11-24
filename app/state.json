@@ -1,6 +1,6 @@
 {
  "project": "Home Orbit — Batch 4 (Nov 2026)",
- "updatedAt": "2026-11-24T15:58:40.429180+00:00",
+ "updatedAt": "2026-11-24T16:01:19.052757+00:00",
  "currentStep": 3,
  "steps": [
   {
@@ -49,7 +49,7 @@
     "label": "Read both reports.",
     "phrase": "Both look good. Next step."
    },
-   "report": "Audience Researcher and Market Analyst are working in parallel. Reports land here when both are in."
+   "report": "Market Analyst report is in. Waiting for the Audience Researcher; both reports appear here together."
   },
   {
    "n": 4,
@@ -166,7 +166,7 @@
     "key": "ma",
     "name": "Market Analyst",
     "role": "What the market has heard",
-    "status": "working"
+    "status": "done"
    },
    {
     "key": "hk",
