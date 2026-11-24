@@ -20,6 +20,7 @@ Written Nov 24, 2026, at the end of the Batch 3 chat. Repo: Anhar-web/Outreach-o
    - `app/b4/legacy_analysis_notes.md`: notes on each of the 25 posts.
    - `app/b4/cta_method.md`: Anhar's custom CTA method, tone rules, and the soft-CTA decision.
    - `app/b4/links.md` and `app/b4/make_qr.py`: landing links and the tagged QR generator.
+   - **`app/b4/VISUAL_STYLE_B4.md`: the Batch 4 visual system "Paper & Light" (5 looks plus feed-grid rules). Mockups are in `app/b4/visual/`. Use it for art direction and production.**
    - `app/b3/assessment_truth.md`: what CTAs may claim.
    - `app/ANHAR_FEEDBACK_HANDBOOK.md`: Parts M–P are the newest.
 
