@@ -94,3 +94,31 @@
 
 ### Posting
 One a day, about 7:15 PM. Log day 1, plus the Visits and Submissions tags per post.
+
+
+## Part 2b · Revisions after Anhar's Nov 24 answers and the legacy voice analysis
+Full analysis: `b4/legacy_voice_analysis.md`.
+
+**Posting and tracking:**
+- **Posting:** two a day, about 7:00 PM, then 8:00–8:30 PM. Anhar's call: posting alone didn't save the weak posts, and two a day tests faster.
+- **QR codes alternate:** odd posts go to the matching `?focus=` landing page, even posts to the assessment, all tagged `src=qr&post=b4pN`.
+- **Bio link** changes to `?src=bio`.
+- **The Nov 24 completion** was a real mother. She clicked "learn more about the Living Plan" but didn't join the waitlist. Her row shows last_q = 12 although she answered Q14, so the last_q logging may not be updating on the final questions.
+
+**Voice spec (replaces the B3 voice where they conflict):**
+- **Short beats:** 2–5 words per line, one idea per line. Line breaks and «…» set the timing.
+- **Long sentences only in the final CTA sentence.** "One flowing sentence" and "full spoken sentences" apply only to the CTA and checklist items they came from.
+- **The legacy opening:** a stamp, then a calm-vs-her contrast («وأنتي؟»), then call-and-response escalation, then «وفجأة» and the punchline.
+- **2–4 real quoted lines** from the people around her, and her inner voice.
+- **One comic image per post that casts HER in an adult role.** At most one about the child. Never performed drama.
+- **One love line that clears her.**
+- **The tool has a name in quotes** and is shown in action in 2–3 beats.
+- **Ending:** the twist (a confession), the CTA plus QR code, and a playful self-identification line or a child-preference question.
+
+**Length:**
+- One tool: **4–5 slides.**
+- Three steps: **6 slides at most.**
+- About 130–160 words in total.
+- Aim: well over half the slides viewed.
+
+**Open question for Anhar:** may the guide speak as «أنا» (first person)? Legacy examples: «خليني أوريك زاوية ثانية», «قوليلي», «بيننا». This is different from the banned "we" parents.
