@@ -1,30 +1,30 @@
 {
- "project": "Home Orbit — Batch 2 (Nov 2026)",
- "updatedAt": "2026-11-09T16:29:02.031237+00:00",
- "currentStep": 9,
+ "project": "Home Orbit — Batch 4 (Nov 2026)",
+ "updatedAt": "2026-11-24T15:52:59.211374Z",
+ "currentStep": 1,
  "steps": [
   {
    "n": 1,
    "key": "brief",
    "title": "Brief",
-   "subtitle": "The Strategist turns your answers into the brief every specialist works from.",
-   "status": "done",
+   "subtitle": "The Analyst reads Batch 3 and the legacy posts; the Strategist turns it into the Batch 4 brief.",
+   "status": "needs-you",
    "idea": {
     "title": "Decide the job before the post",
     "body": "Most content fails because nobody decided what it was for."
    },
    "action": {
-    "label": "Answer the five questions in chat, then confirm.",
+    "label": "Read the analysis and the brief, answer the three questions, then confirm.",
     "phrase": "Looks right. Next step."
    },
-   "report": "### Batch 2 brief (draft, pre-filled from your Batch 1 instructions)\n\n**Why this batch, now.** Batch 1 split in two. Bedtime (4.4K views, 36 saves) and Vacuum (3.9K views, 13 followers) broke out and are still growing. The other 8 stopped at TikTok's first test audience (~420–480 views). Business result: **0 assessment completions Nov 4–9** (Oct 23–28 had 8). The two posts that reached people had no CTA; the conversion posts had their CTA on the last slide, but viewers saw ~2 slides.\n\n**The job.** No more attention vs conversion split. **Every post = real value + a CTA that feels like the logical next step** (Connect → Purpose → Direct, rotating Observation / Reflection / Direct). One link in bio → the free assessment.\n\n**The hook shape (every post).** Her real moment + a true, ironic twist about *her*, framed so any parent of a young child recognises it. Models: «فصرتي تكنسي وهو نايم؟» and «وأنتي اللي نمتي؟». Not the child's behaviour as a problem to fix.\n\n**Structure.**\n- Slide 2 **escalates the problem** (scene, inner voice), it does not start the list.\n- ~**7 slides**. No walls of text.\n- The CTA must be **seen**: a soft CTA early (slide 2–3 or right after the first tip), the final CTA, the caption, and a **pinned comment**.\n- Every post carries a **format label** (F1 HPSPC, F2 Story, F3 Two voices, F4 Metaphor, F5 Walk-through, F6 Checklist), varied across the batch so we can compare. F0 Steps is the baseline.\n- Proof = the **method** in plain words (whole day, one area at a time, adjusts every two weeks, built from her observations). No testimonials, no client case.\n\n**Topics.** Sequels to the two proven topics (**bedtime** and **chores / noise**) in new formats, plus new topics chosen by research. Every post names a visible behaviour, never a label or diagnosis.\n\n**Audience.** A cold new mother who has never heard of Home Orbit, scrolling TikTok.\n\n**Win.** Assessment starts and waitlist sign-ups first; then profile visits, saves, shares, swipe depth. Comments matter least.\n\n**Cadence & tracking.** One post per day. Bio link tagged `?src=tiktok`. Track assessment **starts**, not only completions. Collect profile views per post.\n\n**Off-limits (unchanged).** Autism or any diagnosis, therapy/specialists, promised results, medical causes, the client case, homework/quiz framing, generic or unrealistic tips, cups/plates in change posts, the em dash in Arabic.\n\n### Assumptions I need you to confirm\n1. **How many posts?** I propose **10** (ten days at one per day): 4 sequels (2 bedtime, 2 chores/noise) + 6 new topics from research.\n2. **Platforms:** TikTok only (as in Batch 1), or TikTok + Instagram?\n3. **Format:** static carousels again, with video still offered per concept at step 6?\n4. **Tracking:** is the bio link already `?src=tiktok`, and is someone adding assessment *starts* to the base? (The base only logs completions; `startedAt` is empty.)\n5. **The Nov 8 waitlist record** with no assessment data: a test, or a real sign-up?\n\n### Confirmed (Nov 9)\nAnhar confirmed the brief. The proposed defaults stand: **10 posts**, TikTok, static carousels unless step 6 chooses video for a concept. Still open, but not blocking the writing: whether the bio link is tagged `?src=tiktok`, whether someone is tracking assessment starts, and whether the Nov 8 waitlist record was a test.\n\n**Update (Nov 9):** Anhar set the batch to **12 posts**."
+   "report": "## Part 1 · What's working (Analyst)\nSources read in full: Legacy Posts (25 rows), Feedback & Lessons (all 200 rules), Batches, Posts (34), Post Performance (37), Conversion Windows, Formats, Visual Style, the assessment base (Submissions 19 rows, Visits 4 rows, non-personal fields only), and every file in `app/b4/`.\n\n### Reach: three batches against her legacy\n| | Legacy (25) | B1 (10) | B2 (12) | B3 (12) |\n|---|---|---|---|---|\n| Median views | **3,679** | ~450 | ~530 | ~510 |\n| Posts over 1K | **24 of 25** | 2 | 4 | 2 |\n| Slides | **4.3** | 7–9 | 7.8 | 7.6 |\n| Words per line beat | **3.3** | n/a | 7.1 | 7.4 |\n| Share of slides viewed | **48–63%** | ~30% | ~30–40% | 19–44% |\n\nSmall correction to the handoff: the legacy median is 3,679 (the 13th of 25), not ~3.4K.\n\n**B3 day 1, ranked:** ملكة 1,729 · جمعة 1,008 · jacket 948 · nails 587 · biscuit 579 · hand dryer 552 · \"no\" 469 · checkout 450 · ride 442 · tower 416 · fast food 413 · losing game 378. Total ~7,970.\n\n### The reusable pattern (legacy + B1–B3 agree)\n1. **People in the scene who say something.** Every B3 post that got past the test audience had relatives talking (ملكة, جمعة, jacket). Public places with nobody reacting stalled 4 of 4 (checkout, ride, fast food, dryer). 4 of the 6 legacy breakouts have witnesses with lines (grandma's 203K, restaurant 39.5K, wall 16.8K, coffee shop 13.4K).\n2. **The cost lands on her, in the first lines.** «والمشكله؟ أنت الطرف الخاسر» (159K), «فريق إنقاذ… لوحدك» (39.5K), and our own B1–B2 winners. Hooks that end on his behaviour stalled («وبدأ الصراخ», losing game, ride). «ما تقدري… إلا» is 0 of 4 and retired.\n3. **Short beats and short posts.** Legacy says almost the same number of words in half the slides, at 3.3 words a beat with «…» pauses, and gets about twice the share of slides viewed. Ours read like instructions. Since slide-view share is a likely reach signal on TikTok photo posts, 7–8-slide posts are probably costing us distribution on their own.\n4. **One tool that sounds like a trick, named and shown in action.** The wrong shoe, the last push, the traffic-light game. Sensible checklists got 1–2K.\n5. **Humour that watches one detail, on her.** «صبرك طلع إجازة», the barista «كأنها شافت جريمة». Acting out the child's drama (bath, car seat) felt cringy and stalled at 3–6K.\n6. **The ending surprises her.** The coffee-shop confession («بعد ١٢ جزمة… تقربي ترمي نفسك على الأرض معاه») is the model twist: a laugh at herself, not a reframe.\n7. **Universal or strange-but-common moments beat narrow ones.** Leaving grandma's, the diaper, licking the wall. Narrow moments (drawers, the shouting post, outfits) got 0.9–3.9K even in her voice.\n\n**Things that are not the driver:** format labels (F7 and F8 each went 1 of 3, and the winner was always the family scene), and A/B polls (they sit on winners and flops alike).\n\n**The fade inside B3.** The first 6 posts averaged 878 views and the last 6 averaged 451, including the two posted alone on clean evenings. Weaker topics (home, no witnesses) plus one teal look 12 times in a row is the likeliest cause. That backs the visual refresh.\n\n### Business (the funnel)\n| | B1 | B2 | B3 |\n|---|---|---|---|\n| Views (day 1, sum) | ~11.3K | ~14.3K | ~7.97K |\n| Completed assessments | 0 | **9** | 2 |\n| Views per completion | n/a | ~1.6K | **~4K** |\n| Waitlist joins | 0 | 0 | 0 |\n\n- **Completions follow reach plus a CTA that gets seen.** B1's reach posts had no CTA and got 0. B2 had both, and 5 of its 9 came within 19 hours of the hair-wash post. B3 had the CTA but little reach.\n- **Emotions and outbursts lead, across all 19 completions ever:** Q14 = F for 8 (42%), sleep 5, communication 2, food 2, outings 1, other 1. Both B3 completions were F.\n- **The leak after the assessment is the bigger business problem.** Of 19 mothers who completed, 8 clicked \"learn more about the Living Plan\", 2 clicked the waitlist button (both in October), and **0 have ever joined**. Since November, 6 Living Plan clicks led to 0 waitlist clicks. Content can't fix that alone. The odd-post QR codes (straight to the `?focus=` landing page) will show whether the landing route does better than the assessment route.\n- **Comments:** 1 in all of B3. The one-word prompts («شيالة», «حارسة الباب») got 0. Only a question about her own child's preference has ever worked (wall post, 75 comments). Comments stay a minor signal (rule: zero comments isn't a failure).\n- **Shares mark the posts people pass on:** \"no\" 4, ملكة/جمعة/jacket 3 each. In legacy, shares were the breakout marker (diaper 1,598, grandma's 1,106).\n\n### Tracking check (Q12 / last_q)\n- ✅ **last_q is fixed.** The Nov 24 completion (15:08 Saudi time) now reads **last_q = 15**. The handoff recorded 12.\n- ✅ **A visit links to its submission.** That visit's session_id matches the Submissions id, so post tags will carry through from scan to completion.\n- ✅ **The bio link is tagged.** Three visits on Nov 24 arrived with `src=bio`.\n- ⚠️ **No partial start has ever been logged.** All 19 rows are `completed`, and only the newest has startedAt and last_q (the fields are new). Drop-off analysis only works if a mother who quits at Q5 still leaves a row with `status = started, last_q = 5`. **Please run one test:** open the assessment, answer about 5 questions, close the tab, and check that a row appears. Then delete it.\n- ⚠️ **Three `src=bio` visits arrived within 17 seconds** (Nov 24, 18:18:50 → 18:19:07 Saudi time), each as a separate session, and none started the assessment. If that was you testing the new bio link, fine, and we can delete them. If it was one phone tapping the link three times, the \"one per phone per session\" dedupe isn't holding (TikTok's in-app browser may open a fresh session each tap), and visit counts per post will be inflated. Worth one check: tap the bio link twice from TikTok on one phone and see whether one or two rows appear.\n- ℹ️ **No QR scans yet.** That's expected, since no B4 posts are live.\n\n### Three instructions for this brief\n1. **Every post opens on a moment with people reacting, with lines (or a universal or strange-but-common moment), and the cost on her.** At least 8 of 12.\n2. **Write in her legacy voice, at legacy length:** 4–5 slides for one tool, 6 at most, and the tool on slide 3.\n3. **Measure the post past the view:** a per-post QR code, the Visits and Submissions tags, and an alternating landing vs assessment route, so we finally learn which post sends mothers, and which route turns them into waitlist joins.\n\n---\n\n## Part 2 · Batch 4 brief (for you to confirm)\nBuilt on the draft in `app/b4/step1_report.md`, with the Part 2b revisions and every Batch 4 decision in the handoff. Where the draft and the handoff differ, the handoff wins (4–5 / 6 slides, two posts a day, alternating QR routes).\n\n**The job.** Breakouts that send mothers through a per-post QR code. Every post gives real value first, and the only ask is at the end. There's no attention vs conversion split.\n\n**Audience.** A cold Saudi mother of a young child whose behaviour she's trying to handle. She doesn't know Home Orbit. We describe what she sees, never a diagnosis.\n\n**Win, in order:**\n1. Per-post QR visits, starts, completions, Living Plan clicks and waitlist joins (Visits and Submissions, by `post` tag).\n2. Shares, saves, share of slides viewed.\n3. Views. Comments count least.\n\n**Size and cadence.** 12 static carousels over 6 evenings, two a day: one about 7:00 PM, the next 8:00–8:30 PM, never minutes apart.\n\n### Voice (her legacy voice is the default)\n- **Short beats** of 2–5 words, one idea a line, «…» pauses.\n- **The opening:** a stamp («في المطعم…»), then the calm-vs-her turn («وأنتي؟»), then call-and-response («تحاولي… هو…»), then «وفجأة».\n- **2–4 real quoted lines** from the people around her, plus her inner voice.\n- **ONE comic image** casting HER in an adult role, at most one about the child, and never acted-out drama.\n- **One love line** that clears her.\n- **The tool** has a name in quotes and is shown working in 2–3 beats.\n- **The ending** is a playful confession, then the CTA.\n- **First person is allowed** («خليني أوريك», «قوليلي», «بيننا»). \"We\" parents stays banned.\n- **Still banned:** «طبيعي», brain or nervous-system lines, emoji bullets, medical disclaimers, acting out his drama, homework endings, \"follow for part 2\".\n- **Long sentences only in the final CTA** and in checklist items.\n- **All 200 Feedback & Lessons rules still apply.** That covers her word list, «عشان» not «كذا», «خطوة», «يبكي», straight quotes for spoken lines, no line ending in a comma, and the realism checks.\n\n### Structure (Part O)\n- **One tool, 4–5 slides:** hook (pain + her cost) → deepen → **the tool on slide 3** → proof (our method described, never testimonials; it can carry the explainer) → twist + CTA + QR.\n- **Three steps, 6 slides at most:** hook → deepen → steps → proof → twist + CTA + QR.\n- **No ask before the last slide.** An optional \"keep reading\" line on 6-slide posts only, as a promise that asks nothing of her.\n\n### Slate (12)\n| Group | Count | Notes |\n|---|---|---|\n| **«الافتراض اللي يصعّب الموضوع»** (her 200K format) | 4 | A new on-brand look, fewer words per slide, 5–6 slides, no translucent box |\n| One tool | 5 | 4–5 slides |\n| Three steps | 3 | 6 slides |\n\n**Proposed slot plan.** Topics come after Research; the slots below fix the tests so they're spread fairly.\n\n| Post | Evening | Group | QR route | Tests |\n|---|---|---|---|---|\n| b4p1 | 1 · 7:00 | Fallacy | `?focus=` | **Cream text-only slide 1** |\n| b4p2 | 1 · 8:15 | One tool | assessment | Comment prompt |\n| b4p3 | 2 · 7:00 | Three steps | `?focus=` | \"Keep reading\" line |\n| b4p4 | 2 · 8:15 | Fallacy | assessment | Comment prompt |\n| b4p5 | 3 · 7:00 | One tool | `?focus=` | **Cream text-only slide 1** |\n| b4p6 | 3 · 8:15 | One tool | assessment | **Problem + solution hook** |\n| b4p7 | 4 · 7:00 | Fallacy | `?focus=` | Comment prompt |\n| b4p8 | 4 · 8:15 | Three steps | assessment | No \"keep reading\" (control) |\n| b4p9 | 5 · 7:00 | One tool (**bedtime**) | `?focus=sleep` | Comment prompt |\n| b4p10 | 5 · 8:15 | Fallacy | assessment | **Problem + solution hook** |\n| b4p11 | 6 · 7:00 | Three steps | `?focus=` | \"Keep reading\" line + comment prompt |\n| b4p12 | 6 · 8:15 | One tool | assessment | Comment prompt |\n\n- **Cream** goes only on first-of-evening posts (clean timing), compared with dark first-of-evening posts.\n- **Comment prompts:** 6 with, 6 without, each a one-word question about HER child's preference, tied to the tool.\n- **The samples are tiny** (2 vs 2, 2 vs 1). These tests point a direction; they don't prove it.\n\n### Topics\n- **At least 8 of 12** have people reacting with lines in the scene (relatives, guests, the teacher, staff, strangers), or a universal or strange-but-common moment.\n- **Emotions and outbursts lead:** about 5 of 12, routed to `?focus=emotions` where odd.\n- **1 bedtime post.**\n- **A few legacy topics with a genuinely new moment or tool,** the rest new. No repeats of B1–B3 topics.\n\n**Starting pool for Research to test (English; not hooks):**\n- **Emotions:** a cousin blows out the birthday candles and he falls apart · he opens a gift in front of the giver: «ما أبغاه» · the teacher says \"an angel today\" and he explodes in the car (legacy L12, new tool) · he hits a cousin over a toy at grandma's while the aunt watches · floor drop in the toy aisle with strangers (L18 family, new place)\n- **Strange but common:** presses every lift button with strangers inside · lines up every guest's shoes at the door at an عزيمة\n- **Public or seasonal:** won't get out of the car at a winter كشتة with relatives · bolts in the mall car park (danger, L04/L09 family) · only white rice at the عزيمة buffet while the aunts comment (food)\n- **Relatives' advice:** unwanted advice at a winter gathering, plus her calm replies (the L25 re-test, new lines) · grandma hands him the biscuit you just said no to\n- **Bedtime (1):** staying over at grandma's and he won't sleep while everyone's still up\n\n### CTA (`cta_method.md`)\n- Name the outcome she desperately wants in this situation, with certainty («يمكن», «جربي», «لو حابة» are banned), and never as homework («عبي التقييم» is banned).\n- The assessment is the bridge, never the promise (claims limited to `assessment_truth.md`).\n- Test every CTA: would she click without knowing what's behind it?\n- **Match the CTA to the QR route.** Odd posts go to the Living Plan page for that situation, so their CTA must not say \"assessment\". Even posts can name it as the vehicle («امسحي الكود أو الرابط في البايو»).\n\n### QR and tracking\n- One code per post, made with `make_qr.py`, tagged `src=qr&post=b4pN`. The bio link stays `?src=bio`.\n- **After each evening:** log day 1 in Post Performance, then read Visits and Submissions by `post`.\n\n### Visual (for Creative Production later)\n- Copy is the star, and the slide-1 image supports it.\n- Quiet motifs or colour on later slides.\n- A fresh look against B3's single teal style, plus a distinct look for the fallacy series.\n- The cream text-only slide-1 test (2 posts).\n\n### Rules that bend for labelled tests (please confirm)\n1. **Problem + solution hook (b4p6, b4p10)** breaks the B2 rule \"one question, no second half\". It's suspended for those two posts only.\n2. **Cream slide 1 (b4p1, b4p5)** breaks the B3 rule \"slide 1 always dark\". It's suspended for those two only.\n3. **The fallacy label names the assumption of the room (relatives, \"people\"), never hers,** so the series never blames her. L01's «إن المشكلة عناد» is the model.\n\n### Questions before Research\n1. **Confirm:** 12 posts, the 4 / 5 / 3 split and the slot plan above, starting which evening?\n2. **The three `src=bio` visits on Nov 24 at 6:18 PM:** your test? And can you run the abandoned-start test so we know drop-offs are logged?\n3. **Your full Arabic voice files** (\"Arabic Language & Voice System\", \"Addendum 2\") aren't in the repo. Can you share them before Copy (step 7)? Until then the handbook and Feedback & Lessons are the authority.\n"
   },
   {
    "n": 2,
    "key": "scorecard",
    "title": "Scorecard",
    "subtitle": "The Strategist sets this batch's 100-point scorecard and the plan.",
-   "status": "done",
+   "status": "idle",
    "idea": {
     "title": "Define 'good' before anyone writes",
     "body": "If we agree on what a great post looks like now, the Test Panel can't move the goalposts later."
@@ -33,14 +33,14 @@
     "label": "Approve the weights and the plan.",
     "phrase": "Go."
    },
-   "report": "### Batch 2 scorecard (reweighted, still 100)\n\nBatch 1 taught us three things. Reach came from the hook shape. Saves came from real, usable steps. Business died because nobody saw a CTA. The weights move to match that.\n\n| Item | B1 | B2 | Why it moved |\n|---|---|---|---|\n| Scroll-stop (winning hook shape) | 18 | **16** | Still the biggest item. It is now judged against the proven shape: her moment plus a true, ironic twist about her. |\n| Recognition | 15 | **12** | Folded partly into the hook shape. |\n| Emotion, not apathy | 15 | **12** | Still a fail line: if nothing is felt, it fails. |\n| Her own words | 12 | **10** | |\n| **Usable value («رؤوس أقلام»)** | new | **12** | Replaces \"One job\". Could she do something different tonight? Is it generic? Is it realistic in her home? Bedtime's 36 saves came from this. |\n| Trust & safety (gate) | 10 | **10** | A violation still caps the post. |\n| Arabic naturalness | 8 | **8** | |\n| The turn / perspective shift | 6 | **8** | Hook Point driver 1: a surprising but true take beats a predictable one. |\n| **CTA: seen and earned** | 4 | **10** | There's an early soft CTA, a final CTA in the Connect → Purpose → Direct shape, and a pinned comment. It must read as the next step, not a lead grab. |\n| Save / share-worthy | 2 | **2** | |\n\n**Why \"One job\" was dropped:** every Batch 2 post has the same job (value, then the assessment), so it no longer tells posts apart. It becomes a pass/fail check.\n\n### Pass/fail checks (the Test Panel ticks these on every post)\n- Slide 2 escalates the problem with a scene or her inner voice. It does not start the list.\n- Around 7 slides. Big type, few words.\n- A soft CTA by slide 3 (or right after the first tip), and a final CTA. No repeated CTA slide.\n- A format label (F1–F6) is recorded. Formats vary across the 10.\n- Proof, where used, is the method. No testimonials, no client case.\n- Steps are labelled in full («الخطوة الأولى:»). No em dash. تبدئي / ابدئي.\n- Hand her the value; don't order her. No homework, no quiz.\n\n### Agency plan\n| Step | Who | What |\n|---|---|---|\n| 3 | **Audience Researcher + Market Analyst, in parallel** | Her words on bedtime, chores/noise and new candidate moments; the market stage and the open lane. They get the Batch 1 results as input. |\n| 4 | Hook Specialist (Hook Point mechanics) | 3 angles × 4–6 hooks, all in the winning shape, scored on the 4 performance drivers. |\n| 5 | Strategist | About 14 concepts so you can pick 10: 4 sequels and the rest new. Each gets a suggested format label. |\n| 6 | **You** | Static or video, plus the format label, for each concept. |\n| 7 | Copywriter | Reads your Arabic file and the addendum first, then writes all 10 with captions and pinned comments. |\n| 8 | Arabic Voice Editor, then Test Panel | Native edit (Original → Corrected → Why), then 3 sceptical mothers and this scorecard. |\n| 9 | Strategist | Handoff, Airtable rows, posting order (one a day). |\n"
+   "report": ""
   },
   {
    "n": 3,
    "key": "research",
    "title": "Research",
    "subtitle": "Audience Researcher and Market Analyst work in parallel.",
-   "status": "done",
+   "status": "idle",
    "idea": {
     "title": "Her words, not ours",
     "body": "The best lines are the ones she has already said to her sister."
@@ -49,14 +49,14 @@
     "label": "Read both reports.",
     "phrase": "Both look good. Next step."
    },
-   "report": "### Director's synthesis (read this first)\n- **Both reports agree on the main open lane: \"the workarounds\".** Nobody in the market names the life she has quietly rearranged around him: vacuuming at night, lying down until he sleeps, cooking after he sleeps, showering only when he's asleep. Our two winners sat exactly there. The Market Analyst calls it a Stage-5 voice (identity: *she* adapted) carrying Stage-3 substance (real, ordered steps).\n- **Second lane: \"it starts before the moment\".** The hard moment is shaped earlier in his day. This is also the most honest bridge to the assessment, which looks at his whole day.\n- **Strongest new topics with evidence:**\n  1. **Night waking: he comes to her bed.** There are several real Gulf forum titles, including mothers sleeping in a separate room from their husband.\n  2. **\"After he sleeps\" is her whole to-do list**, including cooking at night.\n  3. **The shower on his schedule.** Strong in English; the Arabic evidence is weak.\n  4. **Haircut / hair wash.**\n  \n  Also possible: the hair dryer or blender (no quotes found), and phone calls (English only).\n- **Watch-outs that change our copy:**\n  - The chair step-back is now generic, and it was our own last post. Bedtime sequels need *new* steps.\n  - \"Warn him before you turn on the vacuum\" is the most-repeated tip in the market, and we used it in p5. Chores sequels need fresher steps.\n  - No sensory or \"exposure\" language, no headphones as the fix, no \"independent sleeper\" promise, no comment-for-link mechanics.\n- **The CTA lane:**\n  - An early one-line soft CTA under the first step.\n  - The final CTA in the \"one workaround of many\" shape, tied back to the hook.\n  - Line 1 of the caption carries the hook plus the CTA.\n  - The pinned comment works as \"part two\": one extra step plus the assessment.\n- **Honest limits:**\n  - The forum pages were blocked in this environment, so the Arabic quotes are real thread titles and search snippets, not full threads.\n  - Before any quote goes on a slide, someone opens the thread.\n  - Batch 1 had 0 comments, so there is no comment bank to harvest yet.\n  - Anhar: if you've received DMs or replies with mothers' words, they are the best source we could have.\n\n---\n## Audience Researcher\n\n**Method note.** I ran about 25 Arabic and English searches. Every page fetch failed: hawaaworld.com, forums.3roos.com, niswh.com, mumsnet.com, the Reddit mirrors and aol.com are all outside this session's network. So every quote below is a **real thread title** or a **verbatim fragment from a search snippet**. None was read in its full thread. Tags: **[TITLE]** = real thread title. **[SNIP]** = verbatim snippet fragment. **[PARA]** = the source's content in my words, so not a quote. **[REPO]** = from our own files. Gulf mothers do most of their talking in TikTok and Snap comments, which search doesn't index. The best source we have is the comment section on Anhar's own Bedtime and Vacuum posts.\n\n### Her words (quote bank)\n\n**(a) Bedtime**\n1. «ولدي عمره سنتين نومه نومه نومه ساعدوني عجزت مرره» → *\"My son's two. His sleep, his sleep, his sleep. Help me, I'm completely worn out.\"* [TITLE] hawaaworld.com, thread 677845\n2. «اللي عندها طفل عمره سنه كيف انظم نوم بنتي وربي تعبت؟؟؟؟؟؟؟» → *\"Anyone with a one-year-old: how do I sort out my daughter's sleep? I swear I'm exhausted.\"* [TITLE] hawaaworld.com, thread 1508570\n3. «للي عندها عيال تنامين مع زوجك ولا مع اولادك ابي اجابه صرييييحه....» → *\"Mums: do you sleep with your husband or with your kids? I want an honest answer.\"* [TITLE] hawaaworld.com, thread 2570498 (7+ pages of replies)\n4. «زوجي بغرفه وانا بغرفه😢» → *\"My husband's in one room and I'm in another.\"* [TITLE] hawaaworld.com, thread 4796848. The snippet ties it to her doing bedtime alone with the toddler. Not confirmed.\n5. «انا مكتئبة طفلي لا ينام الا في سريري هل اتركه يبكي ؟» → *\"I'm depressed. My child only sleeps in my bed. Do I let him cry?\"* [TITLE] niswh.com, thread 93058\n6. «ولدج ويين ينام .؟» → *\"Where does your son sleep?\"* [TITLE] forum.uaewomen.net, thread 1004225\n7. «والطفل ينام قبل بساعتين وانا اجلسي مع ابوه بهالوقت» → *\"The child sleeps two hours earlier, and I sit with his dad in that time.\"* [SNIP] a hawaaworld reply. **The evening is the prize.**\n8. \"occasionally I fall asleep too but I set an alarm to be sure I don't sleep for long\" [SNIP] from an English lie-down thread (sleeplady.com / scarymommy result set; the exact page is unconfirmed)\n9. \"goes to bed now at 10, but we have to be in the room with him\" [SNIP] a Reddit post, quoted on aol.com (parent-says-toddler-son-switched)\n10. «تنسدحي جمبه إلين ما ينام، وتصحي بعد ساعتين وأنتي اللي نمتي؟» [REPO] Batch 1 winner, reused as the benchmark. It is Anhar's line, not a mother's.\n\n**(b) Chores / noise**\n11. «طفلي اليل وانام على نومته واصحى اذا صحى» → *\"[With] my baby at night, I sleep when he sleeps and wake when he wakes.\"* [SNIP] forums.3roos.com, «حياتي مع ولدي الرضيع وشغل البيت» (thread 614076). Same thread [PARA]: she cooks after he's asleep, and the late cooking causes fights with her husband.\n12. «ساعدوني تعبت من نفسي مااقدر اسوي شي» → *\"Help me, I'm tired of myself, I can't get anything done.\"* [TITLE] hawaaworld.com, thread 1975671\n13. «اللي بتلاقي حل لمشكلتي مع البيت والعيال بدعي لها كل يوم» → *\"Whoever finds a fix for my problem with the house and the kids, I'll pray for her every day.\"* [TITLE] hawaaworld.com, thread 3388958\n14. «طفلي يفزع من اي صوت» → *\"My child startles at any sound.\"* [TITLE] childclinic.net, consultation\n15. \"it feels like a sysyphos chore\" (cleaning only in nap windows) [SNIP] a Reddit thread via a reddit.sentinel-team.org snapshot\n16. \"Sometimes you can stick him in a highchair in the living room while you do the rest of the flat.\" [SNIP] Mumsnet, \"my son is scared of the hoover\" (4636481)\n17. \"DS crying whenever I used the vacuum\" [TITLE] Mumsnet 835625\n18. «وتقولي بكنس لما ينام، ولما ينام ما عاد فيكي حيل.» [REPO] Anhar's own inner-voice line (handbook B6, p5)\n\n**(c) New moments**\n19. \"Am I Allowed Basic Hygiene?\" [TITLE] a news write-up of a Reddit mum whose toddler screams every time she showers (aol.com)\n20. \"screams bloody murder\" whenever mum showers [SNIP] r/Mommit, \"help baby hates when I take a shower\"\n21. A mum's kid interrupting her shower \"67 times\" [TITLE fragment] upworthy.com\n22. «طفلي يخاف من قص شعره.. كيف أتصرف ؟!!» → *\"My child's scared of haircuts. What do I do?!\"* [TITLE] forum.uaewomen.net, thread 853952\n23. \"Is a child screaming during a hair wash and brush normal?\" [TITLE] Mumsnet 5496377\n24. «طفلتي متعلقة بي كثيرًا وتبكي عندما لا أكون معها» → *\"My daughter is very attached to me and cries when I'm not with her.\"* [TITLE] islamweb consult 2279329. This one is formal Arabic.\n25. \"usually happens when I'm on my phone\" (the toddler's attention-seeking) [SNIP] a Substack mum (\"tention tension\")\n\n### The real recurring moments (beat level)\n- **Bedtime:** pyjamas → she lies down beside him → he keeps checking she's still there → she goes still in the dark, scrolling her phone → she wakes at 11 or 12 still in his bed, with the kitchen undone (#7, #8, #10). Then **he wakes at night and walks to her bed** (#5). She and her husband end up sleeping in separate rooms (#3, #4). His evening bedtime decides whether she gets any time with her husband (#7).\n- **Chores:** he's awake → the vacuum, blender or hair dryer goes on → he covers his ears or cries and comes to cling to her → she switches it off → «بكنس لما ينام» → he sleeps → she's spent (#11, #12, #18). Cooking moves to nap time or night, and that causes friction at home (#11).\n- **Shower:** she steps in → he cries or screams at the door, or bangs on it → she showers with the door open, or in two minutes, or only at night (#19–21).\n- **Hair:** the haircut or hair wash is a scream every time → she puts it off (#22, #23).\n- **Phone:** she picks up a call → he escalates → she cuts the call or hides in the bathroom (#25; English only).\n\n### The silent thoughts and the ironic twists about her\nRaw material in the winning shape. The Arabic lines are **seeds we wrote, not quotes**.\n1. **Her bed is now his.** He arrives at 2 a.m. and she moves to the edge, or to his bed. Seed: «يجيك نص الليل، وتصحي الصبح وأنتي اللي في سريره؟»\n2. **She sleeps apart from her husband because of bedtime** (#3, #4). Handle it gently: no marriage drama.\n3. **Her evening is the time she loses.** She plans \"after he sleeps\" and then sleeps first (#7, #8).\n4. **She whispers and creeps out of his room like a thief.** It's the classic sneak-out (a sleeplady.com expert warns against it [PARA]).\n5. **Cooking moved to night** (#11). Seed: «صرتي تطبخي غدا بكرة وهو نايم؟»\n6. **She showers on his schedule** (#19–21). Seed: «صرتي تتروشي بس لما ينام؟»\n7. **The blender and dryer are banned while he's awake.** She dries her hair with a towel and makes juice at night. This is plausible, but **I found no quote** for it.\n8. **She vacuums in \"pieces\"** (one room, then off), or sweeps by hand to avoid the noise. The broom-instead-of-vacuum detail is unverified.\n9. **She cuts his hair while he sleeps.** This is a known parent hack, **unverified in Arabic**.\n10. **She takes calls in the bathroom or the car** (#25, English only).\n11. **\"I'll do it when he sleeps\" has become her whole to-do list** (#12, #13, #18). It's the umbrella twist.\n\n### What she has tried and dropped, and why\n- **Lying down and sneaking out** → he wakes, so she has to start over (sleeplady.com [PARA]).\n- **An alarm so she doesn't fall asleep beside him** (#8) → it saves her evening but doesn't move bedtime forward. This is the same workaround Anhar rejected in Batch 1.\n- **Moving the cot away from her bed** → it worked at first, then went back (3roos «هل ينام طفلك معك في الغرفة» [PARA]).\n- **Letting him cry** → guilt and dread (#5 asks it as a question). Avoid it.\n- **Chores in fixed blocks, waking early, a \"laundry day\"** → hawaaworld advice [PARA]. It's unrealistic for a tired mum.\n- **Warning him before switching on the vacuum** («انا بشغل المكنسة هي صوتها عالي») → this is the most repeated advice (an X tweet from a professional, Lovevery, NHS). **She has heard it**, so it's generic.\n- **Vacuuming with him on her hip, or putting him in a highchair in another room** (#16, Romper) → it needs two hands or a second room.\n- **Ear muffs** → sold everywhere, so it's generic. Sources even say avoid them except when necessary.\n- **A playpen by the shower door, or the TV on** (r/Mommit [PARA]) → the screaming continues.\n- **Waiting for her husband to get home** before doing anything (a Reddit thread [PARA]).\n\n### Trust builders and breakers\n**Builders**\n- Name what she reorganised, **without** judging it.\n- Treat lying beside him as normal and loving, not a \"bad habit\". The popular Arabic TikTok framing is that co-sleeping isn't wrong; it becomes a problem when it drains her (@leen.aljord).\n- Give tips that take seconds, with no prep, inside the chore itself.\n- Name the goal she actually has: him sleeping on his own, her evening back.\n\n**Breakers**\n- Every Arabic article ends with «استشيري مختص/طبيب».\n- MSA article tone and \"make a routine\" lists.\n- Cry-it-out pressure.\n- Safety lectures about co-sleeping.\n- Blame such as «أنتي عودتيه».\n- **Many results tie ear-covering to a diagnosis.** We must never echo that. Describe only what she sees.\n\n### Recommended new topics (ranked)\n1. **Shower / her own hygiene.** This has the strongest volume in English (#19–21, viral write-ups), and the twist is pure \"about her\". The Arabic evidence is weak, only bathroom-separation threads.\n2. **Night waking: he comes to her bed** (bedtime sequel). There are several Gulf titles (#3–#6). The twist is that her bed, and her marriage bed, have become his.\n3. **Cooking at night / \"after he sleeps\" as her whole to-do list** (chores sequel). This has a real Gulf snippet (#11) and titles (#12, #13).\n4. **Haircut / hair wash.** There are titles in both Arabic and English (#22, #23), it's universal, and it's a scream every time. The «وهو نايم» twist isn't verified yet.\n5. **Hair dryer / blender while he's awake** (noise sequel). It extends a proven topic, but **I found no quote** of her changing her own routine.\n6. **Phone calls.** English only (#25). It's the weakest, but the universal hide-in-the-bathroom moment fits the shape.\n\n### Gaps (what I couldn't verify)\n- **No verbatim Gulf quote** for: covering his ears at the vacuum or blender, eating her own meal cold, prayer being interrupted, car rides, mornings. Prayer and meals got zero usable hits, so don't build on them without comments from Anhar's audience.\n- **All forum quotes come from titles or snippets.** Before quoting any of them on a slide, open the threads; hawaaworld, 3roos, niswh and mumsnet must be allowed in the network settings.\n- **The repo's «ما ينام إلا جنبي» is [SYNTHESIS]**, not a found quote.\n- English quotes stand in for Arabic on the shower and phone moments. Saudi wording there is untested.\n- **The best next source:** comments and duets on the Bedtime and Vacuum posts. Harvest them before step 7.\n\n---\n\n## Market Analyst\n\n*Method: the marketing-sophistication skill (map, then stage, then gap, then match-check), stopping before final hooks. This builds on agency-run/market.md, positioning.md and MESSAGING_GUIDE.md (Stage 3 market, Stage 5 heart). It updates that work for cold TikTok and a broader \"hard daily moments\" frame. Evidence is either sourced (links at the end) or marked \"observed\". Instagram/TikTok pages could not be fetched from this session, so the account-level claims below are observed patterns, not quotes.*\n\n### 1. Sophistication stage per topic\n\n**Bedtime: Stage 4 in English, Stage 3 in Arabic. Her heart is at Stage 5.**\n- English: the *mechanism* is already common. \"Graduated withdrawal\" / \"the disappearing chair\" (sit beside the bed, then move toward the door over several nights) is in NHS handouts, Happiest Baby and Little Otter. Big Little Feelings sells a course whose sleep guide covers \"laying with them to fall asleep\" and making your child \"an independent sleeper\". Sleep consultants lead with a \"free customized sleep evaluation\" (Sleep Sense) or \"1,530,425 parents took this sleep assessment\" (Smart Sleep Coach).\n- Arabic: Stage 3. MOH, Sayidaty, Altibbi and Nestlé all repeat the same routine-and-environment advice. No visible Saudi-dialect creator owns the \"he only sleeps if I lie beside him\" moment (observed: searches surfaced articles, not creators).\n- Our Batch 1 winner already used the step-back method. That worked because it was framed through *her*, not because the method was new.\n- **Wallpaper:**\n  - «روتين ثابت قبل النوم» (a fixed bedtime routine)\n  - «حمام دافي وقصة» (warm bath and a story)\n  - «إضاءة خافتة» (dim lights)\n  - «ابعدي الأجهزة قبل النوم بساعة» (no screens an hour before bed)\n  - «دمية/دبدوب» (a comfort toy)\n  - «تدريب النوم» (sleep training)\n  - \"the chair method\"\n  - \"independent sleeper\"\n  - \"sleeps through the night\"\n  - \"customized sleep plan\"\n\n**Chores and noise around the child: Stage 1–2 as a *mother's* topic, Stage 3 as a \"sensory\" topic.**\n- Advice on noise sensitivity exists, but only clinically: NHS audiology/OT sheets and Romper. Their tips:\n  - count down before the sound\n  - let him switch the vacuum on\n  - give the vacuum a silly voice\n  - gradual exposure\n  - \"vacuum when the child isn't around\"\n- Note that last one: what OT sheets offer as a *solution* is exactly the workaround our winning hook names ironically («فصرتي تكنسي وهو نايم؟»).\n- Nobody frames this as *her housework and her rest*. In Arabic, this is close to Stage 1 (observed).\n- **Wallpaper to avoid:**\n  - \"sensory\" vocabulary: «حساسية سمعية» (sound sensitivity), «تحسس حسي» (sensory over-sensitivity)\n  - «تعريض تدريجي» (gradual exposure, which reads as therapy)\n  - «سماعات عازلة» (noise-cancelling headphones, the default tip)\n\n**General toddler hard moments (tantrums, transitions, crying): Stage 5.**\n- English: Big Little Feelings and the gentle-parenting field have saturated the space with \"validate the feeling\", \"name it to tame it\", \"connection before correction\", \"big feelings\" and \"Big Feeler\" quizzes.\n- Arabic: \"positive parenting\" articles in Al Arabiya, Sayidaty and Asharq Al-Awsat. **Wallpaper:**\n  - «التربية الإيجابية» (positive parenting)\n  - «احتوي مشاعره» (contain his feelings)\n  - «سمّي مشاعره» (name his feelings)\n  - «لا تصرخي» (don't shout)\n  - «كوني قدوة» (be a role model)\n  - «تجاهلي الخطأ وامدحي الصواب» (ignore the bad, praise the good)\n  - «حددي قواعد واضحة» (set clear rules)\n  - «اصبري» (be patient)\n  - «١٠ نصائح» (10 tips)\n- She has heard every claim and every mechanism. She trusts only being seen.\n\n### 2. Batch 1 vs the market\n\n- **The two winners** opened at Stage 5 with an identity move. They named an adaptation *she* had made («تكنسي وهو نايم», «وأنتي اللي نمتي»), a moment no competitor speaks to. Then they delivered Stage 3 value: concrete steps that worked like a method.\n  - The irony let any mother of a young child recognise herself (a wide audience on TikTok's test).\n  - The steps earned the saves (36 on bedtime).\n- **The eight stalled** because they opened at Stage 2–3. Each hook was the child's behaviour plus \"here's how to handle it\", for example:\n  - «تسحبي الآيباد ويبدأ الصراخ؟» (you take the iPad and the screaming starts?)\n  - «يبكي وما تعرفي ايش يبغى؟» (he cries and you don't know what he wants?)\n\n  Every parenting account opens this way, so on a cold feed it reads as one more tip post. Behaviour-first openers also sound narrower and more clinical, so TikTok's first ~450 viewers didn't stop.\n- The conversion posts also asked for the click *before* they had earned trust, and on a slide nobody reached.\n\n### 3. The open lane(s)\n\n**Lane A, \"the workarounds\" (the main lane).**\n- Every competitor talks about the child's behaviour or the parent's technique. **Nobody names the life she has quietly rearranged around him**:\n  - vacuuming at night\n  - lying down until he sleeps\n  - cooking him a separate plate\n  - leaving the gathering early\n  - whispering in her own house\n  - showering only when he's asleep\n- Each post opens on one workaround, framed with a true, gentle irony about her. Then it gives steps that undo *that one workaround*, a little at a time.\n- This is a Stage-5 voice (identity) carrying Stage-3 substance (method), and it is the proven hook shape.\n\n**Lane B, \"it starts before the moment\" (the bridge lane).**\n- Competitors fix the moment itself: bedtime at the bed, the vacuum when it's on.\n- We show that the hard moment is shaped earlier in his day: the hour before bed, what he was doing before the noise.\n- Fair claim: we say \"notice what came before\", never \"X causes Y\".\n- This lane *is* our mechanism (whole day, not the moment alone) and Anhar's own bedtime CTA. It hands the click a reason.\n\n### 4. The mechanism to lead with\n\n- **In her terms:** «خطة للبيت مبنية من اللي تلاحظيه أنتي في يومه. تبدأ بموقف واحد، وتتعدل كل أسبوعين حسب ايش يصير.» (A plan for home, built from what you notice in his day. It starts with one moment and is adjusted every two weeks based on what happens.)\n- **Don't lead with «خطة مخصصة»** (\"a customized plan\"). Every sleep consultant says it (\"customized sleep evaluation\"), so it is wallpaper. Lead with the two things they don't claim: **built from her observations** and **it changes with him**.\n- **How to show it as «رؤوس أقلام» (key points), not an ad.** The post demonstrates the method instead of describing it:\n  1. One step in the post is a noticing step, given as a fact rather than homework, e.g. \"the hour before bed has three things that change how the night goes.\"\n  2. The steps are sequenced (\"start with one; after a few nights, the next\"). That *is* \"one area at a time\" and \"adjusts\", shown in miniature.\n  3. One proof line, no more, on the CTA slide or the slide before it. Example: «كذا نشتغل: نشوف يومه كامل، موقف واحد في كل مرة، ونعدّل كل أسبوعين.» (This is how we work: we look at his whole day, one moment at a time, and adjust every two weeks.)\n\n  No feature list, no six areas, no testimonials.\n- **Don't invent:** no \"framework\" name, no claims about the brain or senses, no \"proven\".\n\n### 5. Identity angle\n\n- **She is the one who has quietly adapted.** She's resourceful, not failing; tired, not careless.\n- The irony is *with* her, never at her: \"you found a way around it, and the way around it is costing you.\"\n- The identity line to aim at: **\"the mother who built her day around his hard moments, and is ready to build one back.\"**\n- Universal enough for any toddler mother (the Generalist Principle), and true for the specific buyer.\n- **Avoid:** \"boy mom\" or \"gentle parent\" identities (borrowed English camps), martyr framing, and any label on the child.\n\n### 6. CTA lane\n\n**What the market does:**\n- label quizzes (\"Is your child a Big Feeler?\")\n- big social-proof counters\n- comment-a-keyword-for-a-DM (Instagram automation)\n- \"book a free call\"\n\nAll of these read as lead capture, and we can't use label quizzes or invented numbers.\n\n**Our advantage:** the assessment *is* Lane B. It looks at the rest of his day, so it can be the natural continuation of a post about \"before the moment\". Most viewers leave after slide 2, so:\n\n1. **The open-loop soft CTA (slide 3, under the first step, small type):**\n   - Connect: \"this step is for bedtime.\"\n   - Purpose: \"what happens earlier in his day changes how it works.\"\n   - Direct: «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.» (The free assessment in the bio helps you know where to start.)\n   - One line only. It is placed as a footnote, not an ask.\n2. **\"One workaround of many\" (final slide, Reflection):**\n   - Connect: name the workaround from the hook.\n   - Purpose: \"it's rarely the only one, and the plan starts with the one that weighs most.\"\n   - Direct: the assessment shows where to start.\n   - This ties back to the hook, the way p10's «بدل ما تخمني» did.\n3. **\"Notice this, then start here\" (Observation):**\n   - Connect: the one detail from this post to notice.\n   - Purpose: \"these details are what the plan is built from.\"\n   - Direct: «ابدئي بالتقييم المجاني.» (Start with the free assessment.)\n   - This is Anhar's bedtime model, and it is safest for F1 and F5.\n4. **Caption line 1 = hook + one-line CTA.** Many viewers read the caption without swiping (observed platform behaviour).\n5. **The pinned comment as \"part two\":** one extra step plus the assessment line, so a profile tap feels like following the content.\n\nNever: \"sign up\", \"spots limited\", \"take the quiz\", or \"find out if your child…\".\n\n### 7. Format recommendations\n\n| Topic | Best formats | Why |\n|---|---|---|\n| **Bedtime sequel** | **F5 Walk-through** (twist: \"the step that matters most happens before bedtime\"), **F2 Story** (the night told from her side, beat by beat) | F5's \"unexpected but true\" twist suits a Stage-4 topic where she knows the chair method. F2 carries the Stage-5 heart. |\n| **Chores/noise sequel** | **F3 Two voices** (her inner voice «بكنس لما ينام» against the reality of 11pm), **F1 HPSPC** (seconds-long steps, method as proof) | The topic is low-sophistication, so a plain, direct problem → solution works. The inner voice was the proven emotional peak (p5 s2). |\n| **General moments** (shower, separate plate, whispering, leaving early) | **F6 Checklist build** (\"three workarounds you've built without noticing\"), **F4 Metaphor** (e.g. her day arranged like a timetable around him; never a clinical metaphor) | Stage 5 needs self-reflection and tension. A checklist of *her* adaptations creates the \"that's me\" moment and leads naturally to the \"where to start\" CTA. |\n\nUse F1 as the control on at least one sequel so the results can be compared.\n\n### 8. Risks / what to avoid\n\n- **Repeating the chair step-back as the main tip.** It is now generic (Stage 4) and it was our own last post. Sequels need a new set of steps (the hour before, the night wakings, the return line) or a new angle on the same steps.\n- **Sensory and therapy drift on noise posts:** \"sensory\", \"exposure\", \"desensitise\", headphones as the fix, or any hearing or OT line.\n- **Promises:** \"sleeps alone\", \"independent sleeper\", \"calm\". Name the goal, never the result or a timeline.\n- **Irony that tips into mockery** of her, or into martyrdom.\n- **Lead-grab mechanics:** label quizzes, comment-for-link, invented counts, urgency.\n- **Over-describing the mechanism** (a brochure) or listing the six areas.\n- **Borrowed English vocabulary** («تربية لطيفة» for gentle parenting, «مشاعر كبيرة» for big feelings). It reads translated and joins a crowded Stage-5 field.\n- **Breadth risk:** universal hooks will draw mothers of typical toddlers. That's acceptable for reach, but the steps and CTA should hold for the mother with a harder day, without labelling him.\n\n**Hook directions for the Hook Specialist (not final copy):**\n- the workaround she's built\n- the true cost of that workaround to her\n- \"it starts earlier than the moment\"\n\nSources: [NHS Lothian, graduated withdrawal](https://services.nhslothian.scot/healthvisitors/wp-content/uploads/sites/27/2023/10/Graduated-withdrawal-1.pdf) · [Little Otter](https://www.littleotterhealth.com/blog/night-tantrums) · [Happiest Baby](https://www.happiestbaby.com/blogs/toddler/toddler-sleep-training) · [Big Little Feelings course](https://biglittlefeelings.com/course) · [Sleep Sense quiz](https://sleepsense.net/awsleepquiz) · [Smart Sleep Coach assessment](https://www.smartsleepcoach.com/sleep-assessment/8-months-sleep-regression) · [Saudi MOH sleep page](https://www.moh.gov.sa/healthawareness/educationalcontent/babyhealth/pages/018.aspx) · [Altibbi](https://altibbi.com/مقالات-طبية/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6-%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84/%D8%B9%D9%84%D8%A7%D8%AC-%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D9%85-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84-10512) · [Al Arabiya, tantrums](https://www.alarabiya.net/science/2023/05/23/3-طرق-تخلصك-من-نوبات-غضب-الأطفال-تعرَّف-عليها) · [Asharq Al-Awsat](https://aawsat.com/node/5242921) · [NHS Borders OT, noise](https://www.nhsborders.scot.nhs.uk/media/1010904/NHSB-CYP-OT-Noise-Sensitivity-info.pdf) · [Alder Hey, sound sensitivity](https://www.alderhey.nhs.uk/conditions/patient-information-leaflets/sound-sensitivity/) · [Romper, vacuum](https://www.romper.com/p/why-is-my-baby-afraid-of-the-vacuum-cleaner-10208) · [Planoly, comment-to-DM](https://www.planoly.com/blog/comment-to-dm-keyword-ideas-and-templates)"
+   "report": ""
   },
   {
    "n": 4,
    "key": "hooks",
    "title": "Angles & hooks",
-   "subtitle": "The Hook Specialist builds angles and scored hooks.",
-   "status": "done",
+   "subtitle": "The Hook Specialist builds angles and scored hooks in your legacy voice.",
+   "status": "idle",
    "idea": {
     "title": "The hook carries most of the result",
     "body": "Frame one decides whether the rest exists for her."
@@ -65,14 +65,14 @@
     "label": "Pick, cut or rewrite hooks.",
     "phrase": "These are good. Build concepts."
    },
-   "report": "### Final 12 hooks after Anhar's edits (Nov 9)\n| # | Topic | Hook | Source |\n|---|---|---|---|\n| 1 | Bedtime: night waking | سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟ | Anhar |\n| 2 | Bedtime: sneaking out | جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟ | Anhar |\n| 3 | Bedtime: her evening | تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟ | Anhar |\n| 4 | Bedtime: \"just today\" | قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟ | Anhar |\n| 5 | Chores: cooking at night | أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟ | approved |\n| 6 | Chores: only after he sleeps | ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟ | Anhar |\n| 7 | Noise: hair dryer | ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟ | Anhar |\n| 8 | Noise: blender | كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟ | Anhar |\n| 9 | New: shower | يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟ | Anhar |\n| 10 | New: hair wash | تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟ | approved |\n| 11 | New: kids' salon | كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟ | Anhar |\n| 12 | New: phone calls | ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟ | Anhar |\n\n### What I learned from your edits\nI've saved these as rules for every future hook. They'll go into Airtable → Feedback & Lessons at handoff.\n1. **One question, no second half.** You dropped every second half.\n2. **«ما تقدري … إلا …» is your shape** for the workaround (3 of 12), alongside «فصرتي…».\n3. **Past tense for one real time it happened** (جلستي، قمتي، قلتي له، وديتيه).\n4. **Physics and real-habit check:** you can't hear footsteps over a blender, and parents don't blow-dry a child's hair.\n5. **There must be a real problem at stake.** If it can wait (the haircut), it's a statement.\n6. **End on the problem she has now** (ما يرضى ينام لحاله), not on clever irony.\n7. **Complete the move** (go in *and lock the door*).\n8. **Your spellings, kept as written:** تنوميه، اثنين، ثمانيه، عشره، الاستشوار، صالون الاطفال.\n\n---\n### Director's review (read first)\nThe board is strong. The **A** hooks copy the winners' grammar almost exactly («فصرتي…», «وأنتي اللي…»). Before you pick, here are four flags I'm raising against your own past corrections:\n\n1. **The \"X يبدأ قبل…\" second halves in Angle B echo a line you already rejected.** In Batch 1 you cut «الزيارة تبدأ في السيارة» as headline-like and jarring. B1 («الطلعة من غرفته تبدأ قبل ما تنسدحي»), B4 («الشاور يبدأ قبل ما تسكري الباب») and B6 («القصة تبدأ في البيت») use the same pattern. **My recommendation:** run B1, B4 and B6 with the **first line only**. The winners had no second half either, and the \"it starts earlier\" idea can open slide 2 instead. Keep B2's and B5's second halves; they promise something concrete.\n2. **A5 uses «يشد يدك».** Your voice file says pull a hand = **يسحب**, and you approved «يسحبك من يدك» in Batch 1. Fixed suggestion: «أول ما تردي على الجوال يسحبك من يدك ويعلي صوته، فصرتي تكلمي أمك من الحمام؟»\n3. **Many (b) halves start with «هذي ثلاث أشياء تسويها…».** That's fine once or twice (you approved «هذي ثلاث أشياء تلاحظيها…»), but across 12 posts it becomes a template. At concepts, each post gets its own second half, or none.\n4. **Two are held for you:**\n   - **C2:** husband sleeping alone. It's real, backed by Gulf forum titles, but sensitive.\n   - **A6:** cutting his hair while he sleeps. It's unverified and may draw safety comments.\n\n   Say if you want either in.\n\n**Word questions, in one batch:**\n- **(a)** «على أطراف أصابعك» or «على رؤوس أصابعك»?\n- **(b)** «أكلم أمي من الحمام» or «من دورة المياه»?\n- **(c)** «غدا بكرة», is that how you'd say \"tomorrow's lunch\"?\n- **(d)** «السشوار», is that your word for hair dryer?\n\n**Hook Specialist's top 12** (4 bedtime, 4 chores/noise, 4 new):\n- **Bedtime:** A4 night waking · B1 sneaking out · B2 her evening lost · C1 \"just tonight\"\n- **Chores/noise:** A2 cooking at night · C4 the \"after he sleeps\" list · A3 hair dryer · B5 blender\n- **New:** A1 shower · C3 hair wash · B6 haircut · A5 phone calls\n\n**Reserves:** B4, C5, B3, C6.\n\n---\n\n## Hook Specialist\n\nThese are 18 hooks, all in the Batch 1 winning shape: her exact moment, then a true, gentle twist about the workaround she has built around him. None of them opens on his behaviour as a problem to fix. Every hook works as a one-liner (the form the two winners used). Where a second half adds a concrete promise, it is given as option (b).\nScores use the four Hook Point drivers: PS = perspective shift, Del = delivery, Punch = hook punch, Ten = self-reflection/tension. Each is out of 5, plus an overall filter score out of 5. They are a sorting aid only. Anhar's read-aloud judgment is the real test (Addendum 2, §7.9).\nWhere a word or detail is unverified (no Gulf quote in the research) or might sound translated, I say so.\n\n---\n\n### Angle A: \"The workarounds\" (Lane A, the main lane)\n**The lane:** name the life she has quietly rearranged around him, in the exact grammar of the winners: *[his moment], فصرتي [her workaround]?*\n**Why now:** this is the proven shape (4.4K / 3.9K), and the research shows no competitor names it. In Arabic, the topic is close to Stage 1 when framed around *her* housework, rest and hygiene. The steps then undo that one workaround a little at a time.\n\n**A1. Shower**\n- (a) «يدق على باب الحمام أول ما تسكريه، فصرتي تتروشي والباب مفتوح؟»\n- (b) + «هذي ثلاث أشياء تسويها قبل ما تدخلي، وكل وحدة تاخذ ثواني.»\n- Gloss: \"He bangs on the bathroom door as soon as you close it, so now you shower with the door open?\" / \"Here are three things you do before you go in, and each takes seconds.\"\n- Mechanism: recognition + ironic twist (her privacy has quietly gone).\n- Topic: shower on his schedule.\n- Value: three seconds-long, no-prep things before she steps in (the same promise as the vacuum post, which won).\n- Scores: PS 4 · Del 5 · Punch 5 · Ten 4 → **5**\n- Read-aloud: passes. The English sources say \"screams at the door\". Banging on the door is the same moment told in the Saudi way.\n\n**A2. Cooking at night**\n- (a) «أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟»\n- (b) + «هذي ثلاث أشياء تسويها وأنتي واقفة عند القدر، وما تحتاج أي تجهيز.»\n- Gloss: \"The moment you walk into the kitchen he clings to you, so now you cook tomorrow's lunch while he's asleep?\" / \"Three things you do while standing at the pot, no prep needed.\"\n- Mechanism: ironic twist (lunch made at night), close to the vacuum line's shape.\n- Topic: chores sequel (cooking at night).\n- Value: things she can do during the cooking itself, not a reorganised day.\n- Scores: PS 4 · Del 5 · Punch 4 · Ten 5 → **5**\n- Read-aloud: passes. «غدا بكرة» is everyday Saudi speech. A Gulf snippet backs the cooking-at-night detail (3roos #11).\n\n**A3. Hair dryer**\n- (a) «يغطي أذنه أول ما تشغلي السشوار، فصرتي تنشفي شعرك بالفوطة؟»\n- (b) + «هذي ثلاث أشياء تسويها والسشوار في يدك.»\n- Gloss: \"He covers his ears the moment you turn on the hair dryer, so now you dry your hair with a towel?\" / \"Three things you do with the dryer in your hand.\"\n- Mechanism: ironic twist, and a deliberate sequel echo of the vacuum winner.\n- Topic: noise sequel (hair dryer).\n- Value: seconds-long tips with the dryer in her hand, the same promise that worked for the vacuum.\n- Scores: PS 4 · Del 5 · Punch 4 · Ten 4 → **4**\n- Read-aloud: passes. **Risks:** (1) it is very close in structure to the vacuum hook, which helps as a sequel but could feel like a copy. (2) There is no quote from a mother who gave up her dryer (research gap). (3) «يغطي أذنه» is the line search results tie to a diagnosis. We only describe it, but don't stack it with any other ear or noise wording on the slides.\n\n**A4. Night waking / her bed**\n- (a) «يجي سريرك كل ليلة الساعة ثنتين، فصرتي تنامي على طرف السرير؟»\n- (b) + «هذي ثلاث خطوات لما يجيك نص الليل، ترجعيه فيها لسريره بهدوء.»\n- Gloss: \"He comes to your bed every night at two, so now you sleep on the edge of the bed?\" / \"Three steps for when he comes in at night, to take him back to his bed calmly.\"\n- Mechanism: recognition + ironic twist (her own bed is now his).\n- Topic: bedtime sequel (night waking).\n- Value: what to do at 2 a.m., in steps. It names the goal (him back in his bed) and describes what *she* does, without promising a result.\n- Scores: PS 4 · Del 5 · Punch 5 · Ten 5 → **5**\n- Read-aloud: passes. Several Gulf titles back it (#3–#6).\n\n**A5. Phone calls**\n- (a) «أول ما تردي على الجوال يجي يشد يدك ويعلي صوته، فصرتي تكلمي أمك من الحمام؟»\n- (b) + «هذي ثلاث أشياء تسويها قبل ما تردي، في نفس الثواني اللي الجوال يرن فيها.»\n- Gloss: \"As soon as you answer the phone he pulls your hand and gets louder, so now you talk to your mum from the bathroom?\" / \"Three things you do in the seconds while it's ringing.\"\n- Mechanism: ironic twist. \"Your mum\" makes it Saudi and warm.\n- Topic: phone calls.\n- Value: tips that fit the ring window (seconds, no prep).\n- Scores: PS 4 · Del 4 · Punch 4 · Ten 4 → **4**\n- Read-aloud: mostly passes. **Risk:** the first half is long (two actions). The evidence is English only. «من الحمام» might need to be «من دورة المياه» in her area (spelling question for Anhar).\n\n**A6. Haircut**\n- (a) «كل قصة شعر صياح من أولها لآخرها، فصرتي تقصي له وهو نايم؟»\n- Gloss: \"Every haircut is screaming from start to finish, so now you cut his hair while he sleeps?\"\n- Mechanism: ironic twist.\n- Topic: haircut.\n- Value: one-liner. The post would give steps for the haircut while he's awake.\n- Scores: PS 4 · Del 4 · Punch 4 · Ten 3 → **3**\n- Read-aloud: passes as speech. **Risks:** the cutting-while-asleep hack is unverified in Arabic, and scissors near a sleeping child may draw safety comments. It is also less universal than A1–A4. If we run a haircut post, B6 is the safer version.\n\n---\n\n### Angle B: \"It starts before the moment\" (Lane B, the bridge lane)\n**The lane:** her moment + the twist about her, then the turn: the hard part begins earlier than the moment she's fighting.\n**Why now:** this is our real mechanism (his whole day, not the moment alone), and it is Anhar's own bedtime CTA («لاحظي ايش يصير خلال اليوم قبل وقت النوم»). So the hook sets up the CTA without a jump. It is a Stage-4 perspective shift on topics (bedtime) where she already knows the chair method. Wording stays \"starts before\", never \"X causes Y\".\n\n**B1. Sneaking out**\n- (a)+(b) «تقضي ساعة تنيميه، وأول ما تقومي من جمبه يفتح عيونه؟ الطلعة من غرفته تبدأ قبل ما تنسدحي.»\n- Gloss: \"You spend an hour getting him to sleep, and the moment you get up from beside him his eyes open? Getting out of his room starts before you lie down.\"\n- Mechanism: recognition + perspective shift + open loop.\n- Topic: bedtime sequel (sneaking out).\n- Value: the steps for getting out happen *before* she lies down: new, not a repeat of the chair step-back.\n- Scores: PS 5 · Del 5 · Punch 4 · Ten 5 → **5**\n- Read-aloud: passes. Both halves are one thought in one breath. **Check:** the twist is mostly in the second half, so (a) alone is plain recognition. Always run it with (b).\n\n**B2. Her evening lost**\n- (a)+(b) «تنيميه الساعة ثمان، وتطلعي من غرفته الساعة عشر؟ الساعتين هذي تبدأ من العصر، وفيها ثلاث أشياء تقدري تغيريها من بكرة.»\n- Gloss: \"You put him to bed at eight and come out of his room at ten? Those two hours start in the afternoon, and there are three things in them you can change from tomorrow.\"\n- Mechanism: time-math recognition (her evening, gone) + perspective shift.\n- Topic: bedtime sequel (her evening lost).\n- Value: three changes in his afternoon, starting tomorrow (the same promise shape as the approved Batch 1 bedtime hook, moved to a new hour).\n- Scores: PS 5 · Del 4 · Punch 5 · Ten 5 → **5**\n- Read-aloud: passes. **Risk:** «ثلاث أشياء تقدري تغيريها» echoes Batch 1. Fine for a sequel, but the copywriter must not reuse that post's steps. \"Start in the afternoon\" has to stay a noticing point, not a cause.\n\n**B3. Night waking, the half-asleep decision**\n- (a)+(b) «يجي سريرك الساعة ثنتين، وأنتي تقرري وأنتي نص نايمة ايش تسوي؟ هذا القرار ينحسم من وقت النوم، مو الساعة ثنتين.»\n- Gloss: \"He comes to your bed at two, and you're deciding what to do while half asleep? That decision gets settled at bedtime, not at two.\"\n- Mechanism: ironic twist (making big calls half-asleep) + perspective shift.\n- Topic: bedtime sequel (night waking).\n- Value: a decided plan for 2 a.m., set up at bedtime.\n- Scores: PS 5 · Del 4 · Punch 4 · Ten 4 → **4**\n- Read-aloud: **risk.** «ينحسم» may sound a little written. «تقرريه من وقت النوم» is the plainer alternative. It also overlaps A4's moment, so don't run both.\n\n**B4. Shower**\n- (a)+(b) «تدخلي تتروشي دقيقتين، وتطلعي تلاقيه يبكي ورا الباب؟ الشاور يبدأ قبل ما تسكري الباب.»\n- Gloss: \"You go in for a two-minute shower and come out to find him crying behind the door? The shower starts before you close the door.\"\n- Mechanism: recognition + perspective shift.\n- Topic: shower.\n- Value: what to set up in the minute before she goes in.\n- Scores: PS 4 · Del 5 · Punch 4 · Ten 4 → **4**\n- Read-aloud: passes. A1 has the stronger twist. Use this one if the shower post is F5 or F1.\n\n**B5. Blender**\n- (a) «صرتي تطفي الخلاط أول ما تسمعي خطواته جاية للمطبخ؟»\n- (b) + «اللي يفرق يصير قبل ما تشغليه، وهذي ثلاث أشياء تاخذ ثواني.»\n- Gloss: \"You've started switching off the blender the moment you hear his footsteps coming to the kitchen?\" / \"What makes the difference happens before you switch it on, and here are three things that take seconds.\"\n- Mechanism: ironic twist (she reacts before he does) + perspective shift.\n- Topic: noise sequel (blender).\n- Value: seconds-long things before she switches it on.\n- Scores: PS 5 · Del 5 · Punch 4 · Ten 4 → **4**\n- Read-aloud: (a) passes and is vivid. **Risk:** \"before you switch it on\" pulls toward the generic tip \"warn him first\" (research: she's heard it). The copywriter must not use that as one of the three things.\n\n**B6. Haircut**\n- (a)+(b) «تأجلي قصة شعره أسبوع ورا أسبوع، لأنك عارفة ايش ينتظرك عند الحلاق؟ القصة تبدأ في البيت، قبل ما تطلعوا.»\n- Gloss: \"You put off his haircut week after week because you know what's waiting for you at the barber's? The haircut starts at home, before you leave.\"\n- Mechanism: recognition (her postponing) + perspective shift.\n- Topic: haircut.\n- Value: the home steps before the barber.\n- Scores: PS 4 · Del 4 · Punch 4 · Ten 4 → **4**\n- Read-aloud: passes. A Gulf title backs it (#22).\n\n---\n\n### Angle C: \"The quiet trade\" (what the workaround costs her)\n**The lane:** the market's third direction, \"the true cost of that workaround to her\", said warmly and never as martyrdom. The irony shows what she has given up (her bed, her mum's call, her own evening), then hands her the first step back. Two of these use her inner voice in quotes, which produced the emotional peaks in Batch 1 (Test Panel, B8).\n**Why I didn't pick named-enemy:** Addendum 2 records that the «قالوا لك…» angle against ready-made advice was rejected. A cost angle keeps her at the centre instead of us arguing with other advice.\n\n**C1. \"Just tonight\"**\n- (a) «تقولي \"الليلة بس\" وتخليه ينام جمبك، وصارت كل ليلة؟»\n- (b) + «مو غلط إنه ينام جمبك. بس إذا تبغي سريرك يرجع لك، هذي أول خطوة.»\n- Gloss: \"You say 'just tonight' and let him sleep beside you, and it's become every night?\" / \"It's not wrong that he sleeps beside you. But if you want your bed back, here's the first step.\"\n- Mechanism: inner-voice quote + ironic twist + naming her fear (A3-approved move).\n- Topic: bedtime sequel (comes to her bed).\n- Value: the first step, with permission (no blame, no sleep-safety lecture).\n- Scores: PS 4 · Del 5 · Punch 5 · Ten 5 → **5**\n- Read-aloud: passes. This is how she'd tell her sister. Spoken words in straight quotes, as A5 requires.\n\n**C2. Separate rooms**\n- (a) «تنامي في غرفته كل ليلة، وزوجك صار ينام لحاله في غرفتكم؟»\n- Gloss: \"You sleep in his room every night, and your husband has started sleeping alone in your room?\"\n- Mechanism: recognition of the cost.\n- Topic: bedtime sequel.\n- Value: one-liner. The post gives the step-out steps.\n- Scores: PS 4 · Del 5 · Punch 5 · Ten 5 → **4**\n- Read-aloud: passes. **Risk:** marriage is sensitive on Saudi TikTok. Comments may turn to the husband. It's real (Gulf titles #3, #4), but it needs Anhar's call. Hold as reserve.\n\n**C3. Hair wash**\n- (a) «تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟»\n- (b) + «هذي ثلاث أشياء تسويها وأنتي ماسكة الشاور، وكل وحدة تاخذ ثواني.»\n- Gloss: \"You wash his hair while he screams, and come out of the bathroom wetter than him?\" / \"Three things you do with the shower head in your hand, each one seconds.\"\n- Mechanism: ironic twist about her, in the «وأنتي اللي…» grammar of the bedtime winner.\n- Topic: hair wash.\n- Value: seconds-long tips during the wash.\n- Scores: PS 4 · Del 5 · Punch 5 · Ten 4 → **5**\n- Read-aloud: passes. The twist is visual and true, and it's a smile *with* her. It isn't a joke that needs explaining. Backed by Mumsnet #23 (English).\n\n**C4. The \"after he sleeps\" list**\n- (a) «الكنس بعد ما ينام، والطبخ بعد ما ينام، والشاور بعد ما ينام، ولما ينام تنامي قبل ما تبدئي؟»\n- (b) + «ابدئي بوحدة بس، وهذي ثلاث خطوات ترجعها للنهار.»\n- Gloss: \"Vacuuming after he sleeps, cooking after he sleeps, showering after he sleeps, and when he sleeps you fall asleep before you start?\" / \"Start with just one, and here are three steps to bring it back into the day.\"\n- Mechanism: the umbrella twist, as a rhythmic triple build (tension) with an ironic payoff.\n- Topic: chores sequel (the \"after he sleeps\" to-do list).\n- Value: pick one chore and three steps to move it back into the day (one area at a time, our method in miniature).\n- Scores: PS 4 · Del 4 · Punch 4 · Ten 5 → **4**\n- Read-aloud: passes. **Risks:** it is the longest hook, so on the slide each «بعد ما ينام» needs its own line. «الكنس» calls back to the vacuum post, which is good for a sequel. «ابدئي» is an instruction, but it's offered as a starting point, like the approved «جهزي اللي بعده».\n\n**C5. Calling her mum**\n- (a) «تبغي تكلمي أمك، فتستني إلين ما ينام عشان تقدري تسمعيها؟»\n- (b) + «هذي ثلاث أشياء تسويها قبل ما تتصلي، عشان تكلميها وهو صاحي.»\n- Gloss: \"You want to call your mum, so you wait until he's asleep so you can actually hear her?\" / \"Three things you do before you dial, so you can talk to her while he's awake.\"\n- Mechanism: the cost (her own mother's voice) + ironic twist.\n- Topic: phone calls.\n- Value: before-the-call steps. An outgoing call, so prep is realistic.\n- Scores: PS 4 · Del 5 · Punch 4 · Ten 4 → **4**\n- Read-aloud: passes. **Risk:** «عشان تكلميها وهو صاحي» leans toward a promise. If the copywriter can't deliver it honestly, drop (b).\n\n**C6. Sneaking out, beat by beat**\n- (a) «تطلعي من غرفته على أطراف أصابعك، وتسكري الباب بشويش، وتوقفي وراه تتسمعي إذا صحى؟»\n- Gloss: \"You tiptoe out of his room, close the door slowly, and stand behind it listening in case he woke up?\"\n- Mechanism: a beat-by-beat scene (A4 pattern 6). The tension builds over three beats, and the cost (her held breath in her own home) is felt rather than stated.\n- Topic: bedtime sequel (sneaking out).\n- Value: one-liner. The post gives the steps for getting out.\n- Scores: PS 3 · Del 5 · Punch 4 · Ten 5 → **4**\n- Read-aloud: passes. **Risk:** «على أطراف أصابعك» may be the written form. Her area might say «على رؤوس أصابعك». Ask in the spelling batch. It's weaker on perspective shift than B1, which covers the same moment.\n\n---\n\n### Recommended hook per angle\n- **Angle A: A4** (2 a.m., the edge of the bed). It's the purest copy of the winning grammar, on the strongest-evidenced sequel, and it's universal for any toddler mother.\n- **Angle B: B1** (an hour to get him to sleep, and his eyes open as she gets up). This is the clearest true perspective shift, and it sets up the \"before the moment\" CTA without a jump.\n- **Angle C: C1** («\"الليلة بس\"… وصارت كل ليلة؟»). Her inner voice plus the twist, with a no-blame second half that names her real goal.\n\n### Top 12 for the 12-post batch\n| # | ID | Topic |\n|---|---|---|\n| 1 | A4 | Bedtime sequel: night waking, her bed |\n| 2 | B1 | Bedtime sequel: sneaking out |\n| 3 | B2 | Bedtime sequel: her evening lost |\n| 4 | C1 | Bedtime sequel: \"just tonight\" became every night |\n| 5 | A2 | Chores sequel: cooking at night |\n| 6 | C4 | Chores sequel: the \"after he sleeps\" list |\n| 7 | A3 | Noise sequel: hair dryer |\n| 8 | B5 | Noise sequel: blender |\n| 9 | A1 | Shower |\n| 10 | C3 | Hair wash |\n| 11 | B6 | Haircut |\n| 12 | A5 | Phone calls |\n\nMix: 4 bedtime, 4 chores/noise, 4 new topics. A4 and C1 are different moments (a 2 a.m. arrival vs her letting him stay), but space them apart in the posting order.\n\n**Reserves:** B4 (shower, if A1 underperforms or a second shower post is wanted), C5 (phone, a warmer alternative to A5), B3 (night waking with a different angle; don't pair it with A4), C6 (sneak-out scene, for an F2 Story post).\n**Held for Anhar's call:** C2 (husband / separate rooms: real but sensitive). A6 (cutting his hair while he sleeps: unverified and a possible safety concern).\n\n### Hooks I cut and why\n- «صرتي تحفظي الباب من أي زاوية يزيّق، عشان تطلعي وهو نايم؟» It takes a second to decode, and I'm unsure of the verb in her dialect. Cut as likely translated.\n- «صار عندك قائمة \"بعد ما ينام\" أطول من يومك كله؟» Forced hyperbole that needs a beat to land. C4 says the same thing plainly.\n- «قالوا لك \"قولي له قبل لا تشغلي المكنسة\"؟ …» A named-enemy angle against advice. The «قالوا لك» angle was already rejected (Addendum 2, round 2), and it puts us at the centre instead of her.\n- «تطبخي بيد وحدة وهو على جنبك يبغى يشوف القدر؟» It would invite stove-safety lectures in the comments. That's a trust breaker.\n- «صرتي تسوي العصير بالليل عشان صوت الخلاط؟» Lukewarm (\"meh\"). B5's footsteps detail is the live version.\n- «يجيك نص الليل، وتصحي الصبح وأنتي اللي في سريره؟» (the research seed). It copies «وأنتي اللي نمتي» too closely, and the scene logic needs explaining (how did she end up there?). Replaced by A4.\n- «يصحى الساعة ثنتين ويجي سريرك؟ اللي يرجعه لسريره يبدأ الساعة ثمان.» It implies a cause (\"what returns him\") and promises a result for the child. Rebuilt as B3.\n- «تستني إلين ما يرجع أبوه عشان تتروشي؟» True (a Reddit pattern), but it shifts the focus to the husband's absence. A1 does the shower better.\n- «تنيميه الساعة ثمان… وفي الآخر تكتشفي إنك ما تغديتي؟» The meals moment has zero quote evidence (research gaps), and it tips into martyrdom.\n- «قهوتك تبرد كل يوم…» A generic mum meme with no link to his hard moments or to a usable step."
+   "report": ""
   },
   {
    "n": 5,
    "key": "concepts",
    "title": "Concepts",
    "subtitle": "The Strategist assembles distinct concepts for you to pick.",
-   "status": "done",
+   "status": "idle",
    "idea": {
     "title": "Options, not one answer",
     "body": "A batch is a test. We need real variety to learn from."
@@ -81,30 +81,30 @@
     "label": "Pick the concepts to produce.",
     "phrase": "Produce these."
    },
-   "report": "### 12 concepts, one per approved hook\nEach card on the dashboard has the hook and its value: the «رؤوس أقلام» she can use tonight. Every post also gets an early soft CTA right under its first step, a final CTA, a caption whose first line carries the CTA, and a pinned comment that works as a \"part two\".\n\n| # | Concept | Suggested format | Final CTA variation |\n|---|---|---|---|\n| c1 | Night waking: half your bed is his | F1 HPSPC | Reflection |\n| c2 | Sneaking out: he opens his eyes | F2 Story | Observation |\n| c3 | Your evening: 8 to 10 | F6 Checklist | Observation (Anhar's bedtime CTA) |\n| c4 | \"Just today\" became every night | F3 Two voices | Direct |\n| c5 | Cooking: he hangs on you | F1 HPSPC | Direct |\n| c6 | Only after he sleeps | F6 Checklist | Reflection |\n| c7 | Hair dryer: only when he's far | F5 Walk-through | Direct |\n| c8 | Blender: make sure he's far | F2 Story | Observation |\n| c9 | Shower: knocking and crying | F3 Two voices | Reflection |\n| c10 | Hair wash: you come out wetter | F5 Walk-through | Observation |\n| c11 | Kids' salon: screaming and running | F1 HPSPC | Direct |\n| c12 | Phone calls: only behind a locked door | F4 Metaphor | Reflection |\n\n**The format spread:** F1 ×3, F2 ×2, F3 ×2, F4 ×1, F5 ×2, F6 ×2. Every new format is tested at least once, and F1 is the control. You confirm the formats at step 6.\n\n**The rules I held to:**\n- The sequels use **new** steps. There's no chair step-back and no \"warn him before the vacuum\".\n- Every tip takes seconds or uses what she already has.\n- No cups or plates in a change post.\n- Nothing promises a result for the child.\n- Proof is the method only.\n\n**Watch these four:**\n- **c7 hair dryer and c8 blender are close cousins** (noise, keep him far). I suggest posting them at least four days apart.\n- **c2's move has her leaving while he's still awake**, telling him she'll come back, then coming back. It's a known approach, but it's new to our feed. Is that realistic for your audience?\n- **c11:** «حاولي» is used for the quiet salon time, because she doesn't control the salon's schedule.\n- **c12 is the only metaphor post.** \"On the phone, you're in front of him but somewhere else\" is told from his side, with no clinical claim.\n\n**Suggested posting order (one a day, topics alternating):** c1, c5, c9, c3, c8, c10, c2, c6, c11, c4, c7, c12.\n\n**Picked (Nov 9):** Anhar approved all 12 concepts."
+   "report": ""
   },
   {
    "n": 6,
    "key": "format",
    "title": "Format",
-   "subtitle": "You decide static slides or video for each picked concept, and its format label.",
-   "status": "done",
+   "subtitle": "You decide static slides or video for each picked concept.",
+   "status": "idle",
    "idea": {
     "title": "Format follows the idea",
     "body": "Some ideas need to be swiped, some need to move."
    },
    "action": {
-    "label": "Choose static or video (and the F-label) per concept.",
+    "label": "Choose static or video per concept.",
     "phrase": "Formats chosen."
    },
-   "report": "### Static slides or video, for each concept?\nNothing gets written until you decide. **Proposed:** all 12 as static carousels, the same as Batch 1, so the format labels (F1–F6) are the only thing that changes and the comparison stays clean.\n\n| # | Concept | Format label | Static / video |\n|---|---|---|---|\n| c1 | Night waking: half your bed is his | F1 HPSPC | static (proposed) |\n| c2 | Sneaking out: he opens his eyes | F2 Story | static (proposed) |\n| c3 | Your evening: 8 to 10 | F6 Checklist | static (proposed) |\n| c4 | \"Just today\" became every night | F3 Two voices | static (proposed) |\n| c5 | Cooking: he hangs on you | F1 HPSPC | static (proposed) |\n| c6 | Only after he sleeps | F6 Checklist | static (proposed) |\n| c7 | Hair dryer: only when he's far | F5 Walk-through | static (proposed) |\n| c8 | Blender: make sure he's far | F2 Story | static (proposed) |\n| c9 | Shower: knocking and crying | F3 Two voices | static (proposed) |\n| c10 | Hair wash: you come out wetter | F5 Walk-through | static (proposed) |\n| c11 | Kids' salon: screaming and running | F1 HPSPC | static (proposed) |\n| c12 | Phone calls: only behind a locked door | F4 Metaphor | static (proposed) |\n\n**Concepts that could also work as video** (a concept can be both):\n- **c2 Sneaking out (F2 Story):** the slow arm-slide and creaking floor are real movement and sound.\n- **c9 Shower (F3 Two voices):** the knocking and crying at the door, heard from inside.\n- **c8 Blender (F2 Story):** the before/after sound of the towel trick is something you hear, not read.\n\nVideo would need a script plus faceless footage or animation, which is a separate production run.\n\n**Decided (Nov 9):** all 12 are **static slides**, with the labels as proposed."
+   "report": ""
   },
   {
    "n": 7,
    "key": "production",
    "title": "Production",
    "subtitle": "The Copywriter writes every picked post in Arabic.",
-   "status": "done",
+   "status": "idle",
    "idea": {
     "title": "Written last, never from a blank page",
     "body": "Every post starts from a picked concept, a chosen hook and her own words."
@@ -113,14 +113,14 @@
     "label": "Read the drafts.",
     "phrase": "Looks good. Edit and test."
    },
-   "report": "### 12 drafts are in\nEvery post has your hook verbatim on slide 1, a scene or inner-voice slide 2, one soft CTA under the first step (marked ⟵ on the cards), steps labelled in full, a final Connect → Purpose → Direct CTA ending «الرابط في البايو», a caption whose first line carries the CTA, and a pinned comment \"part two\". 7–8 slides each. Proof slides (method only) on the three F1 posts. Automatic checks: no em dash, hooks verbatim.\n\nThe full slides are in **The posts** section below.\n\n### Director's flags (the Arabic Voice Editor fixes these next unless you say otherwise)\n1. **p3 uses the \"X ما تبدأ … تبدأ من العصر\" line twice** (slides 3 and 8). That's the «الزيارة تبدأ في السيارة» pattern you rejected. It will be rewritten plainly.\n2. **p12 final slide «…بدل ما تقفلي الباب كل ما رن جوالك» leans toward a promise.** It will be softened.\n3. **p10 slide 7 «ويمكن هذي المرة تطلعي … ناشفة أكثر منه»** is a callback joke. It may read as forced or as a promise, so it's a candidate to cut.\n4. **p7 slide 4 «الكل يقولك…»** is the F5 twist that breaks advice she's heard. Is that OK, or does it feel like the «قالوا لك» angle you didn't want?\n5. **The method slide says «الخطة الحية»** (p1, p5). Is that the Arabic name you use publicly, or should it say «في مدار البيت»?\n\n### Your realism checks\n- **p2:** leave while he's still awake, «برجع لك بعد شوي», and come back after 1, then 2, then 5 minutes.\n- **p3:** wake him a bit earlier from the afternoon nap («ولو نص ساعة»). Realistic?\n- **p4:** start with the **midday nap** in his own bed. Do most of your audience's children still nap?\n- **p8:** a folded towel under the blender, and he puts the banana in himself.\n\n### Word questions, in one batch\n| Word | Used for | Question |\n|---|---|---|\n| سوالف / يسولف | chatting | Natural for you? |\n| توسعي له مكان | make room for him | OK? |\n| ذيك الليلة | that night | or «هذيك الليلة»? |\n| نومة الظهر / نومة العصر | the afternoon nap | which one do you say? |\n| بلوزتك | your top | OK? |\n| وعاء / طاسة | a bowl | which? |\n| ودك | you'd like | OK? |\n| الصالة | living room | OK? |\n| الدش | hand shower | or «الشطاف» / «رشاش الشاور»? |\n| مفصول | unplugged | OK? |\n| المكينة، ترج | clipper, its buzz | OK? |\n| سناكه، السبيكر | his snacks, speakerphone | keep, or Arabic? |\n| من جهته هو | from his side | or «من برا الباب»? |\n\n\n**Anhar's edit round (Nov 9):** about 35 slide-level edits across all 12 posts, made through dashboard comments. Every one was applied verbatim and studied into rules in `app/lessons_batch2.md`. She moved on to testing."
+   "report": ""
   },
   {
    "n": 8,
    "key": "test",
    "title": "Arabic + Test",
    "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
-   "status": "done",
+   "status": "idle",
    "idea": {
     "title": "Born in Arabic, tested cold",
     "body": "A line that sounds translated loses, whatever its score."
@@ -129,23 +129,23 @@
     "label": "Choose what ships.",
     "phrase": "Ship the winners."
    },
-   "report": "### Arabic Voice Editor\nLight pass on the unlocked slides, captions and pinned comments only. A script confirmed every slide Anhar wrote or edited is byte-identical. Main fixes:\n- Soft CTAs in captions and pinned comments are now one benefit line.\n- p3 s3 dropped the banned \"ما تبدأ… تبدأ من\" line.\n- Captions realigned to the rewritten slides (p5, p7, p12).\n- p12 pinned comment is now about the phone, not attention.\n- طبيعي→ممكن and كذا→عشان where the line states a purpose.\n- p6 «يمسك الكيس» → «يحط الملابس في الغسالة» (plastic-bag risk).\n- p5 pinned: carrot → cucumber (choking risk).\n\n### Test Panel: ranked\n| Post | Concept | Score |\n|---|---|---|\n| p10 | Hair wash: you come out wetter | 92 |\n| p2 | Sneaking out: he opens his eyes | 90 |\n| p5 | Cooking: he hangs on you | 90 |\n| p9 | Shower: knocking and crying | 88 |\n| p4 | \"Just today\" became every night | 87 |\n| p6 | Only after he sleeps | 87 |\n| p3 | Your evening: 8 to 10 | 85 |\n| p7 | Hair dryer: only when he's far | 84 |\n| p1 | Night waking: half your bed is his | 83 |\n| p8 | Blender: make sure he's far | 83 |\n| p11 | Kids' salon: screaming and running | 81 |\n| p12 | Phone calls: only behind a locked door | 81 |\n\n**No post fails the safety gate.** Three sceptical mothers' reactions are on each post card below.\n\n**Batch strengths:**\n- 9 of 12 hooks use the winning shape or your «ما … إلا» shape.\n- Every slide 2 escalates.\n- Method-only proof, nothing promised, every CTA ends «الرابط في البايو».\n\n**Biggest risk: CTA visibility.** Viewers see about 2 slides, and no soft CTA sits earlier than slide 3. Six are on s4, three on s5, and p12 has none.\n\n### Decisions for you (one batch; my recommendation in bold)\n1. **Soft CTA earlier:** **move each soft CTA up onto the slide that says the steps are coming (s3/s4), add one to p12, and put a small «التقييم المجاني في البايو» footer on every slide at design.**\n2. **Four short safety phrases on your slides:** p8 s7 «والخلاط مطفي», p10 s6 «والموية دافية», p11 s6 the barber keeps hold of the clipper, p5 s4 «كرسي ثابت». **Add them.**\n3. **Repetition:** p1 and p4 share steps 2–3 («يلا سريرك», «ولا تنسدحي»). **Keep p4's nap step and give p1 a different step 3.** In the posting order, keep the bedtime posts apart.\n4. **Two weaker hooks** (p8 blender, p11 salon) don't have the twist about her. The panel suggests something like «…فصرتي تقصي شعره بنفسك في البيت؟». **Keep yours; test them as they are.**\n5. **Your wording checks:**\n   - **p9:** «تعرف» → «تعرفي»? «نقطة البداية» → «من فين تبدئي»?\n   - **p10 s3:** add «أسهل»?\n   - **p12 s8:** «من فين تبدئي» appears twice; drop one?\n   - **p8 s5 and p12 s6:** add the missing full stops?\n\n   **Yes to all.**\n\n**Suggested posting order (strongest first, topics apart):** p10, p5, p2, p9, p6, p4, p7, p3, p12, p1, p8, p11.\n\n**Decision (Nov 9):** no further edits. Anhar: her edited slides are final, and the suggested wording fixes \"don't sound like me\". All posts ship exactly as she edited them."
+   "report": ""
   },
   {
    "n": 9,
    "key": "handoff",
    "title": "Handoff",
-   "subtitle": "The Strategist packages the final posts.",
-   "status": "done",
+   "subtitle": "The Strategist packages the final posts with their QR codes.",
+   "status": "idle",
    "idea": {
     "title": "Finished when the numbers teach us",
-    "body": "After posting, tell us the numbers and ask 'what's working?'."
+    "body": "After each evening, log day 1 and read Visits and Submissions by post tag."
    },
    "action": {
     "label": "Done.",
     "phrase": null
    },
-   "report": "### Batch 2 handoff: 12 posts, final\nEvery slide is exactly as Anhar approved it. Captions and pinned comments are on each post card and in Airtable.\n\n| Day | Post | Concept | Format | Slides | Panel |\n|---|---|---|---|---|---|\n| 1 | p10 | Hair wash: you come out wetter | F5 Walk-through | 8 | 92 |\n| 2 | p5 | Cooking: he hangs on you | F1 HPSPC | 8 | 90 |\n| 3 | p2 | Sneaking out: he opens his eyes | F2 Story | 7 | 90 |\n| 4 | p9 | Shower: knocking and crying | F3 Two voices | 8 | 88 |\n| 5 | p6 | Only after he sleeps | F6 Checklist | 7 | 87 |\n| 6 | p4 | \"Just today\" became every night | F3 Two voices | 8 | 87 |\n| 7 | p7 | Hair dryer: only when he's far | F5 Walk-through | 7 | 84 |\n| 8 | p3 | Your evening: 8 to 10 | F6 Checklist | 8 | 85 |\n| 9 | p12 | Phone calls: only behind a locked door | F4 Metaphor | 8 | 81 |\n| 10 | p1 | Night waking: half your bed is his | F1 HPSPC | 8 | 83 |\n| 11 | p8 | Blender: make sure he's far | F2 Story | 8 | 83 |\n| 12 | p11 | Kids' salon: screaming and running | F1 HPSPC | 8 | 81 |\n\nOne a day. Topics are alternated, and the four bedtime posts are kept apart.\n\n### Logged\n- **Airtable → Batches:** \"Batch 2: 12 static carousels (Nov 2026)\".\n- **Airtable → Posts:** 12 rows (B2-p1 … B2-p12) with the final slides, caption, pinned comment, format label, posting order, score and who wrote what.\n- **Airtable → Feedback & Lessons:** 29 new Batch 2 rows covering every edit, with before → after → her reason → rule: hooks, structure, CTA, realism, connectors and her word list.\n- **Handbook:** `app/ANHAR_FEEDBACK_HANDBOOK.md` now has **Part H (Batch 2 lessons)**. Attach this version to the next chat.\n- **Repo** (branch `claude/adoring-planck-83m3n1`): `app/posts_final.json`, `app/lessons_batch2.md`, `app/test_panel.json`.\n\n### Next\n- **Visuals:** run the Creative Production skill on `app/posts_final.json`. Consider a small «التقييم المجاني في البايو» footer on every slide, since viewers see about 2 slides.\n- **Tracking:** tag the bio link `?src=tiktok` and record assessment *starts*.\n- **After posting:** send the numbers and say **\"what's working?\"**."
+   "report": ""
   }
  ],
  "plan": {
@@ -154,48 +154,48 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "done"
+    "status": "needs-you"
    },
    {
     "key": "ar",
     "name": "Audience Researcher",
     "role": "What mothers actually say",
-    "status": "done"
+    "status": "idle"
    },
    {
     "key": "ma",
     "name": "Market Analyst",
     "role": "What the market has heard",
-    "status": "done"
+    "status": "idle"
    },
    {
     "key": "hk",
     "name": "Hook Specialist",
-    "role": "Angles and hooks",
-    "status": "done"
+    "role": "Angles and hooks, legacy voice",
+    "status": "idle"
    },
    {
     "key": "cw",
     "name": "Copywriter",
     "role": "Writes the posts",
-    "status": "done"
+    "status": "idle"
    },
    {
     "key": "av",
     "name": "Arabic Voice Editor",
     "role": "Makes it sound native",
-    "status": "done"
+    "status": "idle"
    },
    {
     "key": "tp",
     "name": "Test Panel",
     "role": "Sceptical mothers, scored",
-    "status": "done"
+    "status": "idle"
    },
    {
     "key": "an",
     "name": "Analyst",
-    "role": "Batch 1 read; next read after posting",
+    "role": "B3 + legacy read done; next read after B4 evenings",
     "status": "done"
    }
   ]
@@ -204,32 +204,32 @@
   "total": 100,
   "items": [
    {
-    "name": "Scroll-stop (winning hook shape)",
-    "weight": 16,
+    "name": "Scroll-stop",
+    "weight": 18,
     "score": null
    },
    {
     "name": "Recognition",
-    "weight": 12,
+    "weight": 15,
     "score": null
    },
    {
     "name": "Emotion, not apathy",
-    "weight": 12,
+    "weight": 15,
     "score": null
    },
    {
     "name": "Her own words",
-    "weight": 10,
-    "score": null
-   },
-   {
-    "name": "Usable value («رؤوس أقلام»)",
     "weight": 12,
     "score": null
    },
    {
-    "name": "Trust & safety (gate)",
+    "name": "One job",
+    "weight": 10,
+    "score": null
+   },
+   {
+    "name": "Trust & safety",
     "weight": 10,
     "score": null
    },
@@ -239,488 +239,192 @@
     "score": null
    },
    {
-    "name": "The turn / perspective shift",
-    "weight": 8,
+    "name": "The turn",
+    "weight": 6,
     "score": null
    },
    {
-    "name": "CTA: seen and earned",
-    "weight": 10,
+    "name": "Next step",
+    "weight": 4,
     "score": null
    },
    {
-    "name": "Save / share-worthy",
+    "name": "Shareable",
     "weight": 2,
     "score": null
    }
   ]
  },
- "concepts": [
-  {
-   "id": "c1",
-   "title": "Night waking: half your bed is his",
-   "job": "value + CTA (Reflection)",
-   "angle": "[F1 HPSPC] Problem: at 2am she's half asleep, and letting him in is the only easy choice; by morning she's on the edge of her own bed. Solution: (1) decide what you'll do at 2am *before* the night, so you're not deciding half asleep; (2) walk him back every time with the same two words, e.g. \"يلا سريرك\", lights low, no talk; (3) if you need to stay, sit by *his* bed and don't lie down. Proof: the method line. CTA (Reflection): the 2am visit is one moment of many; the assessment shows where to start.",
-   "hook_ar": "سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟",
-   "hook_gloss": "Your bed has become half your child's? Every night at two he comes to sleep beside you?",
-   "status": "picked",
-   "format": "slides · F1 HPSPC"
-  },
-  {
-   "id": "c2",
-   "title": "Sneaking out: he opens his eyes",
-   "job": "value + CTA (Observation)",
-   "angle": "[F2 Story] Story beats: the hour, sliding her arm out, the floor creaks, his eyes open, back to zero. Turn: he fell asleep with you there, so when he half-wakes and you're gone, it's a new place. Move (not the chair method): tell him \"برجع لك بعد شوي\" and leave while he's still awake, then really come back after a minute, then two, then five. He learns you come back. CTA (Observation): notice how he falls asleep each night; those details build the plan.",
-   "hook_ar": "جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟",
-   "hook_gloss": "You sat an hour getting him to sleep, and the moment you got up from beside him he opened his eyes?",
-   "status": "picked",
-   "format": "slides · F2 Story"
-  },
-  {
-   "id": "c3",
-   "title": "Your evening: 8 to 10",
-   "job": "value + CTA (Observation (Anhar's bedtime CTA))",
-   "angle": "[F6 Checklist] Self-check, one part per slide: (1) what time did his afternoon nap end? (2) what was the last thing he did before pyjamas (screen, running around, a bath)? (3) did bedtime move tonight because of a visit or guests? One small move for each. The «رؤوس أقلام» are the three checks themselves. CTA = Anhar's own: «لاحظي ايش يصير خلال اليوم قبل وقت النوم…».",
-   "hook_ar": "تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟",
-   "hook_gloss": "You start putting him to sleep at eight, and you don't leave his room until ten?",
-   "status": "picked",
-   "format": "slides · F6 Checklist"
-  },
-  {
-   "id": "c4",
-   "title": "\"Just today\" became every night",
-   "job": "value + CTA (Direct)",
-   "angle": "[F3 Two voices] Two voices: the her of that night («اليوم بس، تعبانة») and the her of now. Normalise: it wasn't wrong. Move (new): start with the **afternoon nap** in his own bed, not the night; the day is easier for both of you. Then the same two words at night, and return him without lying down again. CTA (Direct).",
-   "hook_ar": "قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟",
-   "hook_gloss": "You told him 'just today you'll sleep beside me', and now he refuses to sleep on his own?",
-   "status": "picked",
-   "format": "slides · F3 Two voices"
-  },
-  {
-   "id": "c5",
-   "title": "Cooking: he hangs on you",
-   "job": "value + CTA (Direct)",
-   "angle": "[F1 HPSPC] Problem: he wants *you*, not the kitchen; cooking at night costs her sleep. Seconds-long moves, zero prep: (1) one low kitchen drawer that's his (plastic containers, wooden spoons); (2) a job beside you, away from the stove: washing cucumbers in a bowl of water; (3) say out loud what you're doing (\"دحين بنقطع البصل\"), so he's with you without being on you. Proof: method. CTA (Direct).",
-   "hook_ar": "أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟",
-   "hook_gloss": "As soon as you enter the kitchen he clings to you, so now you cook tomorrow's lunch while he's asleep?",
-   "status": "picked",
-   "format": "slides · F1 HPSPC"
-  },
-  {
-   "id": "c6",
-   "title": "Only after he sleeps",
-   "job": "value + CTA (Reflection)",
-   "angle": "[F6 Checklist] Checklist build: the 'after he sleeps' list she's built (vacuum, cooking, a shower, a call). Turn: you don't need to win them all back, just one. Moves: pick the shortest; do it at the same time each day so he knows it's coming; give him a part in it (he presses the button, carries the dustpan). CTA (Reflection): which one weighs most? The assessment helps set the starting point.",
-   "hook_ar": "ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟",
-   "hook_gloss": "You can't vacuum while he's awake, and you don't cook until after he sleeps?",
-   "status": "picked",
-   "format": "slides · F6 Checklist"
-  },
-  {
-   "id": "c7",
-   "title": "Hair dryer: only when he's far",
-   "job": "value + CTA (Direct)",
-   "angle": "[F5 Walk-through] Walking listicle, a twist in each: (1) not 'warn him first' (she's heard it) but let him see it *off* first and hold it; (2) start on the lowest setting, pointed away from him, from across the room; (3) he's the one who presses the button. Fast close + CTA (Direct).",
-   "hook_ar": "ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟",
-   "hook_gloss": "You can't turn on the hair dryer unless your child is far from you?",
-   "status": "picked",
-   "format": "slides · F5 Walk-through"
-  },
-  {
-   "id": "c8",
-   "title": "Blender: make sure he's far",
-   "job": "value + CTA (Observation)",
-   "angle": "[F2 Story] Story: she wants a juice, checks where he is, waits, he walks in, she gives up, puts it back. Moves (seconds): a folded towel under the blender (it really is quieter); short pulses instead of one long run; he sees it before it starts. CTA (Observation): notice which sounds he moves away from and which he doesn't.",
-   "hook_ar": "كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟",
-   "hook_gloss": "Every time you want to turn on the blender, you have to make sure your child is far away?",
-   "status": "picked",
-   "format": "slides · F2 Story"
-  },
-  {
-   "id": "c9",
-   "title": "Shower: knocking and crying",
-   "job": "value + CTA (Reflection)",
-   "angle": "[F3 Two voices] Two voices: him at the door, her inside rushing. Moves: (1) shower right after he's started something he likes, not when he's free; (2) keep talking or singing through the door so he hears you're there; (3) give him a job: he holds your towel outside and hands it to you when you come out. CTA (Reflection).",
-   "hook_ar": "يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟",
-   "hook_gloss": "He knocks on the bathroom door and cries the moment you close it, so now you shower after he sleeps or before he wakes?",
-   "status": "picked",
-   "format": "slides · F3 Two voices"
-  },
-  {
-   "id": "c10",
-   "title": "Hair wash: you come out wetter",
-   "job": "value + CTA (Observation)",
-   "angle": "[F5 Walk-through] Walk-through with twists: (1) a dry face towel he holds over his own eyes; (2) count out loud to the same number every time, then stop (\"لين عشرة\"), so he knows when it ends; (3) let him hold the shower head. Fast close + CTA (Observation).",
-   "hook_ar": "تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟",
-   "hook_gloss": "You wash his hair while he screams, and you come out of the bathroom wetter than him?",
-   "status": "picked",
-   "format": "slides · F5 Walk-through"
-  },
-  {
-   "id": "c11",
-   "title": "Kids' salon: screaming and running",
-   "job": "value + CTA (Direct)",
-   "angle": "[F1 HPSPC] Problem: the whole visit is a battle, and she leaves with half a haircut. Moves: (1) حاولي the quietest time (weekday morning); (2) the first time, just sit and watch another child, no haircut; (3) let him feel the clipper's buzz on your arm, then his hand, before his head; (4) something of his own to hold. Proof: method. CTA (Direct).",
-   "hook_ar": "كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟",
-   "hook_gloss": "Every time you take him to the kids' salon, the screaming starts and he tries to run?",
-   "status": "picked",
-   "format": "slides · F1 HPSPC"
-  },
-  {
-   "id": "c12",
-   "title": "Phone calls: only behind a locked door",
-   "job": "value + CTA (Reflection)",
-   "angle": "[F4 Metaphor] Metaphor from his side: on the phone you're in front of him, but your voice and eyes went somewhere else, like when someone talks to you while looking at their phone. Moves: (1) a small box of things that only comes out during calls; (2) let him say hi to grandma on speaker first; (3) keep a hand on him while you talk. CTA (Reflection).",
-   "hook_ar": "ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟",
-   "hook_gloss": "You can't finish a call with your mum unless you go into the bathroom and lock the door?",
-   "status": "picked",
-   "format": "slides · F4 Metaphor"
-  }
- ],
- "posts": [
-  {
-   "id": "p1",
-   "conceptId": "c1",
-   "title": "Night waking: half your bed is his",
-   "format": "slides · F1 HPSPC · CTA: Reflection",
-   "status": "final",
-   "score": 83,
-   "body_ar": "(1) سريرك صار نصه لطفلك؟ كل ليلة الساعة اثنين يجي ينام جنبك؟\n\n(2) تحسي بخطواته في الظلام، وقبل ما يوصل تقولي في نفسك \"خلاص، المهم ننام\".\nتوسعي له مكان، وتصحي الصبح على طرف سريرك، وظهرك يوجعك.\n\n(3) الساعة اثنين أنتي مو قادرة تفكري.\nترجعيه لسريره يعني تقومي، وتمشي معاه، وتجلسي جنبه، وأنتي بالقوة فاتحة عيونك.\nفطبيعي تختاري الأسهل، ولما ينفع مرة، راح يرجع الليلة الجاية.\n\n(4) الخطوة الأولى: قبل ما تنامي، حددي كيف بتتصرفي لو جاكي في وسط الليل.\nعشان لما يجيكي تكوني عارفة إيش بتسوي وما تضطري تقرري وانتي نص نايمة.\n⟵ soft CTA: وإذا الموضوع يتكرر كل ليلة، التقييم المجاني في البايو يساعدك تشوفي يومه كامل، مو بس اللي يصير في وسط الليل.\n\n(5) الخطوة الثانية: رجعيه لسريره كل مرة، بنفس الكلمتين، مثلا \"يلا سريرك\".\nالنور خفيف، وبدون كلام زيادة.\n\n(6) الخطوة الثالثة: لو ما قدرتي تطلعي على طول، اجلسي جنب سريره، ولا تنسدحي.\nعشان يكمل نومه في سريره هو، مو في سريرك.\n\n(7) كذا نشتغل في الخطة الحية: نشوف يومه كامل، مو بس اللي يصير في نص بالليل.\nنبدأ بموقف واحد والخطة تتعدل حسب استجابته.\nوكلها مبنية من اللي تلاحظيه أنتي.\n\n(8) فكري في ليلتكم كاملة، ايش صار قبل ما نام متى نام وكيف نام ومتى بدأ يصحى.\nهذي التفاصيل هي بداية خطة تناسبه.\nالتقييم المجاني يساعدك تحددي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: ممكن يرجع لك مرة ثانية وثالثة في نفس الليلة. كل مرة رجعيه بنفس الطريقة ونفس الكلمتين، حتى لو تعبتي. كذا يعرف إن الجواب واحد مهما رجع.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
-   "caption_ar": "سريرك صار نصه لطفلك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات لما يجيكي في نص الليل، وأولها قبل ما تنامي أنتي.",
-   "notes": "Skimmer: Stops on s1 (the half-bed image). Reads s2, nods, drops at s3 (a dense 3-line 'why'). Saw no CTA on slides; only the caption carries it.\nCynic: \"Walk him back, same two words, don't lie down: that's every sleep account. Step 1 (decide before you sleep) is the only thing I haven't heard, and it's the one I actually need at 2am.\"\nCautious: \"Honest, no promises. The method slide is fine. But it's the same 'whole day' line I'll see again in p5.\"\nPush higher: Steps 2 and 3 are near-identical to p4 s6–s7 («نفس الكلمتين، مثلا \"يلا سريرك\"» / «ولا تنسدحي»); change one post's steps or space them far apart in the posting order. · Cut s3 to one line and let step 1 arrive on s3, so the soft CTA lands on s3 not s4. · Drop the «وإذا…» condition from the soft CTA: «التقييم المجاني في البايو يساعدك تشوفي يومه كامل، مو بس وسط الليل.»\nGate: ok"
-  },
-  {
-   "id": "p2",
-   "conceptId": "c2",
-   "title": "Sneaking out: he opens his eyes",
-   "format": "slides · F2 Story · CTA: Observation",
-   "status": "final",
-   "score": 90,
-   "body_ar": "(1) جلستي ساعة  تنوميه، وأول ما قُمتي من جمبه فتح عيونه؟\n\n(2) كنتي تعدي الدقايق في الظلام، وتقولي في نفسك \"بس ينام، بقوم أرتب المطبخ\".\nسحبتي يدك شويه شويه، وقمتي على أطراف أصابعك.\nوقبل ما توصلي الباب، سمعتي \"ماما\".\n\n(3) رجعتي جمبه، والساعة بدأت من أولها.\nطبيعي يصحى. هو نام وأنتي جمبه، ولما فتح عيونه ما لقاكي، كأن شي تغير وهو نايم.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\n\n(4) الخطوة الأولى: اطلعي وهو لسه صاحي.\nقولي له \"برجع لك بعد شويه\"، واطلعي وهو يشوفك.\n\n(5) الخطوة الثانية: ارجعي له زي ما قلتي.\nأول مرة بعد دقيقة، بعدها بعد دقيقتين، بعدها بعد خمس. كل مرة نفس الجملة، وتطلعي.\nوبين كل مرة، كملي اللي وراك برا.\n\n(6) كذا يشوف إنك تطلعي وترجعي.\nويصير طلوعك من الغرفة شي يعرفه، مو شي يتفاجأ فيه لما يصحى.\n\n(7) لاحظي كيف ينام كل ليلة، ومين يكون جمبه، وايش آخر شي يشوفه قبل ما ينام.\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني عشان تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لما ترجعي له، لا تشيليه ولا تفتحي معاه سوالف جديدة. نفس الجملة، \"برجع لك بعد شويه\"، وبعدها اطلعي. عشان ما يتحول رجوعك لوقت لعب.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
-   "caption_ar": "جلستي ساعة تنوميه، وأول ما قمتي من جمبه فتح عيونه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور خطوتين تخلي طلوعك من غرفته شي يعرفه.",
-   "notes": "Skimmer: Stops on s1 (she has lived it last night). Swipes s2 for the «ماما». Likely drops at s3, but s3 has the soft CTA: she saw it.\nCynic: \"Check-ins at 1, 2, 5 minutes: I've seen the chart. What's new is 'leave while he's awake' and doing the kitchen in between. That I'd try.\"\nCautious: \"It doesn't promise he'll sleep. The CTA asks me to notice who's next to him and what he sees last: that's observation, not a sales pitch.\"\nPush higher: Fix the double space in s1. · s6 is pure explanation; fold «كذا يشوف إنك تطلعي وترجعي» into s5 and use the freed slide for a third step (what to do if he follows her out), so 'two steps' doesn't feel thin. · s7 «ومين يكون جمبه» is close to the 'who was near him' trigger Anhar rejected (A2); «ومتى ينام» is safer.\nGate: ok"
-  },
-  {
-   "id": "p3",
-   "conceptId": "c3",
-   "title": "Your evening: 8 to 10",
-   "format": "slides · F6 Checklist · CTA: Observation",
-   "status": "final",
-   "score": 85,
-   "body_ar": "(1) تبدئي تنوميه الساعة ثمانيه، وما تطلعي من غرفته إلا الساعة عشره؟\n\n(2) ساعتين وأنتي في الظلام. يقوم، يطلب موية، يرجع ينسدح، يبدأ يسولف.\nوأنتي تقولي في نفسك \"المطبخ لسه ما خلص، ومتى ارتاح أنا؟\"\n\n(3) الساعتين هذي ما تبدأ الساعة ثمانيه، تبدأ من العصر.\nهذي ثلاث أشياء من نهاره تفرق في ليلته، وكلها قبل ما يلبس البيجاما.\n⟵ soft CTA: ولو تبغي تشوفي هذا على يومه كامل، التقييم المجاني في البايو.\n\n(4) أول شي: نومة العصر.\nلو صحى منها قريب المغرب، طبيعي الساعة ثمانيه يكون لسه مصحصح.\nحاولي تصحيه منها بدري شوي، ولو نص ساعة.\n\n(5) ثاني شي: انتبهي لإيش كان يسوي قبل وقت النوم.\nلو كان يلعب ويركض أو يتفرج على شاشة، فهو ينتقل من نشاطه مباشرة للسرير.\nخلي آخر نشاط قبل النوم أهدأ وأبسط، زي إنه يرتب ألعابه معاكي أو يشرب شي دافي.\n\n(6) ثالث شي: الليالي اللي فيها ضيوف أو طلعة.\nلو تأخر وقت النوم، خلي خطواته نفسها حتى لو قصرتيها.\nالبيجاما، وبعدها نفس الروتين.\n\n(7) لو لقيتي وحده من الثلاثة في يومكم، هذا مكان تبدئي منه.\nمو لازم تغيري الثلاثة مع بعض.\n\n(8) الساعة ثمانيه لعشره ما تبدأ في غرفته.\nلاحظي ايش يصير خلال اليوم قبل وقت النوم. هذي التفاصيل تساعدك تبني خطة تناسب طفلك.\nابدئي بالتقييم المجاني واعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: إذا كان كل ليلة يقوم يطلب موية أو يبغى الحمام بعد ما ينسدح، خليها من خطوات ما قبل النوم: موية، حمام، وبعدها وقت النوم. كذا تقل الأسباب اللي يقوم عشانها.\nوالتقييم المجاني في البايو يساعدك تشوفي يومه كامل وتعرفي من فين تبدئي.",
-   "caption_ar": "من الساعة ثمانيه لعشره وأنتي في غرفته؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.\nفي الصور ثلاث أشياء من يومه تفرق في ليلته، كل وحدة في صورة.",
-   "notes": "Skimmer: Stops on s1 (8 to 10 is precise). s2 recognisable. Hits s3: sees the promise and the soft CTA, then likely drops. Got the CTA, not the insight.\nCynic: \"Earlier nap end, calmer last activity, keep the routine. I could write this list myself. If you'd opened with 'the two hours start in the afternoon' I'd have kept going.\"\nCautious: \"'You don't have to change all three' feels respectful. Fine.\"\nPush higher: Move the s8 turn line up to s3: «الساعة ثمانيه لعشره ما تبدأ في غرفته. هذي ثلاث أشياء من يومه تفرق في ليلته.» It is the perspective shift and the reason to swipe. · Make one check less generic (e.g. s5: name the exact last activity and what replaces it in her house tonight). · Space it from p1/p2/p4 in posting order: four bedtime posts back to back will read as one account repeating itself.\nGate: ok"
-  },
-  {
-   "id": "p4",
-   "conceptId": "c4",
-   "title": "\"Just today\" became every night",
-   "format": "slides · F3 Two voices · CTA: Direct",
-   "status": "final",
-   "score": 87,
-   "body_ar": "(1) قلتي له اليوم بس تنام جنبي، ودحين ما يرضى ينام لحاله؟\n\n(2) ذيك الليلة كنتي تعبانة، وهو يبكي ويمد يدينه لك.\nقلتي في نفسك \"اليوم بس. بكرة يرجع لسريره\".\n\n(3) دحين كل ليلة تقولي \"متى آخر مرة نام لحاله؟\"\nتنسدحي جنبه، وتسمعي أصوات البيت برا، وأنتي مو قادرة تقومي.\n\n(4) ذيك الليلة ما سويتي شي غلط.\nوهذي ثلاث خطوات تبدئي فيها عشان يرجع ينام في سريره.\n\n(5) الخطوة الأولى: ابدئي بنومة الظهر في سريره، مو بنوم الليل.\nالنهار أهون عليكي وعليه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تحددي أول خطوة.\n\n(6) الخطوة الثانية: في الليل، نفس الكلمتين كل مرة، زي \"يلا سريرك\".\nقوليها بهدوء، وما تزيدي عليها.\n\n(7) الخطوة الثالثة: إذا قام وجاك، رجعيه لسريره، ولا ترجعي تنسدحي جنبه.\nكذا يكون الجواب واحد كل ليلة، ويعرف ايش يتوقع.\n\n(8) \"اليوم بس\" صارت كل ليلة بالتدريج، مو فجأة.\nوالرجوع منها يبدأ بخطوة وحدة تناسبه هو.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لا تبدئي في ليلة متعبة، زي بعد عزيمة أو طلعة طويلة. اختاري ليلة عادية، عشان يكون فيكي حيل ترجعيه كل مرة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع نومه.",
-   "caption_ar": "قلتي له \"اليوم بس\"، ودحين ما يرضى ينام لحاله؟ ابدئي بالتقييم المجاني في البايو، واعرفي فين تركزي أول شي.\nفي الصور ثلاث خطوات عشان يرجع ينام في سريره، وأولها من نومة الظهر.",
-   "notes": "Skimmer: Stops on s1 (guilt). Reads s2 and probably s3. Drops before s5: never sees the soft CTA.\nCynic: \"Nap first, I'll give you. 'Same two words, don't lie back down' I literally saw yesterday on your p1.\"\nCautious: \"s4 telling me I didn't do anything wrong makes me trust them. No timeline. Good.\"\nPush higher: Move the soft CTA up onto s4 under «وهذي ثلاث خطوات…» so it lands before step 1. · Rewrite steps 2–3 so they differ from p1 (e.g. what to do on the first night she doesn't lie down: sit, then the door), or post p1 and p4 a week apart. · Keep s3 and s4 exactly; they are the batch's best feeling.\nGate: ok"
-  },
-  {
-   "id": "p5",
-   "conceptId": "c5",
-   "title": "Cooking: he hangs on you",
-   "format": "slides · F1 HPSPC · CTA: Direct",
-   "status": "final",
-   "score": 90,
-   "body_ar": "(1) أول ما تدخلي المطبخ يتعلق فيكي، فصرتي تطبخي غدا بكرة وهو نايم؟\n\n(2) تفتحي الثلاجة، ويمسك رجلك. تقطعي البصل، ويسحب بلوزتك.\nتشيليه بيد وتقلبي القدر باليد الثانية.\nوتقولي في نفسك \"خلاص، أطبخ بعدين\".\n\n(3) في ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.\n\n(4) الخطوة الأولى: بدل ما يتعلق في رجلك، خليه جمبك على طولك.\nحطي له كرسي عند الطاوله، بعيد عن النار، يشوف منه ايش تسوي.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\n\n(5) الخطوة الثانية: اعطيه شغلة جمبك، بعيد عن النار.\nيغسل الخيار في زبديه، ويناولك هوه حبة حبة.\n\n(6) الخطوة الثالثة: قولي بصوت عالي ايش تسوي.\n\"دحين بنقطع البصل\"، \"دحين بنحط الرز\".\nكذا يكون معاكي، بدون ما يكون متعلق فيكي.\n\n(7) طريقتنا في الخطة الحية: نشوف يومه كامل، مو بس وقت الطبخ.\nنشتغل على موقف واحد، ونعدّل كل أسبوعين حسب استجابته.\nوكل هذا مبني من اللي تلاحظيه أنتي.\n\n(8) انتبهي متى يتعلق فيكي أكثر، أول ما تدخلي المطبخ ولا لما تبدئي تطبخي.\nهذي التفاصيل تفرق لما تنبني خطة على يومه.\nابدئي بالتقييم المجاني، وشوفي ايش يحتاج اهتمامك أول. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: وأنتي تقطعي، اعطيه شريحة خيار صغيرة يذوقها.\nكذا يحس إنه معاكي في الطبخ، مو بس يستناكي تخلصي.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "يتعلق فيكي أول ما تدخلي المطبخ؟ ابدئي بالتقييم المجاني في البايو، وشوفي ايش يحتاج اهتمامك أول.\nوفي الصور ٣ خطوات تخلي دخولك للمطبخ أسهل، حتى وهو يبغى يكون جنبك.",
-   "notes": "Skimmer: Stops hard on s1 (she cooked last night at 11). Reads s2. s3 is one line so she flicks to s4 and catches the soft CTA. Good chance she saw it.\nCynic: \"Kitchen helper chair: I've seen the learning-tower reels. But this one doesn't ask me to buy anything and the cucumber job is actually what he'd do. Realistic.\"\nCautious: \"Method slide is plain. Fine. One worry: a chair at the counter while I'm cutting onions.\"\nPush higher: Pre-empt the safety comment with two words on s4 or the pinned comment: «كرسي ثابت» and «بعيد عن السكين والنار». · Put the soft CTA on s3 (the promise slide is one line and has room). · Space from p6 (same 'after he sleeps' twist) in posting order.\nGate: ok"
-  },
-  {
-   "id": "p6",
-   "conceptId": "c6",
-   "title": "Only after he sleeps",
-   "format": "slides · F6 Checklist · CTA: Reflection",
-   "status": "final",
-   "score": 87,
-   "body_ar": "(1) ما تقدري تكنسي وهو صاحي، ولا تطبخي إلا بعد ما ينام؟\n\n(2) كل شي عندك صار \"بسويه لما ينام\".\nولما ينام، تلقي كل شي ينتظرك، وتحتاري تخلصيه ولا ترتاحي.\n\n(3) قبل ما تدوري حل، لاحظي ايش يصير معاه أول ما تبدئي شغل البيت.\nهذي ثلاث أشياء ممكن تلاحظيها، وكل وحدة لها خطوة.\n\n(4) أول شي: يغطي أذنه أو يطلع من الغرفة أول ما تشغلي المكنسة.\nقولي له قبل ما تبدئي \"بكنس غرفتين بس\"، وكل ما خلصتي غرفة قولي \"خلصت وحدة\".\nعشان يعرف إن الصوت له آخر.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) ثاني شي: يتعلق فيكي ويسحبك من يدك.\nخليه معاكي في نفس الشغلة. يمسك الكيس وأنتي تكنسي، أو يناولك الملابس وأنتي تنشريها.\n\n(6) ثالث شي: يبغى ياخذ المكنسة منك ويكنس بنفسه.\nاعطيه منشفه يمسح فيها الطاوله جمبك، هو له شغلته وأنتي لك شغلتك.\n\n(7) فكري ايش اللي يصير معاه أكثر وأنتي تشتغلي في البيت.\nهذي التفاصيل تساعدك تبني خطة تناسبه.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو طلع من الغرفة أول ما شغلتي المكنسة، لا تطفيها وتلحقيه. خليه يرجع لما يبغى، وكملي الغرفة اللي قلتي له عليها.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.",
-   "caption_ar": "ما تقدري تكنسي وهو صاحي؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\nفي الصور ثلاث أشياء تلاحظيها عليه، وخطوة لكل وحدة.",
-   "notes": "Skimmer: Stops on s1 (the vacuum audience). Reads s2. s3 promises three things; may tap to s4 and see the CTA, more likely drops at s3.\nCynic: \"'Two rooms only, then say done one': that's a small thing I haven't seen and I could try it tomorrow. The rest is fine.\"\nCautious: \"It stays about him, not housework tips. Trustworthy.\"\nPush higher: Add the turn on s3 (e.g. what each sign is telling you about him) so the checklist feels like a discovery, not a list. · Hook overlaps p5's «بعد ما ينام» twist; keep them at least 3 days apart. · Put the soft CTA on s3 with the promise.\nGate: ok"
-  },
-  {
-   "id": "p7",
-   "conceptId": "c7",
-   "title": "Hair dryer: only when he's far",
-   "format": "slides · F5 Walk-through · CTA: Direct",
-   "status": "final",
-   "score": 84,
-   "body_ar": "(1) ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟\n\n(2) عندكم عزيمة وأنتي متأخرة.\nأول ما شغلتي الاستشوار على شعرك، غطى أذنه وبدأ يصيح.\nطفيتيه، ورحتي له، ونص شعرك لسه مبلول.\n\n(3) هذي ثلاث خطوات تاخذ ثواني، وأنتي تنشفي شعرك قدام المراية.\n\n(4) الخطوة الأولى: لا تشغليه على أعلى درجة من أول.\nابدئي بأخف درجة، وبعدين علّيه شويه شويه.\n⟵ soft CTA: التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي مع طفلك.\n\n(5) الخطوة الثانية: قبل ما تبدئي، قولي له \"بنشف شعري\"، وتقدري تخليه هو يضغط الزر.\nكذا الصوت ما يجيه فجأة.\n\n(6) الخطوة الثالثة: خليه يجلس في مكان يشوفك منه، بس مو لاصق فيكي، زي طرف السرير أو عند الباب.\nعشان لو الصوت ضايقه، يبعد شويه بدون ما تطفي الاستشوار.\n\n(7) الاستشوار واحد من أشياء كثيرة صرتي تأجليها إلين ما يبعد عنك.\nوالخطة تبدأ من الشي اللي يضغط على يومك أكثر.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nالجزء الثاني: لو بدأ يصيح وأنتي في النص، طفيه ثواني وقولي له \"باقي شويه\"، وبعدها كملي على أخف درجة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "ما تقدري تشغلي الاستشوار إلا لما يكون طفلك بعيد عنك؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات تاخذ ثواني، وأنتي قدام المراية.",
-   "notes": "Skimmer: Stops on s1 if her child does this; otherwise flicks past. Reads s2. s3 is short, may reach s4 and the CTA.\nCynic: \"Low setting first. Obvious once you say it, but I haven't done it. Fine, not 50th-account.\"\nCautious: \"The CTA asks what else I postpone until he's away. That's a fair question, not a pitch.\"\nPush higher: Same 'he presses it' device appears in p8, p10, p11; keep it here and vary one of the others. · Tighten s6 to two lines so the slide stays big type. · Consider soft CTA on s3 with the promise.\nGate: ok"
-  },
-  {
-   "id": "p8",
-   "conceptId": "c8",
-   "title": "Blender: make sure he's far",
-   "format": "slides · F2 Story · CTA: Observation",
-   "status": "final",
-   "score": 83,
-   "body_ar": "(1) كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟\n\n(2) تحطي الموز والحليب في الخلاط، وتروحي الصالة تشوفي فينه.\nجالس يلعب، قريب من باب المطبخ.\nتقولي \"أستنى شوي، يمكن يروح غرفته\".\n\n(3) تستني. يدخل المطبخ ويوقف جمبك.\nترجعي الخلاط مكانه والموز فيه، وتقولي \"خلاص، أسويه بالليل\".\n\n(4) الصوت اللي يخاف منه يجي فجأة، وعالي، ويطول.\nوهذي الثلاث تقدري تغيريها وأنتي واقفة مكانك.\n\n(5) الخطوة الأولى: حطي منشفة مطبقة تحت الخلاط. تخفف صوت الخلاط.\n⟵ soft CTA: ولو الخلاط مو الصوت الوحيد اللي تحسبي له حساب، التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي\n\n(6) الخطوة الثانية: لا تشغليه مرة وحدة طويلة.\nاضغطي ضغطة قصيرة ووقفي، وبعدها ضغطة ثانية. كذا الصوت يجي ويروح بدل ما يطول.\n\n(7) الخطوة الثالثة: خليه هو يحط الموز في الخلاط.\nعشان يشوف ايش بيصير قبل ما يسمع الصوت.\n\n(8) لاحظي أي أصوات يخاف منها، وأيها ما تفرق معاه.\nهذي التفاصيل تساعدك تبني خطة على يومه.\nابدئي بالتقييم المجاني، الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: إذا غطا الخلاط عندك شفاف، خليه يتفرج على الموز وهو ينفرم. كذا يصير عنده شي يتفرج عليه، مو بس صوت يسمعه.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "كل ما تبغي تشغلي الخلاط، لازم تتأكدي إن طفلك بعيد؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ثلاث خطوات ما تاخذ إلا ثواني، وأنتي واقفة جنب الخلاط.",
-   "notes": "Skimmer: Pauses on s1 only if this is her child. s2 is calm; likely drops there. Saw no CTA.\nCynic: \"The towel trick is genuinely good. But the opening didn't make me feel anything.\"\nCautious: \"Let my toddler put his hand in the blender jar? You need to say it's off.\"\nPush higher: Sharpen the hook with the twist about her: e.g. «…فصرتي تسوي العصير وهو نايم؟» or end on the banana going brown on the counter. · Add «والخلاط مطفي» to step 3 (s7). · Move the soft CTA to s4 under «وهذي الثلاث تقدري تغيريها». · Lukewarm: s1–s3 carry no feeling; the value is all in s5–s6, which most won't reach.\nGate: ok"
-  },
-  {
-   "id": "p9",
-   "conceptId": "c9",
-   "title": "Shower: knocking and crying",
-   "format": "slides · F3 Two voices · CTA: Reflection",
-   "status": "final",
-   "score": 88,
-   "body_ar": "(1) يدق باب الحمام ويبكي  أول ما تسكريه، فصرتي تتروشي بعد ما ينام أو قبل ما يصحى؟\n\n(2) برا الباب: يدق ويبكي.\nيوقف شويه، يسمع، وما يسمع شي، فيرجع يدق.\n\n(3) جوا الحمام: الموية شغالة وأنتي تقولي \"جيت، جيت\" وتستعجلي.\nتطلعي له وما خلصتي.\n\n(4) من جهته: الباب اتسكر، وصوتك اختفى. فيدق ويبكي.\nوهذي ثلاث خطوات تخلي الباب المسكر أخف عليه.\n\n(5) الخطوة الأولى: لا تدخلي الحمام وطفلك فاضي يدور عليك. ادخلي أول ما يبدأ شي يحبه، ياكل سناكه أو يلعب بألعابه.\n⟵ soft CTA: والشاور عادة مو الشي الوحيد اللي صار يستنى نومه. التقييم المجاني في البايو يساعدك تعرف من فين تبدئي.\n\n(6) الخطوة الثانية: خلي صوتك يوصله طول الوقت.\nكلميه. كذا يسمع إنك موجودة، حتى والباب مسكّر.\n\n(7) الخطوة الثالثة: اعطيه شغلة برا. يمسك منشفتك جنب الباب، ويعطيك إياها أول ما تطلعي.\nكذا يستنى عشان يعطيك شي، مو بس يستناك.\n\n(8) فكري في الأشياء اللي صرتي تسويها قبل ما يصحى أو بعد ما ينام.\nأي وحدة فيها تتمني ترجعي تسويها وهو صاحي؟\nالتقييم المجاني يساعدك تحددي نقطة البداية. الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: حطي كرسيه الصغير جنب باب الحمام، ومنشفتك في حضنه. عشان يكون له مكان يستناك فيه، بدل ما يوقف يدق.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "صار الشاور حقك يتحدد على حسب نومه؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور: هو برا الباب، وأنتي جوا، وثلاث خطوات تخلي الباب المسكر أخف عليه.",
-   "notes": "Skimmer: Stops on s1. Swipes s2–s3 for the two sides of the door. Drops at s4: no CTA seen.\nCynic: \"Talk to him through the door: obvious. The towel job is cute and it would work with mine.\"\nCautious: \"s8 «أي وحدة فيها تتمني ترجعي تسويها وهو صاحي؟» made me think. That's the kind of CTA I'd follow.\"\nPush higher: Fix the double space in s1; ask Anhar whether to shorten to one clause. · Move the soft CTA onto s4 with the signal line. · Ask Anhar about «تعرف» → «تعرفي» and «نقطة البداية» → «من فين تبدئي» (both locked).\nGate: ok"
-  },
-  {
-   "id": "p10",
-   "conceptId": "c10",
-   "title": "Hair wash: you come out wetter",
-   "format": "slides · F5 Walk-through · CTA: Observation",
-   "status": "final",
-   "score": 92,
-   "body_ar": "(1) تغسلي شعره وهو يصيح، وتطلعي من الحمام وأنتي اللي مبلولة أكثر منه؟\n\n(2) تميلي راسه لورا، ويرجعه لقدام.\nالموية تنزل على عيونه، فيصيح أكثر ويضرب.\nوأنتي تقولي \"خلاص، خلصنا\"، والشامبو لسه في شعره.\n\n(3) هذي ثلاث خطوات تخلي غسيل الشعر عليكم.\n\n(4) الخطوة الأولى: لا تحطي يدك على عيونه. اعطيه منشفة وجه ناشفة يمسكها هو على عيونه.\nكذا يده مشغولة، وعيونه مغطية بطريقته.\n⟵ soft CTA: هذا غسيل الشعر بس. التقييم المجاني في البايو يمر على باقي يومه، ويساعدك تعرفي فين تبدئي.\n\n(5) الخطوة الثانية: عدي معاه بصوت عالي من واحد لعشرة، وعند عشرة وقفي الموية.\nولو باقي شامبو، ابدئي عشرة ثانية. كذا يعرف إن الموية لها آخر.\n\n(6) الخطوة الثالثة: اعطيه الدش يمسكه.\nالموية اللي يوجهها بيده غير الموية اللي تنزل عليه فجأة.\n\n(7) منشفة على عيونه، عشرة وتوقف الموية، والدش في يده.\nويمكن هذي المرة تطلعي من الحمام وانتي ناشفة.\n\n(8) لاحظي متى يبدأ الصياح: أول ما تنزل الموية، ولا لما تقولي يلا الحمام، ولا قبلها بشوي.\nهذي التفاصيل هي اللي تنبني عليها خطة تناسبه.\nابدئي بالتقييم المجاني، الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: جهزي الشامبو والمنشفة وخلي الموية دافية قبل ما يدخل. عشان ما يوقف مبلول يستناك تضبطي الحرارة.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "تطلعي من الحمام مبلولة أكثر منه؟ لاحظي متى يبدأ الصياح، وابدئي بالتقييم المجاني في البايو.\nثلاث خطوات بأشياء موجودة في حمامك دحين.",
-   "notes": "Skimmer: Stops hard on s1 (laughs, it's her). Reads s2. Reaches s3 promise; maybe s4 with the CTA.\nCynic: \"Counting to ten and stopping even if there's shampoo? I've never been told that. That's the one I'll try.\"\nCautious: \"Recap slide plus 'ويمكن' instead of a promise. I trust it.\"\nPush higher: Add «والموية دافية» to step 3 (s6) to pre-empt the scald comment (pinned comment already covers warm water). · Soft CTA on s3 with the promise line. · Lead the posting order with this one.\nGate: ok"
-  },
-  {
-   "id": "p11",
-   "conceptId": "c11",
-   "title": "Kids' salon: screaming and running",
-   "format": "slides · F1 HPSPC · CTA: Direct",
-   "status": "final",
-   "score": 81,
-   "body_ar": "(1) كل ما وديتيه صالون الاطفال، يبدأ الصراخ ويحاول يهرب؟\n\n(2) الحلاق يحاول، وأنتي ماسكة يديه، وكل اللي في الصالون يطالع.\nتطلعوا وشعره نص مقصوص، وتقولي \"المرة الجاية أقصه أنا في البيت\".\n\n(3) في الصالون كل شي يجيه مرة وحدة: كرسي غريب، صوت المكينة، ويد ما يعرفها على راسه.\nفيحاول يهرب.\nوهذي أربع خطوات للزيارة الجاية.\n\n(4) الخطوة الأولى: حاولي تروحوا أهدى وقت، الصبح وسط الأسبوع قبل ما يزحم الصالون.\nعشان ما في انتظار، ولا أطفال يصيحوا قبله.\n⟵ soft CTA: ولو كل مكان جديد معاه بنفس الطريقة، التقييم المجاني في البايو يساعدك تشوفي ايش اللي يتكرر.\n\n(5) الخطوة الثانية: أول زيارة، لا تقصوا شي.\nخليه يجلس في حضنك ويتفرج على طفل ثاني يقص شعره، وبعدها تطلعوا.\n\n(6) الخطوة الثالثة: قبل ما توصل المكينة لراسه، خلي الحلاق يخليه يمسكها.\nعشان يحس فيها وهي ترج قبل ما تقرب من راسه.\n\n(7) الخطوة الرابعة: خليه يمسك شي من البيت، سيارته أو اللعبة اللي دائما معاه.\nشي يعرفه في يده، في مكان كل شي فيه جديد عليه.\n\n(8) كذا نبدأ: الخطة تنبني من اللي تلاحظيه أنتي، تبدأ بموقف واحد، وتتعدل حسب استجابته.\nوالصالون موقف واحد من يومه كامل.\nابدئي بالتقييم المجاني، واعرفي فين تركزي أول شي. الرابط في البايو.\n\n— التعليق المثبت —\nخطوة خامسة: اطلبي من الحلاق يبدأ من ورا، بعيد عن وجهه. عشان ما يشوف المكينة جاية على وجهه من أول ثانية.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "كل قصة شعر تخلص بصياح ونص قصة؟ التقييم المجاني في البايو يساعدك تعرفي فين تركزي أول شي.\nأربع خطوات قبل زيارتكم الجاية للصالون.",
-   "notes": "Skimmer: Pauses on s1 only if a salon trip is coming. Reads s2 (the stares). Drops at s3.\nCynic: \"A whole trip just to watch another kid get a haircut? With two other kids and traffic? No.\"\nCautious: \"Method stated plainly, no promises. Fine.\"\nPush higher: Ask Anhar to try the twist-about-her version of the hook, e.g. «…فصرتي تقصي شعره بنفسك في البيت؟», keeping the screaming in s2. · Make step 2 cheaper: watch a sibling's or cousin's haircut on a visit she already makes. · Add «بعد ما يشغلها الحلاق قدامه» or «مع الغطا» to the clipper step to pre-empt comments.\nGate: ok"
-  },
-  {
-   "id": "p12",
-   "conceptId": "c12",
-   "title": "Phone calls: only behind a locked door",
-   "format": "slides · F4 Metaphor · CTA: Reflection",
-   "status": "final",
-   "score": 81,
-   "body_ar": "(1) ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟\n\n(2) تتصل أمك وتردي، وهو جالس يلعب.\nبعد دقيقة يسحب يدك ويحاول ياخذ الجوال، وأمك تقول \"ايش فيه؟ ما أسمعك\".\n\n(3) تخيلي لعبتك المفضلة بيد أحد، وكل ما تحاولي تاخذيها يبعدها عنك.\n\n(4) طول المكالمة، الجوال قدامه وفي يدك.\nيشوفه، يسمع أصواته، ويبغى يلعب به.\n\n(5) الخطوة الأولى: جهزي علبة ما تطلع إلا وقت المكالمات.\nألوان، ستيكرات، أو لعبة يحبها.\nيتصل احد وتطلع العلبة.\n\n(6) الخطوة الثانية: قبل المكالمة، حطي الجوال على السبيكر وخليه بعيد عن يده\n\n(7) الخطوة الثالثة: اختاري له شي يقدر يسويه بنفسه من العلبة.\nزي يلصق الاستيكرات على ورقة أو يلوّن رسمة.\n\n(8) فكري في آخر مرة كملتي فيها مكالمة ورا باب مقفول، وايش كان يصير قبلها.\nهذي اللحظة تساعدك تحددي من فين تبدئي.\nالتقييم المجاني يساعدك تعرفي من فين تبدئي. الرابط في البايو.\n\n— التعليق المثبت —\nوحدة زيادة: لما تخلصي المكالمة، رجعي العلبة مكانها قدامه. عشان تظل العلبة شي ما يطلع إلا وقت المكالمات.\nوالتقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.",
-   "caption_ar": "ما تقدري تكملي مكالمة مع أمك إلا لما تدخلي الحمام وتقفلي الباب؟ التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.\nفي الصور ليش يبغى الجوال اللي في يدك، وثلاث خطوات للمكالمة الجاية.",
-   "notes": "Skimmer: Stops on s1 (smiles). Reads s2. Metaphor on s3 is a pause; drops. No CTA seen on slides.\nCynic: \"A busy box for phone calls. I've got the Pinterest board. The metaphor made me see it from his side though.\"\nCautious: \"Gentle, honest. But I didn't know there was an assessment until the last slide.\"\nPush higher: Add a soft CTA and a signal on s4: «وهذي ثلاث خطوات للمكالمة الجاية.» + «التقييم المجاني في البايو يساعدك تعرفي من فين تبدئي.» · s8: cut the duplicate line; keep «هذي اللحظة تساعدك تحددي من فين تبدئي. ابدئي بالتقييم المجاني، الرابط في البايو.» · Merge steps 1 and 3 (box + pick one thing for him) and use the free step for something new (e.g. a short call signal he learns). · Add the full stop on s6.\nGate: ok"
-  }
- ],
+ "concepts": [],
+ "posts": [],
  "performance": [
   {
-   "postId": "B1 p3 Bedtime",
-   "postedOn": "Nov 6",
-   "job": "attention",
-   "format": "F0",
-   "views": 4433,
-   "likes": 60,
-   "saves": 36,
-   "comments": 0,
-   "shares": 10,
-   "profileVisits": null,
-   "assessmentStarts": null,
-   "note": "day 3, still growing"
-  },
-  {
-   "postId": "B1 p5 Vacuum",
-   "postedOn": "Nov 4",
-   "job": "attention",
-   "format": "F0",
-   "views": 3857,
-   "likes": 35,
-   "saves": 9,
-   "comments": 0,
-   "shares": 10,
-   "profileVisits": null,
-   "assessmentStarts": null,
-   "note": "day 5, 13 followers"
-  },
-  {
-   "postId": "B1 other 8 (range)",
-   "postedOn": "Nov 4–8",
-   "job": "mixed",
-   "format": "F0",
-   "views": 448,
-   "likes": null,
-   "saves": null,
-   "comments": 0,
-   "shares": null,
-   "profileVisits": null,
-   "assessmentStarts": 0,
-   "note": "416–483 views each; 0 assessments in window"
-  },
-  {
-   "postId": "B2 p10",
-   "postedOn": "",
+   "postId": "B3 p1 ملكة",
+   "postedOn": "Nov 17",
    "job": "value + CTA",
-   "format": "F5 Walk-through",
-   "views": null,
+   "format": "static",
+   "views": 1729,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 8,
+   "comments": 0,
+   "shares": 1,
    "profileVisits": null,
    "assessmentStarts": null,
    "note": "day 1"
   },
   {
-   "postId": "B2 p5",
-   "postedOn": "",
+   "postId": "B3 p2 جمعة",
+   "postedOn": "Nov 18",
    "job": "value + CTA",
-   "format": "F1 HPSPC",
-   "views": null,
+   "format": "static",
+   "views": 1008,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 2,
+   "comments": 0,
+   "shares": 3,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 2"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p2",
-   "postedOn": "",
+   "postId": "B3 p12 Jacket",
+   "postedOn": "Nov 19",
    "job": "value + CTA",
-   "format": "F2 Story",
-   "views": null,
+   "format": "static",
+   "views": 948,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 4,
+   "comments": 1,
+   "shares": 3,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 3"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p9",
-   "postedOn": "",
+   "postId": "B3 p10 Nails",
+   "postedOn": "Nov 20",
    "job": "value + CTA",
-   "format": "F3 Two voices",
-   "views": null,
+   "format": "static",
+   "views": 587,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 1,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 4"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p6",
-   "postedOn": "",
+   "postId": "B3 p5 Biscuit",
+   "postedOn": "Nov 17",
    "job": "value + CTA",
-   "format": "F6 Checklist",
-   "views": null,
+   "format": "static",
+   "views": 579,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 1,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 5"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p4",
-   "postedOn": "",
+   "postId": "B3 p11 Hand dryer",
+   "postedOn": "Nov 16",
    "job": "value + CTA",
-   "format": "F3 Two voices",
-   "views": null,
+   "format": "static",
+   "views": 552,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 1,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 6"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p7",
-   "postedOn": "",
+   "postId": "B3 p9 No",
+   "postedOn": "Nov 21",
    "job": "value + CTA",
-   "format": "F5 Walk-through",
-   "views": null,
+   "format": "static",
+   "views": 469,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 2,
+   "comments": 0,
+   "shares": 4,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 7"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p3",
-   "postedOn": "",
+   "postId": "B3 p3 Checkout",
+   "postedOn": "Nov 16",
    "job": "value + CTA",
-   "format": "F6 Checklist",
-   "views": null,
+   "format": "static",
+   "views": 450,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 0,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 8"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p12",
-   "postedOn": "",
+   "postId": "B3 p8 Ride",
+   "postedOn": "Nov 21",
    "job": "value + CTA",
-   "format": "F4 Metaphor",
-   "views": null,
+   "format": "static",
+   "views": 442,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 1,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 9"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p1",
-   "postedOn": "",
+   "postId": "B3 p6 Tower",
+   "postedOn": "Nov 20",
    "job": "value + CTA",
-   "format": "F1 HPSPC",
-   "views": null,
+   "format": "static",
+   "views": 416,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 1,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 10"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p8",
-   "postedOn": "",
+   "postId": "B3 p4 Fast food",
+   "postedOn": "Nov 22",
    "job": "value + CTA",
-   "format": "F2 Story",
-   "views": null,
+   "format": "static",
+   "views": 413,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 2,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 11"
+   "note": "day 1"
   },
   {
-   "postId": "B2 p11",
-   "postedOn": "",
+   "postId": "B3 p7 Losing game",
+   "postedOn": "Nov 23",
    "job": "value + CTA",
-   "format": "F1 HPSPC",
-   "views": null,
+   "format": "static",
+   "views": 378,
    "likes": null,
-   "saves": null,
-   "comments": null,
-   "shares": null,
+   "saves": 0,
+   "comments": 0,
+   "shares": 0,
    "profileVisits": null,
    "assessmentStarts": null,
-   "note": "day 12"
+   "note": "day 1"
   }
  ]
 }
