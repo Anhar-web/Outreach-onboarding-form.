@@ -4,7 +4,7 @@ Nov 2026. Built from a slide-by-slide look at Anhar's 25 legacy posts, compared 
 Files in `app/b4/visual/`:
 - `legacy_visuals_L01-L13.png` and `legacy_visuals_L14-L25.png`: slides 1 and 3 of every legacy post.
 - `looks_sheet.png`: the 5 looks, as mockups.
-- `grid_sheet.png`: a 12-post feed grid.
+- `grid_sheet.png`: a 12-post feed grid (9 dark, 3 light).
 - `mock.py` and `render.js`: the mockup code (SVG/CSS, rendered with Playwright).
 
 **Mockup copy is borrowed from legacy posts, for layout only.**
@@ -150,4 +150,5 @@ TikTok shows 3 columns, newest top-left. Two posts a day means each day fills 2 
 - **Contrast checks (measured):**
   - ink is ≥8:1 on every ground
   - tealDeep highlight: 4.7:1 on pearl and 4.3:1 on tealMist, so use it only on bold lines of 50px or more
-  - on **sand (3.7) and dusk (3.1)**, tealDeep fails: highlight with **deep `#005A70` bold** instead
+  - on **sand (3.7)**, tealDeep fails: highlight with **deep `#005A70` bold** instead
+  - on dark grounds, highlight with **sand** (pearl body)
