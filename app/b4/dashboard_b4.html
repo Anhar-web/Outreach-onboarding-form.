@@ -93,6 +93,9 @@ section h3.sec{font:600 22px var(--display);margin:0 0 12px}
 @media (max-width:560px){.stepper{grid-template-columns:repeat(9,64px)}.card h2{font-size:24px}.sc{grid-template-columns:110px 1fr 40px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .arb{white-space:pre-line;font-family:var(--ar);font-size:1.12rem;line-height:1.75;text-align:right;background:var(--accent-soft);border-radius:10px;padding:12px 16px;margin:8px 0 4px}
+.arw{margin:8px 0 4px}.arw .arb{margin:0;user-select:text;-webkit-user-select:text}
+.cpy{margin-top:6px;font:600 .82rem var(--sans);color:var(--accent);background:transparent;border:1px solid var(--accent);border-radius:999px;padding:5px 14px;cursor:pointer}
+.cpy:hover{background:var(--accent-soft)}.cpy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.cpy.ok{background:var(--accent);color:var(--bg)}
 </style>
 <div class="wrap" id="app"><p class="empty">Waiting for the agency to start…</p></div>
 <script>
@@ -110,7 +113,7 @@ function md(src){
     if(/^\s*$/.test(l)){i++;continue}
     let m;
     if(m=l.match(/^(#{1,4})\s+(.*)/)){const n=Math.min(4,m[1].length+2);o+=`<h${n}>${arwrap(inl(m[2]))}</h${n}>`;i++;continue}
-    if(/^```/.test(l)){i++;let b=[];while(i<L.length&&!/^```/.test(L[i]))b.push(L[i++]);i++;o+=`<div class="arb" dir="rtl">${esc(b.join("\n"))}</div>`;continue}
+    if(/^```/.test(l)){i++;let b=[];while(i<L.length&&!/^```/.test(L[i]))b.push(L[i++]);i++;o+=`<div class="arw"><div class="arb" dir="rtl">${esc(b.join("\n"))}</div><button class="cpy" type="button">Copy hook</button></div>`;continue}
     if(/^\|/.test(l)){const rows=[];while(i<L.length&&/^\|/.test(L[i]))rows.push(L[i++]);
       const cells=r=>r.replace(/^\||\|$/g,"").split("|").map(c=>c.trim());
       let h=cells(rows[0]),body=rows.slice(rows[1]&&/^\|[\s:-|]+\|?$/.test(rows[1])?2:1);
@@ -118,7 +121,7 @@ function md(src){
     if(/^>\s?/.test(l)){let b=[];while(i<L.length&&/^>\s?/.test(L[i]))b.push(L[i++].replace(/^>\s?/,""));const t=b.join(" ");o+=`<blockquote${isAr(t)&&!/[a-z]{4}/i.test(t)?' class="ar"':''}>${inl(t)}</blockquote>`;continue}
     if(/^\s*[-*]\s+/.test(l)){o+="<ul>";while(i<L.length&&/^\s*[-*]\s+/.test(L[i]))o+=`<li>${arwrap(inl(L[i++].replace(/^\s*[-*]\s+/,"")))}</li>`;o+="</ul>";continue}
     if(/^\s*\d+[.)]\s+/.test(l)){o+="<ol>";while(i<L.length&&/^\s*\d+[.)]\s+/.test(L[i]))o+=`<li>${arwrap(inl(L[i++].replace(/^\s*\d+[.)]\s+/,"")))}</li>`;o+="</ol>";continue}
-    let p=[];while(i<L.length&&!/^\s*$/.test(L[i])&&!/^(#|\||>|\s*[-*]\s|\s*\d+[.)]\s)/.test(L[i]))p.push(L[i++]);
+    let p=[];while(i<L.length&&!/^\s*$/.test(L[i])&&!/^(#|\||>|```|\s*[-*]\s|\s*\d+[.)]\s)/.test(L[i]))p.push(L[i++]);
     const t=p.join(" ");o+=`<p${isAr(t)&&!/[a-z]{4}/i.test(t)?' class="ar"':''}>${arwrap(inl(t))}</p>`;
   }return o}
 const flag={"idle":"Waiting","working":"Working","needs-you":"Needs you","done":"Confirmed"};
@@ -143,6 +146,10 @@ function render(){
   h+=`<section><h3 class="sec">Performance</h3><p class="hint">Partial numbers are fine.</p>${pr.length?`<div class="tw"><table class="perf"><thead><tr><th>Post</th><th>Job</th><th>Format</th><th>Views</th><th>Likes</th><th>Saves</th><th>Comments</th><th>Profile</th><th>Assess.</th></tr></thead><tbody>${pr.map(r=>`<tr><td>${esc(r.postId)}${r.note?`<div class="hint">${esc(r.note)}</div>`:""}</td><td>${f(r.job)}</td><td>${f(r.format)}</td><td>${f(r.views)}</td><td>${f(r.likes)}</td><td>${f(r.saves)}</td><td>${f(r.comments)}</td><td>${f(r.profileVisits)}</td><td>${f(r.assessmentStarts)}</td></tr>`).join("")}</tbody></table></div>`:""}<p class="callout">To feed the next batch, just tell the agency in chat — then say "what's working?" and the Analyst reads the numbers into the next brief. No spreadsheet.</p></section>`;
   app.innerHTML=h;
   app.querySelectorAll('.st').forEach(b=>b.onclick=()=>{sel=+b.dataset.n;render()});
+  app.querySelectorAll('.cpy').forEach(btn=>btn.onclick=()=>{const box=btn.previousElementSibling;const txt=box.textContent;
+    const done=()=>{btn.textContent="Copied ✓";btn.classList.add('ok');setTimeout(()=>{btn.textContent="Copy hook";btn.classList.remove('ok')},1600)};
+    const sel=()=>{const r=document.createRange();r.selectNodeContents(box);const s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent="Selected: press copy"};
+    try{navigator.clipboard.writeText(txt).then(done,sel)}catch(e){sel()}});
   const sb=app.querySelector('.send');if(sb)sb.onclick=()=>{const p=sb.dataset.p;try{navigator.clipboard.writeText(p).then(()=>{sb.textContent="Copied"},()=>{sb.textContent=p})}catch(e){sb.textContent=p}};
   document.getElementById('tt').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?"light":"dark";try{localStorage.setItem('ho-theme',r.dataset.theme)}catch(e){}};
 }
