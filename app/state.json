@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 4 (Nov 2026)",
- "updatedAt": "2026-11-25T17:46:02.114808+00:00",
- "currentStep": 8,
+ "updatedAt": "2026-11-25T18:01:54.109207+00:00",
+ "currentStep": 9,
  "steps": [
   {
    "n": 1,
@@ -120,7 +120,7 @@
    "key": "test",
    "title": "Arabic + Test",
    "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Born in Arabic, tested cold",
     "body": "A line that sounds translated loses, whatever its score."
@@ -129,14 +129,14 @@
     "label": "Edit the posts (in posts_b4.txt or copied from the board). Send back your edited versions; your edits are final.",
     "phrase": "Ship the winners."
    },
-   "report": "## Step 8 · Arabic voice edit + Test Panel\n**The posts to edit:** `app/b4/posts_b4.txt` has all 12 complete, slide by slide, with captions, in one plain-text file. Each post is also on this board below, with a Copy button.\n\n### Arabic Voice Editor: what changed and why\n- **Four scene slides opened with «و»** (p1, p2, p7, p9 slide 2). Changed to open without it («تبدئي…», «أختك تقول…», «هو ورا عباتك», «الليلة الثانية…»). *Why:* your rule, \"don't open a scene slide with و\".\n- **p2 slide 1:** «وأنتي؟ تتفاوضي…» kept on one line, as you wrote it (your merge preference). The stray quote mark before «تقولي» is removed; your wording is untouched.\n- **p1, p3 CTA:** «خطة لانفعالاته» → «خطة لهذي المواقف». *Why:* \"a plan for his emotions\" sounded translated.\n- **Full checklist passed on all 12:**\n  - Locked vocabulary: ايش, فين, شي, أنتي, معاكي, دحين.\n  - Feminine verbs without the extra ن.\n  - No em dash, and no line ending in a comma.\n  - No «طبيعي», «يصيح» or «حركة».\n  - «اثنين», «شويه», «عشان», straight quotes for spoken lines, and «الخطوة الأولى:» labels.\n- **Your hooks:** untouched apart from line breaks at your own full stops and ellipses. The double spaces in p5 and p12 are closed up.\n\n### Two things for you to decide\n1. **Length.** The posts run 132–192 words. The brief aimed at about 130–160, the legacy average was 139, and the shared proof block adds about 25 words to every post. Heaviest: **p10 (192), p1 (187), p4 (187), p3 (186), p7 (182).** Slide 3 in the fallacy posts runs 9–10 lines. Your legacy posts carried that, but our production kit's limit is 5 lines per slide. Either trim slide 3 as you edit, or let Creative Production set it smaller, as your legacy posts did.\n2. **p6 and p7 share a love line** («وأنتي ما قصرتي في تربيته»). Keep it in one only, if you'd rather.\n\n### Test Panel: three sceptical mothers, read cold\nThe tired skimmer (S) · the cynic (C) · the ready-but-cautious one (R).\n\n| Post | S | C | R | Score |\n|---|---|---|---|---|\n| **p11** White rice | Stopped on «رز أبيض بس», laughed at «المحكمة» | \"Finally someone who doesn't tell me to see a doctor.\" «الجار الصغير» is doable tonight. | Food CTA uses your own outcome line; clear | **93** |\n| **p3** Toy aisle | Stopped: «ثلاث عوائل تتفرج». Swiped for \"step 3\" | The photo list is a real trick, not advice. The twist made her laugh out loud. | Calm exit line is usable; landing route is clear | **92** |\n| **p4** Grandma | «عمرها قصير… تعيش ثواني» is the line she'd send her sister | «نعم الجدة» doesn't fight grandma. \"That's smart.\" | Visits CTA is honest | **91** |\n| **p7** Saying hello | Stopped on the three questions at the door | \"Not another 'don't force him' post. It gives the relatives something.\" | Clear | **90** |\n| **p1** The angel | «يرجع للوضع الأصلي» got the smile | The love line hit. Slide 3 is long; she skimmed it. | Landing CTA is clear and doesn't say \"assessment\" | **88** |\n| **p6** The gift | The hook promises the sentence, so she swiped for it | The rescue line is the real value, short enough to remember | The twist (gifts in the cupboard) is relatable | **88** |\n| **p2** Sweets tray | Stopped: «قدام عشرين شخص» | The spare piece works only if she knows his piece. Real enough. | Comment question is fun and one word | **87** |\n| **p9** Bedtime | «فين اللي قالوا \"خليه\"؟» landed | The routine travelling is practical. «أهلك وحشوكي» was a warm surprise. | Clear | **87** |\n| **p10** The advice | Stopped on the advice line | The replies are the value. «جولة الوصول» agrees with the advice instead of fighting it, which she liked. | Longest post; she nearly dropped at slide 3 | **87** |\n| **p8** Hitting | «النظرة الجانبية». \"That's my sister.\" | The code word needs practice days before; the post says so | Assessment CTA is clear | **86** |\n| **p5** The lift | Stopped. Strange but common. | \"Lift announcer\" is cute but depends on a screen showing floors. Most malls have one. | Fine | **82** |\n| **p12** The shoes | Smiled. The weakest stop for a skimmer. | Safe: nothing reads as \"a sign\". The tool is charming. | Fine | **81** |\n\n**Scorecard breakdown** (weights in brackets):\n\n| Post | Scroll (18) | Recog (14) | Emotion (13) | Voice (14) | Value (10) | Safety (10) | Arabic (6) | Twist (5) | CTA (5) | Share (5) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| p1 | 15 | 13 | 12 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p2 | 15 | 13 | 11 | 12 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p3 | 16 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p4 | 15 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p5 | 14 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p6 | 15 | 13 | 12 | 11 | 9 | 10 | 5 | 5 | 4 | 4 |\n| p7 | 16 | 14 | 12 | 12 | 8 | 10 | 5 | 4 | 4 | 5 |\n| p8 | 14 | 13 | 12 | 11 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p9 | 15 | 13 | 11 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p10 | 14 | 13 | 11 | 11 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p11 | 16 | 14 | 12 | 13 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p12 | 13 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n\n**Safety gate: all 12 pass.**\n- No diagnosis, no cause, no promised result for the child, no therapy, no blame.\n- Relatives' labels («دلع», «انتقائي», «قليل أدب») only ever come from others.\n- One mild watch: p10 slide 3 («يبعد عن الأدراج أكثر») is a comparison, hedged with «أحياناً». Keep the hedge if you edit it.\n\n**The score is a flag, not proof.** What would push the batch higher:\n1. **Trim the long slide 3s** (p1, p4, p10). The skimmer drops where a slide runs past about 7 lines.\n2. **p12 and p5 are the weakest stops.** Keep them, since they're the strange-but-common tests, but they'd gain from posting first in their evening, or from swapping p12 for «دلّعتيه».\n3. **p8's twist** («ما سلمت منك») is the quietest laugh. Rewrite it if a funnier confession comes to you.\n"
+   "report": "Anhar edited all 12 posts (final, verbatim). Lessons: the explainer slide educates and never sells; solve the real problem with a skill practised at home; one step per slide; the clarified 'we' rule; comment prompts name the exact word.\n\n## Step 8 · Arabic voice edit + Test Panel\n**The posts to edit:** `app/b4/posts_b4.txt` has all 12 complete, slide by slide, with captions, in one plain-text file. Each post is also on this board below, with a Copy button.\n\n### Arabic Voice Editor: what changed and why\n- **Four scene slides opened with «و»** (p1, p2, p7, p9 slide 2). Changed to open without it («تبدئي…», «أختك تقول…», «هو ورا عباتك», «الليلة الثانية…»). *Why:* your rule, \"don't open a scene slide with و\".\n- **p2 slide 1:** «وأنتي؟ تتفاوضي…» kept on one line, as you wrote it (your merge preference). The stray quote mark before «تقولي» is removed; your wording is untouched.\n- **p1, p3 CTA:** «خطة لانفعالاته» → «خطة لهذي المواقف». *Why:* \"a plan for his emotions\" sounded translated.\n- **Full checklist passed on all 12:**\n  - Locked vocabulary: ايش, فين, شي, أنتي, معاكي, دحين.\n  - Feminine verbs without the extra ن.\n  - No em dash, and no line ending in a comma.\n  - No «طبيعي», «يصيح» or «حركة».\n  - «اثنين», «شويه», «عشان», straight quotes for spoken lines, and «الخطوة الأولى:» labels.\n- **Your hooks:** untouched apart from line breaks at your own full stops and ellipses. The double spaces in p5 and p12 are closed up.\n\n### Two things for you to decide\n1. **Length.** The posts run 132–192 words. The brief aimed at about 130–160, the legacy average was 139, and the shared proof block adds about 25 words to every post. Heaviest: **p10 (192), p1 (187), p4 (187), p3 (186), p7 (182).** Slide 3 in the fallacy posts runs 9–10 lines. Your legacy posts carried that, but our production kit's limit is 5 lines per slide. Either trim slide 3 as you edit, or let Creative Production set it smaller, as your legacy posts did.\n2. **p6 and p7 share a love line** («وأنتي ما قصرتي في تربيته»). Keep it in one only, if you'd rather.\n\n### Test Panel: three sceptical mothers, read cold\nThe tired skimmer (S) · the cynic (C) · the ready-but-cautious one (R).\n\n| Post | S | C | R | Score |\n|---|---|---|---|---|\n| **p11** White rice | Stopped on «رز أبيض بس», laughed at «المحكمة» | \"Finally someone who doesn't tell me to see a doctor.\" «الجار الصغير» is doable tonight. | Food CTA uses your own outcome line; clear | **93** |\n| **p3** Toy aisle | Stopped: «ثلاث عوائل تتفرج». Swiped for \"step 3\" | The photo list is a real trick, not advice. The twist made her laugh out loud. | Calm exit line is usable; landing route is clear | **92** |\n| **p4** Grandma | «عمرها قصير… تعيش ثواني» is the line she'd send her sister | «نعم الجدة» doesn't fight grandma. \"That's smart.\" | Visits CTA is honest | **91** |\n| **p7** Saying hello | Stopped on the three questions at the door | \"Not another 'don't force him' post. It gives the relatives something.\" | Clear | **90** |\n| **p1** The angel | «يرجع للوضع الأصلي» got the smile | The love line hit. Slide 3 is long; she skimmed it. | Landing CTA is clear and doesn't say \"assessment\" | **88** |\n| **p6** The gift | The hook promises the sentence, so she swiped for it | The rescue line is the real value, short enough to remember | The twist (gifts in the cupboard) is relatable | **88** |\n| **p2** Sweets tray | Stopped: «قدام عشرين شخص» | The spare piece works only if she knows his piece. Real enough. | Comment question is fun and one word | **87** |\n| **p9** Bedtime | «فين اللي قالوا \"خليه\"؟» landed | The routine travelling is practical. «أهلك وحشوكي» was a warm surprise. | Clear | **87** |\n| **p10** The advice | Stopped on the advice line | The replies are the value. «جولة الوصول» agrees with the advice instead of fighting it, which she liked. | Longest post; she nearly dropped at slide 3 | **87** |\n| **p8** Hitting | «النظرة الجانبية». \"That's my sister.\" | The code word needs practice days before; the post says so | Assessment CTA is clear | **86** |\n| **p5** The lift | Stopped. Strange but common. | \"Lift announcer\" is cute but depends on a screen showing floors. Most malls have one. | Fine | **82** |\n| **p12** The shoes | Smiled. The weakest stop for a skimmer. | Safe: nothing reads as \"a sign\". The tool is charming. | Fine | **81** |\n\n**Scorecard breakdown** (weights in brackets):\n\n| Post | Scroll (18) | Recog (14) | Emotion (13) | Voice (14) | Value (10) | Safety (10) | Arabic (6) | Twist (5) | CTA (5) | Share (5) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| p1 | 15 | 13 | 12 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p2 | 15 | 13 | 11 | 12 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p3 | 16 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p4 | 15 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p5 | 14 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p6 | 15 | 13 | 12 | 11 | 9 | 10 | 5 | 5 | 4 | 4 |\n| p7 | 16 | 14 | 12 | 12 | 8 | 10 | 5 | 4 | 4 | 5 |\n| p8 | 14 | 13 | 12 | 11 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p9 | 15 | 13 | 11 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p10 | 14 | 13 | 11 | 11 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p11 | 16 | 14 | 12 | 13 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p12 | 13 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n\n**Safety gate: all 12 pass.**\n- No diagnosis, no cause, no promised result for the child, no therapy, no blame.\n- Relatives' labels («دلع», «انتقائي», «قليل أدب») only ever come from others.\n- One mild watch: p10 slide 3 («يبعد عن الأدراج أكثر») is a comparison, hedged with «أحياناً». Keep the hedge if you edit it.\n\n**The score is a flag, not proof.** What would push the batch higher:\n1. **Trim the long slide 3s** (p1, p4, p10). The skimmer drops where a slide runs past about 7 lines.\n2. **p12 and p5 are the weakest stops.** Keep them, since they're the strange-but-common tests, but they'd gain from posting first in their evening, or from swapping p12 for «دلّعتيه».\n3. **p8's twist** («ما سلمت منك») is the quietest laugh. Rewrite it if a funnier confession comes to you.\n"
   },
   {
    "n": 9,
    "key": "handoff",
    "title": "Handoff",
    "subtitle": "The Strategist packages the final posts with their QR codes.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "Finished when the numbers teach us",
     "body": "After each evening, log day 1 and read Visits and Submissions by post tag."
@@ -145,7 +145,7 @@
     "label": "Done.",
     "phrase": null
    },
-   "report": ""
+   "report": "## Handoff: Batch 4 is ready to post\n**Files**\n- **Posting copy:** `app/b4/posts_b4_handoff.txt`, with your final text, in posting order, with captions and the QR link for each post. Your bracketed notes and my old notes are removed. Your verbatim edit is kept in `posts_b4_anhar_final.txt`.\n- **QR codes:** `app/b4/qr/` holds 12 PNGs, each checked by scanning, plus `index.txt` with the URLs. Put each one on its post's last slide, big enough to scan from a screenshot.\n- **Airtable:** the Batches row \"Batch 4\" (Delivered), and the 12 Posts rows (order, hook, slides, caption, QR link, planned time, Status: Delivered).\n\n**Posting schedule** (TikTok, Saudi time; two a day, about an hour apart)\n\n| Post | Day | Time | Topic | QR |\n|---|---|---|---|---|\n| b4p1 | Thu Nov 26 | 7:00 PM | The teacher's angel → the car | `qr/b4p1.png` |\n| b4p2 | Thu Nov 26 | 8:15 PM | The sweets tray | `qr/b4p2.png` |\n| b4p3 | Fri Nov 27 | 7:00 PM | Floor drop in the toy aisle | `qr/b4p3.png` |\n| b4p4 | Fri Nov 27 | 8:15 PM | Grandma: «اعطوه» | `qr/b4p4.png` |\n| b4p5 | Sat Nov 28 | 7:00 PM | Someone else presses the lift button | `qr/b4p5.png` |\n| b4p6 | Sat Nov 28 | 8:15 PM | The gift: «ما أبغاها» | `qr/b4p6.png` |\n| b4p7 | Sun Nov 29 | 7:00 PM | «ليش طفلك ما يسلم؟» | `qr/b4p7.png` |\n| b4p8 | Sun Nov 29 | 8:15 PM | Who hit whom at grandma's | `qr/b4p8.png` |\n| b4p9 | Mon Nov 30 | 7:00 PM | Staying over: «خليه… مو نعسان» | `qr/b4p9.png` |\n| b4p10 | Mon Nov 30 | 8:15 PM | Unwanted advice: «يعرف حدود المكان» | `qr/b4p10.png` |\n| b4p11 | Tue Dec 1 | 7:00 PM | White rice at the dinner spread | `qr/b4p11.png` |\n| b4p12 | Tue Dec 1 | 8:15 PM | The shoe guard | `qr/b4p12.png` |\n\n**What we're testing**\n- Cream text-only slide 1: p1, p5, vs dark on the other first-of-evening posts.\n- Problem + solution hook: p6, p10.\n- \"Keep reading\" line: p3, p11, with p8 as the control.\n- QR route: odd posts go to the `?focus=` landing page, even posts to the assessment.\n- The comment test is dropped.\n- The «الافتراض» series this batch: 21–25 (p1, p4, p5, p7, p10).\n\n**After each evening**\n1. Log day 1 for both posts in Post Performance (views, likes, saves, shares, slides viewed).\n2. I'll read Visits and Submissions by `post` tag (b4p1…b4p12): scans, starts, completions, `last_q`, Living Plan clicks and waitlist joins.\n3. Tell me the numbers in plain words and say **\"what's working?\"**.\n"
   }
  ],
  "plan": {
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "idle"
+    "status": "done"
    },
    {
     "key": "ar",
@@ -195,8 +195,8 @@
    {
     "key": "an",
     "name": "Analyst",
-    "role": "B3 + legacy read done; next read after B4 evenings",
-    "status": "done"
+    "role": "Reads day-1 numbers + Visits/Submissions by post tag",
+    "status": "idle"
    }
   ]
  },
@@ -385,8 +385,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1] \nتاخذيه من الروضة.\nالمعلمة تقول: \"ما شاء الله… كان ملاك اليوم\"\nتركبي السيارة.\nوما تلحقي تشغليها…\nإلا والملاك يرجع للوضع الأصلي.\n________________\n\n\n[2]\nتبدئي تسألي نفسك: \"ليش معي بس ينهار؟\"\nوأختك تقول:\n\"إذا يقدر يكون هادي مع المعلمة، ليش ما يقدر معاكي؟\"\nلكنه طول اليوم يتعامل مع ناس ومواقف كثير\nولما يرجع لك تكون طاقته خلصت.\n________________\n\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا هادي هناك… يقدر يكون هادي في كل مكان\"\nلكن أحياناً يكون ماسك نفسه طول اليوم\nوالسيارة أول مكان يطلّع فيه اللي جواه.\nجربي \"شنطة الاستلام\":\n حطي أكله المفضل وموية ولعبته فيها.\nوسؤال \"إيش صار اليوم؟\" خليه لوقت ثاني.\n________________\n\n\n\n\n________________\n\n\n[4]\nلأن الانتقال من جو الروضة للبيت\nيحتاج وقت يستعيد فيه توازنه.\nكل ما خففتي عليه\nصار عنده مساحة أكبر للانتقال بهدوء.\n(Here in slide four I changed the I changed it because it very much sounded like an ad, like a plug for the service. Like we're trying to sell her something already. Just keep this in mind. The selling happens on the landing page. Here is just proof and explain our content And I also take out the why it works line because it feels like we're trying to convince her, like trying to convince her that this tool works. Like we're really trying to convince her It feels like I have this thing and I don't really have proof that it works, so I'm gonna try to convince you that it works)\n________________\n\n\n[5]\nوبيننا… أنتي كمان لما ترجعي من الدوام\nتبغي أول ما تدخلي تسمعي:\n\"ماما تعالي\"\nولا تبغي قهوتك… وخمس دقايق هدوء؟\nتبغي تفهمي كيف تجهزي طفلك لهذي المواقف؟ امسحي الكود وشوفي كيف تتحول ملاحظاتك لخطة تناسبه.\n[QR]",
-   "caption_ar": "المعلمة تقول ملاك… والسيارة تقول شي ثاني.\n\"شنطة الاستلام\" في البوست، والكود في آخره.\n\n\nسلسلة الافتراض اللي يصعّب الموضوع -21",
+   "body_ar": "[1] \nتاخذيه من الروضة.\nالمعلمة تقول: \"ما شاء الله… كان ملاك اليوم\"\nتركبي السيارة.\nوما تلحقي تشغليها…\nإلا والملاك يرجع للوضع الأصلي.\n\n[2]\nتبدئي تسألي نفسك: \"ليش معي بس ينهار؟\"\nوأختك تقول:\n\"إذا يقدر يكون هادي مع المعلمة، ليش ما يقدر معاكي؟\"\nلكنه طول اليوم يتعامل مع ناس ومواقف كثير\nولما يرجع لك تكون طاقته خلصت.\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا هادي هناك… يقدر يكون هادي في كل مكان\"\nلكن أحياناً يكون ماسك نفسه طول اليوم\nوالسيارة أول مكان يطلّع فيه اللي جواه.\nجربي \"شنطة الاستلام\":\n حطي أكله المفضل وموية ولعبته فيها.\nوسؤال \"إيش صار اليوم؟\" خليه لوقت ثاني.\n\n[4]\nلأن الانتقال من جو الروضة للبيت\nيحتاج وقت يستعيد فيه توازنه.\nكل ما خففتي عليه\nصار عنده مساحة أكبر للانتقال بهدوء.\n\n[5]\nوبيننا… أنتي كمان لما ترجعي من الدوام\nتبغي أول ما تدخلي تسمعي:\n\"ماما تعالي\"\nولا تبغي قهوتك… وخمس دقايق هدوء؟\nتبغي تفهمي كيف تجهزي طفلك لهذي المواقف؟ امسحي الكود وشوفي كيف تتحول ملاحظاتك لخطة تناسبه.\n[QR]",
+   "caption_ar": "المعلمة تقول ملاك… والسيارة تقول شي ثاني.\n\"شنطة الاستلام\" في البوست، والكود في آخره.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -396,7 +396,7 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nفي العزيمة.\nصاحبة البيت تدور بصحن الحلويات.\nولد اختك ياخذ الحبة اللي كان يبغاها طفلك.\nويبدا البكاء\nتقولي: \"خذ غيرها حبيبي… كلها حلاوه\"\nوأنتي؟ تتفاوضي على حبة شوكولاته قدام عشرين شخص.\n\n\n[2]\nأختك تقول: \"عادي… بزران\"\nوترجع لقهوَتها.\nبس طفلك لسه يبغى نفس الحبة\nوأنتي بين زعله ونظرات اللي حولك\nتحاولي تعدّي الموقف بدون ما يكبر أكثر.\n________________\n\n\n[3]\nجربي لعبة البدائل:\nفي البيت، استغلي مواقف يومية بسيطة. مثل:\nلعبته المفضلة مشغولة.\nالكوب اللي يبغاه في الغسالة.\nخليه يتدرب على التعامل مع إن الشي اللي يبغاه مو متاح حالياً.\n________________\n\n\n[4]\nلأن تقبّل إن الشي مو متاح\nمهارة تحتاج ممارسة.\nمو شي نطلبه من الطفل فجأة وهو في قمة زعله.\n________________\n\n\n[5]\nهو زعل على حبة شوكولاته…\nوأنتي فجأة دخلتي اختبار أمومة قدام العيلة.\nتبغي تستمتعي بالعزيمة بدل ما تقضيها تحاولي تهدي طفلك؟ التقييم المجاني يساعدك تعرفي من فين تبدئي عشان المواقف دي ما تفضل تتكرر بنفس الطريقة.\n[QR]    او الرابط في البايو",
+   "body_ar": "[1]\nفي العزيمة.\nصاحبة البيت تدور بصحن الحلويات.\nولد اختك ياخذ الحبة اللي كان يبغاها طفلك.\nويبدا البكاء\nتقولي: \"خذ غيرها حبيبي… كلها حلاوه\"\nوأنتي؟ تتفاوضي على حبة شوكولاته قدام عشرين شخص.\n\n[2]\nأختك تقول: \"عادي… بزران\"\nوترجع لقهوَتها.\nبس طفلك لسه يبغى نفس الحبة\nوأنتي بين زعله ونظرات اللي حولك\nتحاولي تعدّي الموقف بدون ما يكبر أكثر.\n\n[3]\nجربي لعبة البدائل:\nفي البيت، استغلي مواقف يومية بسيطة. مثل:\nلعبته المفضلة مشغولة.\nالكوب اللي يبغاه في الغسالة.\nخليه يتدرب على التعامل مع إن الشي اللي يبغاه مو متاح حالياً.\n\n[4]\nلأن تقبّل إن الشي مو متاح\nمهارة تحتاج ممارسة.\nمو شي نطلبه من الطفل فجأة وهو في قمة زعله.\n\n[5]\nهو زعل على حبة شوكولاته…\nوأنتي فجأة دخلتي اختبار أمومة قدام العيلة.\nتبغي تستمتعي بالعزيمة بدل ما تقضيها تحاولي تهدي طفلك؟ التقييم المجاني يساعدك تعرفي من فين تبدئي عشان المواقف هذي ما تفضل تتكرر بنفس الطريقة.\n[QR]    او الرابط في البايو",
    "caption_ar": "مو كل شي يبغاه طفلك بيكون متاح وقت ما يطلبه.\nابدئي من مواقف البيت اليومية، ودرّبيه بالتدريج.\nالتدريب على البدائل مهارة نبدأ نبنيها قبل العزيمة.\nإيش أكثر شي يزعل طفلك لما ما يلقاه؟",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
@@ -407,8 +407,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nفي ممر الألعاب.\nطفلك شاف لعبة وعجبته… وقرر إنها لازم تجي معاكم.\nبعد شوية، هو على الأرض يبكي.\nثلاث عوائل تتفرج.\nوأنتي تحاولي تقرري: تشيليه؟ تستني؟ ولا تشرحي له مرة ثانيه إنكم ما جيتوا تشتروا ألعاب\n(As you can see, I changed the hook here.)\n\n\n[2]\nواحد يقول: \"الله يعينك\".\nووحدة تهمس:\"مدلع\".\nوأنتي في نص الممر، تحسي إن الكل يراقبك.\nهذي 3 خطوات تساعدك.\n\n\n[3]\nالخطوة الأولى: حدديها قبل الدخول.\nقبل ممر الألعاب، قولي له إذا اليوم للشراء أو للفرجة.\nلا تخلي القرار يتحدد بعد ما يختار لعبته.\nالخطوة الثانية: لا تفاوضي وقت البكاء.\nإذا بدأ ينهار، لا توريه بدائل ولا تدخلي في نقاش.\nركّزي على الخروج من الموقف.\n[4]\nالخطوة الثالثة: جهّزي إشارة النهاية.\nاختاري جملة قصيرة تكرريها قبل الخروج من الأماكن:\n\"خلصنا، دحين بنروح\".\nاستخدميها قبل وقت الخروج، مو لأول مرة وسط نوبة الغضب.\n[5]\nالطفل ما يتعلم تقبّل نهاية المشوار من أول مرة تصير فيها أزمة.\nهو يتعلم من تكرار نفس الإشارات في مواقف مختلفة، ومع الوقت يبدأ يتوقع إيش بيجي بعدها.\nعشان كذا، نبدأ ببناء المهارة في المواقف اليومية، قبل ما نحتاجها في أصعب لحظة.\n[6]\nالأم تدخل ممر الألعاب عشان تشتري شي واحد…\nوتطلع وهي عارفة أسعار كل ألعاب المحل.\nتبغي تتسوقي بدون ما يتحول كل طلب لعبة لمعركة؟ امسحي الكود واكتشفي كيف تجهزي للمواقف هذي بطريقة تناسب طفلك.\n[QR]",
-   "caption_ar": "ثلاث عوائل تتفرج… وثلاث خطوات تطلعك من الممر.\nامسحي الكود في آخر البوست واكتشفي من فين تبدئي مع طفلك.\nNOTE: the twist is the real viral clip of a Saudi mother (news reports, 2024). It's told as someone else's story, never as advice.",
+   "body_ar": "[1]\nفي ممر الألعاب.\nطفلك شاف لعبة وعجبته… وقرر إنها لازم تجي معاكم.\nبعد شوية، هو على الأرض يبكي.\nثلاث عوائل تتفرج.\nوأنتي تحاولي تقرري: تشيليه؟ تستني؟ ولا تشرحي له مرة ثانيه إنكم ما جيتوا تشتروا ألعاب\n\n[2]\nواحد يقول: \"الله يعينك\".\nووحدة تهمس: \"مدلع\".\nوأنتي في نص الممر، تحسي إن الكل يراقبك.\nهذي 3 خطوات تساعدك.\n\n[3]\nالخطوة الأولى: حدديها قبل الدخول.\nقبل ممر الألعاب، قولي له إذا اليوم للشراء أو للفرجة.\nلا تخلي القرار يتحدد بعد ما يختار لعبته.\nالخطوة الثانية: لا تفاوضي وقت البكاء.\nإذا بدأ ينهار، لا توريه بدائل ولا تدخلي في نقاش.\nركّزي على الخروج من الموقف.\n[4]\nالخطوة الثالثة: جهّزي إشارة النهاية.\nاختاري جملة قصيرة تكرريها قبل الخروج من الأماكن:\n\"خلصنا، دحين بنروح\".\nاستخدميها قبل وقت الخروج، مو لأول مرة وسط نوبة الغضب.\n[5]\nالطفل ما يتعلم تقبّل نهاية المشوار من أول مرة تصير فيها أزمة.\nهو يتعلم من تكرار نفس الإشارات في مواقف مختلفة، ومع الوقت يبدأ يتوقع إيش بيجي بعدها.\nعشان كذا، نبدأ ببناء المهارة في المواقف اليومية، قبل ما نحتاجها في أصعب لحظة.\n[6]\nالأم تدخل ممر الألعاب عشان تشتري شي واحد…\nوتطلع وهي عارفة أسعار كل ألعاب المحل.\nتبغي تتسوقي بدون ما يتحول كل طلب لعبة لمعركة؟ امسحي الكود واكتشفي كيف تجهزي للمواقف هذي بطريقة تناسب طفلك.\n[QR]",
+   "caption_ar": "ثلاث عوائل تتفرج… وثلاث خطوات تطلعك من الممر.\nامسحي الكود في آخر البوست واكتشفي من فين تبدئي مع طفلك.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -418,8 +418,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nقلتي لطفلك: \"لا…\"\nبدأ يبكي.\nوجدته تقول: \"اعطوه اللي يبغاه ويسكت\"\nوشويه كيس الشبس في يده.\n[2]\nعند جدته لما تقولي \"لا\" عمرها قصير…\nتعيش ثواني إلين تقول جدته: \"اعطوه\".\nوالزيارة الجية أول ما تقولي \"لا\"\nيروح لجدته على طول.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا سكت بعد ما جدته أعطته… يعني هي عرفت تتصرف\"\n\n\nجربي:\nقبل الزيارة، اتفقي مع جدته:\nإذا قلتي \"لا\"، ما تتغير الإجابة قدام طفلك.\nولو اختلفتوا، تتكلموا بينكم بعدين.\n[4]\nلما الكبار يغيّروا القرار قدام الطفل، يصير فيه جوابين لنفس الطلب.\nوالطفل يتعلم إن كلمة \"لا\" ممكن تتغير حسب الشخص اللي يسأله.\nعشان كذا، اتفاقكم يبدأ بينكم… قبل ما يبدأ الموقف.\n[5]\nلو سألتي جدته ليش أعطته بعد ما قلتي لا…\nتلاقي عندها مرافعة جاهزة. \n\n\nتبغي طفلك يتعامل مع كلمة \"لا\" بدون ما تتحول كل مرة لمعركة؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n[QR]",
-   "caption_ar": "كلمة \"لا\" منك المفروض ما تتحول إلى \"نعم\" بمجرد ما يروح طفلك لجدته.\nاتفاق الكبار مهم: الاختلاف بينكم يكون بعيد عن الطفل، مو قدامه.\nوفي نفس الوقت، تقبّل الطفل للحدود مهارة تتبني بالتدريج، مو بمجرد إننا نقول له \"لا\".\nتبغي تساعدي طفلك يتعامل مع الحدود بشكل أفضل؟ امسحي الكود في آخر البوست وابدئي بالتقييم المجاني.\n\n\nسلسلة الافتراض اللي يصعّب الموضوع -22 \n\n\n\n\n\n\n(Okay, here I changed the post because or the tool because the original tool solves the wrong problem. It tries to give the grandma an approved alternative so the child gets something. But the real issue is that grandma is overriding the decision the mom has already made as a parent)",
+   "body_ar": "[1]\nقلتي لطفلك: \"لا…\"\nبدأ يبكي.\nوجدته تقول: \"اعطوه اللي يبغاه ويسكت\"\nوشويه كيس الشبس في يده.\n[2]\nعند جدته لما تقولي \"لا\" عمرها قصير…\nتعيش ثواني إلين تقول جدته: \"اعطوه\".\nوالزيارة الجية أول ما تقولي \"لا\"\nيروح لجدته على طول.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا سكت بعد ما جدته أعطته… يعني هي عرفت تتصرف\"\n\nجربي:\nقبل الزيارة، اتفقي مع جدته:\nإذا قلتي \"لا\"، ما تتغير الإجابة قدام طفلك.\nولو اختلفتوا، تتكلموا بينكم بعدين.\n[4]\nلما الكبار يغيّروا القرار قدام الطفل، يصير فيه جوابين لنفس الطلب.\nوالطفل يتعلم إن كلمة \"لا\" ممكن تتغير حسب الشخص اللي يسأله.\nعشان كذا، اتفاقكم يبدأ بينكم… قبل ما يبدأ الموقف.\n[5]\nلو سألتي جدته ليش أعطته بعد ما قلتي لا…\nتلاقي عندها مرافعة جاهزة. \n\nتبغي طفلك يتعامل مع كلمة \"لا\" بدون ما تتحول كل مرة لمعركة؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n[QR]",
+   "caption_ar": "كلمة \"لا\" منك المفروض ما تتحول إلى \"نعم\" بمجرد ما يروح طفلك لجدته.\nاتفاق الكبار مهم: الاختلاف بينكم يكون بعيد عن الطفل، مو قدامه.\nوفي نفس الوقت، تقبّل الطفل للحدود مهارة تتبني بالتدريج، مو بمجرد إننا نقول له \"لا\".\nتبغي تساعدي طفلك يتعامل مع الحدود بشكل أفضل؟ امسحي الكود في آخر البوست وابدئي بالتقييم المجاني.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -429,8 +429,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\n[1]\nالمصعد في المول.\nطفلك مستني يضغط الزر.\nتدخل وحدة… وتضغطه قبله.\nوفجأة، الزر تحوّل لنوبة غضب ومعاكم جمهور في المصعد.\n[2]\nأبواب المصعد تقفل.\nوأنتي تحاولي تهدّيه…\n\"خلاص، نجيب لك حلاوه\".\nوتفتشي في الشنطة عن أي شي ينسيه الزر.\nبس هو لسه متعلق بالضغطة اللي راحت.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا فاتته الفرصة لازم أعوّضه\".\nجربي:\nفي البيت، تناوبوا على أزرار بسيطة، زي زر لعبه.\nمرة تضغطي أنتي ومرة هو.\nودرّبيه إن مو كل مرة يجي دوره أول.\n[4]\nلما يتكرر التدريب في مواقف بسيطة، الطفل يبدأ يتعود على فكرة إن دوره مو مضمون كل مرة.\nبدل ما يواجهها اول مرة في مكان عام، يكون جربها معاكي في البيت.\n[5]\nولو كبر الموقف خلي لعبته المفضلة أو سناك يحبه جاهز في شنطتك.\nعشان تحولي انتباهه لشي ثاني يحبه.\nتبغي مشاوير المول ما تتعطل كل ما فاتت طفلك فرصة كان مستنيها؟ امسحي الكود واكتشفي كيف تساعديه يتعامل مع المواقف هذي بخطوات تناسبه.\n[QR]",
-   "caption_ar": "مو كل مرة طفلك يقدر يكون أول واحد يضغط الزر.\nابدئي من البيت بتجارب بسيطة يتعلم فيها إن دوره مو مضمون كل مرة.\nوللمواقف المفاجئة، خلي معاك شي يحبه يساعدك تحوّلي انتباهه.\nسلسلة الافتراض اللي يصعّب الموضوع -23",
+   "body_ar": "[1]\nالمصعد في المول.\nطفلك مستني يضغط الزر.\nتدخل وحدة… وتضغطه قبله.\nوفجأة، الزر تحوّل لنوبة غضب ومعاكم جمهور في المصعد.\n[2]\nأبواب المصعد تقفل.\nوأنتي تحاولي تهدّيه…\n\"خلاص، نجيب لك حلاوه\".\nوتفتشي في الشنطة عن أي شي ينسيه الزر.\nبس هو لسه متعلق بالضغطة اللي راحت.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا فاتته الفرصة لازم أعوّضه\".\nجربي:\nفي البيت، تناوبوا على أزرار بسيطة، زي زر لعبه.\nمرة تضغطي أنتي ومرة هو.\nودرّبيه إن مو كل مرة يجي دوره أول.\n[4]\nلما يتكرر التدريب في مواقف بسيطة، الطفل يبدأ يتعود على فكرة إن دوره مو مضمون كل مرة.\nبدل ما يواجهها اول مرة في مكان عام، يكون جربها معاكي في البيت.\n[5]\nولو كبر الموقف خلي لعبته المفضلة أو سناك يحبه جاهز في شنطتك.\nعشان تحولي انتباهه لشي ثاني يحبه.\nتبغي مشاوير المول ما تتعطل كل ما فاتت طفلك فرصة كان مستنيها؟ امسحي الكود واكتشفي كيف تساعديه يتعامل مع المواقف هذي بخطوات تناسبه.\n[QR]",
+   "caption_ar": "مو كل مرة طفلك يقدر يكون أول واحد يضغط الزر.\nابدئي من البيت بتجارب بسيطة يتعلم فيها إن دوره مو مضمون كل مرة.\nوللمواقف المفاجئة، خلي معاك شي يحبه يساعدك تحوّلي انتباهه.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -440,7 +440,7 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nخالة طفلك جابتله هدية.\nفتح الكيس، طالع…\nوقال بكل بساطة: \"ما أبغاها\".\nوأنتي صرتي مسؤولة عن إنقاذ الموقف.\n[2]\nخالته تبتسم وتقول: \"ما عجبتك؟\"\nوأني تحاولي تبتسمي وتغيّري الموضوع.\nوطفلك لسه يكرر: \"ما أبغاها\".\nما تبغي تجبريه يمثل إنه مبسوط ولا تبغي تجرحي خالته.\n[3]\nجربي \"شكر بدون مجاملة\":\nقولي لها: \"تسلمي، الله يعطيكي العافية…خليها عندي\nهو يحب ياخذ وقته مع الأشياء الجديدة\"\nوفي البيت حطيها قريب منه\nوخليه يتعرف عليها براحته.\nولا تضغطي عليه يلعب فيها أو يغيّر رأيه.\n[4]\nشكر الشخص على الهدية شي…\nوإن الطفل يحبها أو يتحمس لها شي ثاني.\nنقدر نعلّمه يعبر عن رأيه بأدب، بدون ما نطلب منه يمثل مشاعر مو حاسس فيها.\n[5]\nوبيننا…\nأحيانًا خالة الطفل تكون متحمسة للهدية أكثر من الطفل نفسه.\nتبغي تقدري تتعاملي مع المواقف المحرجة في الزيارات بدون ما تضغطي على طفلك عشان ترضي اللي حولك؟ امسحي الكود أو الرابط في البايو وابدئي بالتقييم المجاني.\n[QR]",
+   "body_ar": "[1]\nخالة طفلك جابتله هدية.\nفتح الكيس، طالع…\nوقال بكل بساطة: \"ما أبغاها\".\nوأنتي صرتي مسؤولة عن إنقاذ الموقف.\n[2]\nخالته تبتسم وتقول: \"ما عجبتك؟\"\nوأني تحاولي تبتسمي وتغيّري الموضوع.\nوطفلك لسه يكرر: \"ما أبغاها\".\nما تبغي تجبريه يمثل إنه مبسوط ولا تبغي تجرحي خالته.\n[3]\nجربي \"شكر بدون مجاملة\":\nقولي لها: \"تسلمي، الله يعطيكي العافية… خليها عندي\nهو يحب ياخذ وقته مع الأشياء الجديدة\"\nوفي البيت حطيها قريب منه\nوخليه يتعرف عليها براحته.\nولا تضغطي عليه يلعب فيها أو يغيّر رأيه.\n[4]\nشكر الشخص على الهدية شي…\nوإن الطفل يحبها أو يتحمس لها شي ثاني.\nنقدر نعلّمه يعبر عن رأيه بأدب، بدون ما نطلب منه يمثل مشاعر مو حاسس فيها.\n[5]\nوبيننا…\nأحيانًا خالة الطفل تكون متحمسة للهدية أكثر من الطفل نفسه.\nتبغي تقدري تتعاملي مع المواقف المحرجة في الزيارات بدون ما تضغطي على طفلك عشان ترضي اللي حولك؟ امسحي الكود أو الرابط في البايو وابدئي بالتقييم المجاني.\n[QR]",
    "caption_ar": "\"ما أبغاها\"… قدام خالته.\nجملة الإنقاذ في البوست.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
@@ -451,8 +451,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nتدخلي الجَمعة…\nوقبل ما تقولي السلام عليكم يبدأ الاستجواب:\n\"ليش طفلك ما يسلم؟\"\n\"ليش مستحي؟\"\n\"تعال بوس راس جدتك\"\nوأنتي تسلمي عنكم انتوا الاثنين.\n\n\n[2]\nهو ورا عبايتك، ماسك فيكي.\nوأنتي تحاولي تردّي على الناس إنه بيسلّم بعدين.\nأنتي ما قصرتي في تربيته…\nهو مو مستعد يسلم على كل هذول الناس مرة وحدة.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"الطفل المؤدب لازم يسلم على الكل\".\nبس السلام على مجموعة كبيرة مو زي السلام على شخص يعرفه.\nجربي:\nفي البيت، تدربوا على طرق مختلفة للسلام:\nتلويح، كف، أو سلام بالكلام.\nوخليه يختار طريقته قبل الزيارة.\nوعند الباب قولي: \"سلّموا عليه، وهو بيسلّم عليكم بطريقته\".\n[4]\nمهارة السلام تتعلم بالتدريج.\nيبدأ الطفل بطريقة مريحة مع ناس يعرفهم، وبعدها يتعود على مواقف وأشخاص أكثر.\nمو لازم نبدأ بأصعب موقف: مكان مليان ناس ينتظروا انه يسلم عليهم كلهم.\n[5]\nوبيننا…\nالكبار نفسهم عندهم طرق مختلفة للسلام:\nناس بالكف وناس بتلويحة من بعيد وناس يكتفوا بهزة راس.\nتبغي تدخلي الجمعة بدون استجواب؟ امسحي الكود وشوفي كيف تنبني خطة لزياراتكم من ملاحظاتك أنتي.\n[QR]",
-   "caption_ar": "الاستجواب يبدأ قبل السلام عليكم…\n\"السلام اللي يختاره\" في البوست، والكود في آخره.\n\n\nسلسلة الافتراض اللي يصعّب الموضوع -24\n\n\n\n\nNOTE: p6 and p7 now share the love line «وأنتي ما قصرتي في تربيته». Keep it in one of them only if you'd rather.",
+   "body_ar": "[1]\nتدخلي الجَمعة…\nوقبل ما تقولي السلام عليكم يبدأ الاستجواب:\n\"ليش طفلك ما يسلم؟\"\n\"ليش مستحي؟\"\n\"تعال بوس راس جدتك\"\nوأنتي تسلمي عنكم انتوا الاثنين.\n\n[2]\nهو ورا عبايتك، ماسك فيكي.\nوأنتي تحاولي تردّي على الناس إنه بيسلّم بعدين.\nأنتي ما قصرتي في تربيته…\nهو مو مستعد يسلم على كل هذول الناس مرة وحدة.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"الطفل المؤدب لازم يسلم على الكل\".\nبس السلام على مجموعة كبيرة مو زي السلام على شخص يعرفه.\nجربي:\nفي البيت، تدربوا على طرق مختلفة للسلام:\nتلويح، كف، أو سلام بالكلام.\nوخليه يختار طريقته قبل الزيارة.\nوعند الباب قولي: \"سلّموا عليه، وهو بيسلّم عليكم بطريقته\".\n[4]\nمهارة السلام تتعلم بالتدريج.\nيبدأ الطفل بطريقة مريحة مع ناس يعرفهم، وبعدها يتعود على مواقف وأشخاص أكثر.\nمو لازم نبدأ بأصعب موقف: مكان مليان ناس ينتظروا انه يسلم عليهم كلهم.\n[5]\nوبيننا…\nالكبار نفسهم عندهم طرق مختلفة للسلام:\nناس بالكف وناس بتلويحة من بعيد وناس يكتفوا بهزة راس.\nتبغي تدخلي الجمعة بدون استجواب؟ امسحي الكود وشوفي كيف تنبني خطة لزياراتكم من ملاحظاتك أنتي.\n[QR]",
+   "caption_ar": "الاستجواب يبدأ قبل السلام عليكم…\n\"السلام اللي يختاره\" في البوست، والكود في آخره.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -462,8 +462,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nبيت الجدة.\nالكل في المجلس.\nفجاة يبدا البكاء في الغرفة الثانية.\nوقبل ما تقومي تعرفي مين ضرب مين…\nومين بيعطيكي النظرة الجانبية.\n\n\n[2]\nولد أختك يبكي.\nأختك تجي تشوف ايش صار.\nوأنتي تحاولي تفهمي الموقف، وطفلك لسه معصّب ومتمسك بالسيارة.\nوقبل ما تعرفي كيف بدأ الخلاف…\nتحسي إنك مطالبة تبرري تصرّفه.\n\n\n[3]\nثلاث خطوات تعلّمه المشاركة بدون إجبار:\nالخطوة الأولى: ابدئي باللعب المشترك\nاختاري لعبة تقدروا تلعبوها سوا، زي المكعبات أو الكرة.\nضيفي قطعة واطلبي منه يضيف قطعة.\nخليه يكتشف إن اللعب مع أحد ممكن يكون ممتع.\nالخطوة الثانية: علّميه تبادل الأدوار\nاختاري لعبة فيها دور واضح لكل واحد.\nمرة دورك ومرة دوره.\nوخليه يشوف إن دوره بيرجع وإنه مو لازم يفوز بكل دور عشان يستمتع باللعبة.\nالخطوة الثالثة: افتحي باب المشاركة\nلما يلعب بلعبته المفضلة، اسأليه:\n\"تخلي ماما تلعب معاك؟\"\nلو وافق شاركيه اللعب.\nولو رفض احترمي رفضه وجربي في وقت ثاني.\n[4]\nالمشاركة مهارة تتعلّم بالتجربة.\nلما يبدأ باللعب معاكي ويتعود على تبادل الأدوار، ويجرب يشارك بطريقته…\nتكوني بتبني عنده معنى المشاركة، مو مجرد تعوّديه يتنازل عن لعبته عشان يرضي غيره.\n[5]\nوبيننا…\nمو كل لعبة لازم تكون مشتركة.\nحتى أنتي عندك أشياء تقولي عنها: \"هذا حقي محد يمسكو\"\n[6]\nتبغي تعرفي ايش المهارات اللي يحتاج طفلك يتدرّب عليها في مواقف الحياة اليومية؟ التقييم المجاني يساعدك تحددي من فين تبدئي. امسحي الكود أو ادخلي من الرابط في البايو.\n[QR]",
-   "caption_ar": "مو كل طفل يعرف يشارك من نفسه، والمشاركة مو معناها إنه يتنازل عن كل لعبة يحبها.\nثلاث خطوات تبدئي فيها من البيت، بدون إجبار.\n\n\n\n\n(I noticed that in this post and other steps posts that you put step one and two into one slide and step three in a separate slide. So now the slide with step one and two on it is going to be packed and the writing is going to have to be small. We don't want to make it in a way where it's hard for people to read because they're not going to bother reading it and they're just going to swipe away. So for these, I'm open to keeping it one step per slide even if it's seven slides at the end)",
+   "body_ar": "[1]\nبيت الجدة.\nالكل في المجلس.\nفجاة يبدا البكاء في الغرفة الثانية.\nوقبل ما تقومي تعرفي مين ضرب مين…\nومين بيعطيكي النظرة الجانبية.\n\n[2]\nولد أختك يبكي.\nأختك تجي تشوف ايش صار.\nوأنتي تحاولي تفهمي الموقف، وطفلك لسه معصّب ومتمسك بالسيارة.\nوقبل ما تعرفي كيف بدأ الخلاف…\nتحسي إنك مطالبة تبرري تصرّفه.\n\n[3]\nثلاث خطوات تعلّمه المشاركة بدون إجبار:\nالخطوة الأولى: ابدئي باللعب المشترك\nاختاري لعبة تقدروا تلعبوها سوا، زي المكعبات أو الكرة.\nضيفي قطعة واطلبي منه يضيف قطعة.\nخليه يكتشف إن اللعب مع أحد ممكن يكون ممتع.\n\n[4]\nالخطوة الثانية: علّميه تبادل الأدوار\nاختاري لعبة فيها دور واضح لكل واحد.\nمرة دورك ومرة دوره.\nوخليه يشوف إن دوره بيرجع وإنه مو لازم يفوز بكل دور عشان يستمتع باللعبة.\n\n[5]\nالخطوة الثالثة: افتحي باب المشاركة\nلما يلعب بلعبته المفضلة، اسأليه:\n\"تخلي ماما تلعب معاك؟\"\nلو وافق شاركيه اللعب.\nولو رفض احترمي رفضه وجربي في وقت ثاني.\n\n[6]\nالمشاركة مهارة تتعلّم بالتجربة.\nلما يبدأ باللعب معاكي ويتعود على تبادل الأدوار، ويجرب يشارك بطريقته…\nتكوني بتبني عنده معنى المشاركة، مو مجرد تعوّديه يتنازل عن لعبته عشان يرضي غيره.\n\n[7]\nوبيننا…\nمو كل لعبة لازم تكون مشتركة.\nحتى أنتي عندك أشياء تقولي عنها: \"هذا حقي محد يمسكو\"\nتبغي تعرفي ايش المهارات اللي يحتاج طفلك يتدرّب عليها في مواقف الحياة اليومية؟ التقييم المجاني يساعدك تحددي من فين تبدئي. امسحي الكود أو ادخلي من الرابط في البايو.\n[QR]",
+   "caption_ar": "مو كل طفل يعرف يشارك من نفسه، والمشاركة مو معناها إنه يتنازل عن كل لعبة يحبها.\nثلاث خطوات تبدئي فيها من البيت، بدون إجبار.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -473,7 +473,7 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nبايتين عند أهلك. الساعة 12 الليل.\nكل ما تحاولي تنوّمي طفلك، يرجع للصالة مع صوت الضحك والتلفزيون.\nأمك تقول: \"خليه… مو نعسان\".\nوبكرة لما ما يرضى ينام… فين اللي قالوا \"خليه\"؟\n[2]\nواليوم الثاني لما ترجعوا البيت.\nالروتين طار.\nينام الساعة اثنين\nوأنتي اللي تدفعي ثمن \"خليه\".\nكل شوي ترجعيه للغرفة…\nوكل شوي يرجع للصالة.\n[3]\nجربي \"إشارات النوم\":\nأول شي: خذي معاك شي يعرفه من وقت النوم، زي مخدته أو بطانيته.\nثاني شي: حافظي على نفس ترتيب الروتين اللي متعود عليه في البيت: بيجامة، قصة، وبعدها النوم.\nثالث شي: قبل موعد النوم، اتفقي مع أهلك انهم يهدوا شوية عشان تقدري تبدئي روتينه بدون مقاطعات.\n[4]\nالطفل مو محتاج نفس الغرفة كل ليلة…\nمحتاج يتعرف على الإشارات اللي تعني إن وقت النوم قرب.\nلما تتكرر نفس الخطوات بنفس الترتيب، يصير عنده تسلسل مألوف حتى لو كان المكان مختلف.\n[5]\nوكل مرة تباتي عند أهلك…\nطفلك ينام بدري، وأنتي تسهري للفجر مع السوالف\n\n\nتبغي ليلتك عند أهلك تنتهي وهو نايم… وأنتي جالسة معاهم؟ امسحي الكود وشوفي كيف تبني خطة لنومه من ملاحظاتك.\n[QR]",
+   "body_ar": "[1]\nبايتين عند أهلك. الساعة 12 الليل.\nكل ما تحاولي تنوّمي طفلك، يرجع للصالة مع صوت الضحك والتلفزيون.\nأمك تقول: \"خليه… مو نعسان\".\nوبكرة لما ما يرضى ينام… فين اللي قالوا \"خليه\"؟\n[2]\nواليوم الثاني لما ترجعوا البيت.\nالروتين طار.\nينام الساعة اثنين\nوأنتي اللي تدفعي ثمن \"خليه\".\nكل شوية ترجعيه للغرفة…\nوكل شوية يرجع للصالة.\n[3]\nجربي \"إشارات النوم\":\nأول شي: خذي معاك شي يعرفه من وقت النوم، زي مخدته أو بطانيته.\nثاني شي: حافظي على نفس ترتيب الروتين اللي متعود عليه في البيت: بيجامة، قصة، وبعدها النوم.\nثالث شي: قبل موعد النوم، اتفقي مع أهلك انهم يهدوا شوية عشان تقدري تبدئي روتينه بدون مقاطعات.\n[4]\nالطفل مو محتاج نفس الغرفة كل ليلة…\nمحتاج يتعرف على الإشارات اللي تعني إن وقت النوم قرب.\nلما تتكرر نفس الخطوات بنفس الترتيب، يصير عنده تسلسل مألوف حتى لو كان المكان مختلف.\n[5]\nوكل مرة تباتي عند أهلك…\nطفلك ينام بدري، وأنتي تسهري للفجر مع السوالف\n\nتبغي ليلتك عند أهلك تنتهي وهو نايم… وأنتي جالسة معاهم؟ امسحي الكود وشوفي كيف تبني خطة لنومه من ملاحظاتك.\n[QR]",
    "caption_ar": "\"خليه… مو نعسان\" الساعة 12…\nوالخطوات في البوست.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
@@ -485,7 +485,7 @@
    "status": "final",
    "score": null,
    "body_ar": "[1]\nفي العزيمة.\nطفلك يتحرك بين الضيوف، يفتح درج ويجري.\nوتجي نصيحة غير مرغوب فيها:\n\"ليش ما تجلسيه جنبك؟ الطفل لازم يعرف حدود المكان\".\nوهذي ردود تطلعك من الموقف بدون ما تدخلي في نقاش.\n[2]\nلو قالوا: \"ليش ما تجلسيه جنبك؟\"\n\"جربت… بس واضح إنه مو جاي يجلس اليوم\"\nولو قالوا: \"الطفل لازم يعرف حدود المكان\"\n\"أكيد، وأنا قاعدة أتابعه\".\nولو قالوا: \"إحنا كنا نخلّي عيالنا يجلسوا وما يتحركوا\"\n\"كل طفل له طريقته، وإحنا عارفين إيش يناسبه\"\nوكمّلي قهوتك.\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا طفلي يتحرك كثير، لازم أخليه يجلس\".\nبدل ما تجري وراه طول الزيارة، جربي \"شنطة العزيمة\":\nجهزي له كم لعبة أو نشاط يحبه، وخذيها معاكي.\nكل ما طفش من شي، عنده بديل جاهز.\n[4]\nمو كل حركة تحتاج منك منع أو تصحيح.\nلما يكون معاه شي مألوف يشغله، تعطيه فرصة ينشغل بنشاط مناسب بدل ما يدور على شي جديد في كل زاوية.\n[5]\nأحيانًا شنطة العزيمة فيها ألعاب أكثر من شنطة السفر. \nتبغي تعرفي كيف تجهزي طفلك للطلعات والزيارات، وتخففي المواقف اللي تتكرر فيها نفس التحديات؟ التقييم المجاني يساعدك تعرفي من فين تبدئي. امسحي الكود أو ادخلي من الرابط في البايو.\n[QR]",
-   "caption_ar": "نصيحة ما طلبتيها… وردود تطلعك مرتاحة.\nكلها في البوست.\n\n\n\n\nسلسلة الافتراض اللي يصعّب الموضوع -25",
+   "caption_ar": "نصيحة ما طلبتيها… وردود تطلعك مرتاحة.\nكلها في البوست.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -495,8 +495,8 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nسفرة العشا مليانه أكل.\nوصحن طفلك رز أبيض بس.\nخالته تقول: \"اعطيه شويه من الكبسة\".\nعمته تقول: \"عشان كذا انتقائي\".\nوأنتي تدافعي عن أبسط عشا وكأنك في المحكمة.\n[2]\nطفلك يكمل أكله من صحنه…\nوأنتي تحاولي تتجاهلي التعليقات وتكملي عشاكي.\nبس كل ما احد مدّ يده لصحن طفلك عشان يضيف له أكلة ثانية، ترجعي تشرحي من جديد.\nتوسيع قائمة أكله يبدأ من البيت… وثلاث خطوات تبدئي فيها معاه.\n\n\n[3]\nالخطوة الأولى: ابدئي من اللي يحبه\nاختاري أكلة طفلك يحبها ومتقبلها.\nراقبي ايش اللي يعجبه فيها:\nالطعم؟ اللون؟ القوام؟ الشكل؟\nهذي نقطة البداية.\n[4]\nالخطوة الثانية: قرّبي الأكلة الجديدة\nاختاري أكلة تشبه المفضلة عنده في صفة وحدة على الأقل.\nمثلاً، لو يحب الأكل المقرمش، جربي صنف ثاني بنفس القوام.\nابدئي بكمية صغيرة، وقدميها جنب أكله المعتاد.\n[5]\nالخطوة الثالثة: خلي التعارف على راحته\nقدمي نفس الأكلة أكثر من مرة، بدون ما تطلبي منه يذوقها.\nخليه يشوفها، يشمها، أو يلمسها إذا حب.\nولا تشيلي أكله المفضل عشان تجبريه يجرب الجديد.\n[6]\nمو لازم أول تجربة تنتهي بلقمة.\nالبداية تكون إنه يتقبل وجود الأكلة في صحنه، أو يلمسها، أو يقرب منها.\nوالتعود بالتدريج يعطيه فرصة يكتشف الأكل الجديد بدون ضغط.\n[7]\nالهدف إنه مع الوقت يصير عنده خيارات أكثر، بدون ما يخسر الأكلات اللي يرتاح لها.\nتبغي طفلك يتقبل أصناف أكثر بدون ما كل وجبة تصير معركة؟ امسحي الكود وشوفي كيف تنبني خطة لأكله من ملاحظاتك أنتي.\n[QR]",
-   "caption_ar": "سفرة فيها ثلاثين صنف… وطفلك اختار الرز الأبيض.\nتوسيع تقبّله للأكل يبدأ من البيت، بخطوات صغيرة وبدون إجبار. ثلاث خطوات في البوست.\n(I changed the steps in this post because this is not how we do things The post is solving the wrong problem. With foot sensitivities we don't make the child try something new right there out of the blue. And a gathering that child is probably already uncomfortable. This is, this is something we build slowly at home not to satisfy everyone who wants him to eat something more than just white rice)",
+   "body_ar": "[1]\nسفرة العشا مليانه أكل.\nوصحن طفلك رز أبيض بس.\nخالته تقول: \"اعطيه شويه من الكبسة\".\nعمته تقول: \"عشان كذا انتقائي\".\nوأنتي تدافعي عن أبسط عشا وكأنك في المحكمة.\n[2]\nطفلك يكمل أكله من صحنه…\nوأنتي تحاولي تتجاهلي التعليقات وتكملي عشاكي.\nبس كل ما احد مدّ يده لصحن طفلك عشان يضيف له أكلة ثانية، ترجعي تشرحي من جديد.\nتوسيع قائمة أكله يبدأ من البيت… وثلاث خطوات تبدئي فيها معاه.\n\n[3]\nالخطوة الأولى: ابدئي من اللي يحبه\nاختاري أكلة طفلك يحبها ومتقبلها.\nراقبي ايش اللي يعجبه فيها:\nالطعم؟ اللون؟ القوام؟ الشكل؟\nهذي نقطة البداية.\n[4]\nالخطوة الثانية: قرّبي الأكلة الجديدة\nاختاري أكلة تشبه المفضلة عنده في صفة وحدة على الأقل.\nمثلاً، لو يحب الأكل المقرمش، جربي صنف ثاني بنفس القوام.\nابدئي بكمية صغيرة، وقدميها جنب أكله المعتاد.\n[5]\nالخطوة الثالثة: خلي التعارف على راحته\nقدمي نفس الأكلة أكثر من مرة، بدون ما تطلبي منه يذوقها.\nخليه يشوفها، يشمها، أو يلمسها إذا حب.\nولا تشيلي أكله المفضل عشان تجبريه يجرب الجديد.\n[6]\nمو لازم أول تجربة تنتهي بلقمة.\nالبداية تكون إنه يتقبل وجود الأكلة في صحنه، أو يلمسها، أو يقرب منها.\nوالتعود بالتدريج يعطيه فرصة يكتشف الأكل الجديد بدون ضغط.\n[7]\nالهدف إنه مع الوقت يصير عنده خيارات أكثر، بدون ما يخسر الأكلات اللي يرتاح لها.\nتبغي طفلك يتقبل أصناف أكثر بدون ما كل وجبة تصير معركة؟ امسحي الكود وشوفي كيف تنبني خطة لأكله من ملاحظاتك أنتي.\n[QR]",
+   "caption_ar": "سفرة فيها ثلاثين صنف… وطفلك اختار الرز الأبيض.\nتوسيع تقبّله للأكل يبدأ من البيت، بخطوات صغيرة وبدون إجبار. ثلاث خطوات في البوست.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   },
   {
@@ -506,12 +506,180 @@
    "format": "static",
    "status": "final",
    "score": null,
-   "body_ar": "[1]\nتقومي تودعي الضيوف…\nوتلاقي جزمهم في صف واحد وطفلك واقف عندها حارس.\nوأنتي تحاولي تقنعيه إن الضيوف يبغوا جزمهم.\n[2]\nواحد يلبس جزمة…\nوطفلك يرجع يرتب مكانها.\nالثاني يمد يده على جزمته…\nوطفلك يحاول يمنعه.\nابو الناس يتصل يسأل: \"خلصتوا؟\"\nوأنتي لسه عند الباب، تحاولي تقنعيه عشان الناس تمشي.\nلانك عارفة لو زعل بيصير مشهد عند الباب\n\n\n[3]\nجربي \"صورة قبل التفكيك\":\nطلّعي جوالك وقولي له:\n\"استنى خليني أصوّر ترتيبك قبل ما كل واحد ياخذ جزمته\".\nصوّري الصف بسرعة…\nوبعدين خليه يشوف الصورة، والضيوف ياخذوا جزمهم.\n[4]\nأنتي هنا ما طلبتي منه ينسى الترتيب أو إن اللي سواه مو مهم.\nحافظتي له على صورة الشي اللي رتّبه، وفي نفس الوقت خليتي الجزم ترجع لأصحابها.\n[5]\nتبغي الزيارة تخلص بنفس الهدوء اللي بدأت فيه؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n\n\n[QR]",
-   "caption_ar": "جزم الضيوف في صف واحد… وحارسها واقف.\nالخطوه في البوست.\n\n\n\n\n(So for this post, and actually all of the posts, most changes were about language and making it sound more Arabic native and natural, and about the slide four, the slide that's supposed to be explainer content or proof. As you can see in the whole batch, I changed all of them because this slide is supposed to be explainer content or proof. But the way it's written, or the way you wrote it, it sounds more like an ad or a plug. The posts, the posts aren't supposed to sell the service. They're supposed to educate. This slide specifically is supposed to educate about the service or the method. But when you say that's what we do in the living plan, that sounds like an ad. So social media doesn't do the selling. The landing pages do the selling. Social media's job is to get people into the landing pages so people can read them. Think of it as like inception marketing. Eric would never blatantly sell like this.)",
+   "body_ar": "[1]\nتقومي تودعي الضيوف…\nوتلاقي جزمهم في صف واحد وطفلك واقف عندها حارس.\nوأنتي تحاولي تقنعيه إن الضيوف يبغوا جزمهم.\n[2]\nواحد يلبس جزمة…\nوطفلك يرجع يرتب مكانها.\nالثاني يمد يده على جزمته…\nوطفلك يحاول يمنعه.\nابو الناس يتصل يسأل: \"خلصتوا؟\"\nوأنتي لسه عند الباب، تحاولي تقنعيه عشان الناس تمشي.\nلانك عارفة لو زعل بيصير مشهد عند الباب\n\n[3]\nجربي \"صورة قبل التفكيك\":\nطلّعي جوالك وقولي له:\n\"استنى خليني أصوّر ترتيبك قبل ما كل واحد ياخذ جزمته\".\nصوّري الصف بسرعة…\nوبعدين خليه يشوف الصورة، والضيوف ياخذوا جزمهم.\n[4]\nأنتي هنا ما طلبتي منه ينسى الترتيب أو إن اللي سواه مو مهم.\nحافظتي له على صورة الشي اللي رتّبه، وفي نفس الوقت خليتي الجزم ترجع لأصحابها.\n[5]\nتبغي الزيارة تخلص بنفس الهدوء اللي بدأت فيه؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n\n[QR]",
+   "caption_ar": "جزم الضيوف في صف واحد… وحارسها واقف.\nالخطوه في البوست.",
    "notes": "Anhar's final edit (Nov 25). Verbatim; her notes in brackets kept."
   }
  ],
  "performance": [
+  {
+   "postId": "b4p1",
+   "postedOn": "Thu Nov 26",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p2",
+   "postedOn": "Thu Nov 26",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p3",
+   "postedOn": "Fri Nov 27",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p4",
+   "postedOn": "Fri Nov 27",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p5",
+   "postedOn": "Sat Nov 28",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p6",
+   "postedOn": "Sat Nov 28",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p7",
+   "postedOn": "Sun Nov 29",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p8",
+   "postedOn": "Sun Nov 29",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p9",
+   "postedOn": "Mon Nov 30",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p10",
+   "postedOn": "Mon Nov 30",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p11",
+   "postedOn": "Tue Dec 1",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
+  {
+   "postId": "b4p12",
+   "postedOn": "Tue Dec 1",
+   "job": "value + CTA",
+   "format": "static",
+   "views": null,
+   "likes": null,
+   "saves": null,
+   "comments": null,
+   "shares": null,
+   "profileVisits": null,
+   "assessmentStarts": null,
+   "note": ""
+  },
   {
    "postId": "B3 p1 ملكة",
    "postedOn": "Nov 17",
