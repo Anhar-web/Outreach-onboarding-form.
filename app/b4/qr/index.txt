@@ -1,0 +1,12 @@
+b4p1	emotions	https://madar-albayt.tiiny.site/?focus=emotions&src=qr&post=b4p1
+b4p2	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p2
+b4p3	emotions	https://madar-albayt.tiiny.site/?focus=emotions&src=qr&post=b4p3
+b4p4	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p4
+b4p5	outings	https://madar-albayt.tiiny.site/?focus=outings&src=qr&post=b4p5
+b4p6	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p6
+b4p7	outings	https://madar-albayt.tiiny.site/?focus=outings&src=qr&post=b4p7
+b4p8	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p8
+b4p9	sleep	https://madar-albayt.tiiny.site/?focus=sleep&src=qr&post=b4p9
+b4p10	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p10
+b4p11	food	https://madar-albayt.tiiny.site/?focus=food&src=qr&post=b4p11
+b4p12	assessment	https://madar-albayt.tiiny.site/?src=qr&post=b4p12

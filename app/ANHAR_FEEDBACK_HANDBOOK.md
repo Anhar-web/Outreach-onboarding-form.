@@ -715,3 +715,5 @@ Her final file: `app/b4/posts_b4_anhar_final.txt` (verbatim, with her bracketed 
 - **One step per slide** in steps posts, even at 7 slides.
 - **Hooks:** plain spoken beats over staged comic images; «في» + place stamp; «وأنتي» + verb on one line; name the event plainly; the explicit solution line in problem + solution hooks; realistic advice lines.
 - **Cultural reality:** no birthdays; gifts come unwrapped or in a bag; no seasonal framing unless a real season or holiday is on now.
+- **"We", clarified (Nov 25):** banned only when it implies she has a child ("all of us did this", "we did this with our kids"). "We" as the guide and the mother working through a tool together («نبدأ ببناء المهارة») is fine.
+- **Comment prompts:** if used, name the exact word to comment («اكتبي "دوام مسائي"»), never an open question. Comments aren't a success metric. Success = completed assessments, waitlist joins, conversions per post, then views and likes. The B4 comment test is dropped.
