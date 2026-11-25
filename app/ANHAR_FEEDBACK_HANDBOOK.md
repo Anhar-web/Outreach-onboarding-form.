@@ -706,3 +706,12 @@ Full before → after → reason: Airtable → Feedback & Lessons ("B3 edit · h
 - **Proof slide** = our method described (can carry explainer content), never testimonials.
 - **Topics:** a few old legacy topics plus new ones. Re-runs of the diaper and grandma posts underperformed.
 - **Timing:** Batch 4 starts after the new landing page is ready (Nov 23). Get the page links and build tagged QR codes first.
+
+# PART Q: BATCH 4 COPY LESSONS (Anhar, Nov 25). These override earlier parts where they conflict
+Her final file: `app/b4/posts_b4_anhar_final.txt` (verbatim, with her bracketed notes). Airtable → Feedback & Lessons, "B4 hooks ·" and "B4 copy ·" rows.
+- **The proof slide educates; it never sells.** No «ليش تنفع؟», no «وهذا اللي نشتغل عليه في الخطة الحية». Explain the skill, or why the moment happens, in everyday words. Social media gets her to the landing page; the landing page sells (Inception marketing). This replaces "proof = our method described".
+- **Solve the real problem.** p4: the problem is grandma overriding the mother's decision, so the tool is an agreement between the adults before the visit. p11: food is built slowly at home; never make him try something new at a gathering.
+- **The default tool is a skill practised at home in everyday moments** (alternatives, taking turns, greeting styles, sharing, food steps). An in-the-moment backup (a snack in the bag) is secondary. Never a tool aimed at pleasing the people watching.
+- **One step per slide** in steps posts, even at 7 slides.
+- **Hooks:** plain spoken beats over staged comic images; «في» + place stamp; «وأنتي» + verb on one line; name the event plainly; the explicit solution line in problem + solution hooks; realistic advice lines.
+- **Cultural reality:** no birthdays; gifts come unwrapped or in a bag; no seasonal framing unless a real season or holiday is on now.
