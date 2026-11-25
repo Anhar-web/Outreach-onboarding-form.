@@ -1,7 +1,7 @@
 {
  "project": "Home Orbit — Batch 4 (Nov 2026)",
- "updatedAt": "2026-11-25T11:59:10.795145+00:00",
- "currentStep": 5,
+ "updatedAt": "2026-11-25T12:09:06.810344+00:00",
+ "currentStep": 8,
  "steps": [
   {
    "n": 1,
@@ -72,7 +72,7 @@
    "key": "concepts",
    "title": "Concepts",
    "subtitle": "The Strategist assembles distinct concepts for you to pick.",
-   "status": "needs-you",
+   "status": "done",
    "idea": {
     "title": "Options, not one answer",
     "body": "A batch is a test. We need real variety to learn from."
@@ -88,7 +88,7 @@
    "key": "format",
    "title": "Format",
    "subtitle": "You decide static slides or video for each picked concept.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "Format follows the idea",
     "body": "Some ideas need to be swiped, some need to move."
@@ -97,14 +97,14 @@
     "label": "Choose static or video per concept.",
     "phrase": "Formats chosen."
    },
-   "report": ""
+   "report": "All 12 static carousels (Anhar: \"build the posts\"; no video requested)."
   },
   {
    "n": 7,
    "key": "production",
    "title": "Production",
    "subtitle": "The Copywriter writes every picked post in Arabic.",
-   "status": "idle",
+   "status": "done",
    "idea": {
     "title": "Written last, never from a blank page",
     "body": "Every post starts from a picked concept, a chosen hook and her own words."
@@ -113,23 +113,23 @@
     "label": "Read the drafts.",
     "phrase": "Looks good. Edit and test."
    },
-   "report": ""
+   "report": "All 12 posts written in Arabic, from the locked hooks and concepts. Full text: `app/b4/posts_b4.txt`, also in \"The posts\" below."
   },
   {
    "n": 8,
    "key": "test",
    "title": "Arabic + Test",
    "subtitle": "The Arabic Voice Editor, then the sceptical Test Panel.",
-   "status": "idle",
+   "status": "needs-you",
    "idea": {
     "title": "Born in Arabic, tested cold",
     "body": "A line that sounds translated loses, whatever its score."
    },
    "action": {
-    "label": "Choose what ships.",
+    "label": "Edit the posts (in posts_b4.txt or copied from the board). Send back your edited versions; your edits are final.",
     "phrase": "Ship the winners."
    },
-   "report": ""
+   "report": "## Step 8 · Arabic voice edit + Test Panel\n**The posts to edit:** `app/b4/posts_b4.txt` has all 12 complete, slide by slide, with captions, in one plain-text file. Each post is also on this board below, with a Copy button.\n\n### Arabic Voice Editor: what changed and why\n- **Four scene slides opened with «و»** (p1, p2, p7, p9 slide 2). Changed to open without it («تبدئي…», «أختك تقول…», «هو ورا عباتك», «الليلة الثانية…»). *Why:* your rule, \"don't open a scene slide with و\".\n- **p2 slide 1:** «وأنتي؟ تتفاوضي…» kept on one line, as you wrote it (your merge preference). The stray quote mark before «تقولي» is removed; your wording is untouched.\n- **p1, p3 CTA:** «خطة لانفعالاته» → «خطة لهذي المواقف». *Why:* \"a plan for his emotions\" sounded translated.\n- **Full checklist passed on all 12:**\n  - Locked vocabulary: ايش, فين, شي, أنتي, معاكي, دحين.\n  - Feminine verbs without the extra ن.\n  - No em dash, and no line ending in a comma.\n  - No «طبيعي», «يصيح» or «حركة».\n  - «اثنين», «شويه», «عشان», straight quotes for spoken lines, and «الخطوة الأولى:» labels.\n- **Your hooks:** untouched apart from line breaks at your own full stops and ellipses. The double spaces in p5 and p12 are closed up.\n\n### Two things for you to decide\n1. **Length.** The posts run 132–192 words. The brief aimed at about 130–160, the legacy average was 139, and the shared proof block adds about 25 words to every post. Heaviest: **p10 (192), p1 (187), p4 (187), p3 (186), p7 (182).** Slide 3 in the fallacy posts runs 9–10 lines. Your legacy posts carried that, but our production kit's limit is 5 lines per slide. Either trim slide 3 as you edit, or let Creative Production set it smaller, as your legacy posts did.\n2. **p6 and p7 share a love line** («وأنتي ما قصرتي في تربيته»). Keep it in one only, if you'd rather.\n\n### Test Panel: three sceptical mothers, read cold\nThe tired skimmer (S) · the cynic (C) · the ready-but-cautious one (R).\n\n| Post | S | C | R | Score |\n|---|---|---|---|---|\n| **p11** White rice | Stopped on «رز أبيض بس», laughed at «المحكمة» | \"Finally someone who doesn't tell me to see a doctor.\" «الجار الصغير» is doable tonight. | Food CTA uses your own outcome line; clear | **93** |\n| **p3** Toy aisle | Stopped: «ثلاث عوائل تتفرج». Swiped for \"step 3\" | The photo list is a real trick, not advice. The twist made her laugh out loud. | Calm exit line is usable; landing route is clear | **92** |\n| **p4** Grandma | «عمرها قصير… تعيش ثواني» is the line she'd send her sister | «نعم الجدة» doesn't fight grandma. \"That's smart.\" | Visits CTA is honest | **91** |\n| **p7** Saying hello | Stopped on the three questions at the door | \"Not another 'don't force him' post. It gives the relatives something.\" | Clear | **90** |\n| **p1** The angel | «يرجع للوضع الأصلي» got the smile | The love line hit. Slide 3 is long; she skimmed it. | Landing CTA is clear and doesn't say \"assessment\" | **88** |\n| **p6** The gift | The hook promises the sentence, so she swiped for it | The rescue line is the real value, short enough to remember | The twist (gifts in the cupboard) is relatable | **88** |\n| **p2** Sweets tray | Stopped: «قدام عشرين شخص» | The spare piece works only if she knows his piece. Real enough. | Comment question is fun and one word | **87** |\n| **p9** Bedtime | «فين اللي قالوا \"خليه\"؟» landed | The routine travelling is practical. «أهلك وحشوكي» was a warm surprise. | Clear | **87** |\n| **p10** The advice | Stopped on the advice line | The replies are the value. «جولة الوصول» agrees with the advice instead of fighting it, which she liked. | Longest post; she nearly dropped at slide 3 | **87** |\n| **p8** Hitting | «النظرة الجانبية». \"That's my sister.\" | The code word needs practice days before; the post says so | Assessment CTA is clear | **86** |\n| **p5** The lift | Stopped. Strange but common. | \"Lift announcer\" is cute but depends on a screen showing floors. Most malls have one. | Fine | **82** |\n| **p12** The shoes | Smiled. The weakest stop for a skimmer. | Safe: nothing reads as \"a sign\". The tool is charming. | Fine | **81** |\n\n**Scorecard breakdown** (weights in brackets):\n\n| Post | Scroll (18) | Recog (14) | Emotion (13) | Voice (14) | Value (10) | Safety (10) | Arabic (6) | Twist (5) | CTA (5) | Share (5) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| p1 | 15 | 13 | 12 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p2 | 15 | 13 | 11 | 12 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p3 | 16 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p4 | 15 | 14 | 12 | 12 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p5 | 14 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p6 | 15 | 13 | 12 | 11 | 9 | 10 | 5 | 5 | 4 | 4 |\n| p7 | 16 | 14 | 12 | 12 | 8 | 10 | 5 | 4 | 4 | 5 |\n| p8 | 14 | 13 | 12 | 11 | 9 | 10 | 5 | 4 | 4 | 4 |\n| p9 | 15 | 13 | 11 | 12 | 8 | 10 | 5 | 5 | 4 | 4 |\n| p10 | 14 | 13 | 11 | 11 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p11 | 16 | 14 | 12 | 13 | 9 | 10 | 5 | 5 | 4 | 5 |\n| p12 | 13 | 11 | 10 | 11 | 8 | 10 | 5 | 5 | 4 | 4 |\n\n**Safety gate: all 12 pass.**\n- No diagnosis, no cause, no promised result for the child, no therapy, no blame.\n- Relatives' labels («دلع», «انتقائي», «قليل أدب») only ever come from others.\n- One mild watch: p10 slide 3 («يبعد عن الأدراج أكثر») is a comparison, hedged with «أحياناً». Keep the hedge if you edit it.\n\n**The score is a flag, not proof.** What would push the batch higher:\n1. **Trim the long slide 3s** (p1, p4, p10). The skimmer drops where a slide runs past about 7 lines.\n2. **p12 and p5 are the weakest stops.** Keep them, since they're the strange-but-common tests, but they'd gain from posting first in their evening, or from swapping p12 for «دلّعتيه».\n3. **p8's twist** («ما سلمت منك») is the quietest laugh. Rewrite it if a funnier confession comes to you.\n"
   },
   {
    "n": 9,
@@ -154,7 +154,7 @@
     "key": "st",
     "name": "Strategist",
     "role": "The brief, scorecard, concepts, handoff",
-    "status": "needs-you"
+    "status": "idle"
    },
    {
     "key": "ar",
@@ -178,19 +178,19 @@
     "key": "cw",
     "name": "Copywriter",
     "role": "Writes the posts",
-    "status": "idle"
+    "status": "done"
    },
    {
     "key": "av",
     "name": "Arabic Voice Editor",
     "role": "Makes it sound native",
-    "status": "idle"
+    "status": "done"
    },
    {
     "key": "tp",
     "name": "Test Panel",
     "role": "Sceptical mothers, scored",
-    "status": "idle"
+    "status": "done"
    },
    {
     "key": "an",
@@ -263,8 +263,8 @@
    "angle": "Fallacy · cream s1 · QR emotions — Tool «شنطة الاستلام»: the pickup bag, no questions till home",
    "hook_ar": "تاخذيه من الروضة. المعلمة تقول: \"ما شاء الله… كان ملاك اليوم\" تركبي السيارة. وما تلحقي تشغليها… إلا والملاك يرجع للوضع الأصلي.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p2",
@@ -273,8 +273,8 @@
    "angle": "One tool · comment · QR assessment — Tool «حبة الاحتياط»: his exact piece in your bag",
    "hook_ar": "في العزيمة.\nصاحبة البيت تدور بصحن الحلويات. ولد اختك ياخذ الحبة اللي كان يبغاها طفلك. ويبدا البكاء\n\"تقولي: \"خذ غيرها حبيبي… كلها حلاوه\" وأنتي؟ تتفاوضي على حبة شوكولاته قدام عشرين شخص.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p3",
@@ -283,8 +283,8 @@
    "angle": "Three steps · keep-reading · QR emotions — «قائمة الصور» + one line on the floor + the exit line; twist: the mum who lay down",
    "hook_ar": "في ممر الألعاب. هو على الأرض يبكي. ثلاث عوائل تتفرج. وأنتي تقولي: \"أشيله؟ ولا أستنى؟ ولا أعتذر؟\"",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p4",
@@ -293,8 +293,8 @@
    "angle": "Fallacy · comment · QR assessment — Tool «نعم الجدة»: hand grandma the yes-treat on arrival",
    "hook_ar": "قلتي لطفلك: \"لا…\" بدأ يبكي. وجدته تقول: \"اعطوه اللي يبغاه ويسكت\" وشويه كيس الشبس في يده.\nعند جدته لما تقولي \"لا\" عمرها قصير… تعيش ثواني إلين تقول جدته: \"اعطوه\".",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p5",
@@ -303,8 +303,8 @@
    "angle": "One tool · cream s1 · QR outings — Tool «مذيع المصعد»: he announces the floors",
    "hook_ar": "المصعد في المول. طفلك مستني يضغط الزر. تدخل وحدة… وتضغطه قبله.  وفجأة، الزر تحوّل لنوبة غضب ومعاكم جمهور في المصعد",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p6",
@@ -313,8 +313,8 @@
    "angle": "One tool · problem+solution hook · QR assessment — Tool «جملة الإنقاذ»: one warm line that thanks her and buys him time",
    "hook_ar": "خالة طفلك جابتله لعبة. اعطته الكيس. طل فيه… وقال: \"ما أبغاها\"\nهذي الجملة اللي تقوليها\nوتطلعي من الموقف بدون إحراج.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p7",
@@ -323,8 +323,8 @@
    "angle": "Fallacy · comment · QR outings — Tool «السلام اللي يختاره»: his chosen greeting, announced by you",
    "hook_ar": "تدخلي الجَمعة… وقبل ما تقولي السلام عليكم يبدأ الاستجواب: \"ليش طفلك ما يسلم؟\" \"ليش مستحي؟\" \"تعال بوس راس جدتك\"\nوأنتي تسلمي عنكم انتوا الاثنين.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p8",
@@ -333,8 +333,8 @@
    "angle": "Three steps · control · QR assessment — «شنطتين» + «كلمة السر» + step in, no lecture",
    "hook_ar": "بيت الجدة. الكل في المجلس. فجاة يبدا البكاء في الغرفة الثانية.\nوقبل ما تقومي تعرفي مين ضرب مين…\nومين بيعطيكي النظرة الجانبية.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p9",
@@ -343,8 +343,8 @@
    "angle": "One tool · bedtime · comment · QR sleep — Tool «شنطة النوم»: the routine travels",
    "hook_ar": "بايتين عند أهلك. الساعة 12 الليل.\nكل ما تحاولي تنوّمي طفلك، يرجع للصالة مع صوت الضحك والتلفزيون.\nأمك تقول: \"خليه… مو نعسان\".\nوبكرة لما ما يرضى ينام… فين اللي قالوا \"خليه\"؟",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p10",
@@ -353,8 +353,8 @@
    "angle": "Fallacy · problem+solution hook · QR assessment — Calm replies + tool «جولة الوصول»",
    "hook_ar": "في العزيمة.\nطفلك يتحرك بين الضيوف، يفتح درج ويجري.\nوتجي نصيحة غير مرغوب فيها: \n\"ليش ما تجلسيه جنبك؟ الطفل لازم يعرف حدود المكان\".\nوهذي الردود اللي تطلعك من الموقف بدون ما تدخلي في نقاش.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p11",
@@ -363,8 +363,8 @@
    "angle": "Three steps · keep-reading + comment · QR food — «الجار الصغير» + rice first + one line for the aunts",
    "hook_ar": "سفرة العشا مليانه اكل.\nوصحن طفلك رز أبيض بس.\nخالته تقول: \"اعطيه من الكبسة شويه\"\nعمته تقول: \"عشان كذا انتقائي.\"\nوأنتي تدافعي عن أبسط عشا وكأنك في المحكمة.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   },
   {
    "id": "b4p12",
@@ -373,11 +373,144 @@
    "angle": "One tool · comment · QR assessment — Tool «مسؤول الجزم»: he hands guests their shoes",
    "hook_ar": "تقومي تودعي الضيوف… وتلاقي جزمهم في صف واحد وطفلك واقف عندها حارس.\nوأنتي تحاولي  تقنعيه إن الضيوف يبغوا جزمهم.",
    "hook_gloss": "Anhar's final hook (verbatim)",
-   "status": "proposed",
-   "format": null
+   "status": "picked",
+   "format": "static"
   }
  ],
- "posts": [],
+ "posts": [
+  {
+   "id": "b4p1",
+   "conceptId": "b4p1",
+   "title": "The teacher's angel → the car — Evening 1, 7:00 PM · «الافتراض» series · cream slide 1 (test) · QR → ?focus=emotions",
+   "format": "static",
+   "status": "tested",
+   "score": 88,
+   "body_ar": "[1]\nتاخذيه من الروضة.\nالمعلمة تقول: \"ما شاء الله… كان ملاك اليوم\"\nتركبي السيارة.\nوما تلحقي تشغليها…\nإلا والملاك يرجع للوضع الأصلي.\n\n[2]\nتبدئي تسألي نفسك:\n\"ليش بس معي؟\"\nوأختك تقول:\n\"دامه يقدر عند المعلمة… يقدر عندك\"\nبس اللي ما يعرفوه…\nإنه ينفجر معاكي أنتي بالذات\nلأنك المكان اللي يأمن فيه.\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا هادي هناك… يقدر يكون هادي في كل مكان\"\nلكن أحياناً…\nهو ماسك نفسه طول الصبح\nوالسيارة أول مكان يطلّع فيه اللي جواه.\nجربي \"شنطة الاستلام\":\nأكله المفضل… موية… ولعبته الصغيرة\nجاهزة على الكرسي قبل ما يركب.\nوسؤال \"كيف كان يومك؟\"\nيستنى لين البيت.\n\n[4]\nليش تنفع؟\nلأن أول خمس دقايق\nما تطلب منه شي.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nأنتي بعد لما ترجعي من الدوام\nتبغي أحد يسألك \"كيف كان يومك؟\"\nولا تبغي قهوة… وسكوت؟\nتبغي ترجعي من الروضة بسيارة أهدى بدل ما تستلمي نفس الانفجار كل يوم؟ امسحي الكود وشوفي كيف تنبني خطة لهذي المواقف من ملاحظاتك أنتي.\n[QR]",
+   "caption_ar": "المعلمة تقول ملاك… والسيارة تقول شي ثاني.\n\"شنطة الاستلام\" في البوست، والكود في آخره.",
+   "notes": ""
+  },
+  {
+   "id": "b4p2",
+   "conceptId": "b4p2",
+   "title": "The sweets tray — Evening 1, 8:15 PM · one tool · comment prompt (test) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 87,
+   "body_ar": "[1]\nفي العزيمة.\nصاحبة البيت تدور بصحن الحلويات.\nولد اختك ياخذ الحبة اللي كان يبغاها طفلك.\nويبدا البكاء\nتقولي: \"خذ غيرها حبيبي… كلها حلاوه\"\nوأنتي؟ تتفاوضي على حبة شوكولاته قدام عشرين شخص.\n\n[2]\nأختك تقول:\n\"عادي… بزران\"\nوتكمل قهوتها.\nوالصحن يكمل دورته…\nوكل العيون\nترجع لك أنتي.\n\n[3]\nجربي \"حبة الاحتياط\":\nخلي في شنطتك\nنفس الشوكولاته اللي يحبها.\nولما يرجع الصحن بدونها\nقولي له بهدوء:\n\"حقك عندي\"\nوقبل العزيمة بأيام\nتدربوا عليها في البيت:\nمرري صحن… ومرة تكون حبته \"عند ماما\".\n\n[4]\nليش تنفع؟\nلأنها ماشية مع اللي يبغاه…\nمو ضده.\nوهذا أساس \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nلو أحد أخذ آخر قطعة كيك\nكنتي ناوية عليها من أول العزيمة…\nكان بكيتي معاه.\nتبغي تستمتعي بالعزيمة بدل ما تطفي نفس الحريقة كل مرة؟ التقييم المجاني يوريكي من فين تبدئي مع نوبات الغضب، امسحي الكود أو الرابط في البايو.\nايش الحبة اللي لازم تكون في شنطتك؟ اكتبي اسمها.\n[QR]",
+   "caption_ar": "صحن الحلويات يلف… وأنتي عارفة ايش بيصير.\n\"حبة الاحتياط\" في البوست.",
+   "notes": "NOTE: I removed the stray quote mark before «تقولي» and kept «تقولي» as you wrote it. If the host says the line, change it to «تقول»."
+  },
+  {
+   "id": "b4p3",
+   "conceptId": "b4p3",
+   "title": "Floor drop in the toy aisle — Evening 2, 7:00 PM · three steps · \"keep reading\" line (test) · QR → ?focus=emotions",
+   "format": "static",
+   "status": "tested",
+   "score": 92,
+   "body_ar": "[1]\nفي ممر الألعاب.\nهو على الأرض يبكي.\nثلاث عوائل تتفرج.\nوأنتي تقولي: \"أشيله؟ ولا أستنى؟ ولا أعتذر؟\"\n\n[2]\nرجال يمر: \"الله يعينك\"\nوحده تهمس: \"دلع\"\nوأنتي في نص الممر\nكأنك المتهمة في القضية.\nومو أنتي اللي قصرتي…\nهو بس وصل لآخره.\nوالخطوة الثالثة هي اللي تطلعك من الممر بهدوء.\n\n[3]\nالخطوة الأولى: \"قائمة الصور\"\nقبل ما تدخلوا قولي:\n\"ندخل نتفرج… واللي يعجبك نصوره\"\nوكل لعبة يبغاها تنحفظ في جوالك.\nالخطوة الثانية: إذا صار على الأرض\nانزلي لمستواه\nوخففي الكلام.\nجملة وحدة تعيديها:\n\"أنا هنا… لما تهدى نطلع\"\n\n[4]\nالخطوة الثالثة: الخرجه\nأول ما يهدى… اطلعوا على طول.\nجملة ثابتة:\n\"نطلع دحين… بعدين السيارة… بعدين البيت\"\nوفي السيارة\nلا محاضرة… ولا \"شفت ايش سويت؟\"\n\n[5]\nليش تنفع؟\nلأنه يعرف ايش بيصير\nقبل ما يصير.\nوهذا اللي تبنيه \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[6]\nوبيننا…\nفيه أم انسدحت جنب ولدها في المحل\nوصارت تسوي مثله.\nوسكت.\nما أقول لك سويها…\nبس لا تقولي ما خطرت في بالك.\nتبغي تطلعي من أي محل وأنتي هادية بدل ما تحسي إن الكل يحاكمك؟ امسحي الكود وشوفي كيف تنبني خطة لهذي المواقف من ملاحظاتك أنتي.\n[QR]",
+   "caption_ar": "ثلاث عوائل تتفرج… وثلاث خطوات تطلعك من الممر.\nالبوست كامل، والكود في آخره.",
+   "notes": "NOTE: the twist is the real viral clip of a Saudi mother (news reports, 2024). It's told as someone else's story, never as advice."
+  },
+  {
+   "id": "b4p4",
+   "conceptId": "b4p4",
+   "title": "Grandma: «اعطوه» — Evening 2, 8:15 PM · «الافتراض» series · comment prompt (test) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 91,
+   "body_ar": "[1]\nقلتي لطفلك: \"لا…\"\nبدأ يبكي.\nوجدته تقول: \"اعطوه اللي يبغاه ويسكت\"\nوشويه كيس الشبس في يده.\n\n[2]\nعند جدته لما تقولي \"لا\" عمرها قصير…\nتعيش ثواني إلين تقول جدته: \"اعطوه\".\nوالزيارة الجاية؟\nأول ما تقولي \"لا\"\nيروح لجدته على طول.\nوهذا مو لأنك ضعيفة…\nلأنك وحدة قدام مجلس كامل.\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"إذا عطيتيه اللي يبغاه… يسكت\"\nصح يسكت… دحين.\nبس يتعلم لمين يروح المرة الجاية.\nجربي \"نعم الجدة\":\nجيبي معاكي شي ترضي فيه\nمثلا عصير أو بسكوت يحبه\nواعطيه جدته أول ما توصلوا.\nوإذا قلتي \"لا\"\nجدته تقول \"نعم\"… لهذا الشي بس.\n\n[4]\nليش تنفع؟\nجدته تفرح إنها تعطي…\nو\"لا\" حقتك تبقى \"لا\".\nوهذي طريقة \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nأنتي بعد أول ما تدخلي بيت أمك\nترجعي بنت عشر سنين\nوتاكلي اللي تبغيه.\nتبغي زياراتكم لجدته تمشي بدون ما \"لا\" حقتك تنكسر كل مرة؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\nايش أكثر شي يطلبه عند جدته؟ كلمة وحدة.\n[QR]",
+   "caption_ar": "\"لا\" حقتك عند جدته عمرها ثواني…\n\"نعم الجدة\" في البوست.",
+   "notes": "NOTE: split as you suggested: slide 1 ends at «في يده», and slide 2 opens with «عند جدته…»."
+  },
+  {
+   "id": "b4p5",
+   "conceptId": "b4p5",
+   "title": "Someone else presses the lift button — Evening 3, 7:00 PM · one tool · cream slide 1 (test) · QR → ?focus=outings",
+   "format": "static",
+   "status": "tested",
+   "score": 82,
+   "body_ar": "[1]\nالمصعد في المول.\nطفلك مستني يضغط الزر.\nتدخل وحدة… وتضغطه قبله.\nوفجأة، الزر تحوّل لنوبة غضب ومعاكم جمهور في المصعد\n\n[2]\n\"آسفة… ما انتبهت\"\nوباقي خمس أدوار.\nوأنتي تبتسمي لناس ما تعرفيهم\nوتعدي الأدوار في راسك.\nوأنتي ما سويتي شي غلط…\nبس الزر كان كل خطته.\n\n[3]\nجربي \"مذيع المصعد\":\nقبل ما تدخلوا قولي له:\n\"إذا أحد ضغط الزر…\nأنت تعلن الأدوار\"\nوكل ما تتغير الشاشة\nيعلن: \"الدور الثالث!\"\nوتدربوا عليها في الأيام الهادية\nقبل ما تحتاجوها.\n\n[4]\nليش تنفع؟\nلأنه يبقى عنده دور…\nحتى لو راح الزر.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nكم مرة ضغطتي زر المصعد مرتين\nكأنه بيجي أسرع؟\nتبغي طلعاتكم للمول تكمل بدل ما تفصيلة صغيرة تقلب اليوم كله؟ امسحي الكود وشوفي كيف تنبني خطة لطلعاتكم من ملاحظاتك أنتي.\n[QR]",
+   "caption_ar": "أطول خمس أدوار في حياتك…\n\"مذيع المصعد\" في البوست، والكود في آخره.",
+   "notes": ""
+  },
+  {
+   "id": "b4p6",
+   "conceptId": "b4p6",
+   "title": "The gift: «ما أبغاها» — Evening 3, 8:15 PM · one tool · problem + solution hook (test) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 88,
+   "body_ar": "[1]\nخالة طفلك جابتله لعبة.\nاعطته الكيس.\nطل فيه… وقال: \"ما أبغاها\"\nهذي الجملة اللي تقوليها\nوتطلعي من الموقف بدون إحراج.\n\n[2]\nخالته واقفة… والكيس في يدها.\nالمجلس ساكت.\nوأنتي ودك الأرض تنشق وتبلعك.\nوهو ما قصد يجرحها…\nوأنتي ما قصرتي في تربيته.\n\n[3]\n\"جملة الإنقاذ\":\nقولي لها وأنتي مبتسمة:\n\"الله يعطيكي العافية…\nخليها عندي\nهو يحب ياخذ وقته مع الأشياء الجديدة\"\nوفي البيت\nحطيها قريب منه\nوخليه يتعرف عليها على راحته.\n\n[4]\nليش تنفع؟\nخالته تسمع الشكر…\nوهو ياخذ وقته.\nوهذا أساس \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nكم هدية جتك وقلتي \"تجنن!\"…\nوهي في الدولاب لليوم؟\nتبغي تجلسي في الجمعة بدون ما تعتذري عن كل ردة فعل؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n[QR]",
+   "caption_ar": "\"ما أبغاها\"… قدام خالته.\nجملة الإنقاذ في البوست.",
+   "notes": ""
+  },
+  {
+   "id": "b4p7",
+   "conceptId": "b4p7",
+   "title": "«ليش طفلك ما يسلم؟» — Evening 4, 7:00 PM · «الافتراض» series · comment prompt (test) · QR → ?focus=outings",
+   "format": "static",
+   "status": "tested",
+   "score": 90,
+   "body_ar": "[1]\nتدخلي الجَمعة…\nوقبل ما تقولي السلام عليكم يبدأ الاستجواب:\n\"ليش طفلك ما يسلم؟\"\n\"ليش مستحي؟\"\n\"تعال بوس راس جدتك\"\nوأنتي تسلمي عنكم انتوا الاثنين.\n\n[2]\nهو ورا عباتك\nماسك فيكي.\n\"عيب… سلّم\"\nعشر دقايق عند الباب\nوأنتي تبتسمي وتعتذري عن سلام ما صار.\nوهو مو قليل أدب…\nوأنتي ما قصرتي في تربيته.\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"لازم يسلّم على الكل… وإلا قليل أدب\"\nلكن أحياناً\nباب فيه عشرين وجه مرة وحدة\nكثير عليه.\nجربي \"السلام اللي يختاره\":\nفي البيت يختار سلامه\nتلويحة… كف… أو \"السلام عليكم\" من جنبك.\nوعند الباب قوليها أنتي:\n\"سلامه اليوم بالتلويحة\"\n\n[4]\nليش تنفع؟\nكل اللي عند الباب ياخذوا سلامهم…\nوهو ما ينجبر على شي.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nلو تقدري تدخلي الجمعة\nوتلوحي من بعيد بدل عشرين سلام وبوسة…\nكان سويتيها.\nتبغي تدخلي الجمعة بدون ما الباب يصير استجواب؟ امسحي الكود وشوفي كيف تنبني خطة لزياراتكم من ملاحظاتك أنتي.\nطفلك يسلم بايش؟ كلمة وحدة.\n[QR]",
+   "caption_ar": "الاستجواب يبدأ قبل السلام عليكم…\n\"السلام اللي يختاره\" في البوست، والكود في آخره.",
+   "notes": "NOTE: p6 and p7 now share the love line «وأنتي ما قصرتي في تربيته». Keep it in one of them only if you'd rather."
+  },
+  {
+   "id": "b4p8",
+   "conceptId": "b4p8",
+   "title": "Who hit whom at grandma's — Evening 4, 8:15 PM · three steps · control (no \"keep reading\" line) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 86,
+   "body_ar": "[1]\nبيت الجدة.\nالكل في المجلس.\nفجاة يبدا البكاء في الغرفة الثانية.\nوقبل ما تقومي تعرفي مين ضرب مين…\nومين بيعطيكي النظرة الجانبية.\n\n[2]\nتدخلي الغرفة…\nولد أختك يبكي\nوطفلك ماسك السيارة الحمرا.\nوأختك ما قالت شي…\nبس النظرة وصلت.\nوأنتي مو أم مقصرة…\nأنتي أم في نص موقف صعب.\n\n[3]\nالخطوة الأولى: \"شنطتين\"\nشنطة ألعاب ما يحتاج يشاركها\nتبقى معاكي.\nوشنطة يلعب فيها مع الكل.\nالخطوة الثانية: \"كلمة السر\"\nاتفقي معاه في البيت قبلها بأيام:\nإذا أحد أخذ لعبته\nيقول الكلمة… ويجيكي.\nمثلا: \"نجدة!\"\n\n[4]\nالخطوة الثالثة: إذا صار الضرب\nادخلي بينهم بهدوء.\nكلام قليل:\n\"الضرب لا… تعال معي\"\nوطلعيه برا المجلس\nبدون محاضرة قدام الكل.\n\n[5]\nليش تنفع؟\nلأنه يعرف ايش يسوي لما يزعل…\nقبل ما يزعل.\nوهذا اللي تبنيه \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[6]\nوبيننا…\nلما أختك أخذت فستانك وأنتي صغيرة…\nما سلمت منك.\nتبغي يعرف ايش يسوي لما أحد ياخذ لعبته بدل ما يمد يده؟ التقييم المجاني يوريكي من فين تبدئي مع نوبات الغضب، امسحي الكود أو الرابط في البايو.\n[QR]",
+   "caption_ar": "تعرفي مين ضرب مين… ومين بيعطيكي النظرة.\nثلاث خطوات في البوست.",
+   "notes": ""
+  },
+  {
+   "id": "b4p9",
+   "conceptId": "b4p9",
+   "title": "Staying over: «خليه… مو نعسان» — Evening 5, 7:00 PM · one tool · the bedtime post · comment prompt (test) · QR → ?focus=sleep",
+   "format": "static",
+   "status": "tested",
+   "score": 87,
+   "body_ar": "[1]\nبايتين عند أهلك. الساعة 12 الليل.\nكل ما تحاولي تنوّمي طفلك، يرجع للصالة مع صوت الضحك والتلفزيون.\nأمك تقول: \"خليه… مو نعسان\".\nوبكرة لما ما يرضى ينام… فين اللي قالوا \"خليه\"؟\n\n[2]\nالليلة الثانية في البيت؟\nالروتين طار.\nينام الساعة اثنين\nوأنتي اللي تدفعي ثمن \"خليه\".\nوأنتي ما غلطتي إنك رحتي لأهلك…\nأهلك وحشوكي.\n\n[3]\nجربي \"شنطة النوم\":\nكيس مخدته… نفس القصة… نفس النور.\nوفي نفس وقته في البيت\nسوي نفس الروتين\nبس في غرفة أهلك.\nوقبل ما توصلي قولي لأمك:\n\"الساعة تسع ينام… وبعدها أجلس معاكم\"\n\n[4]\nليش تنفع؟\nلأن الروتين يسافر معاه…\nحتى لو تغيرت الغرفة.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nأنتي بعد كل ما تبيتي عند أهلك…\nتسهري لين الفجر.\nتبغي ليلتك عند أهلك تنتهي وهو نايم… وأنتي جالسة معاهم؟ امسحي الكود وشوفي كيف تنبني خطة لنومه من ملاحظاتك أنتي.\nايش الشي اللي ما ينام بدونه؟ كلمة وحدة.\n[QR]",
+   "caption_ar": "\"خليه… مو نعسان\" الساعة 12…\nو\"شنطة النوم\" في البوست.",
+   "notes": ""
+  },
+  {
+   "id": "b4p10",
+   "conceptId": "b4p10",
+   "title": "Unwanted advice: «يعرف حدود المكان» — Evening 5, 8:15 PM · «الافتراض» series · problem + solution hook (test) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 87,
+   "body_ar": "[1]\nفي العزيمة.\nطفلك يتحرك بين الضيوف، يفتح درج ويجري.\nوتجي نصيحة غير مرغوب فيها:\n\"ليش ما تجلسيه جنبك؟ الطفل لازم يعرف حدود المكان\".\nوهذي الردود اللي تطلعك من الموقف بدون ما تدخلي في نقاش.\n\n[2]\nردي بهدوء:\n\"إن شاء الله… أنا أعرف أوقاته\"\n\"هو يتعود على المكان شويه شويه\"\n\"جزاكي الله خير… احنا ماشين على طريقتنا\"\nوكملي قهوتك.\nما تحتاجي تقنعي أحد.\n\n[3]\nالافتراض اللي يصعّب الموضوع:\n\"يعرف حدود المكان = يجلس جنبك\"\nلكن أحياناً\nالطفل اللي يعرف فين يقدر يروح\nيبعد عن الأدراج أكثر\nمن طفل ماسكينه ساعتين.\nجربي \"جولة الوصول\":\nأول دقيقة في البيت\nلفي معاه مرة وحدة:\n\"هنا تلعب… هذا الدرج لا… هنا الحمام\"\n\n[4]\nليش تنفع؟\nلأنه يشوف الحدود\nقبل ما يجربها.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nلو أحد جلّسك جنبه ساعتين في عزيمة…\nأنتي بعد بتقومي تفتحي درج.\nتبغي تروحي العزيمة وردك جاهز وحدوده واضحة قبل ما تجي النصيحة؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\n[QR]",
+   "caption_ar": "نصيحة ما طلبتيها… وردود تطلعك مرتاحة.\nكلها في البوست.",
+   "notes": ""
+  },
+  {
+   "id": "b4p11",
+   "conceptId": "b4p11",
+   "title": "White rice at the dinner spread — Evening 6, 7:00 PM · three steps · \"keep reading\" line + comment prompt (tests) · QR → ?focus=food",
+   "format": "static",
+   "status": "tested",
+   "score": 93,
+   "body_ar": "[1]\nسفرة العشا مليانه اكل.\nوصحن طفلك رز أبيض بس.\nخالته تقول: \"اعطيه من الكبسة شويه\"\nعمته تقول: \"عشان كذا انتقائي.\"\nوأنتي تدافعي عن أبسط عشا وكأنك في المحكمة.\n\n[2]\n\"بس رز؟\"\n\"خليه يذوق… شويه بس\"\nوكل لقمة يرفضها\nتحسيها تقرير عنك أنتي.\nوهو مو مدلع…\nوأنتي ما قصرتي.\nوالخطوة الثالثة جملة تسكت السفرة كلها بأدب.\n\n[3]\nالخطوة الأولى: الرز أول\nحطي رزه في الصحن قبل أي شي\nعشان تبدأ السفرة بشي يعرفه.\nالخطوة الثانية: \"الجار الصغير\"\nحبة صغيرة من أكلة ثانية\nجنب الرز… مو فوقه.\nولا تطلبي منه ياكلها.\n\n[4]\nالخطوة الثالثة: جملتك للسفرة\n\"هذا اللي يحبه دحين…\nوأنا عارفة أكله\"\nوغيري الموضوع.\n\n[5]\nليش تنفع؟\nلأنه يتعود على الأكلة بعيونه\nقبل ما تقرب من فمه.\nوهذا اللي نشتغل عليه في \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[6]\nوبيننا…\nأنتي بعد في كل عزيمة تروحي للسفرة\nوترجعي بنفس الثلاث أصناف.\nتبغي طفلك يتقبل أصناف أكثر بدون ما كل وجبة تصير معركة؟ امسحي الكود وشوفي كيف تنبني خطة لأكله من ملاحظاتك أنتي.\nايش الأكلة اللي مستحيل يرفضها؟ كلمة وحدة.\n[QR]",
+   "caption_ar": "سفرة فيها ثلاثين صنف… وصحن رز أبيض.\nثلاث خطوات في البوست، والكود في آخره.",
+   "notes": ""
+  },
+  {
+   "id": "b4p12",
+   "conceptId": "b4p12",
+   "title": "The shoe guard — Evening 6, 8:15 PM · one tool · comment prompt (test) · QR → assessment",
+   "format": "static",
+   "status": "tested",
+   "score": 81,
+   "body_ar": "[1]\nتقومي تودعي الضيوف…\nوتلاقي جزمهم في صف واحد وطفلك واقف عندها حارس.\nوأنتي تحاولي تقنعيه إن الضيوف يبغوا جزمهم.\n\n[2]\nالضيوف يضحكوا:\n\"مين المسؤول عن الترتيب؟\"\nوأنتي تبتسمي…\nوالطلعة تاخذ نص ساعة.\nوهو ما يسوي شي غلط…\nيحب الأشياء في مكانها.\n\n[3]\nجربي \"مسؤول الجزم\":\nاعطيه الوظيفة رسمي.\nلما يقوم الضيف يمشي\nطفلك يعطيه جزمته بيده.\nوقبل الزيارة بأيام\nتدربوا عليها في البيت بجزم العيلة.\n\n[4]\nليش تنفع؟\nلأنها ماشية مع اللي يحبه…\nوالضيوف يطلعوا بجزمهم.\nوهذا أساس \"الخطة الحية\":\nخطة للبيت تنبني من ملاحظاتك أنتي\nموقف واحد في كل مرة\nوتتعدل حسب استجابة طفلك.\n\n[5]\nوبيننا…\nلو الضيوف تركوا جزمهم مرتبة كذا من أول…\nكان ارتاح قلبك أنتي بعد.\nتبغي الزيارة تخلص بنفس الهدوء اللي بدأت فيه؟ التقييم المجاني يوريكي من فين تبدئي مع الطلعات والزيارات، امسحي الكود أو الرابط في البايو.\nطفلك ايش يحب يرتب؟ كلمة وحدة.\n[QR]",
+   "caption_ar": "جزم الضيوف في صف واحد… وحارسها واقف.\n\"مسؤول الجزم\" في البوست.",
+   "notes": ""
+  }
+ ],
  "performance": [
   {
    "postId": "B3 p1 ملكة",
