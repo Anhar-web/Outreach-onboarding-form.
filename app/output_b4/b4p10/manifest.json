@@ -1,0 +1,45 @@
+{
+ "post": "b4p10",
+ "slides": [
+  {
+   "file": "slide-1.html",
+   "src": 0,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-2.html",
+   "src": 1,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-3.html",
+   "src": 2,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-4.html",
+   "src": 3,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  },
+  {
+   "file": "slide-5.html",
+   "src": 4,
+   "part": 0,
+   "amber": false,
+   "red": false,
+   "ground": "deep"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "post": "b4p4",
+ "slides": [
+  {
+   "file": "slide-1.html",
+   "src": 0,
+   "part": 0,
+   "lines": 5
+  },
+  {
+   "file": "slide-2.html",
+   "src": 1,
+   "part": 0,
+   "lines": 7
+  },
+  {
+   "file": "slide-3.html",
+   "src": 2,
+   "part": 0,
+   "lines": 10
+  },
+  {
+   "file": "slide-4.html",
+   "src": 3,
+   "part": 0,
+   "lines": 9
+  },
+  {
+   "file": "slide-5.html",
+   "src": 4,
+   "part": 0,
+   "lines": 8
+  }
+ ],
+ "fail": [],
+ "warn": [
+  "slide-2.html: 7 text lines (max 5 + tab)",
+  "slide-3.html: 10 text lines (max 5 + tab)",
+  "slide-4.html: 9 text lines (max 5 + tab)",
+  "slide-5.html: 8 text lines (max 5 + tab)"
+ ],
+ "verbatim": "PASS"
+}
