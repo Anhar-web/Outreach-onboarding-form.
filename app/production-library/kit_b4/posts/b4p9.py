@@ -2,7 +2,7 @@
 import scenes as S
 from looks import make
 
-CONF = dict(look=4, ground='night')
+CONF = dict(look=4, ground='night', figs=S.bedtime_people)
 
 
 def slide(ctx):

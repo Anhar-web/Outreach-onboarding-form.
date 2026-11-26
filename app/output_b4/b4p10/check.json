@@ -4,29 +4,35 @@
   {
    "file": "slide-1.html",
    "src": 0,
-   "part": 0,
-   "lines": 8
+   "part": 1,
+   "lines": 6
   },
   {
    "file": "slide-2.html",
+   "src": 0,
+   "part": 2,
+   "lines": 6
+  },
+  {
+   "file": "slide-3.html",
    "src": 1,
    "part": 0,
    "lines": 12
   },
   {
-   "file": "slide-3.html",
+   "file": "slide-4.html",
    "src": 2,
    "part": 0,
    "lines": 9
   },
   {
-   "file": "slide-4.html",
+   "file": "slide-5.html",
    "src": 3,
    "part": 0,
    "lines": 8
   },
   {
-   "file": "slide-5.html",
+   "file": "slide-6.html",
    "src": 4,
    "part": 0,
    "lines": 9
@@ -34,12 +40,12 @@
  ],
  "fail": [],
  "warn": [
-  "slide-1.html: 8 text lines (max 5 + tab)",
-  "slide-2.html: text line \"وكمّلي قهوتك.\" crosses motif \"waves\"",
-  "slide-2.html: 12 text lines (max 5 + tab)",
-  "slide-3.html: 9 text lines (max 5 + tab)",
-  "slide-4.html: 8 text lines (max 5 + tab)",
-  "slide-5.html: 9 text lines (max 5 + tab)"
+  "slide-1.html: text line \"وتجي نصيحة غير مرغوب فيه\" crosses motif \"people\"",
+  "slide-3.html: text line \"وكمّلي قهوتك.\" crosses motif \"waves\"",
+  "slide-3.html: 12 text lines (max 5 + tab)",
+  "slide-4.html: 9 text lines (max 5 + tab)",
+  "slide-5.html: 8 text lines (max 5 + tab)",
+  "slide-6.html: 9 text lines (max 5 + tab)"
  ],
  "verbatim": "PASS"
 }

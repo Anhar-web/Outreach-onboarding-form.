@@ -79,8 +79,15 @@ def plan_slides(post):
     red = {int(k.split('.s')[1]) - 1 for k in kit.TOKENS['fitFlags']['red'] if k.startswith(pid + '.')}
     amber = {int(k.split('.s')[1]) - 1 for k in kit.TOKENS['fitFlags']['amber'] if k.startswith(pid + '.')}
     out, order = [], 0
+    after = {int(k.split('.s')[1]) - 1: n for k, n in kit.TOKENS['fitFlags'].get('splitAfter', {}).items() if k.startswith(pid + '.')}
     for si, s in enumerate(post['slides_ar']):
         kind = 'hook' if si == 0 else 'body'
+        if si in after:   # Anhar (B4 grid review): split after line N at an existing line break; words unchanged
+            k = [i for i, ch in enumerate(s) if ch == '\n'][after[si] - 1]
+            a = kit.SlideText(si, 1, s[:k], '', order, kind); order = a.next_order
+            b = kit.SlideText(si, 2, s[k + 1:], '\n', order, 'body'); order = b.next_order
+            out += [(a, {'amber': False, 'red': True}), (b, {'amber': False, 'red': True})]
+            continue
         if si in red:
             k, sep = split_point(s)
             a = kit.SlideText(si, 1, s[:k], '', order, kind); order = a.next_order

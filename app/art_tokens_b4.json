@@ -268,7 +268,14 @@
   "red": {
    "b4p3.s3": 242
   },
-  "amber": {}
+  "amber": {},
+  "splitAfter": {
+   "b4p2.s1": 4,
+   "b4p3.s1": 4,
+   "b4p7.s1": 4,
+   "b4p9.s1": 2,
+   "b4p10.s1": 3
+  }
  },
  "anharOverrides": {
   "primary": "Blue (Deep Sea #005A70 / night) is the dominant colour of the batch. Pearl must NOT dominate: only p8 uses a pearl ground (with big deep-blue type).",

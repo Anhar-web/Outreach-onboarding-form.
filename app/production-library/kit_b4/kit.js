@@ -54,6 +54,22 @@
                      `fill="none" stroke="${DEEP}" stroke-width="5" stroke-linecap="round"/>` +
                      `<circle cx="${hx}" cy="${hy}" r="6" fill="${DEEP}"/>`;
       }
+      if (el.dataset.shape === 'bubble') {   // B4 look 5: a deckled pearl speech bubble with a tail
+        const r = rng(seed), R = 70, pts = [];
+        const push = (x, y) => pts.push([x + U(r, -2.5, 2.5), y + U(r, -2.5, 2.5)]);
+        const arc = (cx, cy, a0, a1) => { for (let a = a0; a <= a1; a += 6) push(cx + R * Math.cos(a * Math.PI / 180), cy + R * Math.sin(a * Math.PI / 180)); };
+        const line = (x0, y0, x1, y1) => { const L = Math.hypot(x1 - x0, y1 - y0), n = Math.max(2, L / 14 | 0); for (let k = 1; k < n; k++) push(x0 + (x1 - x0) * k / n, y0 + (y1 - y0) * k / n); };
+        const tx = el.dataset.tail === 'r' ? w - 190 : 120;   // tail root
+        arc(R, R, 180, 270); line(R, 0, w - R, 0); arc(w - R, R, 270, 360); line(w, R, w, h - R); arc(w - R, h - R, 0, 90);
+        const roomForTail = el.offsetTop + h < 1140;
+        if (roomForTail) { line(w - R, h, tx + 90, h); pts.push([tx + 90, h]); pts.push([el.dataset.tail === 'r' ? tx + 150 : tx - 30, h + 95]); pts.push([tx, h]); }
+        else line(w - R, h, tx, h);
+        line(tx, h, R, h); arc(R, h - R, 90, 180); line(0, h - R, 0, R);
+        const P = pts.map(q => q[0].toFixed(1) + ',' + q[1].toFixed(1)).join(' ');
+        el.insertAdjacentHTML('afterbegin', `<svg class="torn-bg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="overflow:visible">` +
+          `<g filter="url(#pt-${t}1)"><polygon points="${P}" fill="${fill}"/></g></svg>`);
+        return;
+      }
       const svg = `<svg class="torn-bg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">` +
         `<g filter="url(#pt-${t}1)"><polygon points="${tornRect(w, h, sides, seed + 101, 3)}" fill="${PEARL}" fill-opacity=".7"/>` +
         `<polygon points="${tornRect(w, h, sides, seed, 0)}" fill="${fill}"/>${extra}</g>` +

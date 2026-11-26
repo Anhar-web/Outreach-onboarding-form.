@@ -5,7 +5,7 @@
    "file": "slide-1.html",
    "src": 0,
    "part": 0,
-   "lines": 5
+   "lines": 6
   },
   {
    "file": "slide-2.html",
@@ -34,6 +34,7 @@
  ],
  "fail": [],
  "warn": [
+  "slide-1.html: text line \"وشويه كيس الشبس في يده.\" crosses motif \"people\"",
   "slide-2.html: 7 text lines (max 5 + tab)",
   "slide-3.html: 10 text lines (max 5 + tab)",
   "slide-4.html: 9 text lines (max 5 + tab)",

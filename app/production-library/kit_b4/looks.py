@@ -341,12 +341,13 @@ def box(segs, x, y, w, color, look, tool_fill=None, cls='', size=None, style='',
     return (f'<div class="tx c-{color} {cls}"{mh} style="left:{x}px;top:{y}px;width:{w}px;{sz}{style}">{inner}</div>')
 
 
-def card(segs, x, y, w, look, tool_fill=None, cls='', size=None, pad=56, kind='card', seed=21, maxh=None, minfs=50):
+def card(segs, x, y, w, look, tool_fill=None, cls='', size=None, pad=56, kind='card', seed=21, maxh=None, minfs=50, shape='', tail='l'):
     """Opaque deckled pearl paper card (never translucent) holding ink text."""
     inner = segs_html(segs, look, tool_fill or C['tealMist'])
     sz = f'--fs:{size}px;' if size else ''
     mh = f' data-maxh="{maxh}" data-minfs="{minfs}"' if maxh else ''
-    return (f'<div class="tx c-ink {kind} torn {cls}"{mh} data-fill="{C["pearl"]}" data-seed="{seed}" data-sides="tblr" '
+    sh = f' data-shape="{shape}" data-tail="{tail}"' if shape else ''
+    return (f'<div class="tx c-ink {kind} torn {cls}"{mh}{sh} data-fill="{C["pearl"]}" data-seed="{seed}" data-sides="tblr" '
             f'style="left:{x}px;top:{y}px;width:{w}px;padding:{pad}px {pad}px {pad + 6}px;{sz}">{inner}</div>')
 
 
@@ -419,11 +420,9 @@ def make(ctx, K):
             art += stars([(130, 120, 16), (300, 210, 11), (560, 140, 13), (980, 420, 10)], tone)
             art += waves(g, 1080)
             art += glow(860, 1010, 300, .45)
-            m = K.get('people_x', 760)
-            art += avoid(child(m - 150, 1170, 150, C['ink'], tone, facing=1) +
-                         mother(m, 1170, 330, C['ink'], tone, facing=1, reach=child_hand(m - 150, 1170, 150, 1)), 'people')
-            segs, px = fit_hook(ctx, 708, 620)
-            html += card(segs, 130, 140, 820, 1, cls='hookcard', size=96, seed=31, maxh=K.get('hook_maxh', 700), minfs=72)
+            art += avoid(K['figs'](g, tone), 'people')
+            segs, px = fit_hook(ctx, 708, 760)
+            html += card(segs, 130, 140, 820, 1, cls='hookcard', size=96, seed=31, maxh=K.get('hook_maxh', 640), minfs=72)
         elif last:
             art += waves(g, 1210, n=2)
             art += star(140, 140, 14, tone) + star(960, 230, 10, tone)
@@ -470,8 +469,8 @@ def make(ctx, K):
         scene = K['scene']
         if first:
             art += scene(g, tone, full=True)
-            segs, px = fit_hook(ctx, 888, 720)
-            html += box(segs, MX, 120, 888, 'pearl', 3, size=96, cls='hookplain', maxh=K.get('hook_maxh', 740), minfs=72)
+            segs, px = fit_hook(ctx, 888, 860)
+            html += box(segs, MX, 120, 888, 'pearl', 3, size=96, cls='hookplain', maxh=K.get('hook_maxh', 660), minfs=72)
         elif last:
             art += K['prop'](g, tone, 'corner_r')
             q, qh = qr_card(ctx.post_id, 96, 900, tone=tone)
@@ -489,8 +488,7 @@ def make(ctx, K):
             art += floor(1200, C['ink'] if g == 'night' else C['night'], tone)
             art += f'<polygon points="70,1200 280,1200 1100,1370 -20,1370" fill="{C["gold"]}" fill-opacity=".32"/>'
             art += stars([(980, 760, 12), (860, 700, 9)], tone)
-            art += avoid(mother(600, 1265, 380, C['ink'], tone, facing=-1, reach=child_hand(760, 1265, 165, -1)) +
-                         child(760, 1265, 165, C['ink'], tone, facing=-1), 'people')
+            art += avoid(K['figs'](g, tone), 'people')
             segs, px = fit_hook(ctx, 860, 720)
             html += box(segs, MX, 120, 888, 'pearl', 4, size=96, cls='hookplain', maxh=K.get('hook_maxh', 520), minfs=72)
         elif last:
@@ -515,19 +513,19 @@ def make(ctx, K):
             art += glow(980, 140, 300, .45)
             art += stars([(110, 130, 14), (250, 230, 9), (980, 1000, 10)], tone)
             art += people(g, tone)
-            segs, px = fit_hook(ctx, 728, 740)
-            html += card(segs, 120, 130, 840, 5, cls='bubble hookcard', size=96, seed=51, kind='card', maxh=K.get('hook_maxh', 840), minfs=72)
+            segs, px = fit_hook(ctx, 790, 900)
+            html += card(segs, 80, 110, 920, 5, cls='bubble hookcard', size=96, seed=51, kind='card', maxh=K.get('hook_maxh', 700), minfs=72, shape='bubble', tail='r', pad=64)
         elif last:
             art += glow(90, 1250, 260, .4)
             art += stars([(980, 1240, 12), (120, 120, 11)], tone)
             q, qh = qr_card(ctx.post_id, 110, 900, tone=tone)
             art += q
-            html += card(allsegs(ctx), 110, 110, 860, 5, size=72, seed=53, cls='bubble endcard', maxh=770)
+            html += card(allsegs(ctx), 110, 110, 860, 5, size=72, seed=53, cls='bubble endcard', maxh=620, shape='bubble', tail='r', pad=60)
         else:
             art += glow(90 if ctx.i % 2 else 990, 1240, 240, .35)
             art += stars([(980 if ctx.i % 2 else 120, 1220, 12)], tone, seed=ctx.i)
             px = body_size(ctx, 748, 920)
-            html += card(allsegs(ctx), 110, 130, 860, 5, tool_fill=C['tealMist'], size=72, seed=55 + ctx.i, cls='bubble', maxh=1000)
+            html += card(allsegs(ctx), 110, 130, 860, 5, tool_fill=C['tealMist'], size=72, seed=55 + ctx.i, cls='bubble', maxh=930, shape='bubble', tail='l' if ctx.i % 2 else 'r', pad=60)
 
     return {'ground': g, 'art': art, 'html': html,
             'dots_theme': 'dark' if g in DARK else 'light'}

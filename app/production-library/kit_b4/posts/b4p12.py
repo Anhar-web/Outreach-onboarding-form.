@@ -2,7 +2,7 @@
 import scenes as S
 from looks import make
 
-CONF = dict(look=3, ground='night', scene=S.shoe_door, prop=S.shoes_prop, hook_maxh=720)
+CONF = dict(look=3, ground='night', scene=S.shoe_door, prop=S.shoes_prop, hook_maxh=660)
 
 
 def slide(ctx):

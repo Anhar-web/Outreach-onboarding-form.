@@ -2,7 +2,7 @@
 import scenes as S
 from looks import make
 
-CONF = dict(look=1, ground='deep', light='lantern', people_x=780)
+CONF = dict(look=1, ground='deep', light='lantern', figs=S.advice_people)
 
 
 def slide(ctx):
