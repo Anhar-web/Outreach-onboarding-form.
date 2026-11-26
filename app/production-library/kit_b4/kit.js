@@ -38,6 +38,20 @@
       el.dataset.fitfs = fs;
     });
   }
+  function placeQR() { // B4 fix (Nov 26): the QR card always sits fully below every text block / bubble tail
+    const q = document.querySelector('[data-avoid="qr"]'); if (!q) return;
+    const qb = q.getBoundingClientRect(); let bottom = 0;
+    document.querySelectorAll('.tx').forEach(t => {
+      const r = t.getBoundingClientRect(); let b = r.bottom;
+      if (t.dataset.shape === 'bubble' && t.dataset.tail !== 'none' && t.offsetTop + t.offsetHeight < 1140) b += 100;
+      if (r.left < qb.right && r.right > qb.left) bottom = Math.max(bottom, b);
+    });
+    const top = bottom + 24, maxBottom = 1245;
+    if (qb.top >= top) { document.documentElement.dataset.qrScale = '1'; return; }
+    const s = Math.min(1, (maxBottom - top) / qb.height);
+    q.setAttribute('transform', `translate(${qb.left} ${top}) scale(${s}) translate(${-qb.left} ${-qb.top})`);
+    document.documentElement.dataset.qrScale = s.toFixed(2);
+  }
   function build() {
     fit();
     document.querySelectorAll('.torn').forEach(el => {
@@ -61,7 +75,7 @@
         const line = (x0, y0, x1, y1) => { const L = Math.hypot(x1 - x0, y1 - y0), n = Math.max(2, L / 14 | 0); for (let k = 1; k < n; k++) push(x0 + (x1 - x0) * k / n, y0 + (y1 - y0) * k / n); };
         const tx = el.dataset.tail === 'r' ? w - 190 : 120;   // tail root
         arc(R, R, 180, 270); line(R, 0, w - R, 0); arc(w - R, R, 270, 360); line(w, R, w, h - R); arc(w - R, h - R, 0, 90);
-        const roomForTail = el.offsetTop + h < 1140;
+        const roomForTail = el.dataset.tail !== 'none' && el.offsetTop + h < 1140;
         if (roomForTail) { line(w - R, h, tx + 90, h); pts.push([tx + 90, h]); pts.push([el.dataset.tail === 'r' ? tx + 150 : tx - 30, h + 95]); pts.push([tx, h]); }
         else line(w - R, h, tx, h);
         line(tx, h, R, h); arc(R, h - R, 90, 180); line(0, h - R, 0, R);
@@ -76,6 +90,7 @@
         (el._string ? `<g filter="url(#pc-${t}2)">${el._string}</g>` : '') + `</svg>`;
       el.insertAdjacentHTML('afterbegin', svg);
     });
+    placeQR();
     document.documentElement.dataset.kitReady = '1';
   }
   const AR = 'أبجد هوز حطي كلمن';

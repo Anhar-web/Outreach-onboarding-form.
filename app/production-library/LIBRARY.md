@@ -14,3 +14,4 @@ A reusable kit for Home Orbit carousels. **It's a kit, not a cage**: reuse it fo
 - `scenes.py`: majlis + sweets tray, majlis + gift bag, toy room, doorway + shoes, toy aisle, door; objects: car, lift panel, rice plate, tray, dallah, gift bag, toy car, blocks, shoes.
 - New: `kit.js` measures and shrinks each text block to its `data-maxh` (hook ≥72px, body ≥50px); a label is detected on any line starting «الخطوة».
 - Retire or refresh one look next batch (spec rule 7).
+- Nov 26 fix: the QR card now positions itself below every text block and bubble tail at render time (`placeQR` in kit.js); render.js FAILs any slide where text or a bubble overlaps the QR, or the QR is under 260px or off the slide. End-slide bubbles have no tail. Every last slide is decode-tested with OpenCV at full and half size before delivery.

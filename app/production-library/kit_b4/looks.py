@@ -520,7 +520,7 @@ def make(ctx, K):
             art += stars([(980, 1240, 12), (120, 120, 11)], tone)
             q, qh = qr_card(ctx.post_id, 110, 900, tone=tone)
             art += q
-            html += card(allsegs(ctx), 110, 110, 860, 5, size=72, seed=53, cls='bubble endcard', maxh=620, shape='bubble', tail='r', pad=60)
+            html += card(allsegs(ctx), 100, 90, 880, 5, size=72, seed=53, cls='bubble endcard', maxh=760, shape='bubble', tail='none', pad=48)
         else:
             art += glow(90 if ctx.i % 2 else 990, 1240, 240, .35)
             art += stars([(980 if ctx.i % 2 else 120, 1220, 12)], tone, seed=ctx.i)

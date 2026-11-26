@@ -109,9 +109,23 @@ async function renderPost(ctx, id) {
           if (lastOnLine && (chars[k].ch === '،' || chars[k].ch === ',')) endComma.push(e.textContent.slice(0, 30));
         }
       });
-      return { segs, lines, boxes, avoid, endComma };
+      const qrEl = document.querySelector('[data-avoid="qr"]');
+      let qr = null;
+      if (qrEl) {
+        const qb = qrEl.getBoundingClientRect();
+        const hits = [...document.querySelectorAll('.tx')].filter(t => { const r = t.getBoundingClientRect();
+          let b = r.bottom; if (t.dataset.shape === 'bubble' && t.dataset.tail !== 'none' && t.offsetTop + t.offsetHeight < 1140) b += 100;
+          return r.left < qb.right - 2 && r.right > qb.left + 2 && b > qb.top + 2 && r.top < qb.bottom - 2; }).length;
+        qr = { hits, scale: parseFloat(document.documentElement.dataset.qrScale || '1'), w: qb.width, bottom: qb.bottom };
+      }
+      return { segs, lines, boxes, avoid, endComma, qr };
     });
 
+    if (info.qr) {
+      if (info.qr.hits) fail(`${s.file}: text or a bubble overlaps the QR code`);
+      if (info.qr.w < 260) fail(`${s.file}: QR code too small to scan (${info.qr.w | 0}px)`);
+      if (info.qr.bottom > 1350 - 40) fail(`${s.file}: QR code runs off the slide`);
+    }
     for (const t of info.endComma) fail(`${s.file}: a line ends with a comma: ${t}`);
     for (const g of info.segs) if (g.size < 44) fail(`${s.file}: text at ${g.size}px < 44px floor: ${g.text.slice(0, 30)}`);
     for (const b of info.boxes) {
